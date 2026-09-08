@@ -12,9 +12,14 @@ async function loadSystemData() {
       document.querySelectorAll(".live-population");
 
     populationElements.forEach(element => {
-      element.textContent =
-        Number(data.population).toLocaleString();
-    });
+  const population = Number(data.population);
+
+  element.textContent =
+    (population / 1000000000).toFixed(2) + " Billion";
+
+  element.title =
+    population.toLocaleString() + " inhabitants";
+});
 
   } catch (error) {
     console.error("System data error:", error);
