@@ -1,0 +1,77 @@
+name: Update 10-16 System Data
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-system-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Fetch latest system data from Spansh
+        run: |
+          mkdir -p data
+
+          curl --fail --silent --show-error \
+            "https://spansh.co.uk/api/system/560820275507" \
+            -o spansh-system.json
+
+          python3 <<'PY'
+          import json
+          from datetime import datetime, timezone
+
+          with open("spansh-system.json", "r", encoding="utf-8") as f:
+              raw = json.load(f)
+
+          print("Top-level keys returned by Spansh:")
+          print(list(raw.keys()))
+
+          # Spansh responses may wrap the actual system record.
+          if isinstance(raw.get("record"), dict):
+              system = raw["record"]
+          elif isinstance(raw.get("system"), dict):
+              system = raw["system"]
+          else:
+              system = raw
+
+          population = system.get("population")
+
+          if population is None:
+              raise RuntimeError(
+                  "Population was not found in the Spansh response. "
+                  f"Available system keys: {list(system.keys())}"
+              )
+
+          output = {
+              "population": population,
+              "lastUpdated": datetime.now(timezone.utc).isoformat()
+          }
+
+          with open("data/system.json", "w", encoding="utf-8") as f:
+              json.dump(output, f, indent=2)
+
+          print("Saved population:", population)
+          PY
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/system.json
+
+          if git diff --cached --quiet; then
+            echo "No system data changes to commit."
+          else
+            git commit -m "Update live system data"
+            git push
+          fi
