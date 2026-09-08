@@ -592,3 +592,16 @@ footer {
   }
 
 }
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border);
+}
+
+@media (max-width: 720px) {
+  .gallery-image {
+    height: 190px;
+  }
+}
