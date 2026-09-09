@@ -439,6 +439,8 @@ let marketStationText = "";
 
 let marketDemandText = "";
 
+let marketAgeText = "";
+
 if (marketInfo) {
 
   marketPriceText =
@@ -454,6 +456,30 @@ if (marketInfo) {
     marketDemandText =
       `Demand: ${Number(marketInfo.demand).toLocaleString()}`;
   }
+
+  if (marketInfo.marketUpdated) {
+
+  const marketUpdated =
+    new Date(marketInfo.marketUpdated);
+
+  const ageMilliseconds =
+    Date.now() - marketUpdated.getTime();
+
+  const ageMinutes =
+    Math.floor(ageMilliseconds / 60000);
+
+  if (ageMinutes < 60) {
+    marketAgeText =
+      `Updated ${ageMinutes}m ago`;
+  } else if (ageMinutes < 1440) {
+    marketAgeText =
+      `Updated ${Math.floor(ageMinutes / 60)}h ago`;
+  } else {
+    marketAgeText =
+      `Updated ${Math.floor(ageMinutes / 1440)}d ago`;
+  }
+
+}
 
 }
 
@@ -480,6 +506,7 @@ card.innerHTML = `
     <p class="commodity-market-station"></p>
 
     <p class="commodity-market-demand"></p>
+    <p class="commodity-market-age"></p>
   </div>
 `;
 
@@ -497,6 +524,9 @@ card.querySelector(".commodity-market-station").textContent =
 
 card.querySelector(".commodity-market-demand").textContent =
   marketDemandText;
+    
+card.querySelector(".commodity-market-age").textContent =
+  marketAgeText;
     
 card.addEventListener("click", () => {
 
