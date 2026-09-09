@@ -404,10 +404,18 @@ async function setupMiningDatabase() {
             ? `${site.commodity.toUpperCase()} // PRIMARY`
             : site.commodity.toUpperCase();
 
-        const rigText =
-          site.rigs === 1
-            ? "1 mining rig"
-            : `${site.rigs} mining rigs`;
+        let rigText;
+
+if (
+  site.rigs === null ||
+  site.rigs === undefined
+) {
+  rigText = "Rig count not yet recorded";
+} else if (site.rigs === 1) {
+  rigText = "1 mining rig";
+} else {
+  rigText = `${site.rigs} mining rigs`;
+}
 
         card.innerHTML = `
           <p class="location-type">
@@ -426,8 +434,18 @@ async function setupMiningDatabase() {
         card.querySelector("h4").textContent =
           `${formatBody(site)} — Signal #${site.signal}`;
 
-        card.querySelector(".mining-coordinates").textContent =
-          `Coordinates: ${site.latitude}, ${site.longitude}`;
+       if (
+  site.latitude !== null &&
+  site.latitude !== undefined &&
+  site.longitude !== null &&
+  site.longitude !== undefined
+) {
+  card.querySelector(".mining-coordinates").textContent =
+    `Coordinates: ${site.latitude}, ${site.longitude}`;
+} else {
+  card.querySelector(".mining-coordinates").textContent =
+    "Coordinates: Not yet recorded";
+}
 
         card.querySelector(".mining-rigs").textContent =
           site.notes
