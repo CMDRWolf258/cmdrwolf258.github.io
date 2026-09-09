@@ -339,6 +339,20 @@ async function setupMiningDatabase() {
     const miningData =
       await response.json();
 
+    const marketResponse = await fetch(
+  "data/market.json?ts=" + Date.now(),
+  { cache: "no-store" }
+);
+
+let marketData = {
+  commodities: {}
+};
+
+if (marketResponse.ok) {
+  marketData =
+    await marketResponse.json();
+}
+
     const commodityNames = [
   ...new Set(
     miningData.map(site => site.commodity)
