@@ -51,6 +51,12 @@ jobs:
 
           population = system.get("population")
 
+          print("System keys:")
+          print(list(system.keys()))
+
+          print("Stations field:")
+          print(system.get("stations"))
+
           if population is None:
               raise RuntimeError(
                   "Population was not found in the Spansh response."
