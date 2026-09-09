@@ -73,7 +73,22 @@ jobs:
                   "| market_id:",
                   station.get("market_id")
               )
+          import urllib.request
 
+          test_market_id = 4386105091
+
+          test_url = (
+            f"https://spansh.co.uk/api/station/{test_market_id}"
+          )
+
+          with urllib.request.urlopen(test_url) as response:
+              test_station = json.load(response)
+
+          print("Eon Blue station keys:")
+          print(list(test_station.keys()))
+
+          print("Eon Blue station data:")
+          print(test_station)
           if population is None:
               raise RuntimeError(
                   "Population was not found in the Spansh response."
