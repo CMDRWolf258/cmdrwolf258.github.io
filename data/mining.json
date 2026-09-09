@@ -168,17 +168,6 @@
   "commodity": "Osmium",
   "body": "3",
   "bodyType": "planet",
-  "signal": 2,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
-  "preferred": false,
-  "notes": "Known Osmium signal."
-},
-{
-  "commodity": "Osmium",
-  "body": "3",
-  "bodyType": "planet",
   "signal": 3,
   "latitude": null,
   "longitude": null,
