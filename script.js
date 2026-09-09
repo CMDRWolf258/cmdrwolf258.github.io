@@ -307,61 +307,68 @@ function setupMiningFilters() {
   const commodityFilter =
     document.getElementById("commodity-filter");
 
+  const miningSearch =
+    document.getElementById("mining-search");
+
   const miningSites =
     document.querySelectorAll(".mining-site");
 
-const miningSearch =
-  document.getElementById("mining-search");
-  
-  if (!commodityFilter || miningSites.length === 0) {
+  if (
+    !commodityFilter ||
+    !miningSearch ||
+    miningSites.length === 0
+  ) {
     return;
   }
 
   function applyMiningFilters() {
 
-  const selectedCommodity =
-    commodityFilter.value;
+    const selectedCommodity =
+      commodityFilter.value;
 
-  const searchText =
-    miningSearch
-      ? miningSearch.value.trim().toLowerCase()
-      : "";
+    const searchText =
+      miningSearch.value
+        .trim()
+        .toLowerCase();
 
-  miningSites.forEach(site => {
+    miningSites.forEach(site => {
 
-    const siteCommodity =
-      site.dataset.commodity;
+      const siteCommodity =
+        (site.dataset.commodity || "")
+          .toLowerCase();
 
-    const siteText =
-      site.textContent.toLowerCase();
+      const siteText =
+        site.textContent
+          .toLowerCase();
 
-    const matchesCommodity =
-      selectedCommodity === "all" ||
-      siteCommodity === selectedCommodity;
+      const matchesCommodity =
+        selectedCommodity === "all" ||
+        siteCommodity === selectedCommodity;
 
-    const matchesSearch =
-      searchText === "" ||
-      siteText.includes(searchText);
+      const matchesSearch =
+        searchText === "" ||
+        siteText.includes(searchText) ||
+        siteCommodity.includes(searchText);
 
-    site.style.display =
-      matchesCommodity && matchesSearch
-        ? ""
-        : "none";
+      site.style.display =
+        matchesCommodity && matchesSearch
+          ? ""
+          : "none";
 
-  });
+    });
 
-}
+  }
 
-commodityFilter.addEventListener(
-  "change",
-  applyMiningFilters
-);
+  commodityFilter.addEventListener(
+    "change",
+    applyMiningFilters
+  );
 
-if (miningSearch) {
   miningSearch.addEventListener(
     "input",
     applyMiningFilters
   );
+
 }
 
 setupMiningFilters();
