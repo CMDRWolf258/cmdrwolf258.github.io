@@ -156,7 +156,7 @@ jobs:
                       if (
                           not commodity_name
                           or sell_price <= 0
-                          or demand <= 0
+                          or demand < 500
                       ):
                           continue
 
