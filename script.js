@@ -421,8 +421,16 @@ if (commodityIndex) {
     const locationCount =
       commoditySites.length;
 
+const marketNameMap = {
+  "Diamonds": "Diamond",
+  "LTD": "Low Temperature Diamonds"
+};
+
+const marketCommodityName =
+  marketNameMap[commodity] || commodity;
+
 const marketInfo =
-  marketData.commodities?.[commodity];
+  marketData.commodities?.[marketCommodityName];
 
 let marketPriceText =
   "Market data unavailable";
