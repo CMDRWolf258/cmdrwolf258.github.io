@@ -57,6 +57,23 @@ jobs:
           print("Stations field:")
           print(system.get("stations"))
 
+          stations = system.get("stations") or []
+
+          print("Permanent stations with markets:")
+
+          for station in stations:
+            if (
+              station.get("has_market")
+              and station.get("type") != "Drake-Class Carrier"
+            ):
+              print(
+                  station.get("name"),
+                  "|",
+                  station.get("type"),
+                  "| market_id:",
+                  station.get("market_id")
+              )
+
           if population is None:
               raise RuntimeError(
                   "Population was not found in the Spansh response."
