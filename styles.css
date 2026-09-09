@@ -862,3 +862,33 @@ footer {
   }
 
 }
+/* DATA FRESHNESS */
+
+.data-age {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  margin: -20px 0 30px;
+  padding: 10px 4px;
+
+  color: var(--text-dim);
+
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
+.data-age-label {
+  color: var(--orange-soft);
+}
+
+@media (max-width: 720px) {
+  .data-age {
+    display: block;
+  }
+
+  #system-data-age {
+    display: block;
+    margin-top: 5px;
+  }
+}
