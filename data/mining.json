@@ -1,15 +1,81 @@
 [
   {
-    "commodity": "Monazite",
-    "body": "9a",
-    "bodyType": "moon",
-    "signal": 3,
-    "latitude": -53.0266,
-    "longitude": -156.5459,
-    "rigs": 6,
-    "preferred": true,
-    "notes": "Best known Monazite site."
-  },
+  "commodity": "Monazite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 3,
+  "latitude": -53.0266,
+  "longitude": -156.5459,
+  "rigs": 6,
+  "preferred": true,
+  "notes": "Primary Monazite site. Maximum known 6-rig setup."
+},
+{
+  "commodity": "Monazite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 3,
+  "latitude": -53.3918,
+  "longitude": -157.6691,
+  "rigs": 3,
+  "preferred": false,
+  "notes": "Part of the Moon 9a Signal #3 Monazite cluster."
+},
+{
+  "commodity": "Monazite",
+  "body": "6d",
+  "bodyType": "moon",
+  "signal": 1,
+  "latitude": -10.4128,
+  "longitude": -61.6219,
+  "rigs": 3,
+  "preferred": false,
+  "notes": ""
+},
+{
+  "commodity": "Monazite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 2,
+  "latitude": -21.6819,
+  "longitude": -39.4628,
+  "rigs": 2,
+  "preferred": false,
+  "notes": ""
+},
+{
+  "commodity": "Monazite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 3,
+  "latitude": -53.1691,
+  "longitude": -157.2144,
+  "rigs": 2,
+  "preferred": false,
+  "notes": "Part of the Moon 9a Signal #3 Monazite cluster."
+},
+{
+  "commodity": "Monazite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 3,
+  "latitude": -53.2674,
+  "longitude": -157.4893,
+  "rigs": 2,
+  "preferred": false,
+  "notes": "Approximately 3 km from another Signal #3 Monazite site."
+},
+{
+  "commodity": "Monazite",
+  "body": "12f",
+  "bodyType": "moon",
+  "signal": 18,
+  "latitude": -27.5224,
+  "longitude": 84.8028,
+  "rigs": 1,
+  "preferred": false,
+  "notes": ""
+},
   {
     "commodity": "Gold",
     "body": "6d",
