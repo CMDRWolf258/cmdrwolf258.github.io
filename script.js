@@ -66,6 +66,14 @@ if (dataAgeElement && data.lastUpdated) {
 
     });
 
+const controllingFactionElements =
+  document.querySelectorAll(".live-controlling-faction");
+
+controllingFactionElements.forEach(element => {
+  element.textContent =
+    data.controllingFaction || "Unknown";
+});
+    
 
     // -------------------------
     // FACTIONS
