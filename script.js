@@ -301,3 +301,40 @@ async function loadDailyOrders() {
 }
 
 loadDailyOrders();
+
+function setupMiningFilters() {
+
+  const commodityFilter =
+    document.getElementById("commodity-filter");
+
+  const miningSites =
+    document.querySelectorAll(".mining-site");
+
+  if (!commodityFilter || miningSites.length === 0) {
+    return;
+  }
+
+  commodityFilter.addEventListener("change", () => {
+
+    const selectedCommodity =
+      commodityFilter.value;
+
+    miningSites.forEach(site => {
+
+      const siteCommodity =
+        site.dataset.commodity;
+
+      const shouldShow =
+        selectedCommodity === "all" ||
+        siteCommodity === selectedCommodity;
+
+      site.style.display =
+        shouldShow ? "" : "none";
+
+    });
+
+  });
+
+}
+
+setupMiningFilters();
