@@ -426,7 +426,24 @@ if (commodityIndex) {
 
     card.querySelector(".commodity-preferred").textContent =
       preferredText;
+    
+card.addEventListener("click", () => {
 
+  commodityFilter.value =
+    commodity.toLowerCase();
+
+  commodityFilter.dispatchEvent(
+    new Event("change")
+  );
+
+  document
+    .getElementById("mining-results")
+    .scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+
+});
     commodityIndex.appendChild(card);
 
   });
