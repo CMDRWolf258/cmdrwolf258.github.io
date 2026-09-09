@@ -989,3 +989,8 @@ footer {
 
   font-size: 0.9rem;
 }
+
+.commodity-market-age.stale {
+  font-weight: 700;
+  text-transform: uppercase;
+}
