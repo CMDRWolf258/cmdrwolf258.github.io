@@ -955,3 +955,37 @@ footer {
   }
 
 }
+
+/* COMMODITY MARKET SUMMARY */
+
+.commodity-market {
+  margin-top: 16px;
+  padding-top: 14px;
+
+  border-top: 1px solid rgba(40, 55, 70, 0.6);
+}
+
+.commodity-market-label {
+  margin: 0 0 6px;
+
+  color: var(--text-dim);
+
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+}
+
+.commodity-market-price {
+  margin: 0;
+
+  color: var(--orange);
+
+  font-size: 1.05rem;
+}
+
+.commodity-market-station {
+  margin: 5px 0 0;
+
+  color: var(--text-soft);
+
+  font-size: 0.9rem;
+}
