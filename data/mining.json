@@ -110,14 +110,36 @@
     "notes": "Flat terrain."
   },
   {
-    "commodity": "Diamonds",
-    "body": "5",
-    "bodyType": "planet",
-    "signal": 4,
-    "latitude": -84.8508,
-    "longitude": -74.3887,
-    "rigs": 4,
-    "preferred": true,
-    "notes": "Best known Diamond site."
-  }
+  "commodity": "Diamonds",
+  "body": "5",
+  "bodyType": "planet",
+  "signal": 4,
+  "latitude": -84.8508,
+  "longitude": -74.3887,
+  "rigs": 4,
+  "preferred": true,
+  "notes": "Primary Diamond site. Best known location."
+},
+{
+  "commodity": "Diamonds",
+  "body": "5",
+  "bodyType": "planet",
+  "signal": 4,
+  "latitude": -84.8699,
+  "longitude": -74.5812,
+  "rigs": 2,
+  "preferred": false,
+  "notes": "Alternate site within Planet 5 Signal #4."
+},
+{
+  "commodity": "Diamonds",
+  "body": "5",
+  "bodyType": "planet",
+  "signal": 6,
+  "latitude": -85.2437,
+  "longitude": -71.9378,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Diamond location. Rig count not yet recorded."
+}
 ]
