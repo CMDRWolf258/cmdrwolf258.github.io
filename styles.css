@@ -892,3 +892,64 @@ footer {
     margin-top: 5px;
   }
 }
+/* MINING TOOLS */
+
+.mining-tools {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 14px;
+
+  margin-bottom: 20px;
+}
+
+.mining-tool-group {
+  display: grid;
+  gap: 7px;
+}
+
+.mining-search-label {
+  color: var(--text-dim);
+
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+}
+
+.mining-search,
+.mining-filter {
+  width: 100%;
+
+  background: var(--panel);
+
+  border-top: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-left: 3px solid var(--orange);
+
+  padding: 12px 13px;
+
+  color: var(--text);
+
+  font: inherit;
+}
+
+.mining-search::placeholder {
+  color: var(--text-dim);
+}
+
+.mining-search:focus,
+.mining-filter:focus {
+  outline: 1px solid var(--orange);
+  outline-offset: 1px;
+}
+
+.mining-filter {
+  appearance: none;
+}
+
+@media (max-width: 720px) {
+
+  .mining-tools {
+    grid-template-columns: 1fr;
+  }
+
+}
