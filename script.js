@@ -310,31 +310,58 @@ function setupMiningFilters() {
   const miningSites =
     document.querySelectorAll(".mining-site");
 
+const miningSearch =
+  document.getElementById("mining-search");
+  
   if (!commodityFilter || miningSites.length === 0) {
     return;
   }
 
-  commodityFilter.addEventListener("change", () => {
+  function applyMiningFilters() {
 
-    const selectedCommodity =
-      commodityFilter.value;
+  const selectedCommodity =
+    commodityFilter.value;
 
-    miningSites.forEach(site => {
+  const searchText =
+    miningSearch
+      ? miningSearch.value.trim().toLowerCase()
+      : "";
 
-      const siteCommodity =
-        site.dataset.commodity;
+  miningSites.forEach(site => {
 
-      const shouldShow =
-        selectedCommodity === "all" ||
-        siteCommodity === selectedCommodity;
+    const siteCommodity =
+      site.dataset.commodity;
 
-      site.style.display =
-        shouldShow ? "" : "none";
+    const siteText =
+      site.textContent.toLowerCase();
 
-    });
+    const matchesCommodity =
+      selectedCommodity === "all" ||
+      siteCommodity === selectedCommodity;
+
+    const matchesSearch =
+      searchText === "" ||
+      siteText.includes(searchText);
+
+    site.style.display =
+      matchesCommodity && matchesSearch
+        ? ""
+        : "none";
 
   });
 
+}
+
+commodityFilter.addEventListener(
+  "change",
+  applyMiningFilters
+);
+
+if (miningSearch) {
+  miningSearch.addEventListener(
+    "input",
+    applyMiningFilters
+  );
 }
 
 setupMiningFilters();
