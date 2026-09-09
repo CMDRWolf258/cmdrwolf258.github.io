@@ -421,7 +421,35 @@ if (commodityIndex) {
     const locationCount =
       commoditySites.length;
 
-    card.innerHTML = `
+const marketInfo =
+  marketData.commodities?.[commodity];
+
+let marketPriceText =
+  "Market data unavailable";
+
+let marketStationText = "";
+
+let marketDemandText = "";
+
+if (marketInfo) {
+
+  marketPriceText =
+    `${Number(marketInfo.price).toLocaleString()} Cr`;
+
+  marketStationText =
+    marketInfo.station || "";
+
+  if (
+    marketInfo.demand !== null &&
+    marketInfo.demand !== undefined
+  ) {
+    marketDemandText =
+      `Demand: ${Number(marketInfo.demand).toLocaleString()}`;
+  }
+
+}
+
+card.innerHTML = `
   <h4></h4>
 
   <p>
@@ -439,12 +467,11 @@ if (commodityIndex) {
       BEST SELL IN 10-16
     </p>
 
-    <p class="commodity-market-price">
-      Market data coming soon
-    </p>
+    <p class="commodity-market-price"></p>
 
-    <p class="commodity-market-station">
-    </p>
+    <p class="commodity-market-station"></p>
+
+    <p class="commodity-market-demand"></p>
   </div>
 `;
 
@@ -453,6 +480,15 @@ if (commodityIndex) {
 
     card.querySelector(".commodity-preferred").textContent =
       preferredText;
+
+    card.querySelector(".commodity-market-price").textContent =
+  marketPriceText;
+
+card.querySelector(".commodity-market-station").textContent =
+  marketStationText;
+
+card.querySelector(".commodity-market-demand").textContent =
+  marketDemandText;
     
 card.addEventListener("click", () => {
 
