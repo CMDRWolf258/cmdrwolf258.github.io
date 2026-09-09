@@ -51,10 +51,72 @@ jobs:
                   f"Available system keys: {list(system.keys())}"
               )
 
-          output = {
-              "population": population,
-              "lastUpdated": datetime.now(timezone.utc).isoformat()
-          }
+          factions_raw = (
+    system.get("factions")
+    or system.get("faction_presence")
+    or system.get("factionPresence")
+    or []
+)
+
+controlling_faction_raw = (
+    system.get("controlling_faction")
+    or system.get("controllingFaction")
+)
+
+if isinstance(controlling_faction_raw, dict):
+    controlling_faction = (
+        controlling_faction_raw.get("name")
+        or controlling_faction_raw.get("Name")
+    )
+else:
+    controlling_faction = controlling_faction_raw
+
+factions = []
+
+for faction in factions_raw:
+    if not isinstance(faction, dict):
+        continue
+
+    name = (
+        faction.get("name")
+        or faction.get("Name")
+    )
+
+    influence = (
+        faction.get("influence")
+        or faction.get("Influence")
+    )
+
+    state = (
+        faction.get("state")
+        or faction.get("State")
+        or "None"
+    )
+
+    if isinstance(state, dict):
+        state = state.get("name") or state.get("Name") or "None"
+
+    if name:
+        factions.append({
+            "name": name,
+            "influence": influence,
+            "state": state,
+            "controlling": name == controlling_faction
+        })
+
+factions.sort(
+    key=lambda f: (
+        not f["controlling"],
+        -(f["influence"] or 0)
+    )
+)
+
+output = {
+    "population": population,
+    "controllingFaction": controlling_faction,
+    "factions": factions,
+    "lastUpdated": datetime.now(timezone.utc).isoformat()
+}
 
           with open("data/system.json", "w", encoding="utf-8") as f:
               json.dump(output, f, indent=2)
