@@ -89,16 +89,42 @@
 
 <div class="mining-tools">
 
-  <label for="mining-search" class="mining-search-label">
-    SEARCH MINING DATABASE
-  </label>
+  <div class="mining-tool-group">
+    <label for="mining-search" class="mining-search-label">
+      SEARCH MINING DATABASE
+    </label>
 
-  <input
-    type="search"
-    id="mining-search"
-    class="mining-search"
-    placeholder="Search commodity, body, signal, or coordinates..."
-  >
+    <input
+      type="search"
+      id="mining-search"
+      class="mining-search"
+      placeholder="Search commodity, body, signal, or coordinates..."
+    >
+  </div>
+
+  <div class="mining-tool-group">
+    <label for="commodity-filter" class="mining-search-label">
+      COMMODITY
+    </label>
+
+    <select
+      id="commodity-filter"
+      class="mining-filter"
+    >
+      <option value="all">All Commodities</option>
+      <option value="alexandrite">Alexandrite</option>
+      <option value="diamonds">Diamonds</option>
+      <option value="gold">Gold</option>
+      <option value="grandidierite">Grandidierite</option>
+      <option value="ltd">Low Temperature Diamonds</option>
+      <option value="monazite">Monazite</option>
+      <option value="osmium">Osmium</option>
+      <option value="platinum">Platinum</option>
+      <option value="ruby">Ruby</option>
+      <option value="sapphire">Sapphire</option>
+      <option value="thortveitite">Thortveitite</option>
+    </select>
+  </div>
 
 </div>
       
