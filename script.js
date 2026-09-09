@@ -302,73 +302,280 @@ async function loadDailyOrders() {
 
 loadDailyOrders();
 
-function setupMiningFilters() {
+async function setupMiningDatabase() {
+
+  const searchBox =
+    document.getElementById("mining-search");
 
   const commodityFilter =
     document.getElementById("commodity-filter");
 
-  const miningSearch =
-    document.getElementById("mining-search");
+  const resultsContainer =
+    document.getElementById("mining-results");
 
-  const miningSites =
-    document.querySelectorAll(".mining-site");
+  const resultsStatus =
+    document.getElementById("mining-results-status");
 
   if (
+    !searchBox ||
     !commodityFilter ||
-    !miningSearch ||
-    miningSites.length === 0
+    !resultsContainer ||
+    !resultsStatus
   ) {
     return;
   }
 
-  function applyMiningFilters() {
+  try {
 
-    const selectedCommodity =
-      commodityFilter.value;
+    const response = await fetch(
+      "data/mining.json?ts=" + Date.now(),
+      { cache: "no-store" }
+    );
 
-    const searchText =
-      miningSearch.value
-        .trim()
-        .toLowerCase();
+    if (!response.ok) {
+      throw new Error("Unable to load mining database");
+    }
 
-    miningSites.forEach(site => {
+    const miningData =
+      await response.json();
 
-      const siteCommodity =
-        (site.dataset.commodity || "")
+    function formatBody(site) {
+
+      if (site.bodyType === "moon") {
+        return `Moon ${site.body}`;
+      }
+
+      return `Planet ${site.body}`;
+
+    }
+
+    function getCommodityCounts() {
+
+      const counts = {};
+
+      miningData.forEach(site => {
+
+        const commodity =
+          site.commodity;
+
+        counts[commodity] =
+          (counts[commodity] || 0) + 1;
+
+      });
+
+      return counts;
+
+    }
+
+    const commodityCounts =
+      getCommodityCounts();
+
+    function renderSites(sites, modeText) {
+
+      resultsContainer.innerHTML = "";
+
+      resultsStatus.textContent =
+        modeText;
+
+      if (sites.length === 0) {
+
+        resultsContainer.innerHTML = `
+          <div class="faction-loading">
+            No mining locations match this search.
+          </div>
+        `;
+
+        return;
+      }
+
+      sites.forEach(site => {
+
+        const card =
+          document.createElement("div");
+
+        card.className =
+          "location-card mining-site";
+
+        const commodityCount =
+          commodityCounts[site.commodity] || 1;
+
+        const preferredLabel =
+          site.preferred
+            ? `${site.commodity.toUpperCase()} // PRIMARY`
+            : site.commodity.toUpperCase();
+
+        const rigText =
+          site.rigs === 1
+            ? "1 mining rig"
+            : `${site.rigs} mining rigs`;
+
+        card.innerHTML = `
+          <p class="location-type">
+            ${preferredLabel}
+          </p>
+
+          <h4></h4>
+
+          <p class="mining-coordinates"></p>
+
+          <p class="mining-rigs"></p>
+
+          <p class="mining-site-count"></p>
+        `;
+
+        card.querySelector("h4").textContent =
+          `${formatBody(site)} — Signal #${site.signal}`;
+
+        card.querySelector(".mining-coordinates").textContent =
+          `Coordinates: ${site.latitude}, ${site.longitude}`;
+
+        card.querySelector(".mining-rigs").textContent =
+          site.notes
+            ? `${rigText}. ${site.notes}`
+            : rigText;
+
+        card.querySelector(".mining-site-count").textContent =
+          `${commodityCount} surveyed ${
+            commodityCount === 1
+              ? "location"
+              : "locations"
+          } for ${site.commodity}`;
+
+        resultsContainer.appendChild(card);
+
+      });
+
+    }
+
+    function applyMiningFilters() {
+
+      const selectedCommodity =
+        commodityFilter.value
+          .trim()
           .toLowerCase();
 
-      const siteText =
-        site.textContent
+      const searchText =
+        searchBox.value
+          .trim()
           .toLowerCase();
 
-      const matchesCommodity =
-        selectedCommodity === "all" ||
-        siteCommodity === selectedCommodity;
+      const hasCommodityFilter =
+        selectedCommodity !== "all";
 
-      const matchesSearch =
-        searchText === "" ||
-        siteText.includes(searchText) ||
-        siteCommodity.includes(searchText);
+      const hasSearch =
+        searchText !== "";
 
-      site.style.display =
-        matchesCommodity && matchesSearch
-          ? ""
-          : "none";
+      if (
+        !hasCommodityFilter &&
+        !hasSearch
+      ) {
 
-    });
+        const preferredSites =
+          miningData.filter(
+            site => site.preferred
+          );
+
+        renderSites(
+          preferredSites,
+          "Showing preferred mining sites"
+        );
+
+        return;
+      }
+
+      const filteredSites =
+        miningData.filter(site => {
+
+          const commodity =
+            site.commodity.toLowerCase();
+
+          const bodyLabel =
+            formatBody(site).toLowerCase();
+
+          const signalText =
+            `signal #${site.signal}`;
+
+          const coordinateText =
+            `${site.latitude}, ${site.longitude}`;
+
+          const notes =
+            (site.notes || "").toLowerCase();
+
+          const matchesCommodity =
+            !hasCommodityFilter ||
+            commodity === selectedCommodity;
+
+          const matchesSearch =
+            !hasSearch ||
+            commodity.includes(searchText) ||
+            bodyLabel.includes(searchText) ||
+            signalText.includes(searchText) ||
+            coordinateText.includes(searchText) ||
+            notes.includes(searchText);
+
+          return (
+            matchesCommodity &&
+            matchesSearch
+          );
+
+        });
+
+      let modeText =
+        `Showing ${filteredSites.length} mining ${
+          filteredSites.length === 1
+            ? "location"
+            : "locations"
+        }`;
+
+      if (hasCommodityFilter) {
+
+        const selectedLabel =
+          commodityFilter.options[
+            commodityFilter.selectedIndex
+          ].text;
+
+        modeText +=
+          ` for ${selectedLabel}`;
+
+      }
+
+      renderSites(
+        filteredSites,
+        modeText
+      );
+
+    }
+
+    commodityFilter.addEventListener(
+      "change",
+      applyMiningFilters
+    );
+
+    searchBox.addEventListener(
+      "input",
+      applyMiningFilters
+    );
+
+    applyMiningFilters();
+
+  } catch (error) {
+
+    console.error(
+      "Mining database error:",
+      error
+    );
+
+    resultsStatus.textContent =
+      "Mining database unavailable";
+
+    resultsContainer.innerHTML = `
+      <div class="faction-loading">
+        Unable to load mining locations.
+      </div>
+    `;
 
   }
 
-  commodityFilter.addEventListener(
-    "change",
-    applyMiningFilters
-  );
-
-  miningSearch.addEventListener(
-    "input",
-    applyMiningFilters
-  );
-
 }
 
-setupMiningFilters();
+setupMiningDatabase();
