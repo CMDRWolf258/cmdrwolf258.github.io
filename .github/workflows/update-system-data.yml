@@ -73,22 +73,149 @@ jobs:
                   "| market_id:",
                   station.get("market_id")
               )
-          import urllib.request
+                    import urllib.request
+          import time
 
-          test_market_id = 4386105091
+          # -------------------------
+          # MARKET DATA
+          # -------------------------
 
-          test_url = (
-            f"https://spansh.co.uk/api/station/{test_market_id}"
+          best_markets = {}
+
+          permanent_market_stations = [
+              station
+              for station in stations
+              if (
+                  station.get("has_market")
+                  and station.get("market_id")
+                  and station.get("type") != "Drake-Class Carrier"
+              )
+          ]
+
+          print(
+              "Checking",
+              len(permanent_market_stations),
+              "permanent station markets"
           )
 
-          with urllib.request.urlopen(test_url) as response:
-              test_station = json.load(response)
+          for station in permanent_market_stations:
 
-          print("Eon Blue station keys:")
-          print(list(test_station.keys()))
+              station_name = station.get("name")
+              market_id = station.get("market_id")
 
-          print("Eon Blue station data:")
-          print(test_station)
+              station_url = (
+                  f"https://spansh.co.uk/api/station/{market_id}"
+              )
+
+              try:
+
+                  with urllib.request.urlopen(
+                      station_url,
+                      timeout=30
+                  ) as response:
+                      station_response = json.load(response)
+
+                  station_record = (
+                      station_response.get("record")
+                      or {}
+                  )
+
+                  market = (
+                      station_record.get("market")
+                      or []
+                  )
+
+                  market_updated = (
+                      station_record.get("market_updated_at")
+                      or station_record.get("market_updated")
+                      or station_record.get("updated_at")
+                  )
+
+                  print(
+                      station_name,
+                      "| commodities:",
+                      len(market)
+                  )
+
+                  for commodity in market:
+
+                      commodity_name = (
+                          commodity.get("commodity")
+                      )
+
+                      sell_price = (
+                          commodity.get("sell_price")
+                          or 0
+                      )
+
+                      demand = (
+                          commodity.get("demand")
+                          or 0
+                      )
+
+                      if (
+                          not commodity_name
+                          or sell_price <= 0
+                          or demand <= 0
+                      ):
+                          continue
+
+                      current_best = (
+                          best_markets.get(
+                              commodity_name
+                          )
+                      )
+
+                      if (
+                          current_best is None
+                          or sell_price
+                          > current_best["price"]
+                      ):
+
+                          best_markets[
+                              commodity_name
+                          ] = {
+                              "price": sell_price,
+                              "station": station_name,
+                              "demand": demand,
+                              "marketId": market_id,
+                              "marketUpdated": market_updated
+                          }
+
+                  time.sleep(0.1)
+
+              except Exception as error:
+
+                  print(
+                      "Market fetch failed:",
+                      station_name,
+                      error
+                  )
+
+          market_output = {
+              "system": "NGC 2546 Sector UZ-G d10-16",
+              "generatedAt": datetime.now(
+                  timezone.utc
+              ).isoformat(),
+              "commodities": best_markets
+          }
+
+          with open(
+              "data/market.json",
+              "w",
+              encoding="utf-8"
+          ) as f:
+              json.dump(
+                  market_output,
+                  f,
+                  indent=2
+              )
+
+          print(
+              "Saved best prices for",
+              len(best_markets),
+              "commodities"
+          )
           if population is None:
               raise RuntimeError(
                   "Population was not found in the Spansh response."
