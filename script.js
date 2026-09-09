@@ -12,6 +12,41 @@ async function loadSystemData() {
 
     const data = await response.json();
 
+const dataAgeElement =
+  document.getElementById("system-data-age");
+
+if (dataAgeElement && data.lastUpdated) {
+
+  const updated =
+    new Date(data.lastUpdated);
+
+  const ageMilliseconds =
+    Date.now() - updated.getTime();
+
+  const ageMinutes =
+    Math.floor(ageMilliseconds / 60000);
+
+  let ageText;
+
+  if (ageMinutes < 1) {
+    ageText = "Just refreshed";
+  } else if (ageMinutes < 60) {
+    ageText = `${ageMinutes} min ago`;
+  } else {
+    const hours =
+      Math.floor(ageMinutes / 60);
+
+    const remainingMinutes =
+      ageMinutes % 60;
+
+    ageText =
+      `${hours}h ${remainingMinutes}m ago`;
+  }
+
+  dataAgeElement.textContent =
+    ageText;
+}
+    
     // -------------------------
     // POPULATION
     // -------------------------
