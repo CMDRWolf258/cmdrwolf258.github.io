@@ -364,6 +364,74 @@ commodityNames.forEach(commodity => {
   commodityFilter.appendChild(option);
 
 });
+    const commodityIndex =
+  document.getElementById("commodity-index");
+
+if (commodityIndex) {
+
+  commodityIndex.innerHTML = "";
+
+  commodityNames.forEach(commodity => {
+
+    const commoditySites =
+      miningData.filter(
+        site => site.commodity === commodity
+      );
+
+    const preferredSite =
+      commoditySites.find(
+        site => site.preferred
+      );
+
+    const card =
+      document.createElement("div");
+
+    card.className =
+      "commodity-card";
+
+    let preferredText =
+      "Preferred site: Not yet verified";
+
+    if (preferredSite) {
+
+      const bodyLabel =
+        preferredSite.bodyType === "moon"
+          ? `Moon ${preferredSite.body}`
+          : `Planet ${preferredSite.body}`;
+
+      preferredText =
+        `Preferred site: ${bodyLabel} — Signal #${preferredSite.signal}`;
+
+    }
+
+    const locationCount =
+      commoditySites.length;
+
+    card.innerHTML = `
+      <h4></h4>
+
+      <p>
+        ${locationCount} surveyed ${
+          locationCount === 1
+            ? "location"
+            : "locations"
+        }
+      </p>
+
+      <p class="commodity-preferred"></p>
+    `;
+
+    card.querySelector("h4").textContent =
+      commodity;
+
+    card.querySelector(".commodity-preferred").textContent =
+      preferredText;
+
+    commodityIndex.appendChild(card);
+
+  });
+
+}
 
     function formatBody(site) {
 
