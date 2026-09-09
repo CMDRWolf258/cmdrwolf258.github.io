@@ -76,7 +76,6 @@ jobs:
                   station.get("market_id")
               )
                     import urllib.request
-          import time
 
           # -------------------------
           # MARKET DATA
