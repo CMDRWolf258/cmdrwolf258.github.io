@@ -154,16 +154,93 @@
   "notes": "Known Platinum signal."
 },
   {
-    "commodity": "Osmium",
-    "body": "3",
-    "bodyType": "planet",
-    "signal": 14,
-    "latitude": 31.9711,
-    "longitude": 28.6201,
-    "rigs": 4,
-    "preferred": true,
-    "notes": "Flat terrain."
-  },
+  "commodity": "Osmium",
+  "body": "3",
+  "bodyType": "planet",
+  "signal": 14,
+  "latitude": 31.9711,
+  "longitude": 28.6201,
+  "rigs": 4,
+  "preferred": true,
+  "notes": "Primary Osmium site. Flat terrain."
+},
+{
+  "commodity": "Osmium",
+  "body": "3",
+  "bodyType": "planet",
+  "signal": 2,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Osmium signal."
+},
+{
+  "commodity": "Osmium",
+  "body": "3",
+  "bodyType": "planet",
+  "signal": 3,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Osmium signal."
+},
+{
+  "commodity": "Osmium",
+  "body": "3",
+  "bodyType": "planet",
+  "signal": 5,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Osmium signal."
+},
+{
+  "commodity": "Osmium",
+  "body": "3",
+  "bodyType": "planet",
+  "signal": 9,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Osmium signal."
+},
+{
+  "commodity": "Osmium",
+  "body": "4",
+  "bodyType": "planet",
+  "signal": 2,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Osmium signal."
+},
+{
+  "commodity": "Osmium",
+  "body": "4",
+  "bodyType": "planet",
+  "signal": 5,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Osmium signal."
+},
+{
+  "commodity": "Osmium",
+  "body": "4",
+  "bodyType": "planet",
+  "signal": 6,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Osmium signal."
+},
   {
   "commodity": "Diamonds",
   "body": "5",
