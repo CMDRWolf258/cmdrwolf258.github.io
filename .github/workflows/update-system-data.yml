@@ -17,7 +17,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Fetch latest system data from Spansh
+      - name: Fetch latest system data
         run: |
           mkdir -p data
 
@@ -25,15 +25,22 @@ jobs:
             "https://spansh.co.uk/api/system/560820275507" \
             -o spansh-system.json
 
+          curl --fail --silent --show-error \
+            --get \
+            --data-urlencode "systemName=NGC 2546 Sector UZ-G d10-16" \
+            "https://www.edsm.net/api-system-v1/factions" \
+            -o edsm-factions.json
+
           python3 <<'PY'
           import json
           from datetime import datetime, timezone
 
+          # -------------------------
+          # SPANSH SYSTEM DATA
+          # -------------------------
+
           with open("spansh-system.json", "r", encoding="utf-8") as f:
               raw = json.load(f)
-
-          print("Top-level keys returned by Spansh:")
-          print(list(raw.keys()))
 
           if isinstance(raw.get("record"), dict):
               system = raw["record"]
@@ -46,66 +53,42 @@ jobs:
 
           if population is None:
               raise RuntimeError(
-                  "Population was not found in the Spansh response. "
-                  f"Available system keys: {list(system.keys())}"
+                  "Population was not found in the Spansh response."
               )
 
-          factions_raw = (
-              system.get("factions")
-              or system.get("faction_presence")
-              or system.get("factionPresence")
-              or []
-          )
+          # -------------------------
+          # EDSM FACTION DATA
+          # -------------------------
 
-          controlling_faction_raw = (
-              system.get("controlling_faction")
-              or system.get("controllingFaction")
-          )
+          with open("edsm-factions.json", "r", encoding="utf-8") as f:
+              edsm = json.load(f)
 
-          if isinstance(controlling_faction_raw, dict):
-              controlling_faction = (
-                  controlling_faction_raw.get("name")
-                  or controlling_faction_raw.get("Name")
-              )
-          else:
-              controlling_faction = controlling_faction_raw
+          controlling_raw = edsm.get("controllingFaction") or {}
+
+          controlling_faction = controlling_raw.get("name")
+
+          factions_raw = edsm.get("factions") or []
 
           factions = []
 
           for faction in factions_raw:
-              if not isinstance(faction, dict):
+              name = faction.get("name")
+
+              if not name:
                   continue
 
-              name = (
-                  faction.get("name")
-                  or faction.get("Name")
-              )
+              influence = faction.get("influence")
+              state = faction.get("state") or "None"
 
-              influence = (
-                  faction.get("influence")
-                  or faction.get("Influence")
-              )
-
-              state = (
-                  faction.get("state")
-                  or faction.get("State")
-                  or "None"
-              )
-
-              if isinstance(state, dict):
-                  state = (
-                      state.get("name")
-                      or state.get("Name")
-                      or "None"
-                  )
-
-              if name:
-                  factions.append({
-                      "name": name,
-                      "influence": influence,
-                      "state": state,
-                      "controlling": name == controlling_faction
-                  })
+              factions.append({
+                  "name": name,
+                  "influence": influence,
+                  "state": state,
+                  "allegiance": faction.get("allegiance"),
+                  "government": faction.get("government"),
+                  "isPlayer": faction.get("isPlayer", False),
+                  "controlling": name == controlling_faction
+              })
 
           factions.sort(
               key=lambda f: (
@@ -113,6 +96,10 @@ jobs:
                   -(f["influence"] or 0)
               )
           )
+
+          # -------------------------
+          # SAVE WEBSITE DATA
+          # -------------------------
 
           output = {
               "population": population,
@@ -124,9 +111,16 @@ jobs:
           with open("data/system.json", "w", encoding="utf-8") as f:
               json.dump(output, f, indent=2)
 
-          print("Saved population:", population)
-          print("Saved controlling faction:", controlling_faction)
-          print("Saved faction count:", len(factions))
+          print("Population:", population)
+          print("Controlling faction:", controlling_faction)
+          print("Faction count:", len(factions))
+
+          for faction in factions:
+              print(
+                  faction["name"],
+                  faction["influence"],
+                  faction["state"]
+              )
           PY
 
       - name: Commit updated data
