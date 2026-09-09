@@ -408,18 +408,31 @@ if (commodityIndex) {
       commoditySites.length;
 
     card.innerHTML = `
-      <h4></h4>
+  <h4></h4>
 
-      <p>
-        ${locationCount} surveyed ${
-          locationCount === 1
-            ? "location"
-            : "locations"
-        }
-      </p>
+  <p>
+    ${locationCount} surveyed ${
+      locationCount === 1
+        ? "location"
+        : "locations"
+    }
+  </p>
 
-      <p class="commodity-preferred"></p>
-    `;
+  <p class="commodity-preferred"></p>
+
+  <div class="commodity-market">
+    <p class="commodity-market-label">
+      BEST SELL IN 10-16
+    </p>
+
+    <p class="commodity-market-price">
+      Market data coming soon
+    </p>
+
+    <p class="commodity-market-station">
+    </p>
+  </div>
+`;
 
     card.querySelector("h4").textContent =
       commodity;
