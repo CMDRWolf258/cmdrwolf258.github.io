@@ -99,16 +99,60 @@
   "notes": "Alternate Gold site within Moon 6d Signal #1."
 },
   {
-    "commodity": "Platinum",
-    "body": "3",
-    "bodyType": "planet",
-    "signal": 13,
-    "latitude": 31.887,
-    "longitude": 28.4079,
-    "rigs": 4,
-    "preferred": true,
-    "notes": "Flat terrain."
-  },
+  "commodity": "Platinum",
+  "body": "3",
+  "bodyType": "planet",
+  "signal": 13,
+  "latitude": 31.887,
+  "longitude": 28.4079,
+  "rigs": 4,
+  "preferred": true,
+  "notes": "Primary Platinum site. Flat terrain."
+},
+{
+  "commodity": "Platinum",
+  "body": "5",
+  "bodyType": "planet",
+  "signal": 1,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Platinum signal."
+},
+{
+  "commodity": "Platinum",
+  "body": "5",
+  "bodyType": "planet",
+  "signal": 2,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Platinum signal."
+},
+{
+  "commodity": "Platinum",
+  "body": "5",
+  "bodyType": "planet",
+  "signal": 8,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Platinum signal."
+},
+{
+  "commodity": "Platinum",
+  "body": "5",
+  "bodyType": "planet",
+  "signal": 9,
+  "latitude": null,
+  "longitude": null,
+  "rigs": null,
+  "preferred": false,
+  "notes": "Known Platinum signal."
+},
   {
     "commodity": "Osmium",
     "body": "3",
