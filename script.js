@@ -339,6 +339,32 @@ async function setupMiningDatabase() {
     const miningData =
       await response.json();
 
+    const commodityNames = [
+  ...new Set(
+    miningData.map(site => site.commodity)
+  )
+].sort((a, b) =>
+  a.localeCompare(b)
+);
+
+commodityFilter.innerHTML =
+  '<option value="all">All Commodities</option>';
+
+commodityNames.forEach(commodity => {
+
+  const option =
+    document.createElement("option");
+
+  option.value =
+    commodity.toLowerCase();
+
+  option.textContent =
+    commodity;
+
+  commodityFilter.appendChild(option);
+
+});
+
     function formatBody(site) {
 
       if (site.bodyType === "moon") {
