@@ -1,6 +1,10 @@
 async function loadSystemData() {
   try {
-    const response = await fetch("data/system.json");
+
+    const response = await fetch(
+      "data/system.json?ts=" + Date.now(),
+      { cache: "no-store" }
+    );
 
     if (!response.ok) {
       throw new Error("Unable to load system data");
@@ -8,125 +12,148 @@ async function loadSystemData() {
 
     const data = await response.json();
 
+    // -------------------------
+    // POPULATION
+    // -------------------------
+
     const populationElements =
       document.querySelectorAll(".live-population");
 
     populationElements.forEach(element => {
-  const population = Number(data.population);
 
-  element.textContent =
-    (population / 1000000000).toFixed(2) + " Billion";
+      const population = Number(data.population);
 
-  element.title =
-    population.toLocaleString() + " inhabitants";
-});
-const factionGrid =
-  document.getElementById("faction-grid");
+      element.textContent =
+        (population / 1000000000).toFixed(2) + " Billion";
 
-if (
-  factionGrid &&
-  Array.isArray(data.factions)
-) {
+      element.title =
+        population.toLocaleString() + " inhabitants";
 
-  factionGrid.innerHTML = "";
+    });
 
-  data.factions.forEach(faction => {
 
-    const card =
-      document.createElement("div");
+    // -------------------------
+    // FACTIONS
+    // -------------------------
 
-    card.className =
-      "faction-card" +
-      (faction.controlling ? " controlling" : "");
+    const factionGrid =
+      document.getElementById("faction-grid");
 
-    const role =
-      faction.controlling
-        ? "CONTROLLING FACTION"
-        : "SYSTEM FACTION";
+    if (factionGrid) {
 
-    let influence = "Unknown";
+      if (
+        Array.isArray(data.factions) &&
+        data.factions.length > 0
+      ) {
 
-    if (
-      faction.influence !== null &&
-      faction.influence !== undefined
-    ) {
+        factionGrid.innerHTML = "";
 
-      let value =
-        Number(faction.influence);
+        data.factions.forEach(faction => {
 
-      if (value <= 1) {
-        value *= 100;
+          const card =
+            document.createElement("div");
+
+          card.className =
+            "faction-card" +
+            (faction.controlling ? " controlling" : "");
+
+          const role =
+            faction.controlling
+              ? "CONTROLLING FACTION"
+              : "SYSTEM FACTION";
+
+          let influence = "Unknown";
+
+          if (
+            faction.influence !== null &&
+            faction.influence !== undefined
+          ) {
+
+            let value =
+              Number(faction.influence);
+
+            if (value <= 1) {
+              value *= 100;
+            }
+
+            influence =
+              value.toFixed(1) + "%";
+          }
+
+          card.innerHTML = `
+            <p class="faction-role">${role}</p>
+
+            <h4></h4>
+
+            <div class="faction-details">
+
+              <div class="faction-detail">
+                <span class="faction-detail-label">
+                  Influence
+                </span>
+
+                <span class="faction-detail-value">
+                  ${influence}
+                </span>
+              </div>
+
+              <div class="faction-detail">
+                <span class="faction-detail-label">
+                  State
+                </span>
+
+                <span class="faction-detail-value faction-state">
+                </span>
+              </div>
+
+              <div class="faction-detail">
+                <span class="faction-detail-label">
+                  Government
+                </span>
+
+                <span class="faction-detail-value faction-government">
+                </span>
+              </div>
+
+              <div class="faction-detail">
+                <span class="faction-detail-label">
+                  Allegiance
+                </span>
+
+                <span class="faction-detail-value faction-allegiance">
+                </span>
+              </div>
+
+            </div>
+          `;
+
+          card.querySelector("h4").textContent =
+            faction.name;
+
+          card.querySelector(".faction-state").textContent =
+            faction.state || "None";
+
+          card.querySelector(".faction-government").textContent =
+            faction.government || "Unknown";
+
+          card.querySelector(".faction-allegiance").textContent =
+            faction.allegiance || "Independent";
+
+          factionGrid.appendChild(card);
+
+        });
+
+      } else {
+
+        factionGrid.innerHTML =
+          '<div class="faction-loading">Faction data currently unavailable.</div>';
+
       }
 
-      influence =
-        value.toFixed(1) + "%";
     }
 
-    card.innerHTML = `
-      <p class="faction-role">${role}</p>
-
-      <h4></h4>
-
-      <div class="faction-details">
-
-        <div class="faction-detail">
-          <span class="faction-detail-label">
-            Influence
-          </span>
-
-          <span class="faction-detail-value">
-            ${influence}
-          </span>
-        </div>
-
-        <div class="faction-detail">
-          <span class="faction-detail-label">
-            State
-          </span>
-
-          <span class="faction-detail-value faction-state">
-          </span>
-        </div>
-
-        <div class="faction-detail">
-          <span class="faction-detail-label">
-            Government
-          </span>
-
-          <span class="faction-detail-value faction-government">
-          </span>
-        </div>
-
-        <div class="faction-detail">
-          <span class="faction-detail-label">
-            Allegiance
-          </span>
-
-          <span class="faction-detail-value faction-allegiance">
-          </span>
-        </div>
-
-      </div>
-    `;
-
-    card.querySelector("h4").textContent =
-      faction.name;
-
-    card.querySelector(".faction-state").textContent =
-      faction.state || "None";
-
-    card.querySelector(".faction-government").textContent =
-      faction.government || "Unknown";
-
-    card.querySelector(".faction-allegiance").textContent =
-      faction.allegiance || "Independent";
-
-    factionGrid.appendChild(card);
-
-  });
-
-}
   } catch (error) {
+
     console.error("System data error:", error);
 
     const populationElements =
@@ -135,6 +162,15 @@ if (
     populationElements.forEach(element => {
       element.textContent = "Data unavailable";
     });
+
+    const factionGrid =
+      document.getElementById("faction-grid");
+
+    if (factionGrid) {
+      factionGrid.innerHTML =
+        '<div class="faction-loading">Faction data currently unavailable.</div>';
+    }
+
   }
 }
 
