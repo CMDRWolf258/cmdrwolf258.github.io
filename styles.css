@@ -755,3 +755,110 @@ footer {
   }
 
 }
+/* LIVE FACTION ROSTER */
+
+.faction-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 14px;
+
+}
+
+.faction-card {
+
+  background: var(--panel);
+
+  border-top: 1px solid var(--border);
+
+  border-right: 1px solid var(--border);
+
+  border-bottom: 1px solid var(--border);
+
+  border-left: 3px solid var(--orange);
+
+  padding: 18px;
+
+}
+
+.faction-card.controlling {
+
+  border-top: 2px solid var(--orange);
+
+}
+
+.faction-role {
+
+  margin: 0 0 8px;
+
+  color: var(--text-dim);
+
+  font-size: 0.7rem;
+
+  letter-spacing: 0.12em;
+
+}
+
+.faction-card h4 {
+
+  margin: 0 0 16px;
+
+  color: var(--orange);
+
+  font-size: 1.25rem;
+
+}
+
+.faction-details {
+
+  display: grid;
+
+  gap: 8px;
+
+}
+
+.faction-detail {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding-top: 8px;
+
+  border-top: 1px solid rgba(40, 55, 70, 0.6);
+
+}
+
+.faction-detail-label {
+
+  color: var(--text-dim);
+
+}
+
+.faction-detail-value {
+
+  color: var(--text);
+
+  text-align: right;
+
+}
+
+.faction-loading {
+
+  color: var(--text-dim);
+
+}
+
+@media (max-width: 720px) {
+
+  .faction-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+}
