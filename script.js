@@ -527,6 +527,16 @@ card.querySelector(".commodity-market-demand").textContent =
     
 card.querySelector(".commodity-market-age").textContent =
   marketAgeText;
+
+if (
+  marketInfo?.marketUpdated &&
+  Date.now() - new Date(marketInfo.marketUpdated).getTime()
+    >= 7 * 24 * 60 * 60 * 1000
+) {
+  card
+    .querySelector(".commodity-market-age")
+    .classList.add("stale");
+}
     
 card.addEventListener("click", () => {
 
