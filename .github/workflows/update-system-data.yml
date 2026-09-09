@@ -33,6 +33,8 @@ jobs:
 
           python3 <<'PY'
           import json
+          import urllib.request
+          import time
           from datetime import datetime, timezone
 
           # -------------------------
