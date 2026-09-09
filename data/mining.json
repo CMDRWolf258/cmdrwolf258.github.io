@@ -77,16 +77,27 @@
   "notes": ""
 },
   {
-    "commodity": "Gold",
-    "body": "6d",
-    "bodyType": "moon",
-    "signal": 1,
-    "latitude": -10.3549,
-    "longitude": -60.6481,
-    "rigs": 6,
-    "preferred": true,
-    "notes": "Preferred Gold mining site."
-  },
+  "commodity": "Gold",
+  "body": "6d",
+  "bodyType": "moon",
+  "signal": 1,
+  "latitude": -10.3549,
+  "longitude": -60.6481,
+  "rigs": 6,
+  "preferred": true,
+  "notes": "Primary Gold site. Best known 6-rig location."
+},
+{
+  "commodity": "Gold",
+  "body": "6d",
+  "bodyType": "moon",
+  "signal": 1,
+  "latitude": -10.3149,
+  "longitude": -61.7562,
+  "rigs": 4,
+  "preferred": false,
+  "notes": "Alternate Gold site within Moon 6d Signal #1."
+}
   {
     "commodity": "Platinum",
     "body": "3",
