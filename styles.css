@@ -1084,19 +1084,16 @@ footer {
 }
 
 .commodity-market-price {
-  margin: 0;
-
+  margin: 0.2rem 0 0.15rem;
+  font-size: 1.15rem;
+  font-weight: 700;
   color: var(--orange);
-
-  font-size: 1.05rem;
 }
 
 .commodity-market-station {
-  margin: 5px 0 0;
-
-  color: var(--text-soft);
-
-  font-size: 0.9rem;
+  margin: 0.1rem 0;
+  color: var(--text);
+  font-weight: 600;
 }
 
 .commodity-market-age.stale {
