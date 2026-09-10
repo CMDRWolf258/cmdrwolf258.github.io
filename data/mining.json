@@ -884,9 +884,42 @@
   "body": "9a",
   "bodyType": "moon",
   "signal": 5,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
+  "latitude": -50.0688,
+  "longitude": -156.5100,
+  "rigs": 5,
+  "preferred": true,
+  "notes": "Primary Alexandrite site. Best known 5-rig location."
+},
+{
+  "commodity": "Alexandrite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 5,
+  "latitude": -50.0419,
+  "longitude": -156.9275,
+  "rigs": 3,
+  "preferred": false,
+  "notes": ""
+},
+{
+  "commodity": "Alexandrite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 5,
+  "latitude": -50.5474,
+  "longitude": -156.2323,
+  "rigs": 3,
+  "preferred": false,
+  "notes": ""
+},
+{
+  "commodity": "Alexandrite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 5,
+  "latitude": -50.3984,
+  "longitude": -155.9243,
+  "rigs": 3,
   "preferred": false,
   "notes": ""
 },
@@ -1616,6 +1649,17 @@
   "preferred": false,
   "notes": ""
 },
+  {
+  "commodity": "Jadeite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 5,
+  "latitude": -50.4735,
+  "longitude": -156.4974,
+  "rigs": 3,
+  "preferred": false,
+  "notes": ""
+},
 {
   "commodity": "Jadeite",
   "body": "3b",
@@ -2163,6 +2207,17 @@
   "latitude": null,
   "longitude": null,
   "rigs": null,
+  "preferred": false,
+  "notes": ""
+},
+  {
+  "commodity": "Olivine",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 5,
+  "latitude": -50.3603,
+  "longitude": -156.8962,
+  "rigs": 3,
   "preferred": false,
   "notes": ""
 },
@@ -3804,5 +3859,16 @@
   "rigs": null,
   "preferred": false,
   "notes": ""
+},
+  {
+  "commodity": "Palladium",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 5,
+  "latitude": -50.4802,
+  "longitude": -156.2191,
+  "rigs": 6,
+  "preferred": true,
+  "notes": "Best known Palladium site so far."
 }
 ]
