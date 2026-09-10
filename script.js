@@ -489,6 +489,8 @@ if (ageMinutes < 60) {
       : `Updated ${ageDays}d ago`;
 
 }
+  
+}
 
 card.innerHTML = `
   <h4></h4>
