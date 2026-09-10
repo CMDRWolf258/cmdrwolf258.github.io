@@ -971,11 +971,11 @@ footer {
 }
 
 .mining-body-group {
-  margin: 0 0 2rem;
+  margin: 0 0 2.6rem;
 }
 
 .mining-body-heading {
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   padding: 0.7rem 0.85rem;
   font-size: 1.25rem;
   letter-spacing: 0.04em;
@@ -986,8 +986,8 @@ footer {
 }
 
 .mining-signal-group {
-  margin: 0 0 1rem;
-  padding: 0.75rem 0.9rem 0.9rem;
+  margin: 0 0 1.15rem;
+  padding: 0.8rem 0.95rem 0.95rem;
   border: 1px solid var(--border);
   background: rgba(255, 149, 0, 0.015);
 }
