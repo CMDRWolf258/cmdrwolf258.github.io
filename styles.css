@@ -961,7 +961,7 @@ footer {
   font-size: 0.78rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--text-dim);
 }
 
   .mining-group-commodity,
@@ -980,7 +980,7 @@ footer {
   font-size: 1.25rem;
   letter-spacing: 0.04em;
   color: var(--orange);
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--orange);
   border-bottom: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.02);
 }
@@ -1007,7 +1007,7 @@ footer {
   font-size: 0.82rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--text-dim);
   border-bottom: 1px solid var(--border);
 }
 
@@ -1026,7 +1026,7 @@ footer {
 .mining-location-row.primary {
   margin: 0.2rem 0 0.35rem;
   padding: 0.8rem 0.9rem;
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--orange);
   background: rgba(255, 140, 0, 0.08);
 }
 
@@ -1061,7 +1061,7 @@ footer {
 }
 
 .mining-location-notes {
-  color: var(--muted);
+  color: var(--text-dim);
   font-size: 0.85rem;
 }
 
@@ -1114,7 +1114,7 @@ footer {
   padding: 0.1rem 0.2rem;
   border: none;
   background: transparent;
-  color: var(--muted);
+  color: var(--text-dim);
   font-size: 0.95rem;
   line-height: 1;
   cursor: pointer;
