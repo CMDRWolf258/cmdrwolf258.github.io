@@ -954,6 +954,8 @@ footer {
     grid-template-columns: 1fr;
   }
 
+}
+  
 .mining-group-commodity {
   margin: 1rem 0 1.5rem;
   font-size: 0.78rem;
@@ -1038,8 +1040,6 @@ footer {
 .mining-location-notes {
   color: var(--muted);
   font-size: 0.85rem;
-}
-
 }
 
 /* COMMODITY MARKET SUMMARY */
