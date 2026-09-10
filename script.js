@@ -669,9 +669,17 @@ function renderSites(sites, modeText) {
 
         <h4></h4>
 
-        <p class="mining-coordinates"></p>
+<div class="mining-coordinate-line">
+  <p class="mining-coordinates"></p>
+  <button
+    type="button"
+    class="copy-coordinates-button"
+  >
+    Copy Coordinates
+  </button>
+</div>
 
-        <p class="mining-rigs"></p>
+<p class="mining-rigs"></p>
 
         <p class="mining-site-count"></p>
       `;
@@ -695,6 +703,46 @@ function renderSites(sites, modeText) {
         ).textContent =
           "Coordinates: Not yet recorded";
       }
+
+      const copyButton =
+  card.querySelector(
+    ".copy-coordinates-button"
+  );
+
+if (
+  site.latitude !== null &&
+  site.latitude !== undefined &&
+  site.longitude !== null &&
+  site.longitude !== undefined
+) {
+
+  copyButton.addEventListener(
+    "click",
+    async () => {
+
+      const coordinates =
+        `${site.latitude}, ${site.longitude}`;
+
+      await navigator.clipboard.writeText(
+        coordinates
+      );
+
+      copyButton.textContent =
+        "Copied";
+
+      setTimeout(() => {
+        copyButton.textContent =
+          "Copy Coordinates";
+      }, 1500);
+
+    }
+  );
+
+} else {
+
+  copyButton.remove();
+
+}
 
       card.querySelector(
         ".mining-rigs"
