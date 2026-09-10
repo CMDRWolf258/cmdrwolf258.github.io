@@ -671,12 +671,14 @@ function renderSites(sites, modeText) {
 
 <div class="mining-coordinate-line">
   <p class="mining-coordinates"></p>
-  <button
-    type="button"
-    class="copy-coordinates-button"
-  >
-    Copy Coordinates
-  </button>
+<button
+  type="button"
+  class="copy-coordinates-button"
+  aria-label="Copy coordinates"
+  title="Copy coordinates"
+>
+  ⧉
+</button>
 </div>
 
 <p class="mining-rigs"></p>
@@ -911,12 +913,14 @@ location.innerHTML = `
 
   <div class="mining-coordinate-line">
     <p class="mining-location-coordinates"></p>
-    <button
-      type="button"
-      class="copy-coordinates-button"
-    >
-      Copy Coordinates
-    </button>
+<button
+  type="button"
+  class="copy-coordinates-button"
+  aria-label="Copy coordinates"
+  title="Copy coordinates"
+>
+  ⧉
+</button>
   </div>
 
   <p class="mining-location-notes"></p>
