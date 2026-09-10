@@ -975,8 +975,8 @@ footer {
 }
 
 .mining-body-heading {
-  margin: 0 0 0.9rem;
-  padding: 0.55rem 0.75rem;
+  margin: 0 0 1rem;
+  padding: 0.7rem 0.85rem;
   font-size: 1.25rem;
   letter-spacing: 0.04em;
   color: var(--accent);
@@ -1015,8 +1015,11 @@ footer {
 }
 
 .mining-location-row.primary {
-  padding-left: 0.75rem;
+  margin: 0.2rem 0 0.35rem;
+  padding: 0.8rem 0.9rem;
   border-left: 3px solid var(--accent);
+  background: rgba(255, 165, 0, 0.04);
+}
 }
 
 .mining-location-row p {
@@ -1030,6 +1033,7 @@ footer {
 
 .mining-location-row.primary .mining-location-rigs {
   color: var(--accent);
+  letter-spacing: 0.04em;
 }
 
 .mining-location-coordinates {
