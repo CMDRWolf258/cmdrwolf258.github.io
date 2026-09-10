@@ -1114,13 +1114,33 @@ copyButton.textContent =
         }
 
         // Higher rig count first
-        const rigsA =
-          a.rigs ?? -1;
+const rigsA =
+  a.rigs ?? -1;
 
-        const rigsB =
-          b.rigs ?? -1;
+const rigsB =
+  b.rigs ?? -1;
 
-        return rigsB - rigsA;
+if (rigsA !== rigsB) {
+  return rigsB - rigsA;
+}
+
+const aHasCoords =
+  a.latitude !== null &&
+  a.latitude !== undefined &&
+  a.longitude !== null &&
+  a.longitude !== undefined;
+
+const bHasCoords =
+  b.latitude !== null &&
+  b.latitude !== undefined &&
+  b.longitude !== null &&
+  b.longitude !== undefined;
+
+if (aHasCoords !== bHasCoords) {
+  return aHasCoords ? -1 : 1;
+}
+
+return 0;
 
       });
 
