@@ -954,56 +954,70 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .mining-group-commodity {
+.mining-group-commodity {
   margin: 1rem 0 1.5rem;
-  font-size: 0.85rem;
-  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--muted);
 }
 
 .mining-body-group {
   margin: 0 0 2rem;
-  padding: 0;
 }
 
 .mining-body-heading {
-  margin: 0 0 0.75rem;
-  padding: 0 0 0.5rem;
-  font-size: 1.35rem;
+  margin: 0 0 0.9rem;
+  padding: 0.55rem 0.75rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
   color: var(--accent);
+  border-left: 3px solid var(--accent);
   border-bottom: 1px solid var(--border);
-}
-
-.mining-signal-group {
-  margin: 0 0 1.25rem;
-  padding-left: 1rem;
-}
-
-.mining-signal-heading {
-  margin: 0 0 0.6rem;
-  font-size: 1rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.mining-location-row {
-  margin: 0 0 0.65rem;
-  padding: 0.75rem 1rem;
-  border-left: 2px solid var(--border);
   background: rgba(255, 255, 255, 0.02);
 }
 
+.mining-signal-group {
+  margin: 0 0 1rem;
+  padding: 0.75rem 0.9rem 0.9rem;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.mining-signal-heading {
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.45rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+}
+
+.mining-location-row {
+  margin: 0;
+  padding: 0.7rem 0;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: transparent;
+}
+
+.mining-location-row:last-child {
+  border-bottom: none;
+}
+
 .mining-location-row.primary {
+  padding-left: 0.75rem;
   border-left: 3px solid var(--accent);
 }
 
 .mining-location-row p {
-  margin: 0.2rem 0;
+  margin: 0.18rem 0;
 }
 
 .mining-location-rigs {
   font-weight: 700;
+  font-size: 0.95rem;
 }
 
 .mining-location-row.primary .mining-location-rigs {
@@ -1012,11 +1026,12 @@ footer {
 
 .mining-location-coordinates {
   font-family: monospace;
+  font-size: 0.92rem;
 }
 
 .mining-location-notes {
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.85rem;
 }
 
 }
