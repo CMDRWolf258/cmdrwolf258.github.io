@@ -720,8 +720,8 @@ if (
     "click",
     async () => {
 
-      const coordinates =
-        `${site.latitude}, ${site.longitude}`;
+const coordinates =
+  `${site.latitude} ${site.longitude}`;
 
       await navigator.clipboard.writeText(
         coordinates
@@ -948,8 +948,8 @@ if (
     "click",
     async () => {
 
-      const coordinates =
-        `${site.latitude}, ${site.longitude}`;
+const coordinates =
+  `${site.latitude} ${site.longitude}`;
 
       await navigator.clipboard.writeText(
         coordinates
