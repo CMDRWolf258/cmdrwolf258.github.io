@@ -979,7 +979,7 @@ footer {
   padding: 0.7rem 0.85rem;
   font-size: 1.25rem;
   letter-spacing: 0.04em;
-  color: var(--accent);
+  color: var(--orange);
   border-left: 3px solid var(--accent);
   border-bottom: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.02);
@@ -1040,7 +1040,7 @@ footer {
 }
 
 .mining-location-row.primary .mining-location-rigs {
-  color: var(--accent);
+  color: var(--orange);
   letter-spacing: 0.04em;
 }
 
@@ -1124,10 +1124,10 @@ footer {
 
 .copy-coordinates-button:hover {
   opacity: 1;
-  color: var(--accent);
+  color: var(--orange);
 }
 
 .copy-coordinates-button:hover {
   opacity: 1;
-  color: var(--accent);
+  color: var(--orange);
 }
