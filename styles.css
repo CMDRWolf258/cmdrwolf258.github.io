@@ -1027,8 +1027,7 @@ footer {
   margin: 0.2rem 0 0.35rem;
   padding: 0.8rem 0.9rem;
   border-left: 3px solid var(--accent);
-  background: rgba(255, 165, 0, 0.04);
-}
+  background: rgba(255, 140, 0, 0.08);
 }
 
 .mining-location-row p {
@@ -1043,6 +1042,10 @@ footer {
 .mining-location-row.primary .mining-location-rigs {
   color: var(--accent);
   letter-spacing: 0.04em;
+}
+
+.mining-location-row.primary .mining-location-coordinates {
+  color: #f3f3f3;
 }
 
 .mining-location-row.primary .mining-location-rigs::before {
