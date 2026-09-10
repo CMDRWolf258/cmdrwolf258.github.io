@@ -767,6 +767,47 @@ if (
 
         });
 
+            filteredSites.sort((a, b) => {
+
+        // Preferred site first
+        if (a.preferred !== b.preferred) {
+          return a.preferred ? -1 : 1;
+        }
+
+        // Body next
+        const bodyComparison =
+          String(a.body).localeCompare(
+            String(b.body),
+            undefined,
+            {
+              numeric: true,
+              sensitivity: "base"
+            }
+          );
+
+        if (bodyComparison !== 0) {
+          return bodyComparison;
+        }
+
+        // Signal number next
+        const signalComparison =
+          Number(a.signal) - Number(b.signal);
+
+        if (signalComparison !== 0) {
+          return signalComparison;
+        }
+
+        // Higher rig count first
+        const rigsA =
+          a.rigs ?? -1;
+
+        const rigsB =
+          b.rigs ?? -1;
+
+        return rigsB - rigsA;
+
+      });
+
       let modeText =
         `Showing ${filteredSites.length} mining ${
           filteredSites.length === 1
