@@ -1083,14 +1083,14 @@ footer {
   letter-spacing: 0.12em;
 }
 
-.commodity-market-price {
+.commodity-card .commodity-market-price {
   margin: 0.2rem 0 0.15rem;
   font-size: 1.15rem;
   font-weight: 700;
   color: var(--orange);
 }
 
-.commodity-market-station {
+.commodity-card .commodity-market-station {
   margin: 0.1rem 0;
   color: var(--text);
   font-weight: 600;
