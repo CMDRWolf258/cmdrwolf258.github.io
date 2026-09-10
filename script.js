@@ -603,100 +603,308 @@ card.addEventListener("click", () => {
     const commodityCounts =
       getCommodityCounts();
 
-    function renderSites(sites, modeText) {
+function renderSites(sites, modeText) {
 
-      resultsContainer.innerHTML = "";
+  resultsContainer.innerHTML = "";
 
-      resultsStatus.textContent =
-        modeText;
+  resultsStatus.textContent =
+    modeText;
 
-      if (sites.length === 0) {
+  if (sites.length === 0) {
 
-        resultsContainer.innerHTML = `
-          <div class="faction-loading">
-            No mining locations match this search.
-          </div>
-        `;
+    resultsContainer.innerHTML = `
+      <div class="faction-loading">
+        No mining locations match this search.
+      </div>
+    `;
 
-        return;
+    return;
+  }
+
+  const commodities =
+    [...new Set(
+      sites.map(site => site.commodity)
+    )];
+
+  // If several commodities are being shown,
+  // keep the existing card-style display.
+  if (commodities.length > 1) {
+
+    sites.forEach(site => {
+
+      const card =
+        document.createElement("div");
+
+      card.className =
+        "location-card mining-site";
+
+      const commodityCount =
+        commodityCounts[site.commodity] || 1;
+
+      const preferredLabel =
+        site.preferred
+          ? `${site.commodity.toUpperCase()} // PRIMARY`
+          : site.commodity.toUpperCase();
+
+      let rigText;
+
+      if (
+        site.rigs === null ||
+        site.rigs === undefined
+      ) {
+        rigText =
+          "Rig count not yet recorded";
+      } else if (site.rigs === 1) {
+        rigText =
+          "1 mining rig";
+      } else {
+        rigText =
+          `${site.rigs} mining rigs`;
       }
 
-      sites.forEach(site => {
+      card.innerHTML = `
+        <p class="location-type">
+          ${preferredLabel}
+        </p>
 
-        const card =
-          document.createElement("div");
+        <h4></h4>
 
-        card.className =
-          "location-card mining-site";
+        <p class="mining-coordinates"></p>
 
-        const commodityCount =
-          commodityCounts[site.commodity] || 1;
+        <p class="mining-rigs"></p>
 
-        const preferredLabel =
-          site.preferred
-            ? `${site.commodity.toUpperCase()} // PRIMARY`
-            : site.commodity.toUpperCase();
+        <p class="mining-site-count"></p>
+      `;
 
-        let rigText;
+      card.querySelector("h4").textContent =
+        `${formatBody(site)} — Signal #${site.signal}`;
 
-if (
-  site.rigs === null ||
-  site.rigs === undefined
-) {
-  rigText = "Rig count not yet recorded";
-} else if (site.rigs === 1) {
-  rigText = "1 mining rig";
-} else {
-  rigText = `${site.rigs} mining rigs`;
-}
+      if (
+        site.latitude !== null &&
+        site.latitude !== undefined &&
+        site.longitude !== null &&
+        site.longitude !== undefined
+      ) {
+        card.querySelector(
+          ".mining-coordinates"
+        ).textContent =
+          `Coordinates: ${site.latitude}, ${site.longitude}`;
+      } else {
+        card.querySelector(
+          ".mining-coordinates"
+        ).textContent =
+          "Coordinates: Not yet recorded";
+      }
 
-        card.innerHTML = `
-          <p class="location-type">
-            ${preferredLabel}
-          </p>
+      card.querySelector(
+        ".mining-rigs"
+      ).textContent =
+        site.notes
+          ? `${rigText}. ${site.notes}`
+          : rigText;
 
-          <h4></h4>
+      card.querySelector(
+        ".mining-site-count"
+      ).textContent =
+        `${commodityCount} surveyed ${
+          commodityCount === 1
+            ? "location"
+            : "locations"
+        } for ${site.commodity}`;
 
-          <p class="mining-coordinates"></p>
+      resultsContainer.appendChild(card);
 
-          <p class="mining-rigs"></p>
+    });
 
-          <p class="mining-site-count"></p>
-        `;
+    return;
+  }
 
-        card.querySelector("h4").textContent =
-          `${formatBody(site)} — Signal #${site.signal}`;
+  // One commodity selected:
+  // group locations by body, then signal.
+  const commodity =
+    commodities[0];
 
-       if (
-  site.latitude !== null &&
-  site.latitude !== undefined &&
-  site.longitude !== null &&
-  site.longitude !== undefined
-) {
-  card.querySelector(".mining-coordinates").textContent =
-    `Coordinates: ${site.latitude}, ${site.longitude}`;
-} else {
-  card.querySelector(".mining-coordinates").textContent =
-    "Coordinates: Not yet recorded";
-}
+  const commodityHeading =
+    document.createElement("div");
 
-        card.querySelector(".mining-rigs").textContent =
-          site.notes
-            ? `${rigText}. ${site.notes}`
-            : rigText;
+  commodityHeading.className =
+    "mining-group-commodity";
 
-        card.querySelector(".mining-site-count").textContent =
-          `${commodityCount} surveyed ${
-            commodityCount === 1
-              ? "location"
-              : "locations"
-          } for ${site.commodity}`;
+  commodityHeading.textContent =
+    commodity.toUpperCase();
 
-        resultsContainer.appendChild(card);
+  resultsContainer.appendChild(
+    commodityHeading
+  );
+
+  const bodyGroups = {};
+
+  sites.forEach(site => {
+
+    const bodyKey =
+      `${site.bodyType}:${site.body}`;
+
+    if (!bodyGroups[bodyKey]) {
+      bodyGroups[bodyKey] = [];
+    }
+
+    bodyGroups[bodyKey].push(site);
+
+  });
+
+  Object.values(bodyGroups).forEach(
+    bodySites => {
+
+      const bodyGroup =
+        document.createElement("section");
+
+      bodyGroup.className =
+        "mining-body-group";
+
+      const bodyHeading =
+        document.createElement("h3");
+
+      bodyHeading.className =
+        "mining-body-heading";
+
+      bodyHeading.textContent =
+        formatBody(bodySites[0]);
+
+      bodyGroup.appendChild(
+        bodyHeading
+      );
+
+      const signalGroups = {};
+
+      bodySites.forEach(site => {
+
+        const signalKey =
+          String(site.signal);
+
+        if (!signalGroups[signalKey]) {
+          signalGroups[signalKey] = [];
+        }
+
+        signalGroups[signalKey].push(site);
 
       });
 
+      Object.entries(signalGroups).forEach(
+        ([signal, signalSites]) => {
+
+          const signalGroup =
+            document.createElement("div");
+
+          signalGroup.className =
+            "mining-signal-group";
+
+          const signalHeading =
+            document.createElement("h4");
+
+          signalHeading.className =
+            "mining-signal-heading";
+
+          signalHeading.textContent =
+            `Signal #${signal}`;
+
+          signalGroup.appendChild(
+            signalHeading
+          );
+
+          signalSites.forEach(site => {
+
+            const location =
+              document.createElement("div");
+
+            location.className =
+              "mining-location-row";
+
+            if (site.preferred) {
+              location.classList.add(
+                "primary"
+              );
+            }
+
+            let rigText;
+
+            if (
+              site.rigs === null ||
+              site.rigs === undefined
+            ) {
+              rigText =
+                "Rig count not yet recorded";
+            } else if (site.rigs === 1) {
+              rigText =
+                "1 mining rig";
+            } else {
+              rigText =
+                `${site.rigs} mining rigs`;
+            }
+
+            const primaryText =
+              site.preferred
+                ? "PRIMARY // "
+                : "";
+
+            const coordinatesText =
+              site.latitude !== null &&
+              site.latitude !== undefined &&
+              site.longitude !== null &&
+              site.longitude !== undefined
+                ? `${site.latitude}, ${site.longitude}`
+                : "Not yet recorded";
+
+            location.innerHTML = `
+              <p class="mining-location-rigs"></p>
+
+              <p class="mining-location-coordinates"></p>
+
+              <p class="mining-location-notes"></p>
+            `;
+
+            location.querySelector(
+              ".mining-location-rigs"
+            ).textContent =
+              `${primaryText}${rigText}`;
+
+            location.querySelector(
+              ".mining-location-coordinates"
+            ).textContent =
+              `Coordinates: ${coordinatesText}`;
+
+            const notesElement =
+              location.querySelector(
+                ".mining-location-notes"
+              );
+
+            if (site.notes) {
+              notesElement.textContent =
+                site.notes;
+            } else {
+              notesElement.remove();
+            }
+
+            signalGroup.appendChild(
+              location
+            );
+
+          });
+
+          bodyGroup.appendChild(
+            signalGroup
+          );
+
+        }
+      );
+
+      resultsContainer.appendChild(
+        bodyGroup
+      );
+
     }
+  );
+
+}
 
     function applyMiningFilters() {
 
