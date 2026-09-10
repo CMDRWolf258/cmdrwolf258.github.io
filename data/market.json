@@ -1,1119 +1,1119 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-09-10T12:32:45.297857+00:00",
+  "generatedAt": "2026-09-10T18:27:59.392171+00:00",
   "commodities": {
     "Advanced Medicines": {
       "price": 1794,
       "station": "Xie Cultivations",
       "demand": 532,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Agri-Medicines": {
       "price": 1647,
       "station": "Xie Cultivations",
       "demand": 2365,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Agronomic Treatment": {
       "price": 3342,
       "station": "Saturn Ascending",
       "demand": 1676,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Algae": {
       "price": 600,
       "station": "Extra Pens And Clean Sheets",
       "demand": 1502564,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-05 01:08:43+00"
+      "marketUpdated": "2026-09-05T01:08:43Z"
     },
     "Aluminium": {
       "price": 3065,
       "station": "Saturn Ascending",
       "demand": 121405,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Animal Monitors": {
       "price": 849,
       "station": "Xie Cultivations",
       "demand": 7251,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Aquaponic Systems": {
       "price": 2459,
       "station": "Xie Cultivations",
       "demand": 1617,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Articulation Motors": {
       "price": 7446,
       "station": "Eon Blue Apocalypse",
       "demand": 35729,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Auto-Fabricators": {
       "price": 4158,
       "station": "Saturn Ascending",
       "demand": 20619,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Bastnasite": {
       "price": 66941,
       "station": "Eon Blue Apocalypse",
       "demand": 222974,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Battle Weapons": {
       "price": 7410,
       "station": "King's Mountain View",
       "demand": 849638,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Beer": {
       "price": 692,
       "station": "Vega's Astrophysics",
       "demand": 504,
       "marketId": 4386133251,
-      "marketUpdated": "2026-08-27 22:23:33+00"
+      "marketUpdated": "2026-08-27T22:23:33Z"
     },
     "Beryllium": {
       "price": 42043,
       "station": "Saturn Ascending",
       "demand": 67866,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Bioreducing Lichen": {
       "price": 1468,
       "station": "Saturn Ascending",
       "demand": 430917,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Bismuth": {
       "price": 2936,
       "station": "Eon Blue Apocalypse",
       "demand": 670549,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Bootleg Liquor": {
       "price": 625,
       "station": "Eon Blue Apocalypse",
       "demand": 5036,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Bromellite": {
       "price": 29983,
       "station": "Eon Blue Apocalypse",
       "demand": 443369,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "CMM Composite": {
       "price": 6589,
       "station": "Eon Blue Apocalypse",
       "demand": 244155,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Ceramic Composites": {
       "price": 662,
       "station": "Eon Blue Apocalypse",
       "demand": 369963,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Chemical Waste": {
       "price": 610,
       "station": "Eon Blue Apocalypse",
       "demand": 294989,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Clothing": {
       "price": 866,
       "station": "Xie Cultivations",
       "demand": 690,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Coffee": {
       "price": 1840,
       "station": "Extra Pens And Clean Sheets",
       "demand": 31193,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-05 01:08:43+00"
+      "marketUpdated": "2026-09-05T01:08:43Z"
     },
     "Combat Stabilisers": {
       "price": 3430,
       "station": "King's Mountain View",
       "demand": 369751,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Computer Components": {
       "price": 1027,
       "station": "Eon Blue Apocalypse",
       "demand": 993892,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Conductive Fabrics": {
       "price": 948,
       "station": "King's Mountain View",
       "demand": 184950,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Consumer Technology": {
       "price": 7411,
       "station": "King's Mountain View",
       "demand": 1644053,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Copper": {
       "price": 948,
       "station": "Saturn Ascending",
       "demand": 556206,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Crop Harvesters": {
       "price": 2899,
       "station": "Xie Cultivations",
       "demand": 947,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Cryolite": {
       "price": 14130,
       "station": "Eon Blue Apocalypse",
       "demand": 2235910,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Deuterium": {
       "price": 34584,
       "station": "Eon Blue Apocalypse",
       "demand": 222974,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Diamond": {
       "price": 101134,
       "station": "Eon Blue Apocalypse",
       "demand": 222974,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Domestic Appliances": {
       "price": 1013,
       "station": "Eon Blue Apocalypse",
       "demand": 322932,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Emergency Power Cells": {
       "price": 2783,
       "station": "Eon Blue Apocalypse",
       "demand": 9773,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Energy Grid Assembly": {
       "price": 3099,
       "station": "Eon Blue Apocalypse",
       "demand": 85605,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Exhaust Manifold": {
       "price": 2261,
       "station": "Eon Blue Apocalypse",
       "demand": 107184,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Explosives": {
       "price": 828,
       "station": "Romano Territories",
       "demand": 936,
       "marketId": 4374917123,
-      "marketUpdated": "2026-08-18 16:17:28+00"
+      "marketUpdated": "2026-08-18T16:17:28Z"
     },
     "Fish": {
       "price": 875,
       "station": "Gao Base",
       "demand": 712484,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Fruit and Vegetables": {
       "price": 778,
       "station": "Extra Pens And Clean Sheets",
       "demand": 112458,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-05 01:08:43+00"
+      "marketUpdated": "2026-09-05T01:08:43Z"
     },
     "Gallium": {
       "price": 26545,
       "station": "Saturn Ascending",
       "demand": 45713,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Goslarite": {
       "price": 7513,
       "station": "Osuigwe Manufacturing Depot",
       "demand": 510,
       "marketId": 4381327363,
-      "marketUpdated": "2026-08-03 00:47:16+00"
+      "marketUpdated": "2026-08-03T00:47:16Z"
     },
     "Grain": {
       "price": 725,
       "station": "Vega's Astrophysics",
       "demand": 571,
       "marketId": 4386133251,
-      "marketUpdated": "2026-08-27 22:23:33+00"
+      "marketUpdated": "2026-08-27T22:23:33Z"
     },
     "H.E. Suits": {
       "price": 820,
       "station": "Xie Cultivations",
       "demand": 1617,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "HN Shock Mount": {
       "price": 2348,
       "station": "King's Mountain View",
       "demand": 23917,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Hardware Diagnostic Sensor": {
       "price": 7446,
       "station": "Eon Blue Apocalypse",
       "demand": 51166,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Heatsink Interlink": {
       "price": 2504,
       "station": "Eon Blue Apocalypse",
       "demand": 98940,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Helium": {
       "price": 81295,
       "station": "Eon Blue Apocalypse",
       "demand": 3733,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Helium-3": {
       "price": 76079,
       "station": "Eon Blue Apocalypse",
       "demand": 3733,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Hydrogen Peroxide": {
       "price": 2967,
       "station": "Eon Blue Apocalypse",
       "demand": 705360,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Indium": {
       "price": 24844,
       "station": "King's Mountain View",
       "demand": 23928,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Insulating Membrane": {
       "price": 11483,
       "station": "Gao Base",
       "demand": 243953,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Iridium": {
       "price": 149332,
       "station": "Eon Blue Apocalypse",
       "demand": 235596,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Jadeite": {
       "price": 41559,
       "station": "Eon Blue Apocalypse",
       "demand": 59374,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Land Enrichment Systems": {
       "price": 5652,
       "station": "Xie Cultivations",
       "demand": 3429,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Lanthanum": {
       "price": 9542,
       "station": "Eon Blue Apocalypse",
       "demand": 802461,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Leather": {
       "price": 637,
       "station": "Everest Horizons",
       "demand": 97738,
       "marketId": 4388359171,
-      "marketUpdated": "2026-09-07 01:23:06+00"
+      "marketUpdated": "2026-09-07T01:23:06Z"
     },
     "Liquid oxygen": {
       "price": 2227,
       "station": "Romano Territories",
       "demand": 1341,
       "marketId": 4374917123,
-      "marketUpdated": "2026-08-18 16:17:28+00"
+      "marketUpdated": "2026-08-18T16:17:28Z"
     },
     "Liquor": {
       "price": 1134,
       "station": "Eon Blue Apocalypse",
       "demand": 56496,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Lithium": {
       "price": 2238,
       "station": "Saturn Ascending",
       "demand": 479808,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Lithium Hydroxide": {
       "price": 5500,
       "station": "Eon Blue Apocalypse",
       "demand": 1263336,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Low Temperature Diamonds": {
       "price": 98112,
       "station": "Eon Blue Apocalypse",
       "demand": 13566,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Magnesite": {
       "price": 32387,
       "station": "Eon Blue Apocalypse",
       "demand": 222974,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Magnetic Emitter Coil": {
       "price": 1697,
       "station": "Eon Blue Apocalypse",
       "demand": 148409,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Medical Diagnostic Equipment": {
       "price": 3391,
       "station": "Saturn Ascending",
       "demand": 46543,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Meta-Alloys": {
       "price": 194599,
       "station": "Eon Blue Apocalypse",
       "demand": 72881,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Methane Clathrate": {
       "price": 1547,
       "station": "Osuigwe Manufacturing Depot",
       "demand": 1092,
       "marketId": 4381327363,
-      "marketUpdated": "2026-08-03 00:47:16+00"
+      "marketUpdated": "2026-08-03T00:47:16Z"
     },
     "Methanol Monohydrate Crystals": {
       "price": 2379,
       "station": "Eon Blue Apocalypse",
       "demand": 1374076,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Micro Controllers": {
       "price": 6099,
       "station": "Saturn Ascending",
       "demand": 21995,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Micro-weave Cooling Hoses": {
       "price": 1776,
       "station": "Eon Blue Apocalypse",
       "demand": 83060,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Military Grade Fabrics": {
       "price": 1289,
       "station": "King's Mountain View",
       "demand": 36756,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Mineral Extractors": {
       "price": 1074,
       "station": "King's Mountain View",
       "demand": 69388,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Mineral Oil": {
       "price": 657,
       "station": "Eon Blue Apocalypse",
       "demand": 3492165,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Modular Terminals": {
       "price": 2379,
       "station": "Eon Blue Apocalypse",
       "demand": 104436,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Moissanite": {
       "price": 24289,
       "station": "Mendez Entertainment Resort",
       "demand": 1035,
       "marketId": 4380933123,
-      "marketUpdated": "2026-08-06 16:12:39+00"
+      "marketUpdated": "2026-08-06T16:12:39Z"
     },
     "Monazite": {
       "price": 196374,
       "station": "Eon Blue Apocalypse",
       "demand": 14735,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Nanobreakers": {
       "price": 2261,
       "station": "Eon Blue Apocalypse",
       "demand": 153496,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Natural Fabrics": {
       "price": 875,
       "station": "Saturn Ascending",
       "demand": 1297495,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Neofabric Insulation": {
       "price": 5839,
       "station": "Eon Blue Apocalypse",
       "demand": 246461,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Nerve Agents": {
       "price": 13946,
       "station": "Eon Blue Apocalypse",
       "demand": 543,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Olivine": {
       "price": 26615,
       "station": "Eon Blue Apocalypse",
       "demand": 222974,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Osmium": {
       "price": 40431,
       "station": "Eon Blue Apocalypse",
       "demand": 532262,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Painite": {
       "price": 49679,
       "station": "Eon Blue Apocalypse",
       "demand": 13762,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Performance Enhancers": {
       "price": 7410,
       "station": "King's Mountain View",
       "demand": 886788,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Periclase Dunite": {
       "price": 149332,
       "station": "Eon Blue Apocalypse",
       "demand": 222974,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Pesticides": {
       "price": 820,
       "station": "Xie Cultivations",
       "demand": 1301,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Platinum": {
       "price": 57000,
       "station": "Huntley Tourism Lodge",
       "demand": 636,
       "marketId": 4381919491,
-      "marketUpdated": "2026-08-11 22:34:20+00"
+      "marketUpdated": "2026-08-11T22:34:20Z"
     },
     "Polymers": {
       "price": 610,
       "station": "Saturn Ascending",
       "demand": 789207,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Power Converter": {
       "price": 1776,
       "station": "Eon Blue Apocalypse",
       "demand": 140164,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Praseodymium": {
       "price": 8425,
       "station": "Eon Blue Apocalypse",
       "demand": 459791,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Progenitor Cells": {
       "price": 7409,
       "station": "King's Mountain View",
       "demand": 863801,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Pyrophyllite": {
       "price": 13650,
       "station": "Eon Blue Apocalypse",
       "demand": 5631810,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Quartz Pyroxenite": {
       "price": 39443,
       "station": "Eon Blue Apocalypse",
       "demand": 222974,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Radiation Baffle": {
       "price": 2151,
       "station": "Eon Blue Apocalypse",
       "demand": 8551,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Robotics": {
       "price": 2316,
       "station": "Saturn Ascending",
       "demand": 53943,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Ruby": {
       "price": 82916,
       "station": "Eon Blue Apocalypse",
       "demand": 222974,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Samarium": {
       "price": 25468,
       "station": "Eon Blue Apocalypse",
       "demand": 292595,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Sapphire": {
       "price": 93955,
       "station": "Eon Blue Apocalypse",
       "demand": 222974,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Semiconductors": {
       "price": 1406,
       "station": "Extra Pens And Clean Sheets",
       "demand": 3107169,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-05 01:08:43+00"
+      "marketUpdated": "2026-09-05T01:08:43Z"
     },
     "Steel": {
       "price": 4833,
       "station": "Saturn Ascending",
       "demand": 97945,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Superconductors": {
       "price": 7393,
       "station": "King's Mountain View",
       "demand": 53812,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Synthetic Fabrics": {
       "price": 633,
       "station": "Saturn Ascending",
       "demand": 653064,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Synthetic Meat": {
       "price": 705,
       "station": "King's Mountain View",
       "demand": 689678,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Synthetic Reagents": {
       "price": 7446,
       "station": "Eon Blue Apocalypse",
       "demand": 106266,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Taaffeite": {
       "price": 51207,
       "station": "Eon Blue Apocalypse",
       "demand": 59374,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Tantalum": {
       "price": 14816,
       "station": "Extra Pens And Clean Sheets",
       "demand": 679632,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-05 01:08:43+00"
+      "marketUpdated": "2026-09-05T01:08:43Z"
     },
     "Tea": {
       "price": 2027,
       "station": "Extra Pens And Clean Sheets",
       "demand": 112216,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-05 01:08:43+00"
+      "marketUpdated": "2026-09-05T01:08:43Z"
     },
     "Telemetry Suite": {
       "price": 3099,
       "station": "Eon Blue Apocalypse",
       "demand": 114138,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Thallium": {
       "price": 4347,
       "station": "Eon Blue Apocalypse",
       "demand": 780475,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Thorium": {
       "price": 12278,
       "station": "Eon Blue Apocalypse",
       "demand": 657115,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Thortveitite": {
       "price": 149332,
       "station": "Eon Blue Apocalypse",
       "demand": 222974,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Titanium": {
       "price": 5129,
       "station": "Saturn Ascending",
       "demand": 92862,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Tobacco": {
       "price": 5469,
       "station": "Gao Base",
       "demand": 100825,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Tritium": {
       "price": 53670,
       "station": "King's Mountain View",
       "demand": 3568,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Unoccupied Escape Pod": {
       "price": 4103,
       "station": "Eon Blue Apocalypse",
       "demand": 12178,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Uranium": {
       "price": 7882,
       "station": "Saturn Ascending",
       "demand": 179937,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-05 19:02:12+00"
+      "marketUpdated": "2026-09-05T19:02:12Z"
     },
     "Void Opal": {
       "price": 132375,
       "station": "Eon Blue Apocalypse",
       "demand": 17562,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Water": {
       "price": 655,
       "station": "Vega's Astrophysics",
       "demand": 629,
       "marketId": 4386133251,
-      "marketUpdated": "2026-08-27 22:23:33+00"
+      "marketUpdated": "2026-08-27T22:23:33Z"
     },
     "Water Purifiers": {
       "price": 1265,
       "station": "Xie Cultivations",
       "demand": 3228,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Wine": {
       "price": 710,
       "station": "Gao Base",
       "demand": 1248837,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Advanced Catalysers": {
       "price": 3388,
       "station": "Gao Base",
       "demand": 2143990,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Alexandrite": {
       "price": 209391,
       "station": "Eon Blue Apocalypse",
       "demand": 14652,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Atmospheric Processors": {
       "price": 879,
       "station": "Eon Blue Apocalypse",
       "demand": 350929,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Basic Medicines": {
       "price": 768,
       "station": "King's Mountain View",
       "demand": 605475,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Bauxite": {
       "price": 1479,
       "station": "Eon Blue Apocalypse",
       "demand": 2254909,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Benitoite": {
       "price": 144176,
       "station": "Eon Blue Apocalypse",
       "demand": 14652,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Bertrandite": {
       "price": 21281,
       "station": "Eon Blue Apocalypse",
       "demand": 2089477,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Cobalt": {
       "price": 4845,
       "station": "King's Mountain View",
       "demand": 307480,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Coltan": {
       "price": 7404,
       "station": "Eon Blue Apocalypse",
       "demand": 1657916,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Food Cartridges": {
       "price": 598,
       "station": "King's Mountain View",
       "demand": 341138,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Gallite": {
       "price": 13447,
       "station": "Eon Blue Apocalypse",
       "demand": 3125293,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Gold": {
       "price": 50820,
       "station": "Extra Pens And Clean Sheets",
       "demand": 893660,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-05 01:08:43+00"
+      "marketUpdated": "2026-09-05T01:08:43Z"
     },
     "Grandidierite": {
       "price": 189989,
       "station": "Eon Blue Apocalypse",
       "demand": 14652,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Haematite": {
       "price": 2239,
       "station": "Eon Blue Apocalypse",
       "demand": 589666,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Indite": {
       "price": 13069,
       "station": "Eon Blue Apocalypse",
       "demand": 2312451,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Lepidolite": {
       "price": 1089,
       "station": "Eon Blue Apocalypse",
       "demand": 3398547,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Marine Equipment": {
       "price": 5030,
       "station": "Xie Cultivations",
       "demand": 1154,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Musgravite": {
       "price": 191307,
       "station": "Eon Blue Apocalypse",
       "demand": 14652,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Non-Lethal Weapons": {
       "price": 2329,
       "station": "King's Mountain View",
       "demand": 45081,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Palladium": {
       "price": 53814,
       "station": "Huntley Tourism Lodge",
       "demand": 825,
       "marketId": 4381919491,
-      "marketUpdated": "2026-08-11 22:34:20+00"
+      "marketUpdated": "2026-08-11T22:34:20Z"
     },
     "Personal Weapons": {
       "price": 4856,
       "station": "King's Mountain View",
       "demand": 270670,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Power Generators": {
       "price": 3177,
       "station": "Xie Cultivations",
       "demand": 1050,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Reactive Armour": {
       "price": 2559,
       "station": "King's Mountain View",
       "demand": 121136,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-06 23:42:13+00"
+      "marketUpdated": "2026-09-06T23:42:13Z"
     },
     "Resonating Separators": {
       "price": 6544,
       "station": "Gao Base",
       "demand": 1219293,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Rhodplumsite": {
       "price": 172464,
       "station": "Eon Blue Apocalypse",
       "demand": 14704,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Rutile": {
       "price": 2498,
       "station": "Eon Blue Apocalypse",
       "demand": 3650834,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Serendibite": {
       "price": 166524,
       "station": "Eon Blue Apocalypse",
       "demand": 14652,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Silver": {
       "price": 40830,
       "station": "Huntley Tourism Lodge",
       "demand": 894,
       "marketId": 4381919491,
-      "marketUpdated": "2026-08-11 22:34:20+00"
+      "marketUpdated": "2026-08-11T22:34:20Z"
     },
     "Uraninite": {
       "price": 3823,
       "station": "Eon Blue Apocalypse",
       "demand": 4743579,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-10 05:56:59+00"
+      "marketUpdated": "2026-09-10T05:56:59Z"
     },
     "Animal Meat": {
       "price": 1840,
       "station": "Gao Base",
       "demand": 255095,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Microbial Furnaces": {
       "price": 592,
       "station": "Gao Base",
       "demand": 1256117,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Scrap": {
       "price": 175,
       "station": "Everest Horizons",
       "demand": 4890,
       "marketId": 4388359171,
-      "marketUpdated": "2026-09-07 01:23:06+00"
+      "marketUpdated": "2026-09-07T01:23:06Z"
     },
     "Onionhead Gamma Strain": {
       "price": 5545,
       "station": "Romano Territories",
       "demand": 522,
       "marketId": 4374917123,
-      "marketUpdated": "2026-08-18 16:17:28+00"
+      "marketUpdated": "2026-08-18T16:17:28Z"
     },
     "Surface Stabilisers": {
       "price": 1302,
       "station": "Vega's Astrophysics",
       "demand": 1696,
       "marketId": 4386133251,
-      "marketUpdated": "2026-08-27 22:23:33+00"
+      "marketUpdated": "2026-08-27T22:23:33Z"
     },
     "Building Fabricators": {
       "price": 2980,
       "station": "Vega's Astrophysics",
       "demand": 523,
       "marketId": 4386133251,
-      "marketUpdated": "2026-08-27 22:23:33+00"
+      "marketUpdated": "2026-08-27T22:23:33Z"
     },
     "Ion Distributor": {
       "price": 2760,
       "station": "Gao Base",
       "demand": 29646,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Muon Imager": {
       "price": 6905,
       "station": "Gao Base",
       "demand": 53792,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Power Transfer Bus": {
       "price": 2616,
       "station": "Gao Base",
       "demand": 15750,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Reinforced Mounting Plate": {
       "price": 2912,
       "station": "Gao Base",
       "demand": 53849,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Structural Regulators": {
       "price": 2301,
       "station": "Gao Base",
       "demand": 18590,
       "marketId": 4375494403,
-      "marketUpdated": "2026-09-07 01:17:09+00"
+      "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Geological Equipment": {
       "price": 2613,
       "station": "Xie Cultivations",
       "demand": 701,
       "marketId": 4376365059,
-      "marketUpdated": "2026-07-09 01:39:32+00"
+      "marketUpdated": "2026-07-09T01:39:32Z"
     }
   }
 }
