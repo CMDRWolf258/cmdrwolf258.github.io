@@ -488,7 +488,7 @@ if (ageMinutes < 60) {
       ? `STALE — Updated ${ageDays}d ago`
       : `Updated ${ageDays}d ago`;
 
-}
+  }
 
 }
     
