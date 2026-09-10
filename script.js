@@ -897,8 +897,8 @@ copyButton.textContent =
 
             const primaryText =
               site.preferred
-                ? "PRIMARY // "
-                : "";
+              ? "PRIMARY SITE // "
+               : "";
 
             const coordinatesText =
               site.latitude !== null &&
