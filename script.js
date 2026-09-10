@@ -805,7 +805,11 @@ function renderSites(sites, modeText) {
             "mining-signal-heading";
 
           signalHeading.textContent =
-            `Signal #${signal}`;
+  `Signal #${signal} · ${signalSites.length} ${
+    signalSites.length === 1
+      ? "location"
+      : "locations"
+  }`;
 
           signalGroup.appendChild(
             signalHeading
