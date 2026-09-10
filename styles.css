@@ -992,6 +992,15 @@ footer {
   background: rgba(255, 255, 255, 0.015);
 }
 
+.mining-signal-group:has(.mining-location-row:only-of-type) {
+  padding-bottom: 0.65rem;
+}
+
+.mining-signal-group:has(.mining-location-row:only-of-type)
+.mining-location-row {
+  padding-bottom: 0.3rem;
+}
+
 .mining-signal-heading {
   margin: 0 0 0.7rem;
   padding-bottom: 0.45rem;
