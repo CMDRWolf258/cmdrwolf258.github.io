@@ -858,13 +858,21 @@ function renderSites(sites, modeText) {
                 ? `${site.latitude}, ${site.longitude}`
                 : "Not yet recorded";
 
-            location.innerHTML = `
-              <p class="mining-location-rigs"></p>
+location.innerHTML = `
+  <p class="mining-location-rigs"></p>
 
-              <p class="mining-location-coordinates"></p>
+  <div class="mining-coordinate-line">
+    <p class="mining-location-coordinates"></p>
+    <button
+      type="button"
+      class="copy-coordinates-button"
+    >
+      Copy Coordinates
+    </button>
+  </div>
 
-              <p class="mining-location-notes"></p>
-            `;
+  <p class="mining-location-notes"></p>
+`;
 
             location.querySelector(
               ".mining-location-rigs"
@@ -875,6 +883,46 @@ function renderSites(sites, modeText) {
               ".mining-location-coordinates"
             ).textContent =
               `Coordinates: ${coordinatesText}`;
+
+            const copyButton =
+  location.querySelector(
+    ".copy-coordinates-button"
+  );
+
+if (
+  site.latitude !== null &&
+  site.latitude !== undefined &&
+  site.longitude !== null &&
+  site.longitude !== undefined
+) {
+
+  copyButton.addEventListener(
+    "click",
+    async () => {
+
+      const coordinates =
+        `${site.latitude}, ${site.longitude}`;
+
+      await navigator.clipboard.writeText(
+        coordinates
+      );
+
+      copyButton.textContent =
+        "Copied";
+
+      setTimeout(() => {
+        copyButton.textContent =
+          "Copy Coordinates";
+      }, 1500);
+
+    }
+  );
+
+} else {
+
+  copyButton.remove();
+
+}
 
             const notesElement =
               location.querySelector(
