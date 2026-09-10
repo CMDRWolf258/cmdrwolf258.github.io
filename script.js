@@ -729,12 +729,12 @@ const coordinates =
         coordinates
       );
 
-      copyButton.textContent =
-        "Copied";
+copyButton.textContent =
+  "✓";
 
       setTimeout(() => {
-        copyButton.textContent =
-          "Copy Coordinates";
+copyButton.textContent =
+  "⧉";
       }, 1500);
 
     }
@@ -959,12 +959,12 @@ const coordinates =
         coordinates
       );
 
-      copyButton.textContent =
-        "Copied";
+copyButton.textContent =
+  "✓";
 
       setTimeout(() => {
-        copyButton.textContent =
-          "Copy Coordinates";
+copyButton.textContent =
+  "⧉";
       }, 1500);
 
     }
