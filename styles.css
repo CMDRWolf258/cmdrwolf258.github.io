@@ -1045,6 +1045,11 @@ footer {
   letter-spacing: 0.04em;
 }
 
+.mining-location-row.primary .mining-location-rigs::before {
+  content: "★";
+  margin-right: 0.4rem;
+}
+
 .mining-location-coordinates {
   font-family: monospace;
   font-size: 0.92rem;
