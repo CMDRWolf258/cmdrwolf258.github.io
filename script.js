@@ -468,18 +468,25 @@ if (marketInfo) {
   const ageMinutes =
     Math.floor(ageMilliseconds / 60000);
 
-  if (ageMinutes < 60) {
-    marketAgeText =
-      `Updated ${ageMinutes}m ago`;
-  } else if (ageMinutes < 1440) {
-    marketAgeText =
-      `Updated ${Math.floor(ageMinutes / 60)}h ago`;
-  } else {
-    marketAgeText =
-      `Updated ${Math.floor(ageMinutes / 1440)}d ago`;
-  }
+if (ageMinutes < 60) {
 
-}
+  marketAgeText =
+    `Updated ${ageMinutes}m ago`;
+
+} else if (ageMinutes < 1440) {
+
+  marketAgeText =
+    `Updated ${Math.floor(ageMinutes / 60)}h ago`;
+
+} else {
+
+  const ageDays =
+    Math.floor(ageMinutes / 1440);
+
+  marketAgeText =
+    ageDays >= 7
+      ? `STALE — Updated ${ageDays}d ago`
+      : `Updated ${ageDays}d ago`;
 
 }
 
