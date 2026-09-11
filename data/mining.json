@@ -2952,11 +2952,11 @@
   "body": "9d",
   "bodyType": "moon",
   "signal": 2,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
+  "latitude": 49.1120,
+  "longitude": 38.0386,
+  "rigs": 2,
   "preferred": false,
-  "notes": ""
+  "notes": "2-rig site. Moderate terrain."
 },
 {
   "commodity": "Ruby",
