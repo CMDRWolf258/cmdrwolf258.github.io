@@ -14,7 +14,7 @@
     {
       "name": "The Consortium",
       "influence": 0.165657,
-      "state": "None",
+      "state": "Expansion",
       "allegiance": "Independent",
       "government": "Anarchy",
       "isPlayer": false,
@@ -39,5 +39,5 @@
       "controlling": false
     }
   ],
-  "lastUpdated": "2026-09-11T06:31:31.883594+00:00"
+  "lastUpdated": "2026-09-11T12:32:06.208579+00:00"
 }
