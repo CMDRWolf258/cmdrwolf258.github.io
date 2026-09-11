@@ -499,11 +499,11 @@
   "body": "9d",
   "bodyType": "moon",
   "signal": 2,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
+  "latitude": 49.2395,
+  "longitude": 38.1805,
+  "rigs": 2,
   "preferred": false,
-  "notes": "Known Grandidierite signal."
+  "notes": "2-rig site. Flat terrain."
 },
 {
   "commodity": "Grandidierite",
@@ -536,7 +536,7 @@
   "longitude": null,
   "rigs": null,
   "preferred": false,
-  "notes": "Known Grandidierite signal."
+  "notes": "Scouted. Small deposits. Low priority. Signal also contains Monazite."
 },
 {
   "commodity": "Grandidierite",
@@ -620,11 +620,11 @@
   "body": "11d",
   "bodyType": "moon",
   "signal": 2,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
+  "latitude": -3.2957,
+  "longitude": 10.4284,
+  "rigs": 5,
   "preferred": false,
-  "notes": "Known Grandidierite signal."
+  "notes": "5-rig site. Rough terrain. Best Grandidierite capacity found during this scouting pass."
 },
 {
   "commodity": "Grandidierite",
@@ -635,7 +635,7 @@
   "longitude": null,
   "rigs": null,
   "preferred": false,
-  "notes": "Known Grandidierite signal."
+  "notes": "Scouted. Small deposits. Low priority."
 },
 {
   "commodity": "Grandidierite",
@@ -646,7 +646,7 @@
   "longitude": null,
   "rigs": null,
   "preferred": false,
-  "notes": "Known Grandidierite signal."
+  "notes": "Scouted. Small deposits. Low priority. Signal also contains Monazite."
 },
 {
   "commodity": "Grandidierite",
@@ -657,7 +657,7 @@
   "longitude": null,
   "rigs": null,
   "preferred": false,
-  "notes": "Known Grandidierite signal."
+  "notes": "Scouted. Small deposits. Low priority."
 },
 {
   "commodity": "Grandidierite",
@@ -668,7 +668,7 @@
   "longitude": null,
   "rigs": null,
   "preferred": false,
-  "notes": "Known Grandidierite signal."
+  "notes": "Scouted. Small deposits. Low priority."
 },
 {
   "commodity": "Grandidierite",
@@ -679,7 +679,7 @@
   "longitude": null,
   "rigs": null,
   "preferred": false,
-  "notes": "Known Grandidierite signal."
+  "notes": "Detailed scouting completed. Grandidierite deposit could not be located."
 },
 {
   "commodity": "Grandidierite",
