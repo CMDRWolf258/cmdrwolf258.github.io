@@ -2820,11 +2820,11 @@
   "body": "3",
   "bodyType": "planet",
   "signal": 14,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
+  "latitude": 31.9965,
+  "longitude": 28.5799,
+  "rigs": 3,
   "preferred": false,
-  "notes": ""
+  "notes": "3-rig site."
 },
 {
   "commodity": "Platinum",
