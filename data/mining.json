@@ -3117,11 +3117,44 @@
   "body": "9a",
   "bodyType": "moon",
   "signal": 14,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
+  "latitude": -15.1487,
+  "longitude": 17.2129,
+  "rigs": 1,
   "preferred": false,
-  "notes": ""
+  "notes": "Part of a compact mixed-resource cluster with nearby Alexandrite deposits."
+},
+{
+  "commodity": "Serendibite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 14,
+  "latitude": -15.1466,
+  "longitude": 17.2342,
+  "rigs": 1,
+  "preferred": false,
+  "notes": "Part of a compact mixed-resource cluster with nearby Alexandrite deposits."
+},
+{
+  "commodity": "Serendibite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 14,
+  "latitude": -15.2611,
+  "longitude": 17.1623,
+  "rigs": 1,
+  "preferred": false,
+  "notes": "Part of a compact mixed-resource cluster with nearby Alexandrite deposits."
+},
+{
+  "commodity": "Serendibite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 14,
+  "latitude": -15.1671,
+  "longitude": 17.1285,
+  "rigs": 1,
+  "preferred": false,
+  "notes": "Part of a compact mixed-resource cluster with nearby Alexandrite deposits."
 },
 {
   "commodity": "Serendibite",
