@@ -2545,11 +2545,11 @@
   "body": "7b",
   "bodyType": "moon",
   "signal": 3,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
+  "latitude": -22.7738,
+  "longitude": -98.8161,
+  "rigs": 2,
   "preferred": false,
-  "notes": ""
+  "notes": "2-rig site."
 },
 {
   "commodity": "Periclase Dunite",
@@ -2560,18 +2560,18 @@
   "longitude": null,
   "rigs": null,
   "preferred": false,
-  "notes": ""
+  "notes": "Scouted. Small deposits. Low priority."
 },
 {
   "commodity": "Periclase Dunite",
   "body": "7b",
   "bodyType": "moon",
-  "signal": 9,
+  "signal": 10,
   "latitude": null,
   "longitude": null,
   "rigs": null,
   "preferred": false,
-  "notes": ""
+  "notes": "Scouted. Small deposits. Low priority."
 },
 {
   "commodity": "Periclase Dunite",
