@@ -2215,11 +2215,11 @@
   "body": "9a",
   "bodyType": "moon",
   "signal": 14,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
+  "latitude": -15.0169,
+  "longitude": 17.2048,
+  "rigs": 1,
   "preferred": false,
-  "notes": ""
+  "notes": "1-rig site. Part of a compact mixed-resource area with nearby Alexandrite."
 },
 {
   "commodity": "Monazite",
@@ -3062,11 +3062,11 @@
   "body": "9a",
   "bodyType": "moon",
   "signal": 14,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
+  "latitude": -15.0621,
+  "longitude": 17.1904,
+  "rigs": 3,
   "preferred": false,
-  "notes": ""
+  "notes": "3-rig site. Flat terrain."
 },
 {
   "commodity": "Sapphire",
