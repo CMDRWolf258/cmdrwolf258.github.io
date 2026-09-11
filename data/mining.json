@@ -972,11 +972,44 @@
   "body": "9a",
   "bodyType": "moon",
   "signal": 14,
-  "latitude": null,
-  "longitude": null,
-  "rigs": null,
+  "latitude": -15.2031,
+  "longitude": 17.2280,
+  "rigs": 1,
   "preferred": false,
-  "notes": ""
+  "notes": "Part of a compact mixed-resource cluster with nearby Serendibite deposits."
+},
+{
+  "commodity": "Alexandrite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 14,
+  "latitude": -15.0021,
+  "longitude": 17.2493,
+  "rigs": 1,
+  "preferred": false,
+  "notes": "Part of a compact mixed-resource area with nearby Monazite."
+},
+{
+  "commodity": "Alexandrite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 14,
+  "latitude": -14.9485,
+  "longitude": 17.2256,
+  "rigs": 2,
+  "preferred": false,
+  "notes": "2-rig site. Part of a compact mixed-resource area with nearby Monazite."
+},
+{
+  "commodity": "Alexandrite",
+  "body": "9a",
+  "bodyType": "moon",
+  "signal": 14,
+  "latitude": -15.1234,
+  "longitude": 17.6206,
+  "rigs": 5,
+  "preferred": false,
+  "notes": "5-rig site. Flat terrain. One of the strongest known Alexandrite locations."
 },
 {
   "commodity": "Alexandrite",
