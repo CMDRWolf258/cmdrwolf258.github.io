@@ -243,6 +243,17 @@
 },
 {
   "commodity": "Diamonds",
+  "body": "11d",
+  "bodyType": "moon",
+  "signal": 17,
+  "latitude": -41.1862,
+  "longitude": 158.1154,
+  "rigs": 3,
+  "preferred": false,
+  "notes": "3-rig site. Hilly terrain. Usable secondary location; does not replace the preferred Diamond site on Planet 5 Signal #4."
+},
+{
+  "commodity": "Diamonds",
   "body": "5",
   "bodyType": "planet",
   "signal": 4,
@@ -3177,6 +3188,17 @@
   "rigs": null,
   "preferred": false,
   "notes": ""
+},
+{
+  "commodity": "Thorium",
+  "body": "11d",
+  "bodyType": "moon",
+  "signal": 17,
+  "latitude": -40.9325,
+  "longitude": 157.9498,
+  "rigs": 6,
+  "preferred": true,
+  "notes": "6-rig site. Mostly flat terrain. Preferred Thorium site."
 },
 {
   "commodity": "Thorium",
