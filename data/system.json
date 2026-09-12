@@ -1,5 +1,5 @@
 {
-  "population": 3185355485,
+  "population": 3222326372,
   "controllingFaction": "Regiment of Imperial Mongrels",
   "factions": [
     {
@@ -14,7 +14,7 @@
     {
       "name": "The Consortium",
       "influence": 0.165657,
-      "state": "Expansion",
+      "state": "None",
       "allegiance": "Independent",
       "government": "Anarchy",
       "isPlayer": false,
@@ -39,5 +39,5 @@
       "controlling": false
     }
   ],
-  "lastUpdated": "2026-09-11T18:29:20.408118+00:00"
+  "lastUpdated": "2026-09-12T00:31:54.304188+00:00"
 }
