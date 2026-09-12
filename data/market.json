@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-09-12T00:31:54.302814+00:00",
+  "generatedAt": "2026-09-12T06:29:50.111980+00:00",
   "commodities": {
     "Advanced Medicines": {
       "price": 1794,
@@ -322,14 +322,14 @@
       "station": "Eon Blue Apocalypse",
       "demand": 3829,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Helium-3": {
       "price": 76079,
       "station": "Eon Blue Apocalypse",
       "demand": 3829,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Hydrogen Peroxide": {
       "price": 2967,
@@ -399,7 +399,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 57952,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Lithium": {
       "price": 2245,
@@ -497,7 +497,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 3580936,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Modular Terminals": {
       "price": 2379,
@@ -861,7 +861,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 2312226,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Benitoite": {
       "price": 144176,
@@ -875,7 +875,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 2142588,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Cobalt": {
       "price": 4883,
@@ -889,7 +889,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 1700058,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Food Cartridges": {
       "price": 608,
@@ -903,7 +903,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 3204732,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Gold": {
       "price": 50846,
@@ -924,21 +924,21 @@
       "station": "Eon Blue Apocalypse",
       "demand": 604654,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Indite": {
       "price": 13069,
       "station": "Eon Blue Apocalypse",
       "demand": 2371230,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Lepidolite": {
       "price": 1089,
       "station": "Eon Blue Apocalypse",
       "demand": 3484932,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Marine Equipment": {
       "price": 5030,
@@ -1008,7 +1008,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 3743633,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Serendibite": {
       "price": 166524,
@@ -1029,7 +1029,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 4864155,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-11T22:34:57Z"
+      "marketUpdated": "2026-09-12T03:05:31Z"
     },
     "Animal Meat": {
       "price": 1840,
