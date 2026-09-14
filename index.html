@@ -7,18 +7,30 @@
 
   <title>10-16 Colonial Operations Archive</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="visual-polish.css">
   <link rel="stylesheet" href="command-ui.css">
+  <link rel="stylesheet" href="concept-fidelity.css">
 </head>
 
-<body class="page-home">
+<body class="page-home concept-home">
 
-  <header class="site-header command-bar">
-    <div class="command-header-inner">
-      <a class="archive-brand" href="index.html" aria-label="10-16 archive home">
-        <svg class="archive-emblem" viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M32 6v38M32 20 20 10M32 20 44 10M32 28 15 17M32 28 49 17M32 36 11 24M32 36 53 24M32 44 20 36M32 44 44 36M24 48l8 10 8-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <header class="site-header command-bar concept-header">
+    <div class="command-header-inner concept-header-inner">
+      <a class="archive-brand concept-brand" href="index.html" aria-label="10-16 archive home">
+        <svg class="elite-wing-mark" viewBox="0 0 120 70" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M60 13 49 29 60 50 71 29 60 13Z"/>
+            <path d="M49 29 32 16 10 20 28 30 11 35 37 39 49 29Z"/>
+            <path d="M71 29 88 16 110 20 92 30 109 35 83 39 71 29Z"/>
+            <path d="M43 46 60 59 77 46"/>
+            <path d="M31 47 48 51M89 47 72 51"/>
+          </g>
+          <circle cx="60" cy="30" r="5" fill="currentColor" opacity=".9"/>
         </svg>
         <span class="archive-brand-copy">
           <strong>CMDR Wolf258 // Colonial Operations Archive</strong>
@@ -26,7 +38,7 @@
         </span>
       </a>
 
-      <nav class="main-nav" aria-label="Primary navigation">
+      <nav class="main-nav concept-nav" aria-label="Primary navigation">
         <a class="active" href="system.html">System</a>
         <a href="colonies.html">Colonies</a>
         <a href="mining.html">Mining</a>
@@ -38,200 +50,240 @@
     </div>
   </header>
 
-  <main class="command-main">
+  <main class="command-main concept-main">
 
-    <section class="hero-command" aria-label="10-16 system command overview">
-      <img class="hero-command-image" src="images/gallery/kings-mountain-view-elw.webp" alt="Earth-like world and King's Mountain View in 10-16">
-      <div class="hero-command-shade"></div>
-      <div class="hero-command-ghost" aria-hidden="true">10-16</div>
+    <section class="concept-hero" aria-label="10-16 system command overview">
+      <div class="concept-hero-visual" aria-hidden="true">
+        <img src="images/gallery/kings-mountain-view-elw.webp" alt="">
+      </div>
+      <div class="concept-hero-grid" aria-hidden="true"></div>
+      <div class="concept-hero-ghost" aria-hidden="true">10-16</div>
 
-      <div class="hero-command-copy">
+      <div class="concept-hero-copy">
         <p class="hero-command-code">NGC 2546 Sector UZ-G d10-16</p>
-        <h1 class="hero-command-title">Welcome to 10-16</h1>
-        <p class="hero-text">
-          A living operations archive for a system discovered, colonized, and
-          continually shaped by CMDR Wolf258. Follow exploration, infrastructure,
-          resource surveys, faction strategy, and the continuing story of a home
-          built in the black.
+        <h1 class="concept-title">Welcome to 10-16</h1>
+        <p class="concept-lede">
+          A living operations archive for a discovered and colonized system,
+          shaped by CMDR Wolf258. Exploration, industry, population, faction
+          strategy, and the continuing story of a home built in the black.
         </p>
-        <p class="hero-command-quote">
-          “Some places are discovered. This one is a home.”
-          <span>— CMDR Wolf258</span>
-        </p>
+        <p class="concept-quote">“Some places are discovered. This one is a home.”</p>
       </div>
 
-      <aside class="command-telemetry" aria-label="System telemetry">
-        <div class="panel-heading">
+      <aside class="concept-telemetry" aria-label="System telemetry">
+        <div class="concept-panel-head">
           <span>System Telemetry</span>
-          <span class="status-indicator">LIVE</span>
+          <span class="concept-live">Live</span>
         </div>
 
-        <div class="telemetry-row">
-          <span class="telemetry-icon">◆</span>
-          <span><span class="telemetry-label">Commander</span></span>
-          <strong class="telemetry-value">Wolf258</strong>
+        <div class="concept-telemetry-row">
+          <span class="concept-telemetry-icon commander-icon">◆</span>
+          <span class="concept-telemetry-copy"><small>Commander</small><strong>Wolf258</strong></span>
         </div>
 
-        <div class="telemetry-row">
-          <span class="telemetry-icon">◎</span>
-          <span><span class="telemetry-label">Population</span></span>
-          <strong class="telemetry-value live-population">Loading...</strong>
+        <div class="concept-telemetry-row">
+          <span class="concept-telemetry-icon orbit-icon">◎</span>
+          <span class="concept-telemetry-copy"><small>Population</small><strong class="live-population">Loading...</strong></span>
         </div>
 
-        <div class="telemetry-row">
-          <span class="telemetry-icon">10</span>
-          <span><span class="telemetry-label">Designation</span></span>
-          <strong class="telemetry-value">10-16</strong>
+        <div class="concept-telemetry-row">
+          <span class="concept-telemetry-icon designation-icon">16</span>
+          <span class="concept-telemetry-copy"><small>Designation</small><strong>10-16</strong></span>
         </div>
 
-        <div class="telemetry-row">
-          <span class="telemetry-icon">▲</span>
-          <span><span class="telemetry-label">Development</span></span>
-          <strong class="telemetry-value">Active Colony</strong>
+        <div class="concept-telemetry-row">
+          <span class="concept-telemetry-icon development-icon">▲</span>
+          <span class="concept-telemetry-copy"><small>Development</small><strong>Active Colony</strong></span>
         </div>
+
+        <svg class="imperial-mark imperial-mark-panel" viewBox="0 0 120 84" aria-label="Imperial inspired crest" role="img">
+          <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M60 13 52 28 60 39 68 28 60 13Z"/>
+            <path d="M52 28 38 20 19 24 35 31 17 37 40 41 52 28Z"/>
+            <path d="M68 28 82 20 101 24 85 31 103 37 80 41 68 28Z"/>
+            <path d="M44 43 31 54 16 55 33 61 45 56"/>
+            <path d="M76 43 89 54 104 55 87 61 75 56"/>
+            <path d="M45 56 60 72 75 56M53 49l7 8 7-8"/>
+          </g>
+        </svg>
       </aside>
 
-      <div class="hero-landmark-label">
+      <div class="concept-landmark-caption">
+        <span>Landmark // ELW Orbit</span>
         <strong>King's Mountain View</strong>
-        <span>Earth-like world orbital landmark</span>
       </div>
     </section>
 
-    <section class="node-deck" aria-label="Archive command nodes">
-      <a class="node-card node-card-large" href="system.html">
-        <span class="node-icon" aria-hidden="true">
-          <svg viewBox="0 0 64 64">
-            <circle cx="32" cy="32" r="8"/>
-            <circle cx="32" cy="32" r="20"/>
-            <ellipse cx="32" cy="32" rx="28" ry="14" transform="rotate(-24 32 32)"/>
-            <circle cx="53" cy="22" r="2.5" fill="currentColor" stroke="none"/>
+    <section class="concept-node-row" aria-label="Primary archive nodes">
+      <a class="concept-node concept-node-wide" href="system.html">
+        <span class="concept-node-icon system-node-icon" aria-hidden="true">
+          <svg viewBox="0 0 100 100">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="50" cy="50" r="12" stroke-width="2.6"/>
+              <circle cx="50" cy="50" r="27" stroke-width="1.4" opacity=".8"/>
+              <ellipse cx="50" cy="50" rx="42" ry="20" transform="rotate(-25 50 50)" stroke-width="1.5"/>
+              <ellipse cx="50" cy="50" rx="34" ry="12" transform="rotate(27 50 50)" stroke-width="1" opacity=".55"/>
+              <path d="M17 22h13M70 78h13M76 18l7 7M17 75l7 7" stroke-width="1.2" opacity=".7"/>
+            </g>
+            <circle cx="83" cy="33" r="4" fill="currentColor"/>
+            <circle cx="25" cy="65" r="2.5" fill="currentColor" opacity=".75"/>
           </svg>
         </span>
-        <span class="node-copy">
-          <h3>System Intelligence</h3>
-          <p>Identity, population, major bodies, strategic landmarks, and the development record of 10-16.</p>
+        <span class="concept-node-copy">
+          <small>Archive Node 01</small>
+          <h2>System Intelligence</h2>
+          <p>Stellar data, planetary bodies, live population, strategic landmarks, resources, and the history of 10-16.</p>
         </span>
-        <span class="node-arrow">›</span>
+        <span class="concept-node-arrow">→</span>
       </a>
 
-      <a class="node-card node-card-large" href="colonies.html">
-        <span class="node-icon" aria-hidden="true">
-          <svg viewBox="0 0 64 64">
-            <path d="M10 49h44M16 49V32h9v17M27 49V22h10v27M39 49V28h9v21M20 32l5-7 5 7M31 22l1-10 3 10M43 28l4-6 4 6"/>
+      <a class="concept-node concept-node-wide" href="colonies.html">
+        <span class="concept-node-icon colony-node-icon" aria-hidden="true">
+          <svg viewBox="0 0 100 100">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 77h76M20 77V52h17v25M41 77V36h20v41M65 77V49h16v28" stroke-width="2"/>
+              <path d="M18 52 28 40l10 12M40 36l11-17 11 17M64 49l9-11 9 11" stroke-width="1.7"/>
+              <path d="M25 62h7M47 50h8M70 59h6M50 19v-8M44 15h12" stroke-width="1.2" opacity=".72"/>
+              <path d="M14 82h72" stroke-width="1" opacity=".45"/>
+            </g>
           </svg>
         </span>
-        <span class="node-copy">
-          <h3>Colony Network</h3>
-          <p>Starports, surface facilities, industrial hubs, and the infrastructure turning a discovery into a functioning colony.</p>
+        <span class="concept-node-copy">
+          <small>Archive Node 02</small>
+          <h2>Colony Network</h2>
+          <p>Starports, settlements, industrial hubs, specialized facilities, and a growing infrastructure network.</p>
         </span>
-        <span class="node-arrow">›</span>
-      </a>
-
-      <a class="node-card node-card-small" href="mining.html">
-        <span class="node-icon" aria-hidden="true">
-          <svg viewBox="0 0 64 64">
-            <path d="M18 46 36 28M27 19l18 18M38 12l14 14M12 38l14 14M42 10l12 12M10 42l12 12"/>
-          </svg>
-        </span>
-        <span class="node-copy">
-          <h3>Resource Survey</h3>
-          <p>Signals, commodities, coordinates, rig density, and preferred extraction sites.</p>
-        </span>
-        <span class="node-arrow">›</span>
-      </a>
-
-      <a class="node-card node-card-small" href="bgs.html">
-        <span class="node-icon" aria-hidden="true">
-          <svg viewBox="0 0 64 64">
-            <circle cx="15" cy="32" r="5"/>
-            <circle cx="32" cy="16" r="5"/>
-            <circle cx="49" cy="32" r="5"/>
-            <circle cx="32" cy="49" r="5"/>
-            <path d="m19 29 9-9M36 20l9 9M45 36l-9 9M28 45l-9-9"/>
-          </svg>
-        </span>
-        <span class="node-copy">
-          <h3>Influence Operations</h3>
-          <p>Live factions, states, daily orders, and the long-range strategy behind 10-16.</p>
-        </span>
-        <span class="node-arrow">›</span>
-      </a>
-
-      <a class="node-card node-card-small" href="gallery.html">
-        <span class="node-icon" aria-hidden="true">
-          <svg viewBox="0 0 64 64">
-            <rect x="10" y="14" width="44" height="36" rx="2"/>
-            <circle cx="24" cy="27" r="5"/>
-            <path d="m14 45 12-11 8 7 7-6 9 10"/>
-          </svg>
-        </span>
-        <span class="node-copy">
-          <h3>Visual Recon</h3>
-          <p>Real screenshots, landmarks, ships, and the visual history of the system.</p>
-        </span>
-        <span class="node-arrow">›</span>
+        <span class="concept-node-arrow">→</span>
       </a>
     </section>
 
-    <section class="command-showcase" aria-label="The system">
-      <img class="command-showcase-image" src="images/gallery/kings-mountain-view-elw.webp" alt="Earth-like world and King's Mountain View">
-      <div class="command-showcase-copy">
+    <section class="concept-node-row concept-node-row-secondary" aria-label="Operational archive nodes">
+      <a class="concept-node concept-node-compact" href="mining.html">
+        <span class="concept-node-icon compact-node-icon" aria-hidden="true">
+          <svg viewBox="0 0 100 100">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M25 73 69 29M53 23l24 24M66 15l19 19M17 62l21 21" stroke-width="3"/>
+              <path d="M30 28h18M39 19v18M62 67l8 8M22 42l7 7" stroke-width="1.5" opacity=".7"/>
+              <circle cx="27" cy="28" r="8" stroke-width="1.2" opacity=".55"/>
+            </g>
+          </svg>
+        </span>
+        <span class="concept-node-copy"><small>Node 03</small><h2>Resource Survey</h2><p>Surface deposits, signals, coordinates, rig density, and market-aware extraction data.</p></span>
+        <span class="concept-node-arrow">→</span>
+      </a>
+
+      <a class="concept-node concept-node-compact" href="bgs.html">
+        <span class="concept-node-icon compact-node-icon" aria-hidden="true">
+          <svg viewBox="0 0 100 100">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="50" cy="18" r="7" stroke-width="2"/>
+              <circle cx="24" cy="50" r="7" stroke-width="2"/>
+              <circle cx="76" cy="50" r="7" stroke-width="2"/>
+              <circle cx="50" cy="79" r="7" stroke-width="2"/>
+              <circle cx="50" cy="50" r="10" stroke-width="2.2"/>
+              <path d="M46 25 32 43M54 25l14 18M32 57l13 15M68 57 55 72" stroke-width="1.6"/>
+              <path d="M16 50h-8M84 50h8M50 10V4M50 87v7" stroke-width="1.2" opacity=".6"/>
+            </g>
+          </svg>
+        </span>
+        <span class="concept-node-copy"><small>Node 04</small><h2>Influence Operations</h2><p>Faction influence, states, daily orders, ownership, and long-range Background Simulation strategy.</p></span>
+        <span class="concept-node-arrow">→</span>
+      </a>
+
+      <a class="concept-node concept-node-compact" href="gallery.html">
+        <span class="concept-node-icon compact-node-icon" aria-hidden="true">
+          <svg viewBox="0 0 100 100">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="17" y="22" width="66" height="54" rx="3" stroke-width="2"/>
+              <circle cx="37" cy="41" r="8" stroke-width="1.8"/>
+              <path d="m22 68 19-18 13 12 11-10 13 16" stroke-width="2"/>
+              <path d="M28 16h44M28 82h44" stroke-width="1" opacity=".55"/>
+            </g>
+          </svg>
+        </span>
+        <span class="concept-node-copy"><small>Node 05</small><h2>Visual Recon</h2><p>Real screenshots of the worlds, stations, ships, and operations that give the system its identity.</p></span>
+        <span class="concept-node-arrow">→</span>
+      </a>
+    </section>
+
+    <section class="concept-showcase system-showcase" aria-label="The system">
+      <div class="concept-showcase-media">
+        <img src="images/gallery/kings-mountain-view-elw.webp" alt="Earth-like world and King's Mountain View">
+        <div class="concept-showcase-scan"></div>
+      </div>
+      <div class="concept-showcase-copy">
         <p class="command-section-kicker">The System</p>
         <h2>NGC 2546 Sector UZ-G d10-16</h2>
         <p>
           A discovered frontier transformed into a working home system: billions
-          of inhabitants, growing infrastructure, strategic resources, custom
-          landmarks, and an archive built to preserve every stage of the journey.
+          of inhabitants, growing infrastructure, strategic resources, and a
+          network of places built deliberately far from the familiar core.
         </p>
-        <a class="command-button" href="system.html">Explore the system</a>
+        <a class="concept-button" href="system.html">Explore the system</a>
       </div>
+      <svg class="imperial-mark imperial-mark-showcase" viewBox="0 0 120 84" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M60 13 52 28 60 39 68 28 60 13Z"/>
+          <path d="M52 28 38 20 19 24 35 31 17 37 40 41 52 28Z"/>
+          <path d="M68 28 82 20 101 24 85 31 103 37 80 41 68 28Z"/>
+          <path d="M44 43 31 54 16 55 33 61 45 56M76 43 89 54 104 55 87 61 75 56"/>
+          <path d="M45 56 60 72 75 56"/>
+        </g>
+      </svg>
     </section>
 
-    <section class="command-showcase katana-command" aria-label="Commander Operations Katana">
-      <img class="command-showcase-image" src="images/gallery/katana.webp" alt="Katana under station lighting">
-      <div class="command-showcase-copy">
+    <section class="concept-showcase katana-showcase" aria-label="Commander Operations Katana">
+      <div class="concept-showcase-media">
+        <img src="images/gallery/katana.webp" alt="Katana under station lighting">
+        <div class="concept-showcase-scan"></div>
+      </div>
+      <div class="concept-showcase-copy">
         <p class="command-section-kicker">Commander Operations</p>
         <h2>Katana</h2>
         <p>
-          Flight operations are part of the archive, not separate from it.
-          Katana represents the active side of 10-16: travel, surveying,
-          logistics, combat readiness, and the constant work of shaping a system.
+          Exploration. Logistics. Support. Flight operations are part of the
+          archive, not separate from it. Katana represents the active side of
+          10-16 and the work that keeps the system moving.
         </p>
-        <a class="command-button" href="gallery.html#katana">View capture</a>
+        <a class="concept-button" href="gallery.html#katana">View capture</a>
       </div>
     </section>
 
-    <section class="gallery-preview" aria-label="Gallery preview">
-      <div class="gallery-preview-head">
+    <section class="concept-gallery" aria-label="Gallery preview">
+      <div class="concept-gallery-head">
         <div>
           <p class="gallery-preview-kicker">Gallery</p>
           <h2>Moments in 10-16</h2>
         </div>
-        <a class="command-button" href="gallery.html">View full gallery</a>
+        <a class="concept-button" href="gallery.html">View full gallery</a>
       </div>
-
-      <div class="gallery-preview-grid">
-        <a class="gallery-preview-card" href="gallery.html#kings-mountain-view">
+      <div class="concept-gallery-grid">
+        <a class="concept-gallery-card concept-gallery-card-wide" href="gallery.html#kings-mountain-view">
           <img src="images/gallery/kings-mountain-view-elw.webp" alt="King's Mountain View and the Earth-like world">
-          <span>Worlds + Stations</span>
+          <span><small>Worlds + Stations</small><strong>Home Among the Blue</strong></span>
         </a>
-        <a class="gallery-preview-card" href="gallery.html#katana">
+        <a class="concept-gallery-card" href="gallery.html#katana">
           <img src="images/gallery/katana.webp" alt="Katana">
-          <span>Commander Operations</span>
+          <span><small>Commander Operations</small><strong>Katana</strong></span>
         </a>
-        <a class="gallery-preview-card" href="gallery.html#overview-capture">
+        <a class="concept-gallery-card" href="gallery.html">
           <img src="images/gallery/image.png" alt="10-16 overview capture">
-          <span>Archive Capture</span>
+          <span><small>Archive Capture</small><strong>10-16 Overview</strong></span>
         </a>
       </div>
     </section>
 
   </main>
 
-  <footer class="command-footer">
+  <footer class="command-footer concept-footer">
     <div class="command-footer-brand">
-      <svg class="archive-emblem" viewBox="0 0 64 64" aria-hidden="true">
-        <path d="M32 6v38M32 20 20 10M32 20 44 10M32 28 15 17M32 28 49 17M32 36 11 24M32 36 53 24M32 44 20 36M32 44 44 36M24 48l8 10 8-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <svg class="elite-wing-mark footer-wing" viewBox="0 0 120 70" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M60 13 49 29 60 50 71 29 60 13Z"/>
+          <path d="M49 29 32 16 10 20 28 30 11 35 37 39 49 29Z"/>
+          <path d="M71 29 88 16 110 20 92 30 109 35 83 39 71 29Z"/>
+          <path d="M43 46 60 59 77 46"/>
+        </g>
       </svg>
       <div class="command-footer-copy">
         <strong>CMDR Wolf258 // Colonial Operations Archive</strong>
@@ -244,9 +296,9 @@
     <div class="command-footer-squad">
       <div>
         <strong>Regiment of Imperial Mongrels</strong>
-        <span>Squadron lineage // frontier operations</span>
+        <span>Squadron lineage // Imperial frontier operations</span>
       </div>
-      <img src="https://raw.githubusercontent.com/CMDRWolf258/mongrels-squadron/main/assets/images/branding/icon-192.png" alt="Mongrels emblem">
+      <img src="https://raw.githubusercontent.com/CMDRWolf258/mongrels-squadron/main/assets/images/branding/icon-192.png" alt="Regiment of Imperial Mongrels emblem">
     </div>
   </footer>
 
