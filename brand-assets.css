@@ -89,6 +89,7 @@
   flex: 0 0 76px;
   object-fit: contain !important;
   opacity: .96 !important;
+  mix-blend-mode: screen;
   filter:
     drop-shadow(0 0 10px rgba(55, 209, 255, .18))
     drop-shadow(0 8px 16px rgba(0, 0, 0, .46));
