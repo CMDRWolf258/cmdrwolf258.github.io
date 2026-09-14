@@ -3,44 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#050a10">
+  <meta name="theme-color" content="#02080e">
 
   <title>Influence Operations | 10-16</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="visual-polish.css">
+  <link rel="stylesheet" href="brand-assets.css">
+  <link rel="stylesheet" href="archive-page.css">
+  <link rel="stylesheet" href="bgs-page.css">
 </head>
 
-<body class="page-bgs">
+<body class="archive-page page-bgs">
 
-  <header class="site-header">
-    <div class="header-inner">
+  <header class="concept-header">
+    <div class="concept-header-shell">
+      <div class="concept-header-top">
+        <a class="concept-brand" href="index.html" aria-label="10-16 archive home">
+          <img class="brand-elite-mark" src="images/site/elite-command-mark.webp" alt="" aria-hidden="true">
 
-      <div class="title-block">
-        <p class="eyebrow">CMDR WOLF258 // COLONIAL OPERATIONS ARCHIVE</p>
-        <h1>NGC 2546 Sector UZ-G d10-16</h1>
+          <span class="concept-brand-copy">
+            <strong>CMDR WOLF258 // COLONIAL OPERATIONS ARCHIVE</strong>
+            <span>EXPLORE / ESTABLISH / DEVELOP / ENDURE</span>
+          </span>
+        </a>
+
+        <div class="concept-header-affiliation">
+          <div class="concept-header-motto">
+            <strong>10-16 // BRIDGE COLONY</strong>
+            <span>A brighter tomorrow, further out.</span>
+          </div>
+          <img class="brand-imperial-mark brand-imperial-cyan"
+               src="images/site/imperial-cyan-mark.webp"
+               alt="" aria-hidden="true">
+        </div>
       </div>
 
-      <nav class="main-nav" aria-label="Primary navigation">
-        <a href="index.html">Home</a>
+      <nav class="concept-nav" aria-label="Primary navigation">
         <a href="system.html">System</a>
         <a href="colonies.html">Colonies</a>
         <a href="mining.html">Mining</a>
         <a class="active" href="bgs.html">BGS</a>
         <a href="gallery.html">Gallery</a>
       </nav>
-
     </div>
   </header>
 
-  <main>
+  <main class="archive-main">
 
     <section class="page-intro">
-      <p class="section-label">ARCHIVE NODE 04 // INFLUENCE OPERATIONS</p>
+      <p class="section-label">ARCHIVE</p>
       <h2>Influence Operations</h2>
       <p class="hero-text">
         The control deck for 10-16's Background Simulation: live faction
         influence, active states, daily tasking, economic objectives, and the
-        long-range strategy behind station ownership and market conditions.
+        long-range strategy behind ownership, security, and market conditions.
       </p>
     </section>
 
@@ -67,16 +88,11 @@
         </div>
 
         <div class="stat">
-          <span class="stat-label">Tracking</span>
-          <span class="stat-value">Influence + States</span>
+          <span class="stat-label">Live Data Refresh</span>
+          <span class="stat-value" id="system-data-age">Checking...</span>
         </div>
       </div>
     </section>
-
-    <div class="data-age">
-      <span class="data-age-label">LIVE DATA REFRESH</span>
-      <span id="system-data-age">Checking...</span>
-    </div>
 
     <section class="orders-panel">
       <div class="orders-header">
@@ -84,7 +100,6 @@
           <p class="orders-label">CURRENT OPERATIONS // COMMAND FEED</p>
           <h3>Daily BGS Orders</h3>
         </div>
-
         <span class="orders-status">ACTIVE</span>
       </div>
 
@@ -98,7 +113,7 @@
       </div>
     </section>
 
-    <section class="content-section">
+    <section class="content-section bgs-faction-section">
       <div class="section-heading">
         <span>01</span>
         <h3>Faction Roster</h3>
@@ -109,70 +124,97 @@
       </div>
     </section>
 
-    <section class="content-section">
-      <div class="section-heading">
-        <span>02</span>
-        <h3>Operational Doctrine</h3>
-      </div>
+    <section class="archive-overview-grid" aria-label="BGS strategy overview">
+      <article class="content-section">
+        <div class="section-heading">
+          <span>02</span>
+          <h3>Operational Doctrine</h3>
+        </div>
 
-      <p>
-        BGS work in 10-16 is deliberate rather than reactive. Influence is
-        shaped to keep useful factions viable, preserve room for future moves,
-        and position selected factions for strategic station ownership without
-        destabilizing the system unnecessarily.
-      </p>
+        <p>
+          BGS work in 10-16 is deliberate rather than reactive. Influence is
+          shaped to keep useful factions viable, preserve room for future moves,
+          and position selected factions for strategic station ownership without
+          destabilizing the system unnecessarily.
+        </p>
 
-      <p>
-        Daily mission work, bounty vouchers, trade, and other actions are used
-        as controlled inputs. The goal is not simply to push one bar upward — it
-        is to maintain a system that can still be maneuvered tomorrow.
-      </p>
-    </section>
+        <p>
+          Missions, bounty vouchers, trade, mining, and other actions are treated
+          as controlled inputs. The goal is not simply to push one bar upward — it
+          is to maintain a system that can still be maneuvered tomorrow.
+        </p>
+      </article>
 
-    <section class="content-section">
-      <div class="section-heading">
-        <span>03</span>
-        <h3>Platinum Market Objective</h3>
-      </div>
+      <article class="content-section">
+        <div class="section-heading">
+          <span>03</span>
+          <h3>Platinum Market Objective</h3>
+        </div>
 
-      <p>
-        A major economic objective is to maintain the strongest sustainable
-        Platinum buy market possible inside 10-16, taking advantage of the
-        system's local Platinum resources and industrial infrastructure.
-      </p>
+        <p>
+          A major economic objective is to maintain the strongest sustainable
+          Platinum buy market possible inside 10-16, taking advantage of the
+          system's local Platinum resources and industrial infrastructure.
+        </p>
 
-      <p>
-        Boom, Civil Liberty, ownership, faction behavior, and other state
-        conditions are monitored as part of that strategy rather than treated
-        as isolated BGS events.
-      </p>
-    </section>
+        <p>
+          Boom, Civil Liberty, ownership, faction behavior, and other state
+          conditions are monitored as part of that strategy rather than treated
+          as isolated BGS events.
+        </p>
+      </article>
 
-    <section class="content-section">
-      <div class="section-heading">
-        <span>04</span>
-        <h3>Historical Signal</h3>
-      </div>
+      <article class="content-section">
+        <div class="section-heading">
+          <span>04</span>
+          <h3>Historical Signal</h3>
+        </div>
 
-      <p>
-        Influence shifts, mission activity, bounty turn-ins, construction
-        effects, security changes, economic states, and station ownership are
-        all part of the system's operational history.
-      </p>
+        <p>
+          Influence shifts, mission activity, bounty turn-ins, construction
+          effects, security changes, economic states, and station ownership are
+          all part of the system's operational history.
+        </p>
 
-      <p>
-        As the archive grows, this node can preserve major tick snapshots and
-        milestones so the evolution of 10-16 is visible instead of disappearing
-        into the daily BGS cycle.
-      </p>
+        <p>
+          As the archive grows, this node can preserve major tick snapshots and
+          milestones so the evolution of 10-16 remains visible instead of
+          disappearing into the daily BGS cycle.
+        </p>
+      </article>
     </section>
 
     <a class="back-link" href="index.html">← Return to Command Archive</a>
 
   </main>
 
-  <footer>
-    <p>10-16 Colonial Operations Archive // maintained by CMDR Wolf258.</p>
+  <footer class="concept-footer">
+    <div class="concept-footer-inner">
+      <div class="concept-footer-brand">
+        <img class="brand-elite-mark brand-elite-mark-footer"
+             src="images/site/elite-command-mark.webp"
+             alt="" aria-hidden="true">
+        <span>
+          <strong>CMDR WOLF258 // COLONIAL OPERATIONS ARCHIVE</strong>
+          <small>NGC 2546 SECTOR UZ-G D10-16</small>
+        </span>
+      </div>
+
+      <div class="concept-footer-center">CHARTING A BRIGHTER TOMORROW</div>
+
+      <div class="concept-footer-mongrels">
+        <span>
+          <strong>REGIMENT OF IMPERIAL MONGRELS</strong>
+          <small>SQUADRON LINEAGE // FRONTIER OPERATIONS</small>
+        </span>
+        <img class="brand-mongrel-mark"
+             src="images/site/mongrels-10-16.webp"
+             alt="Regiment of Imperial Mongrels emblem">
+        <img class="brand-imperial-mark brand-imperial-orange"
+             src="images/site/imperial-orange-mark.webp"
+             alt="" aria-hidden="true">
+      </div>
+    </div>
   </footer>
 
   <script src="script.js"></script>
