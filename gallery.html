@@ -5,52 +5,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#02080e">
 
-  <title>Visual Recon Archive | 10-16</title>
+  <title>Gallery | 10-16</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="visual-polish.css">
-  <link rel="stylesheet" href="command-ui.css">
+  <link rel="stylesheet" href="brand-assets.css">
+  <link rel="stylesheet" href="archive-page.css">
+  <link rel="stylesheet" href="gallery-page.css">
 </head>
 
-<body class="page-gallery command-layout">
+<body class="archive-page page-gallery">
 
-  <header class="site-header command-bar">
-    <div class="command-header-inner">
-      <a class="archive-brand" href="index.html" aria-label="10-16 archive home">
-        <svg class="archive-emblem" viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M32 6v38M32 20 20 10M32 20 44 10M32 28 15 17M32 28 49 17M32 36 11 24M32 36 53 24M32 44 20 36M32 44 44 36M24 48l8 10 8-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span class="archive-brand-copy">
-          <strong>CMDR Wolf258 // Colonial Operations Archive</strong>
-          <span>Explore / Establish / Develop / Endure</span>
-        </span>
-      </a>
+  <header class="concept-header">
+    <div class="concept-header-shell">
+      <div class="concept-header-top">
+        <a class="concept-brand" href="index.html" aria-label="10-16 archive home">
+          <img class="brand-elite-mark" src="images/site/elite-command-mark.webp" alt="" aria-hidden="true">
 
-      <nav class="main-nav" aria-label="Primary navigation">
-        <a href="index.html">Home</a>
+          <span class="concept-brand-copy">
+            <strong>CMDR WOLF258 // COLONIAL OPERATIONS ARCHIVE</strong>
+            <span>EXPLORE / ESTABLISH / DEVELOP / ENDURE</span>
+          </span>
+        </a>
+
+        <div class="concept-header-affiliation">
+          <div class="concept-header-motto">
+            <strong>10-16 // BRIDGE COLONY</strong>
+            <span>A brighter tomorrow, further out.</span>
+          </div>
+          <img class="brand-imperial-mark brand-imperial-cyan"
+               src="images/site/imperial-cyan-mark.webp"
+               alt="" aria-hidden="true">
+        </div>
+      </div>
+
+      <nav class="concept-nav" aria-label="Primary navigation">
         <a href="system.html">System</a>
         <a href="colonies.html">Colonies</a>
         <a href="mining.html">Mining</a>
         <a href="bgs.html">BGS</a>
         <a class="active" href="gallery.html">Gallery</a>
       </nav>
-
-      <div class="command-motto">Visual record<br>signal preserved.</div>
     </div>
   </header>
 
-  <main>
+  <main class="archive-main">
 
-    <section class="gallery-command-hero">
-      <img src="images/gallery/kings-mountain-view-elw.webp" alt="Earth-like world and King's Mountain View">
-      <div class="gallery-command-copy">
-        <p class="section-label">ARCHIVE NODE 05 // VISUAL RECON</p>
-        <h2>Visual Recon Archive</h2>
-        <p class="hero-text">
-          Real captures from 10-16 and CMDR Wolf258's operations: landmarks,
-          infrastructure, ships, landscapes, and the visual history of a system
-          still being built.
-        </p>
+    <section class="page-intro">
+      <p class="section-label">ARCHIVE</p>
+      <h2>Gallery</h2>
+      <p class="hero-text">
+        Real captures from 10-16 and CMDR Wolf258's operations: landmarks,
+        infrastructure, ships, landscapes, and the visual record of a system
+        still being built.
+      </p>
+    </section>
+
+    <section class="data-panel gallery-telemetry">
+      <div class="panel-heading">
+        <span>Visual Archive Status</span>
+        <span class="status-indicator">EXPANDING</span>
+      </div>
+
+      <div class="system-stats">
+        <div class="stat">
+          <span class="stat-label">Featured Landmark</span>
+          <span class="stat-value">King's Mountain View</span>
+        </div>
+
+        <div class="stat">
+          <span class="stat-label">Commander Ship</span>
+          <span class="stat-value">Katana</span>
+        </div>
+
+        <div class="stat">
+          <span class="stat-label">Archive Policy</span>
+          <span class="stat-value">Real Captures Only</span>
+        </div>
+
+        <div class="stat">
+          <span class="stat-label">Coverage</span>
+          <span class="stat-value">Growing with 10-16</span>
+        </div>
       </div>
     </section>
 
@@ -60,12 +100,12 @@
         <h3>Featured Captures</h3>
       </div>
 
-      <div class="gallery-real-grid">
-        <article class="gallery-real-card featured" id="kings-mountain-view">
-          <a href="images/gallery/kings-mountain-view-elw.webp">
+      <div class="gallery-feature-grid">
+        <article class="gallery-card gallery-card-primary" id="kings-mountain-view">
+          <a href="images/gallery/kings-mountain-view-elw.webp" aria-label="Open King's Mountain View capture">
             <img src="images/gallery/kings-mountain-view-elw.webp" alt="Earth-like world of 10-16 beside King's Mountain View">
           </a>
-          <div class="gallery-real-copy">
+          <div class="gallery-card-copy">
             <p class="location-type">LANDMARK // ELW ORBIT</p>
             <h3>Earth-like World // King's Mountain View</h3>
             <p>
@@ -76,11 +116,11 @@
           </div>
         </article>
 
-        <article class="gallery-real-card" id="katana">
-          <a href="images/gallery/katana.webp">
+        <article class="gallery-card gallery-card-secondary" id="katana">
+          <a href="images/gallery/katana.webp" aria-label="Open Katana capture">
             <img src="images/gallery/katana.webp" alt="Katana under station lighting" loading="lazy">
           </a>
-          <div class="gallery-real-copy">
+          <div class="gallery-card-copy">
             <p class="location-type">COMMANDER OPERATIONS // SHIP</p>
             <h3>Katana</h3>
             <p>
@@ -89,12 +129,14 @@
             </p>
           </div>
         </article>
+      </div>
 
-        <article class="gallery-real-card" id="overview-capture">
-          <a href="images/gallery/image.png">
+      <div class="gallery-strip">
+        <article class="gallery-strip-card" id="overview-capture">
+          <a href="images/gallery/image.png" aria-label="Open 10-16 overview capture">
             <img src="images/gallery/image.png" alt="View from NGC 2546 Sector UZ-G d10-16" loading="lazy">
           </a>
-          <div class="gallery-real-copy">
+          <div class="gallery-card-copy">
             <p class="location-type">SYSTEM // FIELD CAPTURE</p>
             <h3>10-16 Overview</h3>
             <p>A captured view from within NGC 2546 Sector UZ-G d10-16.</p>
@@ -109,28 +151,28 @@
         <h3>Archive Channels</h3>
       </div>
 
-      <div class="location-grid">
-        <div class="location-card">
+      <div class="channel-grid">
+        <div class="channel-card">
           <p class="location-type">CHANNEL // INFRASTRUCTURE</p>
-          <h4>Stations & Ports</h4>
+          <h4>Stations &amp; Ports</h4>
           <p>Orbital starports, surface ports, industrial hubs, and the structures that define the colony network.</p>
         </div>
 
-        <div class="location-card">
+        <div class="channel-card">
           <p class="location-type">CHANNEL // CELESTIAL</p>
-          <h4>Planets & Moons</h4>
+          <h4>Planets &amp; Moons</h4>
           <p>Notable bodies, landscapes, rings, horizons, and orbital views from throughout 10-16.</p>
         </div>
 
-        <div class="location-card">
+        <div class="channel-card">
           <p class="location-type">CHANNEL // RESOURCE SURVEY</p>
           <h4>Surface Mining</h4>
           <p>Survey terrain, mining rigs, resource clusters, and strong extraction sites documented in the field.</p>
         </div>
 
-        <div class="location-card">
+        <div class="channel-card">
           <p class="location-type">CHANNEL // DEVELOPMENT</p>
-          <h4>Construction & Growth</h4>
+          <h4>Construction &amp; Growth</h4>
           <p>Images preserving the expansion of the colony network as new sites move from plan to completed infrastructure.</p>
         </div>
       </div>
@@ -139,25 +181,32 @@
     <a class="back-link" href="index.html">← Return to Command Archive</a>
   </main>
 
-  <footer class="command-footer">
-    <div class="command-footer-brand">
-      <svg class="archive-emblem" viewBox="0 0 64 64" aria-hidden="true">
-        <path d="M32 6v38M32 20 20 10M32 20 44 10M32 28 15 17M32 28 49 17M32 36 11 24M32 36 53 24M32 44 20 36M32 44 44 36M24 48l8 10 8-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-      <div class="command-footer-copy">
-        <strong>10-16 Visual Recon Archive</strong>
-        <span>Real captures only // archive expanding</span>
+  <footer class="concept-footer">
+    <div class="concept-footer-inner">
+      <div class="concept-footer-brand">
+        <img class="brand-elite-mark brand-elite-mark-footer"
+             src="images/site/elite-command-mark.webp"
+             alt="" aria-hidden="true">
+        <span>
+          <strong>CMDR WOLF258 // COLONIAL OPERATIONS ARCHIVE</strong>
+          <small>NGC 2546 SECTOR UZ-G D10-16</small>
+        </span>
       </div>
-    </div>
 
-    <div class="command-footer-center">People. Places. Progress.</div>
+      <div class="concept-footer-center">CHARTING A BRIGHTER TOMORROW</div>
 
-    <div class="command-footer-squad">
-      <div>
-        <strong>Regiment of Imperial Mongrels</strong>
-        <span>Squadron lineage // frontier operations</span>
+      <div class="concept-footer-mongrels">
+        <span>
+          <strong>REGIMENT OF IMPERIAL MONGRELS</strong>
+          <small>SQUADRON LINEAGE // FRONTIER OPERATIONS</small>
+        </span>
+        <img class="brand-mongrel-mark"
+             src="images/site/mongrels-10-16.webp"
+             alt="Regiment of Imperial Mongrels emblem">
+        <img class="brand-imperial-mark brand-imperial-orange"
+             src="images/site/imperial-orange-mark.webp"
+             alt="" aria-hidden="true">
       </div>
-      <img src="https://raw.githubusercontent.com/CMDRWolf258/mongrels-squadron/main/assets/images/branding/icon-192.png" alt="Mongrels emblem">
     </div>
   </footer>
 
