@@ -3,40 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#050a10">
+  <meta name="theme-color" content="#02080e">
 
   <title>Colonial Infrastructure | 10-16</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="visual-polish.css">
+  <link rel="stylesheet" href="brand-assets.css">
+  <link rel="stylesheet" href="archive-page.css">
+  <style>
+    .archive-page.page-colonies .page-intro::after { content: "02"; }
+  </style>
 </head>
 
-<body class="page-colonies">
+<body class="archive-page page-colonies">
 
-  <header class="site-header">
-    <div class="header-inner">
+  <header class="concept-header">
+    <div class="concept-header-shell">
+      <div class="concept-header-top">
+        <a class="concept-brand" href="index.html" aria-label="10-16 archive home">
+          <img class="brand-elite-mark" src="images/site/elite-command-mark.webp" alt="" aria-hidden="true">
 
-      <div class="title-block">
-        <p class="eyebrow">CMDR WOLF258 // COLONIAL OPERATIONS ARCHIVE</p>
-        <h1>NGC 2546 Sector UZ-G d10-16</h1>
+          <span class="concept-brand-copy">
+            <strong>CMDR WOLF258 // COLONIAL OPERATIONS ARCHIVE</strong>
+            <span>EXPLORE / ESTABLISH / DEVELOP / ENDURE</span>
+          </span>
+        </a>
+
+        <div class="concept-header-affiliation">
+          <div class="concept-header-motto">
+            <strong>10-16 // BRIDGE COLONY</strong>
+            <span>A brighter tomorrow, further out.</span>
+          </div>
+          <img class="brand-imperial-mark brand-imperial-cyan"
+               src="images/site/imperial-cyan-mark.webp"
+               alt="" aria-hidden="true">
+        </div>
       </div>
 
-      <nav class="main-nav" aria-label="Primary navigation">
-        <a href="index.html">Home</a>
+      <nav class="concept-nav" aria-label="Primary navigation">
         <a href="system.html">System</a>
         <a class="active" href="colonies.html">Colonies</a>
         <a href="mining.html">Mining</a>
         <a href="bgs.html">BGS</a>
         <a href="gallery.html">Gallery</a>
       </nav>
-
     </div>
   </header>
 
-  <main>
+  <main class="archive-main">
 
     <section class="page-intro">
-      <p class="section-label">ARCHIVE NODE 02 // COLONY NETWORK</p>
+      <p class="section-label">ARCHIVE</p>
       <h2>Colonial Infrastructure</h2>
       <p class="hero-text">
         The built footprint of 10-16: starports, planetary facilities,
@@ -74,26 +96,31 @@
       </div>
     </section>
 
-    <section class="content-section">
+    <section class="landmark-panel" id="kings-mountain-view">
+      <img
+        src="images/gallery/kings-mountain-view-elw.webp"
+        alt="Earth-like world in 10-16 beside King's Mountain View"
+      >
+      <div class="landmark-overlay">
+        <div class="landmark-copy">
+          <p class="cinematic-kicker">TOURISM STARPORT // EARTH-LIKE WORLD</p>
+          <h3>King's Mountain View</h3>
+          <p>
+            The tourism-focused starport at the Earth-like world is one of the
+            defining landmarks of 10-16 and a visual anchor for the colony's
+            identity as a permanent home rather than a temporary outpost.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section strategic-section">
       <div class="section-heading">
         <span>01</span>
         <h3>Orbital Backbone</h3>
       </div>
 
       <div class="location-grid">
-        <div class="location-card location-card-featured">
-          <div class="featured-card-copy">
-            <p class="location-type">TOURISM STARPORT // EARTH-LIKE WORLD</p>
-            <h4>King's Mountain View</h4>
-            <p>
-              A major tourism-focused starport at the Earth-like world and one
-              of the defining landmarks of 10-16. Its position beside the ELW
-              makes it the colony location most strongly associated with the
-              system's sense of home.
-            </p>
-          </div>
-        </div>
-
         <div class="location-card">
           <p class="location-type">PRIMARY PORT</p>
           <h4>Saturn Ascending</h4>
@@ -132,7 +159,7 @@
       </div>
     </section>
 
-    <section class="content-section">
+    <section class="content-section strategic-section">
       <div class="section-heading">
         <span>02</span>
         <h3>Surface Expansion</h3>
@@ -150,7 +177,7 @@
       </div>
     </section>
 
-    <section class="content-section">
+    <section class="content-section strategic-section">
       <div class="section-heading">
         <span>03</span>
         <h3>Specialized Facilities</h3>
@@ -195,51 +222,78 @@
       </div>
     </section>
 
-    <section class="content-section">
-      <div class="section-heading">
-        <span>04</span>
-        <h3>Signal in the Names</h3>
-      </div>
+    <section class="archive-overview-grid archive-overview-grid-two" aria-label="Colony identity and development log">
+      <article class="content-section">
+        <div class="section-heading">
+          <span>04</span>
+          <h3>Signal in the Names</h3>
+        </div>
 
-      <p>
-        Many sites in 10-16 use names inspired by Tool songs, lyrics, and
-        references. Over time that pattern has become more than a naming joke;
-        it is part of the colony's visual and cultural identity.
-      </p>
+        <p>
+          Many sites in 10-16 use names inspired by Tool songs, lyrics, and
+          references. Over time that pattern has become more than a naming joke;
+          it is part of the colony's visual and cultural identity.
+        </p>
 
-      <p>
-        Saturn Ascending, Eon Blue Apocalypse, Rival Monkeys Foundry, Rabbits
-        with Glasses Agricultural, Tertiary Lens Observatory, and Photon Relay
-        Facility all belong to that continuing naming language.
-      </p>
-    </section>
+        <p>
+          Saturn Ascending, Eon Blue Apocalypse, Rival Monkeys Foundry, Rabbits
+          with Glasses Agricultural, Tertiary Lens Observatory, and Photon Relay
+          Facility all belong to that continuing naming language.
+        </p>
+      </article>
 
-    <section class="content-section">
-      <div class="section-heading">
-        <span>05</span>
-        <h3>Development Log</h3>
-      </div>
+      <article class="content-section">
+        <div class="section-heading">
+          <span>05</span>
+          <h3>Development Log</h3>
+        </div>
 
-      <p>
-        The colony network has grown incrementally through new starports,
-        surface sites, settlements, and specialized support facilities. Each
-        completed project changes the practical shape of the system and adds
-        another layer to its history.
-      </p>
+        <p>
+          The colony network has grown incrementally through new starports,
+          surface sites, settlements, and specialized support facilities. Each
+          completed project changes the practical shape of the system and adds
+          another layer to its history.
+        </p>
 
-      <p>
-        This node will continue to expand with ownership data, economic roles,
-        screenshots, construction milestones, and new facilities as they come
-        online.
-      </p>
+        <p>
+          This archive will continue to expand with ownership data, economic
+          roles, screenshots, construction milestones, and new facilities as
+          they come online.
+        </p>
+      </article>
     </section>
 
     <a class="back-link" href="index.html">← Return to Command Archive</a>
 
   </main>
 
-  <footer>
-    <p>10-16 Colonial Operations Archive // maintained by CMDR Wolf258.</p>
+  <footer class="concept-footer">
+    <div class="concept-footer-inner">
+      <div class="concept-footer-brand">
+        <img class="brand-elite-mark brand-elite-mark-footer"
+             src="images/site/elite-command-mark.webp"
+             alt="" aria-hidden="true">
+        <span>
+          <strong>CMDR WOLF258 // COLONIAL OPERATIONS ARCHIVE</strong>
+          <small>NGC 2546 SECTOR UZ-G D10-16</small>
+        </span>
+      </div>
+
+      <div class="concept-footer-center">CHARTING A BRIGHTER TOMORROW</div>
+
+      <div class="concept-footer-mongrels">
+        <span>
+          <strong>REGIMENT OF IMPERIAL MONGRELS</strong>
+          <small>SQUADRON LINEAGE // FRONTIER OPERATIONS</small>
+        </span>
+        <img class="brand-mongrel-mark"
+             src="images/site/mongrels-10-16.webp"
+             alt="Regiment of Imperial Mongrels emblem">
+        <img class="brand-imperial-mark brand-imperial-orange"
+             src="images/site/imperial-orange-mark.webp"
+             alt="" aria-hidden="true">
+      </div>
+    </div>
   </footer>
 
 </body>
