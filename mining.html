@@ -7,6 +7,123 @@
   <title>Mining | NGC 2546 Sector UZ-G d10-16</title>
 
   <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .mining-report-panel {
+      background: var(--panel);
+      border-top: 2px solid var(--orange);
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      border-left: 1px solid var(--border);
+      padding: 20px;
+    }
+
+    .mining-report-note {
+      margin: 0 0 18px;
+      color: var(--text-soft);
+      line-height: 1.6;
+    }
+
+    .mining-report-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .mining-report-field {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .mining-report-field.full-width {
+      grid-column: 1 / -1;
+    }
+
+    .mining-report-field label {
+      color: var(--text-dim);
+      font-size: 0.72rem;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .mining-report-field input,
+    .mining-report-field select,
+    .mining-report-field textarea {
+      width: 100%;
+      border: 1px solid var(--border);
+      background: var(--bg-secondary);
+      color: var(--text);
+      padding: 11px 12px;
+      font: inherit;
+      border-radius: 0;
+    }
+
+    .mining-report-field input:focus,
+    .mining-report-field select:focus,
+    .mining-report-field textarea:focus {
+      outline: 1px solid var(--orange);
+      border-color: var(--orange);
+    }
+
+    .mining-report-field textarea {
+      min-height: 110px;
+      resize: vertical;
+    }
+
+    .mining-report-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .mining-report-submit {
+      border: 1px solid var(--orange);
+      background: var(--orange);
+      color: #090d11;
+      padding: 11px 18px;
+      font: inherit;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .mining-report-submit:hover {
+      background: #ffb13b;
+    }
+
+    .mining-report-submit:disabled {
+      opacity: 0.55;
+      cursor: wait;
+    }
+
+    .mining-report-status {
+      margin: 0;
+      color: var(--text-dim);
+      line-height: 1.5;
+    }
+
+    .mining-report-status.success {
+      color: var(--orange);
+    }
+
+    .mining-report-status.error {
+      color: #ff7b7b;
+    }
+
+    @media (max-width: 720px) {
+      .mining-report-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .mining-report-field.full-width {
+        grid-column: auto;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -159,6 +276,150 @@
 
       <div class="section-heading">
         <span>03</span>
+        <h3>Submit Mining Report</h3>
+      </div>
+
+      <div class="mining-report-panel">
+        <p class="mining-report-note">
+          Submit a new surface-mining survey for review. Reports are saved as
+          pending and do not change the public mining database until approved.
+        </p>
+
+        <form id="mining-report-form">
+          <div class="mining-report-grid">
+
+            <div class="mining-report-field">
+              <label for="report-commodity">Commodity</label>
+              <input
+                id="report-commodity"
+                name="commodity"
+                type="text"
+                list="report-commodity-list"
+                autocomplete="off"
+                required
+                placeholder="e.g. Monazite"
+              >
+              <datalist id="report-commodity-list"></datalist>
+            </div>
+
+            <div class="mining-report-field">
+              <label for="report-body">Body</label>
+              <input
+                id="report-body"
+                name="body"
+                type="text"
+                required
+                placeholder="e.g. 9a"
+              >
+            </div>
+
+            <div class="mining-report-field">
+              <label for="report-body-type">Body Type</label>
+              <select id="report-body-type" name="bodyType" required>
+                <option value="moon">Moon</option>
+                <option value="planet">Planet</option>
+              </select>
+            </div>
+
+            <div class="mining-report-field">
+              <label for="report-signal">Signal #</label>
+              <input
+                id="report-signal"
+                name="signal"
+                type="number"
+                min="1"
+                step="1"
+                required
+                placeholder="e.g. 14"
+              >
+            </div>
+
+            <div class="mining-report-field">
+              <label for="report-latitude">Latitude</label>
+              <input
+                id="report-latitude"
+                name="latitude"
+                type="number"
+                min="-90"
+                max="90"
+                step="any"
+                placeholder="Optional"
+              >
+            </div>
+
+            <div class="mining-report-field">
+              <label for="report-longitude">Longitude</label>
+              <input
+                id="report-longitude"
+                name="longitude"
+                type="number"
+                min="-180"
+                max="180"
+                step="any"
+                placeholder="Optional"
+              >
+            </div>
+
+            <div class="mining-report-field">
+              <label for="report-rigs">Mining Rigs</label>
+              <input
+                id="report-rigs"
+                name="rigs"
+                type="number"
+                min="0"
+                max="100"
+                step="1"
+                placeholder="Optional"
+              >
+            </div>
+
+            <div class="mining-report-field">
+              <label for="report-submitted-by">CMDR / Reporter</label>
+              <input
+                id="report-submitted-by"
+                name="submittedBy"
+                type="text"
+                maxlength="100"
+                placeholder="Optional"
+              >
+            </div>
+
+            <div class="mining-report-field full-width">
+              <label for="report-notes">Survey Notes</label>
+              <textarea
+                id="report-notes"
+                name="notes"
+                maxlength="1000"
+                placeholder="Terrain, deposit size, nearby clusters, verification notes, etc."
+              ></textarea>
+            </div>
+
+          </div>
+
+          <div class="mining-report-actions">
+            <button
+              id="mining-report-submit"
+              class="mining-report-submit"
+              type="submit"
+            >
+              Submit for Review
+            </button>
+
+            <p
+              id="mining-report-status"
+              class="mining-report-status"
+              aria-live="polite"
+            ></p>
+          </div>
+        </form>
+      </div>
+
+    </section>
+
+    <section class="content-section">
+
+      <div class="section-heading">
+        <span>04</span>
         <h3>Survey Notes</h3>
       </div>
 
@@ -187,6 +448,189 @@
   </footer>
 
 <script src="script.js?v=2"></script>
+
+<script>
+  (function setupMiningReportForm() {
+    const API_BASE =
+      "https://ten16-api.michael-schroll.workers.dev";
+
+    const form =
+      document.getElementById("mining-report-form");
+
+    if (!form) {
+      return;
+    }
+
+    const commodityInput =
+      document.getElementById("report-commodity");
+
+    const commodityList =
+      document.getElementById("report-commodity-list");
+
+    const bodyInput =
+      document.getElementById("report-body");
+
+    const bodyTypeSelect =
+      document.getElementById("report-body-type");
+
+    const reporterInput =
+      document.getElementById("report-submitted-by");
+
+    const submitButton =
+      document.getElementById("mining-report-submit");
+
+    const statusElement =
+      document.getElementById("mining-report-status");
+
+    const savedReporter =
+      localStorage.getItem("ten16-mining-reporter");
+
+    if (savedReporter) {
+      reporterInput.value = savedReporter;
+    }
+
+    fetch(`${API_BASE}/api/mining`, {
+      cache: "no-store"
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Unable to load commodity list.");
+        }
+
+        return response.json();
+      })
+      .then(sites => {
+        const commodities = [
+          ...new Set(
+            sites.map(site => site.commodity)
+          )
+        ].sort((a, b) => a.localeCompare(b));
+
+        commodityList.innerHTML = "";
+
+        commodities.forEach(commodity => {
+          const option = document.createElement("option");
+          option.value = commodity;
+          commodityList.appendChild(option);
+        });
+      })
+      .catch(error => {
+        console.warn("Commodity suggestions unavailable:", error);
+      });
+
+    bodyInput.addEventListener("input", () => {
+      const body = bodyInput.value.trim();
+
+      if (/^\d+$/.test(body)) {
+        bodyTypeSelect.value = "planet";
+      } else if (/^\d+[a-z]+$/i.test(body)) {
+        bodyTypeSelect.value = "moon";
+      }
+    });
+
+    form.addEventListener("submit", async event => {
+      event.preventDefault();
+
+      statusElement.className = "mining-report-status";
+      statusElement.textContent = "";
+
+      const formData = new FormData(form);
+
+      const latitude = formData.get("latitude").trim();
+      const longitude = formData.get("longitude").trim();
+
+      if (
+        (latitude && !longitude) ||
+        (!latitude && longitude)
+      ) {
+        statusElement.classList.add("error");
+        statusElement.textContent =
+          "Enter both latitude and longitude, or leave both blank.";
+        return;
+      }
+
+      const submittedBy =
+        formData.get("submittedBy").trim();
+
+      if (submittedBy) {
+        localStorage.setItem(
+          "ten16-mining-reporter",
+          submittedBy
+        );
+      }
+
+      const payload = {
+        reportType: "add",
+        commodity: formData.get("commodity").trim(),
+        body: formData.get("body").trim(),
+        bodyType: formData.get("bodyType"),
+        signal: Number(formData.get("signal")),
+        latitude: latitude === "" ? null : Number(latitude),
+        longitude: longitude === "" ? null : Number(longitude),
+        rigs:
+          formData.get("rigs").trim() === ""
+            ? null
+            : Number(formData.get("rigs")),
+        preferred: false,
+        notes: formData.get("notes").trim(),
+        submittedBy
+      };
+
+      submitButton.disabled = true;
+      submitButton.textContent = "Submitting...";
+      statusElement.textContent = "Sending report...";
+
+      try {
+        const response = await fetch(
+          `${API_BASE}/api/mining-reports`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify(payload)
+          }
+        );
+
+        const result = await response.json();
+
+        if (!response.ok || !result.ok) {
+          throw new Error(
+            result.message || "Unable to submit mining report."
+          );
+        }
+
+        const rememberedReporter = submittedBy;
+
+        form.reset();
+        bodyTypeSelect.value = "moon";
+
+        if (rememberedReporter) {
+          reporterInput.value = rememberedReporter;
+        }
+
+        statusElement.className =
+          "mining-report-status success";
+
+        statusElement.textContent =
+          result.reportId
+            ? `Report #${result.reportId} submitted for review.`
+            : "Mining report submitted for review.";
+      } catch (error) {
+        console.error("Mining report submission error:", error);
+
+        statusElement.className =
+          "mining-report-status error";
+
+        statusElement.textContent =
+          error.message || "Unable to submit mining report.";
+      } finally {
+        submitButton.disabled = false;
+        submitButton.textContent = "Submit for Review";
+      }
+    });
+  })();
+</script>
   
 </body>
 </html>
