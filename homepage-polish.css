@@ -1,0 +1,158 @@
+/* HOMEPAGE POLISH PASS
+   Subtle metallic materials, clearer landmark alignment, and refined console depth.
+   Loaded after the existing concept/brand styles so the working layout stays intact. */
+
+/* HEADER / NAV — dark brushed alloy with recessed cyan seams */
+.concept-home .concept-nav {
+  border-color: rgba(155, 196, 214, .28);
+  background:
+    linear-gradient(180deg, rgba(218, 236, 245, .045) 0%, rgba(77, 118, 139, .018) 14%, transparent 38%),
+    linear-gradient(90deg, rgba(95, 225, 255, .035), transparent 24%, transparent 76%, rgba(255, 157, 66, .025)),
+    #020b12;
+  box-shadow:
+    inset 0 1px 0 rgba(215, 238, 247, .10),
+    inset 0 -1px 0 rgba(0, 0, 0, .72),
+    0 8px 20px rgba(0, 0, 0, .24);
+}
+
+.concept-home .concept-nav a {
+  border-right-color: rgba(155, 196, 214, .16);
+  background:
+    linear-gradient(180deg, rgba(203, 225, 235, .025), transparent 36%),
+    linear-gradient(90deg, transparent, rgba(62, 190, 228, .018), transparent);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .9);
+}
+
+.concept-home .concept-nav a:hover,
+.concept-home .concept-nav a.active {
+  background:
+    linear-gradient(180deg, rgba(75, 137, 165, .24), rgba(7, 28, 41, .86) 42%, rgba(2, 12, 20, .96)),
+    linear-gradient(90deg, transparent, rgba(103, 232, 255, .045), transparent);
+  box-shadow:
+    inset 0 1px 0 rgba(197, 231, 241, .09),
+    inset 0 -10px 24px rgba(13, 73, 103, .10);
+}
+
+/* HERO FRAME — slightly more machined without becoming chrome */
+.concept-home .concept-hero {
+  border-color: rgba(138, 187, 207, .34);
+  box-shadow:
+    0 28px 80px rgba(0, 0, 0, .42),
+    inset 0 1px 0 rgba(208, 231, 240, .08),
+    inset 1px 0 0 rgba(149, 196, 214, .025),
+    inset -1px 0 0 rgba(0, 0, 0, .7);
+}
+
+/* Align landmark annotation to the copy rail instead of floating in the image. */
+@media (min-width: 1181px) {
+  .concept-home .concept-landmark {
+    left: clamp(32px, 4vw, 58px);
+    right: auto;
+    bottom: 18px;
+    padding-left: 14px;
+    border-left: 2px solid var(--orange);
+    text-align: left;
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .5));
+  }
+}
+
+/* TELEMETRY — inset instrument panel / blue-steel rim */
+.concept-home .concept-telemetry {
+  background:
+    linear-gradient(180deg, rgba(205, 230, 240, .035) 0%, transparent 17%),
+    linear-gradient(135deg, rgba(71, 145, 176, .07), transparent 38%),
+    linear-gradient(180deg, rgba(5, 21, 34, .97), rgba(2, 10, 17, .97));
+  border-color: rgba(151, 207, 226, .42);
+  box-shadow:
+    0 20px 54px rgba(0, 0, 0, .46),
+    inset 0 1px 0 rgba(225, 242, 248, .12),
+    inset 0 -1px 0 rgba(0, 0, 0, .85),
+    inset 0 0 34px rgba(64, 178, 215, .028);
+}
+
+.concept-home .concept-panel-head {
+  color: #91aab5;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .9);
+}
+
+.concept-home .concept-telemetry-icon {
+  background:
+    radial-gradient(circle at 38% 32%, rgba(153, 231, 247, .075), transparent 35%),
+    linear-gradient(180deg, rgba(28, 62, 78, .34), rgba(1, 9, 15, .66));
+  border-color: rgba(115, 211, 238, .45);
+  box-shadow:
+    inset 0 1px 0 rgba(209, 237, 245, .08),
+    inset 0 -5px 12px rgba(0, 0, 0, .26),
+    0 0 12px rgba(67, 207, 244, .035);
+}
+
+/* COMMAND CARDS — gunmetal shells with blue-steel edge highlights */
+.concept-home .concept-node {
+  border-color: rgba(126, 181, 203, .31);
+  background:
+    linear-gradient(180deg, rgba(210, 232, 240, .055) 0%, rgba(119, 154, 169, .015) 11%, transparent 29%),
+    linear-gradient(135deg, rgba(26, 77, 101, .13), transparent 48%),
+    linear-gradient(180deg, #071a27 0%, #04131e 48%, #03101a 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(221, 240, 247, .10),
+    inset 1px 0 0 rgba(156, 202, 220, .025),
+    inset 0 -1px 0 rgba(0, 0, 0, .88),
+    0 12px 28px rgba(0, 0, 0, .18);
+}
+
+.concept-home .concept-node:hover {
+  border-color: rgba(102, 225, 255, .52);
+  background:
+    linear-gradient(180deg, rgba(219, 239, 246, .065) 0%, transparent 28%),
+    linear-gradient(135deg, rgba(31, 105, 138, .18), transparent 48%),
+    linear-gradient(180deg, #082132 0%, #041723 52%, #03111b 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(229, 244, 249, .12),
+    inset 0 -1px 0 rgba(0, 0, 0, .9),
+    0 14px 34px rgba(0, 0, 0, .25),
+    0 0 18px rgba(83, 214, 248, .035);
+}
+
+.concept-home .concept-node-icon {
+  background:
+    radial-gradient(circle at 42% 34%, rgba(90, 220, 250, .065), transparent 38%),
+    linear-gradient(180deg, rgba(27, 66, 84, .30), rgba(2, 11, 18, .48));
+  box-shadow:
+    inset 0 1px 0 rgba(213, 238, 246, .07),
+    inset 0 -8px 20px rgba(0, 0, 0, .22);
+}
+
+.concept-home .concept-node-arrow {
+  background:
+    linear-gradient(180deg, rgba(205, 229, 237, .045), transparent 34%),
+    rgba(2, 13, 21, .62);
+  border-color: rgba(107, 197, 226, .30);
+  box-shadow:
+    inset 0 1px 0 rgba(214, 237, 245, .07),
+    0 4px 10px rgba(0, 0, 0, .18);
+}
+
+/* Resource scouting radar — animated only on hover, otherwise calm. */
+.concept-home .resource-radar .radar-sweep {
+  transform-origin: 50px 50px;
+  transition: transform .45s ease;
+}
+
+.concept-home .concept-node:hover .resource-radar .radar-sweep {
+  transform: rotate(24deg);
+}
+
+.concept-home .resource-radar .radar-contact {
+  filter: drop-shadow(0 0 3px rgba(101, 230, 255, .5));
+}
+
+/* Keep the metallic pass restrained on small screens. */
+@media (max-width: 760px) {
+  .concept-home .concept-node,
+  .concept-home .concept-telemetry,
+  .concept-home .concept-nav {
+    box-shadow:
+      inset 0 1px 0 rgba(220, 239, 246, .07),
+      inset 0 -1px 0 rgba(0, 0, 0, .75);
+  }
+}
