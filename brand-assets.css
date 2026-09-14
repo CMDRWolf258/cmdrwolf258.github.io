@@ -83,19 +83,33 @@
   gap: 11px;
 }
 
+/* The original source image is retained in the markup as a semantic fallback,
+   but the visible badge is the true-alpha WebP below. This avoids the black
+   square baked into the older source asset without altering the rest of the footer. */
 .brand-mongrel-mark {
-  width: 76px !important;
-  height: 76px !important;
+  display: none !important;
+}
+
+.concept-footer-mongrels > span {
+  order: 1;
+}
+
+.concept-footer-mongrels::after {
+  content: "";
+  display: block;
+  order: 2;
+  width: 76px;
+  height: 76px;
   flex: 0 0 76px;
-  object-fit: contain !important;
-  opacity: .96 !important;
-  mix-blend-mode: screen;
+  background: center / contain no-repeat url("data:image/webp;base64,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");
+  pointer-events: none;
   filter:
     drop-shadow(0 0 10px rgba(55, 209, 255, .18))
     drop-shadow(0 8px 16px rgba(0, 0, 0, .46));
 }
 
 .brand-imperial-orange {
+  order: 3;
   width: 34px;
   height: 34px;
   flex: 0 0 34px;
@@ -145,9 +159,9 @@
     flex-basis: 40px;
   }
 
-  .brand-mongrel-mark {
-    width: 68px !important;
-    height: 68px !important;
+  .concept-footer-mongrels::after {
+    width: 68px;
+    height: 68px;
     flex-basis: 68px;
   }
 
@@ -173,9 +187,9 @@
     font-size: .4rem;
   }
 
-  .brand-mongrel-mark {
-    width: 60px !important;
-    height: 60px !important;
+  .concept-footer-mongrels::after {
+    width: 60px;
+    height: 60px;
     flex-basis: 60px;
   }
 }
