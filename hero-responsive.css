@@ -1,57 +1,76 @@
 /* RESPONSIVE HERO REFINEMENT
-   Focus: preserve the ELW + King's Mountain View composition at varying window sizes,
-   keep the approved command-nav treatment, and make the mobile hero substantially tighter. */
+   Focus: make the ELW + King's Mountain View image a major visual element while
+   preserving a controlled composition across wide, medium, landscape, and portrait windows. */
 
-/* The temporary hand-drawn emblem/crest assets have been removed from the markup.
-   Keep the archive identity typographic until genuine game assets are added. */
+/* Genuine Elite / Imperial logo assets will be added separately once supplied.
+   No temporary hand-drawn replacements are used here. */
 .concept-brand { gap: 0; }
 .concept-header-top { min-height: 54px; }
 .concept-header-affiliation { gap: 0; }
 .concept-footer-brand { gap: 0; }
 
-/* DESKTOP / WIDE WINDOW HERO */
+/* DESKTOP / WIDE WINDOW HERO
+   The panorama now fills the hero height and is deliberately cropped instead of
+   being shown as a small, fully-contained image. This makes the ELW and station
+   read much more like the approved concept. */
 .concept-hero {
-  min-height: 456px;
+  min-height: 488px;
 }
 
 .hero-panorama {
-  width: 66%;
-  height: auto;
-  aspect-ratio: 2048 / 576;
-  top: 50%;
-  transform: translateY(-50%);
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  top: 0;
+  width: 72%;
+  height: 100%;
+  aspect-ratio: auto;
+  transform: none;
   align-items: stretch;
+  overflow: hidden;
 }
 
 .hero-panorama img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  object-position: center;
+  display: block;
+  object-fit: cover;
+  object-position: 62% center;
   transform: none;
+  filter: brightness(.86) saturate(1.02) contrast(1.06);
 }
 
 .hero-panorama-shade {
   background:
-    linear-gradient(90deg, rgba(2,8,14,1) 0%, rgba(2,8,14,.98) 22%, rgba(2,8,14,.74) 36%, rgba(2,8,14,.24) 54%, transparent 70%),
-    linear-gradient(0deg, rgba(2,8,14,.7) 0%, transparent 24%, transparent 76%, rgba(2,8,14,.12) 100%);
+    linear-gradient(90deg,
+      rgba(2,8,14,1) 0%,
+      rgba(2,8,14,.99) 18%,
+      rgba(2,8,14,.86) 29%,
+      rgba(2,8,14,.48) 43%,
+      rgba(2,8,14,.12) 58%,
+      transparent 70%),
+    linear-gradient(0deg,
+      rgba(2,8,14,.58) 0%,
+      transparent 20%,
+      transparent 78%,
+      rgba(2,8,14,.15) 100%);
 }
 
 .concept-hero-copy {
   width: 47%;
-  max-width: 600px;
-  padding: 50px 0 46px clamp(32px, 4vw, 58px);
+  max-width: 610px;
+  padding: 52px 0 48px clamp(32px, 4vw, 58px);
 }
 
 .concept-title {
-  max-width: 560px;
-  font-size: clamp(3.15rem, 5.8vw, 5rem);
+  max-width: 570px;
+  font-size: clamp(3.25rem, 5.9vw, 5.15rem);
   line-height: .88;
 }
 
 .concept-lede {
   margin-top: 20px;
-  max-width: 500px;
+  max-width: 505px;
   font-size: .95rem;
   line-height: 1.58;
 }
@@ -63,10 +82,10 @@
 }
 
 .concept-telemetry {
-  right: clamp(18px, 2.5vw, 34px);
-  top: 42px;
-  width: min(284px, 24vw);
-  min-width: 238px;
+  right: clamp(18px, 2.4vw, 34px);
+  top: 44px;
+  width: min(282px, 23vw);
+  min-width: 236px;
   padding: 16px 18px 14px;
 }
 
@@ -82,72 +101,98 @@
 }
 
 .concept-landmark {
-  right: 29%;
-  bottom: 20px;
+  right: 27.5%;
+  bottom: 18px;
 }
 
-/* MID-SIZE WINDOWS: keep the hero composed rather than letting the image and telemetry
-   slide independently as the viewport gets narrower. */
+/* MID-SIZE WINDOWS */
 @media (max-width: 1180px) {
-  .concept-hero { min-height: 438px; }
-  .hero-panorama { width: 65%; }
+  .concept-hero { min-height: 458px; }
+
+  .hero-panorama {
+    width: 70%;
+  }
+
+  .hero-panorama img {
+    object-position: 63% center;
+  }
+
   .concept-hero-copy {
     width: 52%;
     padding: 46px 0 42px 38px;
   }
-  .concept-title { font-size: clamp(3rem, 6.3vw, 4.55rem); }
-  .concept-lede { max-width: 430px; font-size: .9rem; }
-  .concept-telemetry {
-    width: 254px;
-    min-width: 224px;
-    right: 18px;
-    top: 42px;
+
+  .concept-title {
+    font-size: clamp(3rem, 6.3vw, 4.6rem);
   }
+
+  .concept-lede {
+    max-width: 435px;
+    font-size: .9rem;
+  }
+
+  .concept-telemetry {
+    width: 252px;
+    min-width: 222px;
+    right: 18px;
+    top: 38px;
+  }
+
   .concept-landmark { display: none; }
 }
 
 /* PHONE LANDSCAPE / NARROW DESKTOP
-   Keep the image visible as an integrated right-side panorama and shrink telemetry
-   enough that it doesn't swallow King's Mountain View. */
+   Keep a large right-side image and intentionally crop it around the ELW/station pair. */
 @media (max-width: 980px) and (min-width: 761px) {
-  .concept-hero { min-height: 420px; }
+  .concept-hero { min-height: 424px; }
+
   .hero-panorama {
     position: absolute;
-    width: 63%;
-    height: auto;
-    aspect-ratio: 2048 / 576;
-    top: 54%;
+    width: 68%;
+    height: 100%;
+    top: 0;
     right: 0;
-    transform: translateY(-50%);
+    transform: none;
   }
+
+  .hero-panorama img {
+    object-fit: cover;
+    object-position: 63% center;
+  }
+
   .concept-hero-copy {
     width: 54%;
     padding: 40px 0 38px 30px;
   }
+
   .concept-title {
-    font-size: clamp(2.85rem, 6.6vw, 3.85rem);
-    max-width: 450px;
+    font-size: clamp(2.85rem, 6.6vw, 3.9rem);
+    max-width: 455px;
   }
+
   .concept-lede {
     max-width: 390px;
     margin-top: 18px;
     font-size: .86rem;
     line-height: 1.5;
   }
+
   .concept-quote {
     max-width: 350px;
     margin-top: 16px;
     font-size: .53rem;
   }
+
   .concept-telemetry {
     position: absolute;
-    top: 48px;
+    top: 46px;
     right: 14px;
     bottom: auto;
     width: 226px;
     min-width: 0;
     padding: 14px 15px 12px;
   }
+
   .concept-panel-head { font-size: .54rem; }
   .concept-telemetry-row { padding: 7px 0; }
   .concept-telemetry-copy small { font-size: .46rem; }
@@ -156,18 +201,21 @@
 }
 
 /* PORTRAIT / TABLET / PHONE
-   Reorder the hero into a compact reading flow. The image is a deliberate cinematic
-   strip instead of a tall block, and telemetry sits directly under the hero copy. */
+   The image becomes a larger cinematic crop between the copy and telemetry instead
+   of a thin strip. Both the planet and King's Mountain View remain visible. */
 @media (max-width: 760px) {
   .concept-header-top {
     min-height: 48px;
     padding: 2px 4px 4px;
   }
+
   .concept-header-motto { display: none; }
+
   .concept-brand-copy strong {
     font-size: .67rem;
     letter-spacing: .085em;
   }
+
   .concept-brand-copy span {
     font-size: .46rem;
     letter-spacing: .14em;
@@ -220,30 +268,37 @@
     position: relative;
     z-index: 4;
     width: calc(100% - 20px);
-    height: auto;
-    aspect-ratio: 2048 / 576;
+    height: clamp(170px, 28vw, 220px);
+    aspect-ratio: auto;
     top: auto;
     right: auto;
     transform: none;
-    margin: 0 auto 8px;
+    margin: 0 auto 7px;
     overflow: hidden;
-    border-top: 1px solid rgba(91,214,250,.14);
-    border-bottom: 1px solid rgba(91,214,250,.14);
+    border-top: 1px solid rgba(91,214,250,.18);
+    border-bottom: 1px solid rgba(91,214,250,.18);
+    background: #01070c;
   }
 
   .hero-panorama img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    object-position: center;
+    object-fit: cover;
+    object-position: 58% center;
+    filter: brightness(.92) saturate(1.04) contrast(1.06);
   }
 
   .hero-panorama-shade {
-    display: none;
+    display: block;
+    z-index: 5;
+    background:
+      linear-gradient(90deg, rgba(2,8,14,.12), transparent 17%, transparent 84%, rgba(2,8,14,.14)),
+      linear-gradient(0deg, rgba(2,8,14,.18), transparent 26%, transparent 78%, rgba(2,8,14,.1));
+    pointer-events: none;
   }
 
   .hero-grid-lines {
-    opacity: .11;
+    opacity: .1;
     mask-image: linear-gradient(180deg, #000 0 58%, transparent 90%);
   }
 
@@ -252,7 +307,7 @@
     right: -1.2rem;
     top: 18px;
     font-size: clamp(5rem, 24vw, 8rem);
-    opacity: .55;
+    opacity: .5;
   }
 
   .concept-telemetry {
@@ -269,12 +324,17 @@
   }
 
   .concept-panel-head { padding-bottom: 8px; }
+
   .concept-telemetry-row {
     grid-template-columns: 32px 1fr;
     gap: 9px;
     padding: 7px 0;
   }
-  .concept-telemetry-icon { width: 28px; height: 28px; }
+
+  .concept-telemetry-icon {
+    width: 28px;
+    height: 28px;
+  }
 
   .concept-landmark { display: none; }
 }
@@ -283,6 +343,7 @@
   .concept-header-shell { padding-top: 6px; }
   .concept-brand-copy strong { font-size: .6rem; }
   .concept-brand-copy span { font-size: .42rem; }
+
   .concept-nav a {
     padding-top: 10px;
     padding-bottom: 9px;
@@ -295,11 +356,22 @@
   .concept-lede { margin-top: 14px; font-size: .84rem; line-height: 1.46; }
   .concept-quote { margin-top: 13px; font-size: .5rem; letter-spacing: .11em; }
   .concept-quote::before { width: 18px; margin-right: 7px; }
-  .hero-panorama { width: calc(100% - 14px); margin-bottom: 6px; }
+
+  .hero-panorama {
+    width: calc(100% - 14px);
+    height: 170px;
+    margin-bottom: 6px;
+  }
+
+  .hero-panorama img {
+    object-position: 58% center;
+  }
+
   .concept-telemetry {
     width: calc(100% - 18px);
     padding: 12px 13px 10px;
   }
+
   .concept-panel-head { font-size: .56rem; }
   .concept-telemetry-copy small { font-size: .48rem; }
   .concept-telemetry-copy strong { font-size: .75rem; }
