@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mining Admin | NGC 2546 Sector UZ-G d10-16</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .admin-shell {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .admin-panel {
+      background: var(--panel);
+      border-top: 2px solid var(--orange);
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      border-left: 1px solid var(--border);
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+
+    .admin-login-grid {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: end;
+    }
+
+    .admin-field {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .admin-field label {
+      color: var(--text-dim);
+      font-size: 0.72rem;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .admin-field input,
+    .admin-field select,
+    .admin-field textarea {
+      width: 100%;
+      border: 1px solid var(--border);
+      background: var(--bg-secondary);
+      color: var(--text);
+      padding: 11px 12px;
+      font: inherit;
+      border-radius: 0;
+    }
+
+    .admin-field input:focus,
+    .admin-field select:focus,
+    .admin-field textarea:focus {
+      outline: 1px solid var(--orange);
+      border-color: var(--orange);
+    }
+
+    .admin-button {
+      border: 1px solid var(--orange);
+      background: var(--orange);
+      color: #090d11;
+      padding: 11px 16px;
+      font: inherit;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .admin-button.secondary {
+      background: transparent;
+      color: var(--orange);
+    }
+
+    .admin-button.danger {
+      border-color: #d95d5d;
+      background: transparent;
+      color: #ff8f8f;
+    }
+
+    .admin-button:disabled {
+      opacity: 0.55;
+      cursor: wait;
+    }
+
+    .admin-toolbar {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: end;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+
+    .admin-toolbar-group {
+      display: flex;
+      gap: 10px;
+      align-items: end;
+      flex-wrap: wrap;
+    }
+
+    .admin-status {
+      margin: 12px 0 0;
+      color: var(--text-dim);
+      line-height: 1.5;
+    }
+
+    .admin-status.success {
+      color: var(--orange);
+    }
+
+    .admin-status.error {
+      color: #ff8f8f;
+    }
+
+    .report-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .report-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--orange);
+      padding: 18px;
+    }
+
+    .report-card.reviewed {
+      opacity: 0.8;
+      border-left-color: var(--text-dim);
+    }
+
+    .report-topline {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .report-code {
+      margin: 0 0 5px;
+      color: var(--text-dim);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .report-title {
+      margin: 0;
+      color: var(--orange);
+      font-size: 1.25rem;
+    }
+
+    .report-status-badge {
+      border: 1px solid var(--border);
+      padding: 5px 8px;
+      color: var(--text-soft);
+      font-size: 0.7rem;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .report-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px 18px;
+      margin: 14px 0;
+    }
+
+    .report-detail {
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding-bottom: 8px;
+    }
+
+    .report-detail-label {
+      display: block;
+      color: var(--text-dim);
+      font-size: 0.68rem;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .report-detail-value {
+      color: var(--text);
+      word-break: break-word;
+    }
+
+    .report-notes {
+      margin: 12px 0 0;
+      color: var(--text-soft);
+      line-height: 1.6;
+      white-space: pre-wrap;
+    }
+
+    .report-review {
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+
+    .report-review textarea {
+      min-height: 80px;
+      resize: vertical;
+    }
+
+    .report-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .empty-state {
+      border: 1px solid var(--border);
+      background: var(--panel);
+      padding: 20px;
+      color: var(--text-dim);
+    }
+
+    .admin-note {
+      color: var(--text-soft);
+      line-height: 1.6;
+      margin: 0 0 16px;
+    }
+
+    @media (max-width: 720px) {
+      .admin-login-grid,
+      .report-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .admin-toolbar,
+      .admin-toolbar-group {
+        align-items: stretch;
+      }
+
+      .admin-toolbar-group {
+        width: 100%;
+      }
+
+      .admin-toolbar-group .admin-field,
+      .admin-toolbar-group .admin-button {
+        flex: 1 1 auto;
+      }
+
+      .report-topline {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="title-block">
+        <p class="eyebrow">CMDR WOLF258 SYSTEM ARCHIVE</p>
+        <h1>Mining Administration</h1>
+      </div>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="mining.html">Mining</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="admin-shell">
+
+      <section class="page-intro">
+        <p class="section-label">PRIVATE TOOL // MINING REVIEW</p>
+        <h2>Mining Report Review</h2>
+        <p class="hero-text">
+          Review pending mining submissions before they are written into the
+          live 10-16 mining database.
+        </p>
+      </section>
+
+      <section class="admin-panel" id="admin-login-panel">
+        <div class="panel-heading">
+          <span>Admin Access</span>
+          <span class="status-indicator">SECURED</span>
+        </div>
+
+        <p class="admin-note">
+          Enter the Cloudflare ADMIN_KEY. The key is kept only in this browser
+          tab using session storage and is never written into the site files.
+        </p>
+
+        <div class="admin-login-grid">
+          <div class="admin-field">
+            <label for="admin-key">Admin Key</label>
+            <input
+              id="admin-key"
+              type="password"
+              autocomplete="off"
+              placeholder="Enter ADMIN_KEY"
+            >
+          </div>
+
+          <button id="admin-connect" class="admin-button" type="button">
+            Connect
+          </button>
+        </div>
+
+        <p id="admin-login-status" class="admin-status" aria-live="polite"></p>
+      </section>
+
+      <section class="content-section" id="review-section" hidden>
+        <div class="section-heading">
+          <span>01</span>
+          <h3>Review Queue</h3>
+        </div>
+
+        <div class="admin-toolbar">
+          <div class="admin-toolbar-group">
+            <div class="admin-field">
+              <label for="report-status-filter">Status</label>
+              <select id="report-status-filter">
+                <option value="pending">Pending</option>
+                <option value="approved">Approved</option>
+                <option value="rejected">Rejected</option>
+                <option value="all">All Reports</option>
+              </select>
+            </div>
+
+            <button id="refresh-reports" class="admin-button secondary" type="button">
+              Refresh
+            </button>
+          </div>
+
+          <button id="forget-admin-key" class="admin-button danger" type="button">
+            Forget Key
+          </button>
+        </div>
+
+        <p id="review-status" class="admin-status" aria-live="polite"></p>
+
+        <div id="report-list" class="report-list"></div>
+      </section>
+
+      <a class="back-link" href="mining.html">← Return to Mining Database</a>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Private mining review interface for CMDR Wolf258.</p>
+  </footer>
+
+  <script>
+    (function setupMiningAdmin() {
+      const API_BASE =
+        "https://ten16-api.michael-schroll.workers.dev";
+
+      const keyInput =
+        document.getElementById("admin-key");
+
+      const connectButton =
+        document.getElementById("admin-connect");
+
+      const loginStatus =
+        document.getElementById("admin-login-status");
+
+      const reviewSection =
+        document.getElementById("review-section");
+
+      const statusFilter =
+        document.getElementById("report-status-filter");
+
+      const refreshButton =
+        document.getElementById("refresh-reports");
+
+      const forgetButton =
+        document.getElementById("forget-admin-key");
+
+      const reviewStatus =
+        document.getElementById("review-status");
+
+      const reportList =
+        document.getElementById("report-list");
+
+      let adminKey =
+        sessionStorage.getItem("ten16-admin-key") || "";
+
+      if (adminKey) {
+        keyInput.value = adminKey;
+      }
+
+      function authHeaders() {
+        return {
+          "Authorization": `Bearer ${adminKey}`,
+          "Content-Type": "application/json"
+        };
+      }
+
+      function setLoginStatus(message, type = "") {
+        loginStatus.className = "admin-status";
+
+        if (type) {
+          loginStatus.classList.add(type);
+        }
+
+        loginStatus.textContent = message;
+      }
+
+      function setReviewStatus(message, type = "") {
+        reviewStatus.className = "admin-status";
+
+        if (type) {
+          reviewStatus.classList.add(type);
+        }
+
+        reviewStatus.textContent = message;
+      }
+
+      function formatDate(value) {
+        if (!value) {
+          return "—";
+        }
+
+        const parsed = new Date(value + (value.includes("Z") ? "" : "Z"));
+
+        if (Number.isNaN(parsed.getTime())) {
+          return value;
+        }
+
+        return parsed.toLocaleString();
+      }
+
+      function textOrDash(value) {
+        return value === null || value === undefined || value === ""
+          ? "—"
+          : String(value);
+      }
+
+      function makeDetail(label, value) {
+        const wrapper = document.createElement("div");
+        wrapper.className = "report-detail";
+
+        const labelElement = document.createElement("span");
+        labelElement.className = "report-detail-label";
+        labelElement.textContent = label;
+
+        const valueElement = document.createElement("span");
+        valueElement.className = "report-detail-value";
+        valueElement.textContent = textOrDash(value);
+
+        wrapper.append(labelElement, valueElement);
+        return wrapper;
+      }
+
+      async function loadReports() {
+        if (!adminKey) {
+          return;
+        }
+
+        const status = statusFilter.value;
+
+        setReviewStatus("Loading reports...");
+        reportList.innerHTML = "";
+
+        try {
+          const response = await fetch(
+            `${API_BASE}/api/admin/mining-reports?status=${encodeURIComponent(status)}`,
+            {
+              headers: authHeaders(),
+              cache: "no-store"
+            }
+          );
+
+          const result = await response.json();
+
+          if (response.status === 401) {
+            throw new Error("Admin key was not accepted.");
+          }
+
+          if (!response.ok || !result.ok) {
+            throw new Error(result.message || "Unable to load reports.");
+          }
+
+          reviewSection.hidden = false;
+
+          if (!result.reports.length) {
+            const empty = document.createElement("div");
+            empty.className = "empty-state";
+            empty.textContent = `No ${status === "all" ? "" : status + " "}reports found.`;
+            reportList.appendChild(empty);
+            setReviewStatus("Queue loaded.", "success");
+            return;
+          }
+
+          result.reports.forEach(renderReport);
+
+          setReviewStatus(
+            `${result.count} ${result.count === 1 ? "report" : "reports"} loaded.`,
+            "success"
+          );
+        } catch (error) {
+          console.error("Admin report load error:", error);
+          setReviewStatus(error.message || "Unable to load reports.", "error");
+
+          if ((error.message || "").toLowerCase().includes("admin key")) {
+            reviewSection.hidden = true;
+            setLoginStatus("Admin key was not accepted.", "error");
+          }
+        }
+      }
+
+      function renderReport(report) {
+        const card = document.createElement("article");
+        card.className = "report-card";
+
+        if (report.status !== "pending") {
+          card.classList.add("reviewed");
+        }
+
+        const topLine = document.createElement("div");
+        topLine.className = "report-topline";
+
+        const titleBlock = document.createElement("div");
+
+        const code = document.createElement("p");
+        code.className = "report-code";
+        code.textContent = `REPORT #${report.id} // ${String(report.reportType).toUpperCase()}`;
+
+        const title = document.createElement("h4");
+        title.className = "report-title";
+        title.textContent = `${report.commodity} — ${report.bodyType === "moon" ? "Moon" : "Planet"} ${report.body} — Signal #${report.signal}`;
+
+        titleBlock.append(code, title);
+
+        const badge = document.createElement("span");
+        badge.className = "report-status-badge";
+        badge.textContent = report.status;
+
+        topLine.append(titleBlock, badge);
+        card.appendChild(topLine);
+
+        const grid = document.createElement("div");
+        grid.className = "report-grid";
+
+        grid.append(
+          makeDetail("Reporter", report.submittedBy || "Anonymous"),
+          makeDetail("Submitted", formatDate(report.submittedAt)),
+          makeDetail("Latitude", report.latitude),
+          makeDetail("Longitude", report.longitude),
+          makeDetail("Mining Rigs", report.rigs),
+          makeDetail("Target Site ID", report.targetSiteId),
+          makeDetail("Preferred", report.preferred ? "Yes" : "No"),
+          makeDetail("Reviewed", formatDate(report.reviewedAt))
+        );
+
+        card.appendChild(grid);
+
+        if (report.notes) {
+          const notes = document.createElement("p");
+          notes.className = "report-notes";
+          notes.textContent = `Survey notes: ${report.notes}`;
+          card.appendChild(notes);
+        }
+
+        if (report.reviewNotes) {
+          const reviewNotes = document.createElement("p");
+          reviewNotes.className = "report-notes";
+          reviewNotes.textContent = `Review notes: ${report.reviewNotes}`;
+          card.appendChild(reviewNotes);
+        }
+
+        if (report.status === "pending") {
+          const review = document.createElement("div");
+          review.className = "report-review";
+
+          const field = document.createElement("div");
+          field.className = "admin-field";
+
+          const label = document.createElement("label");
+          label.textContent = "Review Notes";
+
+          const textarea = document.createElement("textarea");
+          textarea.placeholder = "Optional notes about this approval or rejection...";
+
+          field.append(label, textarea);
+
+          const actions = document.createElement("div");
+          actions.className = "report-actions";
+
+          const approveButton = document.createElement("button");
+          approveButton.className = "admin-button";
+          approveButton.type = "button";
+          approveButton.textContent = "Approve";
+
+          const rejectButton = document.createElement("button");
+          rejectButton.className = "admin-button danger";
+          rejectButton.type = "button";
+          rejectButton.textContent = "Reject";
+
+          approveButton.addEventListener("click", () => {
+            reviewReport(report, "approve", textarea.value, approveButton, rejectButton);
+          });
+
+          rejectButton.addEventListener("click", () => {
+            reviewReport(report, "reject", textarea.value, approveButton, rejectButton);
+          });
+
+          actions.append(approveButton, rejectButton);
+          review.append(field, actions);
+          card.appendChild(review);
+        }
+
+        reportList.appendChild(card);
+      }
+
+      async function reviewReport(report, action, reviewNotes, approveButton, rejectButton) {
+        const actionWord = action === "approve" ? "approve" : "reject";
+
+        const confirmed = window.confirm(
+          `${actionWord.charAt(0).toUpperCase() + actionWord.slice(1)} report #${report.id}?`
+        );
+
+        if (!confirmed) {
+          return;
+        }
+
+        approveButton.disabled = true;
+        rejectButton.disabled = true;
+        setReviewStatus(`${actionWord === "approve" ? "Approving" : "Rejecting"} report #${report.id}...`);
+
+        try {
+          const response = await fetch(
+            `${API_BASE}/api/admin/mining-reports/${report.id}/${action}`,
+            {
+              method: "POST",
+              headers: authHeaders(),
+              body: JSON.stringify({
+                reviewNotes: reviewNotes.trim()
+              })
+            }
+          );
+
+          const result = await response.json();
+
+          if (!response.ok || !result.ok) {
+            throw new Error(result.message || `Unable to ${actionWord} report.`);
+          }
+
+          setReviewStatus(
+            `Report #${report.id} ${actionWord === "approve" ? "approved" : "rejected"}.`,
+            "success"
+          );
+
+          await loadReports();
+        } catch (error) {
+          console.error("Mining review error:", error);
+          setReviewStatus(error.message || `Unable to ${actionWord} report.`, "error");
+          approveButton.disabled = false;
+          rejectButton.disabled = false;
+        }
+      }
+
+      async function connect() {
+        const enteredKey = keyInput.value.trim();
+
+        if (!enteredKey) {
+          setLoginStatus("Enter the ADMIN_KEY first.", "error");
+          return;
+        }
+
+        adminKey = enteredKey;
+        connectButton.disabled = true;
+        setLoginStatus("Checking admin access...");
+
+        try {
+          const response = await fetch(
+            `${API_BASE}/api/admin/mining-reports?status=pending`,
+            {
+              headers: authHeaders(),
+              cache: "no-store"
+            }
+          );
+
+          const result = await response.json();
+
+          if (!response.ok || !result.ok) {
+            throw new Error(result.message || "Admin access failed.");
+          }
+
+          sessionStorage.setItem("ten16-admin-key", adminKey);
+          reviewSection.hidden = false;
+          setLoginStatus("Admin access connected for this tab.", "success");
+          await loadReports();
+        } catch (error) {
+          adminKey = "";
+          sessionStorage.removeItem("ten16-admin-key");
+          reviewSection.hidden = true;
+          setLoginStatus(error.message || "Admin access failed.", "error");
+        } finally {
+          connectButton.disabled = false;
+        }
+      }
+
+      connectButton.addEventListener("click", connect);
+
+      keyInput.addEventListener("keydown", event => {
+        if (event.key === "Enter") {
+          connect();
+        }
+      });
+
+      refreshButton.addEventListener("click", loadReports);
+      statusFilter.addEventListener("change", loadReports);
+
+      forgetButton.addEventListener("click", () => {
+        adminKey = "";
+        keyInput.value = "";
+        sessionStorage.removeItem("ten16-admin-key");
+        reviewSection.hidden = true;
+        reportList.innerHTML = "";
+        setReviewStatus("");
+        setLoginStatus("Admin key cleared from this tab.");
+      });
+
+      if (adminKey) {
+        connect();
+      }
+    })();
+  </script>
+
+</body>
+</html>
