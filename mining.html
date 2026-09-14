@@ -2,220 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#02080e">
 
-  <title>Mining | NGC 2546 Sector UZ-G d10-16</title>
+  <title>Resource Scouting &amp; Markets | 10-16</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
-
-  <style>
-    .mining-quick-actions {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 20px;
-    }
-
-    .mining-jump-button,
-    .mining-login-button,
-    .mining-logout-button {
-      display: inline-block;
-      border: 1px solid var(--orange);
-      color: var(--orange);
-      background: transparent;
-      padding: 10px 14px;
-      text-decoration: none;
-      font-size: 0.82rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      cursor: pointer;
-    }
-
-    .mining-jump-button:hover,
-    .mining-login-button:hover,
-    .mining-logout-button:hover {
-      background: rgba(255, 149, 0, 0.08);
-    }
-
-    .mining-report-panel {
-      background: var(--panel);
-      border-top: 2px solid var(--orange);
-      border-right: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-      border-left: 1px solid var(--border);
-      padding: 20px;
-    }
-
-    .mining-report-note {
-      margin: 0 0 18px;
-      color: var(--text-soft);
-      line-height: 1.6;
-    }
-
-    .mining-auth-panel {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-      margin-bottom: 18px;
-      padding: 14px 16px;
-      border: 1px solid var(--border);
-      background: rgba(255, 255, 255, 0.02);
-    }
-
-    .mining-auth-copy {
-      margin: 0;
-      color: var(--text-soft);
-      line-height: 1.55;
-    }
-
-    .mining-auth-copy strong {
-      color: var(--orange);
-    }
-
-    .mining-report-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .mining-report-field {
-      display: flex;
-      flex-direction: column;
-      gap: 7px;
-    }
-
-    .mining-report-field.full-width {
-      grid-column: 1 / -1;
-    }
-
-    .mining-report-field label {
-      color: var(--text-dim);
-      font-size: 0.72rem;
-      letter-spacing: 0.11em;
-      text-transform: uppercase;
-    }
-
-    .mining-report-field small {
-      color: var(--text-dim);
-      line-height: 1.45;
-    }
-
-    .mining-report-field input,
-    .mining-report-field select,
-    .mining-report-field textarea {
-      width: 100%;
-      border: 1px solid var(--border);
-      background: var(--bg-secondary);
-      color: var(--text);
-      padding: 11px 12px;
-      font: inherit;
-      border-radius: 0;
-    }
-
-    .mining-report-field input:focus,
-    .mining-report-field select:focus,
-    .mining-report-field textarea:focus {
-      outline: 1px solid var(--orange);
-      border-color: var(--orange);
-    }
-
-    .mining-report-field textarea {
-      min-height: 110px;
-      resize: vertical;
-    }
-
-    .mining-report-actions {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      flex-wrap: wrap;
-      margin-top: 18px;
-    }
-
-    .mining-report-submit {
-      border: 1px solid var(--orange);
-      background: var(--orange);
-      color: #090d11;
-      padding: 11px 18px;
-      font: inherit;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      cursor: pointer;
-    }
-
-    .mining-report-submit:hover {
-      background: #ffb13b;
-    }
-
-    .mining-report-submit:disabled {
-      opacity: 0.55;
-      cursor: wait;
-    }
-
-    .mining-report-status {
-      margin: 0;
-      color: var(--text-dim);
-      line-height: 1.5;
-    }
-
-    .mining-report-status.success {
-      color: var(--orange);
-    }
-
-    .mining-report-status.error {
-      color: #ff7b7b;
-    }
-
-    @media (max-width: 720px) {
-      .mining-report-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .mining-report-field.full-width {
-        grid-column: auto;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="visual-polish.css">
+  <link rel="stylesheet" href="brand-assets.css">
+  <link rel="stylesheet" href="archive-page.css">
+  <link rel="stylesheet" href="mining-page.css">
 </head>
 
-<body>
+<body class="archive-page page-mining">
 
-  <header class="site-header">
-    <div class="header-inner">
+  <header class="concept-header">
+    <div class="concept-header-shell">
+      <div class="concept-header-top">
+        <a class="concept-brand" href="index.html" aria-label="10-16 archive home">
+          <img class="brand-elite-mark" src="images/site/elite-command-mark.webp" alt="" aria-hidden="true">
 
-      <div class="title-block">
-        <p class="eyebrow">CMDR WOLF258 SYSTEM ARCHIVE</p>
-        <h1>NGC 2546 Sector UZ-G d10-16</h1>
+          <span class="concept-brand-copy">
+            <strong>CMDR WOLF258 // COLONIAL OPERATIONS ARCHIVE</strong>
+            <span>EXPLORE / ESTABLISH / DEVELOP / ENDURE</span>
+          </span>
+        </a>
+
+        <div class="concept-header-affiliation">
+          <div class="concept-header-motto">
+            <strong>10-16 // BRIDGE COLONY</strong>
+            <span>A brighter tomorrow, further out.</span>
+          </div>
+          <img class="brand-imperial-mark brand-imperial-cyan"
+               src="images/site/imperial-cyan-mark.webp"
+               alt="" aria-hidden="true">
+        </div>
       </div>
 
-      <nav class="main-nav">
-        <a href="index.html">Home</a>
+      <nav class="concept-nav" aria-label="Primary navigation">
         <a href="system.html">System</a>
         <a href="colonies.html">Colonies</a>
         <a class="active" href="mining.html">Mining</a>
         <a href="bgs.html">BGS</a>
         <a href="gallery.html">Gallery</a>
       </nav>
-
     </div>
   </header>
 
-  <main>
+  <main class="archive-main">
 
     <section class="page-intro">
-
-      <p class="section-label">ARCHIVE SECTION // MINING</p>
-
-      <h2>Surface Mining Database</h2>
-
+      <p class="section-label">ARCHIVE</p>
+      <h2>Resource Scouting &amp; Markets</h2>
       <p class="hero-text">
-        A field guide to surveyed surface mining locations throughout
-        10-16, organized by commodity, planetary body, signal number,
-        coordinates, and known mining-rig density.
+        Surface-mining intelligence for 10-16: surveyed signals, commodity
+        locations, exact coordinates, mining-rig density, preferred extraction
+        sites, and local market data in one working field reference.
       </p>
 
       <div class="mining-quick-actions">
@@ -223,18 +69,15 @@
           Submit Mining Report ↓
         </a>
       </div>
-
     </section>
 
     <section class="data-panel">
-
       <div class="panel-heading">
-        <span>Mining Survey</span>
+        <span>Resource Survey</span>
         <span class="status-indicator">ACTIVE</span>
       </div>
 
       <div class="system-stats">
-
         <div class="stat">
           <span class="stat-label">Survey Region</span>
           <span class="stat-value">10-16</span>
@@ -251,23 +94,19 @@
         </div>
 
         <div class="stat">
-          <span class="stat-label">Survey Status</span>
-          <span class="stat-value">Ongoing</span>
+          <span class="stat-label">Market Reference</span>
+          <span class="stat-value">10-16 Best Sell</span>
         </div>
-
       </div>
-
     </section>
 
     <section class="content-section">
-
       <div class="section-heading">
         <span>01</span>
         <h3>Preferred Mining Sites</h3>
       </div>
 
       <div class="mining-tools">
-
         <div class="mining-tool-group">
           <label for="mining-search" class="mining-search-label">
             SEARCH MINING DATABASE
@@ -286,14 +125,10 @@
             COMMODITY
           </label>
 
-          <select
-            id="commodity-filter"
-            class="mining-filter"
-          >
+          <select id="commodity-filter" class="mining-filter">
             <option value="all">All Commodities</option>
           </select>
         </div>
-
       </div>
 
       <p id="mining-results-status" class="mining-results-status">
@@ -305,14 +140,12 @@
           Loading mining database...
         </div>
       </div>
-
     </section>
 
     <section class="content-section">
-
       <div class="section-heading">
         <span>02</span>
-        <h3>Commodity Index</h3>
+        <h3>Commodity &amp; Market Index</h3>
       </div>
 
       <div id="commodity-index" class="commodity-grid">
@@ -320,11 +153,9 @@
           Loading commodity index...
         </div>
       </div>
-
     </section>
 
     <section id="submit-mining-report" class="content-section">
-
       <div class="section-heading">
         <span>03</span>
         <h3>Submit Mining Report</h3>
@@ -447,7 +278,6 @@
                 placeholder="Terrain, deposit size, nearby clusters, verification notes, etc."
               ></textarea>
             </div>
-
           </div>
 
           <div class="mining-report-actions">
@@ -467,11 +297,9 @@
           </div>
         </form>
       </div>
-
     </section>
 
     <section class="content-section">
-
       <div class="section-heading">
         <span>04</span>
         <h3>Survey Notes</h3>
@@ -484,269 +312,47 @@
       </p>
 
       <p>
-        The long-term goal is to turn this archive into a searchable
-        commodity reference that can quickly identify the best available
-        mining location for a selected resource.
+        The long-term goal is to keep this archive useful in the field: a fast,
+        searchable reference for finding a commodity, navigating to a verified
+        extraction site, and checking the strongest available local market.
       </p>
-
     </section>
 
-    <a class="back-link" href="index.html">← Return to Archive Home</a>
+    <a class="back-link" href="index.html">← Return to Command Archive</a>
 
   </main>
 
-  <footer>
-    <p>
-      Personal Elite Dangerous system archive maintained by CMDR Wolf258.
-    </p>
+  <footer class="concept-footer">
+    <div class="concept-footer-inner">
+      <div class="concept-footer-brand">
+        <img class="brand-elite-mark brand-elite-mark-footer"
+             src="images/site/elite-command-mark.webp"
+             alt="" aria-hidden="true">
+        <span>
+          <strong>CMDR WOLF258 // COLONIAL OPERATIONS ARCHIVE</strong>
+          <small>NGC 2546 SECTOR UZ-G D10-16</small>
+        </span>
+      </div>
+
+      <div class="concept-footer-center">CHARTING A BRIGHTER TOMORROW</div>
+
+      <div class="concept-footer-mongrels">
+        <span>
+          <strong>REGIMENT OF IMPERIAL MONGRELS</strong>
+          <small>SQUADRON LINEAGE // FRONTIER OPERATIONS</small>
+        </span>
+        <img class="brand-mongrel-mark"
+             src="images/site/mongrels-10-16.webp"
+             alt="Regiment of Imperial Mongrels emblem">
+        <img class="brand-imperial-mark brand-imperial-orange"
+             src="images/site/imperial-orange-mark.webp"
+             alt="" aria-hidden="true">
+      </div>
+    </div>
   </footer>
 
   <script src="script.js?v=3"></script>
-
-  <script>
-    (function setupMiningReportForm() {
-      const PAGES_ORIGIN = "https://ten16-archive.pages.dev";
-      const isPagesSite = window.location.origin === PAGES_ORIGIN;
-
-      const form = document.getElementById("mining-report-form");
-      const authCopy = document.getElementById("mining-auth-copy");
-      const authActions = document.getElementById("mining-auth-actions");
-      const commodityList = document.getElementById("report-commodity-list");
-      const bodyInput = document.getElementById("report-body");
-      const bodyTypeSelect = document.getElementById("report-body-type");
-      const submitButton = document.getElementById("mining-report-submit");
-      const statusElement = document.getElementById("mining-report-status");
-
-      if (!form || !authCopy || !authActions) {
-        return;
-      }
-
-      function settleSubmissionAnchor() {
-        if (window.location.hash !== "#submit-mining-report") {
-          return;
-        }
-
-        const target = document.getElementById("submit-mining-report");
-        if (!target) {
-          return;
-        }
-
-        const scrollToTarget = () => {
-          target.scrollIntoView({ block: "start" });
-        };
-
-        requestAnimationFrame(scrollToTarget);
-        setTimeout(scrollToTarget, 250);
-        setTimeout(scrollToTarget, 900);
-      }
-
-      function authButton(href, label, className) {
-        const link = document.createElement("a");
-        link.href = href;
-        link.className = className;
-        link.textContent = label;
-        return link;
-      }
-
-      async function loadSession() {
-        if (!isPagesSite) {
-          authCopy.innerHTML =
-            "Discord-authenticated submissions are available on the new 10-16 Cloudflare site.";
-          authActions.innerHTML = "";
-          authActions.appendChild(
-            authButton(
-              `${PAGES_ORIGIN}/mining.html#submit-mining-report`,
-              "Open Submission Site",
-              "mining-login-button"
-            )
-          );
-          return;
-        }
-
-        try {
-          const response = await fetch("/api/auth/session", {
-            cache: "no-store"
-          });
-
-          if (!response.ok) {
-            throw new Error("Unable to check Discord session.");
-          }
-
-          const session = await response.json();
-          authActions.innerHTML = "";
-
-          if (!session.authenticated) {
-            authCopy.innerHTML =
-              "Sign in with Discord to verify your <strong>Mongrel member</strong> role and unlock submissions.";
-
-            authActions.appendChild(
-              authButton(
-                "/api/auth/login?return=%2Fmining.html%23submit-mining-report",
-                "Sign in with Discord",
-                "mining-login-button"
-              )
-            );
-            return;
-          }
-
-          if (!session.canSubmitMining) {
-            authCopy.innerHTML =
-              `Signed in as <strong>${escapeHtml(session.displayName || session.username || "Discord user")}</strong>, but the Mongrel member role is required to submit reports.`;
-
-            authActions.appendChild(
-              authButton(
-                "/api/auth/logout?return=%2Fmining.html%23submit-mining-report",
-                "Sign Out",
-                "mining-logout-button"
-              )
-            );
-            return;
-          }
-
-          authCopy.innerHTML =
-            `Signed in as <strong>${escapeHtml(session.displayName || session.username || "Mongrel member")}</strong> · ${escapeHtml(session.accessLabel || "Mongrel Member")}`;
-
-          authActions.appendChild(
-            authButton(
-              "/api/auth/logout?return=%2Fmining.html%23submit-mining-report",
-              "Sign Out",
-              "mining-logout-button"
-            )
-          );
-
-          form.hidden = false;
-          settleSubmissionAnchor();
-        } catch (error) {
-          console.error("Discord session error:", error);
-          authCopy.textContent =
-            "Discord access could not be verified right now. Please refresh and try again.";
-        }
-      }
-
-      fetch("/api/mining", { cache: "no-store" })
-        .then(response => {
-          if (!response.ok) {
-            throw new Error("Unable to load commodity list.");
-          }
-          return response.json();
-        })
-        .then(sites => {
-          const commodities = [
-            ...new Set(sites.map(site => site.commodity))
-          ].sort((a, b) => a.localeCompare(b));
-
-          commodityList.innerHTML = "";
-
-          commodities.forEach(commodity => {
-            const option = document.createElement("option");
-            option.value = commodity;
-            commodityList.appendChild(option);
-          });
-        })
-        .catch(error => {
-          console.warn("Commodity suggestions unavailable:", error);
-        });
-
-      bodyInput.addEventListener("input", () => {
-        const body = bodyInput.value.trim();
-
-        if (/^\d+$/.test(body)) {
-          bodyTypeSelect.value = "planet";
-        } else if (/^\d+[a-z]+$/i.test(body)) {
-          bodyTypeSelect.value = "moon";
-        }
-      });
-
-      form.addEventListener("submit", async event => {
-        event.preventDefault();
-
-        statusElement.className = "mining-report-status";
-        statusElement.textContent = "";
-
-        const formData = new FormData(form);
-        const latitude = formData.get("latitude").trim();
-        const longitude = formData.get("longitude").trim();
-
-        if ((latitude && !longitude) || (!latitude && longitude)) {
-          statusElement.classList.add("error");
-          statusElement.textContent =
-            "Enter both latitude and longitude, or leave both blank.";
-          return;
-        }
-
-        const payload = {
-          reportType: "add",
-          commodity: formData.get("commodity").trim(),
-          body: formData.get("body").trim(),
-          bodyType: formData.get("bodyType"),
-          signal: Number(formData.get("signal")),
-          latitude: latitude === "" ? null : Number(latitude),
-          longitude: longitude === "" ? null : Number(longitude),
-          rigs:
-            formData.get("rigs").trim() === ""
-              ? null
-              : Number(formData.get("rigs")),
-          preferred: false,
-          notes: formData.get("notes").trim()
-        };
-
-        submitButton.disabled = true;
-        submitButton.textContent = "Submitting...";
-        statusElement.textContent = "Sending report...";
-
-        try {
-          const response = await fetch("/api/mining-reports", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json"
-            },
-            body: JSON.stringify(payload)
-          });
-
-          const result = await response.json();
-
-          if (!response.ok || !result.ok) {
-            throw new Error(
-              result.message || "Unable to submit mining report."
-            );
-          }
-
-          form.reset();
-          bodyTypeSelect.value = "moon";
-
-          statusElement.className =
-            "mining-report-status success";
-
-          statusElement.textContent = result.reportId
-            ? `Report #${result.reportId} submitted for review as ${result.submittedBy}.`
-            : "Mining report submitted for review.";
-        } catch (error) {
-          console.error("Mining report submission error:", error);
-
-          statusElement.className =
-            "mining-report-status error";
-
-          statusElement.textContent =
-            error.message || "Unable to submit mining report.";
-        } finally {
-          submitButton.disabled = false;
-          submitButton.textContent = "Submit for Review";
-        }
-      });
-
-      function escapeHtml(value) {
-        return String(value)
-          .replaceAll("&", "&amp;")
-          .replaceAll("<", "&lt;")
-          .replaceAll(">", "&gt;")
-          .replaceAll('"', "&quot;")
-          .replaceAll("'", "&#039;");
-      }
-
-      loadSession();
-      settleSubmissionAnchor();
-    })();
-  </script>
+  <script src="mining-submit.js"></script>
 
 </body>
 </html>
