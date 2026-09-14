@@ -3,6 +3,11 @@ import {
   json,
   readSession,
 } from '../../../../../lib/auth.js';
+import {
+  ensureMaterialSchema,
+  materialStatusStatement,
+  normalizeMaterialAmount,
+} from '../../../../../lib/mining-material.js';
 
 function cleanText(value, maxLength = 1000) {
   if (value === null || value === undefined) return '';
@@ -37,6 +42,8 @@ export async function onRequestPost({ request, env, params }) {
   const auth = await requireAdmin(request, env);
   if (auth.error) return auth.error;
 
+  await ensureMaterialSchema(env);
+
   const reportId = Number(params.id);
 
   if (!Number.isInteger(reportId) || reportId <= 0) {
@@ -70,15 +77,26 @@ export async function onRequestPost({ request, env, params }) {
 
   const reportType = String(report.report_type || '').toLowerCase();
 
-  if (!['add', 'update', 'delete'].includes(reportType)) {
+  if (!['add', 'update', 'delete', 'material'].includes(reportType)) {
     return json({ ok: false, message: 'Unsupported report type.' }, { status: 400 });
   }
 
-  if ((reportType === 'update' || reportType === 'delete') && !report.target_site_id) {
+  if (
+    (reportType === 'update' || reportType === 'delete' || reportType === 'material') &&
+    !report.target_site_id
+  ) {
     return json({ ok: false, message: 'This report has no target site.' }, { status: 400 });
   }
 
-  if (reportType === 'update' || reportType === 'delete') {
+  let materialAmount = null;
+  if (reportType === 'material') {
+    materialAmount = normalizeMaterialAmount(report.material_amount);
+    if (!materialAmount) {
+      return json({ ok: false, message: 'This material report has an invalid amount.' }, { status: 400 });
+    }
+  }
+
+  if (reportType === 'update' || reportType === 'delete' || reportType === 'material') {
     const site = await env.DB.prepare(
       `SELECT id FROM mining_sites WHERE id = ?`,
     ).bind(report.target_site_id).first();
@@ -179,8 +197,27 @@ export async function onRequestPost({ request, env, params }) {
            WHERE id = ? AND status = 'processing'`,
         ).bind(reviewNotes, reportId),
       ]);
+    } else if (reportType === 'material') {
+      await env.DB.batch([
+        materialStatusStatement(
+          env,
+          report.target_site_id,
+          materialAmount,
+          report.submitted_by || '',
+        ),
+        env.DB.prepare(
+          `UPDATE mining_reports
+           SET status = 'approved',
+               reviewed_at = CURRENT_TIMESTAMP,
+               review_notes = ?
+           WHERE id = ? AND status = 'processing'`,
+        ).bind(reviewNotes, reportId),
+      ]);
     } else {
       await env.DB.batch([
+        env.DB.prepare(
+          `DELETE FROM mining_material_status WHERE site_id = ?`,
+        ).bind(report.target_site_id),
         env.DB.prepare(
           `DELETE FROM mining_sites WHERE id = ?`,
         ).bind(report.target_site_id),
@@ -200,6 +237,7 @@ export async function onRequestPost({ request, env, params }) {
       status: 'approved',
       reportType,
       siteId,
+      materialAmount,
     });
   } catch (error) {
     console.error('Mining approval failed', error);

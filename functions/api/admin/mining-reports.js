@@ -3,6 +3,7 @@ import {
   json,
   readSession,
 } from '../../../lib/auth.js';
+import { ensureMaterialSchema } from '../../../lib/mining-material.js';
 
 function mapReport(row) {
   return {
@@ -18,6 +19,7 @@ function mapReport(row) {
     rigs: row.rigs,
     preferred: Boolean(row.preferred),
     notes: row.notes || '',
+    materialAmount: row.material_amount || null,
     submittedBy: row.submitted_by || '',
     status: row.status,
     submittedAt: row.submitted_at,
@@ -53,6 +55,8 @@ async function requireAdmin(request, env) {
 export async function onRequestGet({ request, env }) {
   const auth = await requireAdmin(request, env);
   if (auth.error) return auth.error;
+
+  await ensureMaterialSchema(env);
 
   const url = new URL(request.url);
   const requestedStatus = (url.searchParams.get('status') || 'pending').toLowerCase();
