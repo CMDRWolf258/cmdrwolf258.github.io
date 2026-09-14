@@ -334,6 +334,14 @@ footer {
     grid-template-columns: 1fr;
     gap: 10px;
   }
+
+  /* Colonial Infrastructure is a long unbroken word; scale it independently
+     so it stays crisp and fully visible on phone/tablet widths. */
+  .archive-page.page-colonies .page-intro h2 {
+    max-width: 100%;
+    font-size: clamp(2.15rem, 9.2vw, 3.5rem);
+    letter-spacing: -.06em;
+  }
 }
 
 @media (max-width: 520px) {
@@ -356,5 +364,9 @@ footer {
 
   .gallery-card.gallery-featured .gallery-image {
     height: 250px;
+  }
+
+  .archive-page.page-colonies .page-intro h2 {
+    font-size: clamp(2rem, 8.9vw, 2.7rem);
   }
 }
