@@ -521,6 +521,25 @@
         return;
       }
 
+      function settleSubmissionAnchor() {
+        if (window.location.hash !== "#submit-mining-report") {
+          return;
+        }
+
+        const target = document.getElementById("submit-mining-report");
+        if (!target) {
+          return;
+        }
+
+        const scrollToTarget = () => {
+          target.scrollIntoView({ block: "start" });
+        };
+
+        requestAnimationFrame(scrollToTarget);
+        setTimeout(scrollToTarget, 250);
+        setTimeout(scrollToTarget, 900);
+      }
+
       function authButton(href, label, className) {
         const link = document.createElement("a");
         link.href = href;
@@ -596,6 +615,7 @@
           );
 
           form.hidden = false;
+          settleSubmissionAnchor();
         } catch (error) {
           console.error("Discord session error:", error);
           authCopy.textContent =
@@ -724,6 +744,7 @@
       }
 
       loadSession();
+      settleSubmissionAnchor();
     })();
   </script>
 
