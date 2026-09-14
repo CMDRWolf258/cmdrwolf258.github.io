@@ -1,5 +1,6 @@
 import {
   accessLabel,
+  canReviewMining,
   canSubmitMining,
   json,
   readSession,
@@ -14,6 +15,7 @@ export async function onRequestGet({ request, env }) {
       access: 'public',
       accessLabel: 'Public',
       canSubmitMining: false,
+      canReviewMining: false,
     });
   }
 
@@ -26,6 +28,7 @@ export async function onRequestGet({ request, env }) {
     accessLabel: accessLabel(session.access),
     membershipVerified: session.membershipVerified,
     canSubmitMining: canSubmitMining(session),
+    canReviewMining: canReviewMining(session),
     expiresAt: new Date(session.exp * 1000).toISOString(),
   });
 }

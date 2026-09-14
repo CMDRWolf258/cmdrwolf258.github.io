@@ -24,11 +24,12 @@
       margin-bottom: 24px;
     }
 
-    .admin-login-grid {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 12px;
-      align-items: end;
+    .admin-auth-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
     }
 
     .admin-field {
@@ -44,7 +45,6 @@
       text-transform: uppercase;
     }
 
-    .admin-field input,
     .admin-field select,
     .admin-field textarea {
       width: 100%;
@@ -56,14 +56,15 @@
       border-radius: 0;
     }
 
-    .admin-field input:focus,
     .admin-field select:focus,
     .admin-field textarea:focus {
       outline: 1px solid var(--orange);
       border-color: var(--orange);
     }
 
-    .admin-button {
+    .admin-button,
+    .admin-login-button {
+      display: inline-block;
       border: 1px solid var(--orange);
       background: var(--orange);
       color: #090d11;
@@ -72,10 +73,12 @@
       font-weight: 700;
       letter-spacing: 0.07em;
       text-transform: uppercase;
+      text-decoration: none;
       cursor: pointer;
     }
 
-    .admin-button.secondary {
+    .admin-button.secondary,
+    .admin-login-button.secondary {
       background: transparent;
       color: var(--orange);
     }
@@ -231,11 +234,14 @@
     .admin-note {
       color: var(--text-soft);
       line-height: 1.6;
-      margin: 0 0 16px;
+      margin: 0;
+    }
+
+    .admin-note strong {
+      color: var(--orange);
     }
 
     @media (max-width: 720px) {
-      .admin-login-grid,
       .report-grid {
         grid-template-columns: 1fr;
       }
@@ -284,36 +290,22 @@
         <p class="section-label">PRIVATE TOOL // MINING REVIEW</p>
         <h2>Mining Report Review</h2>
         <p class="hero-text">
-          Review pending mining submissions before they are written into the
-          live 10-16 mining database.
+          Review pending Mongrel mining submissions before they are written into
+          the live 10-16 mining database.
         </p>
       </section>
 
-      <section class="admin-panel" id="admin-login-panel">
+      <section class="admin-panel" id="admin-auth-panel">
         <div class="panel-heading">
-          <span>Admin Access</span>
+          <span>Discord Admin Access</span>
           <span class="status-indicator">SECURED</span>
         </div>
 
-        <p class="admin-note">
-          Enter the Cloudflare ADMIN_KEY. The key is kept only in this browser
-          tab using session storage and is never written into the site files.
-        </p>
-
-        <div class="admin-login-grid">
-          <div class="admin-field">
-            <label for="admin-key">Admin Key</label>
-            <input
-              id="admin-key"
-              type="password"
-              autocomplete="off"
-              placeholder="Enter ADMIN_KEY"
-            >
-          </div>
-
-          <button id="admin-connect" class="admin-button" type="button">
-            Connect
-          </button>
+        <div class="admin-auth-row">
+          <p id="admin-auth-copy" class="admin-note">
+            Checking Discord admin access...
+          </p>
+          <div id="admin-auth-actions"></div>
         </div>
 
         <p id="admin-login-status" class="admin-status" aria-live="polite"></p>
@@ -341,14 +333,9 @@
               Refresh
             </button>
           </div>
-
-          <button id="forget-admin-key" class="admin-button danger" type="button">
-            Forget Key
-          </button>
         </div>
 
         <p id="review-status" class="admin-status" aria-live="polite"></p>
-
         <div id="report-list" class="report-list"></div>
       </section>
 
@@ -358,87 +345,50 @@
   </main>
 
   <footer>
-    <p>Private mining review interface for CMDR Wolf258.</p>
+    <p>Discord-authenticated mining review interface for CMDR Wolf258.</p>
   </footer>
 
   <script>
     (function setupMiningAdmin() {
-      const API_BASE =
-        "https://ten16-api.michael-schroll.workers.dev";
+      const PAGES_ORIGIN = "https://ten16-archive.pages.dev";
+      const isPagesSite = window.location.origin === PAGES_ORIGIN;
 
-      const keyInput =
-        document.getElementById("admin-key");
+      const authCopy = document.getElementById("admin-auth-copy");
+      const authActions = document.getElementById("admin-auth-actions");
+      const loginStatus = document.getElementById("admin-login-status");
+      const reviewSection = document.getElementById("review-section");
+      const statusFilter = document.getElementById("report-status-filter");
+      const refreshButton = document.getElementById("refresh-reports");
+      const reviewStatus = document.getElementById("review-status");
+      const reportList = document.getElementById("report-list");
 
-      const connectButton =
-        document.getElementById("admin-connect");
-
-      const loginStatus =
-        document.getElementById("admin-login-status");
-
-      const reviewSection =
-        document.getElementById("review-section");
-
-      const statusFilter =
-        document.getElementById("report-status-filter");
-
-      const refreshButton =
-        document.getElementById("refresh-reports");
-
-      const forgetButton =
-        document.getElementById("forget-admin-key");
-
-      const reviewStatus =
-        document.getElementById("review-status");
-
-      const reportList =
-        document.getElementById("report-list");
-
-      let adminKey =
-        sessionStorage.getItem("ten16-admin-key") || "";
-
-      if (adminKey) {
-        keyInput.value = adminKey;
-      }
-
-      function authHeaders() {
-        return {
-          "Authorization": `Bearer ${adminKey}`,
-          "Content-Type": "application/json"
-        };
+      function actionLink(href, label, secondary = false) {
+        const link = document.createElement("a");
+        link.href = href;
+        link.className = secondary
+          ? "admin-login-button secondary"
+          : "admin-login-button";
+        link.textContent = label;
+        return link;
       }
 
       function setLoginStatus(message, type = "") {
         loginStatus.className = "admin-status";
-
-        if (type) {
-          loginStatus.classList.add(type);
-        }
-
+        if (type) loginStatus.classList.add(type);
         loginStatus.textContent = message;
       }
 
       function setReviewStatus(message, type = "") {
         reviewStatus.className = "admin-status";
-
-        if (type) {
-          reviewStatus.classList.add(type);
-        }
-
+        if (type) reviewStatus.classList.add(type);
         reviewStatus.textContent = message;
       }
 
       function formatDate(value) {
-        if (!value) {
-          return "—";
-        }
-
-        const parsed = new Date(value + (value.includes("Z") ? "" : "Z"));
-
-        if (Number.isNaN(parsed.getTime())) {
-          return value;
-        }
-
-        return parsed.toLocaleString();
+        if (!value) return "—";
+        const normalized = value.includes("Z") ? value : `${value}Z`;
+        const parsed = new Date(normalized);
+        return Number.isNaN(parsed.getTime()) ? value : parsed.toLocaleString();
       }
 
       function textOrDash(value) {
@@ -463,36 +413,92 @@
         return wrapper;
       }
 
-      async function loadReports() {
-        if (!adminKey) {
+      async function loadSession() {
+        authActions.innerHTML = "";
+        reviewSection.hidden = true;
+
+        if (!isPagesSite) {
+          authCopy.textContent =
+            "Discord admin review is available on the Cloudflare-hosted 10-16 site.";
+          authActions.appendChild(
+            actionLink(`${PAGES_ORIGIN}/mining-admin.html`, "Open Admin Site")
+          );
           return;
         }
 
-        const status = statusFilter.value;
+        try {
+          const response = await fetch("/api/auth/session", { cache: "no-store" });
+          const session = await response.json();
 
+          if (!response.ok) {
+            throw new Error("Unable to verify Discord session.");
+          }
+
+          if (!session.authenticated) {
+            authCopy.textContent =
+              "Sign in with Discord. Mining review is restricted to the 10-16 Site Admin.";
+            authActions.appendChild(
+              actionLink(
+                "/api/auth/login?return=%2Fmining-admin.html",
+                "Sign in with Discord"
+              )
+            );
+            return;
+          }
+
+          if (!session.canReviewMining) {
+            authCopy.innerHTML =
+              `Signed in as <strong>${escapeHtml(session.displayName || session.username || "Discord user")}</strong>, but Site Admin access is required.`;
+            authActions.appendChild(
+              actionLink(
+                "/api/auth/logout?return=%2Fmining-admin.html",
+                "Sign Out",
+                true
+              )
+            );
+            setLoginStatus("This Discord account cannot review mining reports.", "error");
+            return;
+          }
+
+          authCopy.innerHTML =
+            `Signed in as <strong>${escapeHtml(session.displayName || session.username || "Site Admin")}</strong> · ${escapeHtml(session.accessLabel || "Site Admin")}`;
+          authActions.appendChild(
+            actionLink(
+              "/api/auth/logout?return=%2Fmining-admin.html",
+              "Sign Out",
+              true
+            )
+          );
+          setLoginStatus("Discord admin access verified.", "success");
+          reviewSection.hidden = false;
+          await loadReports();
+        } catch (error) {
+          console.error("Admin session check failed:", error);
+          authCopy.textContent = "Discord admin access could not be verified right now.";
+          setLoginStatus(error.message || "Unable to verify admin access.", "error");
+        }
+      }
+
+      async function loadReports() {
+        const status = statusFilter.value;
         setReviewStatus("Loading reports...");
         reportList.innerHTML = "";
 
         try {
           const response = await fetch(
-            `${API_BASE}/api/admin/mining-reports?status=${encodeURIComponent(status)}`,
-            {
-              headers: authHeaders(),
-              cache: "no-store"
-            }
+            `/api/admin/mining-reports?status=${encodeURIComponent(status)}`,
+            { cache: "no-store" }
           );
-
           const result = await response.json();
 
-          if (response.status === 401) {
-            throw new Error("Admin key was not accepted.");
+          if (response.status === 401 || response.status === 403) {
+            reviewSection.hidden = true;
+            throw new Error(result.message || "Admin session expired.");
           }
 
           if (!response.ok || !result.ok) {
             throw new Error(result.message || "Unable to load reports.");
           }
-
-          reviewSection.hidden = false;
 
           if (!result.reports.length) {
             const empty = document.createElement("div");
@@ -504,7 +510,6 @@
           }
 
           result.reports.forEach(renderReport);
-
           setReviewStatus(
             `${result.count} ${result.count === 1 ? "report" : "reports"} loaded.`,
             "success"
@@ -512,27 +517,18 @@
         } catch (error) {
           console.error("Admin report load error:", error);
           setReviewStatus(error.message || "Unable to load reports.", "error");
-
-          if ((error.message || "").toLowerCase().includes("admin key")) {
-            reviewSection.hidden = true;
-            setLoginStatus("Admin key was not accepted.", "error");
-          }
         }
       }
 
       function renderReport(report) {
         const card = document.createElement("article");
         card.className = "report-card";
-
-        if (report.status !== "pending") {
-          card.classList.add("reviewed");
-        }
+        if (report.status !== "pending") card.classList.add("reviewed");
 
         const topLine = document.createElement("div");
         topLine.className = "report-topline";
 
         const titleBlock = document.createElement("div");
-
         const code = document.createElement("p");
         code.className = "report-code";
         code.textContent = `REPORT #${report.id} // ${String(report.reportType).toUpperCase()}`;
@@ -552,9 +548,8 @@
 
         const grid = document.createElement("div");
         grid.className = "report-grid";
-
         grid.append(
-          makeDetail("Reporter", report.submittedBy || "Anonymous"),
+          makeDetail("Reporter", report.submittedBy || "Unknown"),
           makeDetail("Submitted", formatDate(report.submittedAt)),
           makeDetail("Latitude", report.latitude),
           makeDetail("Longitude", report.longitude),
@@ -563,7 +558,6 @@
           makeDetail("Preferred", report.preferred ? "Yes" : "No"),
           makeDetail("Reviewed", formatDate(report.reviewedAt))
         );
-
         card.appendChild(grid);
 
         if (report.notes) {
@@ -592,7 +586,6 @@
 
           const textarea = document.createElement("textarea");
           textarea.placeholder = "Optional notes about this approval or rejection...";
-
           field.append(label, textarea);
 
           const actions = document.createElement("div");
@@ -625,117 +618,59 @@
       }
 
       async function reviewReport(report, action, reviewNotes, approveButton, rejectButton) {
-        const actionWord = action === "approve" ? "approve" : "reject";
-
         const confirmed = window.confirm(
-          `${actionWord.charAt(0).toUpperCase() + actionWord.slice(1)} report #${report.id}?`
+          `${action === "approve" ? "Approve" : "Reject"} report #${report.id}?`
         );
 
-        if (!confirmed) {
-          return;
-        }
+        if (!confirmed) return;
 
         approveButton.disabled = true;
         rejectButton.disabled = true;
-        setReviewStatus(`${actionWord === "approve" ? "Approving" : "Rejecting"} report #${report.id}...`);
+        setReviewStatus(
+          `${action === "approve" ? "Approving" : "Rejecting"} report #${report.id}...`
+        );
 
         try {
           const response = await fetch(
-            `${API_BASE}/api/admin/mining-reports/${report.id}/${action}`,
+            `/api/admin/mining-reports/${report.id}/${action}`,
             {
               method: "POST",
-              headers: authHeaders(),
-              body: JSON.stringify({
-                reviewNotes: reviewNotes.trim()
-              })
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ reviewNotes: reviewNotes.trim() })
             }
           );
 
           const result = await response.json();
 
           if (!response.ok || !result.ok) {
-            throw new Error(result.message || `Unable to ${actionWord} report.`);
+            throw new Error(result.message || `Unable to ${action} report.`);
           }
 
           setReviewStatus(
-            `Report #${report.id} ${actionWord === "approve" ? "approved" : "rejected"}.`,
+            `Report #${report.id} ${action === "approve" ? "approved" : "rejected"}.`,
             "success"
           );
-
           await loadReports();
         } catch (error) {
           console.error("Mining review error:", error);
-          setReviewStatus(error.message || `Unable to ${actionWord} report.`, "error");
+          setReviewStatus(error.message || `Unable to ${action} report.`, "error");
           approveButton.disabled = false;
           rejectButton.disabled = false;
         }
       }
 
-      async function connect() {
-        const enteredKey = keyInput.value.trim();
-
-        if (!enteredKey) {
-          setLoginStatus("Enter the ADMIN_KEY first.", "error");
-          return;
-        }
-
-        adminKey = enteredKey;
-        connectButton.disabled = true;
-        setLoginStatus("Checking admin access...");
-
-        try {
-          const response = await fetch(
-            `${API_BASE}/api/admin/mining-reports?status=pending`,
-            {
-              headers: authHeaders(),
-              cache: "no-store"
-            }
-          );
-
-          const result = await response.json();
-
-          if (!response.ok || !result.ok) {
-            throw new Error(result.message || "Admin access failed.");
-          }
-
-          sessionStorage.setItem("ten16-admin-key", adminKey);
-          reviewSection.hidden = false;
-          setLoginStatus("Admin access connected for this tab.", "success");
-          await loadReports();
-        } catch (error) {
-          adminKey = "";
-          sessionStorage.removeItem("ten16-admin-key");
-          reviewSection.hidden = true;
-          setLoginStatus(error.message || "Admin access failed.", "error");
-        } finally {
-          connectButton.disabled = false;
-        }
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
       }
-
-      connectButton.addEventListener("click", connect);
-
-      keyInput.addEventListener("keydown", event => {
-        if (event.key === "Enter") {
-          connect();
-        }
-      });
 
       refreshButton.addEventListener("click", loadReports);
       statusFilter.addEventListener("change", loadReports);
-
-      forgetButton.addEventListener("click", () => {
-        adminKey = "";
-        keyInput.value = "";
-        sessionStorage.removeItem("ten16-admin-key");
-        reviewSection.hidden = true;
-        reportList.innerHTML = "";
-        setReviewStatus("");
-        setLoginStatus("Admin key cleared from this tab.");
-      });
-
-      if (adminKey) {
-        connect();
-      }
+      loadSession();
     })();
   </script>
 
