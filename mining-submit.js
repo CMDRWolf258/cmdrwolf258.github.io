@@ -1,7 +1,7 @@
 (function loadMiningClientModules() {
   const modules = [
     "mining-submit-core.js?v=4",
-    "mining-material-ui.js?v=2"
+    "mining-material-ui.js?v=3"
   ];
 
   modules.forEach(src => {

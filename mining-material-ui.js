@@ -11,6 +11,7 @@
 
   let miningSites = [];
   let canSubmit = false;
+  let sessionInfo = null;
   let renderQueued = false;
 
   function parseStoredDate(value) {
@@ -147,19 +148,17 @@
     title.className = "material-status-label";
     title.textContent = "MATERIAL AMOUNT";
 
-    const badge = document.createElement(canSubmit ? "button" : "span");
-    badge.className = `material-status-badge material-${display.amount}${display.stale ? " stale" : ""}${canSubmit ? " material-status-trigger" : ""}`;
+    const badge = document.createElement("button");
+    badge.type = "button";
+    badge.className = `material-status-badge material-${display.amount}${display.stale ? " stale" : ""} material-status-trigger`;
     badge.textContent = display.label;
-
-    if (canSubmit) {
-      badge.type = "button";
-      badge.title = "Update material amount";
-      badge.setAttribute("aria-label", `Update material amount. Current amount: ${display.label}`);
-      badge.setAttribute("aria-haspopup", "true");
-      badge.setAttribute("aria-expanded", "false");
-      badge.style.cursor = "pointer";
-      badge.style.appearance = "none";
-    }
+    badge.title = canSubmit ? "Update material amount" : "Material amount options";
+    badge.setAttribute("aria-label", `${canSubmit ? "Update" : "View"} material amount. Current amount: ${display.label}`);
+    badge.setAttribute("aria-haspopup", "true");
+    badge.setAttribute("aria-expanded", "false");
+    badge.style.cursor = "pointer";
+    badge.style.appearance = "none";
+    badge.style.touchAction = "manipulation";
 
     const age = document.createElement("span");
     age.className = `material-status-age${display.stale ? " stale" : ""}`;
@@ -205,6 +204,47 @@
     });
   }
 
+  function buildPicker() {
+    const picker = document.createElement("div");
+    picker.className = "material-report-picker";
+
+    if (canSubmit) {
+      picker.innerHTML = `
+        <span class="material-report-picker-label">Update material amount</span>
+        <div class="material-report-options">
+          <button type="button" data-material-amount="high">High</button>
+          <button type="button" data-material-amount="medium">Medium</button>
+          <button type="button" data-material-amount="low">Low</button>
+          <button type="button" data-material-amount="depleted">Depleted</button>
+          <button type="button" class="material-report-close">Close</button>
+        </div>
+        <span class="material-report-message" aria-live="polite"></span>
+      `;
+      return picker;
+    }
+
+    if (!sessionInfo?.authenticated) {
+      picker.innerHTML = `
+        <span class="material-report-picker-label">Update material amount</span>
+        <span class="material-report-message">Sign in with Discord to update this site.</span>
+        <div class="material-report-options">
+          <button type="button" class="material-report-login">Sign in</button>
+          <button type="button" class="material-report-close">Close</button>
+        </div>
+      `;
+      return picker;
+    }
+
+    picker.innerHTML = `
+      <span class="material-report-picker-label">Update material amount</span>
+      <span class="material-report-message">Mongrel member access is required to submit an update.</span>
+      <div class="material-report-options">
+        <button type="button" class="material-report-close">Close</button>
+      </div>
+    `;
+    return picker;
+  }
+
   resultsContainer.addEventListener("click", async event => {
     const closeButton = event.target.closest(".material-report-close");
     if (closeButton) {
@@ -213,6 +253,14 @@
       const control = closeButton.closest(".material-status-control");
       control?.querySelector(".material-status-trigger")?.setAttribute("aria-expanded", "false");
       closeButton.closest(".material-report-picker")?.remove();
+      return;
+    }
+
+    const loginButton = event.target.closest(".material-report-login");
+    if (loginButton) {
+      event.preventDefault();
+      event.stopPropagation();
+      window.location.href = "/api/auth/login?return=%2Fmining.html";
       return;
     }
 
@@ -232,19 +280,7 @@
       }
 
       closePickers();
-      const picker = document.createElement("div");
-      picker.className = "material-report-picker";
-      picker.innerHTML = `
-        <span class="material-report-picker-label">Update material amount</span>
-        <div class="material-report-options">
-          <button type="button" data-material-amount="high">High</button>
-          <button type="button" data-material-amount="medium">Medium</button>
-          <button type="button" data-material-amount="low">Low</button>
-          <button type="button" data-material-amount="depleted">Depleted</button>
-          <button type="button" class="material-report-close">Close</button>
-        </div>
-        <span class="material-report-message" aria-live="polite"></span>
-      `;
+      const picker = buildPicker();
       control.appendChild(picker);
       trigger.setAttribute("aria-expanded", "true");
       return;
@@ -340,6 +376,7 @@
   ])
     .then(([sites, session]) => {
       miningSites = Array.isArray(sites) ? sites : [];
+      sessionInfo = session;
       canSubmit = Boolean(session?.authenticated && session?.canSubmitMining);
       document.body.classList.toggle("material-report-enabled", canSubmit);
       queueEnhance();
