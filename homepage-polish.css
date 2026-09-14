@@ -103,10 +103,16 @@
     linear-gradient(135deg, rgba(26, 77, 101, .13), transparent 48%),
     linear-gradient(180deg, #071a27 0%, #04131e 48%, #03101a 100%);
   box-shadow:
-    inset 0 1px 0 rgba(221, 240, 247, .10),
+    inset 0 1px 0 rgba(221, 240, 247, .12),
     inset 1px 0 0 rgba(156, 202, 220, .025),
     inset 0 -1px 0 rgba(0, 0, 0, .88),
     0 12px 28px rgba(0, 0, 0, .18);
+}
+
+.concept-home .concept-node::before {
+  width: 46%;
+  background: linear-gradient(90deg, #7cecff 0%, rgba(92, 210, 239, .42) 36%, transparent 100%);
+  box-shadow: 0 1px 0 rgba(225, 242, 248, .04);
 }
 
 .concept-home .concept-node:hover {
@@ -116,10 +122,19 @@
     linear-gradient(135deg, rgba(31, 105, 138, .18), transparent 48%),
     linear-gradient(180deg, #082132 0%, #041723 52%, #03111b 100%);
   box-shadow:
-    inset 0 1px 0 rgba(229, 244, 249, .12),
+    inset 0 1px 0 rgba(229, 244, 249, .13),
     inset 0 -1px 0 rgba(0, 0, 0, .9),
     0 14px 34px rgba(0, 0, 0, .25),
     0 0 18px rgba(83, 214, 248, .035);
+}
+
+.concept-home .concept-node-copy h2 {
+  color: #54d0f1;
+  background: linear-gradient(180deg, #77e5fa 0%, #43c2e7 42%, #2694c2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 1px 0 rgba(5, 42, 61, .72));
 }
 
 .concept-home .concept-node-icon {
@@ -141,6 +156,25 @@
     0 4px 10px rgba(0, 0, 0, .18);
 }
 
+/* Keep the long scouting title comfortable at awkward desktop widths. */
+@media (min-width: 981px) and (max-width: 1220px) {
+  .concept-home .concept-node-minor {
+    grid-template-columns: 56px minmax(0, 1fr) 20px;
+    gap: 12px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .concept-home .concept-node-icon-small {
+    width: 54px;
+    height: 54px;
+  }
+
+  .concept-home .concept-node-copy h2 {
+    font-size: clamp(.92rem, 1.45vw, 1.12rem);
+  }
+}
+
 /* Resource scouting radar — animated only on hover, otherwise calm. */
 .concept-home .resource-radar .radar-sweep {
   transform-origin: 50px 50px;
@@ -155,6 +189,21 @@
   filter: drop-shadow(0 0 3px rgba(101, 230, 255, .5));
 }
 
+/* Standardize lower-page display headings without adding extra glow. */
+.concept-home .concept-showcase-copy h2,
+.concept-home .concept-gallery-head h2 {
+  filter: drop-shadow(0 1px 0 rgba(7, 49, 70, .64));
+}
+
+/* Footer grouping: keep the three identity marks visually balanced. */
+.concept-home .concept-footer-inner {
+  column-gap: 30px;
+}
+
+.concept-home .concept-footer-mongrels {
+  min-width: 0;
+}
+
 /* Keep the metallic pass restrained on small screens. */
 @media (max-width: 760px) {
   .concept-home .concept-node,
@@ -163,5 +212,9 @@
     box-shadow:
       inset 0 1px 0 rgba(220, 239, 246, .07),
       inset 0 -1px 0 rgba(0, 0, 0, .75);
+  }
+
+  .concept-home .concept-node::before {
+    width: 38%;
   }
 }
