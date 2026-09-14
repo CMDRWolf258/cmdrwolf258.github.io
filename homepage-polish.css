@@ -56,8 +56,21 @@
     inset -1px 0 0 rgba(0, 0, 0, .7);
 }
 
-/* HERO TITLE — keep the blue depth but remove the fuzzy neon bloom. */
+/* HERO TITLE — darker steel-blue face with the same restrained cyan illumination. */
 .concept-home .concept-title {
+  color: #218fb7;
+  background: linear-gradient(
+    180deg,
+    #5ccfe8 0%,
+    #36aed2 24%,
+    #2084ad 48%,
+    #155f87 70%,
+    #0d456b 86%,
+    #082f4d 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   filter:
     drop-shadow(0 1px 0 rgba(49, 133, 165, .78))
     drop-shadow(0 3px 0 rgba(8, 51, 73, .88))
