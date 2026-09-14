@@ -1,0 +1,125 @@
+/* MINING QUALITY-OF-LIFE PASS */
+
+.page-mining .mining-admin-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 40px;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 157, 66, .42);
+  color: #e0a06c;
+  background:
+    linear-gradient(180deg, rgba(255, 190, 123, .035), transparent 34%),
+    rgba(2, 13, 21, .68);
+  box-shadow:
+    inset 0 1px 0 rgba(244, 220, 196, .06),
+    inset 0 -1px 0 rgba(0, 0, 0, .72);
+  text-decoration: none;
+  font-family: "Oxanium", sans-serif;
+  font-size: .61rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.page-mining .mining-admin-button:hover {
+  border-color: rgba(255, 170, 91, .66);
+  background: rgba(255, 157, 66, .07);
+  color: #f1b37d;
+}
+
+.page-mining .market-tools {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 2px 0 18px;
+  padding: 14px;
+  border: 1px solid rgba(126, 181, 203, .22);
+  background:
+    linear-gradient(180deg, rgba(204, 230, 239, .025), transparent 34%),
+    rgba(2, 12, 20, .62);
+}
+
+.page-mining .market-tools .mining-tool-group {
+  min-width: 0;
+}
+
+.page-mining .market-helper {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: #637f8d;
+  font-size: .78rem;
+  line-height: 1.45;
+}
+
+.page-mining .mining-best-market {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(116, 176, 200, .15);
+}
+
+.page-mining .mining-best-market p {
+  margin: 3px 0;
+}
+
+.page-mining .mining-best-market-label {
+  color: var(--archive-orange);
+  font-family: "Oxanium", sans-serif;
+  font-size: .49rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.page-mining .mining-best-market-price {
+  color: #c2d4dc;
+  font-family: "Oxanium", sans-serif;
+  font-size: .92rem;
+  font-weight: 700;
+}
+
+.page-mining .mining-best-market-detail,
+.page-mining .mining-best-market-age,
+.page-mining .mining-best-market-empty {
+  color: #6f8996;
+  font-size: .8rem;
+}
+
+.page-mining .mining-best-market-age.stale {
+  color: #d19562;
+}
+
+.page-mining .mining-best-market-empty {
+  color: #7f929c;
+}
+
+.page-mining .mining-location-row .mining-best-market {
+  margin-top: 10px;
+}
+
+.page-mining .commodity-market-label {
+  line-height: 1.35;
+}
+
+.page-mining .mining-report-panel::before {
+  content: "ENTER advances fields · use Submit for Review to send";
+  display: block;
+  margin: 0 0 12px;
+  color: #607d8b;
+  font-family: "Oxanium", sans-serif;
+  font-size: .5rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 820px) {
+  .page-mining .market-tools {
+    grid-template-columns: 1fr;
+  }
+
+  .page-mining .market-helper {
+    grid-column: auto;
+  }
+}

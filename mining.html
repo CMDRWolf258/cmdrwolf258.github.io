@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="brand-assets.css">
   <link rel="stylesheet" href="archive-page.css">
   <link rel="stylesheet" href="mining-page.css">
+  <link rel="stylesheet" href="mining-qol.css">
 </head>
 
 <body class="archive-page page-mining">
@@ -68,6 +69,9 @@
         <a class="mining-jump-button" href="#submit-mining-report">
           Submit Mining Report ↓
         </a>
+        <a id="mining-admin-link" class="mining-admin-button" href="mining-admin.html" hidden>
+          Review Submissions
+        </a>
       </div>
     </section>
 
@@ -116,7 +120,7 @@
             type="search"
             id="mining-search"
             class="mining-search"
-            placeholder="Search commodity, body, signal, or coordinates..."
+            placeholder="Commodity, 9a #13, 4 rigs, coordinates..."
           >
         </div>
 
@@ -146,6 +150,37 @@
       <div class="section-heading">
         <span>02</span>
         <h3>Commodity &amp; Market Index</h3>
+      </div>
+
+      <div class="market-tools">
+        <div class="mining-tool-group">
+          <label for="market-demand-filter" class="mining-search-label">
+            MINIMUM DEMAND
+          </label>
+          <select id="market-demand-filter" class="mining-filter">
+            <option value="500" selected>500</option>
+            <option value="1000">1,000</option>
+            <option value="2000">2,000</option>
+            <option value="5000">5,000</option>
+          </select>
+        </div>
+
+        <div class="mining-tool-group">
+          <label for="market-sort" class="mining-search-label">
+            SORT BY
+          </label>
+          <select id="market-sort" class="mining-filter">
+            <option value="price-desc" selected>Sale Price: High → Low</option>
+            <option value="price-asc">Sale Price: Low → High</option>
+            <option value="demand-desc">Demand: High → Low</option>
+            <option value="commodity-asc">Commodity: A → Z</option>
+          </select>
+        </div>
+
+        <p class="market-helper">
+          Market controls update instantly from the latest stored 10-16 station data.
+          Preferred mining-site cards always show the best sale price using 500+ demand.
+        </p>
       </div>
 
       <div id="commodity-index" class="commodity-grid">
@@ -351,8 +386,8 @@
     </div>
   </footer>
 
-  <script src="script.js?v=3"></script>
-  <script src="mining-submit.js"></script>
+  <script src="mining-database.js?v=4"></script>
+  <script src="mining-submit.js?v=4"></script>
 
 </body>
 </html>

@@ -10,6 +10,7 @@
   const bodyTypeSelect = document.getElementById("report-body-type");
   const submitButton = document.getElementById("mining-report-submit");
   const statusElement = document.getElementById("mining-report-status");
+  const adminLink = document.getElementById("mining-admin-link");
 
   if (!form || !authCopy || !authActions) {
     return;
@@ -69,6 +70,10 @@
       const session = await response.json();
       authActions.innerHTML = "";
 
+      if (adminLink) {
+        adminLink.hidden = !session.canReviewMining;
+      }
+
       if (!session.authenticated) {
         authCopy.innerHTML =
           "Sign in with Discord to verify your <strong>Mongrel member</strong> role and unlock submissions.";
@@ -99,6 +104,16 @@
 
       authCopy.innerHTML =
         `Signed in as <strong>${escapeHtml(session.displayName || session.username || "Mongrel member")}</strong> · ${escapeHtml(session.accessLabel || "Mongrel Member")}`;
+
+      if (session.canReviewMining) {
+        authActions.appendChild(
+          authButton(
+            "/mining-admin.html",
+            "Review Submissions",
+            "mining-admin-button"
+          )
+        );
+      }
 
       authActions.appendChild(
         authButton(
@@ -148,6 +163,41 @@
       bodyTypeSelect.value = "planet";
     } else if (/^\d+[a-z]+$/i.test(body)) {
       bodyTypeSelect.value = "moon";
+    }
+  });
+
+  form.addEventListener("keydown", event => {
+    if (event.key !== "Enter") {
+      return;
+    }
+
+    const target = event.target;
+    if (!(target instanceof HTMLElement)) {
+      return;
+    }
+
+    if (target.tagName === "TEXTAREA" || target.tagName === "BUTTON") {
+      return;
+    }
+
+    if (target.tagName !== "INPUT" && target.tagName !== "SELECT") {
+      return;
+    }
+
+    event.preventDefault();
+
+    const fields = [...form.querySelectorAll(
+      "input:not([type='hidden']):not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled])"
+    )].filter(element => !element.hidden && element.offsetParent !== null);
+
+    const currentIndex = fields.indexOf(target);
+    const nextField = fields[currentIndex + 1];
+
+    if (nextField) {
+      nextField.focus();
+      if (typeof nextField.select === "function" && nextField.tagName === "INPUT") {
+        nextField.select();
+      }
     }
   });
 

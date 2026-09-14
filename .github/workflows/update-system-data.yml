@@ -37,10 +37,6 @@ jobs:
           import time
           from datetime import datetime, timezone
 
-          # -------------------------
-          # SPANSH SYSTEM DATA
-          # -------------------------
-
           with open("spansh-system.json", "r", encoding="utf-8") as f:
               raw = json.load(f)
 
@@ -52,34 +48,23 @@ jobs:
               system = raw
 
           population = system.get("population")
-
-          print("System keys:")
-          print(list(system.keys()))
-
-          print("Stations field:")
-          print(system.get("stations"))
-
           stations = system.get("stations") or []
 
           print("Permanent stations with markets:")
-
           for station in stations:
-            if (
-              station.get("has_market")
-              and station.get("type") != "Drake-Class Carrier"
-            ):
-              print(
-                  station.get("name"),
-                  "|",
-                  station.get("type"),
-                  "| market_id:",
-                  station.get("market_id")
-              )
+              if station.get("has_market") and station.get("type") != "Drake-Class Carrier":
+                  print(
+                      station.get("name"),
+                      "|",
+                      station.get("type"),
+                      "| market_id:",
+                      station.get("market_id")
+                  )
 
-          # -------------------------
-          # MARKET DATA
-          # -------------------------
-
+          # Store every qualifying station quote at 500+ demand so the site can
+          # instantly recalculate the best market at 500/1000/2000/5000 demand.
+          minimum_stored_demand = 500
+          market_quotes = {}
           best_markets = {}
 
           permanent_market_stations = [
@@ -92,153 +77,93 @@ jobs:
               )
           ]
 
-          print(
-              "Checking",
-              len(permanent_market_stations),
-              "permanent station markets"
-          )
+          print("Checking", len(permanent_market_stations), "permanent station markets")
 
           for station in permanent_market_stations:
-
               station_name = station.get("name")
               market_id = station.get("market_id")
-
-              station_url = (
-                  f"https://spansh.co.uk/api/station/{market_id}"
-              )
+              station_url = f"https://spansh.co.uk/api/station/{market_id}"
 
               try:
-
-                  with urllib.request.urlopen(
-                      station_url,
-                      timeout=30
-                  ) as response:
+                  with urllib.request.urlopen(station_url, timeout=30) as response:
                       station_response = json.load(response)
 
-                  station_record = (
-                      station_response.get("record")
-                      or {}
-                  )
-
-                  market = (
-                      station_record.get("market")
-                      or []
-                  )
-
+                  station_record = station_response.get("record") or {}
+                  market = station_record.get("market") or []
                   market_updated = (
                       station_record.get("market_updated_at")
                       or station_record.get("market_updated")
                       or station_record.get("updated_at")
                   )
 
-                  print(
-                      station_name,
-                      "| commodities:",
-                      len(market)
-                  )
+                  print(station_name, "| commodities:", len(market))
 
                   for commodity in market:
-
-                      commodity_name = (
-                          commodity.get("commodity")
-                      )
-
-                      sell_price = (
-                          commodity.get("sell_price")
-                          or 0
-                      )
-
-                      demand = (
-                          commodity.get("demand")
-                          or 0
-                      )
+                      commodity_name = commodity.get("commodity")
+                      sell_price = commodity.get("sell_price") or 0
+                      demand = commodity.get("demand") or 0
 
                       if (
                           not commodity_name
                           or sell_price <= 0
-                          or demand < 500
+                          or demand < minimum_stored_demand
                       ):
                           continue
 
-                      current_best = (
-                          best_markets.get(
-                              commodity_name
-                          )
-                      )
+                      quote = {
+                          "price": sell_price,
+                          "station": station_name,
+                          "demand": demand,
+                          "marketId": market_id,
+                          "marketUpdated": market_updated
+                      }
 
-                      if (
-                          current_best is None
-                          or sell_price
-                          > current_best["price"]
-                      ):
+                      market_quotes.setdefault(commodity_name, []).append(quote)
 
-                          best_markets[
-                              commodity_name
-                          ] = {
-                              "price": sell_price,
-                              "station": station_name,
-                              "demand": demand,
-                              "marketId": market_id,
-                              "marketUpdated": market_updated
-                          }
+                      current_best = best_markets.get(commodity_name)
+                      if current_best is None or sell_price > current_best["price"]:
+                          best_markets[commodity_name] = quote
 
                   time.sleep(0.1)
 
               except Exception as error:
+                  print("Market fetch failed:", station_name, error)
 
-                  print(
-                      "Market fetch failed:",
-                      station_name,
-                      error
+          for commodity_name, quotes in market_quotes.items():
+              quotes.sort(
+                  key=lambda quote: (
+                      -(quote.get("price") or 0),
+                      -(quote.get("demand") or 0),
+                      quote.get("station") or ""
                   )
+              )
 
           market_output = {
               "system": "NGC 2546 Sector UZ-G d10-16",
-              "generatedAt": datetime.now(
-                  timezone.utc
-              ).isoformat(),
-              "commodities": best_markets
+              "generatedAt": datetime.now(timezone.utc).isoformat(),
+              "minimumStoredDemand": minimum_stored_demand,
+              "commodities": best_markets,
+              "markets": market_quotes
           }
 
-          with open(
-              "data/market.json",
-              "w",
-              encoding="utf-8"
-          ) as f:
-              json.dump(
-                  market_output,
-                  f,
-                  indent=2
-              )
+          with open("data/market.json", "w", encoding="utf-8") as f:
+              json.dump(market_output, f, indent=2)
 
-          print(
-              "Saved best prices for",
-              len(best_markets),
-              "commodities"
-          )
+          print("Saved market quotes for", len(market_quotes), "commodities")
+
           if population is None:
-              raise RuntimeError(
-                  "Population was not found in the Spansh response."
-              )
-
-          # -------------------------
-          # EDSM FACTION DATA
-          # -------------------------
+              raise RuntimeError("Population was not found in the Spansh response.")
 
           with open("edsm-factions.json", "r", encoding="utf-8") as f:
               edsm = json.load(f)
 
           controlling_raw = edsm.get("controllingFaction") or {}
-
           controlling_faction = controlling_raw.get("name")
-
           factions_raw = edsm.get("factions") or []
-
           factions = []
 
           for faction in factions_raw:
               name = faction.get("name")
-
               if not name:
                   continue
 
@@ -256,15 +181,11 @@ jobs:
               })
 
           factions.sort(
-              key=lambda f: (
-                  not f["controlling"],
-                  -(f["influence"] or 0)
+              key=lambda faction: (
+                  not faction["controlling"],
+                  -(faction["influence"] or 0)
               )
           )
-
-          # -------------------------
-          # SAVE WEBSITE DATA
-          # -------------------------
 
           output = {
               "population": population,
@@ -279,13 +200,6 @@ jobs:
           print("Population:", population)
           print("Controlling faction:", controlling_faction)
           print("Faction count:", len(factions))
-
-          for faction in factions:
-              print(
-                  faction["name"],
-                  faction["influence"],
-                  faction["state"]
-              )
           PY
 
       - name: Commit updated data
