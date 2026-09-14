@@ -147,9 +147,19 @@
     title.className = "material-status-label";
     title.textContent = "MATERIAL AMOUNT";
 
-    const badge = document.createElement("span");
-    badge.className = `material-status-badge material-${display.amount}${display.stale ? " stale" : ""}`;
+    const badge = document.createElement(canSubmit ? "button" : "span");
+    badge.className = `material-status-badge material-${display.amount}${display.stale ? " stale" : ""}${canSubmit ? " material-status-trigger" : ""}`;
     badge.textContent = display.label;
+
+    if (canSubmit) {
+      badge.type = "button";
+      badge.title = "Update material amount";
+      badge.setAttribute("aria-label", `Update material amount. Current amount: ${display.label}`);
+      badge.setAttribute("aria-haspopup", "true");
+      badge.setAttribute("aria-expanded", "false");
+      badge.style.cursor = "pointer";
+      badge.style.appearance = "none";
+    }
 
     const age = document.createElement("span");
     age.className = `material-status-age${display.stale ? " stale" : ""}`;
@@ -157,14 +167,6 @@
 
     summary.append(title, badge, age);
     wrapper.appendChild(summary);
-
-    if (canSubmit) {
-      const updateButton = document.createElement("button");
-      updateButton.type = "button";
-      updateButton.className = "material-report-button";
-      updateButton.textContent = "Update Amount";
-      wrapper.appendChild(updateButton);
-    }
 
     return wrapper;
   }
@@ -196,21 +198,35 @@
 
   function closePickers(except = null) {
     resultsContainer.querySelectorAll(".material-report-picker").forEach(picker => {
-      if (picker !== except) picker.remove();
+      if (picker === except) return;
+      const control = picker.closest(".material-status-control");
+      control?.querySelector(".material-status-trigger")?.setAttribute("aria-expanded", "false");
+      picker.remove();
     });
   }
 
   resultsContainer.addEventListener("click", async event => {
-    const updateButton = event.target.closest(".material-report-button");
-    if (updateButton) {
+    const closeButton = event.target.closest(".material-report-close");
+    if (closeButton) {
+      event.preventDefault();
+      event.stopPropagation();
+      const control = closeButton.closest(".material-status-control");
+      control?.querySelector(".material-status-trigger")?.setAttribute("aria-expanded", "false");
+      closeButton.closest(".material-report-picker")?.remove();
+      return;
+    }
+
+    const trigger = event.target.closest(".material-status-trigger");
+    if (trigger) {
       event.preventDefault();
       event.stopPropagation();
 
-      const control = updateButton.closest(".material-status-control");
+      const control = trigger.closest(".material-status-control");
       if (!control) return;
 
       const existing = control.querySelector(".material-report-picker");
       if (existing) {
+        trigger.setAttribute("aria-expanded", "false");
         existing.remove();
         return;
       }
@@ -219,16 +235,18 @@
       const picker = document.createElement("div");
       picker.className = "material-report-picker";
       picker.innerHTML = `
-        <span class="material-report-picker-label">Set material amount</span>
+        <span class="material-report-picker-label">Update material amount</span>
         <div class="material-report-options">
           <button type="button" data-material-amount="high">High</button>
           <button type="button" data-material-amount="medium">Medium</button>
           <button type="button" data-material-amount="low">Low</button>
           <button type="button" data-material-amount="depleted">Depleted</button>
+          <button type="button" class="material-report-close">Close</button>
         </div>
         <span class="material-report-message" aria-live="polite"></span>
       `;
       control.appendChild(picker);
+      trigger.setAttribute("aria-expanded", "true");
       return;
     }
 
@@ -293,7 +311,10 @@
           message.classList.add("success");
           message.textContent = "Submitted for review.";
         }
-        setTimeout(() => picker?.remove(), 1800);
+        setTimeout(() => {
+          control?.querySelector(".material-status-trigger")?.setAttribute("aria-expanded", "false");
+          picker?.remove();
+        }, 1800);
       }
     } catch (error) {
       console.error("Material amount report failed:", error);
