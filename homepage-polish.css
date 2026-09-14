@@ -33,6 +33,19 @@
     inset 0 -10px 24px rgba(13, 73, 103, .10);
 }
 
+/* Homepage is the archive landing page, so no section tab should appear selected. */
+.concept-home .concept-nav a.active {
+  color: #718c9b;
+  background:
+    linear-gradient(180deg, rgba(203, 225, 235, .025), transparent 36%),
+    linear-gradient(90deg, transparent, rgba(62, 190, 228, .018), transparent);
+  box-shadow: none;
+}
+
+.concept-home .concept-nav a.active::after {
+  display: none;
+}
+
 /* HERO FRAME — slightly more machined without becoming chrome */
 .concept-home .concept-hero {
   border-color: rgba(138, 187, 207, .34);
