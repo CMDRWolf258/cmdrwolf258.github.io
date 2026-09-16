@@ -4,21 +4,12 @@
   "factions": [
     {
       "name": "Regiment of Imperial Mongrels",
-      "influence": 0.62664,
+      "influence": 0.650858,
       "state": "Boom",
       "allegiance": "Empire",
       "government": "Dictatorship",
       "isPlayer": false,
       "controlling": true
-    },
-    {
-      "name": "The Consortium",
-      "influence": 0.139253,
-      "state": "Expansion",
-      "allegiance": "Independent",
-      "government": "Anarchy",
-      "isPlayer": false,
-      "controlling": false
     },
     {
       "name": "Perez Ring Brewery",
@@ -37,7 +28,16 @@
       "government": "Corporate",
       "isPlayer": true,
       "controlling": false
+    },
+    {
+      "name": "The Consortium",
+      "influence": 0.115035,
+      "state": "None",
+      "allegiance": "Independent",
+      "government": "Anarchy",
+      "isPlayer": false,
+      "controlling": false
     }
   ],
-  "lastUpdated": "2026-09-16T00:32:37.841906+00:00"
+  "lastUpdated": "2026-09-16T06:32:49.674683+00:00"
 }
