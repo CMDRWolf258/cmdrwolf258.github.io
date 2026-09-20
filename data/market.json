@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-09-20T06:29:57.243515+00:00",
+  "generatedAt": "2026-09-20T12:29:42.509158+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -18,11 +18,11 @@
       "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Agronomic Treatment": {
-      "price": 5849,
+      "price": 5842,
       "station": "Saturn Ascending",
-      "demand": 1483,
+      "demand": 1478,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Algae": {
       "price": 600,
@@ -41,9 +41,9 @@
     "Animal Monitors": {
       "price": 1449,
       "station": "Saturn Ascending",
-      "demand": 216965,
+      "demand": 217913,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Aquaponic Systems": {
       "price": 2459,
@@ -60,18 +60,18 @@
       "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Auto-Fabricators": {
-      "price": 4306,
+      "price": 4305,
       "station": "Saturn Ascending",
-      "demand": 30497,
+      "demand": 30459,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Bastnasite": {
       "price": 120493,
       "station": "Saturn Ascending",
-      "demand": 2103,
+      "demand": 2112,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Battle Weapons": {
       "price": 7401,
@@ -90,30 +90,23 @@
     "Beryllium": {
       "price": 42026,
       "station": "Saturn Ascending",
-      "demand": 99017,
+      "demand": 99393,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Bioreducing Lichen": {
       "price": 1457,
       "station": "Saturn Ascending",
-      "demand": 635876,
+      "demand": 638650,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Bismuth": {
       "price": 2902,
       "station": "Saturn Ascending",
-      "demand": 34178,
+      "demand": 34328,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
-    },
-    "Black Box": {
-      "price": 31039,
-      "station": "Saturn Ascending",
-      "demand": 4084,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Bootleg Liquor": {
       "price": 612,
@@ -146,9 +139,9 @@
     "Chemical Waste": {
       "price": 579,
       "station": "Saturn Ascending",
-      "demand": 3871,
+      "demand": 3890,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Clothing": {
       "price": 1124,
@@ -209,30 +202,23 @@
     "Cryolite": {
       "price": 28052,
       "station": "Saturn Ascending",
-      "demand": 126540,
+      "demand": 127089,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
-    },
-    "Damaged Escape Pod": {
-      "price": 16903,
-      "station": "Saturn Ascending",
-      "demand": 4207,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Deuterium": {
       "price": 62250,
       "station": "Saturn Ascending",
-      "demand": 2103,
+      "demand": 2112,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Diamond": {
       "price": 182041,
       "station": "Saturn Ascending",
-      "demand": 2103,
+      "demand": 2112,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Domestic Appliances": {
       "price": 982,
@@ -286,16 +272,16 @@
     "Gallium": {
       "price": 26540,
       "station": "Saturn Ascending",
-      "demand": 67534,
+      "demand": 67830,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Goslarite": {
       "price": 14641,
       "station": "Saturn Ascending",
-      "demand": 9795,
+      "demand": 9838,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Grain": {
       "price": 725,
@@ -335,23 +321,16 @@
     "Helium": {
       "price": 146330,
       "station": "Saturn Ascending",
-      "demand": 545,
+      "demand": 547,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Helium-3": {
       "price": 136941,
       "station": "Saturn Ascending",
-      "demand": 545,
+      "demand": 547,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
-    },
-    "Hostages": {
-      "price": 34584,
-      "station": "Saturn Ascending",
-      "demand": 3555,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Hydrogen Peroxide": {
       "price": 2939,
@@ -377,16 +356,16 @@
     "Iridium": {
       "price": 268797,
       "station": "Saturn Ascending",
-      "demand": 39942,
+      "demand": 40117,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Jadeite": {
       "price": 49740,
       "station": "Saturn Ascending",
-      "demand": 20769,
+      "demand": 20860,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Land Enrichment Systems": {
       "price": 5652,
@@ -440,16 +419,16 @@
     "Low Temperature Diamonds": {
       "price": 176602,
       "station": "Saturn Ascending",
-      "demand": 1832,
+      "demand": 1840,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Magnesite": {
       "price": 58296,
       "station": "Saturn Ascending",
-      "demand": 2103,
+      "demand": 2112,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Magnetic Emitter Coil": {
       "price": 1677,
@@ -461,9 +440,9 @@
     "Medical Diagnostic Equipment": {
       "price": 3343,
       "station": "Saturn Ascending",
-      "demand": 68008,
+      "demand": 68305,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Meta-Alloys": {
       "price": 213890,
@@ -481,10 +460,10 @@
     },
     "Methanol Monohydrate Crystals": {
       "price": 2817,
-      "station": "King's Mountain View",
-      "demand": 103774,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-15T03:47:23Z"
+      "station": "Saturn Ascending",
+      "demand": 71515,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Micro Controllers": {
       "price": 6066,
@@ -530,10 +509,10 @@
     },
     "Moissanite": {
       "price": 72057,
-      "station": "Saturn Ascending",
-      "demand": 42534,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "station": "Eon Blue Apocalypse",
+      "demand": 182348,
+      "marketId": 4386105091,
+      "marketUpdated": "2026-09-18T06:35:00Z"
     },
     "Nanobreakers": {
       "price": 2240,
@@ -563,19 +542,12 @@
       "marketId": 4374964995,
       "marketUpdated": "2026-09-15T03:47:23Z"
     },
-    "Occupied Escape Pod": {
-      "price": 30333,
-      "station": "Saturn Ascending",
-      "demand": 4084,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
-    },
     "Olivine": {
       "price": 47906,
       "station": "Saturn Ascending",
-      "demand": 2103,
+      "demand": 2112,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Osmium": {
       "price": 157109,
@@ -587,9 +559,9 @@
     "Painite": {
       "price": 89422,
       "station": "Saturn Ascending",
-      "demand": 1865,
+      "demand": 1873,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Performance Enhancers": {
       "price": 7401,
@@ -601,16 +573,9 @@
     "Periclase Dunite": {
       "price": 268797,
       "station": "Saturn Ascending",
-      "demand": 2103,
+      "demand": 2112,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
-    },
-    "Personal Effects": {
-      "price": 9542,
-      "station": "Saturn Ascending",
-      "demand": 4084,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Pesticides": {
       "price": 820,
@@ -620,11 +585,11 @@
       "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Platinum": {
-      "price": 218542,
+      "price": 218539,
       "station": "Saturn Ascending",
-      "demand": 3160,
+      "demand": 3173,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Polymers": {
       "price": 599,
@@ -657,16 +622,16 @@
     "Pyrophyllite": {
       "price": 27065,
       "station": "Saturn Ascending",
-      "demand": 233077,
+      "demand": 234094,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Quartz Pyroxenite": {
       "price": 70997,
       "station": "Saturn Ascending",
-      "demand": 2103,
+      "demand": 2112,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Radiation Baffle": {
       "price": 2130,
@@ -678,16 +643,16 @@
     "Robotics": {
       "price": 2593,
       "station": "Saturn Ascending",
-      "demand": 103552,
+      "demand": 104004,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Ruby": {
       "price": 149248,
       "station": "Saturn Ascending",
-      "demand": 2103,
+      "demand": 2112,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Samarium": {
       "price": 25395,
@@ -699,9 +664,9 @@
     "Sapphire": {
       "price": 169118,
       "station": "Saturn Ascending",
-      "demand": 2103,
+      "demand": 2112,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Semiconductors": {
       "price": 1406,
@@ -748,9 +713,9 @@
     "Taaffeite": {
       "price": 61317,
       "station": "Saturn Ascending",
-      "demand": 20769,
+      "demand": 20860,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Tantalum": {
       "price": 14816,
@@ -776,9 +741,9 @@
     "Thallium": {
       "price": 4309,
       "station": "Saturn Ascending",
-      "demand": 39954,
+      "demand": 40128,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Thorium": {
       "price": 12233,
@@ -790,9 +755,9 @@
     "Thortveitite": {
       "price": 268797,
       "station": "Saturn Ascending",
-      "demand": 2103,
+      "demand": 2112,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Titanium": {
       "price": 5059,
@@ -809,32 +774,32 @@
       "marketUpdated": "2026-09-07T01:17:09Z"
     },
     "Tritium": {
-      "price": 56998,
+      "price": 56985,
       "station": "Saturn Ascending",
-      "demand": 6406,
+      "demand": 6248,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Unoccupied Escape Pod": {
       "price": 4103,
       "station": "Saturn Ascending",
-      "demand": 3608,
+      "demand": 3624,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Uranium": {
       "price": 7872,
       "station": "Saturn Ascending",
-      "demand": 264971,
+      "demand": 266125,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Void Opal": {
       "price": 198563,
       "station": "Saturn Ascending",
-      "demand": 655,
+      "demand": 658,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
+      "marketUpdated": "2026-09-20T11:35:13Z"
     },
     "Water": {
       "price": 655,
@@ -856,13 +821,6 @@
       "demand": 1248837,
       "marketId": 4375494403,
       "marketUpdated": "2026-09-07T01:17:09Z"
-    },
-    "Wreckage Components": {
-      "price": 8965,
-      "station": "Saturn Ascending",
-      "demand": 6754,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-18T22:25:19Z"
     },
     "Advanced Catalysers": {
       "price": 3388,
@@ -1185,9 +1143,9 @@
       {
         "price": 1631,
         "station": "Saturn Ascending",
-        "demand": 92064,
+        "demand": 92466,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Agri-Medicines": [
@@ -1201,9 +1159,9 @@
       {
         "price": 1474,
         "station": "Saturn Ascending",
-        "demand": 21904,
+        "demand": 22000,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1447,
@@ -1215,11 +1173,11 @@
     ],
     "Agronomic Treatment": [
       {
-        "price": 5849,
+        "price": 5842,
         "station": "Saturn Ascending",
-        "demand": 1483,
+        "demand": 1478,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 5779,
@@ -1245,11 +1203,11 @@
         "marketUpdated": "2026-09-07T01:17:09Z"
       },
       {
-        "price": 489,
+        "price": 488,
         "station": "Saturn Ascending",
-        "demand": 435632,
+        "demand": 436146,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 285,
@@ -1268,20 +1226,20 @@
         "marketUpdated": "2026-09-05T01:08:43Z"
       },
       {
-        "price": 2868,
+        "price": 2862,
         "station": "Saturn Ascending",
-        "demand": 143609,
+        "demand": 142935,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Animal Monitors": [
       {
         "price": 1449,
         "station": "Saturn Ascending",
-        "demand": 216965,
+        "demand": 217913,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1434,
@@ -1344,9 +1302,9 @@
       {
         "price": 605,
         "station": "Saturn Ascending",
-        "demand": 70476,
+        "demand": 70786,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Articulation Motors": [
@@ -1365,18 +1323,18 @@
         "marketUpdated": "2026-09-07T01:17:09Z"
       },
       {
+        "price": 7403,
+        "station": "Saturn Ascending",
+        "demand": 1861,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-20T11:35:13Z"
+      },
+      {
         "price": 7402,
         "station": "King's Mountain View",
         "demand": 7196,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-15T03:47:23Z"
-      },
-      {
-        "price": 7402,
-        "station": "Saturn Ascending",
-        "demand": 1852,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
       },
       {
         "price": 7402,
@@ -1395,11 +1353,11 @@
     ],
     "Auto-Fabricators": [
       {
-        "price": 4306,
+        "price": 4305,
         "station": "Saturn Ascending",
-        "demand": 30497,
+        "demand": 30459,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 4158,
@@ -1427,9 +1385,9 @@
       {
         "price": 120493,
         "station": "Saturn Ascending",
-        "demand": 2103,
+        "demand": 2112,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 120493,
@@ -1464,9 +1422,9 @@
       {
         "price": 7316,
         "station": "Saturn Ascending",
-        "demand": 45080,
+        "demand": 45271,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Beer": [
@@ -1494,9 +1452,9 @@
       {
         "price": 594,
         "station": "Saturn Ascending",
-        "demand": 341602,
+        "demand": 343095,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 563,
@@ -1517,9 +1475,9 @@
       {
         "price": 42026,
         "station": "Saturn Ascending",
-        "demand": 99017,
+        "demand": 99393,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 41993,
@@ -1540,9 +1498,9 @@
       {
         "price": 1457,
         "station": "Saturn Ascending",
-        "demand": 635876,
+        "demand": 638650,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1454,
@@ -1577,9 +1535,9 @@
       {
         "price": 2902,
         "station": "Saturn Ascending",
-        "demand": 34178,
+        "demand": 34328,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 2892,
@@ -1601,15 +1559,6 @@
         "demand": 1157,
         "marketId": 4388359171,
         "marketUpdated": "2026-09-15T02:50:23Z"
-      }
-    ],
-    "Black Box": [
-      {
-        "price": 31039,
-        "station": "Saturn Ascending",
-        "demand": 4084,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
       }
     ],
     "Bootleg Liquor": [
@@ -1637,9 +1586,9 @@
       {
         "price": 596,
         "station": "Saturn Ascending",
-        "demand": 2121,
+        "demand": 2133,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 582,
@@ -1667,9 +1616,9 @@
       {
         "price": 74655,
         "station": "Saturn Ascending",
-        "demand": 22976,
+        "demand": 23076,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 74394,
@@ -1718,9 +1667,9 @@
       {
         "price": 6513,
         "station": "Saturn Ascending",
-        "demand": 63374,
+        "demand": 63651,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 6128,
@@ -1741,9 +1690,9 @@
       {
         "price": 634,
         "station": "Saturn Ascending",
-        "demand": 685133,
+        "demand": 688121,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 634,
@@ -1785,9 +1734,9 @@
       {
         "price": 579,
         "station": "Saturn Ascending",
-        "demand": 3871,
+        "demand": 3890,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 566,
@@ -1822,9 +1771,9 @@
       {
         "price": 896,
         "station": "Saturn Ascending",
-        "demand": 237311,
+        "demand": 238346,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 866,
@@ -1866,9 +1815,9 @@
       {
         "price": 1675,
         "station": "Saturn Ascending",
-        "demand": 20423,
+        "demand": 20512,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1394,
@@ -1889,9 +1838,9 @@
       {
         "price": 3185,
         "station": "Saturn Ascending",
-        "demand": 22393,
+        "demand": 22493,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Computer Components": [
@@ -1919,9 +1868,9 @@
       {
         "price": 948,
         "station": "Saturn Ascending",
-        "demand": 82608,
+        "demand": 82968,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 866,
@@ -1942,9 +1891,9 @@
       {
         "price": 1859,
         "station": "Saturn Ascending",
-        "demand": 413354,
+        "demand": 415158,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 937,
@@ -1972,9 +1921,9 @@
       {
         "price": 7029,
         "station": "Saturn Ascending",
-        "demand": 38279,
+        "demand": 38443,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Copper": [
@@ -1988,9 +1937,9 @@
       {
         "price": 921,
         "station": "Saturn Ascending",
-        "demand": 770640,
+        "demand": 772986,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 920,
@@ -2023,11 +1972,11 @@
         "marketUpdated": "2026-07-09T01:39:32Z"
       },
       {
-        "price": 2729,
+        "price": 2728,
         "station": "Saturn Ascending",
-        "demand": 30420,
+        "demand": 30362,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Cryolite": [
@@ -2041,9 +1990,9 @@
       {
         "price": 28052,
         "station": "Saturn Ascending",
-        "demand": 126540,
+        "demand": 127089,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 27900,
@@ -2067,15 +2016,6 @@
         "marketUpdated": "2026-09-05T01:08:43Z"
       }
     ],
-    "Damaged Escape Pod": [
-      {
-        "price": 16903,
-        "station": "Saturn Ascending",
-        "demand": 4207,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
-      }
-    ],
     "Deuterium": [
       {
         "price": 62250,
@@ -2094,9 +2034,9 @@
       {
         "price": 62250,
         "station": "Saturn Ascending",
-        "demand": 2103,
+        "demand": 2112,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 62250,
@@ -2138,9 +2078,9 @@
       {
         "price": 182041,
         "station": "Saturn Ascending",
-        "demand": 2103,
+        "demand": 2112,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 182041,
@@ -2189,9 +2129,9 @@
       {
         "price": 944,
         "station": "Saturn Ascending",
-        "demand": 75386,
+        "demand": 75716,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Emergency Power Cells": [
@@ -2212,9 +2152,9 @@
       {
         "price": 2724,
         "station": "Saturn Ascending",
-        "demand": 48885,
+        "demand": 49099,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 2413,
@@ -2263,9 +2203,9 @@
       {
         "price": 3040,
         "station": "Saturn Ascending",
-        "demand": 33002,
+        "demand": 33146,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Exhaust Manifold": [
@@ -2293,9 +2233,9 @@
       {
         "price": 2229,
         "station": "Saturn Ascending",
-        "demand": 5545,
+        "demand": 5568,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 2229,
@@ -2321,11 +2261,11 @@
         "marketUpdated": "2026-08-18T16:17:28Z"
       },
       {
-        "price": 686,
+        "price": 684,
         "station": "Saturn Ascending",
-        "demand": 155095,
+        "demand": 154681,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Fish": [
@@ -2351,11 +2291,11 @@
         "marketUpdated": "2026-09-15T02:50:23Z"
       },
       {
-        "price": 770,
+        "price": 768,
         "station": "Saturn Ascending",
-        "demand": 207271,
+        "demand": 207317,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 751,
@@ -2383,18 +2323,18 @@
       {
         "price": 688,
         "station": "Saturn Ascending",
-        "demand": 73951,
+        "demand": 74273,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Gallium": [
       {
         "price": 26540,
         "station": "Saturn Ascending",
-        "demand": 67534,
+        "demand": 67830,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 26494,
@@ -2429,9 +2369,9 @@
       {
         "price": 14641,
         "station": "Saturn Ascending",
-        "demand": 9795,
+        "demand": 9838,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 14529,
@@ -2480,9 +2420,9 @@
       {
         "price": 493,
         "station": "Saturn Ascending",
-        "demand": 451493,
+        "demand": 453463,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 207,
@@ -2538,9 +2478,9 @@
       {
         "price": 699,
         "station": "Saturn Ascending",
-        "demand": 1417468,
+        "demand": 1423654,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 697,
@@ -2568,9 +2508,9 @@
       {
         "price": 1842,
         "station": "Saturn Ascending",
-        "demand": 31806,
+        "demand": 31945,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Hardware Diagnostic Sensor": [
@@ -2612,9 +2552,9 @@
       {
         "price": 7365,
         "station": "Saturn Ascending",
-        "demand": 19734,
+        "demand": 19822,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Heatsink Interlink": [
@@ -2642,9 +2582,9 @@
       {
         "price": 2472,
         "station": "Saturn Ascending",
-        "demand": 5118,
+        "demand": 5140,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 2472,
@@ -2679,9 +2619,9 @@
       {
         "price": 146330,
         "station": "Saturn Ascending",
-        "demand": 545,
+        "demand": 547,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 79745,
@@ -2716,9 +2656,9 @@
       {
         "price": 136941,
         "station": "Saturn Ascending",
-        "demand": 545,
+        "demand": 547,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 74631,
@@ -2733,15 +2673,6 @@
         "demand": 4982,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-05T01:08:43Z"
-      }
-    ],
-    "Hostages": [
-      {
-        "price": 34584,
-        "station": "Saturn Ascending",
-        "demand": 3555,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
       }
     ],
     "Hydrogen Peroxide": [
@@ -2769,9 +2700,9 @@
       {
         "price": 2918,
         "station": "Saturn Ascending",
-        "demand": 349517,
+        "demand": 351041,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 2918,
@@ -2804,11 +2735,11 @@
         "marketUpdated": "2026-09-15T03:47:23Z"
       },
       {
-        "price": 24373,
+        "price": 24359,
         "station": "Saturn Ascending",
-        "demand": 17661,
+        "demand": 17171,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Insulating Membrane": [
@@ -2836,9 +2767,9 @@
       {
         "price": 11427,
         "station": "Saturn Ascending",
-        "demand": 39096,
+        "demand": 39270,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Iridium": [
@@ -2852,9 +2783,9 @@
       {
         "price": 268797,
         "station": "Saturn Ascending",
-        "demand": 39942,
+        "demand": 40117,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 268797,
@@ -2889,9 +2820,9 @@
       {
         "price": 49740,
         "station": "Saturn Ascending",
-        "demand": 20769,
+        "demand": 20860,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 49740,
@@ -2954,9 +2885,9 @@
       {
         "price": 5153,
         "station": "Saturn Ascending",
-        "demand": 25859,
+        "demand": 25971,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Lanthanum": [
@@ -2977,9 +2908,9 @@
       {
         "price": 9495,
         "station": "Saturn Ascending",
-        "demand": 41337,
+        "demand": 41517,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 9495,
@@ -3021,9 +2952,9 @@
       {
         "price": 599,
         "station": "Saturn Ascending",
-        "demand": 526765,
+        "demand": 529065,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 522,
@@ -3056,11 +2987,11 @@
         "marketUpdated": "2026-09-05T01:08:43Z"
       },
       {
-        "price": 2060,
+        "price": 2059,
         "station": "Saturn Ascending",
-        "demand": 365686,
+        "demand": 367041,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1962,
@@ -3102,9 +3033,9 @@
       {
         "price": 1084,
         "station": "Saturn Ascending",
-        "demand": 17315,
+        "demand": 17390,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Lithium": [
@@ -3118,9 +3049,9 @@
       {
         "price": 2227,
         "station": "Saturn Ascending",
-        "demand": 695946,
+        "demand": 698984,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 2209,
@@ -3155,9 +3086,9 @@
       {
         "price": 5460,
         "station": "Saturn Ascending",
-        "demand": 41302,
+        "demand": 41481,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 5427,
@@ -3199,9 +3130,9 @@
       {
         "price": 176602,
         "station": "Saturn Ascending",
-        "demand": 1832,
+        "demand": 1840,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 95077,
@@ -3236,9 +3167,9 @@
       {
         "price": 58296,
         "station": "Saturn Ascending",
-        "demand": 2103,
+        "demand": 2112,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 58296,
@@ -3287,9 +3218,9 @@
       {
         "price": 1666,
         "station": "Saturn Ascending",
-        "demand": 7670,
+        "demand": 7703,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1666,
@@ -3310,9 +3241,9 @@
       {
         "price": 3343,
         "station": "Saturn Ascending",
-        "demand": 68008,
+        "demand": 68305,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 3339,
@@ -3347,9 +3278,9 @@
       {
         "price": 213658,
         "station": "Saturn Ascending",
-        "demand": 19560,
+        "demand": 19645,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 213657,
@@ -3412,9 +3343,9 @@
       {
         "price": 1470,
         "station": "Saturn Ascending",
-        "demand": 21361,
+        "demand": 21455,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1449,
@@ -3434,17 +3365,17 @@
       },
       {
         "price": 2817,
+        "station": "Saturn Ascending",
+        "demand": 71515,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-20T11:35:13Z"
+      },
+      {
+        "price": 2817,
         "station": "Rival Monkeys Foundry",
         "demand": 39462,
         "marketId": 4388359171,
         "marketUpdated": "2026-09-15T02:50:23Z"
-      },
-      {
-        "price": 2816,
-        "station": "Saturn Ascending",
-        "demand": 71204,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
       },
       {
         "price": 2789,
@@ -3479,9 +3410,9 @@
       {
         "price": 6038,
         "station": "Saturn Ascending",
-        "demand": 31988,
+        "demand": 32126,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 5962,
@@ -3530,9 +3461,9 @@
       {
         "price": 1724,
         "station": "Saturn Ascending",
-        "demand": 176729,
+        "demand": 177501,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Military Grade Fabrics": [
@@ -3546,9 +3477,9 @@
       {
         "price": 3269,
         "station": "Saturn Ascending",
-        "demand": 18344,
+        "demand": 18425,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1193,
@@ -3576,9 +3507,9 @@
       {
         "price": 1278,
         "station": "Saturn Ascending",
-        "demand": 162277,
+        "demand": 162984,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1121,
@@ -3606,9 +3537,9 @@
       {
         "price": 601,
         "station": "Saturn Ascending",
-        "demand": 43587,
+        "demand": 43778,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 546,
@@ -3643,9 +3574,9 @@
       {
         "price": 2347,
         "station": "Saturn Ascending",
-        "demand": 5412,
+        "demand": 5436,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 2347,
@@ -3672,17 +3603,17 @@
       },
       {
         "price": 72057,
-        "station": "Saturn Ascending",
-        "demand": 42534,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
-      },
-      {
-        "price": 72057,
         "station": "Rival Monkeys Foundry",
         "demand": 23572,
         "marketId": 4388359171,
         "marketUpdated": "2026-09-15T02:50:23Z"
+      },
+      {
+        "price": 72056,
+        "station": "Saturn Ascending",
+        "demand": 42718,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 71792,
@@ -3752,9 +3683,9 @@
       {
         "price": 2206,
         "station": "Saturn Ascending",
-        "demand": 59243,
+        "demand": 59501,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Natural Fabrics": [
@@ -3775,9 +3706,9 @@
       {
         "price": 862,
         "station": "Saturn Ascending",
-        "demand": 1912643,
+        "demand": 1920990,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 848,
@@ -3833,9 +3764,9 @@
       {
         "price": 5766,
         "station": "Saturn Ascending",
-        "demand": 35128,
+        "demand": 35283,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Nerve Agents": [
@@ -3861,20 +3792,11 @@
         "marketUpdated": "2026-09-18T06:35:00Z"
       },
       {
-        "price": 13843,
+        "price": 13844,
         "station": "Saturn Ascending",
-        "demand": 2651,
+        "demand": 2665,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
-      }
-    ],
-    "Occupied Escape Pod": [
-      {
-        "price": 30333,
-        "station": "Saturn Ascending",
-        "demand": 4084,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Olivine": [
@@ -3895,9 +3817,9 @@
       {
         "price": 47906,
         "station": "Saturn Ascending",
-        "demand": 2103,
+        "demand": 2112,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 47906,
@@ -3946,9 +3868,9 @@
       {
         "price": 152719,
         "station": "Saturn Ascending",
-        "demand": 14307,
+        "demand": 14370,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 39396,
@@ -3990,9 +3912,9 @@
       {
         "price": 89422,
         "station": "Saturn Ascending",
-        "demand": 1865,
+        "demand": 1873,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 48340,
@@ -4020,9 +3942,9 @@
       {
         "price": 7350,
         "station": "Saturn Ascending",
-        "demand": 47137,
+        "demand": 47347,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 7032,
@@ -4050,9 +3972,9 @@
       {
         "price": 268797,
         "station": "Saturn Ascending",
-        "demand": 2103,
+        "demand": 2112,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 268797,
@@ -4076,15 +3998,6 @@
         "marketUpdated": "2026-09-05T01:08:43Z"
       }
     ],
-    "Personal Effects": [
-      {
-        "price": 9542,
-        "station": "Saturn Ascending",
-        "demand": 4084,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
-      }
-    ],
     "Pesticides": [
       {
         "price": 820,
@@ -4096,18 +4009,18 @@
       {
         "price": 636,
         "station": "Saturn Ascending",
-        "demand": 11654,
+        "demand": 11705,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Platinum": [
       {
-        "price": 218542,
+        "price": 218539,
         "station": "Saturn Ascending",
-        "demand": 3160,
+        "demand": 3173,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 218538,
@@ -4168,11 +4081,11 @@
         "marketUpdated": "2026-09-05T01:08:43Z"
       },
       {
-        "price": 520,
+        "price": 518,
         "station": "Saturn Ascending",
-        "demand": 1026178,
+        "demand": 1026354,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 491,
@@ -4207,9 +4120,9 @@
       {
         "price": 1745,
         "station": "Saturn Ascending",
-        "demand": 7244,
+        "demand": 7277,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1745,
@@ -4244,9 +4157,9 @@
       {
         "price": 8380,
         "station": "Saturn Ascending",
-        "demand": 109133,
+        "demand": 109609,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 8380,
@@ -4281,9 +4194,9 @@
       {
         "price": 7321,
         "station": "Saturn Ascending",
-        "demand": 16244,
+        "demand": 16316,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 6893,
@@ -4304,9 +4217,9 @@
       {
         "price": 27065,
         "station": "Saturn Ascending",
-        "demand": 233077,
+        "demand": 234094,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 26901,
@@ -4348,9 +4261,9 @@
       {
         "price": 70997,
         "station": "Saturn Ascending",
-        "demand": 2103,
+        "demand": 2112,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 70997,
@@ -4413,18 +4326,18 @@
       {
         "price": 2097,
         "station": "Saturn Ascending",
-        "demand": 41790,
+        "demand": 41972,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Robotics": [
       {
         "price": 2593,
         "station": "Saturn Ascending",
-        "demand": 103552,
+        "demand": 104004,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 2441,
@@ -4466,9 +4379,9 @@
       {
         "price": 149248,
         "station": "Saturn Ascending",
-        "demand": 2103,
+        "demand": 2112,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 149248,
@@ -4510,9 +4423,9 @@
       {
         "price": 25385,
         "station": "Saturn Ascending",
-        "demand": 69449,
+        "demand": 69751,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 25385,
@@ -4554,9 +4467,9 @@
       {
         "price": 169118,
         "station": "Saturn Ascending",
-        "demand": 2103,
+        "demand": 2112,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 169118,
@@ -4591,9 +4504,9 @@
       {
         "price": 1381,
         "station": "Saturn Ascending",
-        "demand": 139214,
+        "demand": 139821,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1381,
@@ -4612,11 +4525,11 @@
         "marketUpdated": "2026-09-05T01:08:43Z"
       },
       {
-        "price": 4713,
+        "price": 4710,
         "station": "Saturn Ascending",
-        "demand": 131633,
+        "demand": 131777,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Superconductors": [
@@ -4630,9 +4543,9 @@
       {
         "price": 7372,
         "station": "Saturn Ascending",
-        "demand": 119496,
+        "demand": 120019,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 7361,
@@ -4651,11 +4564,11 @@
         "marketUpdated": "2026-09-05T01:08:43Z"
       },
       {
-        "price": 612,
+        "price": 611,
         "station": "Saturn Ascending",
-        "demand": 937064,
+        "demand": 940852,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 503,
@@ -4683,9 +4596,9 @@
       {
         "price": 557,
         "station": "Saturn Ascending",
-        "demand": 41721,
+        "demand": 41902,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Synthetic Reagents": [
@@ -4706,9 +4619,9 @@
       {
         "price": 7366,
         "station": "Saturn Ascending",
-        "demand": 4557,
+        "demand": 4576,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 7365,
@@ -4729,9 +4642,9 @@
       {
         "price": 61317,
         "station": "Saturn Ascending",
-        "demand": 20769,
+        "demand": 20860,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 61317,
@@ -4771,11 +4684,11 @@
         "marketUpdated": "2026-09-05T01:08:43Z"
       },
       {
-        "price": 14600,
+        "price": 14595,
         "station": "Saturn Ascending",
-        "demand": 65187,
+        "demand": 64781,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 14538,
@@ -4810,9 +4723,9 @@
       {
         "price": 1935,
         "station": "Saturn Ascending",
-        "demand": 50218,
+        "demand": 50437,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1829,
@@ -4861,9 +4774,9 @@
       {
         "price": 3039,
         "station": "Saturn Ascending",
-        "demand": 44054,
+        "demand": 44245,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Thallium": [
@@ -4877,9 +4790,9 @@
       {
         "price": 4309,
         "station": "Saturn Ascending",
-        "demand": 39954,
+        "demand": 40128,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 4297,
@@ -4935,9 +4848,9 @@
       {
         "price": 12181,
         "station": "Saturn Ascending",
-        "demand": 57464,
+        "demand": 57713,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Thortveitite": [
@@ -4958,9 +4871,9 @@
       {
         "price": 268797,
         "station": "Saturn Ascending",
-        "demand": 2103,
+        "demand": 2112,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 268797,
@@ -4993,11 +4906,11 @@
         "marketUpdated": "2026-09-05T01:08:43Z"
       },
       {
-        "price": 5007,
+        "price": 5004,
         "station": "Saturn Ascending",
-        "demand": 124897,
+        "demand": 125033,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Tobacco": [
@@ -5011,9 +4924,9 @@
       {
         "price": 5401,
         "station": "Saturn Ascending",
-        "demand": 31399,
+        "demand": 31540,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 5317,
@@ -5032,11 +4945,11 @@
     ],
     "Tritium": [
       {
-        "price": 56998,
+        "price": 56985,
         "station": "Saturn Ascending",
-        "demand": 6406,
+        "demand": 6248,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Unoccupied Escape Pod": [
@@ -5057,9 +4970,9 @@
       {
         "price": 4103,
         "station": "Saturn Ascending",
-        "demand": 3608,
+        "demand": 3624,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 4103,
@@ -5087,9 +5000,9 @@
       {
         "price": 7872,
         "station": "Saturn Ascending",
-        "demand": 264971,
+        "demand": 266125,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 7857,
@@ -5131,9 +5044,9 @@
       {
         "price": 198563,
         "station": "Saturn Ascending",
-        "demand": 655,
+        "demand": 658,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 127931,
@@ -5161,9 +5074,9 @@
       {
         "price": 471,
         "station": "Saturn Ascending",
-        "demand": 154902,
+        "demand": 155581,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 344,
@@ -5226,9 +5139,9 @@
       {
         "price": 614,
         "station": "Saturn Ascending",
-        "demand": 100658,
+        "demand": 101097,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Wine": [
@@ -5249,9 +5162,9 @@
       {
         "price": 677,
         "station": "Saturn Ascending",
-        "demand": 363273,
+        "demand": 364857,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
+        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 658,
@@ -5266,15 +5179,6 @@
         "demand": 275519,
         "marketId": 4388359171,
         "marketUpdated": "2026-09-15T02:50:23Z"
-      }
-    ],
-    "Wreckage Components": [
-      {
-        "price": 8965,
-        "station": "Saturn Ascending",
-        "demand": 6754,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-18T22:25:19Z"
       }
     ],
     "Advanced Catalysers": [
