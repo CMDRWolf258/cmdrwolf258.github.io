@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-09-22T12:31:18.656090+00:00",
+  "generatedAt": "2026-09-22T18:29:59.095672+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -873,10 +873,10 @@
     },
     "Alexandrite": {
       "price": 265890,
-      "station": "Eon Blue Apocalypse",
-      "demand": 16132,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-22T05:14:03Z"
+      "station": "Rival Monkeys Foundry",
+      "demand": 3526,
+      "marketId": 4388359171,
+      "marketUpdated": "2026-09-22T05:40:27Z"
     },
     "Atmospheric Processors": {
       "price": 899,
@@ -909,9 +909,9 @@
     "Bertrandite": {
       "price": 21304,
       "station": "Eon Blue Apocalypse",
-      "demand": 7475248,
+      "demand": 5398205,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-22T05:14:03Z"
+      "marketUpdated": "2026-09-22T16:46:50Z"
     },
     "Cobalt": {
       "price": 14763,
@@ -923,9 +923,9 @@
     "Coltan": {
       "price": 7441,
       "station": "Eon Blue Apocalypse",
-      "demand": 6184774,
+      "demand": 4307304,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-22T05:14:03Z"
+      "marketUpdated": "2026-09-22T16:46:50Z"
     },
     "Food Cartridges": {
       "price": 624,
@@ -956,11 +956,11 @@
       "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Haematite": {
-      "price": 9092,
-      "station": "Eon Blue Apocalypse",
-      "demand": 2233066,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-22T05:14:03Z"
+      "price": 9064,
+      "station": "King's Mountain View",
+      "demand": 24446,
+      "marketId": 4374964995,
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Indite": {
       "price": 13095,
@@ -972,9 +972,9 @@
     "Lepidolite": {
       "price": 5530,
       "station": "Eon Blue Apocalypse",
-      "demand": 12576447,
+      "demand": 8829718,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-22T05:14:03Z"
+      "marketUpdated": "2026-09-22T16:46:50Z"
     },
     "Marine Equipment": {
       "price": 5030,
@@ -1070,16 +1070,16 @@
     "Uraninite": {
       "price": 3849,
       "station": "Eon Blue Apocalypse",
-      "demand": 17519946,
+      "demand": 12255305,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-22T05:14:03Z"
+      "marketUpdated": "2026-09-22T16:46:50Z"
     },
     "Animal Meat": {
       "price": 1871,
       "station": "Eon Blue Apocalypse",
-      "demand": 872702,
+      "demand": 619363,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-22T05:14:03Z"
+      "marketUpdated": "2026-09-22T16:46:50Z"
     },
     "Microbial Furnaces": {
       "price": 677,
@@ -1388,9 +1388,9 @@
       {
         "price": 7465,
         "station": "Eon Blue Apocalypse",
-        "demand": 133748,
+        "demand": 91788,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 7465,
@@ -1461,13 +1461,6 @@
       },
       {
         "price": 192960,
-        "station": "Eon Blue Apocalypse",
-        "demand": 245495,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 192960,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
@@ -1486,6 +1479,13 @@
         "demand": 708,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 107200,
+        "station": "Eon Blue Apocalypse",
+        "demand": 245495,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 67000,
@@ -1536,9 +1536,9 @@
       {
         "price": 652,
         "station": "Eon Blue Apocalypse",
-        "demand": 3311262,
+        "demand": 2332365,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 652,
@@ -1619,9 +1619,9 @@
       {
         "price": 2979,
         "station": "Eon Blue Apocalypse",
-        "demand": 2468549,
+        "demand": 1722643,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2979,
@@ -1656,9 +1656,9 @@
       {
         "price": 31082,
         "station": "Eon Blue Apocalypse",
-        "demand": 46565,
+        "demand": 43462,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 31082,
@@ -1685,17 +1685,17 @@
       },
       {
         "price": 632,
-        "station": "Eon Blue Apocalypse",
-        "demand": 19630,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 632,
         "station": "Gao Base",
         "demand": 15024,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
+      },
+      {
+        "price": 632,
+        "station": "Eon Blue Apocalypse",
+        "demand": 13471,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 632,
@@ -1720,13 +1720,6 @@
       }
     ],
     "Bromellite": [
-      {
-        "price": 75095,
-        "station": "Eon Blue Apocalypse",
-        "demand": 1659709,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
       {
         "price": 75095,
         "station": "Gao Base",
@@ -1757,6 +1750,13 @@
       },
       {
         "price": 30038,
+        "station": "Eon Blue Apocalypse",
+        "demand": 1139016,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
+        "price": 30038,
         "station": "Extra Pens And Clean Sheets",
         "demand": 273058,
         "marketId": 4376376323,
@@ -1767,9 +1767,9 @@
       {
         "price": 6608,
         "station": "Eon Blue Apocalypse",
-        "demand": 913970,
+        "demand": 627234,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 6608,
@@ -1818,9 +1818,9 @@
       {
         "price": 1753,
         "station": "Eon Blue Apocalypse",
-        "demand": 3052880,
+        "demand": 2104544,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1753,
@@ -1841,9 +1841,9 @@
       {
         "price": 617,
         "station": "Eon Blue Apocalypse",
-        "demand": 1105796,
+        "demand": 758879,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 617,
@@ -1877,13 +1877,6 @@
       },
       {
         "price": 1201,
-        "station": "Eon Blue Apocalypse",
-        "demand": 4056352,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 1201,
         "station": "Gao Base",
         "demand": 2887971,
         "marketId": 4375494403,
@@ -1909,6 +1902,13 @@
         "demand": 690,
         "marketId": 4376365059,
         "marketUpdated": "2026-07-09T01:39:32Z"
+      },
+      {
+        "price": 801,
+        "station": "Eon Blue Apocalypse",
+        "demand": 2815254,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       }
     ],
     "Coffee": [
@@ -1941,11 +1941,11 @@
         "marketUpdated": "2026-09-21T21:56:29Z"
       },
       {
-        "price": 1763,
+        "price": 1826,
         "station": "Eon Blue Apocalypse",
-        "demand": 300072,
+        "demand": 221072,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       }
     ],
     "Combat Stabilisers": [
@@ -1975,9 +1975,9 @@
       {
         "price": 1037,
         "station": "Eon Blue Apocalypse",
-        "demand": 3694809,
+        "demand": 2557903,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1037,
@@ -2087,13 +2087,6 @@
     "Crop Harvesters": [
       {
         "price": 3100,
-        "station": "Eon Blue Apocalypse",
-        "demand": 2342097,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 3100,
         "station": "King's Mountain View",
         "demand": 454044,
         "marketId": 4374964995,
@@ -2112,16 +2105,16 @@
         "demand": 947,
         "marketId": 4376365059,
         "marketUpdated": "2026-07-09T01:39:32Z"
+      },
+      {
+        "price": 2796,
+        "station": "Eon Blue Apocalypse",
+        "demand": 1653827,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       }
     ],
     "Cryolite": [
-      {
-        "price": 28340,
-        "station": "Eon Blue Apocalypse",
-        "demand": 8253392,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
       {
         "price": 28340,
         "station": "Rival Monkeys Foundry",
@@ -2144,6 +2137,13 @@
         "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
+        "price": 14170,
+        "station": "Eon Blue Apocalypse",
+        "demand": 5744059,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
         "price": 14117,
         "station": "Extra Pens And Clean Sheets",
         "demand": 1497921,
@@ -2155,9 +2155,9 @@
       {
         "price": 16932,
         "station": "Eon Blue Apocalypse",
-        "demand": 33352,
+        "demand": 31131,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 16932,
@@ -2184,13 +2184,6 @@
       },
       {
         "price": 99719,
-        "station": "Eon Blue Apocalypse",
-        "demand": 245495,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 99719,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
@@ -2209,6 +2202,13 @@
         "demand": 708,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 55400,
+        "station": "Eon Blue Apocalypse",
+        "demand": 245495,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 34625,
@@ -2228,13 +2228,6 @@
       },
       {
         "price": 295136,
-        "station": "Eon Blue Apocalypse",
-        "demand": 245495,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 295136,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
@@ -2255,6 +2248,13 @@
         "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
+        "price": 163965,
+        "station": "Eon Blue Apocalypse",
+        "demand": 245495,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
         "price": 102478,
         "station": "Extra Pens And Clean Sheets",
         "demand": 18200,
@@ -2272,17 +2272,17 @@
       },
       {
         "price": 1037,
-        "station": "Eon Blue Apocalypse",
-        "demand": 1222242,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 1037,
         "station": "Gao Base",
         "demand": 870290,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
+      },
+      {
+        "price": 1037,
+        "station": "Eon Blue Apocalypse",
+        "demand": 845764,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1037,
@@ -2316,26 +2316,26 @@
       },
       {
         "price": 2796,
-        "station": "Eon Blue Apocalypse",
-        "demand": 36507,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 2796,
         "station": "King's Mountain View",
         "demand": 32175,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 2796,
+        "station": "Eon Blue Apocalypse",
+        "demand": 25106,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       }
     ],
     "Energy Grid Assembly": [
       {
         "price": 3113,
         "station": "Eon Blue Apocalypse",
-        "demand": 320053,
+        "demand": 219924,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 3113,
@@ -2377,9 +2377,9 @@
       {
         "price": 2273,
         "station": "Eon Blue Apocalypse",
-        "demand": 400450,
+        "demand": 275359,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2273,
@@ -2451,9 +2451,9 @@
       {
         "price": 899,
         "station": "Eon Blue Apocalypse",
-        "demand": 2258850,
+        "demand": 1592022,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 899,
@@ -2526,13 +2526,6 @@
     "Goslarite": [
       {
         "price": 14873,
-        "station": "Eon Blue Apocalypse",
-        "demand": 9267920,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 14873,
         "station": "Rival Monkeys Foundry",
         "demand": 2048175,
         "marketId": 4388359171,
@@ -2558,6 +2551,13 @@
         "demand": 510,
         "marketId": 4381327363,
         "marketUpdated": "2026-08-03T00:47:16Z"
+      },
+      {
+        "price": 7437,
+        "station": "Eon Blue Apocalypse",
+        "demand": 6411883,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 6961,
@@ -2666,9 +2666,9 @@
       {
         "price": 2391,
         "station": "Eon Blue Apocalypse",
-        "demand": 432516,
+        "demand": 299382,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2391,
@@ -2689,9 +2689,9 @@
       {
         "price": 7465,
         "station": "Eon Blue Apocalypse",
-        "demand": 191406,
+        "demand": 131447,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 7465,
@@ -2733,9 +2733,9 @@
       {
         "price": 2517,
         "station": "Eon Blue Apocalypse",
-        "demand": 369647,
+        "demand": 254177,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2517,
@@ -2783,13 +2783,6 @@
       },
       {
         "price": 236608,
-        "station": "Eon Blue Apocalypse",
-        "demand": 4110,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 236608,
         "station": "Rival Monkeys Foundry",
         "demand": 1460,
         "marketId": 4388359171,
@@ -2801,6 +2794,13 @@
         "demand": 551,
         "marketId": 4374632451,
         "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 131449,
+        "station": "Eon Blue Apocalypse",
+        "demand": 4110,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 82156,
@@ -2820,13 +2820,6 @@
       },
       {
         "price": 221421,
-        "station": "Eon Blue Apocalypse",
-        "demand": 4110,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 221421,
         "station": "Rival Monkeys Foundry",
         "demand": 1460,
         "marketId": 4388359171,
@@ -2840,6 +2833,13 @@
         "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
+        "price": 123012,
+        "station": "Eon Blue Apocalypse",
+        "demand": 4110,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
         "price": 76883,
         "station": "Extra Pens And Clean Sheets",
         "demand": 5389,
@@ -2851,9 +2851,9 @@
       {
         "price": 34625,
         "station": "Eon Blue Apocalypse",
-        "demand": 21676,
+        "demand": 20233,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 34625,
@@ -2881,9 +2881,9 @@
       {
         "price": 2983,
         "station": "Eon Blue Apocalypse",
-        "demand": 2640449,
+        "demand": 1812072,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2983,
@@ -2970,13 +2970,6 @@
     "Iridium": [
       {
         "price": 437348,
-        "station": "Eon Blue Apocalypse",
-        "demand": 259391,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 437348,
         "station": "Gao Base",
         "demand": 193949,
         "marketId": 4375494403,
@@ -3004,6 +2997,13 @@
         "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
+        "price": 242971,
+        "station": "Eon Blue Apocalypse",
+        "demand": 259391,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
         "price": 151857,
         "station": "Extra Pens And Clean Sheets",
         "demand": 297882,
@@ -3018,13 +3018,6 @@
         "demand": 244906,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
-      },
-      {
-        "price": 49937,
-        "station": "Eon Blue Apocalypse",
-        "demand": 222262,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 49937,
@@ -3046,6 +3039,13 @@
         "demand": 37729,
         "marketId": 4388359171,
         "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 41615,
+        "station": "Eon Blue Apocalypse",
+        "demand": 152532,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 41615,
@@ -3096,9 +3096,9 @@
       {
         "price": 9564,
         "station": "Eon Blue Apocalypse",
-        "demand": 2985970,
+        "demand": 2061523,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 9564,
@@ -3161,9 +3161,9 @@
       {
         "price": 652,
         "station": "Eon Blue Apocalypse",
-        "demand": 840481,
+        "demand": 595235,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       }
     ],
     "Liquid oxygen": [
@@ -3213,17 +3213,17 @@
     "Liquor": [
       {
         "price": 1145,
-        "station": "Eon Blue Apocalypse",
-        "demand": 219501,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 1145,
         "station": "Gao Base",
         "demand": 214380,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
+      },
+      {
+        "price": 1145,
+        "station": "Eon Blue Apocalypse",
+        "demand": 151374,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1145,
@@ -3267,9 +3267,9 @@
       {
         "price": 5516,
         "station": "Eon Blue Apocalypse",
-        "demand": 4729178,
+        "demand": 3245514,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 5516,
@@ -3317,13 +3317,6 @@
       },
       {
         "price": 287420,
-        "station": "Eon Blue Apocalypse",
-        "demand": 14938,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 287420,
         "station": "Rival Monkeys Foundry",
         "demand": 4002,
         "marketId": 4388359171,
@@ -3344,6 +3337,13 @@
         "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
+        "price": 159678,
+        "station": "Eon Blue Apocalypse",
+        "demand": 14938,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
         "price": 99799,
         "station": "Extra Pens And Clean Sheets",
         "demand": 10096,
@@ -3358,13 +3358,6 @@
         "demand": 270506,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
-      },
-      {
-        "price": 93389,
-        "station": "Eon Blue Apocalypse",
-        "demand": 245495,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 93389,
@@ -3388,6 +3381,13 @@
         "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
+        "price": 51883,
+        "station": "Eon Blue Apocalypse",
+        "demand": 245495,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
         "price": 32427,
         "station": "Extra Pens And Clean Sheets",
         "demand": 18200,
@@ -3399,9 +3399,9 @@
       {
         "price": 1708,
         "station": "Eon Blue Apocalypse",
-        "demand": 554089,
+        "demand": 381266,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1708,
@@ -3493,17 +3493,17 @@
       },
       {
         "price": 213768,
-        "station": "Eon Blue Apocalypse",
-        "demand": 112341,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 213768,
         "station": "Saturn Ascending",
         "demand": 19814,
         "marketId": 4374632451,
         "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 194710,
+        "station": "Eon Blue Apocalypse",
+        "demand": 80243,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 194710,
@@ -3531,9 +3531,9 @@
       {
         "price": 1518,
         "station": "Eon Blue Apocalypse",
-        "demand": 4038775,
+        "demand": 2771708,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1518,
@@ -3567,13 +3567,6 @@
     "Methanol Monohydrate Crystals": [
       {
         "price": 2870,
-        "station": "Eon Blue Apocalypse",
-        "demand": 5143723,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 2870,
         "station": "Gao Base",
         "demand": 839670,
         "marketId": 4375494403,
@@ -3599,6 +3592,13 @@
         "demand": 129356,
         "marketId": 4388359171,
         "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 2391,
+        "station": "Eon Blue Apocalypse",
+        "demand": 3530006,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2391,
@@ -3670,9 +3670,9 @@
       {
         "price": 1787,
         "station": "Eon Blue Apocalypse",
-        "demand": 310926,
+        "demand": 213380,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1787,
@@ -3722,13 +3722,6 @@
       },
       {
         "price": 1584,
-        "station": "Eon Blue Apocalypse",
-        "demand": 1729437,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 1584,
         "station": "King's Mountain View",
         "demand": 255785,
         "marketId": 4374964995,
@@ -3740,15 +3733,22 @@
         "demand": 585078,
         "marketId": 4374632451,
         "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1106,
+        "station": "Eon Blue Apocalypse",
+        "demand": 1209662,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       }
     ],
     "Mineral Oil": [
       {
         "price": 1211,
         "station": "Eon Blue Apocalypse",
-        "demand": 28834573,
+        "demand": 20074982,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1211,
@@ -3769,9 +3769,9 @@
       {
         "price": 2391,
         "station": "Eon Blue Apocalypse",
-        "demand": 390951,
+        "demand": 268300,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2391,
@@ -3819,13 +3819,6 @@
       },
       {
         "price": 72504,
-        "station": "Eon Blue Apocalypse",
-        "demand": 455189,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 72504,
         "station": "King's Mountain View",
         "demand": 287654,
         "marketId": 4374964995,
@@ -3854,6 +3847,13 @@
       },
       {
         "price": 24168,
+        "station": "Eon Blue Apocalypse",
+        "demand": 312384,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
+        "price": 24168,
         "station": "Extra Pens And Clean Sheets",
         "demand": 130451,
         "marketId": 4376376323,
@@ -3864,9 +3864,9 @@
       {
         "price": 2273,
         "station": "Eon Blue Apocalypse",
-        "demand": 574600,
+        "demand": 394333,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2273,
@@ -3922,9 +3922,9 @@
       {
         "price": 1159,
         "station": "Eon Blue Apocalypse",
-        "demand": 4354982,
+        "demand": 2963114,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1159,
@@ -3945,9 +3945,9 @@
       {
         "price": 5857,
         "station": "Eon Blue Apocalypse",
-        "demand": 922606,
+        "demand": 633161,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 5857,
@@ -3995,17 +3995,17 @@
       },
       {
         "price": 13972,
-        "station": "Eon Blue Apocalypse",
-        "demand": 2028,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 13972,
         "station": "King's Mountain View",
         "demand": 1859,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 13972,
+        "station": "Eon Blue Apocalypse",
+        "demand": 1395,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 13964,
@@ -4019,9 +4019,9 @@
       {
         "price": 30371,
         "station": "Eon Blue Apocalypse",
-        "demand": 46565,
+        "demand": 43462,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 30371,
@@ -4048,13 +4048,6 @@
       },
       {
         "price": 76754,
-        "station": "Eon Blue Apocalypse",
-        "demand": 245495,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 76754,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
@@ -4075,6 +4068,13 @@
         "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
+        "price": 42641,
+        "station": "Eon Blue Apocalypse",
+        "demand": 245495,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
         "price": 26651,
         "station": "Extra Pens And Clean Sheets",
         "demand": 18200,
@@ -4083,13 +4083,6 @@
       }
     ],
     "Osmium": [
-      {
-        "price": 164021,
-        "station": "Eon Blue Apocalypse",
-        "demand": 199247,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
       {
         "price": 164021,
         "station": "Gao Base",
@@ -4120,6 +4113,13 @@
       },
       {
         "price": 41006,
+        "station": "Eon Blue Apocalypse",
+        "demand": 1367380,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
+        "price": 41006,
         "station": "Extra Pens And Clean Sheets",
         "demand": 667102,
         "marketId": 4376376323,
@@ -4133,13 +4133,6 @@
         "demand": 60375,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
-      },
-      {
-        "price": 90761,
-        "station": "Eon Blue Apocalypse",
-        "demand": 35353,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 90761,
@@ -4161,6 +4154,13 @@
         "demand": 4407,
         "marketId": 4374632451,
         "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 50423,
+        "station": "Eon Blue Apocalypse",
+        "demand": 35353,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 50423,
@@ -4210,13 +4210,6 @@
       },
       {
         "price": 437348,
-        "station": "Eon Blue Apocalypse",
-        "demand": 245495,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 437348,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
@@ -4237,6 +4230,13 @@
         "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
+        "price": 242971,
+        "station": "Eon Blue Apocalypse",
+        "demand": 245495,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
         "price": 151857,
         "station": "Extra Pens And Clean Sheets",
         "demand": 18200,
@@ -4248,9 +4248,9 @@
       {
         "price": 9564,
         "station": "Eon Blue Apocalypse",
-        "demand": 46565,
+        "demand": 43462,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 9564,
@@ -4291,13 +4291,6 @@
       }
     ],
     "Platinum": [
-      {
-        "price": 222648,
-        "station": "Eon Blue Apocalypse",
-        "demand": 40312,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
       {
         "price": 222648,
         "station": "Gao Base",
@@ -4342,6 +4335,13 @@
       },
       {
         "price": 55662,
+        "station": "Eon Blue Apocalypse",
+        "demand": 276652,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
+        "price": 55662,
         "station": "Extra Pens And Clean Sheets",
         "demand": 121353,
         "marketId": 4376376323,
@@ -4375,9 +4375,9 @@
       {
         "price": 1787,
         "station": "Eon Blue Apocalypse",
-        "demand": 523309,
+        "demand": 360086,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1787,
@@ -4418,17 +4418,17 @@
     "Praseodymium": [
       {
         "price": 8445,
-        "station": "Eon Blue Apocalypse",
-        "demand": 1721184,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 8445,
         "station": "Gao Base",
         "demand": 1286938,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
+      },
+      {
+        "price": 8445,
+        "station": "Eon Blue Apocalypse",
+        "demand": 1181204,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 8445,
@@ -4492,13 +4492,6 @@
     "Pyrophyllite": [
       {
         "price": 27384,
-        "station": "Eon Blue Apocalypse",
-        "demand": 20941599,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 27384,
         "station": "Rival Monkeys Foundry",
         "demand": 2166525,
         "marketId": 4388359171,
@@ -4519,6 +4512,13 @@
         "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
+        "price": 13692,
+        "station": "Eon Blue Apocalypse",
+        "demand": 14468140,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
         "price": 13662,
         "station": "Extra Pens And Clean Sheets",
         "demand": 2774322,
@@ -4533,13 +4533,6 @@
         "demand": 270506,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
-      },
-      {
-        "price": 113724,
-        "station": "Eon Blue Apocalypse",
-        "demand": 245495,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 113724,
@@ -4561,6 +4554,13 @@
         "demand": 708,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 63180,
+        "station": "Eon Blue Apocalypse",
+        "demand": 245495,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 39487,
@@ -4595,9 +4595,9 @@
       {
         "price": 2162,
         "station": "Eon Blue Apocalypse",
-        "demand": 31946,
+        "demand": 21966,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2162,
@@ -4654,13 +4654,6 @@
       },
       {
         "price": 241940,
-        "station": "Eon Blue Apocalypse",
-        "demand": 245495,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 241940,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
@@ -4681,6 +4674,13 @@
         "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
+        "price": 134411,
+        "station": "Eon Blue Apocalypse",
+        "demand": 245495,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
         "price": 84007,
         "station": "Extra Pens And Clean Sheets",
         "demand": 18200,
@@ -4691,17 +4691,17 @@
     "Samarium": [
       {
         "price": 35712,
-        "station": "Eon Blue Apocalypse",
-        "demand": 1095300,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 35712,
         "station": "Gao Base",
         "demand": 818962,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
+      },
+      {
+        "price": 35712,
+        "station": "Eon Blue Apocalypse",
+        "demand": 751676,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 35712,
@@ -4742,13 +4742,6 @@
       },
       {
         "price": 275050,
-        "station": "Eon Blue Apocalypse",
-        "demand": 245495,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 275050,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
@@ -4767,6 +4760,13 @@
         "demand": 708,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 152805,
+        "station": "Eon Blue Apocalypse",
+        "demand": 245495,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 95503,
@@ -4902,9 +4902,9 @@
       {
         "price": 7465,
         "station": "Eon Blue Apocalypse",
-        "demand": 397530,
+        "demand": 273001,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 7465,
@@ -4945,13 +4945,6 @@
       },
       {
         "price": 61520,
-        "station": "Eon Blue Apocalypse",
-        "demand": 222262,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 61520,
         "station": "King's Mountain View",
         "demand": 140458,
         "marketId": 4374964995,
@@ -4970,6 +4963,13 @@
         "demand": 37729,
         "marketId": 4388359171,
         "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 51267,
+        "station": "Eon Blue Apocalypse",
+        "demand": 152532,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 51267,
@@ -5005,17 +5005,17 @@
     "Tea": [
       {
         "price": 2059,
-        "station": "Eon Blue Apocalypse",
-        "demand": 860089,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 2059,
         "station": "Gao Base",
         "demand": 848712,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
+      },
+      {
+        "price": 2059,
+        "station": "Eon Blue Apocalypse",
+        "demand": 609092,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2059,
@@ -5043,9 +5043,9 @@
       {
         "price": 3113,
         "station": "Eon Blue Apocalypse",
-        "demand": 427267,
+        "demand": 293222,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 3113,
@@ -5087,9 +5087,9 @@
       {
         "price": 4406,
         "station": "Eon Blue Apocalypse",
-        "demand": 2886405,
+        "demand": 2005044,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 4406,
@@ -5124,9 +5124,9 @@
       {
         "price": 12303,
         "station": "Eon Blue Apocalypse",
-        "demand": 2448510,
+        "demand": 1688129,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 12303,
@@ -5167,13 +5167,6 @@
       },
       {
         "price": 437348,
-        "station": "Eon Blue Apocalypse",
-        "demand": 245495,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 437348,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
@@ -5192,6 +5185,13 @@
         "demand": 708,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 242971,
+        "station": "Eon Blue Apocalypse",
+        "demand": 245495,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 151857,
@@ -5235,9 +5235,9 @@
       {
         "price": 5516,
         "station": "Eon Blue Apocalypse",
-        "demand": 361512,
+        "demand": 252703,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 5516,
@@ -5283,7 +5283,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 13444,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 4118,
@@ -5340,13 +5340,6 @@
     "Void Opal": [
       {
         "price": 202266,
-        "station": "Eon Blue Apocalypse",
-        "demand": 19336,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 202266,
         "station": "Gao Base",
         "demand": 9470,
         "marketId": 4375494403,
@@ -5372,6 +5365,13 @@
         "demand": 4602,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 134844,
+        "station": "Eon Blue Apocalypse",
+        "demand": 19336,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 134844,
@@ -5429,9 +5429,9 @@
       {
         "price": 1169,
         "station": "Eon Blue Apocalypse",
-        "demand": 7515285,
+        "demand": 5174176,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1169,
@@ -5473,9 +5473,9 @@
       {
         "price": 732,
         "station": "Eon Blue Apocalypse",
-        "demand": 3273165,
+        "demand": 2282374,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 732,
@@ -5503,9 +5503,9 @@
       {
         "price": 8986,
         "station": "Eon Blue Apocalypse",
-        "demand": 46428,
+        "demand": 43335,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 8986,
@@ -5555,13 +5555,6 @@
       },
       {
         "price": 265890,
-        "station": "Eon Blue Apocalypse",
-        "demand": 16132,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 265890,
         "station": "Rival Monkeys Foundry",
         "demand": 3526,
         "marketId": 4388359171,
@@ -5573,6 +5566,13 @@
         "demand": 2154,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 212712,
+        "station": "Eon Blue Apocalypse",
+        "demand": 16132,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 212712,
@@ -5593,9 +5593,9 @@
       {
         "price": 899,
         "station": "Eon Blue Apocalypse",
-        "demand": 1329622,
+        "demand": 929137,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       }
     ],
     "Basic Medicines": [
@@ -5610,17 +5610,17 @@
     "Bauxite": [
       {
         "price": 13482,
-        "station": "Eon Blue Apocalypse",
-        "demand": 8446007,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 13482,
         "station": "King's Mountain View",
         "demand": 24623,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 4494,
+        "station": "Eon Blue Apocalypse",
+        "demand": 5858241,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1400,
@@ -5640,13 +5640,6 @@
       },
       {
         "price": 234699,
-        "station": "Eon Blue Apocalypse",
-        "demand": 16132,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 234699,
         "station": "Rival Monkeys Foundry",
         "demand": 3526,
         "marketId": 4388359171,
@@ -5661,6 +5654,13 @@
       },
       {
         "price": 146687,
+        "station": "Eon Blue Apocalypse",
+        "demand": 16132,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
+        "price": 146687,
         "station": "Extra Pens And Clean Sheets",
         "demand": 1330,
         "marketId": 4376376323,
@@ -5671,9 +5671,9 @@
       {
         "price": 21304,
         "station": "Eon Blue Apocalypse",
-        "demand": 7475248,
+        "demand": 5398205,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 21196,
@@ -5710,9 +5710,9 @@
       {
         "price": 7441,
         "station": "Eon Blue Apocalypse",
-        "demand": 6184774,
+        "demand": 4307304,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 7392,
@@ -5742,9 +5742,9 @@
       {
         "price": 13479,
         "station": "Eon Blue Apocalypse",
-        "demand": 11627531,
+        "demand": 8086414,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 13479,
@@ -5787,13 +5787,6 @@
       },
       {
         "price": 264665,
-        "station": "Eon Blue Apocalypse",
-        "demand": 16132,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 264665,
         "station": "Rival Monkeys Foundry",
         "demand": 3526,
         "marketId": 4388359171,
@@ -5808,6 +5801,13 @@
       },
       {
         "price": 193186,
+        "station": "Eon Blue Apocalypse",
+        "demand": 16132,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
+        "price": 193186,
         "station": "Extra Pens And Clean Sheets",
         "demand": 1330,
         "marketId": 4376376323,
@@ -5816,18 +5816,18 @@
     ],
     "Haematite": [
       {
-        "price": 9092,
-        "station": "Eon Blue Apocalypse",
-        "demand": 2233066,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
         "price": 9064,
         "station": "King's Mountain View",
         "demand": 24446,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 4546,
+        "station": "Eon Blue Apocalypse",
+        "demand": 1556167,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2161,
@@ -5841,9 +5841,9 @@
       {
         "price": 13095,
         "station": "Eon Blue Apocalypse",
-        "demand": 8539712,
+        "demand": 5974164,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 13095,
@@ -5864,9 +5864,9 @@
       {
         "price": 5530,
         "station": "Eon Blue Apocalypse",
-        "demand": 12576447,
+        "demand": 8829718,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 5185,
@@ -5894,9 +5894,9 @@
       {
         "price": 4901,
         "station": "Eon Blue Apocalypse",
-        "demand": 278905,
+        "demand": 194501,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 4901,
@@ -5929,11 +5929,11 @@
         "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 715395,
+        "price": 397562,
         "station": "Eon Blue Apocalypse",
-        "demand": 16266,
+        "demand": 16275,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 199008,
@@ -5953,13 +5953,6 @@
       },
       {
         "price": 388882,
-        "station": "Eon Blue Apocalypse",
-        "demand": 16132,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 388882,
         "station": "Rival Monkeys Foundry",
         "demand": 3526,
         "marketId": 4388359171,
@@ -5971,6 +5964,13 @@
         "demand": 2160,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 194441,
+        "station": "Eon Blue Apocalypse",
+        "demand": 16132,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 194441,
@@ -5999,13 +5999,6 @@
     "Palladium": [
       {
         "price": 59113,
-        "station": "Eon Blue Apocalypse",
-        "demand": 252460,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 59113,
         "station": "King's Mountain View",
         "demand": 29978,
         "marketId": 4374964995,
@@ -6031,6 +6024,13 @@
         "demand": 571,
         "marketId": 4381921027,
         "marketUpdated": "2026-08-11T22:21:13Z"
+      },
+      {
+        "price": 53739,
+        "station": "Eon Blue Apocalypse",
+        "demand": 1732931,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 53729,
@@ -6066,17 +6066,17 @@
       },
       {
         "price": 3067,
-        "station": "Eon Blue Apocalypse",
-        "demand": 4644006,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 3067,
         "station": "Gao Base",
         "demand": 4491079,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
+      },
+      {
+        "price": 3067,
+        "station": "Eon Blue Apocalypse",
+        "demand": 3129276,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 3067,
@@ -6135,13 +6135,6 @@
     "Rhodplumsite": [
       {
         "price": 261411,
-        "station": "Eon Blue Apocalypse",
-        "demand": 16189,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 261411,
         "station": "Gao Base",
         "demand": 14997,
         "marketId": 4375494403,
@@ -6163,6 +6156,13 @@
       },
       {
         "price": 174274,
+        "station": "Eon Blue Apocalypse",
+        "demand": 16189,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
+      },
+      {
+        "price": 174274,
         "station": "Extra Pens And Clean Sheets",
         "demand": 2914,
         "marketId": 4376376323,
@@ -6172,17 +6172,17 @@
     "Rutile": [
       {
         "price": 10066,
-        "station": "Eon Blue Apocalypse",
-        "demand": 13574001,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 10066,
         "station": "King's Mountain View",
         "demand": 156163,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 5033,
+        "station": "Eon Blue Apocalypse",
+        "demand": 9416138,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 2503,
@@ -6202,13 +6202,6 @@
       },
       {
         "price": 245497,
-        "station": "Eon Blue Apocalypse",
-        "demand": 16132,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
-      },
-      {
-        "price": 245497,
         "station": "Rival Monkeys Foundry",
         "demand": 3526,
         "marketId": 4388359171,
@@ -6220,6 +6213,13 @@
         "demand": 2160,
         "marketId": 4374964995,
         "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 169309,
+        "station": "Eon Blue Apocalypse",
+        "demand": 16132,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 169309,
@@ -6270,9 +6270,9 @@
       {
         "price": 3849,
         "station": "Eon Blue Apocalypse",
-        "demand": 17519946,
+        "demand": 12255305,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 3804,
@@ -6300,9 +6300,9 @@
       {
         "price": 1871,
         "station": "Eon Blue Apocalypse",
-        "demand": 872702,
+        "demand": 619363,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-22T05:14:03Z"
+        "marketUpdated": "2026-09-22T16:46:50Z"
       },
       {
         "price": 1871,
