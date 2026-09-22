@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-09-22T00:32:03.113933+00:00",
+  "generatedAt": "2026-09-22T06:31:34.898688+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -18,32 +18,32 @@
       "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Agronomic Treatment": {
-      "price": 5842,
+      "price": 6084,
       "station": "Saturn Ascending",
-      "demand": 1478,
+      "demand": 1950,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-20T11:35:13Z"
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Algae": {
       "price": 620,
-      "station": "Rival Monkeys Foundry",
-      "demand": 1213546,
-      "marketId": 4388359171,
-      "marketUpdated": "2026-09-21T21:16:58Z"
+      "station": "Saturn Ascending",
+      "demand": 1208108,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Aluminium": {
-      "price": 3089,
-      "station": "King's Mountain View",
-      "demand": 35721,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "price": 3144,
+      "station": "Saturn Ascending",
+      "demand": 440991,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Animal Monitors": {
       "price": 1743,
-      "station": "King's Mountain View",
-      "demand": 768045,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 709293,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Aquaponic Systems": {
       "price": 2459,
@@ -54,31 +54,31 @@
     },
     "Articulation Motors": {
       "price": 7465,
-      "station": "King's Mountain View",
-      "demand": 18135,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 4559,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Auto-Fabricators": {
-      "price": 4632,
+      "price": 4633,
       "station": "Rival Monkeys Foundry",
-      "demand": 130899,
+      "demand": 131091,
       "marketId": 4388359171,
-      "marketUpdated": "2026-09-21T21:16:58Z"
+      "marketUpdated": "2026-09-22T05:40:27Z"
     },
     "Bastnasite": {
       "price": 192960,
-      "station": "King's Mountain View",
-      "demand": 708,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Battle Weapons": {
       "price": 7465,
-      "station": "King's Mountain View",
-      "demand": 3127982,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 114059,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Beer": {
       "price": 692,
@@ -89,199 +89,213 @@
     },
     "Beryllium": {
       "price": 42175,
-      "station": "King's Mountain View",
-      "demand": 44415,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 247922,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Bioreducing Lichen": {
       "price": 1498,
-      "station": "Rival Monkeys Foundry",
-      "demand": 541768,
-      "marketId": 4388359171,
-      "marketUpdated": "2026-09-21T21:16:58Z"
+      "station": "Saturn Ascending",
+      "demand": 1567975,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Bismuth": {
       "price": 2979,
-      "station": "King's Mountain View",
-      "demand": 209879,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 84074,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
+    },
+    "Black Box": {
+      "price": 31082,
+      "station": "Saturn Ascending",
+      "demand": 8915,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Bootleg Liquor": {
       "price": 632,
-      "station": "King's Mountain View",
-      "demand": 52705,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 5422,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Bromellite": {
       "price": 75095,
-      "station": "King's Mountain View",
-      "demand": 84390,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 56528,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "CMM Composite": {
       "price": 6608,
-      "station": "King's Mountain View",
-      "demand": 101134,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 155913,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Ceramic Composites": {
       "price": 1753,
-      "station": "King's Mountain View",
-      "demand": 365735,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 3816528,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Chemical Waste": {
       "price": 617,
-      "station": "King's Mountain View",
-      "demand": 631563,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 9526,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Clothing": {
       "price": 1201,
-      "station": "King's Mountain View",
-      "demand": 54704196,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 703836,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Coffee": {
       "price": 1871,
-      "station": "Rival Monkeys Foundry",
-      "demand": 56175,
-      "marketId": 4388359171,
-      "marketUpdated": "2026-09-21T21:16:58Z"
+      "station": "Saturn Ascending",
+      "demand": 57378,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Combat Stabilisers": {
       "price": 3476,
-      "station": "King's Mountain View",
-      "demand": 1997884,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 73355,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Computer Components": {
       "price": 1037,
-      "station": "King's Mountain View",
-      "demand": 20512232,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 210117,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Conductive Fabrics": {
       "price": 2187,
-      "station": "King's Mountain View",
-      "demand": 1544839,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2356536,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Consumer Technology": {
       "price": 7465,
       "station": "King's Mountain View",
-      "demand": 6029307,
+      "demand": 6076040,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Copper": {
-      "price": 967,
-      "station": "Extra Pens And Clean Sheets",
-      "demand": 5890602,
-      "marketId": 4376376323,
-      "marketUpdated": "2026-09-21T21:56:29Z"
+      "price": 1035,
+      "station": "Saturn Ascending",
+      "demand": 1976385,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Crop Harvesters": {
       "price": 3100,
       "station": "King's Mountain View",
-      "demand": 441790,
+      "demand": 454044,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Cryolite": {
       "price": 28340,
-      "station": "King's Mountain View",
-      "demand": 357887,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 311282,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
+    },
+    "Damaged Escape Pod": {
+      "price": 16932,
+      "station": "Saturn Ascending",
+      "demand": 9142,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Deuterium": {
       "price": 99719,
-      "station": "King's Mountain View",
-      "demand": 708,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Diamond": {
       "price": 295136,
-      "station": "King's Mountain View",
-      "demand": 708,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Domestic Appliances": {
       "price": 1037,
-      "station": "King's Mountain View",
-      "demand": 16399567,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 193916,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Emergency Power Cells": {
       "price": 2796,
-      "station": "King's Mountain View",
-      "demand": 32175,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 120278,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Energy Grid Assembly": {
       "price": 3113,
-      "station": "King's Mountain View",
-      "demand": 67337,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 81183,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Exhaust Manifold": {
       "price": 2273,
-      "station": "King's Mountain View",
-      "demand": 54295,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 13641,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Explosives": {
       "price": 1169,
-      "station": "King's Mountain View",
-      "demand": 125037,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 1028917,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Fish": {
       "price": 899,
-      "station": "Eon Blue Apocalypse",
-      "demand": 2242142,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 575518,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Fruit and Vegetables": {
       "price": 801,
-      "station": "Gao Base",
-      "demand": 851122,
-      "marketId": 4375494403,
-      "marketUpdated": "2026-09-21T23:07:30Z"
+      "station": "Saturn Ascending",
+      "demand": 194911,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Gallium": {
       "price": 26651,
-      "station": "King's Mountain View",
-      "demand": 43029,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 166945,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Goslarite": {
       "price": 14873,
-      "station": "King's Mountain View",
-      "demand": 26678,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 24101,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Grain": {
       "price": 725,
@@ -302,70 +316,77 @@
       "station": "King's Mountain View",
       "demand": 89061,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Hardware Diagnostic Sensor": {
       "price": 7465,
-      "station": "King's Mountain View",
-      "demand": 30205,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 48555,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Heatsink Interlink": {
       "price": 2517,
-      "station": "King's Mountain View",
-      "demand": 50120,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 12592,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Helium": {
       "price": 236608,
-      "station": "Eon Blue Apocalypse",
-      "demand": 4110,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 551,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Helium-3": {
       "price": 221421,
-      "station": "Eon Blue Apocalypse",
-      "demand": 4110,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 551,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
+    },
+    "Hostages": {
+      "price": 34625,
+      "station": "Saturn Ascending",
+      "demand": 7724,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Hydrogen Peroxide": {
       "price": 2983,
-      "station": "King's Mountain View",
-      "demand": 14647,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 859894,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Indium": {
       "price": 24969,
-      "station": "King's Mountain View",
-      "demand": 85620,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 88130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Insulating Membrane": {
       "price": 11549,
-      "station": "King's Mountain View",
-      "demand": 63577,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 96322,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Iridium": {
       "price": 437348,
-      "station": "King's Mountain View",
-      "demand": 13427,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 40464,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Jadeite": {
       "price": 49937,
-      "station": "King's Mountain View",
-      "demand": 140458,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 51095,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Land Enrichment Systems": {
       "price": 5652,
@@ -376,17 +397,17 @@
     },
     "Lanthanum": {
       "price": 9564,
-      "station": "King's Mountain View",
-      "demand": 151827,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 101694,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Leather": {
       "price": 652,
-      "station": "Eon Blue Apocalypse",
-      "demand": 838264,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 1331526,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Liquid oxygen": {
       "price": 2227,
@@ -397,59 +418,59 @@
     },
     "Liquor": {
       "price": 1145,
-      "station": "Eon Blue Apocalypse",
-      "demand": 219496,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 44549,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Lithium": {
       "price": 2296,
-      "station": "King's Mountain View",
-      "demand": 562941,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 1717472,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Lithium Hydroxide": {
       "price": 5516,
-      "station": "King's Mountain View",
-      "demand": 128097,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 101606,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Low Temperature Diamonds": {
       "price": 287420,
-      "station": "Eon Blue Apocalypse",
-      "demand": 14938,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 1856,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Magnesite": {
       "price": 93389,
-      "station": "King's Mountain View",
-      "demand": 708,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Magnetic Emitter Coil": {
       "price": 1708,
-      "station": "King's Mountain View",
-      "demand": 75127,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 18872,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Medical Diagnostic Equipment": {
       "price": 3476,
-      "station": "King's Mountain View",
-      "demand": 78956,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 174210,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Meta-Alloys": {
       "price": 213990,
       "station": "Rival Monkeys Foundry",
       "demand": 3554,
       "marketId": 4388359171,
-      "marketUpdated": "2026-09-21T21:16:58Z"
+      "marketUpdated": "2026-09-22T05:40:27Z"
     },
     "Methane Clathrate": {
       "price": 1547,
@@ -460,122 +481,136 @@
     },
     "Methanol Monohydrate Crystals": {
       "price": 2870,
-      "station": "King's Mountain View",
-      "demand": 261538,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 175180,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Micro Controllers": {
       "price": 6220,
-      "station": "Rival Monkeys Foundry",
-      "demand": 35207,
-      "marketId": 4388359171,
-      "marketUpdated": "2026-09-21T21:16:58Z"
+      "station": "Saturn Ascending",
+      "demand": 82933,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Micro-weave Cooling Hoses": {
       "price": 1787,
-      "station": "King's Mountain View",
-      "demand": 59288,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 434799,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Military Grade Fabrics": {
       "price": 4218,
-      "station": "King's Mountain View",
-      "demand": 310641,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 135848,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Mineral Extractors": {
       "price": 1584,
       "station": "King's Mountain View",
       "demand": 255785,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Mineral Oil": {
       "price": 1211,
-      "station": "Eon Blue Apocalypse",
-      "demand": 28826610,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 264049,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Modular Terminals": {
       "price": 2391,
-      "station": "King's Mountain View",
-      "demand": 53009,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 13317,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Moissanite": {
       "price": 72504,
-      "station": "King's Mountain View",
-      "demand": 287654,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 104641,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Nanobreakers": {
       "price": 2273,
-      "station": "King's Mountain View",
-      "demand": 90673,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 145751,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Natural Fabrics": {
       "price": 1159,
-      "station": "Eon Blue Apocalypse",
-      "demand": 4320809,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 10663973,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Neofabric Insulation": {
       "price": 5857,
-      "station": "King's Mountain View",
-      "demand": 107875,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 86426,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Nerve Agents": {
       "price": 13972,
-      "station": "King's Mountain View",
-      "demand": 1859,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 6525,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
+    },
+    "Occupied Escape Pod": {
+      "price": 30371,
+      "station": "Saturn Ascending",
+      "demand": 8915,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Olivine": {
       "price": 76754,
-      "station": "King's Mountain View",
-      "demand": 708,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Osmium": {
       "price": 164021,
-      "station": "King's Mountain View",
-      "demand": 10812,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 35200,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Painite": {
       "price": 90761,
-      "station": "King's Mountain View",
-      "demand": 14853,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 4407,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Performance Enhancers": {
       "price": 7465,
-      "station": "King's Mountain View",
-      "demand": 3646345,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 122141,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Periclase Dunite": {
       "price": 437348,
-      "station": "King's Mountain View",
-      "demand": 708,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
+    },
+    "Personal Effects": {
+      "price": 9564,
+      "station": "Saturn Ascending",
+      "demand": 8915,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Pesticides": {
       "price": 820,
@@ -586,220 +621,220 @@
     },
     "Platinum": {
       "price": 222648,
-      "station": "King's Mountain View",
-      "demand": 14931,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 7772,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Polymers": {
       "price": 1099,
-      "station": "King's Mountain View",
-      "demand": 2294700,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 6368079,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Power Converter": {
       "price": 1787,
-      "station": "King's Mountain View",
-      "demand": 70953,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 17823,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Praseodymium": {
       "price": 8445,
-      "station": "King's Mountain View",
-      "demand": 89082,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 268494,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Progenitor Cells": {
       "price": 7465,
-      "station": "King's Mountain View",
-      "demand": 3169626,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 41317,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Pyrophyllite": {
       "price": 27384,
-      "station": "King's Mountain View",
-      "demand": 683127,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 573425,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Quartz Pyroxenite": {
       "price": 113724,
-      "station": "King's Mountain View",
-      "demand": 708,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Radiation Baffle": {
       "price": 2162,
-      "station": "King's Mountain View",
-      "demand": 38983,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 102807,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Robotics": {
       "price": 2843,
-      "station": "King's Mountain View",
-      "demand": 44462,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 651154,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Ruby": {
       "price": 241940,
-      "station": "King's Mountain View",
-      "demand": 708,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Samarium": {
       "price": 35712,
-      "station": "King's Mountain View",
-      "demand": 56687,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 170860,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Sapphire": {
       "price": 275050,
-      "station": "King's Mountain View",
-      "demand": 708,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Semiconductors": {
       "price": 1595,
-      "station": "King's Mountain View",
-      "demand": 237351,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 805980,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Steel": {
-      "price": 4869,
-      "station": "King's Mountain View",
-      "demand": 26846,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "price": 4950,
+      "station": "Saturn Ascending",
+      "demand": 357927,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Superconductors": {
       "price": 7540,
-      "station": "King's Mountain View",
-      "demand": 460307,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 696915,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Synthetic Fabrics": {
       "price": 1279,
-      "station": "King's Mountain View",
-      "demand": 268240,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 5419705,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Synthetic Meat": {
       "price": 732,
-      "station": "King's Mountain View",
-      "demand": 2541879,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 118433,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Synthetic Reagents": {
       "price": 7465,
-      "station": "King's Mountain View",
-      "demand": 18129,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 11208,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Taaffeite": {
       "price": 61520,
-      "station": "King's Mountain View",
-      "demand": 140458,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 51095,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Tantalum": {
       "price": 14894,
-      "station": "King's Mountain View",
-      "demand": 114005,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 214985,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Tea": {
       "price": 2059,
-      "station": "Eon Blue Apocalypse",
-      "demand": 857963,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 130304,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Telemetry Suite": {
       "price": 3113,
-      "station": "King's Mountain View",
-      "demand": 67422,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 108381,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Thallium": {
       "price": 4406,
-      "station": "King's Mountain View",
-      "demand": 294214,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 98305,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Thorium": {
       "price": 12303,
-      "station": "King's Mountain View",
-      "demand": 131907,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 141363,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Thortveitite": {
       "price": 437348,
-      "station": "King's Mountain View",
-      "demand": 708,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 2130,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Titanium": {
-      "price": 5169,
-      "station": "King's Mountain View",
-      "demand": 25496,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "price": 5251,
+      "station": "Saturn Ascending",
+      "demand": 339588,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Tobacco": {
       "price": 5516,
-      "station": "Eon Blue Apocalypse",
-      "demand": 361096,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 79662,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Tritium": {
-      "price": 61405,
+      "price": 61525,
       "station": "King's Mountain View",
-      "demand": 6441,
+      "demand": 8376,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Unoccupied Escape Pod": {
       "price": 4118,
-      "station": "King's Mountain View",
-      "demand": 203137,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 3661,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Uranium": {
       "price": 7939,
-      "station": "King's Mountain View",
-      "demand": 182039,
-      "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "station": "Saturn Ascending",
+      "demand": 653620,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Void Opal": {
       "price": 202266,
-      "station": "Eon Blue Apocalypse",
-      "demand": 19336,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 663,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Water": {
       "price": 655,
@@ -817,122 +852,129 @@
     },
     "Wine": {
       "price": 732,
-      "station": "Eon Blue Apocalypse",
-      "demand": 3271837,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "station": "Saturn Ascending",
+      "demand": 877602,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
+    },
+    "Wreckage Components": {
+      "price": 8986,
+      "station": "Saturn Ascending",
+      "demand": 14669,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-09-22T05:08:18Z"
     },
     "Advanced Catalysers": {
       "price": 3476,
       "station": "King's Mountain View",
       "demand": 44755,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Alexandrite": {
       "price": 265890,
       "station": "Eon Blue Apocalypse",
       "demand": 16132,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "marketUpdated": "2026-09-22T05:14:03Z"
     },
     "Atmospheric Processors": {
       "price": 899,
       "station": "King's Mountain View",
-      "demand": 9307910,
+      "demand": 9566376,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Basic Medicines": {
       "price": 801,
       "station": "King's Mountain View",
-      "demand": 2497986,
+      "demand": 2516956,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Bauxite": {
       "price": 13482,
       "station": "King's Mountain View",
       "demand": 24623,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Benitoite": {
       "price": 234699,
       "station": "King's Mountain View",
       "demand": 2160,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Bertrandite": {
       "price": 21304,
       "station": "Eon Blue Apocalypse",
       "demand": 7475248,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "marketUpdated": "2026-09-22T05:14:03Z"
     },
     "Cobalt": {
       "price": 14763,
       "station": "King's Mountain View",
-      "demand": 1043541,
+      "demand": 1093701,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Coltan": {
       "price": 7441,
       "station": "Eon Blue Apocalypse",
       "demand": 6184774,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "marketUpdated": "2026-09-22T05:14:03Z"
     },
     "Food Cartridges": {
       "price": 624,
       "station": "King's Mountain View",
       "demand": 1249468,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Gallite": {
       "price": 13479,
       "station": "King's Mountain View",
       "demand": 493147,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Gold": {
       "price": 55993,
       "station": "King's Mountain View",
       "demand": 18054,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Grandidierite": {
       "price": 264665,
       "station": "King's Mountain View",
       "demand": 2160,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Haematite": {
       "price": 9092,
       "station": "Eon Blue Apocalypse",
       "demand": 2233066,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "marketUpdated": "2026-09-22T05:14:03Z"
     },
     "Indite": {
       "price": 13095,
       "station": "King's Mountain View",
       "demand": 27075,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Lepidolite": {
       "price": 5530,
       "station": "Eon Blue Apocalypse",
       "demand": 12576447,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "marketUpdated": "2026-09-22T05:14:03Z"
     },
     "Marine Equipment": {
       "price": 5030,
@@ -946,35 +988,35 @@
       "station": "King's Mountain View",
       "demand": 4002,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Musgravite": {
       "price": 388882,
       "station": "King's Mountain View",
       "demand": 2160,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Non-Lethal Weapons": {
       "price": 2391,
       "station": "King's Mountain View",
-      "demand": 334004,
+      "demand": 338068,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Palladium": {
       "price": 59113,
       "station": "King's Mountain View",
       "demand": 29978,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Personal Weapons": {
       "price": 4901,
       "station": "King's Mountain View",
-      "demand": 1203038,
+      "demand": 1214578,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Power Generators": {
       "price": 3177,
@@ -986,72 +1028,72 @@
     "Reactive Armour": {
       "price": 2652,
       "station": "King's Mountain View",
-      "demand": 908419,
+      "demand": 917593,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Resonating Separators": {
       "price": 6852,
       "station": "King's Mountain View",
       "demand": 34204,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Rhodplumsite": {
       "price": 261411,
       "station": "King's Mountain View",
       "demand": 2742,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Rutile": {
       "price": 10066,
       "station": "King's Mountain View",
       "demand": 156163,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Serendibite": {
       "price": 245497,
       "station": "King's Mountain View",
       "demand": 2160,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Silver": {
       "price": 48902,
       "station": "King's Mountain View",
       "demand": 63763,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-21T21:34:22Z"
+      "marketUpdated": "2026-09-22T03:34:13Z"
     },
     "Uraninite": {
       "price": 3849,
       "station": "Eon Blue Apocalypse",
-      "demand": 17519942,
+      "demand": 17519946,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "marketUpdated": "2026-09-22T05:14:03Z"
     },
     "Animal Meat": {
       "price": 1871,
       "station": "Eon Blue Apocalypse",
-      "demand": 870460,
+      "demand": 872702,
       "marketId": 4386105091,
-      "marketUpdated": "2026-09-21T23:58:10Z"
+      "marketUpdated": "2026-09-22T05:14:03Z"
     },
     "Microbial Furnaces": {
       "price": 677,
       "station": "Rival Monkeys Foundry",
-      "demand": 920247,
+      "demand": 920251,
       "marketId": 4388359171,
-      "marketUpdated": "2026-09-21T21:16:58Z"
+      "marketUpdated": "2026-09-22T05:40:27Z"
     },
     "Scrap": {
       "price": 602,
       "station": "Rival Monkeys Foundry",
       "demand": 532871,
       "marketId": 4388359171,
-      "marketUpdated": "2026-09-21T21:16:58Z"
+      "marketUpdated": "2026-09-22T05:40:27Z"
     },
     "Onionhead Gamma Strain": {
       "price": 5545,
@@ -1129,9 +1171,9 @@
       {
         "price": 1708,
         "station": "King's Mountain View",
-        "demand": 13341785,
+        "demand": 13445160,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 1708,
@@ -1143,16 +1185,16 @@
       {
         "price": 1708,
         "station": "Rival Monkeys Foundry",
-        "demand": 232584,
+        "demand": 233733,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 1631,
+        "price": 1708,
         "station": "Saturn Ascending",
-        "demand": 92466,
+        "demand": 230864,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Agri-Medicines": [
@@ -1166,39 +1208,46 @@
       {
         "price": 1563,
         "station": "King's Mountain View",
-        "demand": 178445,
+        "demand": 183045,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 1531,
-        "station": "Rival Monkeys Foundry",
-        "demand": 50694,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 1474,
+        "price": 1563,
         "station": "Saturn Ascending",
-        "demand": 22000,
+        "demand": 65055,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1538,
+        "station": "Rival Monkeys Foundry",
+        "demand": 55815,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Agronomic Treatment": [
       {
-        "price": 5842,
+        "price": 6084,
         "station": "Saturn Ascending",
-        "demand": 1478,
+        "demand": 1950,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
-        "price": 5789,
+        "price": 5799,
         "station": "King's Mountain View",
-        "demand": 282908,
+        "demand": 290030,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 5766,
+        "station": "Rival Monkeys Foundry",
+        "demand": 1329,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Algae": [
@@ -1212,9 +1261,16 @@
       {
         "price": 620,
         "station": "Rival Monkeys Foundry",
-        "demand": 1213546,
+        "demand": 1247195,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 620,
+        "station": "Saturn Ascending",
+        "demand": 1208108,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 613,
@@ -1222,22 +1278,22 @@
         "demand": 1609211,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 488,
-        "station": "Saturn Ascending",
-        "demand": 436146,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Aluminium": [
       {
-        "price": 3089,
+        "price": 3144,
+        "station": "Saturn Ascending",
+        "demand": 440991,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 3144,
         "station": "King's Mountain View",
-        "demand": 35721,
+        "demand": 41172,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 3052,
@@ -1245,22 +1301,22 @@
         "demand": 309379,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 2862,
-        "station": "Saturn Ascending",
-        "demand": 142935,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Animal Monitors": [
       {
         "price": 1743,
         "station": "King's Mountain View",
-        "demand": 768045,
+        "demand": 787054,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 1743,
+        "station": "Saturn Ascending",
+        "demand": 709293,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 1743,
@@ -1272,16 +1328,9 @@
       {
         "price": 1743,
         "station": "Rival Monkeys Foundry",
-        "demand": 175262,
+        "demand": 196420,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 1449,
-        "station": "Saturn Ascending",
-        "demand": 217913,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 849,
@@ -1309,16 +1358,23 @@
       {
         "price": 2268,
         "station": "King's Mountain View",
-        "demand": 574799,
+        "demand": 590522,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 2262,
+        "price": 2268,
+        "station": "Saturn Ascending",
+        "demand": 240027,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 2268,
         "station": "Rival Monkeys Foundry",
-        "demand": 159742,
+        "demand": 177242,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 799,
@@ -1326,13 +1382,6 @@
         "demand": 859,
         "marketId": 4376370179,
         "marketUpdated": "2026-08-30T17:10:51Z"
-      },
-      {
-        "price": 605,
-        "station": "Saturn Ascending",
-        "demand": 70786,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Articulation Motors": [
@@ -1341,7 +1390,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 133748,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 7465,
@@ -1362,30 +1411,30 @@
         "station": "King's Mountain View",
         "demand": 18135,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 7465,
+        "station": "Saturn Ascending",
+        "demand": 4559,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 7465,
         "station": "Rival Monkeys Foundry",
         "demand": 3365,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 7403,
-        "station": "Saturn Ascending",
-        "demand": 1861,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Auto-Fabricators": [
       {
-        "price": 4632,
+        "price": 4633,
         "station": "Rival Monkeys Foundry",
-        "demand": 130899,
+        "demand": 131091,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 4600,
@@ -1395,11 +1444,11 @@
         "marketUpdated": "2026-09-21T23:07:30Z"
       },
       {
-        "price": 4305,
+        "price": 4599,
         "station": "Saturn Ascending",
-        "demand": 30459,
+        "demand": 123959,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Bastnasite": [
@@ -1415,28 +1464,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 245495,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 192960,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 192960,
+        "station": "Saturn Ascending",
+        "demand": 2130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 192960,
         "station": "King's Mountain View",
         "demand": 708,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 120493,
-        "station": "Saturn Ascending",
-        "demand": 2112,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 67000,
@@ -1450,23 +1499,23 @@
       {
         "price": 7465,
         "station": "King's Mountain View",
-        "demand": 3127982,
+        "demand": 3128206,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 7397,
-        "station": "Rival Monkeys Foundry",
-        "demand": 6942,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 7316,
+        "price": 7465,
         "station": "Saturn Ascending",
-        "demand": 45271,
+        "demand": 114059,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 7418,
+        "station": "Rival Monkeys Foundry",
+        "demand": 7166,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Beer": [
@@ -1487,16 +1536,23 @@
       {
         "price": 652,
         "station": "Eon Blue Apocalypse",
-        "demand": 3309065,
+        "demand": 3311262,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 652,
         "station": "Rival Monkeys Foundry",
-        "demand": 925126,
+        "demand": 928898,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 652,
+        "station": "Saturn Ascending",
+        "demand": 881032,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 652,
@@ -1504,22 +1560,22 @@
         "demand": 606154,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 594,
-        "station": "Saturn Ascending",
-        "demand": 343095,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Beryllium": [
       {
         "price": 42175,
+        "station": "Saturn Ascending",
+        "demand": 247922,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 42175,
         "station": "King's Mountain View",
-        "demand": 44415,
+        "demand": 44794,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 42116,
@@ -1527,13 +1583,6 @@
         "demand": 297671,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 42026,
-        "station": "Saturn Ascending",
-        "demand": 99393,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Bioreducing Lichen": [
@@ -1546,24 +1595,24 @@
       },
       {
         "price": 1498,
+        "station": "Saturn Ascending",
+        "demand": 1567975,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1498,
         "station": "Rival Monkeys Foundry",
         "demand": 541768,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 1490,
         "station": "King's Mountain View",
         "demand": 195657,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 1457,
-        "station": "Saturn Ascending",
-        "demand": 638650,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Bismuth": [
@@ -1572,21 +1621,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2468549,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 2979,
         "station": "King's Mountain View",
         "demand": 209879,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 2979,
         "station": "Rival Monkeys Foundry",
         "demand": 103808,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 2979,
+        "station": "Saturn Ascending",
+        "demand": 84074,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 2924,
@@ -1594,13 +1650,29 @@
         "demand": 1382321,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
+      }
+    ],
+    "Black Box": [
+      {
+        "price": 31082,
+        "station": "Eon Blue Apocalypse",
+        "demand": 46565,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
-        "price": 2902,
+        "price": 31082,
         "station": "Saturn Ascending",
-        "demand": 34328,
+        "demand": 8915,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 31082,
+        "station": "Rival Monkeys Foundry",
+        "demand": 3314,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Bootleg Liquor": [
@@ -1609,14 +1681,14 @@
         "station": "King's Mountain View",
         "demand": 52705,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 632,
         "station": "Eon Blue Apocalypse",
         "demand": 19630,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 632,
@@ -1630,7 +1702,14 @@
         "station": "Rival Monkeys Foundry",
         "demand": 9712,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 632,
+        "station": "Saturn Ascending",
+        "demand": 5422,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 632,
@@ -1638,13 +1717,6 @@
         "demand": 636,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 596,
-        "station": "Saturn Ascending",
-        "demand": 2133,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Bromellite": [
@@ -1653,7 +1725,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1659709,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 75095,
@@ -1667,21 +1739,21 @@
         "station": "King's Mountain View",
         "demand": 84390,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 75095,
+        "station": "Saturn Ascending",
+        "demand": 56528,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 75095,
         "station": "Rival Monkeys Foundry",
         "demand": 41742,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 74655,
-        "station": "Saturn Ascending",
-        "demand": 23076,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 30038,
@@ -1697,21 +1769,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 913970,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 6608,
+        "station": "Saturn Ascending",
+        "demand": 155913,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 6608,
         "station": "Rival Monkeys Foundry",
         "demand": 142297,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 6608,
         "station": "King's Mountain View",
         "demand": 101134,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 6572,
@@ -1719,13 +1798,6 @@
         "demand": 519419,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 6513,
-        "station": "Saturn Ascending",
-        "demand": 63651,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Ceramic Composites": [
@@ -1734,21 +1806,28 @@
         "station": "Rival Monkeys Foundry",
         "demand": 4294886,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 1753,
+        "station": "Saturn Ascending",
+        "demand": 3816528,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 1753,
         "station": "Eon Blue Apocalypse",
         "demand": 3052880,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1753,
         "station": "King's Mountain View",
         "demand": 365735,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 662,
@@ -1756,13 +1835,6 @@
         "demand": 2620748,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 634,
-        "station": "Saturn Ascending",
-        "demand": 688121,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Chemical Waste": [
@@ -1771,44 +1843,44 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1105796,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 617,
         "station": "King's Mountain View",
         "demand": 631563,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 617,
         "station": "Rival Monkeys Foundry",
         "demand": 242531,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 579,
+        "price": 617,
         "station": "Saturn Ascending",
-        "demand": 3890,
+        "demand": 9526,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Clothing": [
       {
         "price": 1201,
         "station": "King's Mountain View",
-        "demand": 54704196,
+        "demand": 55039801,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 1201,
         "station": "Eon Blue Apocalypse",
-        "demand": 4034176,
+        "demand": 4056352,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1201,
@@ -1819,17 +1891,17 @@
       },
       {
         "price": 1201,
-        "station": "Rival Monkeys Foundry",
-        "demand": 616993,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "station": "Saturn Ascending",
+        "demand": 703836,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
-        "price": 896,
-        "station": "Saturn Ascending",
-        "demand": 238346,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "price": 1201,
+        "station": "Rival Monkeys Foundry",
+        "demand": 620727,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 866,
@@ -1849,10 +1921,17 @@
       },
       {
         "price": 1871,
+        "station": "Saturn Ascending",
+        "demand": 57378,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1871,
         "station": "Rival Monkeys Foundry",
-        "demand": 56175,
+        "demand": 56555,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 1871,
@@ -1862,34 +1941,27 @@
         "marketUpdated": "2026-09-21T21:56:29Z"
       },
       {
-        "price": 1767,
+        "price": 1763,
         "station": "Eon Blue Apocalypse",
-        "demand": 297832,
+        "demand": 300072,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
-      },
-      {
-        "price": 1675,
-        "station": "Saturn Ascending",
-        "demand": 20512,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       }
     ],
     "Combat Stabilisers": [
       {
         "price": 3476,
         "station": "King's Mountain View",
-        "demand": 1997884,
+        "demand": 1999686,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 3185,
+        "price": 3476,
         "station": "Saturn Ascending",
-        "demand": 22493,
+        "demand": 73355,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Computer Components": [
@@ -1898,21 +1970,28 @@
         "station": "King's Mountain View",
         "demand": 20512232,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 1037,
         "station": "Eon Blue Apocalypse",
         "demand": 3694809,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 1037,
+        "station": "Saturn Ascending",
+        "demand": 210117,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 1037,
         "station": "Rival Monkeys Foundry",
         "demand": 103331,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 994,
@@ -1920,29 +1999,22 @@
         "demand": 908718,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
-      },
-      {
-        "price": 948,
-        "station": "Saturn Ascending",
-        "demand": 82968,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Conductive Fabrics": [
       {
         "price": 2187,
-        "station": "King's Mountain View",
-        "demand": 1544839,
-        "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "station": "Saturn Ascending",
+        "demand": 2356536,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
-        "price": 1859,
-        "station": "Saturn Ascending",
-        "demand": 415158,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "price": 2187,
+        "station": "King's Mountain View",
+        "demand": 1548489,
+        "marketId": 4374964995,
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 959,
@@ -1956,9 +2028,9 @@
       {
         "price": 7465,
         "station": "King's Mountain View",
-        "demand": 6029307,
+        "demand": 6076040,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 7465,
@@ -1970,19 +2042,33 @@
       {
         "price": 7465,
         "station": "Rival Monkeys Foundry",
-        "demand": 109995,
+        "demand": 110518,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 7029,
+        "price": 7459,
         "station": "Saturn Ascending",
-        "demand": 38443,
+        "demand": 118466,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Copper": [
+      {
+        "price": 1035,
+        "station": "Saturn Ascending",
+        "demand": 1976385,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1029,
+        "station": "King's Mountain View",
+        "demand": 50168,
+        "marketId": 4374964995,
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
       {
         "price": 967,
         "station": "Extra Pens And Clean Sheets",
@@ -1991,41 +2077,34 @@
         "marketUpdated": "2026-09-21T21:56:29Z"
       },
       {
-        "price": 921,
-        "station": "Saturn Ascending",
-        "demand": 772986,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
-      },
-      {
         "price": 920,
         "station": "Vega's Astrophysics",
         "demand": 613,
         "marketId": 4386133251,
         "marketUpdated": "2026-08-27T22:23:33Z"
-      },
-      {
-        "price": 868,
-        "station": "King's Mountain View",
-        "demand": 32896,
-        "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
       }
     ],
     "Crop Harvesters": [
       {
         "price": 3100,
         "station": "Eon Blue Apocalypse",
-        "demand": 2281856,
+        "demand": 2342097,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 3100,
         "station": "King's Mountain View",
-        "demand": 441790,
+        "demand": 454044,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 3037,
+        "station": "Saturn Ascending",
+        "demand": 163474,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 2899,
@@ -2033,13 +2112,6 @@
         "demand": 947,
         "marketId": 4376365059,
         "marketUpdated": "2026-07-09T01:39:32Z"
-      },
-      {
-        "price": 2728,
-        "station": "Saturn Ascending",
-        "demand": 30362,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Cryolite": [
@@ -2048,28 +2120,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 8253392,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 28340,
         "station": "Rival Monkeys Foundry",
         "demand": 459754,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 28340,
         "station": "King's Mountain View",
         "demand": 357887,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 28052,
+        "price": 28340,
         "station": "Saturn Ascending",
-        "demand": 127089,
+        "demand": 311282,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 14117,
@@ -2077,6 +2149,29 @@
         "demand": 1497921,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
+      }
+    ],
+    "Damaged Escape Pod": [
+      {
+        "price": 16932,
+        "station": "Eon Blue Apocalypse",
+        "demand": 33352,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 16932,
+        "station": "Saturn Ascending",
+        "demand": 9142,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 16932,
+        "station": "Rival Monkeys Foundry",
+        "demand": 3989,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Deuterium": [
@@ -2092,28 +2187,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 245495,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 99719,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 99719,
+        "station": "Saturn Ascending",
+        "demand": 2130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 99719,
         "station": "King's Mountain View",
         "demand": 708,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 62250,
-        "station": "Saturn Ascending",
-        "demand": 2112,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 34625,
@@ -2136,28 +2231,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 245495,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 295136,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 295136,
+        "station": "Saturn Ascending",
+        "demand": 2130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 295136,
         "station": "King's Mountain View",
         "demand": 708,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 182041,
-        "station": "Saturn Ascending",
-        "demand": 2112,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 102478,
@@ -2171,16 +2266,16 @@
       {
         "price": 1037,
         "station": "King's Mountain View",
-        "demand": 16399567,
+        "demand": 16500173,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 1037,
         "station": "Eon Blue Apocalypse",
-        "demand": 1215594,
+        "demand": 1222242,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1037,
@@ -2190,48 +2285,48 @@
         "marketUpdated": "2026-09-21T23:07:30Z"
       },
       {
-        "price": 979,
-        "station": "Rival Monkeys Foundry",
-        "demand": 230991,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "price": 1037,
+        "station": "Saturn Ascending",
+        "demand": 193916,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
-        "price": 944,
-        "station": "Saturn Ascending",
-        "demand": 75716,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "price": 980,
+        "station": "Rival Monkeys Foundry",
+        "demand": 232110,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Emergency Power Cells": [
       {
         "price": 2796,
+        "station": "Saturn Ascending",
+        "demand": 120278,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 2796,
         "station": "Rival Monkeys Foundry",
         "demand": 51639,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 2796,
         "station": "Eon Blue Apocalypse",
         "demand": 36507,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 2796,
         "station": "King's Mountain View",
         "demand": 32175,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 2724,
-        "station": "Saturn Ascending",
-        "demand": 49099,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Energy Grid Assembly": [
@@ -2240,7 +2335,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 320053,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 3113,
+        "station": "Saturn Ascending",
+        "demand": 81183,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 3113,
@@ -2254,7 +2356,7 @@
         "station": "King's Mountain View",
         "demand": 67337,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 3113,
@@ -2268,14 +2370,7 @@
         "station": "Rival Monkeys Foundry",
         "demand": 11245,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 3040,
-        "station": "Saturn Ascending",
-        "demand": 33146,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Exhaust Manifold": [
@@ -2284,7 +2379,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 400450,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 2273,
@@ -2305,30 +2400,37 @@
         "station": "King's Mountain View",
         "demand": 54295,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 2273,
+        "station": "Saturn Ascending",
+        "demand": 13641,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 2273,
         "station": "Rival Monkeys Foundry",
         "demand": 10071,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 2229,
-        "station": "Saturn Ascending",
-        "demand": 5568,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Explosives": [
       {
         "price": 1169,
+        "station": "Saturn Ascending",
+        "demand": 1028917,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1169,
         "station": "King's Mountain View",
-        "demand": 125037,
+        "demand": 128843,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 828,
@@ -2336,13 +2438,6 @@
         "demand": 936,
         "marketId": 4374917123,
         "marketUpdated": "2026-08-18T16:17:28Z"
-      },
-      {
-        "price": 684,
-        "station": "Saturn Ascending",
-        "demand": 154681,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Fish": [
@@ -2356,16 +2451,23 @@
       {
         "price": 899,
         "station": "Eon Blue Apocalypse",
-        "demand": 2242142,
+        "demand": 2258850,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 899,
         "station": "Rival Monkeys Foundry",
-        "demand": 569059,
+        "demand": 583130,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 899,
+        "station": "Saturn Ascending",
+        "demand": 575518,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 885,
@@ -2373,13 +2475,6 @@
         "demand": 374421,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 768,
-        "station": "Saturn Ascending",
-        "demand": 207317,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Fruit and Vegetables": [
@@ -2392,26 +2487,33 @@
       },
       {
         "price": 801,
+        "station": "Saturn Ascending",
+        "demand": 194911,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 801,
         "station": "Extra Pens And Clean Sheets",
         "demand": 123370,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 688,
-        "station": "Saturn Ascending",
-        "demand": 74273,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Gallium": [
       {
         "price": 26651,
+        "station": "Saturn Ascending",
+        "demand": 166945,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 26651,
         "station": "King's Mountain View",
-        "demand": 43029,
+        "demand": 46976,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 26581,
@@ -2419,13 +2521,6 @@
         "demand": 456197,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 26540,
-        "station": "Saturn Ascending",
-        "demand": 67830,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Goslarite": [
@@ -2434,28 +2529,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 9267920,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 14873,
         "station": "Rival Monkeys Foundry",
-        "demand": 2048173,
+        "demand": 2048175,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 14873,
         "station": "King's Mountain View",
         "demand": 26678,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 14641,
+        "price": 14873,
         "station": "Saturn Ascending",
-        "demand": 9838,
+        "demand": 24101,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 7513,
@@ -2489,10 +2584,17 @@
       },
       {
         "price": 684,
+        "station": "Saturn Ascending",
+        "demand": 1327614,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 684,
         "station": "Rival Monkeys Foundry",
-        "demand": 1194775,
+        "demand": 1243896,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 664,
@@ -2500,13 +2602,6 @@
         "demand": 798574,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 493,
-        "station": "Saturn Ascending",
-        "demand": 453463,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "H.E. Suits": [
@@ -2547,24 +2642,24 @@
       },
       {
         "price": 756,
+        "station": "Saturn Ascending",
+        "demand": 3508809,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 756,
         "station": "Rival Monkeys Foundry",
         "demand": 2717680,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 756,
         "station": "King's Mountain View",
         "demand": 759013,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 699,
-        "station": "Saturn Ascending",
-        "demand": 1423654,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "HN Shock Mount": [
@@ -2573,21 +2668,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 432516,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 2391,
         "station": "King's Mountain View",
         "demand": 89061,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 1842,
+        "price": 2259,
         "station": "Saturn Ascending",
-        "demand": 31945,
+        "demand": 152601,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Hardware Diagnostic Sensor": [
@@ -2596,7 +2691,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 191406,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 7465,
+        "station": "Saturn Ascending",
+        "demand": 48555,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 7465,
@@ -2617,21 +2719,14 @@
         "station": "King's Mountain View",
         "demand": 30205,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 7465,
         "station": "Rival Monkeys Foundry",
         "demand": 6726,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 7365,
-        "station": "Saturn Ascending",
-        "demand": 19822,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Heatsink Interlink": [
@@ -2640,7 +2735,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 369647,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 2517,
@@ -2661,21 +2756,21 @@
         "station": "King's Mountain View",
         "demand": 50120,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 2517,
+        "station": "Saturn Ascending",
+        "demand": 12592,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 2517,
         "station": "Rival Monkeys Foundry",
         "demand": 9298,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 2472,
-        "station": "Saturn Ascending",
-        "demand": 5140,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Helium": [
@@ -2691,21 +2786,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4110,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 236608,
         "station": "Rival Monkeys Foundry",
         "demand": 1460,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 146330,
+        "price": 236608,
         "station": "Saturn Ascending",
-        "demand": 547,
+        "demand": 551,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 82156,
@@ -2728,21 +2823,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4110,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 221421,
         "station": "Rival Monkeys Foundry",
         "demand": 1460,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 136941,
+        "price": 221421,
         "station": "Saturn Ascending",
-        "demand": 547,
+        "demand": 551,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 76883,
@@ -2750,6 +2845,29 @@
         "demand": 5389,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
+      }
+    ],
+    "Hostages": [
+      {
+        "price": 34625,
+        "station": "Eon Blue Apocalypse",
+        "demand": 21676,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 34625,
+        "station": "Saturn Ascending",
+        "demand": 7724,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 34625,
+        "station": "Rival Monkeys Foundry",
+        "demand": 2435,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Hydrogen Peroxide": [
@@ -2765,14 +2883,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2640449,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 2983,
         "station": "Rival Monkeys Foundry",
         "demand": 1403291,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 2983,
@@ -2783,26 +2901,33 @@
       },
       {
         "price": 2983,
+        "station": "Saturn Ascending",
+        "demand": 859894,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 2983,
         "station": "King's Mountain View",
         "demand": 14647,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 2918,
-        "station": "Saturn Ascending",
-        "demand": 351041,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Indium": [
       {
         "price": 24969,
         "station": "King's Mountain View",
-        "demand": 85620,
+        "demand": 89567,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 24969,
+        "station": "Saturn Ascending",
+        "demand": 88130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 24898,
@@ -2810,13 +2935,6 @@
         "demand": 437852,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 24359,
-        "station": "Saturn Ascending",
-        "demand": 17171,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Insulating Membrane": [
@@ -2836,17 +2954,17 @@
       },
       {
         "price": 11549,
+        "station": "Saturn Ascending",
+        "demand": 96322,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 11549,
         "station": "King's Mountain View",
         "demand": 63577,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 11427,
-        "station": "Saturn Ascending",
-        "demand": 39270,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Iridium": [
@@ -2855,7 +2973,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 259391,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 437348,
@@ -2869,21 +2987,21 @@
         "station": "Rival Monkeys Foundry",
         "demand": 42461,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 437348,
+        "station": "Saturn Ascending",
+        "demand": 40464,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 437348,
         "station": "King's Mountain View",
         "demand": 13427,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 268797,
-        "station": "Saturn Ascending",
-        "demand": 40117,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 151857,
@@ -2906,28 +3024,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 222262,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 49937,
         "station": "King's Mountain View",
         "demand": 140458,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 49937,
+        "station": "Saturn Ascending",
+        "demand": 51095,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 49937,
         "station": "Rival Monkeys Foundry",
         "demand": 37729,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 49740,
-        "station": "Saturn Ascending",
-        "demand": 20860,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 41615,
@@ -2953,25 +3071,25 @@
         "marketUpdated": "2026-09-21T23:07:30Z"
       },
       {
-        "price": 5513,
+        "price": 5516,
         "station": "Rival Monkeys Foundry",
-        "demand": 13718,
+        "demand": 15221,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 5508,
+        "price": 5510,
         "station": "King's Mountain View",
-        "demand": 278556,
+        "demand": 285268,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 5153,
+        "price": 5448,
         "station": "Saturn Ascending",
-        "demand": 25971,
+        "demand": 119594,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Lanthanum": [
@@ -2980,21 +3098,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2985970,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 9564,
         "station": "King's Mountain View",
         "demand": 151827,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 9564,
+        "station": "Saturn Ascending",
+        "demand": 101694,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 9564,
         "station": "Rival Monkeys Foundry",
         "demand": 75092,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 9560,
@@ -3002,13 +3127,6 @@
         "demand": 494211,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 9495,
-        "station": "Saturn Ascending",
-        "demand": 41517,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Leather": [
@@ -3029,23 +3147,23 @@
       {
         "price": 652,
         "station": "Rival Monkeys Foundry",
-        "demand": 2224286,
+        "demand": 2224662,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 652,
+        "station": "Saturn Ascending",
+        "demand": 1331526,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 652,
         "station": "Eon Blue Apocalypse",
-        "demand": 838264,
+        "demand": 840481,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
-      },
-      {
-        "price": 599,
-        "station": "Saturn Ascending",
-        "demand": 529065,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       }
     ],
     "Liquid oxygen": [
@@ -3065,10 +3183,17 @@
       },
       {
         "price": 2146,
+        "station": "Saturn Ascending",
+        "demand": 918574,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 2146,
         "station": "King's Mountain View",
-        "demand": 19228,
+        "demand": 20896,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 2119,
@@ -3076,13 +3201,6 @@
         "demand": 1341786,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 2059,
-        "station": "Saturn Ascending",
-        "demand": 367041,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       },
       {
         "price": 1962,
@@ -3096,9 +3214,9 @@
       {
         "price": 1145,
         "station": "Eon Blue Apocalypse",
-        "demand": 219496,
+        "demand": 219501,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1145,
@@ -3109,26 +3227,33 @@
       },
       {
         "price": 1145,
-        "station": "Rival Monkeys Foundry",
-        "demand": 43455,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "station": "Saturn Ascending",
+        "demand": 44549,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
-        "price": 1084,
-        "station": "Saturn Ascending",
-        "demand": 17390,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "price": 1145,
+        "station": "Rival Monkeys Foundry",
+        "demand": 43463,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Lithium": [
       {
         "price": 2296,
+        "station": "Saturn Ascending",
+        "demand": 1717472,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 2296,
         "station": "King's Mountain View",
         "demand": 562941,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 2271,
@@ -3136,13 +3261,6 @@
         "demand": 3795575,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 2227,
-        "station": "Saturn Ascending",
-        "demand": 698984,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Lithium Hydroxide": [
@@ -3151,7 +3269,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4729178,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 5516,
@@ -3172,21 +3290,21 @@
         "station": "Rival Monkeys Foundry",
         "demand": 214736,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 5516,
         "station": "King's Mountain View",
         "demand": 128097,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 5460,
+        "price": 5516,
         "station": "Saturn Ascending",
-        "demand": 41481,
+        "demand": 101606,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Low Temperature Diamonds": [
@@ -3202,28 +3320,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 14938,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 287420,
         "station": "Rival Monkeys Foundry",
         "demand": 4002,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 286638,
-        "station": "King's Mountain View",
-        "demand": 4961,
-        "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 176602,
+        "price": 287420,
         "station": "Saturn Ascending",
-        "demand": 1840,
+        "demand": 1856,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 286746,
+        "station": "King's Mountain View",
+        "demand": 4963,
+        "marketId": 4374964995,
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 99799,
@@ -3246,28 +3364,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 245495,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 93389,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 93389,
+        "station": "Saturn Ascending",
+        "demand": 2130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 93389,
         "station": "King's Mountain View",
         "demand": 708,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 58296,
-        "station": "Saturn Ascending",
-        "demand": 2112,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 32427,
@@ -3283,7 +3401,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 554089,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1708,
@@ -3304,37 +3422,44 @@
         "station": "King's Mountain View",
         "demand": 75127,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 1708,
+        "station": "Saturn Ascending",
+        "demand": 18872,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 1708,
         "station": "Rival Monkeys Foundry",
         "demand": 13936,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 1666,
-        "station": "Saturn Ascending",
-        "demand": 7703,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Medical Diagnostic Equipment": [
       {
         "price": 3476,
+        "station": "Saturn Ascending",
+        "demand": 174210,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 3476,
         "station": "King's Mountain View",
         "demand": 78956,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 3476,
         "station": "Rival Monkeys Foundry",
         "demand": 14228,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 3439,
@@ -3342,13 +3467,6 @@
         "demand": 108924,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
-      },
-      {
-        "price": 3343,
-        "station": "Saturn Ascending",
-        "demand": 68305,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Meta-Alloys": [
@@ -3357,7 +3475,7 @@
         "station": "Rival Monkeys Foundry",
         "demand": 3554,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 213989,
@@ -3371,21 +3489,21 @@
         "station": "King's Mountain View",
         "demand": 15511,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 213768,
         "station": "Eon Blue Apocalypse",
         "demand": 112341,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
-        "price": 213658,
+        "price": 213768,
         "station": "Saturn Ascending",
-        "demand": 19645,
+        "demand": 19814,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 194710,
@@ -3415,14 +3533,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4038775,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1518,
         "station": "Rival Monkeys Foundry",
         "demand": 2228408,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 1518,
@@ -3436,14 +3554,14 @@
         "station": "King's Mountain View",
         "demand": 58082,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 1470,
+        "price": 1518,
         "station": "Saturn Ascending",
-        "demand": 21455,
+        "demand": 52556,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Methanol Monohydrate Crystals": [
@@ -3452,7 +3570,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 5143723,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 2870,
@@ -3466,21 +3584,21 @@
         "station": "King's Mountain View",
         "demand": 261538,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 2870,
+        "station": "Saturn Ascending",
+        "demand": 175180,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 2870,
         "station": "Rival Monkeys Foundry",
         "demand": 129356,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 2817,
-        "station": "Saturn Ascending",
-        "demand": 71515,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 2391,
@@ -3500,24 +3618,24 @@
       },
       {
         "price": 6220,
+        "station": "Saturn Ascending",
+        "demand": 82933,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 6220,
         "station": "Rival Monkeys Foundry",
         "demand": 35207,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 6202,
         "station": "King's Mountain View",
         "demand": 18886,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 6038,
-        "station": "Saturn Ascending",
-        "demand": 32126,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Micro-weave Cooling Hoses": [
@@ -3537,47 +3655,47 @@
       },
       {
         "price": 1787,
+        "station": "Saturn Ascending",
+        "demand": 434799,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1787,
         "station": "Rival Monkeys Foundry",
         "demand": 413426,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 1787,
         "station": "Eon Blue Apocalypse",
         "demand": 310926,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1787,
         "station": "King's Mountain View",
         "demand": 59288,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 1724,
-        "station": "Saturn Ascending",
-        "demand": 177501,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Military Grade Fabrics": [
       {
         "price": 4218,
         "station": "King's Mountain View",
-        "demand": 310641,
+        "demand": 312940,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 3269,
+        "price": 4218,
         "station": "Saturn Ascending",
-        "demand": 18425,
+        "demand": 135848,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 1179,
@@ -3600,51 +3718,51 @@
         "station": "Rival Monkeys Foundry",
         "demand": 2962626,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 1584,
         "station": "Eon Blue Apocalypse",
-        "demand": 1729433,
+        "demand": 1729437,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1584,
         "station": "King's Mountain View",
         "demand": 255785,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 1278,
+        "price": 1537,
         "station": "Saturn Ascending",
-        "demand": 162984,
+        "demand": 585078,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Mineral Oil": [
       {
         "price": 1211,
         "station": "Eon Blue Apocalypse",
-        "demand": 28826610,
+        "demand": 28834573,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1211,
         "station": "Rival Monkeys Foundry",
-        "demand": 6414580,
+        "demand": 6428027,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 601,
+        "price": 1211,
         "station": "Saturn Ascending",
-        "demand": 43778,
+        "demand": 264049,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Modular Terminals": [
@@ -3653,7 +3771,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 390951,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 2391,
@@ -3674,21 +3792,21 @@
         "station": "King's Mountain View",
         "demand": 53009,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 2391,
+        "station": "Saturn Ascending",
+        "demand": 13317,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 2391,
         "station": "Rival Monkeys Foundry",
         "demand": 9832,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 2347,
-        "station": "Saturn Ascending",
-        "demand": 5436,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Moissanite": [
@@ -3704,28 +3822,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 455189,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 72504,
         "station": "King's Mountain View",
         "demand": 287654,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 72504,
+        "station": "Saturn Ascending",
+        "demand": 104641,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 72504,
         "station": "Rival Monkeys Foundry",
         "demand": 77271,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 72056,
-        "station": "Saturn Ascending",
-        "demand": 42718,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 24289,
@@ -3748,7 +3866,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 574600,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 2273,
+        "station": "Saturn Ascending",
+        "demand": 145751,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 2273,
@@ -3769,21 +3894,14 @@
         "station": "King's Mountain View",
         "demand": 90673,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 2273,
         "station": "Rival Monkeys Foundry",
         "demand": 20181,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 2206,
-        "station": "Saturn Ascending",
-        "demand": 59501,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Natural Fabrics": [
@@ -3796,17 +3914,24 @@
       },
       {
         "price": 1159,
+        "station": "Saturn Ascending",
+        "demand": 10663973,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1159,
         "station": "Eon Blue Apocalypse",
-        "demand": 4320809,
+        "demand": 4354982,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1159,
         "station": "Rival Monkeys Foundry",
-        "demand": 1856790,
+        "demand": 1862590,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 899,
@@ -3814,13 +3939,6 @@
         "demand": 6910473,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 862,
-        "station": "Saturn Ascending",
-        "demand": 1920990,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Neofabric Insulation": [
@@ -3829,7 +3947,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 922606,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 5857,
@@ -3850,37 +3968,44 @@
         "station": "King's Mountain View",
         "demand": 107875,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 5857,
+        "station": "Saturn Ascending",
+        "demand": 86426,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 5857,
         "station": "Rival Monkeys Foundry",
         "demand": 25703,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 5766,
-        "station": "Saturn Ascending",
-        "demand": 35283,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Nerve Agents": [
       {
         "price": 13972,
+        "station": "Saturn Ascending",
+        "demand": 6525,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 13972,
         "station": "Eon Blue Apocalypse",
         "demand": 2028,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 13972,
         "station": "King's Mountain View",
         "demand": 1859,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 13964,
@@ -3888,13 +4013,29 @@
         "demand": 92020,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
+      }
+    ],
+    "Occupied Escape Pod": [
+      {
+        "price": 30371,
+        "station": "Eon Blue Apocalypse",
+        "demand": 46565,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
-        "price": 13844,
+        "price": 30371,
         "station": "Saturn Ascending",
-        "demand": 2665,
+        "demand": 8915,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 30371,
+        "station": "Rival Monkeys Foundry",
+        "demand": 3314,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Olivine": [
@@ -3910,28 +4051,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 245495,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 76754,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 76754,
+        "station": "Saturn Ascending",
+        "demand": 2130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 76754,
         "station": "King's Mountain View",
         "demand": 708,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 47906,
-        "station": "Saturn Ascending",
-        "demand": 2112,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 26651,
@@ -3947,7 +4088,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 199247,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 164021,
@@ -3958,24 +4099,24 @@
       },
       {
         "price": 164021,
+        "station": "Saturn Ascending",
+        "demand": 35200,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 164021,
         "station": "Rival Monkeys Foundry",
         "demand": 32375,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 164021,
         "station": "King's Mountain View",
         "demand": 10812,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 152719,
-        "station": "Saturn Ascending",
-        "demand": 14370,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 41006,
@@ -3998,28 +4139,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 35353,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 90761,
         "station": "King's Mountain View",
         "demand": 14853,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 90761,
         "station": "Rival Monkeys Foundry",
         "demand": 10421,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 89422,
+        "price": 90761,
         "station": "Saturn Ascending",
-        "demand": 1873,
+        "demand": 4407,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 50423,
@@ -4033,16 +4174,23 @@
       {
         "price": 7465,
         "station": "King's Mountain View",
-        "demand": 3646345,
+        "demand": 3682757,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 7464,
+        "price": 7465,
+        "station": "Saturn Ascending",
+        "demand": 122141,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 7465,
         "station": "Rival Monkeys Foundry",
-        "demand": 90854,
+        "demand": 91263,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 7406,
@@ -4050,13 +4198,6 @@
         "demand": 414768,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-21T23:07:30Z"
-      },
-      {
-        "price": 7350,
-        "station": "Saturn Ascending",
-        "demand": 47347,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Periclase Dunite": [
@@ -4072,28 +4213,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 245495,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 437348,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 437348,
+        "station": "Saturn Ascending",
+        "demand": 2130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 437348,
         "station": "King's Mountain View",
         "demand": 708,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 268797,
-        "station": "Saturn Ascending",
-        "demand": 2112,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 151857,
@@ -4101,6 +4242,29 @@
         "demand": 18200,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
+      }
+    ],
+    "Personal Effects": [
+      {
+        "price": 9564,
+        "station": "Eon Blue Apocalypse",
+        "demand": 46565,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 9564,
+        "station": "Saturn Ascending",
+        "demand": 8915,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 9564,
+        "station": "Rival Monkeys Foundry",
+        "demand": 3314,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Pesticides": [
@@ -4113,17 +4277,17 @@
       },
       {
         "price": 756,
-        "station": "Rival Monkeys Foundry",
-        "demand": 24594,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "station": "Saturn Ascending",
+        "demand": 37108,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
-        "price": 636,
-        "station": "Saturn Ascending",
-        "demand": 11705,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "price": 756,
+        "station": "Rival Monkeys Foundry",
+        "demand": 27403,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Platinum": [
@@ -4132,7 +4296,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 40312,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 222648,
@@ -4146,21 +4310,21 @@
         "station": "King's Mountain View",
         "demand": 14931,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 222648,
+        "station": "Saturn Ascending",
+        "demand": 7772,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 222648,
         "station": "Rival Monkeys Foundry",
         "demand": 6569,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 218539,
-        "station": "Saturn Ascending",
-        "demand": 3173,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 57000,
@@ -4187,10 +4351,17 @@
     "Polymers": [
       {
         "price": 1099,
+        "station": "Saturn Ascending",
+        "demand": 6368079,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1099,
         "station": "King's Mountain View",
         "demand": 2294700,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 619,
@@ -4198,13 +4369,6 @@
         "demand": 5254962,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 518,
-        "station": "Saturn Ascending",
-        "demand": 1026354,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Power Converter": [
@@ -4213,7 +4377,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 523309,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1787,
@@ -4234,21 +4398,21 @@
         "station": "King's Mountain View",
         "demand": 70953,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 1787,
+        "station": "Saturn Ascending",
+        "demand": 17823,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 1787,
         "station": "Rival Monkeys Foundry",
         "demand": 13163,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 1745,
-        "station": "Saturn Ascending",
-        "demand": 7277,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Praseodymium": [
@@ -4257,7 +4421,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1721184,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 8445,
@@ -4278,44 +4442,44 @@
         "station": "Rival Monkeys Foundry",
         "demand": 281740,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 8445,
+        "station": "Saturn Ascending",
+        "demand": 268494,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 8445,
         "station": "King's Mountain View",
         "demand": 89082,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 8380,
-        "station": "Saturn Ascending",
-        "demand": 109609,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Progenitor Cells": [
       {
         "price": 7465,
         "station": "King's Mountain View",
-        "demand": 3169626,
+        "demand": 3195590,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 7465,
+        "station": "Saturn Ascending",
+        "demand": 41317,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 7465,
         "station": "Rival Monkeys Foundry",
-        "demand": 39177,
+        "demand": 39466,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 7321,
-        "station": "Saturn Ascending",
-        "demand": 16316,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 7299,
@@ -4329,30 +4493,30 @@
       {
         "price": 27384,
         "station": "Eon Blue Apocalypse",
-        "demand": 20941593,
+        "demand": 20941599,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 27384,
         "station": "Rival Monkeys Foundry",
         "demand": 2166525,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 27384,
         "station": "King's Mountain View",
         "demand": 683127,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 27065,
+        "price": 27384,
         "station": "Saturn Ascending",
-        "demand": 234094,
+        "demand": 573425,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 13662,
@@ -4375,28 +4539,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 245495,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 113724,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 113724,
+        "station": "Saturn Ascending",
+        "demand": 2130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 113724,
         "station": "King's Mountain View",
         "demand": 708,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 70997,
-        "station": "Saturn Ascending",
-        "demand": 2112,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 39487,
@@ -4409,10 +4573,17 @@
     "Radiation Baffle": [
       {
         "price": 2162,
+        "station": "Saturn Ascending",
+        "demand": 102807,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 2162,
         "station": "King's Mountain View",
         "demand": 38983,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 2162,
@@ -4426,7 +4597,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 31946,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 2162,
@@ -4440,14 +4611,7 @@
         "station": "Rival Monkeys Foundry",
         "demand": 5426,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 2097,
-        "station": "Saturn Ascending",
-        "demand": 41972,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Robotics": [
@@ -4463,21 +4627,21 @@
         "station": "Rival Monkeys Foundry",
         "demand": 715195,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 2843,
+        "station": "Saturn Ascending",
+        "demand": 651154,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 2843,
         "station": "King's Mountain View",
         "demand": 44462,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 2593,
-        "station": "Saturn Ascending",
-        "demand": 104004,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Ruby": [
@@ -4493,28 +4657,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 245495,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 241940,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 241940,
+        "station": "Saturn Ascending",
+        "demand": 2130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 241940,
         "station": "King's Mountain View",
         "demand": 708,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 149248,
-        "station": "Saturn Ascending",
-        "demand": 2112,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 84007,
@@ -4530,7 +4694,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1095300,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 35712,
@@ -4544,14 +4708,21 @@
         "station": "Rival Monkeys Foundry",
         "demand": 179291,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 35712,
+        "station": "Saturn Ascending",
+        "demand": 170860,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 35712,
         "station": "King's Mountain View",
         "demand": 56687,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 25509,
@@ -4559,13 +4730,6 @@
         "demand": 371114,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 25385,
-        "station": "Saturn Ascending",
-        "demand": 69751,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Sapphire": [
@@ -4581,28 +4745,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 245495,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 275050,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 275050,
+        "station": "Saturn Ascending",
+        "demand": 2130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 275050,
         "station": "King's Mountain View",
         "demand": 708,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 169118,
-        "station": "Saturn Ascending",
-        "demand": 2112,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 95503,
@@ -4615,10 +4779,17 @@
     "Semiconductors": [
       {
         "price": 1595,
+        "station": "Saturn Ascending",
+        "demand": 805980,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1595,
         "station": "King's Mountain View",
         "demand": 237351,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 1434,
@@ -4626,22 +4797,22 @@
         "demand": 3360744,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 1381,
-        "station": "Saturn Ascending",
-        "demand": 139821,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Steel": [
       {
-        "price": 4869,
+        "price": 4950,
+        "station": "Saturn Ascending",
+        "demand": 357927,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 4931,
         "station": "King's Mountain View",
-        "demand": 26846,
+        "demand": 29856,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 4796,
@@ -4649,22 +4820,22 @@
         "demand": 205852,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 4710,
-        "station": "Saturn Ascending",
-        "demand": 131777,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Superconductors": [
       {
         "price": 7540,
+        "station": "Saturn Ascending",
+        "demand": 696915,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 7540,
         "station": "King's Mountain View",
         "demand": 460307,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 7412,
@@ -4672,22 +4843,22 @@
         "demand": 648636,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 7372,
-        "station": "Saturn Ascending",
-        "demand": 120019,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Synthetic Fabrics": [
       {
         "price": 1279,
+        "station": "Saturn Ascending",
+        "demand": 5419705,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 1279,
         "station": "King's Mountain View",
         "demand": 268240,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 649,
@@ -4695,13 +4866,6 @@
         "demand": 3470306,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 611,
-        "station": "Saturn Ascending",
-        "demand": 940852,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Synthetic Meat": [
@@ -4710,7 +4874,7 @@
         "station": "King's Mountain View",
         "demand": 2541879,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 732,
@@ -4724,14 +4888,14 @@
         "station": "Rival Monkeys Foundry",
         "demand": 120743,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 557,
+        "price": 732,
         "station": "Saturn Ascending",
-        "demand": 41902,
+        "demand": 118433,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Synthetic Reagents": [
@@ -4740,21 +4904,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 397530,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 7465,
         "station": "King's Mountain View",
         "demand": 18129,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 7465,
+        "station": "Saturn Ascending",
+        "demand": 11208,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 7465,
         "station": "Rival Monkeys Foundry",
         "demand": 5693,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 7440,
@@ -4762,13 +4933,6 @@
         "demand": 78406,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 7366,
-        "station": "Saturn Ascending",
-        "demand": 4576,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Taaffeite": [
@@ -4784,28 +4948,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 222262,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 61520,
         "station": "King's Mountain View",
         "demand": 140458,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 61520,
+        "station": "Saturn Ascending",
+        "demand": 51095,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 61520,
         "station": "Rival Monkeys Foundry",
         "demand": 37729,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 61317,
-        "station": "Saturn Ascending",
-        "demand": 20860,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 51267,
@@ -4818,10 +4982,17 @@
     "Tantalum": [
       {
         "price": 14894,
+        "station": "Saturn Ascending",
+        "demand": 214985,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 14894,
         "station": "King's Mountain View",
         "demand": 114005,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 14890,
@@ -4829,22 +5000,15 @@
         "demand": 735093,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 14595,
-        "station": "Saturn Ascending",
-        "demand": 64781,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Tea": [
       {
         "price": 2059,
         "station": "Eon Blue Apocalypse",
-        "demand": 857963,
+        "demand": 860089,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 2059,
@@ -4856,9 +5020,16 @@
       {
         "price": 2059,
         "station": "Rival Monkeys Foundry",
-        "demand": 194535,
+        "demand": 194897,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 2059,
+        "station": "Saturn Ascending",
+        "demand": 130304,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 2059,
@@ -4866,13 +5037,6 @@
         "demand": 123120,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 1935,
-        "station": "Saturn Ascending",
-        "demand": 50437,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Telemetry Suite": [
@@ -4881,7 +5045,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 427267,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 3113,
+        "station": "Saturn Ascending",
+        "demand": 108381,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 3113,
@@ -4902,21 +5073,14 @@
         "station": "King's Mountain View",
         "demand": 67422,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 3113,
         "station": "Rival Monkeys Foundry",
         "demand": 15010,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 3039,
-        "station": "Saturn Ascending",
-        "demand": 44245,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Thallium": [
@@ -4925,21 +5089,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2886405,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 4406,
         "station": "King's Mountain View",
         "demand": 294214,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
+      },
+      {
+        "price": 4406,
+        "station": "Saturn Ascending",
+        "demand": 98305,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 4406,
         "station": "Rival Monkeys Foundry",
         "demand": 72591,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 4334,
@@ -4947,13 +5118,6 @@
         "demand": 965929,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 4309,
-        "station": "Saturn Ascending",
-        "demand": 40128,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Thorium": [
@@ -4962,21 +5126,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2448510,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 12303,
+        "station": "Saturn Ascending",
+        "demand": 141363,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 12303,
         "station": "King's Mountain View",
         "demand": 131907,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 12303,
         "station": "Rival Monkeys Foundry",
         "demand": 76400,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 12301,
@@ -4984,13 +5155,6 @@
         "demand": 860376,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 12181,
-        "station": "Saturn Ascending",
-        "demand": 57713,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Thortveitite": [
@@ -5006,28 +5170,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 245495,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 437348,
         "station": "Rival Monkeys Foundry",
         "demand": 54254,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 437348,
+        "station": "Saturn Ascending",
+        "demand": 2130,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 437348,
         "station": "King's Mountain View",
         "demand": 708,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 268797,
-        "station": "Saturn Ascending",
-        "demand": 2112,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 151857,
@@ -5039,11 +5203,18 @@
     ],
     "Titanium": [
       {
-        "price": 5169,
+        "price": 5251,
+        "station": "Saturn Ascending",
+        "demand": 339588,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 5231,
         "station": "King's Mountain View",
-        "demand": 25496,
+        "demand": 28351,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 5091,
@@ -5051,13 +5222,6 @@
         "demand": 195167,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 5004,
-        "station": "Saturn Ascending",
-        "demand": 125033,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Tobacco": [
@@ -5071,55 +5235,55 @@
       {
         "price": 5516,
         "station": "Eon Blue Apocalypse",
-        "demand": 361096,
+        "demand": 361512,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
-        "price": 5481,
-        "station": "Rival Monkeys Foundry",
-        "demand": 92196,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
-      },
-      {
-        "price": 5401,
+        "price": 5516,
         "station": "Saturn Ascending",
-        "demand": 31540,
+        "demand": 79662,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 5465,
+        "station": "Rival Monkeys Foundry",
+        "demand": 93948,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Tritium": [
       {
-        "price": 61405,
+        "price": 61525,
         "station": "King's Mountain View",
-        "demand": 6441,
+        "demand": 8376,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 56985,
+        "price": 61487,
         "station": "Saturn Ascending",
-        "demand": 6248,
+        "demand": 26249,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Unoccupied Escape Pod": [
       {
         "price": 4118,
         "station": "King's Mountain View",
-        "demand": 203137,
+        "demand": 203422,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 4118,
         "station": "Eon Blue Apocalypse",
-        "demand": 13425,
+        "demand": 13444,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 4118,
@@ -5137,26 +5301,33 @@
       },
       {
         "price": 4118,
-        "station": "Rival Monkeys Foundry",
-        "demand": 1594,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "station": "Saturn Ascending",
+        "demand": 3661,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
-        "price": 4103,
-        "station": "Saturn Ascending",
-        "demand": 3624,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "price": 4118,
+        "station": "Rival Monkeys Foundry",
+        "demand": 1598,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Uranium": [
       {
         "price": 7939,
+        "station": "Saturn Ascending",
+        "demand": 653620,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 7939,
         "station": "King's Mountain View",
-        "demand": 182039,
+        "demand": 190092,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 7907,
@@ -5164,13 +5335,6 @@
         "demand": 1225453,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
-      },
-      {
-        "price": 7872,
-        "station": "Saturn Ascending",
-        "demand": 266125,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Void Opal": [
@@ -5179,7 +5343,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 19336,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 202266,
@@ -5193,21 +5357,21 @@
         "station": "Rival Monkeys Foundry",
         "demand": 1766,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 201563,
-        "station": "King's Mountain View",
-        "demand": 4601,
-        "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
-      },
-      {
-        "price": 198563,
+        "price": 202266,
         "station": "Saturn Ascending",
-        "demand": 658,
+        "demand": 663,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
+      },
+      {
+        "price": 201609,
+        "station": "King's Mountain View",
+        "demand": 4602,
+        "marketId": 4374964995,
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 134844,
@@ -5228,16 +5392,16 @@
       {
         "price": 617,
         "station": "Rival Monkeys Foundry",
-        "demand": 826882,
+        "demand": 846810,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 471,
+        "price": 617,
         "station": "Saturn Ascending",
-        "demand": 155581,
+        "demand": 425065,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 324,
@@ -5265,16 +5429,23 @@
       {
         "price": 1169,
         "station": "Eon Blue Apocalypse",
-        "demand": 7494529,
+        "demand": 7515285,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
+      },
+      {
+        "price": 1169,
+        "station": "Saturn Ascending",
+        "demand": 690922,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 1169,
         "station": "King's Mountain View",
-        "demand": 517650,
+        "demand": 520816,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 828,
@@ -5289,13 +5460,6 @@
         "demand": 816,
         "marketId": 4374917123,
         "marketUpdated": "2026-08-18T16:17:28Z"
-      },
-      {
-        "price": 614,
-        "station": "Saturn Ascending",
-        "demand": 101097,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
       }
     ],
     "Wine": [
@@ -5309,16 +5473,23 @@
       {
         "price": 732,
         "station": "Eon Blue Apocalypse",
-        "demand": 3271837,
+        "demand": 3273165,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 732,
         "station": "Rival Monkeys Foundry",
-        "demand": 911557,
+        "demand": 913842,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 732,
+        "station": "Saturn Ascending",
+        "demand": 877602,
+        "marketId": 4374632451,
+        "marketUpdated": "2026-09-22T05:08:18Z"
       },
       {
         "price": 732,
@@ -5326,13 +5497,29 @@
         "demand": 600126,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-21T21:56:29Z"
+      }
+    ],
+    "Wreckage Components": [
+      {
+        "price": 8986,
+        "station": "Eon Blue Apocalypse",
+        "demand": 46428,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
-        "price": 677,
+        "price": 8986,
+        "station": "Rival Monkeys Foundry",
+        "demand": 15196,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-22T05:40:27Z"
+      },
+      {
+        "price": 8986,
         "station": "Saturn Ascending",
-        "demand": 364857,
+        "demand": 14669,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-20T11:35:13Z"
+        "marketUpdated": "2026-09-22T05:08:18Z"
       }
     ],
     "Advanced Catalysers": [
@@ -5348,14 +5535,14 @@
         "station": "Rival Monkeys Foundry",
         "demand": 1550069,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 3476,
         "station": "King's Mountain View",
         "demand": 44755,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Alexandrite": [
@@ -5371,21 +5558,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 16132,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 265890,
         "station": "Rival Monkeys Foundry",
         "demand": 3526,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 265216,
+        "price": 265312,
         "station": "King's Mountain View",
-        "demand": 2153,
+        "demand": 2154,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 212712,
@@ -5399,41 +5586,41 @@
       {
         "price": 899,
         "station": "King's Mountain View",
-        "demand": 9307910,
+        "demand": 9566376,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 899,
         "station": "Eon Blue Apocalypse",
-        "demand": 1312542,
+        "demand": 1329622,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       }
     ],
     "Basic Medicines": [
       {
         "price": 801,
         "station": "King's Mountain View",
-        "demand": 2497986,
+        "demand": 2516956,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Bauxite": [
       {
         "price": 13482,
         "station": "Eon Blue Apocalypse",
-        "demand": 8446003,
+        "demand": 8446007,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 13482,
         "station": "King's Mountain View",
         "demand": 24623,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 1400,
@@ -5456,21 +5643,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 16132,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 234699,
         "station": "Rival Monkeys Foundry",
         "demand": 3526,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 234699,
         "station": "King's Mountain View",
         "demand": 2160,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 146687,
@@ -5486,14 +5673,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 7475248,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 21196,
         "station": "King's Mountain View",
         "demand": 30569,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 21061,
@@ -5507,9 +5694,9 @@
       {
         "price": 14763,
         "station": "King's Mountain View",
-        "demand": 1043541,
+        "demand": 1093701,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 4878,
@@ -5525,14 +5712,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 6184774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 7392,
         "station": "King's Mountain View",
         "demand": 21407,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 7253,
@@ -5548,23 +5735,23 @@
         "station": "King's Mountain View",
         "demand": 1249468,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Gallite": [
       {
         "price": 13479,
         "station": "Eon Blue Apocalypse",
-        "demand": 11627530,
+        "demand": 11627531,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 13479,
         "station": "King's Mountain View",
         "demand": 493147,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 13461,
@@ -5580,7 +5767,7 @@
         "station": "King's Mountain View",
         "demand": 18054,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 50885,
@@ -5603,21 +5790,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 16132,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 264665,
         "station": "Rival Monkeys Foundry",
         "demand": 3526,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 264665,
         "station": "King's Mountain View",
         "demand": 2160,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 193186,
@@ -5633,14 +5820,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2233066,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 9064,
         "station": "King's Mountain View",
         "demand": 24446,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 2161,
@@ -5654,16 +5841,16 @@
       {
         "price": 13095,
         "station": "Eon Blue Apocalypse",
-        "demand": 8539710,
+        "demand": 8539712,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 13095,
         "station": "King's Mountain View",
         "demand": 27075,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 12825,
@@ -5679,14 +5866,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 12576447,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 5185,
         "station": "King's Mountain View",
         "demand": 51230,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 950,
@@ -5707,16 +5894,16 @@
       {
         "price": 4901,
         "station": "Eon Blue Apocalypse",
-        "demand": 271553,
+        "demand": 278905,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 4901,
         "station": "King's Mountain View",
-        "demand": 54280,
+        "demand": 55774,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Monazite": [
@@ -5732,21 +5919,21 @@
         "station": "King's Mountain View",
         "demand": 4002,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 716428,
         "station": "Rival Monkeys Foundry",
         "demand": 1690,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
-        "price": 715299,
+        "price": 715395,
         "station": "Eon Blue Apocalypse",
-        "demand": 16262,
+        "demand": 16266,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 199008,
@@ -5769,21 +5956,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 16132,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 388882,
         "station": "Rival Monkeys Foundry",
         "demand": 3526,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 388882,
         "station": "King's Mountain View",
         "demand": 2160,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 194441,
@@ -5797,16 +5984,16 @@
       {
         "price": 2391,
         "station": "King's Mountain View",
-        "demand": 334004,
+        "demand": 338068,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 2324,
+        "price": 2391,
         "station": "Rival Monkeys Foundry",
-        "demand": 6415,
+        "demand": 7390,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Palladium": [
@@ -5815,14 +6002,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 252460,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 59113,
         "station": "King's Mountain View",
         "demand": 29978,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 53814,
@@ -5857,9 +6044,9 @@
       {
         "price": 4901,
         "station": "King's Mountain View",
-        "demand": 1203038,
+        "demand": 1214578,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 4784,
@@ -5880,9 +6067,9 @@
       {
         "price": 3067,
         "station": "Eon Blue Apocalypse",
-        "demand": 4637134,
+        "demand": 4644006,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 3067,
@@ -5894,32 +6081,32 @@
       {
         "price": 3067,
         "station": "Rival Monkeys Foundry",
-        "demand": 536896,
+        "demand": 538063,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 3067,
         "station": "King's Mountain View",
-        "demand": 192643,
+        "demand": 193690,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       }
     ],
     "Reactive Armour": [
       {
         "price": 2652,
         "station": "King's Mountain View",
-        "demand": 908419,
+        "demand": 917593,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
-        "price": 2501,
+        "price": 2520,
         "station": "Rival Monkeys Foundry",
-        "demand": 25925,
+        "demand": 26680,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Resonating Separators": [
@@ -5935,14 +6122,14 @@
         "station": "King's Mountain View",
         "demand": 34204,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 6748,
         "station": "Rival Monkeys Foundry",
         "demand": 226888,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Rhodplumsite": [
@@ -5951,7 +6138,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 16189,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 261411,
@@ -5965,14 +6152,14 @@
         "station": "Rival Monkeys Foundry",
         "demand": 2947,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 261411,
         "station": "King's Mountain View",
         "demand": 2742,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 174274,
@@ -5986,16 +6173,16 @@
       {
         "price": 10066,
         "station": "Eon Blue Apocalypse",
-        "demand": 13573997,
+        "demand": 13574001,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 10066,
         "station": "King's Mountain View",
         "demand": 156163,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 2503,
@@ -6018,21 +6205,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 16132,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 245497,
         "station": "Rival Monkeys Foundry",
         "demand": 3526,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 245497,
         "station": "King's Mountain View",
         "demand": 2160,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 169309,
@@ -6048,7 +6235,7 @@
         "station": "King's Mountain View",
         "demand": 63763,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 40830,
@@ -6083,16 +6270,16 @@
       {
         "price": 3849,
         "station": "Eon Blue Apocalypse",
-        "demand": 17519942,
+        "demand": 17519946,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 3804,
         "station": "King's Mountain View",
         "demand": 30497,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-21T21:34:22Z"
+        "marketUpdated": "2026-09-22T03:34:13Z"
       },
       {
         "price": 3677,
@@ -6113,16 +6300,16 @@
       {
         "price": 1871,
         "station": "Eon Blue Apocalypse",
-        "demand": 870460,
+        "demand": 872702,
         "marketId": 4386105091,
-        "marketUpdated": "2026-09-21T23:58:10Z"
+        "marketUpdated": "2026-09-22T05:14:03Z"
       },
       {
         "price": 1871,
         "station": "Rival Monkeys Foundry",
-        "demand": 214043,
+        "demand": 214423,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       },
       {
         "price": 1871,
@@ -6143,9 +6330,9 @@
       {
         "price": 677,
         "station": "Rival Monkeys Foundry",
-        "demand": 920247,
+        "demand": 920251,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Scrap": [
@@ -6154,7 +6341,7 @@
         "station": "Rival Monkeys Foundry",
         "demand": 532871,
         "marketId": 4388359171,
-        "marketUpdated": "2026-09-21T21:16:58Z"
+        "marketUpdated": "2026-09-22T05:40:27Z"
       }
     ],
     "Onionhead Gamma Strain": [
