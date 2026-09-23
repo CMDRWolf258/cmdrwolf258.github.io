@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-09-23T06:32:27.135686+00:00",
+  "generatedAt": "2026-09-23T12:31:41.258153+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -302,7 +302,7 @@
       "station": "King's Mountain View",
       "demand": 61734,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Hardware Diagnostic Sensor": {
       "price": 7465,
@@ -491,7 +491,7 @@
       "station": "King's Mountain View",
       "demand": 178821,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Mineral Oil": {
       "price": 1211,
@@ -519,7 +519,7 @@
       "station": "King's Mountain View",
       "demand": 4025,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Nanobreakers": {
       "price": 2273,
@@ -785,7 +785,7 @@
       "station": "King's Mountain View",
       "demand": 8697,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Unoccupied Escape Pod": {
       "price": 4118,
@@ -834,42 +834,42 @@
       "station": "King's Mountain View",
       "demand": 31790,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Alexandrite": {
       "price": 212712,
       "station": "King's Mountain View",
       "demand": 2173,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Atmospheric Processors": {
       "price": 899,
       "station": "King's Mountain View",
       "demand": 6889078,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Basic Medicines": {
       "price": 801,
       "station": "King's Mountain View",
       "demand": 1771056,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Bauxite": {
       "price": 4494,
       "station": "King's Mountain View",
       "demand": 17225,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Benitoite": {
       "price": 146687,
       "station": "King's Mountain View",
       "demand": 2173,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Bertrandite": {
       "price": 21304,
@@ -883,56 +883,56 @@
       "station": "King's Mountain View",
       "demand": 791565,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Coltan": {
       "price": 7441,
       "station": "King's Mountain View",
       "demand": 15533,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Food Cartridges": {
       "price": 624,
       "station": "King's Mountain View",
       "demand": 874410,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Gallite": {
       "price": 13479,
       "station": "King's Mountain View",
       "demand": 346257,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Gold": {
       "price": 50903,
       "station": "King's Mountain View",
       "demand": 124798,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Grandidierite": {
       "price": 193186,
       "station": "King's Mountain View",
       "demand": 2173,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Haematite": {
       "price": 4546,
       "station": "King's Mountain View",
       "demand": 17543,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Indite": {
       "price": 13095,
       "station": "King's Mountain View",
       "demand": 19427,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Lepidolite": {
       "price": 5530,
@@ -953,14 +953,14 @@
       "station": "King's Mountain View",
       "demand": 2173,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Non-Lethal Weapons": {
       "price": 2391,
       "station": "King's Mountain View",
       "demand": 238507,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Palladium": {
       "price": 53814,
@@ -974,7 +974,7 @@
       "station": "King's Mountain View",
       "demand": 855664,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Power Generators": {
       "price": 3177,
@@ -988,35 +988,35 @@
       "station": "King's Mountain View",
       "demand": 647639,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Resonating Separators": {
       "price": 6608,
       "station": "King's Mountain View",
       "demand": 18089,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Rhodplumsite": {
       "price": 174274,
       "station": "King's Mountain View",
       "demand": 2759,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Rutile": {
       "price": 5033,
       "station": "King's Mountain View",
       "demand": 109332,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Serendibite": {
       "price": 169309,
       "station": "King's Mountain View",
       "demand": 2173,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Silver": {
       "price": 40830,
@@ -1030,7 +1030,7 @@
       "station": "King's Mountain View",
       "demand": 22245,
       "marketId": 4374964995,
-      "marketUpdated": "2026-09-23T06:15:53Z"
+      "marketUpdated": "2026-09-23T06:34:46Z"
     },
     "Animal Meat": {
       "price": 1871,
@@ -1173,7 +1173,7 @@
         "station": "King's Mountain View",
         "demand": 9379049,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1708,
@@ -1217,7 +1217,7 @@
         "station": "King's Mountain View",
         "demand": 131687,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1563,
@@ -1254,7 +1254,7 @@
         "station": "King's Mountain View",
         "demand": 298919,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 3218,
@@ -1307,7 +1307,7 @@
         "station": "King's Mountain View",
         "demand": 29259,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 3052,
@@ -1330,7 +1330,7 @@
         "station": "King's Mountain View",
         "demand": 426628,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 785,
@@ -1381,7 +1381,7 @@
         "station": "King's Mountain View",
         "demand": 422041,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2268,
@@ -1439,7 +1439,7 @@
         "station": "King's Mountain View",
         "demand": 12520,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7465,
@@ -1527,7 +1527,7 @@
         "station": "King's Mountain View",
         "demand": 711,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 67000,
@@ -1543,7 +1543,7 @@
         "station": "King's Mountain View",
         "demand": 2168623,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7465,
@@ -1617,7 +1617,7 @@
         "station": "King's Mountain View",
         "demand": 31050,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 42116,
@@ -1654,7 +1654,7 @@
         "station": "King's Mountain View",
         "demand": 139756,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1398,
@@ -1677,7 +1677,7 @@
         "station": "King's Mountain View",
         "demand": 147331,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2979,
@@ -1714,7 +1714,7 @@
         "station": "King's Mountain View",
         "demand": 36381,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 632,
@@ -1786,7 +1786,7 @@
         "station": "King's Mountain View",
         "demand": 58260,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 30038,
@@ -1837,7 +1837,7 @@
         "station": "King's Mountain View",
         "demand": 69817,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 6572,
@@ -1881,7 +1881,7 @@
         "station": "King's Mountain View",
         "demand": 253623,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1753,
@@ -1911,7 +1911,7 @@
         "station": "King's Mountain View",
         "demand": 436001,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 617,
@@ -1948,7 +1948,7 @@
         "station": "King's Mountain View",
         "demand": 38618405,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 801,
@@ -2029,7 +2029,7 @@
         "station": "King's Mountain View",
         "demand": 1392385,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 3476,
@@ -2052,7 +2052,7 @@
         "station": "King's Mountain View",
         "demand": 14283874,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1037,
@@ -2103,7 +2103,7 @@
         "station": "King's Mountain View",
         "demand": 1052392,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 959,
@@ -2119,7 +2119,7 @@
         "station": "King's Mountain View",
         "demand": 4258321,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7465,
@@ -2163,7 +2163,7 @@
         "station": "King's Mountain View",
         "demand": 36793,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 967,
@@ -2200,7 +2200,7 @@
         "station": "King's Mountain View",
         "demand": 327932,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2785,
@@ -2230,7 +2230,7 @@
         "station": "King's Mountain View",
         "demand": 250556,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 14170,
@@ -2295,7 +2295,7 @@
         "station": "King's Mountain View",
         "demand": 711,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 34625,
@@ -2346,7 +2346,7 @@
         "station": "King's Mountain View",
         "demand": 711,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 102478,
@@ -2362,7 +2362,7 @@
         "station": "King's Mountain View",
         "demand": 11530466,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1037,
@@ -2427,7 +2427,7 @@
         "station": "King's Mountain View",
         "demand": 22258,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2683,
@@ -2471,7 +2471,7 @@
         "station": "King's Mountain View",
         "demand": 46546,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 3113,
@@ -2515,7 +2515,7 @@
         "station": "King's Mountain View",
         "demand": 37555,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2273,
@@ -2552,7 +2552,7 @@
         "station": "King's Mountain View",
         "demand": 89087,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 785,
@@ -2635,7 +2635,7 @@
         "station": "King's Mountain View",
         "demand": 32753,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 26581,
@@ -2679,7 +2679,7 @@
         "station": "King's Mountain View",
         "demand": 18564,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7437,
@@ -2781,7 +2781,7 @@
         "station": "King's Mountain View",
         "demand": 527598,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 756,
@@ -2811,7 +2811,7 @@
         "station": "King's Mountain View",
         "demand": 61734,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2329,
@@ -2862,7 +2862,7 @@
         "station": "King's Mountain View",
         "demand": 20866,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7465,
@@ -2906,7 +2906,7 @@
         "station": "King's Mountain View",
         "demand": 34668,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2517,
@@ -3052,7 +3052,7 @@
         "station": "King's Mountain View",
         "demand": 10112,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2983,
@@ -3068,7 +3068,7 @@
         "station": "King's Mountain View",
         "demand": 62257,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 24969,
@@ -3112,7 +3112,7 @@
         "station": "King's Mountain View",
         "demand": 43890,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       }
     ],
     "Iridium": [
@@ -3149,7 +3149,7 @@
         "station": "King's Mountain View",
         "demand": 13505,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 242971,
@@ -3186,7 +3186,7 @@
         "station": "King's Mountain View",
         "demand": 96964,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 41615,
@@ -3230,7 +3230,7 @@
         "station": "King's Mountain View",
         "demand": 207979,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 5516,
@@ -3274,7 +3274,7 @@
         "station": "King's Mountain View",
         "demand": 105443,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 9564,
@@ -3362,7 +3362,7 @@
         "station": "King's Mountain View",
         "demand": 14625,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2146,
@@ -3429,7 +3429,7 @@
         "station": "King's Mountain View",
         "demand": 398781,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2271,
@@ -3473,7 +3473,7 @@
         "station": "King's Mountain View",
         "demand": 88433,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 5516,
@@ -3510,7 +3510,7 @@
         "station": "King's Mountain View",
         "demand": 5006,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 159678,
@@ -3582,7 +3582,7 @@
         "station": "King's Mountain View",
         "demand": 711,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 32427,
@@ -3619,7 +3619,7 @@
         "station": "King's Mountain View",
         "demand": 52000,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1708,
@@ -3663,7 +3663,7 @@
         "station": "King's Mountain View",
         "demand": 55367,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 3476,
@@ -3714,7 +3714,7 @@
         "station": "King's Mountain View",
         "demand": 11145,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 194710,
@@ -3779,7 +3779,7 @@
         "station": "King's Mountain View",
         "demand": 40096,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1518,
@@ -3816,7 +3816,7 @@
         "station": "King's Mountain View",
         "demand": 180553,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2391,
@@ -3867,7 +3867,7 @@
         "station": "King's Mountain View",
         "demand": 13456,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 6043,
@@ -3918,7 +3918,7 @@
         "station": "King's Mountain View",
         "demand": 40928,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1787,
@@ -3934,7 +3934,7 @@
         "station": "King's Mountain View",
         "demand": 212620,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1406,
@@ -3978,7 +3978,7 @@
         "station": "King's Mountain View",
         "demand": 178821,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1104,
@@ -4045,7 +4045,7 @@
         "station": "King's Mountain View",
         "demand": 36593,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2391,
@@ -4096,7 +4096,7 @@
         "station": "King's Mountain View",
         "demand": 198582,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 24168,
@@ -4140,7 +4140,7 @@
         "station": "King's Mountain View",
         "demand": 4025,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 398015,
@@ -4205,7 +4205,7 @@
         "station": "King's Mountain View",
         "demand": 62593,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2273,
@@ -4286,7 +4286,7 @@
         "station": "King's Mountain View",
         "demand": 74470,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 5857,
@@ -4330,7 +4330,7 @@
         "station": "King's Mountain View",
         "demand": 1285,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 13964,
@@ -4381,7 +4381,7 @@
         "station": "King's Mountain View",
         "demand": 711,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 26651,
@@ -4432,7 +4432,7 @@
         "station": "King's Mountain View",
         "demand": 74631,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 41006,
@@ -4462,7 +4462,7 @@
         "station": "King's Mountain View",
         "demand": 14944,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 50423,
@@ -4499,7 +4499,7 @@
         "station": "King's Mountain View",
         "demand": 2586889,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7465,
@@ -4571,7 +4571,7 @@
         "station": "King's Mountain View",
         "demand": 711,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 151857,
@@ -4652,7 +4652,7 @@
         "station": "King's Mountain View",
         "demand": 103065,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 55662,
@@ -4689,7 +4689,7 @@
         "station": "King's Mountain View",
         "demand": 1593162,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 619,
@@ -4726,7 +4726,7 @@
         "station": "King's Mountain View",
         "demand": 49111,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1787,
@@ -4791,7 +4791,7 @@
         "station": "King's Mountain View",
         "demand": 61498,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 8445,
@@ -4807,7 +4807,7 @@
         "station": "King's Mountain View",
         "demand": 2240819,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7465,
@@ -4858,7 +4858,7 @@
         "station": "King's Mountain View",
         "demand": 474760,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 13692,
@@ -4923,7 +4923,7 @@
         "station": "King's Mountain View",
         "demand": 711,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 39487,
@@ -4946,7 +4946,7 @@
         "station": "King's Mountain View",
         "demand": 26964,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2162,
@@ -5011,7 +5011,7 @@
         "station": "King's Mountain View",
         "demand": 22720,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2511,
@@ -5062,7 +5062,7 @@
         "station": "King's Mountain View",
         "demand": 711,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 84007,
@@ -5106,7 +5106,7 @@
         "station": "King's Mountain View",
         "demand": 39134,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 35712,
@@ -5164,7 +5164,7 @@
         "station": "King's Mountain View",
         "demand": 711,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 95503,
@@ -5187,7 +5187,7 @@
         "station": "King's Mountain View",
         "demand": 160840,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1434,
@@ -5210,7 +5210,7 @@
         "station": "King's Mountain View",
         "demand": 21509,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 4796,
@@ -5233,7 +5233,7 @@
         "station": "King's Mountain View",
         "demand": 313202,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7412,
@@ -5256,7 +5256,7 @@
         "station": "King's Mountain View",
         "demand": 185020,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 649,
@@ -5272,7 +5272,7 @@
         "station": "King's Mountain View",
         "demand": 1766762,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 732,
@@ -5316,7 +5316,7 @@
         "station": "King's Mountain View",
         "demand": 12520,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7465,
@@ -5367,7 +5367,7 @@
         "station": "King's Mountain View",
         "demand": 96964,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 51267,
@@ -5411,7 +5411,7 @@
         "station": "King's Mountain View",
         "demand": 79282,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 14890,
@@ -5492,7 +5492,7 @@
         "station": "King's Mountain View",
         "demand": 46546,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 3113,
@@ -5522,7 +5522,7 @@
         "station": "King's Mountain View",
         "demand": 205590,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 4406,
@@ -5573,7 +5573,7 @@
         "station": "King's Mountain View",
         "demand": 91482,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 12303,
@@ -5638,7 +5638,7 @@
         "station": "King's Mountain View",
         "demand": 711,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 151857,
@@ -5661,7 +5661,7 @@
         "station": "King's Mountain View",
         "demand": 20412,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 5091,
@@ -5707,7 +5707,7 @@
         "station": "King's Mountain View",
         "demand": 8697,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 57497,
@@ -5723,7 +5723,7 @@
         "station": "King's Mountain View",
         "demand": 204917,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 4118,
@@ -5774,7 +5774,7 @@
         "station": "King's Mountain View",
         "demand": 132650,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7907,
@@ -5825,7 +5825,7 @@
         "station": "King's Mountain View",
         "demand": 4635,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       }
     ],
     "Water": [
@@ -5892,7 +5892,7 @@
         "station": "King's Mountain View",
         "demand": 362892,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 1169,
@@ -5973,7 +5973,7 @@
         "station": "King's Mountain View",
         "demand": 31790,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 3272,
@@ -6010,7 +6010,7 @@
         "station": "King's Mountain View",
         "demand": 2173,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 212712,
@@ -6033,7 +6033,7 @@
         "station": "King's Mountain View",
         "demand": 6889078,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 899,
@@ -6049,7 +6049,7 @@
         "station": "King's Mountain View",
         "demand": 1771056,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 630,
@@ -6072,7 +6072,7 @@
         "station": "King's Mountain View",
         "demand": 17225,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 4004,
@@ -6116,7 +6116,7 @@
         "station": "King's Mountain View",
         "demand": 2173,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 146687,
@@ -6153,7 +6153,7 @@
         "station": "King's Mountain View",
         "demand": 23610,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 21061,
@@ -6169,7 +6169,7 @@
         "station": "King's Mountain View",
         "demand": 791565,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 4878,
@@ -6199,7 +6199,7 @@
         "station": "King's Mountain View",
         "demand": 15533,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 7253,
@@ -6215,7 +6215,7 @@
         "station": "King's Mountain View",
         "demand": 874410,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       }
     ],
     "Gallite": [
@@ -6231,7 +6231,7 @@
         "station": "King's Mountain View",
         "demand": 346257,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 13479,
@@ -6254,7 +6254,7 @@
         "station": "King's Mountain View",
         "demand": 124798,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 50885,
@@ -6291,7 +6291,7 @@
         "station": "King's Mountain View",
         "demand": 2173,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 193186,
@@ -6328,7 +6328,7 @@
         "station": "King's Mountain View",
         "demand": 17543,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2161,
@@ -6351,7 +6351,7 @@
         "station": "King's Mountain View",
         "demand": 19427,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 12825,
@@ -6388,7 +6388,7 @@
         "station": "King's Mountain View",
         "demand": 38424,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 950,
@@ -6418,7 +6418,7 @@
         "station": "King's Mountain View",
         "demand": 40031,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 4748,
@@ -6455,7 +6455,7 @@
         "station": "King's Mountain View",
         "demand": 2173,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 194441,
@@ -6478,7 +6478,7 @@
         "station": "King's Mountain View",
         "demand": 238507,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2391,
@@ -6522,7 +6522,7 @@
         "station": "King's Mountain View",
         "demand": 206993,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 53739,
@@ -6545,7 +6545,7 @@
         "station": "King's Mountain View",
         "demand": 855664,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 4862,
@@ -6596,7 +6596,7 @@
         "station": "King's Mountain View",
         "demand": 132087,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 3067,
@@ -6612,7 +6612,7 @@
         "station": "King's Mountain View",
         "demand": 647639,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 2591,
@@ -6642,7 +6642,7 @@
         "station": "King's Mountain View",
         "demand": 18089,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 6589,
@@ -6693,7 +6693,7 @@
         "station": "King's Mountain View",
         "demand": 2759,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 174274,
@@ -6716,7 +6716,7 @@
         "station": "King's Mountain View",
         "demand": 109332,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 4927,
@@ -6760,7 +6760,7 @@
         "station": "King's Mountain View",
         "demand": 2173,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 169309,
@@ -6804,7 +6804,7 @@
         "station": "King's Mountain View",
         "demand": 440459,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 40699,
@@ -6827,7 +6827,7 @@
         "station": "King's Mountain View",
         "demand": 22245,
         "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T06:15:53Z"
+        "marketUpdated": "2026-09-23T06:34:46Z"
       },
       {
         "price": 3677,
