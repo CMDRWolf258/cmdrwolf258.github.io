@@ -1,10 +1,10 @@
 {
-  "population": 3629453045,
+  "population": 3672641866,
   "controllingFaction": "Regiment of Imperial Mongrels",
   "factions": [
     {
       "name": "Regiment of Imperial Mongrels",
-      "influence": 0.713421,
+      "influence": 0.707366,
       "state": "Expansion",
       "allegiance": "Empire",
       "government": "Dictatorship",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Perez Ring Brewery",
-      "influence": 0.129162,
+      "influence": 0.125126,
       "state": "None",
       "allegiance": "Alliance",
       "government": "Corporate",
@@ -22,7 +22,7 @@
     },
     {
       "name": "The Consortium",
-      "influence": 0.093845,
+      "influence": 0.103935,
       "state": "None",
       "allegiance": "Independent",
       "government": "Anarchy",
@@ -39,5 +39,5 @@
       "controlling": false
     }
   ],
-  "lastUpdated": "2026-09-23T00:31:02.060459+00:00"
+  "lastUpdated": "2026-09-23T06:32:27.142171+00:00"
 }
