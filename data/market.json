@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-09-23T18:29:36.097298+00:00",
+  "generatedAt": "2026-09-24T00:33:56.243973+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -18,25 +18,25 @@
       "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Agronomic Treatment": {
-      "price": 3396,
+      "price": 3395,
       "station": "Saturn Ascending",
-      "demand": 2111,
+      "demand": 2119,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Algae": {
       "price": 620,
       "station": "Saturn Ascending",
-      "demand": 861673,
+      "demand": 865794,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Aluminium": {
       "price": 3144,
       "station": "Saturn Ascending",
-      "demand": 307939,
+      "demand": 309411,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Animal Monitors": {
       "price": 849,
@@ -55,30 +55,30 @@
     "Articulation Motors": {
       "price": 7465,
       "station": "Saturn Ascending",
-      "demand": 3142,
+      "demand": 3157,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Auto-Fabricators": {
       "price": 4362,
       "station": "Saturn Ascending",
-      "demand": 66716,
+      "demand": 67035,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Bastnasite": {
       "price": 107200,
       "station": "Saturn Ascending",
-      "demand": 2141,
+      "demand": 2151,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Battle Weapons": {
       "price": 7465,
       "station": "Saturn Ascending",
-      "demand": 79229,
+      "demand": 79607,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Beer": {
       "price": 692,
@@ -90,65 +90,58 @@
     "Beryllium": {
       "price": 42175,
       "station": "Saturn Ascending",
-      "demand": 171384,
+      "demand": 172202,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Bioreducing Lichen": {
       "price": 1498,
       "station": "Saturn Ascending",
-      "demand": 1087387,
+      "demand": 1092583,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Bismuth": {
       "price": 2979,
       "station": "Saturn Ascending",
-      "demand": 58949,
+      "demand": 59231,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
-    },
-    "Black Box": {
-      "price": 31082,
-      "station": "Saturn Ascending",
-      "demand": 8414,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Bootleg Liquor": {
       "price": 632,
       "station": "Saturn Ascending",
-      "demand": 3737,
+      "demand": 3757,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Bromellite": {
       "price": 30038,
       "station": "Saturn Ascending",
-      "demand": 38978,
+      "demand": 39164,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "CMM Composite": {
       "price": 6608,
       "station": "Saturn Ascending",
-      "demand": 107512,
+      "demand": 108025,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Ceramic Composites": {
       "price": 1753,
       "station": "Saturn Ascending",
-      "demand": 2643560,
+      "demand": 2656189,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Chemical Waste": {
       "price": 617,
       "station": "Saturn Ascending",
-      "demand": 6566,
+      "demand": 6598,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Clothing": {
       "price": 866,
@@ -160,44 +153,44 @@
     "Coffee": {
       "price": 1871,
       "station": "Saturn Ascending",
-      "demand": 41233,
+      "demand": 41429,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Combat Stabilisers": {
       "price": 3476,
       "station": "Saturn Ascending",
-      "demand": 51955,
+      "demand": 52201,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Computer Components": {
       "price": 1037,
       "station": "Saturn Ascending",
-      "demand": 146787,
+      "demand": 147489,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Conductive Fabrics": {
       "price": 1093,
       "station": "Saturn Ascending",
-      "demand": 1600081,
+      "demand": 1607723,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Consumer Technology": {
       "price": 7465,
       "station": "Saturn Ascending",
-      "demand": 84967,
+      "demand": 85377,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Copper": {
       "price": 1035,
       "station": "Saturn Ascending",
-      "demand": 1409237,
+      "demand": 1415969,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Crop Harvesters": {
       "price": 2899,
@@ -209,86 +202,79 @@
     "Cryolite": {
       "price": 14170,
       "station": "Saturn Ascending",
-      "demand": 217676,
+      "demand": 218716,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
-    },
-    "Damaged Escape Pod": {
-      "price": 16932,
-      "station": "Saturn Ascending",
-      "demand": 8586,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Deuterium": {
       "price": 55400,
       "station": "Saturn Ascending",
-      "demand": 2141,
+      "demand": 2151,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Diamond": {
       "price": 163965,
       "station": "Saturn Ascending",
-      "demand": 2141,
+      "demand": 2151,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Domestic Appliances": {
       "price": 1037,
       "station": "Saturn Ascending",
-      "demand": 136228,
+      "demand": 136881,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Emergency Power Cells": {
       "price": 2796,
       "station": "Saturn Ascending",
-      "demand": 83110,
+      "demand": 83507,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Energy Grid Assembly": {
       "price": 3113,
       "station": "Saturn Ascending",
-      "demand": 56051,
+      "demand": 56320,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Exhaust Manifold": {
       "price": 2273,
       "station": "Saturn Ascending",
-      "demand": 9424,
+      "demand": 9468,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Explosives": {
       "price": 1169,
       "station": "Saturn Ascending",
-      "demand": 708406,
+      "demand": 711792,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Fish": {
       "price": 899,
       "station": "Saturn Ascending",
-      "demand": 404666,
+      "demand": 406599,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Fruit and Vegetables": {
       "price": 801,
       "station": "Saturn Ascending",
-      "demand": 139778,
+      "demand": 140443,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Gallium": {
       "price": 26651,
       "station": "Saturn Ascending",
-      "demand": 115576,
+      "demand": 116128,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Goslarite": {
       "price": 7513,
@@ -321,72 +307,65 @@
     "Hardware Diagnostic Sensor": {
       "price": 7465,
       "station": "Saturn Ascending",
-      "demand": 33503,
+      "demand": 33664,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Heatsink Interlink": {
       "price": 2517,
       "station": "Saturn Ascending",
-      "demand": 8698,
+      "demand": 8740,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Helium": {
       "price": 131449,
       "station": "Saturn Ascending",
-      "demand": 555,
+      "demand": 557,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Helium-3": {
       "price": 123012,
       "station": "Saturn Ascending",
-      "demand": 555,
+      "demand": 557,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
-    },
-    "Hostages": {
-      "price": 34625,
-      "station": "Saturn Ascending",
-      "demand": 7258,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Hydrogen Peroxide": {
       "price": 2983,
       "station": "Saturn Ascending",
-      "demand": 592947,
+      "demand": 595781,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Indium": {
       "price": 24969,
       "station": "Saturn Ascending",
-      "demand": 61737,
+      "demand": 62030,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Insulating Membrane": {
       "price": 11549,
       "station": "Saturn Ascending",
-      "demand": 66431,
+      "demand": 66747,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Iridium": {
       "price": 242971,
       "station": "Saturn Ascending",
-      "demand": 40658,
+      "demand": 40852,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Jadeite": {
       "price": 41615,
       "station": "Saturn Ascending",
-      "demand": 35233,
+      "demand": 35401,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Land Enrichment Systems": {
       "price": 5652,
@@ -398,16 +377,16 @@
     "Lanthanum": {
       "price": 9564,
       "station": "Saturn Ascending",
-      "demand": 70546,
+      "demand": 70882,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Leather": {
       "price": 652,
       "station": "Saturn Ascending",
-      "demand": 933695,
+      "demand": 938155,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Liquid oxygen": {
       "price": 2227,
@@ -419,58 +398,58 @@
     "Liquor": {
       "price": 1145,
       "station": "Saturn Ascending",
-      "demand": 30888,
+      "demand": 31035,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Lithium": {
       "price": 2296,
       "station": "Saturn Ascending",
-      "demand": 1211490,
+      "demand": 1217278,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Lithium Hydroxide": {
       "price": 5516,
       "station": "Saturn Ascending",
-      "demand": 70065,
+      "demand": 70400,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Low Temperature Diamonds": {
       "price": 159678,
       "station": "Saturn Ascending",
-      "demand": 1865,
+      "demand": 1873,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Magnesite": {
       "price": 51883,
       "station": "Saturn Ascending",
-      "demand": 2141,
+      "demand": 2151,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Magnetic Emitter Coil": {
       "price": 1708,
       "station": "Saturn Ascending",
-      "demand": 13047,
+      "demand": 13110,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Medical Diagnostic Equipment": {
       "price": 3476,
       "station": "Saturn Ascending",
-      "demand": 120844,
+      "demand": 121421,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Meta-Alloys": {
       "price": 194710,
       "station": "Saturn Ascending",
-      "demand": 14221,
+      "demand": 14289,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Methane Clathrate": {
       "price": 1547,
@@ -482,30 +461,30 @@
     "Methanol Monohydrate Crystals": {
       "price": 2391,
       "station": "Saturn Ascending",
-      "demand": 120796,
+      "demand": 121373,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Micro Controllers": {
       "price": 6220,
       "station": "Saturn Ascending",
-      "demand": 57616,
+      "demand": 57892,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Micro-weave Cooling Hoses": {
       "price": 1787,
       "station": "Saturn Ascending",
-      "demand": 299816,
+      "demand": 301250,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Military Grade Fabrics": {
       "price": 1406,
       "station": "Saturn Ascending",
-      "demand": 92532,
+      "demand": 92973,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Mineral Extractors": {
       "price": 1106,
@@ -517,16 +496,16 @@
     "Mineral Oil": {
       "price": 1211,
       "station": "Saturn Ascending",
-      "demand": 186233,
+      "demand": 187125,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Modular Terminals": {
       "price": 2391,
       "station": "Saturn Ascending",
-      "demand": 9181,
+      "demand": 9226,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Moissanite": {
       "price": 24289,
@@ -545,79 +524,65 @@
     "Nanobreakers": {
       "price": 2273,
       "station": "Saturn Ascending",
-      "demand": 100505,
+      "demand": 100986,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Natural Fabrics": {
       "price": 1159,
       "station": "Saturn Ascending",
-      "demand": 7243346,
+      "demand": 7277947,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Neofabric Insulation": {
       "price": 5857,
       "station": "Saturn Ascending",
-      "demand": 59595,
+      "demand": 59879,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Nerve Agents": {
       "price": 13972,
       "station": "Saturn Ascending",
-      "demand": 4510,
+      "demand": 4533,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
-    },
-    "Occupied Escape Pod": {
-      "price": 30371,
-      "station": "Saturn Ascending",
-      "demand": 8414,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Olivine": {
       "price": 42641,
       "station": "Saturn Ascending",
-      "demand": 2141,
+      "demand": 2151,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Osmium": {
       "price": 41006,
       "station": "Saturn Ascending",
-      "demand": 242721,
+      "demand": 243880,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Painite": {
       "price": 50423,
       "station": "Saturn Ascending",
-      "demand": 4426,
+      "demand": 4449,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Performance Enhancers": {
       "price": 7465,
       "station": "Saturn Ascending",
-      "demand": 85319,
+      "demand": 85725,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Periclase Dunite": {
       "price": 242971,
       "station": "Saturn Ascending",
-      "demand": 2141,
+      "demand": 2151,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
-    },
-    "Personal Effects": {
-      "price": 9564,
-      "station": "Saturn Ascending",
-      "demand": 8414,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Pesticides": {
       "price": 820,
@@ -636,184 +601,184 @@
     "Polymers": {
       "price": 1099,
       "station": "Saturn Ascending",
-      "demand": 4414325,
+      "demand": 4435414,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Power Converter": {
       "price": 1787,
       "station": "Saturn Ascending",
-      "demand": 12322,
+      "demand": 12382,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Praseodymium": {
       "price": 8445,
       "station": "Saturn Ascending",
-      "demand": 185142,
+      "demand": 186026,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Progenitor Cells": {
       "price": 7465,
       "station": "Saturn Ascending",
-      "demand": 29062,
+      "demand": 29202,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Pyrophyllite": {
       "price": 13692,
       "station": "Saturn Ascending",
-      "demand": 398065,
+      "demand": 399965,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Quartz Pyroxenite": {
       "price": 63180,
       "station": "Saturn Ascending",
-      "demand": 2141,
+      "demand": 2151,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Radiation Baffle": {
       "price": 2162,
       "station": "Saturn Ascending",
-      "demand": 71029,
+      "demand": 71369,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Robotics": {
       "price": 2511,
       "station": "Saturn Ascending",
-      "demand": 329907,
+      "demand": 331481,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Ruby": {
       "price": 134411,
       "station": "Saturn Ascending",
-      "demand": 2141,
+      "demand": 2151,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Samarium": {
       "price": 35712,
       "station": "Saturn Ascending",
-      "demand": 117820,
+      "demand": 118381,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Sapphire": {
       "price": 152805,
       "station": "Saturn Ascending",
-      "demand": 2141,
+      "demand": 2151,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Semiconductors": {
       "price": 1595,
       "station": "Saturn Ascending",
-      "demand": 545550,
+      "demand": 548157,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Steel": {
       "price": 4950,
       "station": "Saturn Ascending",
-      "demand": 250061,
+      "demand": 251257,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Superconductors": {
       "price": 7540,
       "station": "Saturn Ascending",
-      "demand": 473700,
+      "demand": 475962,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Synthetic Fabrics": {
       "price": 1279,
       "station": "Saturn Ascending",
-      "demand": 3725291,
+      "demand": 3743089,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Synthetic Meat": {
       "price": 732,
       "station": "Saturn Ascending",
-      "demand": 83620,
+      "demand": 84019,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Synthetic Reagents": {
       "price": 7465,
       "station": "Saturn Ascending",
-      "demand": 7734,
+      "demand": 7769,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Taaffeite": {
       "price": 51267,
       "station": "Saturn Ascending",
-      "demand": 35233,
+      "demand": 35401,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Tantalum": {
       "price": 14894,
       "station": "Saturn Ascending",
-      "demand": 149755,
+      "demand": 150471,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Tea": {
       "price": 2059,
       "station": "Saturn Ascending",
-      "demand": 92012,
+      "demand": 92456,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Telemetry Suite": {
       "price": 3113,
       "station": "Saturn Ascending",
-      "demand": 74737,
+      "demand": 75091,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Thallium": {
       "price": 4406,
       "station": "Saturn Ascending",
-      "demand": 68613,
+      "demand": 68942,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Thorium": {
       "price": 12303,
       "station": "Saturn Ascending",
-      "demand": 97927,
+      "demand": 98394,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Thortveitite": {
       "price": 242971,
       "station": "Saturn Ascending",
-      "demand": 2141,
+      "demand": 2151,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Titanium": {
       "price": 5251,
       "station": "Saturn Ascending",
-      "demand": 237084,
+      "demand": 238217,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Tobacco": {
       "price": 5516,
       "station": "Saturn Ascending",
-      "demand": 55655,
+      "demand": 55920,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Tritium": {
       "price": 57506,
@@ -825,23 +790,23 @@
     "Unoccupied Escape Pod": {
       "price": 4118,
       "station": "Saturn Ascending",
-      "demand": 3682,
+      "demand": 3699,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Uranium": {
       "price": 7939,
       "station": "Saturn Ascending",
-      "demand": 454205,
+      "demand": 456376,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Void Opal": {
       "price": 134844,
       "station": "Saturn Ascending",
-      "demand": 667,
+      "demand": 670,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Water": {
       "price": 655,
@@ -860,16 +825,9 @@
     "Wine": {
       "price": 732,
       "station": "Saturn Ascending",
-      "demand": 613579,
+      "demand": 616513,
       "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
-    },
-    "Wreckage Components": {
-      "price": 8986,
-      "station": "Saturn Ascending",
-      "demand": 13772,
-      "marketId": 4374632451,
-      "marketUpdated": "2026-09-23T15:23:06Z"
+      "marketUpdated": "2026-09-23T23:03:03Z"
     },
     "Advanced Catalysers": {
       "price": 3476,
@@ -920,6 +878,13 @@
       "marketId": 4386105091,
       "marketUpdated": "2026-09-22T21:37:32Z"
     },
+    "Black Box": {
+      "price": 31082,
+      "station": "King's Mountain View",
+      "demand": 12013,
+      "marketId": 4374964995,
+      "marketUpdated": "2026-09-23T15:32:20Z"
+    },
     "Cobalt": {
       "price": 7382,
       "station": "King's Mountain View",
@@ -931,6 +896,13 @@
       "price": 7441,
       "station": "King's Mountain View",
       "demand": 15533,
+      "marketId": 4374964995,
+      "marketUpdated": "2026-09-23T15:32:20Z"
+    },
+    "Damaged Escape Pod": {
+      "price": 16932,
+      "station": "King's Mountain View",
+      "demand": 6224,
       "marketId": 4374964995,
       "marketUpdated": "2026-09-23T15:32:20Z"
     },
@@ -969,6 +941,13 @@
       "marketId": 4374964995,
       "marketUpdated": "2026-09-23T15:32:20Z"
     },
+    "Hostages": {
+      "price": 34625,
+      "station": "King's Mountain View",
+      "demand": 6606,
+      "marketId": 4374964995,
+      "marketUpdated": "2026-09-23T15:32:20Z"
+    },
     "Indite": {
       "price": 13095,
       "station": "King's Mountain View",
@@ -1004,12 +983,26 @@
       "marketId": 4374964995,
       "marketUpdated": "2026-09-23T15:32:20Z"
     },
+    "Occupied Escape Pod": {
+      "price": 30371,
+      "station": "King's Mountain View",
+      "demand": 12013,
+      "marketId": 4374964995,
+      "marketUpdated": "2026-09-23T15:32:20Z"
+    },
     "Palladium": {
       "price": 53814,
       "station": "Huntley Tourism Lodge",
       "demand": 825,
       "marketId": 4381919491,
       "marketUpdated": "2026-08-11T22:34:20Z"
+    },
+    "Personal Effects": {
+      "price": 9564,
+      "station": "King's Mountain View",
+      "demand": 12013,
+      "marketId": 4374964995,
+      "marketUpdated": "2026-09-23T15:32:20Z"
     },
     "Personal Weapons": {
       "price": 4901,
@@ -1074,6 +1067,13 @@
       "marketId": 4374964995,
       "marketUpdated": "2026-09-23T15:32:20Z"
     },
+    "Wreckage Components": {
+      "price": 8986,
+      "station": "King's Mountain View",
+      "demand": 5451,
+      "marketId": 4374964995,
+      "marketUpdated": "2026-09-23T15:32:20Z"
+    },
     "Animal Meat": {
       "price": 1871,
       "station": "Eon Blue Apocalypse",
@@ -1098,9 +1098,9 @@
     "Onionhead Gamma Strain": {
       "price": 5514,
       "station": "Romano Territories",
-      "demand": 633,
+      "demand": 630,
       "marketId": 4374917123,
-      "marketUpdated": "2026-09-22T20:40:15Z"
+      "marketUpdated": "2026-09-23T22:13:57Z"
     },
     "Surface Stabilisers": {
       "price": 1302,
@@ -1192,16 +1192,16 @@
       {
         "price": 1708,
         "station": "Saturn Ascending",
-        "demand": 160956,
+        "demand": 161725,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1708,
         "station": "Arkwright Vista",
-        "demand": 21350,
+        "demand": 21768,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Agri-Medicines": [
@@ -1222,9 +1222,9 @@
       {
         "price": 1563,
         "station": "Saturn Ascending",
-        "demand": 50126,
+        "demand": 50366,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1563,
@@ -1243,18 +1243,18 @@
       {
         "price": 1459,
         "station": "Arkwright Vista",
-        "demand": 10349,
+        "demand": 11470,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Agronomic Treatment": [
       {
-        "price": 3396,
+        "price": 3395,
         "station": "Saturn Ascending",
-        "demand": 2111,
+        "demand": 2119,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 3228,
@@ -1296,18 +1296,18 @@
       {
         "price": 620,
         "station": "Saturn Ascending",
-        "demand": 861673,
+        "demand": 865794,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       }
     ],
     "Aluminium": [
       {
         "price": 3144,
         "station": "Saturn Ascending",
-        "demand": 307939,
+        "demand": 309411,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 3144,
@@ -1342,9 +1342,9 @@
       {
         "price": 785,
         "station": "Saturn Ascending",
-        "demand": 411030,
+        "demand": 412993,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 785,
@@ -1363,9 +1363,9 @@
       {
         "price": 692,
         "station": "Arkwright Vista",
-        "demand": 76056,
+        "demand": 84711,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Aquaponic Systems": [
@@ -1393,9 +1393,9 @@
       {
         "price": 2268,
         "station": "Saturn Ascending",
-        "demand": 186786,
+        "demand": 187677,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2268,
@@ -1405,11 +1405,11 @@
         "marketUpdated": "2026-09-23T15:27:21Z"
       },
       {
-        "price": 1989,
+        "price": 1990,
         "station": "Arkwright Vista",
-        "demand": 84321,
+        "demand": 93917,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 799,
@@ -1451,9 +1451,9 @@
       {
         "price": 7465,
         "station": "Saturn Ascending",
-        "demand": 3142,
+        "demand": 3157,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 7465,
@@ -1465,9 +1465,9 @@
       {
         "price": 7465,
         "station": "Arkwright Vista",
-        "demand": 1035,
+        "demand": 1038,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Auto-Fabricators": [
@@ -1488,9 +1488,9 @@
       {
         "price": 4362,
         "station": "Saturn Ascending",
-        "demand": 66716,
+        "demand": 67035,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       }
     ],
     "Bastnasite": [
@@ -1518,16 +1518,16 @@
       {
         "price": 107200,
         "station": "Arkwright Vista",
-        "demand": 10553,
+        "demand": 10602,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 107200,
         "station": "Saturn Ascending",
-        "demand": 2141,
+        "demand": 2151,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 107200,
@@ -1555,9 +1555,9 @@
       {
         "price": 7465,
         "station": "Saturn Ascending",
-        "demand": 79229,
+        "demand": 79607,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 7465,
@@ -1599,9 +1599,9 @@
       {
         "price": 652,
         "station": "Saturn Ascending",
-        "demand": 621412,
+        "demand": 624380,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 652,
@@ -1615,9 +1615,9 @@
       {
         "price": 42175,
         "station": "Saturn Ascending",
-        "demand": 171384,
+        "demand": 172202,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 42175,
@@ -1645,9 +1645,9 @@
       {
         "price": 1498,
         "station": "Saturn Ascending",
-        "demand": 1087387,
+        "demand": 1092583,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1498,
@@ -1666,9 +1666,9 @@
       {
         "price": 1398,
         "station": "Arkwright Vista",
-        "demand": 40016,
+        "demand": 40201,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Bismuth": [
@@ -1696,9 +1696,9 @@
       {
         "price": 2979,
         "station": "Saturn Ascending",
-        "demand": 58949,
+        "demand": 59231,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2924,
@@ -1710,53 +1710,9 @@
       {
         "price": 2864,
         "station": "Arkwright Vista",
-        "demand": 43907,
+        "demand": 44111,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
-      }
-    ],
-    "Black Box": [
-      {
-        "price": 31082,
-        "station": "Gao Base",
-        "demand": 17667,
-        "marketId": 4375494403,
-        "marketUpdated": "2026-09-23T17:08:47Z"
-      },
-      {
-        "price": 31082,
-        "station": "King's Mountain View",
-        "demand": 12013,
-        "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T15:32:20Z"
-      },
-      {
-        "price": 31082,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 8490,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-23T17:24:47Z"
-      },
-      {
-        "price": 31082,
-        "station": "Saturn Ascending",
-        "demand": 8414,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
-      },
-      {
-        "price": 31082,
-        "station": "Rival Monkeys Foundry",
-        "demand": 3149,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-23T15:27:21Z"
-      },
-      {
-        "price": 31082,
-        "station": "Arkwright Vista",
-        "demand": 915,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Bootleg Liquor": [
@@ -1791,16 +1747,16 @@
       {
         "price": 632,
         "station": "Saturn Ascending",
-        "demand": 3737,
+        "demand": 3757,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 632,
         "station": "Arkwright Vista",
-        "demand": 642,
+        "demand": 644,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 632,
@@ -1842,9 +1798,9 @@
       {
         "price": 30038,
         "station": "Saturn Ascending",
-        "demand": 38978,
+        "demand": 39164,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 30038,
@@ -1856,9 +1812,9 @@
       {
         "price": 30038,
         "station": "Arkwright Vista",
-        "demand": 12816,
+        "demand": 12875,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "CMM Composite": [
@@ -1872,9 +1828,9 @@
       {
         "price": 6608,
         "station": "Saturn Ascending",
-        "demand": 107512,
+        "demand": 108025,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 6608,
@@ -1900,9 +1856,9 @@
       {
         "price": 6466,
         "station": "Arkwright Vista",
-        "demand": 5391,
+        "demand": 5415,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Ceramic Composites": [
@@ -1916,9 +1872,9 @@
       {
         "price": 1753,
         "station": "Saturn Ascending",
-        "demand": 2643560,
+        "demand": 2656189,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1753,
@@ -1937,9 +1893,9 @@
       {
         "price": 1753,
         "station": "Arkwright Vista",
-        "demand": 72168,
+        "demand": 72501,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 662,
@@ -1974,16 +1930,16 @@
       {
         "price": 617,
         "station": "Arkwright Vista",
-        "demand": 32368,
+        "demand": 32517,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 617,
         "station": "Saturn Ascending",
-        "demand": 6566,
+        "demand": 6598,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       }
     ],
     "Clothing": [
@@ -2018,9 +1974,9 @@
       {
         "price": 801,
         "station": "Saturn Ascending",
-        "demand": 504510,
+        "demand": 506921,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 801,
@@ -2032,9 +1988,9 @@
       {
         "price": 801,
         "station": "Arkwright Vista",
-        "demand": 76623,
+        "demand": 78138,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Coffee": [
@@ -2048,9 +2004,9 @@
       {
         "price": 1871,
         "station": "Saturn Ascending",
-        "demand": 41233,
+        "demand": 41429,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1871,
@@ -2085,16 +2041,16 @@
       {
         "price": 3476,
         "station": "Saturn Ascending",
-        "demand": 51955,
+        "demand": 52201,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 3243,
         "station": "Arkwright Vista",
-        "demand": 1227,
+        "demand": 1235,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Computer Components": [
@@ -2115,9 +2071,9 @@
       {
         "price": 1037,
         "station": "Saturn Ascending",
-        "demand": 146787,
+        "demand": 147489,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1037,
@@ -2129,9 +2085,9 @@
       {
         "price": 1037,
         "station": "Arkwright Vista",
-        "demand": 32671,
+        "demand": 32823,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 1026,
@@ -2145,9 +2101,9 @@
       {
         "price": 1093,
         "station": "Saturn Ascending",
-        "demand": 1600081,
+        "demand": 1607723,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1093,
@@ -2182,9 +2138,9 @@
       {
         "price": 7465,
         "station": "Saturn Ascending",
-        "demand": 84967,
+        "demand": 85377,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 7465,
@@ -2194,20 +2150,20 @@
         "marketUpdated": "2026-09-23T15:27:21Z"
       },
       {
-        "price": 7206,
+        "price": 7207,
         "station": "Arkwright Vista",
-        "demand": 6520,
+        "demand": 6661,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Copper": [
       {
         "price": 1035,
         "station": "Saturn Ascending",
-        "demand": 1409237,
+        "demand": 1415969,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1035,
@@ -2256,9 +2212,9 @@
       {
         "price": 2785,
         "station": "Saturn Ascending",
-        "demand": 130376,
+        "demand": 130997,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       }
     ],
     "Cryolite": [
@@ -2286,16 +2242,16 @@
       {
         "price": 14170,
         "station": "Saturn Ascending",
-        "demand": 217676,
+        "demand": 218716,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 14170,
         "station": "Arkwright Vista",
-        "demand": 93060,
+        "demand": 93491,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 14117,
@@ -2303,50 +2259,6 @@
         "demand": 1504973,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-23T17:24:47Z"
-      }
-    ],
-    "Damaged Escape Pod": [
-      {
-        "price": 16932,
-        "station": "Gao Base",
-        "demand": 18485,
-        "marketId": 4375494403,
-        "marketUpdated": "2026-09-23T17:08:47Z"
-      },
-      {
-        "price": 16932,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 9898,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-23T17:24:47Z"
-      },
-      {
-        "price": 16932,
-        "station": "Saturn Ascending",
-        "demand": 8586,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
-      },
-      {
-        "price": 16932,
-        "station": "King's Mountain View",
-        "demand": 6224,
-        "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T15:32:20Z"
-      },
-      {
-        "price": 16932,
-        "station": "Rival Monkeys Foundry",
-        "demand": 3752,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-23T15:27:21Z"
-      },
-      {
-        "price": 16932,
-        "station": "Arkwright Vista",
-        "demand": 615,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
       }
     ],
     "Deuterium": [
@@ -2374,16 +2286,16 @@
       {
         "price": 55400,
         "station": "Arkwright Vista",
-        "demand": 10553,
+        "demand": 10602,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 55400,
         "station": "Saturn Ascending",
-        "demand": 2141,
+        "demand": 2151,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 55400,
@@ -2425,16 +2337,16 @@
       {
         "price": 163965,
         "station": "Arkwright Vista",
-        "demand": 10553,
+        "demand": 10602,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 163965,
         "station": "Saturn Ascending",
-        "demand": 2141,
+        "demand": 2151,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 163965,
@@ -2476,9 +2388,9 @@
       {
         "price": 1037,
         "station": "Saturn Ascending",
-        "demand": 136228,
+        "demand": 136881,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1028,
@@ -2490,18 +2402,18 @@
       {
         "price": 892,
         "station": "Arkwright Vista",
-        "demand": 15338,
+        "demand": 15646,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Emergency Power Cells": [
       {
         "price": 2796,
         "station": "Saturn Ascending",
-        "demand": 83110,
+        "demand": 83507,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2796,
@@ -2525,11 +2437,11 @@
         "marketUpdated": "2026-09-23T15:32:20Z"
       },
       {
-        "price": 2683,
+        "price": 2684,
         "station": "Arkwright Vista",
-        "demand": 1296,
+        "demand": 1301,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Energy Grid Assembly": [
@@ -2543,9 +2455,9 @@
       {
         "price": 3113,
         "station": "Saturn Ascending",
-        "demand": 56051,
+        "demand": 56320,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 3113,
@@ -2578,9 +2490,9 @@
       {
         "price": 3113,
         "station": "Arkwright Vista",
-        "demand": 3459,
+        "demand": 3475,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Exhaust Manifold": [
@@ -2615,9 +2527,9 @@
       {
         "price": 2273,
         "station": "Saturn Ascending",
-        "demand": 9424,
+        "demand": 9468,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2273,
@@ -2629,18 +2541,18 @@
       {
         "price": 2273,
         "station": "Arkwright Vista",
-        "demand": 3100,
+        "demand": 3114,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Explosives": [
       {
         "price": 1169,
         "station": "Saturn Ascending",
-        "demand": 708406,
+        "demand": 711792,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1169,
@@ -2652,9 +2564,9 @@
       {
         "price": 785,
         "station": "Romano Territories",
-        "demand": 1077,
+        "demand": 1072,
         "marketId": 4374917123,
-        "marketUpdated": "2026-09-22T20:40:15Z"
+        "marketUpdated": "2026-09-23T22:13:57Z"
       }
     ],
     "Fish": [
@@ -2682,9 +2594,9 @@
       {
         "price": 899,
         "station": "Saturn Ascending",
-        "demand": 404666,
+        "demand": 406599,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 899,
@@ -2705,9 +2617,9 @@
       {
         "price": 801,
         "station": "Saturn Ascending",
-        "demand": 139778,
+        "demand": 140443,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 801,
@@ -2721,9 +2633,9 @@
       {
         "price": 26651,
         "station": "Saturn Ascending",
-        "demand": 115576,
+        "demand": 116128,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 26651,
@@ -2765,9 +2677,9 @@
       {
         "price": 7437,
         "station": "Arkwright Vista",
-        "demand": 275603,
+        "demand": 276880,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 7437,
@@ -2779,9 +2691,9 @@
       {
         "price": 7437,
         "station": "Saturn Ascending",
-        "demand": 16751,
+        "demand": 16832,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 6961,
@@ -2809,9 +2721,9 @@
       {
         "price": 684,
         "station": "Saturn Ascending",
-        "demand": 972642,
+        "demand": 977291,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 684,
@@ -2860,9 +2772,9 @@
       {
         "price": 756,
         "station": "Saturn Ascending",
-        "demand": 2426272,
+        "demand": 2437866,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 756,
@@ -2881,16 +2793,16 @@
       {
         "price": 756,
         "station": "Arkwright Vista",
-        "demand": 215198,
+        "demand": 216194,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 756,
         "station": "Romano Territories",
-        "demand": 1194,
+        "demand": 1188,
         "marketId": 4374917123,
-        "marketUpdated": "2026-09-22T20:40:15Z"
+        "marketUpdated": "2026-09-23T22:13:57Z"
       }
     ],
     "HN Shock Mount": [
@@ -2911,16 +2823,16 @@
       {
         "price": 2329,
         "station": "Saturn Ascending",
-        "demand": 112273,
+        "demand": 112811,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2267,
         "station": "Arkwright Vista",
-        "demand": 3925,
+        "demand": 3943,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Hardware Diagnostic Sensor": [
@@ -2934,9 +2846,9 @@
       {
         "price": 7465,
         "station": "Saturn Ascending",
-        "demand": 33503,
+        "demand": 33664,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 7465,
@@ -2969,9 +2881,9 @@
       {
         "price": 7465,
         "station": "Arkwright Vista",
-        "demand": 2068,
+        "demand": 2078,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Heatsink Interlink": [
@@ -3006,9 +2918,9 @@
       {
         "price": 2517,
         "station": "Saturn Ascending",
-        "demand": 8698,
+        "demand": 8740,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2517,
@@ -3020,9 +2932,9 @@
       {
         "price": 2517,
         "station": "Arkwright Vista",
-        "demand": 2860,
+        "demand": 2874,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Helium": [
@@ -3050,9 +2962,9 @@
       {
         "price": 131449,
         "station": "Saturn Ascending",
-        "demand": 555,
+        "demand": 557,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 82156,
@@ -3087,9 +2999,9 @@
       {
         "price": 123012,
         "station": "Saturn Ascending",
-        "demand": 555,
+        "demand": 557,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 76883,
@@ -3097,50 +3009,6 @@
         "demand": 5415,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-23T17:24:47Z"
-      }
-    ],
-    "Hostages": [
-      {
-        "price": 34625,
-        "station": "Gao Base",
-        "demand": 12117,
-        "marketId": 4375494403,
-        "marketUpdated": "2026-09-23T17:08:47Z"
-      },
-      {
-        "price": 34625,
-        "station": "Saturn Ascending",
-        "demand": 7258,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
-      },
-      {
-        "price": 34625,
-        "station": "King's Mountain View",
-        "demand": 6606,
-        "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T15:32:20Z"
-      },
-      {
-        "price": 34625,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 5015,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-23T17:24:47Z"
-      },
-      {
-        "price": 34625,
-        "station": "Rival Monkeys Foundry",
-        "demand": 2294,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-23T15:27:21Z"
-      },
-      {
-        "price": 34625,
-        "station": "Arkwright Vista",
-        "demand": 548,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
       }
     ],
     "Hydrogen Peroxide": [
@@ -3175,16 +3043,16 @@
       {
         "price": 2983,
         "station": "Saturn Ascending",
-        "demand": 592947,
+        "demand": 595781,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2983,
         "station": "Arkwright Vista",
-        "demand": 400299,
+        "demand": 402155,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 2983,
@@ -3196,9 +3064,9 @@
       {
         "price": 2983,
         "station": "Romano Territories",
-        "demand": 554,
+        "demand": 551,
         "marketId": 4374917123,
-        "marketUpdated": "2026-09-22T20:40:15Z"
+        "marketUpdated": "2026-09-23T22:13:57Z"
       }
     ],
     "Indium": [
@@ -3212,9 +3080,9 @@
       {
         "price": 24969,
         "station": "Saturn Ascending",
-        "demand": 61737,
+        "demand": 62030,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 24908,
@@ -3242,9 +3110,9 @@
       {
         "price": 11549,
         "station": "Saturn Ascending",
-        "demand": 66431,
+        "demand": 66747,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 11549,
@@ -3279,9 +3147,9 @@
       {
         "price": 242971,
         "station": "Saturn Ascending",
-        "demand": 40658,
+        "demand": 40852,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 242971,
@@ -3293,9 +3161,9 @@
       {
         "price": 242971,
         "station": "Arkwright Vista",
-        "demand": 3518,
+        "demand": 3536,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 151857,
@@ -3337,9 +3205,9 @@
       {
         "price": 41615,
         "station": "Saturn Ascending",
-        "demand": 35233,
+        "demand": 35401,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 41615,
@@ -3351,9 +3219,9 @@
       {
         "price": 41615,
         "station": "Arkwright Vista",
-        "demand": 11584,
+        "demand": 11638,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Land Enrichment Systems": [
@@ -3388,16 +3256,16 @@
       {
         "price": 5503,
         "station": "Saturn Ascending",
-        "demand": 94085,
+        "demand": 94534,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
-        "price": 5378,
+        "price": 5379,
         "station": "Arkwright Vista",
-        "demand": 14704,
+        "demand": 16342,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Lanthanum": [
@@ -3418,9 +3286,9 @@
       {
         "price": 9564,
         "station": "Saturn Ascending",
-        "demand": 70546,
+        "demand": 70882,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 9564,
@@ -3432,9 +3300,9 @@
       {
         "price": 9564,
         "station": "Arkwright Vista",
-        "demand": 23193,
+        "demand": 23300,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 9560,
@@ -3469,9 +3337,9 @@
       {
         "price": 652,
         "station": "Saturn Ascending",
-        "demand": 933695,
+        "demand": 938155,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 652,
@@ -3492,9 +3360,9 @@
       {
         "price": 2146,
         "station": "Saturn Ascending",
-        "demand": 638423,
+        "demand": 641472,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2146,
@@ -3506,9 +3374,9 @@
       {
         "price": 2146,
         "station": "Romano Territories",
-        "demand": 1542,
+        "demand": 1536,
         "marketId": 4374917123,
-        "marketUpdated": "2026-09-22T20:40:15Z"
+        "marketUpdated": "2026-09-23T22:13:57Z"
       },
       {
         "price": 2120,
@@ -3543,9 +3411,9 @@
       {
         "price": 1145,
         "station": "Saturn Ascending",
-        "demand": 30888,
+        "demand": 31035,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1145,
@@ -3559,9 +3427,9 @@
       {
         "price": 2296,
         "station": "Saturn Ascending",
-        "demand": 1211490,
+        "demand": 1217278,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2296,
@@ -3617,16 +3485,16 @@
       {
         "price": 5516,
         "station": "Arkwright Vista",
-        "demand": 87529,
+        "demand": 87935,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 5516,
         "station": "Saturn Ascending",
-        "demand": 70065,
+        "demand": 70400,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       }
     ],
     "Low Temperature Diamonds": [
@@ -3661,16 +3529,16 @@
       {
         "price": 159678,
         "station": "Saturn Ascending",
-        "demand": 1865,
+        "demand": 1873,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 159678,
         "station": "Arkwright Vista",
-        "demand": 615,
+        "demand": 618,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 99799,
@@ -3705,16 +3573,16 @@
       {
         "price": 51883,
         "station": "Arkwright Vista",
-        "demand": 10553,
+        "demand": 10602,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 51883,
         "station": "Saturn Ascending",
-        "demand": 2141,
+        "demand": 2151,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 51883,
@@ -3763,9 +3631,9 @@
       {
         "price": 1708,
         "station": "Saturn Ascending",
-        "demand": 13047,
+        "demand": 13110,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1708,
@@ -3777,18 +3645,18 @@
       {
         "price": 1708,
         "station": "Arkwright Vista",
-        "demand": 4290,
+        "demand": 4311,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Medical Diagnostic Equipment": [
       {
         "price": 3476,
         "station": "Saturn Ascending",
-        "demand": 120844,
+        "demand": 121421,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 3476,
@@ -3814,9 +3682,9 @@
       {
         "price": 3349,
         "station": "Arkwright Vista",
-        "demand": 2097,
+        "demand": 2106,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Meta-Alloys": [
@@ -3844,9 +3712,9 @@
       {
         "price": 194710,
         "station": "Saturn Ascending",
-        "demand": 14221,
+        "demand": 14289,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 194710,
@@ -3865,9 +3733,9 @@
       {
         "price": 194710,
         "station": "Arkwright Vista",
-        "demand": 1136,
+        "demand": 1141,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Methane Clathrate": [
@@ -3909,9 +3777,9 @@
       {
         "price": 1518,
         "station": "Arkwright Vista",
-        "demand": 178705,
+        "demand": 179533,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 1518,
@@ -3923,9 +3791,9 @@
       {
         "price": 1518,
         "station": "Saturn Ascending",
-        "demand": 36239,
+        "demand": 36413,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       }
     ],
     "Methanol Monohydrate Crystals": [
@@ -3960,9 +3828,9 @@
       {
         "price": 2391,
         "station": "Saturn Ascending",
-        "demand": 120796,
+        "demand": 121373,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2391,
@@ -3974,9 +3842,9 @@
       {
         "price": 2391,
         "station": "Arkwright Vista",
-        "demand": 39713,
+        "demand": 39897,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Micro Controllers": [
@@ -3990,9 +3858,9 @@
       {
         "price": 6220,
         "station": "Saturn Ascending",
-        "demand": 57616,
+        "demand": 57892,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 6220,
@@ -4009,11 +3877,11 @@
         "marketUpdated": "2026-09-23T15:32:20Z"
       },
       {
-        "price": 6043,
+        "price": 6044,
         "station": "Arkwright Vista",
-        "demand": 1456,
+        "demand": 1462,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Micro-weave Cooling Hoses": [
@@ -4034,9 +3902,9 @@
       {
         "price": 1787,
         "station": "Saturn Ascending",
-        "demand": 299816,
+        "demand": 301250,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1787,
@@ -4062,9 +3930,9 @@
       {
         "price": 1787,
         "station": "Arkwright Vista",
-        "demand": 5404,
+        "demand": 5430,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Military Grade Fabrics": [
@@ -4078,9 +3946,9 @@
       {
         "price": 1406,
         "station": "Saturn Ascending",
-        "demand": 92532,
+        "demand": 92973,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1200,
@@ -4122,16 +3990,16 @@
       {
         "price": 1104,
         "station": "Saturn Ascending",
-        "demand": 425081,
+        "demand": 427113,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 995,
         "station": "Arkwright Vista",
-        "demand": 16174,
+        "demand": 16249,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Mineral Oil": [
@@ -4152,9 +4020,9 @@
       {
         "price": 1211,
         "station": "Saturn Ascending",
-        "demand": 186233,
+        "demand": 187125,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       }
     ],
     "Modular Terminals": [
@@ -4189,9 +4057,9 @@
       {
         "price": 2391,
         "station": "Saturn Ascending",
-        "demand": 9181,
+        "demand": 9226,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2391,
@@ -4203,9 +4071,9 @@
       {
         "price": 2391,
         "station": "Arkwright Vista",
-        "demand": 3019,
+        "demand": 3033,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Moissanite": [
@@ -4247,9 +4115,9 @@
       {
         "price": 24168,
         "station": "Saturn Ascending",
-        "demand": 72156,
+        "demand": 72501,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 24168,
@@ -4261,9 +4129,9 @@
       {
         "price": 24168,
         "station": "Arkwright Vista",
-        "demand": 23723,
+        "demand": 23832,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Monazite": [
@@ -4296,11 +4164,11 @@
         "marketUpdated": "2026-09-22T21:37:32Z"
       },
       {
-        "price": 386643,
+        "price": 386642,
         "station": "Saturn Ascending",
-        "demand": 502,
+        "demand": 504,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 199008,
@@ -4321,9 +4189,9 @@
       {
         "price": 2273,
         "station": "Saturn Ascending",
-        "demand": 100505,
+        "demand": 100986,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2273,
@@ -4356,9 +4224,9 @@
       {
         "price": 2273,
         "station": "Arkwright Vista",
-        "demand": 6199,
+        "demand": 6226,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Natural Fabrics": [
@@ -4372,9 +4240,9 @@
       {
         "price": 1159,
         "station": "Saturn Ascending",
-        "demand": 7243346,
+        "demand": 7277947,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1159,
@@ -4430,9 +4298,9 @@
       {
         "price": 5857,
         "station": "Saturn Ascending",
-        "demand": 59595,
+        "demand": 59879,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 5857,
@@ -4444,18 +4312,18 @@
       {
         "price": 5857,
         "station": "Arkwright Vista",
-        "demand": 7892,
+        "demand": 7928,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Nerve Agents": [
       {
         "price": 13972,
         "station": "Saturn Ascending",
-        "demand": 4510,
+        "demand": 4533,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 13972,
@@ -4477,50 +4345,6 @@
         "demand": 92746,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-23T17:24:47Z"
-      }
-    ],
-    "Occupied Escape Pod": [
-      {
-        "price": 30371,
-        "station": "Gao Base",
-        "demand": 17667,
-        "marketId": 4375494403,
-        "marketUpdated": "2026-09-23T17:08:47Z"
-      },
-      {
-        "price": 30371,
-        "station": "King's Mountain View",
-        "demand": 12013,
-        "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T15:32:20Z"
-      },
-      {
-        "price": 30371,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 8490,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-23T17:24:47Z"
-      },
-      {
-        "price": 30371,
-        "station": "Saturn Ascending",
-        "demand": 8414,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
-      },
-      {
-        "price": 30371,
-        "station": "Rival Monkeys Foundry",
-        "demand": 3149,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-23T15:27:21Z"
-      },
-      {
-        "price": 30371,
-        "station": "Arkwright Vista",
-        "demand": 915,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
       }
     ],
     "Olivine": [
@@ -4548,16 +4372,16 @@
       {
         "price": 42641,
         "station": "Arkwright Vista",
-        "demand": 10553,
+        "demand": 10602,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 42641,
         "station": "Saturn Ascending",
-        "demand": 2141,
+        "demand": 2151,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 42641,
@@ -4599,9 +4423,9 @@
       {
         "price": 41006,
         "station": "Saturn Ascending",
-        "demand": 242721,
+        "demand": 243880,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 41006,
@@ -4620,9 +4444,9 @@
       {
         "price": 41006,
         "station": "Arkwright Vista",
-        "demand": 19011,
+        "demand": 19101,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Painite": [
@@ -4664,16 +4488,16 @@
       {
         "price": 50423,
         "station": "Saturn Ascending",
-        "demand": 4426,
+        "demand": 4449,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 50423,
         "station": "Arkwright Vista",
-        "demand": 1735,
+        "demand": 1746,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Performance Enhancers": [
@@ -4694,9 +4518,9 @@
       {
         "price": 7465,
         "station": "Saturn Ascending",
-        "demand": 85319,
+        "demand": 85725,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 7465,
@@ -4708,9 +4532,9 @@
       {
         "price": 7201,
         "station": "Arkwright Vista",
-        "demand": 3918,
+        "demand": 4020,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Periclase Dunite": [
@@ -4738,16 +4562,16 @@
       {
         "price": 242971,
         "station": "Arkwright Vista",
-        "demand": 10553,
+        "demand": 10602,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 242971,
         "station": "Saturn Ascending",
-        "demand": 2141,
+        "demand": 2151,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 242971,
@@ -4764,50 +4588,6 @@
         "marketUpdated": "2026-09-23T17:24:47Z"
       }
     ],
-    "Personal Effects": [
-      {
-        "price": 9564,
-        "station": "Gao Base",
-        "demand": 17667,
-        "marketId": 4375494403,
-        "marketUpdated": "2026-09-23T17:08:47Z"
-      },
-      {
-        "price": 9564,
-        "station": "King's Mountain View",
-        "demand": 12013,
-        "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T15:32:20Z"
-      },
-      {
-        "price": 9564,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 8490,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-23T17:24:47Z"
-      },
-      {
-        "price": 9564,
-        "station": "Saturn Ascending",
-        "demand": 8414,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
-      },
-      {
-        "price": 9564,
-        "station": "Rival Monkeys Foundry",
-        "demand": 3149,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-23T15:27:21Z"
-      },
-      {
-        "price": 9564,
-        "station": "Arkwright Vista",
-        "demand": 915,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
-      }
-    ],
     "Pesticides": [
       {
         "price": 820,
@@ -4819,9 +4599,9 @@
       {
         "price": 756,
         "station": "Saturn Ascending",
-        "demand": 28964,
+        "demand": 29104,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 756,
@@ -4831,11 +4611,11 @@
         "marketUpdated": "2026-09-23T15:27:21Z"
       },
       {
-        "price": 656,
+        "price": 657,
         "station": "Arkwright Vista",
-        "demand": 6128,
+        "demand": 6751,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Platinum": [
@@ -4884,9 +4664,9 @@
       {
         "price": 55662,
         "station": "Saturn Ascending",
-        "demand": 53596,
+        "demand": 53852,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 55662,
@@ -4898,18 +4678,18 @@
       {
         "price": 55662,
         "station": "Arkwright Vista",
-        "demand": 13176,
+        "demand": 13237,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Polymers": [
       {
         "price": 1099,
         "station": "Saturn Ascending",
-        "demand": 4414325,
+        "demand": 4435414,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1099,
@@ -4958,9 +4738,9 @@
       {
         "price": 1787,
         "station": "Saturn Ascending",
-        "demand": 12322,
+        "demand": 12382,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1787,
@@ -4972,9 +4752,9 @@
       {
         "price": 1787,
         "station": "Arkwright Vista",
-        "demand": 4052,
+        "demand": 4071,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Praseodymium": [
@@ -5009,9 +4789,9 @@
       {
         "price": 8445,
         "station": "Saturn Ascending",
-        "demand": 185142,
+        "demand": 186026,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 8445,
@@ -5023,9 +4803,9 @@
       {
         "price": 8445,
         "station": "Arkwright Vista",
-        "demand": 16021,
+        "demand": 16095,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Progenitor Cells": [
@@ -5039,9 +4819,9 @@
       {
         "price": 7465,
         "station": "Saturn Ascending",
-        "demand": 29062,
+        "demand": 29202,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 7465,
@@ -5058,11 +4838,11 @@
         "marketUpdated": "2026-09-23T17:08:47Z"
       },
       {
-        "price": 7199,
+        "price": 7200,
         "station": "Arkwright Vista",
-        "demand": 3324,
+        "demand": 3400,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Pyrophyllite": [
@@ -5090,16 +4870,16 @@
       {
         "price": 13692,
         "station": "Saturn Ascending",
-        "demand": 398065,
+        "demand": 399965,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 13692,
         "station": "Arkwright Vista",
-        "demand": 337210,
+        "demand": 338773,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 13662,
@@ -5134,16 +4914,16 @@
       {
         "price": 63180,
         "station": "Arkwright Vista",
-        "demand": 10553,
+        "demand": 10602,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 63180,
         "station": "Saturn Ascending",
-        "demand": 2141,
+        "demand": 2151,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 63180,
@@ -5164,9 +4944,9 @@
       {
         "price": 2162,
         "station": "Saturn Ascending",
-        "demand": 71029,
+        "demand": 71369,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2162,
@@ -5206,9 +4986,9 @@
       {
         "price": 2162,
         "station": "Arkwright Vista",
-        "demand": 1670,
+        "demand": 1677,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Robotics": [
@@ -5229,9 +5009,9 @@
       {
         "price": 2511,
         "station": "Saturn Ascending",
-        "demand": 329907,
+        "demand": 331481,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 2511,
@@ -5243,9 +5023,9 @@
       {
         "price": 2511,
         "station": "Arkwright Vista",
-        "demand": 8500,
+        "demand": 8539,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Ruby": [
@@ -5273,16 +5053,16 @@
       {
         "price": 134411,
         "station": "Arkwright Vista",
-        "demand": 10553,
+        "demand": 10602,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 134411,
         "station": "Saturn Ascending",
-        "demand": 2141,
+        "demand": 2151,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 134411,
@@ -5324,9 +5104,9 @@
       {
         "price": 35712,
         "station": "Saturn Ascending",
-        "demand": 117820,
+        "demand": 118381,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 35712,
@@ -5338,9 +5118,9 @@
       {
         "price": 35712,
         "station": "Arkwright Vista",
-        "demand": 10194,
+        "demand": 10244,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 25509,
@@ -5375,16 +5155,16 @@
       {
         "price": 152805,
         "station": "Arkwright Vista",
-        "demand": 10553,
+        "demand": 10602,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 152805,
         "station": "Saturn Ascending",
-        "demand": 2141,
+        "demand": 2151,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 152805,
@@ -5405,9 +5185,9 @@
       {
         "price": 1595,
         "station": "Saturn Ascending",
-        "demand": 545550,
+        "demand": 548157,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1595,
@@ -5428,9 +5208,9 @@
       {
         "price": 4950,
         "station": "Saturn Ascending",
-        "demand": 250061,
+        "demand": 251257,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 4950,
@@ -5451,9 +5231,9 @@
       {
         "price": 7540,
         "station": "Saturn Ascending",
-        "demand": 473700,
+        "demand": 475962,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 7540,
@@ -5474,9 +5254,9 @@
       {
         "price": 1279,
         "station": "Saturn Ascending",
-        "demand": 3725291,
+        "demand": 3743089,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1279,
@@ -5518,16 +5298,16 @@
       {
         "price": 732,
         "station": "Saturn Ascending",
-        "demand": 83620,
+        "demand": 84019,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 566,
         "station": "Arkwright Vista",
-        "demand": 8359,
+        "demand": 8399,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Synthetic Reagents": [
@@ -5548,9 +5328,9 @@
       {
         "price": 7465,
         "station": "Saturn Ascending",
-        "demand": 7734,
+        "demand": 7769,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 7465,
@@ -5567,11 +5347,11 @@
         "marketUpdated": "2026-09-23T17:24:47Z"
       },
       {
-        "price": 7319,
+        "price": 7318,
         "station": "Arkwright Vista",
-        "demand": 900,
+        "demand": 904,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Taaffeite": [
@@ -5606,9 +5386,9 @@
       {
         "price": 51267,
         "station": "Saturn Ascending",
-        "demand": 35233,
+        "demand": 35401,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 51267,
@@ -5620,18 +5400,18 @@
       {
         "price": 51267,
         "station": "Arkwright Vista",
-        "demand": 11584,
+        "demand": 11638,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Tantalum": [
       {
         "price": 14894,
         "station": "Saturn Ascending",
-        "demand": 149755,
+        "demand": 150471,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 14894,
@@ -5680,9 +5460,9 @@
       {
         "price": 2059,
         "station": "Saturn Ascending",
-        "demand": 92012,
+        "demand": 92456,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       }
     ],
     "Telemetry Suite": [
@@ -5696,9 +5476,9 @@
       {
         "price": 3113,
         "station": "Saturn Ascending",
-        "demand": 74737,
+        "demand": 75091,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 3113,
@@ -5731,9 +5511,9 @@
       {
         "price": 3113,
         "station": "Arkwright Vista",
-        "demand": 4609,
+        "demand": 4631,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Thallium": [
@@ -5754,9 +5534,9 @@
       {
         "price": 4406,
         "station": "Saturn Ascending",
-        "demand": 68613,
+        "demand": 68942,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 4406,
@@ -5775,9 +5555,9 @@
       {
         "price": 4280,
         "station": "Arkwright Vista",
-        "demand": 15307,
+        "demand": 15379,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Thorium": [
@@ -5791,9 +5571,9 @@
       {
         "price": 12303,
         "station": "Saturn Ascending",
-        "demand": 97927,
+        "demand": 98394,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 12303,
@@ -5812,9 +5592,9 @@
       {
         "price": 12303,
         "station": "Arkwright Vista",
-        "demand": 23564,
+        "demand": 23675,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 12301,
@@ -5849,16 +5629,16 @@
       {
         "price": 242971,
         "station": "Arkwright Vista",
-        "demand": 10553,
+        "demand": 10602,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 242971,
         "station": "Saturn Ascending",
-        "demand": 2141,
+        "demand": 2151,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 242971,
@@ -5879,9 +5659,9 @@
       {
         "price": 5251,
         "station": "Saturn Ascending",
-        "demand": 237084,
+        "demand": 238217,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 5251,
@@ -5923,9 +5703,9 @@
       {
         "price": 5516,
         "station": "Saturn Ascending",
-        "demand": 55655,
+        "demand": 55920,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       }
     ],
     "Tritium": [
@@ -5939,9 +5719,9 @@
       {
         "price": 57497,
         "station": "Saturn Ascending",
-        "demand": 27329,
+        "demand": 27458,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       }
     ],
     "Unoccupied Escape Pod": [
@@ -5976,9 +5756,9 @@
       {
         "price": 4118,
         "station": "Saturn Ascending",
-        "demand": 3682,
+        "demand": 3699,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 4118,
@@ -5992,9 +5772,9 @@
       {
         "price": 7939,
         "station": "Saturn Ascending",
-        "demand": 454205,
+        "demand": 456376,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 7939,
@@ -6043,9 +5823,9 @@
       {
         "price": 134844,
         "station": "Saturn Ascending",
-        "demand": 667,
+        "demand": 670,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 134630,
@@ -6073,9 +5853,9 @@
       {
         "price": 617,
         "station": "Saturn Ascending",
-        "demand": 317077,
+        "demand": 318594,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 329,
@@ -6110,9 +5890,9 @@
       {
         "price": 1169,
         "station": "Saturn Ascending",
-        "demand": 482715,
+        "demand": 485017,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 1169,
@@ -6124,9 +5904,9 @@
       {
         "price": 1169,
         "station": "Arkwright Vista",
-        "demand": 66862,
+        "demand": 68181,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 828,
@@ -6138,9 +5918,9 @@
       {
         "price": 785,
         "station": "Romano Territories",
-        "demand": 1077,
+        "demand": 1072,
         "marketId": 4374917123,
-        "marketUpdated": "2026-09-22T20:40:15Z"
+        "marketUpdated": "2026-09-23T22:13:57Z"
       }
     ],
     "Wine": [
@@ -6168,9 +5948,9 @@
       {
         "price": 732,
         "station": "Saturn Ascending",
-        "demand": 613579,
+        "demand": 616513,
         "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
+        "marketUpdated": "2026-09-23T23:03:03Z"
       },
       {
         "price": 732,
@@ -6178,50 +5958,6 @@
         "demand": 604543,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-23T17:24:47Z"
-      }
-    ],
-    "Wreckage Components": [
-      {
-        "price": 8986,
-        "station": "Gao Base",
-        "demand": 65471,
-        "marketId": 4375494403,
-        "marketUpdated": "2026-09-23T17:08:47Z"
-      },
-      {
-        "price": 8986,
-        "station": "Rival Monkeys Foundry",
-        "demand": 14273,
-        "marketId": 4388359171,
-        "marketUpdated": "2026-09-23T15:27:21Z"
-      },
-      {
-        "price": 8986,
-        "station": "Saturn Ascending",
-        "demand": 13772,
-        "marketId": 4374632451,
-        "marketUpdated": "2026-09-23T15:23:06Z"
-      },
-      {
-        "price": 8986,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 11744,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-23T17:24:47Z"
-      },
-      {
-        "price": 8986,
-        "station": "King's Mountain View",
-        "demand": 5451,
-        "marketId": 4374964995,
-        "marketUpdated": "2026-09-23T15:32:20Z"
-      },
-      {
-        "price": 8986,
-        "station": "Arkwright Vista",
-        "demand": 1617,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
       }
     ],
     "Advanced Catalysers": [
@@ -6249,9 +5985,9 @@
       {
         "price": 3272,
         "station": "Arkwright Vista",
-        "demand": 22244,
+        "demand": 22347,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Alexandrite": [
@@ -6293,9 +6029,9 @@
       {
         "price": 212712,
         "station": "Arkwright Vista",
-        "demand": 720,
+        "demand": 723,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Atmospheric Processors": [
@@ -6325,9 +6061,9 @@
       {
         "price": 630,
         "station": "Arkwright Vista",
-        "demand": 4029,
+        "demand": 4095,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Bauxite": [
@@ -6348,9 +6084,9 @@
       {
         "price": 4004,
         "station": "Arkwright Vista",
-        "demand": 178930,
+        "demand": 179758,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 1400,
@@ -6399,9 +6135,9 @@
       {
         "price": 146687,
         "station": "Arkwright Vista",
-        "demand": 720,
+        "demand": 723,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Bertrandite": [
@@ -6415,9 +6151,9 @@
       {
         "price": 21304,
         "station": "Arkwright Vista",
-        "demand": 214095,
+        "demand": 215084,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 21254,
@@ -6432,6 +6168,36 @@
         "demand": 84988,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-23T17:24:47Z"
+      }
+    ],
+    "Black Box": [
+      {
+        "price": 31082,
+        "station": "Gao Base",
+        "demand": 17667,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-09-23T17:08:47Z"
+      },
+      {
+        "price": 31082,
+        "station": "King's Mountain View",
+        "demand": 12013,
+        "marketId": 4374964995,
+        "marketUpdated": "2026-09-23T15:32:20Z"
+      },
+      {
+        "price": 31082,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 8490,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-23T17:24:47Z"
+      },
+      {
+        "price": 31082,
+        "station": "Rival Monkeys Foundry",
+        "demand": 3149,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-23T15:27:21Z"
       }
     ],
     "Cobalt": [
@@ -6461,9 +6227,9 @@
       {
         "price": 7441,
         "station": "Arkwright Vista",
-        "demand": 339366,
+        "demand": 340934,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 7441,
@@ -6478,6 +6244,36 @@
         "demand": 134722,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-23T17:24:47Z"
+      }
+    ],
+    "Damaged Escape Pod": [
+      {
+        "price": 16932,
+        "station": "Gao Base",
+        "demand": 18485,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-09-23T17:08:47Z"
+      },
+      {
+        "price": 16932,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 9898,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-23T17:24:47Z"
+      },
+      {
+        "price": 16932,
+        "station": "King's Mountain View",
+        "demand": 6224,
+        "marketId": 4374964995,
+        "marketUpdated": "2026-09-23T15:32:20Z"
+      },
+      {
+        "price": 16932,
+        "station": "Rival Monkeys Foundry",
+        "demand": 3752,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-23T15:27:21Z"
       }
     ],
     "Food Cartridges": [
@@ -6507,9 +6303,9 @@
       {
         "price": 13479,
         "station": "Arkwright Vista",
-        "demand": 141180,
+        "demand": 141833,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 13461,
@@ -6574,9 +6370,9 @@
       {
         "price": 193186,
         "station": "Arkwright Vista",
-        "demand": 720,
+        "demand": 723,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Haematite": [
@@ -6590,9 +6386,9 @@
       {
         "price": 4546,
         "station": "Arkwright Vista",
-        "demand": 252876,
+        "demand": 254047,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 4546,
@@ -6607,6 +6403,36 @@
         "demand": 491054,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-23T17:24:47Z"
+      }
+    ],
+    "Hostages": [
+      {
+        "price": 34625,
+        "station": "Gao Base",
+        "demand": 12117,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-09-23T17:08:47Z"
+      },
+      {
+        "price": 34625,
+        "station": "King's Mountain View",
+        "demand": 6606,
+        "marketId": 4374964995,
+        "marketUpdated": "2026-09-23T15:32:20Z"
+      },
+      {
+        "price": 34625,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 5015,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-23T17:24:47Z"
+      },
+      {
+        "price": 34625,
+        "station": "Rival Monkeys Foundry",
+        "demand": 2294,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-23T15:27:21Z"
       }
     ],
     "Indite": [
@@ -6634,9 +6460,9 @@
       {
         "price": 12821,
         "station": "Arkwright Vista",
-        "demand": 175815,
+        "demand": 176630,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Lepidolite": [
@@ -6650,9 +6476,9 @@
       {
         "price": 5530,
         "station": "Arkwright Vista",
-        "demand": 369831,
+        "demand": 371545,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 5368,
@@ -6692,11 +6518,11 @@
         "marketUpdated": "2026-09-23T15:32:20Z"
       },
       {
-        "price": 4748,
+        "price": 4749,
         "station": "Arkwright Vista",
-        "demand": 16072,
+        "demand": 17452,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Musgravite": [
@@ -6738,9 +6564,9 @@
       {
         "price": 194441,
         "station": "Arkwright Vista",
-        "demand": 720,
+        "demand": 723,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Non-Lethal Weapons": [
@@ -6755,6 +6581,36 @@
         "price": 2391,
         "station": "Rival Monkeys Foundry",
         "demand": 5250,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-23T15:27:21Z"
+      }
+    ],
+    "Occupied Escape Pod": [
+      {
+        "price": 30371,
+        "station": "Gao Base",
+        "demand": 17667,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-09-23T17:08:47Z"
+      },
+      {
+        "price": 30371,
+        "station": "King's Mountain View",
+        "demand": 12013,
+        "marketId": 4374964995,
+        "marketUpdated": "2026-09-23T15:32:20Z"
+      },
+      {
+        "price": 30371,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 8490,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-23T17:24:47Z"
+      },
+      {
+        "price": 30371,
+        "station": "Rival Monkeys Foundry",
+        "demand": 3149,
         "marketId": 4388359171,
         "marketUpdated": "2026-09-23T15:27:21Z"
       }
@@ -6798,9 +6654,9 @@
       {
         "price": 53739,
         "station": "Arkwright Vista",
-        "demand": 32766,
+        "demand": 32917,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 53729,
@@ -6808,6 +6664,36 @@
         "demand": 508900,
         "marketId": 4376376323,
         "marketUpdated": "2026-09-23T17:24:47Z"
+      }
+    ],
+    "Personal Effects": [
+      {
+        "price": 9564,
+        "station": "Gao Base",
+        "demand": 17667,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-09-23T17:08:47Z"
+      },
+      {
+        "price": 9564,
+        "station": "King's Mountain View",
+        "demand": 12013,
+        "marketId": 4374964995,
+        "marketUpdated": "2026-09-23T15:32:20Z"
+      },
+      {
+        "price": 9564,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 8490,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-23T17:24:47Z"
+      },
+      {
+        "price": 9564,
+        "station": "Rival Monkeys Foundry",
+        "demand": 3149,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-23T15:27:21Z"
       }
     ],
     "Personal Weapons": [
@@ -6826,11 +6712,11 @@
         "marketUpdated": "2026-09-23T17:08:47Z"
       },
       {
-        "price": 4606,
+        "price": 4650,
         "station": "Arkwright Vista",
-        "demand": 1814,
+        "demand": 1850,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Power Generators": [
@@ -6872,9 +6758,9 @@
       {
         "price": 3067,
         "station": "Arkwright Vista",
-        "demand": 92535,
+        "demand": 93289,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Reactive Armour": [
@@ -6893,11 +6779,11 @@
         "marketUpdated": "2026-09-23T15:27:21Z"
       },
       {
-        "price": 2458,
+        "price": 2395,
         "station": "Arkwright Vista",
-        "demand": 1207,
+        "demand": 1231,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Resonating Separators": [
@@ -6925,9 +6811,9 @@
       {
         "price": 6338,
         "station": "Arkwright Vista",
-        "demand": 93829,
+        "demand": 94265,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Rhodplumsite": [
@@ -6969,9 +6855,9 @@
       {
         "price": 174274,
         "station": "Arkwright Vista",
-        "demand": 628,
+        "demand": 630,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Rutile": [
@@ -6992,9 +6878,9 @@
       {
         "price": 4927,
         "station": "Arkwright Vista",
-        "demand": 247815,
+        "demand": 248954,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       },
       {
         "price": 2503,
@@ -7043,9 +6929,9 @@
       {
         "price": 169309,
         "station": "Arkwright Vista",
-        "demand": 720,
+        "demand": 723,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Silver": [
@@ -7110,9 +6996,39 @@
       {
         "price": 3516,
         "station": "Arkwright Vista",
-        "demand": 79567,
+        "demand": 79936,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
+      }
+    ],
+    "Wreckage Components": [
+      {
+        "price": 8986,
+        "station": "Gao Base",
+        "demand": 65471,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-09-23T17:08:47Z"
+      },
+      {
+        "price": 8986,
+        "station": "Rival Monkeys Foundry",
+        "demand": 14273,
+        "marketId": 4388359171,
+        "marketUpdated": "2026-09-23T15:27:21Z"
+      },
+      {
+        "price": 8986,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 11744,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-23T17:24:47Z"
+      },
+      {
+        "price": 8986,
+        "station": "King's Mountain View",
+        "demand": 5451,
+        "marketId": 4374964995,
+        "marketUpdated": "2026-09-23T15:32:20Z"
       }
     ],
     "Animal Meat": [
@@ -7163,9 +7079,9 @@
       {
         "price": 677,
         "station": "Arkwright Vista",
-        "demand": 113142,
+        "demand": 113661,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Scrap": [
@@ -7177,11 +7093,11 @@
         "marketUpdated": "2026-09-23T15:27:21Z"
       },
       {
-        "price": 498,
+        "price": 499,
         "station": "Arkwright Vista",
-        "demand": 50401,
+        "demand": 50635,
         "marketId": 4388504067,
-        "marketUpdated": "2026-09-22T19:08:19Z"
+        "marketUpdated": "2026-09-23T22:57:56Z"
       }
     ],
     "Onionhead Gamma Strain": [
@@ -7195,9 +7111,9 @@
       {
         "price": 5514,
         "station": "Romano Territories",
-        "demand": 633,
+        "demand": 630,
         "marketId": 4374917123,
-        "marketUpdated": "2026-09-22T20:40:15Z"
+        "marketUpdated": "2026-09-23T22:13:57Z"
       }
     ],
     "Surface Stabilisers": [
@@ -7218,9 +7134,9 @@
       {
         "price": 1037,
         "station": "Romano Territories",
-        "demand": 612,
+        "demand": 609,
         "marketId": 4374917123,
-        "marketUpdated": "2026-09-22T20:40:15Z"
+        "marketUpdated": "2026-09-23T22:13:57Z"
       },
       {
         "price": 1025,
