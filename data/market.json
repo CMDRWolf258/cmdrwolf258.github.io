@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-09-26T06:31:06.335751+00:00",
+  "generatedAt": "2026-09-26T12:29:38.309190+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -592,11 +592,11 @@
       "marketUpdated": "2026-07-09T01:39:32Z"
     },
     "Platinum": {
-      "price": 56628,
-      "station": "Mendez Entertainment Resort",
-      "demand": 1472,
-      "marketId": 4380933123,
-      "marketUpdated": "2026-08-06T16:12:39Z"
+      "price": 57000,
+      "station": "Huntley Tourism Lodge",
+      "demand": 636,
+      "marketId": 4381919491,
+      "marketUpdated": "2026-08-11T22:34:20Z"
     },
     "Polymers": {
       "price": 1099,
@@ -963,11 +963,11 @@
       "marketUpdated": "2026-09-24T20:17:32Z"
     },
     "Palladium": {
-      "price": 53793,
-      "station": "Mendez Entertainment Resort",
-      "demand": 1910,
-      "marketId": 4380933123,
-      "marketUpdated": "2026-08-06T16:12:39Z"
+      "price": 53814,
+      "station": "Huntley Tourism Lodge",
+      "demand": 825,
+      "marketId": 4381919491,
+      "marketUpdated": "2026-08-11T22:34:20Z"
     },
     "Personal Weapons": {
       "price": 4901,
@@ -1019,11 +1019,11 @@
       "marketUpdated": "2026-09-24T20:17:32Z"
     },
     "Silver": {
-      "price": 40808,
-      "station": "Mendez Entertainment Resort",
-      "demand": 2069,
-      "marketId": 4380933123,
-      "marketUpdated": "2026-08-06T16:12:39Z"
+      "price": 40830,
+      "station": "Huntley Tourism Lodge",
+      "demand": 894,
+      "marketId": 4381919491,
+      "marketUpdated": "2026-08-11T22:34:20Z"
     },
     "Uraninite": {
       "price": 3849,
@@ -5278,6 +5278,13 @@
     ],
     "Platinum": [
       {
+        "price": 57000,
+        "station": "Huntley Tourism Lodge",
+        "demand": 636,
+        "marketId": 4381919491,
+        "marketUpdated": "2026-08-11T22:34:20Z"
+      },
+      {
         "price": 56628,
         "station": "Mendez Entertainment Resort",
         "demand": 1472,
@@ -7603,11 +7610,25 @@
     ],
     "Palladium": [
       {
+        "price": 53814,
+        "station": "Huntley Tourism Lodge",
+        "demand": 825,
+        "marketId": 4381919491,
+        "marketUpdated": "2026-08-11T22:34:20Z"
+      },
+      {
         "price": 53793,
         "station": "Mendez Entertainment Resort",
         "demand": 1910,
         "marketId": 4380933123,
         "marketUpdated": "2026-08-06T16:12:39Z"
+      },
+      {
+        "price": 53793,
+        "station": "Griffin Hospitality Resort",
+        "demand": 571,
+        "marketId": 4381921027,
+        "marketUpdated": "2026-08-11T22:21:13Z"
       },
       {
         "price": 53739,
@@ -7927,11 +7948,25 @@
     ],
     "Silver": [
       {
+        "price": 40830,
+        "station": "Huntley Tourism Lodge",
+        "demand": 894,
+        "marketId": 4381919491,
+        "marketUpdated": "2026-08-11T22:34:20Z"
+      },
+      {
         "price": 40808,
         "station": "Mendez Entertainment Resort",
         "demand": 2069,
         "marketId": 4380933123,
         "marketUpdated": "2026-08-06T16:12:39Z"
+      },
+      {
+        "price": 40808,
+        "station": "Griffin Hospitality Resort",
+        "demand": 618,
+        "marketId": 4381921027,
+        "marketUpdated": "2026-08-11T22:21:13Z"
       },
       {
         "price": 40751,
