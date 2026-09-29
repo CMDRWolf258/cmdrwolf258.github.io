@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-09-29T12:35:17.034668+00:00",
+  "generatedAt": "2026-09-29T18:32:40.183206+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -34,9 +34,9 @@
     "Aluminium": {
       "price": 3130,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 768442,
+      "demand": 778630,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Animal Monitors": {
       "price": 849,
@@ -90,9 +90,9 @@
     "Beryllium": {
       "price": 42130,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 717226,
+      "demand": 737606,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Bioreducing Lichen": {
       "price": 1488,
@@ -174,9 +174,9 @@
     "Conductive Fabrics": {
       "price": 1084,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 5987174,
+      "demand": 6156627,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Consumer Technology": {
       "price": 7446,
@@ -188,9 +188,9 @@
     "Copper": {
       "price": 1025,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 14135833,
+      "demand": 14323253,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Crop Harvesters": {
       "price": 2899,
@@ -272,9 +272,9 @@
     "Gallium": {
       "price": 26615,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 1108095,
+      "demand": 1133656,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Goslarite": {
       "price": 7513,
@@ -342,9 +342,9 @@
     "Indium": {
       "price": 24935,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 1064490,
+      "demand": 1100521,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Insulating Membrane": {
       "price": 11525,
@@ -482,9 +482,9 @@
     "Military Grade Fabrics": {
       "price": 1396,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 299547,
+      "demand": 303520,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Mineral Extractors": {
       "price": 1097,
@@ -685,9 +685,9 @@
     "Steel": {
       "price": 4934,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 521927,
+      "demand": 528847,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Superconductors": {
       "price": 7520,
@@ -727,9 +727,9 @@
     "Tantalum": {
       "price": 14867,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 1749457,
+      "demand": 1799476,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Tea": {
       "price": 2048,
@@ -769,9 +769,9 @@
     "Titanium": {
       "price": 5234,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 494836,
+      "demand": 501398,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Tobacco": {
       "price": 5500,
@@ -797,9 +797,9 @@
     "Uranium": {
       "price": 7919,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 2961437,
+      "demand": 3045586,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Void Opal": {
       "price": 132375,
@@ -881,9 +881,9 @@
     "Cobalt": {
       "price": 7349,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 9778614,
+      "demand": 10192284,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Coltan": {
       "price": 7420,
@@ -909,9 +909,9 @@
     "Gold": {
       "price": 50879,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 2313278,
+      "demand": 2378664,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Grandidierite": {
       "price": 189989,
@@ -1098,9 +1098,9 @@
     "Onionhead Gamma Strain": {
       "price": 5831,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 67633,
+      "demand": 69648,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-26T00:27:06Z"
+      "marketUpdated": "2026-09-29T17:00:47Z"
     },
     "Surface Stabilisers": {
       "price": 1302,
@@ -1309,17 +1309,17 @@
     "Algae": [
       {
         "price": 613,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 3920286,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-29T17:00:47Z"
+      },
+      {
+        "price": 613,
         "station": "Gao Base",
         "demand": 3912365,
         "marketId": 4375494403,
         "marketUpdated": "2026-09-26T02:16:30Z"
-      },
-      {
-        "price": 613,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 3868180,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
       },
       {
         "price": 593,
@@ -1340,9 +1340,9 @@
       {
         "price": 3130,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 768442,
+        "demand": 778630,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 3089,
@@ -1500,9 +1500,9 @@
       {
         "price": 7446,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 52303,
+        "demand": 54705,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 7446,
@@ -1595,9 +1595,9 @@
       {
         "price": 107105,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18540,
+        "demand": 18785,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 107105,
@@ -1683,9 +1683,9 @@
       {
         "price": 645,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1391069,
+        "demand": 1422484,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 636,
@@ -1706,9 +1706,9 @@
       {
         "price": 42130,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 717226,
+        "demand": 737606,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 42125,
@@ -1787,9 +1787,9 @@
       {
         "price": 2966,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3379349,
+        "demand": 3531276,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2966,
@@ -1880,9 +1880,9 @@
       {
         "price": 625,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1453,
+        "demand": 1472,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 625,
@@ -1903,9 +1903,9 @@
       {
         "price": 29983,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 649026,
+        "demand": 678845,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 29983,
@@ -1961,9 +1961,9 @@
       {
         "price": 6589,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1256849,
+        "demand": 1284034,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 6589,
@@ -2019,9 +2019,9 @@
       {
         "price": 1733,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 13927725,
+        "demand": 14137637,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1733,
@@ -2186,9 +2186,9 @@
       {
         "price": 1860,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 78192,
+        "demand": 83860,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1799,
@@ -2290,9 +2290,9 @@
       {
         "price": 1084,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 5987174,
+        "demand": 6156627,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 964,
@@ -2364,9 +2364,9 @@
       {
         "price": 1025,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 14135833,
+        "demand": 14323253,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 963,
@@ -2445,9 +2445,9 @@
       {
         "price": 14130,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3627347,
+        "demand": 3788172,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 14130,
@@ -2510,9 +2510,9 @@
       {
         "price": 55334,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18540,
+        "demand": 18785,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 55334,
@@ -2568,9 +2568,9 @@
       {
         "price": 161815,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18540,
+        "demand": 18785,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 161815,
@@ -2721,9 +2721,9 @@
       {
         "price": 3099,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 131729,
+        "demand": 137288,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 3099,
@@ -2779,9 +2779,9 @@
       {
         "price": 2261,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 156904,
+        "demand": 164114,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2261,
@@ -2874,9 +2874,9 @@
       {
         "price": 890,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 911878,
+        "demand": 936135,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 876,
@@ -2904,9 +2904,9 @@
       {
         "price": 793,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 288163,
+        "demand": 302295,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 621,
@@ -2920,9 +2920,9 @@
       {
         "price": 26615,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1108095,
+        "demand": 1133656,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 26609,
@@ -3006,9 +3006,9 @@
       {
         "price": 7400,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 312315,
+        "demand": 316456,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       }
     ],
     "Grain": [
@@ -3029,9 +3029,9 @@
       {
         "price": 676,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1958577,
+        "demand": 2017162,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 595,
@@ -3175,9 +3175,9 @@
       {
         "price": 7446,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 78733,
+        "demand": 82057,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 7446,
@@ -3233,9 +3233,9 @@
       {
         "price": 2504,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 144834,
+        "demand": 151489,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2504,
@@ -3291,9 +3291,9 @@
       {
         "price": 130071,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 5489,
+        "demand": 5561,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 130071,
@@ -3328,9 +3328,9 @@
       {
         "price": 121725,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 5489,
+        "demand": 5561,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 121725,
@@ -3365,9 +3365,9 @@
       {
         "price": 2967,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3185435,
+        "demand": 3227669,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2967,
@@ -3430,9 +3430,9 @@
       {
         "price": 24935,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1064490,
+        "demand": 1100521,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 24901,
@@ -3460,9 +3460,9 @@
       {
         "price": 11525,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 779347,
+        "demand": 796346,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 11525,
@@ -3504,9 +3504,9 @@
       {
         "price": 238931,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 303442,
+        "demand": 312124,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 238931,
@@ -3583,9 +3583,9 @@
       {
         "price": 41559,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 151400,
+        "demand": 153407,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 41559,
@@ -3692,9 +3692,9 @@
       {
         "price": 9542,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1177946,
+        "demand": 1231960,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 9542,
@@ -3743,9 +3743,9 @@
       {
         "price": 645,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 9138791,
+        "demand": 9259966,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 645,
@@ -3787,9 +3787,9 @@
       {
         "price": 2132,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3230643,
+        "demand": 3273476,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2132,
@@ -3861,9 +3861,9 @@
       {
         "price": 2284,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 9033360,
+        "demand": 9291633,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2284,
@@ -3912,9 +3912,9 @@
       {
         "price": 5500,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 993524,
+        "demand": 1037203,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 5500,
@@ -3977,9 +3977,9 @@
       {
         "price": 156979,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 10312,
+        "demand": 10504,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 156979,
@@ -4035,9 +4035,9 @@
       {
         "price": 51819,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18540,
+        "demand": 18785,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 51819,
@@ -4086,9 +4086,9 @@
       {
         "price": 1697,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 217251,
+        "demand": 227233,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1697,
@@ -4188,9 +4188,9 @@
       {
         "price": 194599,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 47241,
+        "demand": 49295,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 194599,
@@ -4267,9 +4267,9 @@
       {
         "price": 1507,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 518737,
+        "demand": 525615,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1507,
@@ -4318,9 +4318,9 @@
       {
         "price": 2379,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 2011443,
+        "demand": 2103857,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2379,
@@ -4420,9 +4420,9 @@
       {
         "price": 1776,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3123958,
+        "demand": 3165380,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1776,
@@ -4485,9 +4485,9 @@
       {
         "price": 1396,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 299547,
+        "demand": 303520,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1305,
@@ -4589,9 +4589,9 @@
       {
         "price": 2379,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 152880,
+        "demand": 159905,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2379,
@@ -4661,9 +4661,9 @@
       {
         "price": 24122,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 310065,
+        "demand": 314178,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 24122,
@@ -4726,9 +4726,9 @@
       {
         "price": 393863,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 6687,
+        "demand": 6954,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 393863,
@@ -4770,9 +4770,9 @@
       {
         "price": 2261,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 236193,
+        "demand": 246165,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2261,
@@ -4828,9 +4828,9 @@
       {
         "price": 1148,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 36401619,
+        "demand": 36884284,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1148,
@@ -4872,9 +4872,9 @@
       {
         "price": 5839,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 365796,
+        "demand": 382218,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 5839,
@@ -4930,9 +4930,9 @@
       {
         "price": 13946,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 220944,
+        "demand": 229486,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 13946,
@@ -4974,9 +4974,9 @@
       {
         "price": 42584,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18540,
+        "demand": 18785,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 42584,
@@ -5018,9 +5018,9 @@
       {
         "price": 40431,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1585625,
+        "demand": 1630843,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 40431,
@@ -5097,9 +5097,9 @@
       {
         "price": 49679,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 30159,
+        "demand": 30558,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 49679,
@@ -5199,9 +5199,9 @@
       {
         "price": 238931,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18540,
+        "demand": 18785,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 238931,
@@ -5294,9 +5294,9 @@
       {
         "price": 55291,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 288440,
+        "demand": 294369,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 55291,
@@ -5359,9 +5359,9 @@
       {
         "price": 1087,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 28163548,
+        "demand": 28536980,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1087,
@@ -5403,9 +5403,9 @@
       {
         "price": 1776,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 205181,
+        "demand": 214608,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1776,
@@ -5454,9 +5454,9 @@
       {
         "price": 8425,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1381797,
+        "demand": 1421332,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 8425,
@@ -5570,9 +5570,9 @@
       {
         "price": 13650,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 6656015,
+        "demand": 6953073,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 13650,
@@ -5635,9 +5635,9 @@
       {
         "price": 63109,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18540,
+        "demand": 18785,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 63109,
@@ -5700,9 +5700,9 @@
       {
         "price": 2151,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 21804,
+        "demand": 22092,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2151,
@@ -5802,9 +5802,9 @@
       {
         "price": 132665,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18540,
+        "demand": 18785,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 132665,
@@ -5846,9 +5846,9 @@
       {
         "price": 35655,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 883135,
+        "demand": 908344,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 35655,
@@ -5925,9 +5925,9 @@
       {
         "price": 150328,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18540,
+        "demand": 18785,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 150328,
@@ -5969,9 +5969,9 @@
       {
         "price": 1584,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 17756488,
+        "demand": 17991928,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1584,
@@ -6006,9 +6006,9 @@
       {
         "price": 4934,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 521927,
+        "demand": 528847,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 4861,
@@ -6036,9 +6036,9 @@
       {
         "price": 7520,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3553473,
+        "demand": 3653002,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 7520,
@@ -6073,9 +6073,9 @@
       {
         "price": 1265,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18618096,
+        "demand": 18864966,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1265,
@@ -6161,9 +6161,9 @@
       {
         "price": 7446,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 191923,
+        "demand": 199204,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 7446,
@@ -6212,9 +6212,9 @@
       {
         "price": 51207,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 151400,
+        "demand": 153407,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 51207,
@@ -6263,9 +6263,9 @@
       {
         "price": 14867,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1749457,
+        "demand": 1799476,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 14840,
@@ -6314,9 +6314,9 @@
       {
         "price": 2048,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 289820,
+        "demand": 300815,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1947,
@@ -6344,9 +6344,9 @@
       {
         "price": 3099,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 175633,
+        "demand": 183046,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 3099,
@@ -6395,9 +6395,9 @@
       {
         "price": 4390,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 2361307,
+        "demand": 2467475,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 4390,
@@ -6453,9 +6453,9 @@
       {
         "price": 12278,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 2050278,
+        "demand": 2140052,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 12278,
@@ -6525,9 +6525,9 @@
       {
         "price": 238931,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 18540,
+        "demand": 18785,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 238931,
@@ -6569,9 +6569,9 @@
       {
         "price": 5234,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 494836,
+        "demand": 501398,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 5158,
@@ -6659,9 +6659,9 @@
       {
         "price": 4103,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 9364,
+        "demand": 9679,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 4103,
@@ -6689,9 +6689,9 @@
       {
         "price": 7919,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 2961437,
+        "demand": 3045586,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 7917,
@@ -6733,9 +6733,9 @@
       {
         "price": 132375,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 8188,
+        "demand": 8531,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 132375,
@@ -6777,9 +6777,9 @@
       {
         "price": 578,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3379744,
+        "demand": 3430340,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 569,
@@ -6879,9 +6879,9 @@
       {
         "price": 724,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1465643,
+        "demand": 1498734,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 719,
@@ -6974,9 +6974,9 @@
       {
         "price": 209603,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1356,
+        "demand": 1373,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 209603,
@@ -7050,9 +7050,9 @@
       {
         "price": 4463,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 498493,
+        "demand": 505103,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 4163,
@@ -7115,9 +7115,9 @@
       {
         "price": 144176,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1356,
+        "demand": 1373,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 144176,
@@ -7152,9 +7152,9 @@
       {
         "price": 21284,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 261274,
+        "demand": 264737,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 21145,
@@ -7182,9 +7182,9 @@
       {
         "price": 7349,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 9778614,
+        "demand": 10192284,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 4883,
@@ -7212,9 +7212,9 @@
       {
         "price": 7420,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 366473,
+        "demand": 371333,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 7420,
@@ -7272,9 +7272,9 @@
       {
         "price": 13461,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3901421,
+        "demand": 4074121,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 13461,
@@ -7309,9 +7309,9 @@
       {
         "price": 50879,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 2313278,
+        "demand": 2378664,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 50860,
@@ -7367,9 +7367,9 @@
       {
         "price": 189989,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1356,
+        "demand": 1373,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 189989,
@@ -7397,9 +7397,9 @@
       {
         "price": 4522,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1263968,
+        "demand": 1280725,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 4522,
@@ -7439,11 +7439,11 @@
         "marketUpdated": "2026-09-26T05:36:49Z"
       },
       {
-        "price": 13071,
+        "price": 13072,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 144434,
+        "demand": 146571,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 12921,
@@ -7490,11 +7490,11 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
-        "price": 5460,
+        "price": 5473,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 422529,
+        "demand": 430766,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 807,
@@ -7573,9 +7573,9 @@
       {
         "price": 191307,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1356,
+        "demand": 1373,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 191307,
@@ -7640,9 +7640,9 @@
       {
         "price": 53719,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1209465,
+        "demand": 1253727,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 53719,
@@ -7817,17 +7817,17 @@
       },
       {
         "price": 172464,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 3065,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-29T17:00:47Z"
+      },
+      {
+        "price": 172464,
         "station": "Rival Monkeys Foundry",
         "demand": 3063,
         "marketId": 4388359171,
         "marketUpdated": "2026-09-29T04:45:02Z"
-      },
-      {
-        "price": 172464,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 2970,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
       },
       {
         "price": 172464,
@@ -7862,9 +7862,9 @@
       {
         "price": 5008,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 6011489,
+        "demand": 6278611,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 4905,
@@ -7927,9 +7927,9 @@
       {
         "price": 166524,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1356,
+        "demand": 1373,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 166524,
@@ -7971,9 +7971,9 @@
       {
         "price": 40729,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 4510131,
+        "demand": 4630943,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 40729,
@@ -8008,9 +8008,9 @@
       {
         "price": 3831,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 524513,
+        "demand": 531926,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 3667,
@@ -8052,9 +8052,9 @@
       {
         "price": 1860,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 326718,
+        "demand": 335404,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1829,
@@ -8120,6 +8120,13 @@
     "Black Box": [
       {
         "price": 31039,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 20785,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-29T17:00:47Z"
+      },
+      {
+        "price": 31039,
         "station": "Rivers Hub",
         "demand": 2035,
         "marketId": 4391607555,
@@ -8134,6 +8141,13 @@
       }
     ],
     "Damaged Escape Pod": [
+      {
+        "price": 16903,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 24160,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-29T17:00:47Z"
+      },
       {
         "price": 16903,
         "station": "Arkwright Vista",
@@ -8152,6 +8166,13 @@
     "Hostages": [
       {
         "price": 34584,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 12236,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-29T17:00:47Z"
+      },
+      {
+        "price": 34584,
         "station": "Rivers Hub",
         "demand": 944,
         "marketId": 4391607555,
@@ -8166,6 +8187,13 @@
       }
     ],
     "Occupied Escape Pod": [
+      {
+        "price": 30333,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 20785,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-29T17:00:47Z"
+      },
       {
         "price": 30333,
         "station": "Rivers Hub",
@@ -8184,6 +8212,13 @@
     "Personal Effects": [
       {
         "price": 9542,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 20785,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-29T17:00:47Z"
+      },
+      {
+        "price": 9542,
         "station": "Rivers Hub",
         "demand": 2035,
         "marketId": 4391607555,
@@ -8198,6 +8233,13 @@
       }
     ],
     "Wreckage Components": [
+      {
+        "price": 8965,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 28366,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-09-29T17:00:47Z"
+      },
       {
         "price": 8965,
         "station": "Arkwright Vista",
@@ -8217,9 +8259,9 @@
       {
         "price": 5831,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 67633,
+        "demand": 69648,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 5448,
@@ -8254,9 +8296,9 @@
       {
         "price": 1233,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 6923428,
+        "demand": 7096473,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 1028,
@@ -8286,9 +8328,9 @@
       {
         "price": 2783,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 193801,
+        "demand": 201982,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2783,
@@ -8311,9 +8353,9 @@
       {
         "price": 2639,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 136787,
+        "demand": 143073,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2639,
@@ -8327,9 +8369,9 @@
       {
         "price": 2936,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 140811,
+        "demand": 142678,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-26T00:27:06Z"
+        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2936,
