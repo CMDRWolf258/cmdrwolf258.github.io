@@ -1,0 +1,33 @@
+name: Curated POI compatibility checks
+
+on:
+  pull_request:
+    paths:
+      - 'functions/api/mining.js'
+      - 'lib/curated-poi.js'
+      - 'lib/mining-material.js'
+      - 'curated-mining.js'
+      - 'mining-database.js'
+      - 'scripts/test-curated-poi.mjs'
+      - '.github/workflows/curated-poi-tests.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'functions/api/mining.js'
+      - 'lib/curated-poi.js'
+      - 'lib/mining-material.js'
+      - 'curated-mining.js'
+      - 'mining-database.js'
+      - 'scripts/test-curated-poi.mjs'
+      - '.github/workflows/curated-poi-tests.yml'
+
+jobs:
+  curated-poi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify curated provider and legacy compatibility
+        run: node --experimental-default-type=module --test scripts/test-curated-poi.mjs

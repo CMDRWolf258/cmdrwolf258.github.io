@@ -1,6 +1,8 @@
 import { ensureMaterialSchema } from '../../lib/mining-material.js';
+import { miningRowsToPoiProvider } from '../../lib/curated-poi.js';
 
-export async function onRequestGet({ env }) {
+export async function onRequestGet({ request, env }) {
+  const poiFormat = request && new URL(request.url).searchParams.get('format') === 'poi';
   await ensureMaterialSchema(env);
 
   const result = await env.DB
@@ -16,6 +18,7 @@ export async function onRequestGet({ env }) {
         s.rigs,
         s.preferred,
         s.notes,
+        ${poiFormat ? 's.source, s.updated_at,' : ''}
         m.amount AS material_amount,
         m.updated_at AS material_updated_at,
         m.updated_by AS material_updated_by
@@ -30,6 +33,16 @@ export async function onRequestGet({ env }) {
         s.rigs DESC
     `)
     .all();
+
+  if (poiFormat) {
+    return Response.json(miningRowsToPoiProvider(result.results || []), {
+      headers: {
+        'Cache-Control': 'no-store',
+        // Curated locations are public; authenticated writer routes stay unchanged.
+        'Access-Control-Allow-Origin': '*',
+      },
+    });
+  }
 
   const miningData = (result.results || []).map(site => ({
     id: site.id,
@@ -53,3 +66,4 @@ export async function onRequestGet({ env }) {
     },
   });
 }
+
