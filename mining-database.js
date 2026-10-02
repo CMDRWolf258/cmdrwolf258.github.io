@@ -84,6 +84,13 @@
 
   async function loadMiningData() {
     try {
+      const { loadCuratedMiningData } = await import('./curated-mining.js');
+      return await loadCuratedMiningData({ origin: window.location.origin });
+    } catch (providerError) {
+      console.warn('Curated mining provider unavailable; trying legacy sources:', providerError);
+    }
+
+    try {
       const response = await fetch("/api/mining", { cache: "no-store" });
       if (!response.ok) throw new Error("Same-origin mining API unavailable.");
       const data = await response.json();
@@ -504,3 +511,4 @@
       resultsContainer.innerHTML = '<div class="faction-loading">Unable to load mining locations.</div>';
     });
 })();
+
