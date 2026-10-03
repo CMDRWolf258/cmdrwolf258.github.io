@@ -1,10 +1,10 @@
 {
-  "population": 4058684380,
+  "population": 4021956384,
   "controllingFaction": "Regiment of Imperial Mongrels",
   "factions": [
     {
       "name": "Regiment of Imperial Mongrels",
-      "influence": 0.693239,
+      "influence": 0.679112,
       "state": "None",
       "allegiance": "Empire",
       "government": "Dictatorship",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Daily Routine Incorporated",
-      "influence": 0.07669,
+      "influence": 0.090817,
       "state": "None",
       "allegiance": "Empire",
       "government": "Corporate",
@@ -39,5 +39,5 @@
       "controlling": false
     }
   ],
-  "lastUpdated": "2026-10-03T06:35:36.841613+00:00"
+  "lastUpdated": "2026-10-03T15:07:36.126635+00:00"
 }

@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-10-03T06:35:36.836134+00:00",
+  "generatedAt": "2026-10-03T15:07:36.122563+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -396,11 +396,11 @@
       "marketUpdated": "2026-08-30T17:10:51Z"
     },
     "Liquor": {
-      "price": 1134,
-      "station": "Eon Blue Apocalypse",
-      "demand": 67615,
-      "marketId": 4386105091,
-      "marketUpdated": "2026-10-03T03:28:10Z"
+      "price": 1136,
+      "station": "X Gateway",
+      "demand": 1613,
+      "marketId": 4394287619,
+      "marketUpdated": "2026-10-03T08:01:26Z"
     },
     "Lithium": {
       "price": 2284,
@@ -498,7 +498,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 4146874,
       "marketId": 4386105091,
-      "marketUpdated": "2026-10-03T03:28:10Z"
+      "marketUpdated": "2026-10-03T07:51:24Z"
     },
     "Modular Terminals": {
       "price": 2379,
@@ -1495,7 +1495,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 43213,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 7446,
@@ -1531,6 +1531,13 @@
         "demand": 1043,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 7446,
+        "station": "X Gateway",
+        "demand": 592,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 7446,
@@ -1604,7 +1611,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 264774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 66941,
@@ -1685,7 +1692,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1013048,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 586,
@@ -1693,6 +1700,13 @@
         "demand": 275652,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 561,
+        "station": "X Gateway",
+        "demand": 26147,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Beryllium": [
@@ -1723,6 +1737,13 @@
         "demand": 2020,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 42098,
+        "station": "X Gateway",
+        "demand": 3880,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Bioreducing Lichen": [
@@ -1789,7 +1810,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 810998,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2936,
@@ -1832,6 +1853,13 @@
         "demand": 757,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 2562,
+        "station": "X Gateway",
+        "demand": 4641,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Bootleg Liquor": [
@@ -1847,7 +1875,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 5996,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 625,
@@ -1898,7 +1926,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 536234,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 29983,
@@ -1937,6 +1965,13 @@
       },
       {
         "price": 29983,
+        "station": "X Gateway",
+        "demand": 7341,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 29983,
         "station": "Rivers Hub",
         "demand": 6463,
         "marketId": 4391607555,
@@ -1963,7 +1998,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 294764,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 6589,
@@ -1999,6 +2034,13 @@
         "demand": 2720,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 6128,
+        "station": "X Gateway",
+        "demand": 982,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 5876,
@@ -2049,7 +2091,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 444559,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 662,
@@ -2064,6 +2106,13 @@
         "demand": 52148,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 662,
+        "station": "X Gateway",
+        "demand": 7626,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Chemical Waste": [
@@ -2072,7 +2121,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 351232,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 610,
@@ -2140,11 +2189,18 @@
         "marketUpdated": "2026-09-25T02:31:57Z"
       },
       {
+        "price": 792,
+        "station": "X Gateway",
+        "demand": 25384,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 786,
         "station": "Eon Blue Apocalypse",
         "demand": 1316262,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 777,
@@ -2198,11 +2254,18 @@
         "marketUpdated": "2026-10-02T21:55:18Z"
       },
       {
+        "price": 1715,
+        "station": "X Gateway",
+        "demand": 1718,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 1501,
         "station": "Eon Blue Apocalypse",
         "demand": 70403,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       }
     ],
     "Combat Stabilisers": [
@@ -2255,7 +2318,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1204674,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
+      },
+      {
+        "price": 1026,
+        "station": "X Gateway",
+        "demand": 5558,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 999,
@@ -2300,6 +2370,13 @@
         "demand": 324586,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 658,
+        "station": "X Gateway",
+        "demand": 7478,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 543,
@@ -2383,6 +2460,13 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
+        "price": 658,
+        "station": "X Gateway",
+        "demand": 1100,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 546,
         "station": "Boltzmann Vision",
         "demand": 26941,
@@ -2410,7 +2494,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 758964,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2672,
@@ -2425,6 +2509,13 @@
         "demand": 47650,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 2413,
+        "station": "X Gateway",
+        "demand": 1260,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Cryolite": [
@@ -2440,7 +2531,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2696558,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 14130,
@@ -2476,6 +2567,13 @@
         "demand": 93939,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 14130,
+        "station": "X Gateway",
+        "demand": 31611,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 14130,
@@ -2519,7 +2617,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 264774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 34584,
@@ -2577,7 +2675,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 264774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 101134,
@@ -2614,7 +2712,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 393002,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 997,
@@ -2650,6 +2748,13 @@
         "demand": 58818,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 527,
+        "station": "X Gateway",
+        "demand": 1896,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Emergency Power Cells": [
@@ -2672,7 +2777,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 11606,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2783,
@@ -2716,7 +2821,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 103408,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 3099,
@@ -2759,6 +2864,13 @@
         "demand": 1743,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 3099,
+        "station": "X Gateway",
+        "demand": 1485,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Exhaust Manifold": [
@@ -2774,7 +2886,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 129637,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2261,
@@ -2813,6 +2925,13 @@
       },
       {
         "price": 2261,
+        "station": "X Gateway",
+        "demand": 1775,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 2261,
         "station": "Rivers Hub",
         "demand": 1563,
         "marketId": 4391607555,
@@ -2847,6 +2966,13 @@
         "demand": 665,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 300,
+        "station": "X Gateway",
+        "demand": 8459,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Fish": [
@@ -2879,11 +3005,18 @@
         "marketUpdated": "2026-10-02T21:55:18Z"
       },
       {
+        "price": 870,
+        "station": "X Gateway",
+        "demand": 18038,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 818,
         "station": "Eon Blue Apocalypse",
         "demand": 696288,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       }
     ],
     "Fruit and Vegetables": [
@@ -2932,6 +3065,13 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
+        "price": 25871,
+        "station": "X Gateway",
+        "demand": 1000,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 25351,
         "station": "Boltzmann Vision",
         "demand": 4600,
@@ -2952,7 +3092,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2963747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 7407,
@@ -2988,6 +3128,13 @@
         "demand": 7462,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 7407,
+        "station": "X Gateway",
+        "demand": 2632,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 7407,
@@ -3039,6 +3186,13 @@
         "demand": 376065,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 207,
+        "station": "X Gateway",
+        "demand": 9729,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "H.E. Suits": [
@@ -3133,7 +3287,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 135500,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2263,
@@ -3170,7 +3324,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 61806,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 7446,
@@ -3213,6 +3367,13 @@
         "demand": 1044,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 7446,
+        "station": "X Gateway",
+        "demand": 888,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Heatsink Interlink": [
@@ -3228,7 +3389,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 119665,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2504,
@@ -3267,6 +3428,13 @@
       },
       {
         "price": 2504,
+        "station": "X Gateway",
+        "demand": 1638,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 2504,
         "station": "Rivers Hub",
         "demand": 1442,
         "marketId": 4391607555,
@@ -3293,7 +3461,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4434,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 81295,
@@ -3330,7 +3498,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4434,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 76079,
@@ -3367,7 +3535,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 837590,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2967,
@@ -3413,6 +3581,13 @@
       },
       {
         "price": 2967,
+        "station": "X Gateway",
+        "demand": 1434,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 2967,
         "station": "Romano Territories",
         "demand": 554,
         "marketId": 4374917123,
@@ -3440,6 +3615,13 @@
         "demand": 26691,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 24209,
+        "station": "X Gateway",
+        "demand": 1926,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 23654,
@@ -3486,6 +3668,13 @@
         "marketUpdated": "2026-09-25T20:18:17Z"
       },
       {
+        "price": 11524,
+        "station": "X Gateway",
+        "demand": 2482,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 11523,
         "station": "Saturn Ascending",
         "demand": 30244,
@@ -3520,7 +3709,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 284757,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 149332,
@@ -3556,6 +3745,13 @@
         "demand": 4449,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 149332,
+        "station": "X Gateway",
+        "demand": 3998,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Jadeite": [
@@ -3578,7 +3774,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 70505,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 41559,
@@ -3614,6 +3810,13 @@
         "demand": 11694,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 41559,
+        "station": "X Gateway",
+        "demand": 1659,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 41559,
@@ -3687,7 +3890,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 970539,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 9542,
@@ -3716,6 +3919,13 @@
         "demand": 23412,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 9542,
+        "station": "X Gateway",
+        "demand": 13286,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 9542,
@@ -3766,7 +3976,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 243190,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
+      },
+      {
+        "price": 558,
+        "station": "X Gateway",
+        "demand": 2599,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Liquid oxygen": [
@@ -3813,6 +4030,13 @@
         "marketUpdated": "2026-08-27T22:23:33Z"
       },
       {
+        "price": 1535,
+        "station": "X Gateway",
+        "demand": 500,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 1364,
         "station": "Boltzmann Vision",
         "demand": 12240,
@@ -3822,11 +4046,18 @@
     ],
     "Liquor": [
       {
+        "price": 1136,
+        "station": "X Gateway",
+        "demand": 1613,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 1134,
         "station": "Eon Blue Apocalypse",
         "demand": 67615,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 1132,
@@ -3880,6 +4111,13 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
+        "price": 2240,
+        "station": "X Gateway",
+        "demand": 49423,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 2223,
         "station": "Boltzmann Vision",
         "demand": 32619,
@@ -3893,7 +4131,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1514186,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 5500,
@@ -3946,6 +4184,13 @@
       },
       {
         "price": 5500,
+        "station": "X Gateway",
+        "demand": 11217,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 5500,
         "station": "Boltzmann Vision",
         "demand": 2357,
         "marketId": 4392466179,
@@ -3986,7 +4231,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 16172,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 98112,
@@ -4044,7 +4289,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 264774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 32387,
@@ -4081,7 +4326,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 179498,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 1697,
@@ -4117,6 +4362,13 @@
         "demand": 4330,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 1697,
+        "station": "X Gateway",
+        "demand": 2457,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 1697,
@@ -4176,7 +4428,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 88076,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 194599,
@@ -4215,6 +4467,13 @@
       },
       {
         "price": 194599,
+        "station": "X Gateway",
+        "demand": 1245,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 194599,
         "station": "Arkwright Vista",
         "demand": 1147,
         "marketId": 4388504067,
@@ -4248,7 +4507,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1281159,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 1507,
@@ -4294,6 +4553,13 @@
       },
       {
         "price": 1507,
+        "station": "X Gateway",
+        "demand": 5684,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 1507,
         "station": "Boltzmann Vision",
         "demand": 1219,
         "marketId": 4392466179,
@@ -4313,7 +4579,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1661880,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2379,
@@ -4349,6 +4615,13 @@
         "demand": 40088,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 2379,
+        "station": "X Gateway",
+        "demand": 22749,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 2379,
@@ -4443,7 +4716,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 98631,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 1776,
@@ -4472,6 +4745,13 @@
         "demand": 2728,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 1776,
+        "station": "X Gateway",
+        "demand": 968,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Military Grade Fabrics": [
@@ -4510,7 +4790,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 533035,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 1057,
@@ -4546,6 +4826,13 @@
         "demand": 145773,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 589,
+        "station": "X Gateway",
+        "demand": 43444,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Mineral Oil": [
@@ -4554,7 +4841,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4146874,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 645,
@@ -4569,6 +4856,13 @@
         "demand": 34834,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 350,
+        "station": "X Gateway",
+        "demand": 921,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Modular Terminals": [
@@ -4584,7 +4878,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 126313,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2379,
@@ -4623,6 +4917,13 @@
       },
       {
         "price": 2379,
+        "station": "X Gateway",
+        "demand": 1730,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 2379,
         "station": "Rivers Hub",
         "demand": 1523,
         "marketId": 4391607555,
@@ -4656,7 +4957,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 144393,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 24122,
@@ -4695,6 +4996,13 @@
       },
       {
         "price": 24122,
+        "station": "X Gateway",
+        "demand": 3398,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 24122,
         "station": "Boltzmann Vision",
         "demand": 2427,
         "marketId": 4392466179,
@@ -4721,7 +5029,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 17782,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 196932,
@@ -4765,7 +5073,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 185415,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2261,
@@ -4811,6 +5119,13 @@
       },
       {
         "price": 2261,
+        "station": "X Gateway",
+        "demand": 2664,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 2261,
         "station": "Boltzmann Vision",
         "demand": 635,
         "marketId": 4392466179,
@@ -4847,11 +5162,18 @@
         "marketUpdated": "2026-10-03T05:05:47Z"
       },
       {
+        "price": 840,
+        "station": "X Gateway",
+        "demand": 10260,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 753,
         "station": "Eon Blue Apocalypse",
         "demand": 436098,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       }
     ],
     "Neofabric Insulation": [
@@ -4867,7 +5189,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 297985,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 5839,
@@ -4906,6 +5228,13 @@
       },
       {
         "price": 5839,
+        "station": "X Gateway",
+        "demand": 4134,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 5839,
         "station": "Rivers Hub",
         "demand": 3982,
         "marketId": 4391607555,
@@ -4939,7 +5268,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 645,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 13946,
@@ -4983,7 +5312,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 264774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 26615,
@@ -5020,7 +5349,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 643161,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 40431,
@@ -5070,6 +5399,13 @@
         "demand": 9979,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 40431,
+        "station": "X Gateway",
+        "demand": 9004,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Painite": [
@@ -5092,7 +5428,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 16342,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 49679,
@@ -5208,7 +5544,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 264774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 149332,
@@ -5296,7 +5632,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 128845,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 55291,
@@ -5342,6 +5678,13 @@
       },
       {
         "price": 55291,
+        "station": "X Gateway",
+        "demand": 2434,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 55291,
         "station": "Boltzmann Vision",
         "demand": 2048,
         "marketId": 4392466179,
@@ -5378,6 +5721,13 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
+        "price": 304,
+        "station": "X Gateway",
+        "demand": 3236,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 221,
         "station": "Boltzmann Vision",
         "demand": 35991,
@@ -5398,7 +5748,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 169525,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 1776,
@@ -5437,6 +5787,13 @@
       },
       {
         "price": 1776,
+        "station": "X Gateway",
+        "demand": 2321,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
+        "price": 1776,
         "station": "Rivers Hub",
         "demand": 2044,
         "marketId": 4391607555,
@@ -5456,7 +5813,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 555734,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 8425,
@@ -5506,6 +5863,13 @@
         "demand": 8080,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 8425,
+        "station": "X Gateway",
+        "demand": 7800,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Progenitor Cells": [
@@ -5565,7 +5929,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 6764356,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 13650,
@@ -5601,6 +5965,13 @@
         "demand": 99459,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 13650,
+        "station": "X Gateway",
+        "demand": 60069,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 13650,
@@ -5644,7 +6015,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 264774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 39443,
@@ -5702,7 +6073,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 10154,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2151,
@@ -5811,7 +6182,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 264774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 82916,
@@ -5862,7 +6233,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 353649,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 25468,
@@ -5898,6 +6269,13 @@
         "demand": 5526,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 25468,
+        "station": "X Gateway",
+        "demand": 4965,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Sapphire": [
@@ -5934,7 +6312,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 264774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 93955,
@@ -5993,6 +6371,13 @@
         "demand": 31647,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 1396,
+        "station": "X Gateway",
+        "demand": 5001,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Steel": [
@@ -6055,6 +6440,13 @@
         "marketUpdated": "2026-10-02T21:55:18Z"
       },
       {
+        "price": 6967,
+        "station": "X Gateway",
+        "demand": 2176,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 6675,
         "station": "Boltzmann Vision",
         "demand": 3694,
@@ -6090,6 +6482,13 @@
         "demand": 32678,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 343,
+        "station": "X Gateway",
+        "demand": 1292,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 252,
@@ -6156,7 +6555,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 128364,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 7446,
@@ -6207,7 +6606,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 70505,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 51207,
@@ -6243,6 +6642,13 @@
         "demand": 11694,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 51207,
+        "station": "X Gateway",
+        "demand": 1659,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 51207,
@@ -6282,6 +6688,13 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
+        "price": 14267,
+        "station": "X Gateway",
+        "demand": 2466,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 13876,
         "station": "Boltzmann Vision",
         "demand": 5974,
@@ -6319,11 +6732,18 @@
         "marketUpdated": "2026-10-02T21:55:18Z"
       },
       {
+        "price": 1971,
+        "station": "X Gateway",
+        "demand": 5900,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
+      },
+      {
         "price": 1901,
         "station": "Eon Blue Apocalypse",
         "demand": 252990,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       }
     ],
     "Telemetry Suite": [
@@ -6339,7 +6759,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 137874,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 3099,
@@ -6382,6 +6802,13 @@
         "demand": 2327,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 3099,
+        "station": "X Gateway",
+        "demand": 1981,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Thallium": [
@@ -6397,7 +6824,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 943949,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 4347,
@@ -6440,6 +6867,13 @@
         "demand": 1764,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 3935,
+        "station": "X Gateway",
+        "demand": 6477,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Thorium": [
@@ -6455,7 +6889,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 794642,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 12278,
@@ -6491,6 +6925,13 @@
         "demand": 19549,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 12278,
+        "station": "X Gateway",
+        "demand": 10936,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 12278,
@@ -6534,7 +6975,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 264774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 149332,
@@ -6608,7 +7049,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 110056,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 5126,
@@ -6616,6 +7057,13 @@
         "demand": 24447,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 5047,
+        "station": "X Gateway",
+        "demand": 2521,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Tritium": [
@@ -6647,7 +7095,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 14765,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 4103,
@@ -6706,6 +7154,13 @@
         "demand": 59886,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 7891,
+        "station": "X Gateway",
+        "demand": 16503,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Void Opal": [
@@ -6714,7 +7169,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 21106,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 132375,
@@ -6787,6 +7242,13 @@
         "demand": 129311,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 124,
+        "station": "X Gateway",
+        "demand": 1372,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Water Purifiers": [
@@ -6837,7 +7299,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1085011,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 774,
@@ -6852,6 +7314,13 @@
         "demand": 84953,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 300,
+        "station": "X Gateway",
+        "demand": 2684,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Wine": [
@@ -6881,7 +7350,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1067427,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 689,
@@ -6889,6 +7358,13 @@
         "demand": 290448,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 673,
+        "station": "X Gateway",
+        "demand": 27550,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Advanced Catalysers": [
@@ -6948,7 +7424,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 17398,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 209603,
@@ -6999,7 +7475,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 434802,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 800,
@@ -7059,7 +7535,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2677622,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 1468,
@@ -7089,7 +7565,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 17398,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 144176,
@@ -7147,7 +7623,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2481177,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 21145,
@@ -7214,7 +7690,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1968714,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 7378,
@@ -7274,7 +7750,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 3766769,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 13430,
@@ -7341,7 +7817,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 17398,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 189989,
@@ -7406,7 +7882,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 700207,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2222,
@@ -7436,7 +7912,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2745950,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 12940,
@@ -7487,7 +7963,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4035650,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 893,
@@ -7517,7 +7993,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 91925,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 4756,
@@ -7547,7 +8023,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 17398,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 191307,
@@ -7649,7 +8125,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 813015,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 53716,
@@ -7716,7 +8192,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 649477,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2903,
@@ -7738,6 +8214,13 @@
         "demand": 353713,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 2285,
+        "station": "X Gateway",
+        "demand": 948,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Reactive Armour": [
@@ -7799,7 +8282,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 17520,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 172464,
@@ -7871,7 +8354,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4404204,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 2486,
@@ -7901,7 +8384,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 17398,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 166524,
@@ -8003,7 +8486,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 5632827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
       },
       {
         "price": 3667,
@@ -8054,7 +8537,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 256222,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-03T03:28:10Z"
+        "marketUpdated": "2026-10-03T07:51:24Z"
+      },
+      {
+        "price": 1286,
+        "station": "X Gateway",
+        "demand": 1655,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Microbial Furnaces": [
