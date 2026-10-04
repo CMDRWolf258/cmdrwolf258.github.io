@@ -1,6 +1,5 @@
-import { ensureMiningNavigationSchema, mapCenter } from '../../../lib/mining-navigation.js';
+import { ensureMiningNavigationSchema, mapCenter, saveMiningCenterContext, TEN16_SYSTEM } from '../../../lib/mining-navigation.js';
 
-const TEN16_SYSTEM='NGC 2546 Sector UZ-G d10-16';
 const TEN16_ID64='560820275507';
 const SCOUT_AUTH_URL='https://mongrels-squadron.pages.dev/api/hud/auth';
 
@@ -63,11 +62,26 @@ export async function onRequestPost({request,env}){
     cleanText(auth.commander||'Mongrel HUD',100),
   ).run();
 
-  const row=await env.DB.prepare(`
+  let row=await env.DB.prepare(`
     SELECT id,body,body_type,signal,latitude,longitude,source,updated_at
     FROM mining_location_centers
     WHERE lower(body)=lower(?) AND signal=?
   `).bind(bodyName,signal).first();
+  if(row?.id){
+    await saveMiningCenterContext(
+      env,
+      row.id,
+      cleanText(body?.system,160)||TEN16_SYSTEM,
+      cleanText(body?.systemAddress,40)||null,
+    );
+    row=await env.DB.prepare(`
+      SELECT c.id,c.body,c.body_type,c.signal,c.latitude,c.longitude,c.source,c.updated_at,
+             x.system_name,x.system_address
+      FROM mining_location_centers c
+      LEFT JOIN mining_center_context x ON x.center_id=c.id
+      WHERE c.id=?
+    `).bind(row.id).first();
+  }
 
   return Response.json({
     ok:true,
