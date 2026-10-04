@@ -6,8 +6,10 @@ on:
       - 'functions/api/mining.js'
       - 'functions/api/hud/mining-report.js'
       - 'scripts/test-mining-navigation.mjs'
+      - 'scripts/test-mining-backend.mjs'
       - 'mining-admin.html'
       - 'lib/mining-navigation.js'
+      - 'lib/mining-diagnostics.js'
       - 'functions/api/admin/mining-reports/[id]/duplicate.js'
       - 'functions/api/admin/mining-reports.js'
       - 'functions/api/mining-centers.js'
@@ -23,6 +25,12 @@ on:
     paths:
       - 'functions/api/mining.js'
       - 'functions/api/hud/mining-report.js'
+      - 'functions/api/hud/mining-center.js'
+      - 'functions/api/mining-centers.js'
+      - 'lib/mining-navigation.js'
+      - 'lib/mining-diagnostics.js'
+      - 'scripts/test-mining-navigation.mjs'
+      - 'scripts/test-mining-backend.mjs'
       - 'lib/curated-poi.js'
       - 'lib/mining-material.js'
       - 'curated-mining.js'
@@ -49,3 +57,5 @@ jobs:
           node --check 'functions/api/admin/mining-reports/[id]/duplicate.js'
       - name: Verify mining navigation and duplicate threshold
         run: node --experimental-default-type=module --test scripts/test-mining-navigation.mjs
+      - name: Verify D1 diagnostics and shared center persistence
+        run: node --experimental-default-type=module --test scripts/test-mining-backend.mjs
