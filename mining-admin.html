@@ -212,6 +212,37 @@
       border-top: 1px solid var(--border);
     }
 
+    .duplicate-review {
+      margin-top: 16px;
+      padding: 14px;
+      border: 1px solid rgba(255, 178, 41, 0.45);
+      background: rgba(255, 178, 41, 0.05);
+    }
+
+    .duplicate-review h5 {
+      margin: 0 0 10px;
+      color: var(--orange);
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .duplicate-columns {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .duplicate-entry {
+      border: 1px solid var(--border);
+      padding: 12px;
+      background: var(--bg-secondary);
+    }
+
+    .duplicate-entry strong {
+      color: var(--orange);
+    }
+
     .report-review textarea {
       min-height: 80px;
       resize: vertical;
@@ -242,7 +273,8 @@
     }
 
     @media (max-width: 720px) {
-      .report-grid {
+      .report-grid,
+      .duplicate-columns {
         grid-template-columns: 1fr;
       }
 
@@ -566,6 +598,44 @@
           notes.textContent = `Survey notes: ${report.notes}`;
           card.appendChild(notes);
         }
+        if (report.reportType === "duplicate" && report.duplicateExisting) {
+          const duplicate = document.createElement("div");
+          duplicate.className = "duplicate-review";
+
+          const heading = document.createElement("h5");
+          const distance = Number(report.duplicateDistanceMeters);
+          heading.textContent = Number.isFinite(distance)
+            ? `Possible duplicate · ${Math.round(distance)} m apart`
+            : "Possible duplicate";
+          duplicate.appendChild(heading);
+
+          const columns = document.createElement("div");
+          columns.className = "duplicate-columns";
+
+          const existing = document.createElement("div");
+          existing.className = "duplicate-entry";
+          existing.innerHTML = `
+            <strong>Existing #${escapeHtml(report.duplicateExisting.id)}</strong><br>
+            Signal #${escapeHtml(report.duplicateExisting.signal)} · ${escapeHtml(report.duplicateExisting.commodity)}<br>
+            ${escapeHtml(report.duplicateExisting.latitude)}, ${escapeHtml(report.duplicateExisting.longitude)}<br>
+            ${escapeHtml(report.duplicateExisting.rigs ?? "—")} rigs
+            ${report.duplicateExisting.notes ? `<p class="report-notes">${escapeHtml(report.duplicateExisting.notes)}</p>` : ""}
+          `;
+
+          const incoming = document.createElement("div");
+          incoming.className = "duplicate-entry";
+          incoming.innerHTML = `
+            <strong>New Report #${escapeHtml(report.id)}</strong><br>
+            Signal #${escapeHtml(report.signal)} · ${escapeHtml(report.commodity)}<br>
+            ${escapeHtml(report.latitude)}, ${escapeHtml(report.longitude)}<br>
+            ${escapeHtml(report.rigs ?? "—")} rigs
+            ${report.notes ? `<p class="report-notes">${escapeHtml(report.notes)}</p>` : ""}
+          `;
+
+          columns.append(existing, incoming);
+          duplicate.appendChild(columns);
+          card.appendChild(duplicate);
+        }
 
         if (report.reviewNotes) {
           const reviewNotes = document.createElement("p");
@@ -574,7 +644,7 @@
           card.appendChild(reviewNotes);
         }
 
-        if (report.status === "pending") {
+        if (report.status === "pending" && report.reportType !== "duplicate") {
           const review = document.createElement("div");
           review.className = "report-review";
 
@@ -614,7 +684,78 @@
           card.appendChild(review);
         }
 
+        if (report.status === "pending" && report.reportType === "duplicate" && report.duplicateExisting) {
+          const review = document.createElement("div");
+          review.className = "report-review";
+
+          const field = document.createElement("div");
+          field.className = "admin-field";
+          const label = document.createElement("label");
+          label.textContent = "Review Notes";
+          const textarea = document.createElement("textarea");
+          textarea.placeholder = "Optional reason for choosing one entry...";
+          field.append(label, textarea);
+
+          const actions = document.createElement("div");
+          actions.className = "report-actions";
+
+          const keepExisting = document.createElement("button");
+          keepExisting.className = "admin-button secondary";
+          keepExisting.type = "button";
+          keepExisting.textContent = `Keep Existing #${report.duplicateExisting.id}`;
+
+          const keepNew = document.createElement("button");
+          keepNew.className = "admin-button";
+          keepNew.type = "button";
+          keepNew.textContent = "Keep New Report";
+
+          keepExisting.addEventListener("click", () => {
+            resolveDuplicate(report, "existing", textarea.value, keepExisting, keepNew);
+          });
+          keepNew.addEventListener("click", () => {
+            resolveDuplicate(report, "new", textarea.value, keepExisting, keepNew);
+          });
+
+          actions.append(keepExisting, keepNew);
+          review.append(field, actions);
+          card.appendChild(review);
+        }
+
         reportList.appendChild(card);
+      }
+
+      async function resolveDuplicate(report, choice, reviewNotes, keepExisting, keepNew) {
+        const label = choice === "new" ? "new report" : "existing entry";
+        if (!window.confirm(`Keep the ${label} for duplicate report #${report.id}?`)) return;
+
+        keepExisting.disabled = true;
+        keepNew.disabled = true;
+        setReviewStatus(`Resolving duplicate report #${report.id}...`);
+
+        try {
+          const response = await fetch(
+            `/api/admin/mining-reports/${report.id}/duplicate`,
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ choice, reviewNotes: reviewNotes.trim() })
+            }
+          );
+          const result = await response.json();
+          if (!response.ok || !result.ok) {
+            throw new Error(result.message || "Unable to resolve duplicate.");
+          }
+          setReviewStatus(
+            `Duplicate #${report.id} resolved · kept ${choice === "new" ? "new report" : "existing entry"}.`,
+            "success"
+          );
+          await loadReports();
+        } catch (error) {
+          console.error("Duplicate review error:", error);
+          setReviewStatus(error.message || "Unable to resolve duplicate.", "error");
+          keepExisting.disabled = false;
+          keepNew.disabled = false;
+        }
       }
 
       async function reviewReport(report, action, reviewNotes, approveButton, rejectButton) {
