@@ -1,6 +1,5 @@
-import { ensureMiningNavigationSchema, findClosestDepositDuplicate } from '../../../lib/mining-navigation.js';
+import { ensureMiningNavigationSchema, findClosestDepositDuplicate, saveMiningSiteContext, TEN16_SYSTEM } from '../../../lib/mining-navigation.js';
 
-const TEN16_SYSTEM='NGC 2546 Sector UZ-G d10-16';
 const TEN16_ID64='560820275507';
 const SCOUT_AUTH_URL='https://mongrels-squadron.pages.dev/api/hud/auth';
 
@@ -47,7 +46,10 @@ export async function onRequestPost({request,env}){
   const submittedBy=cleanText(auth.commander||'Mongrel HUD',100);
 
   await ensureMiningNavigationSchema(env);
+  const systemName=cleanText(body?.system,160)||TEN16_SYSTEM;
+  const systemAddress=cleanText(body?.systemAddress,40)||null;
   const duplicate=await findClosestDepositDuplicate(env,{
+    systemName,
     body:bodyName,
     commodity,
     signal,
@@ -89,12 +91,19 @@ export async function onRequestPost({request,env}){
     const result=await env.DB.prepare(insertSql).bind(commodity,bodyName,bodyType,signal,latitude,longitude,rigs,notes).run();
     siteId=result.meta?.last_row_id??null;
   }
-  const site=siteId?await env.DB.prepare('SELECT id,commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes FROM mining_sites WHERE id=?').bind(siteId).first():null;
+  if(siteId)await saveMiningSiteContext(env,siteId,systemName,systemAddress);
+  const site=siteId?await env.DB.prepare(`
+    SELECT s.id,s.commodity,s.body,s.body_type,s.signal,s.latitude,s.longitude,s.rigs,s.preferred,s.notes,
+           c.system_name,c.system_address
+    FROM mining_sites s
+    LEFT JOIN mining_site_context c ON c.site_id=s.id
+    WHERE s.id=?
+  `).bind(siteId).first():null;
   return Response.json({ok:true,status:placeholder?.id?'updated':'added',site:sitePayload(site),message:'Mining deposit saved to the curated 10-16 database.'},{status:201,headers:{'Cache-Control':'no-store'}});
 }
 
 function bad(error){return Response.json({ok:false,error},{status:400,headers:{'Cache-Control':'no-store'}});}
 function sitePayload(site){
   if(!site)return null;
-  return{id:site.id,commodity:site.commodity,body:site.body,bodyType:site.body_type,signal:site.signal,latitude:site.latitude,longitude:site.longitude,rigs:site.rigs,preferred:Boolean(site.preferred),notes:site.notes||''};
+  return{id:site.id,systemName:site.system_name||TEN16_SYSTEM,systemAddress:site.system_address||null,commodity:site.commodity,body:site.body,bodyType:site.body_type,signal:site.signal,latitude:site.latitude,longitude:site.longitude,rigs:site.rigs,preferred:Boolean(site.preferred),notes:site.notes||''};
 }
