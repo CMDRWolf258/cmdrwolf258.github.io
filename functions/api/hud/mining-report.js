@@ -57,8 +57,8 @@ export async function onRequestPost({request,env}){
   const placeholder=await env.DB.prepare(placeholderSql).bind(commodity,bodyName,signal).first();
   let siteId;
   if(placeholder?.id){
-    const updateSql="UPDATE mining_sites SET body_type=?,latitude=?,longitude=?,rigs=?,notes=?,source='hud-report',updated_at=CURRENT_TIMESTAMP WHERE id=?";
-    await env.DB.prepare(updateSql).bind(bodyType,latitude,longitude,rigs,notes,placeholder.id).run();
+    const updateSql="UPDATE mining_sites SET body_type=?,latitude=?,longitude=?,rigs=?,notes=CASE WHEN ?<>'' THEN ? ELSE notes END,source='hud-report',updated_at=CURRENT_TIMESTAMP WHERE id=?";
+    await env.DB.prepare(updateSql).bind(bodyType,latitude,longitude,rigs,notes,notes,placeholder.id).run();
     siteId=placeholder.id;
   }else{
     const insertSql="INSERT INTO mining_sites (commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes,source,created_at,updated_at) VALUES (?,?,?,?,?,?,?,0,?,'hud-report',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)";
