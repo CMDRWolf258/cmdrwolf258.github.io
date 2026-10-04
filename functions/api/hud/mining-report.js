@@ -50,6 +50,7 @@ export async function onRequestPost({request,env}){
   const duplicate=await findClosestDepositDuplicate(env,{
     body:bodyName,
     commodity,
+    signal,
     latitude,
     longitude,
     radiusMeters:planetRadius,
