@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'functions/api/mining.js'
+      - 'functions/api/hud/mining-report.js'
       - 'lib/curated-poi.js'
       - 'lib/mining-material.js'
       - 'curated-mining.js'
@@ -14,6 +15,7 @@ on:
     branches: [main]
     paths:
       - 'functions/api/mining.js'
+      - 'functions/api/hud/mining-report.js'
       - 'lib/curated-poi.js'
       - 'lib/mining-material.js'
       - 'curated-mining.js'
@@ -31,3 +33,5 @@ jobs:
           node-version: 22
       - name: Verify curated provider and legacy compatibility
         run: node --experimental-default-type=module --test scripts/test-curated-poi.mjs
+      - name: Verify HUD mining endpoint syntax
+        run: node --check functions/api/hud/mining-report.js
