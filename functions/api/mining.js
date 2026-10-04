@@ -1,6 +1,6 @@
 import { ensureMaterialSchema } from '../../lib/mining-material.js';
 import { miningRowsToPoiProvider } from '../../lib/curated-poi.js';
-import { ensureMiningNavigationSchema, TEN16_SYSTEM } from '../../lib/mining-navigation.js';
+import { ensureMiningNavigationSchema, TEN16_ID64, TEN16_SYSTEM } from '../../lib/mining-navigation.js';
 
 export async function onRequestGet({ request, env }) {
   const poiFormat = request && new URL(request.url).searchParams.get('format') === 'poi';
@@ -70,7 +70,7 @@ export async function onRequestGet({ request, env }) {
   const miningData = (result.results || []).map(site => ({
     id: site.id,
     systemName: site.system_name || TEN16_SYSTEM,
-    systemAddress: site.system_address || null,
+    systemAddress: site.system_address || TEN16_ID64,
     commodity: site.commodity,
     body: site.body,
     bodyType: site.body_type,
