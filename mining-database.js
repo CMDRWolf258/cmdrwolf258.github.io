@@ -11,6 +11,8 @@
     return;
   }
 
+  const DEFAULT_SYSTEM_NAME = "NGC 2546 Sector UZ-G d10-16";
+
   const marketNameMap = {
     Diamonds: "Diamond",
     LTD: "Low Temperature Diamonds"
@@ -308,6 +310,7 @@
 
         const haystack = normalizeSearch([
           site.commodity,
+          site.systemName || DEFAULT_SYSTEM_NAME,
           formatBody(site),
           site.body,
           `#${site.signal}`,
@@ -326,6 +329,13 @@
       function sortSites(sites) {
         sites.sort((a, b) => {
           if (a.preferred !== b.preferred) return a.preferred ? -1 : 1;
+
+          const systemComparison = String(a.systemName || DEFAULT_SYSTEM_NAME).localeCompare(
+            String(b.systemName || DEFAULT_SYSTEM_NAME),
+            undefined,
+            { sensitivity: "base" }
+          );
+          if (systemComparison !== 0) return systemComparison;
 
           const bodyComparison = String(a.body).localeCompare(String(b.body), undefined, {
             numeric: true,
@@ -375,7 +385,7 @@
               <p class="mining-site-count"></p>
             `;
 
-            card.querySelector("h4").textContent = `${formatBody(site)} — Signal #${site.signal}`;
+            card.querySelector("h4").textContent = `${site.systemName || DEFAULT_SYSTEM_NAME} · ${formatBody(site)} — Signal #${site.signal}`;
             card.querySelector(".mining-coordinates").textContent = hasCoordinates(site)
               ? `Coordinates: ${site.latitude}, ${site.longitude}`
               : "Coordinates: Not yet recorded";
@@ -403,7 +413,7 @@
 
         const bodyGroups = {};
         sites.forEach(site => {
-          const bodyKey = `${site.bodyType}:${site.body}`;
+          const bodyKey = `${site.systemName || DEFAULT_SYSTEM_NAME}:${site.bodyType}:${site.body}`;
           (bodyGroups[bodyKey] ||= []).push(site);
         });
 
@@ -413,7 +423,7 @@
 
           const bodyHeading = document.createElement("h3");
           bodyHeading.className = "mining-body-heading";
-          bodyHeading.textContent = formatBody(bodySites[0]);
+          bodyHeading.textContent = `${bodySites[0].systemName || DEFAULT_SYSTEM_NAME} · ${formatBody(bodySites[0])}`;
           bodyGroup.appendChild(bodyHeading);
 
           const signalGroups = {};
