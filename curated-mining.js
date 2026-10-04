@@ -21,6 +21,8 @@ export function poiProviderToMiningSites(provider) {
 
       return {
         id: location.legacySiteId,
+        systemName: provider.systemName || 'NGC 2546 Sector UZ-G d10-16',
+        systemAddress: provider.systemId64 || null,
         commodity: location.commodities[0],
         body: location.bodyName,
         bodyType: mining.bodyType,
