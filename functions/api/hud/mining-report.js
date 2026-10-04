@@ -1,3 +1,5 @@
+import { ensureMiningNavigationSchema, findClosestDepositDuplicate } from '../../../lib/mining-navigation.js';
+
 const TEN16_SYSTEM='NGC 2546 Sector UZ-G d10-16';
 const TEN16_ID64='560820275507';
 const SCOUT_AUTH_URL='https://mongrels-squadron.pages.dev/api/hud/auth';
@@ -32,7 +34,7 @@ export async function onRequestPost({request,env}){
   const commodity=cleanText(body?.commodity,100);
   const bodyName=normalizeBody(body?.body);
   const bodyType=cleanText(body?.bodyType,20).toLowerCase()||inferBodyType(bodyName);
-  const signal=numberOrNull(body?.signal), latitude=numberOrNull(body?.latitude), longitude=numberOrNull(body?.longitude), rigs=numberOrNull(body?.rigs);
+  const signal=numberOrNull(body?.signal), latitude=numberOrNull(body?.latitude), longitude=numberOrNull(body?.longitude), rigs=numberOrNull(body?.rigs), planetRadius=numberOrNull(body?.planetRadius);
   const notes=cleanText(body?.notes,1000);
   if(!commodity)return bad('commodity_required');
   if(!bodyName)return bad('body_required');
@@ -41,6 +43,7 @@ export async function onRequestPost({request,env}){
   if(latitude===null||latitude<-90||latitude>90)return bad('invalid_latitude');
   if(longitude===null||longitude<-180||longitude>180)return bad('invalid_longitude');
   if(rigs!==null&&(!Number.isInteger(rigs)||rigs<0||rigs>100))return bad('invalid_rig_count');
+  if(planetRadius!==null&&planetRadius<=0)return bad('invalid_planet_radius');
   const submittedBy=cleanText(auth.commander||'Mongrel HUD',100);
 
   if(auth.access!=='site_admin'){
