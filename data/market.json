@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-10-03T22:23:37.782958+00:00",
+  "generatedAt": "2026-10-04T03:47:00.125337+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -396,11 +396,11 @@
       "marketUpdated": "2026-08-30T17:10:51Z"
     },
     "Liquor": {
-      "price": 1136,
+      "price": 1135,
       "station": "X Gateway",
-      "demand": 1613,
+      "demand": 2633,
       "marketId": 4394287619,
-      "marketUpdated": "2026-10-03T08:01:26Z"
+      "marketUpdated": "2026-10-04T01:46:16Z"
     },
     "Lithium": {
       "price": 2284,
@@ -1352,6 +1352,13 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
+        "price": 2722,
+        "station": "X Gateway",
+        "demand": 630,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
         "price": 2527,
         "station": "Boltzmann Vision",
         "demand": 2875,
@@ -1535,9 +1542,9 @@
       {
         "price": 7446,
         "station": "X Gateway",
-        "demand": 592,
+        "demand": 967,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 7446,
@@ -1704,9 +1711,9 @@
       {
         "price": 561,
         "station": "X Gateway",
-        "demand": 26147,
+        "demand": 42731,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Beryllium": [
@@ -1741,9 +1748,9 @@
       {
         "price": 42098,
         "station": "X Gateway",
-        "demand": 3880,
+        "demand": 6341,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Bioreducing Lichen": [
@@ -1857,9 +1864,9 @@
       {
         "price": 2562,
         "station": "X Gateway",
-        "demand": 4641,
+        "demand": 7586,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Bootleg Liquor": [
@@ -1966,9 +1973,9 @@
       {
         "price": 29983,
         "station": "X Gateway",
-        "demand": 7341,
+        "demand": 11998,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 29983,
@@ -2038,9 +2045,9 @@
       {
         "price": 6128,
         "station": "X Gateway",
-        "demand": 982,
+        "demand": 1604,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 5876,
@@ -2110,9 +2117,9 @@
       {
         "price": 662,
         "station": "X Gateway",
-        "demand": 7626,
+        "demand": 12464,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Chemical Waste": [
@@ -2157,6 +2164,13 @@
         "demand": 2925,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 610,
+        "station": "X Gateway",
+        "demand": 506,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Clothing": [
@@ -2191,9 +2205,9 @@
       {
         "price": 792,
         "station": "X Gateway",
-        "demand": 25384,
+        "demand": 41486,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 786,
@@ -2254,11 +2268,11 @@
         "marketUpdated": "2026-10-02T21:55:18Z"
       },
       {
-        "price": 1715,
+        "price": 1714,
         "station": "X Gateway",
-        "demand": 1718,
+        "demand": 2804,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 1501,
@@ -2323,9 +2337,9 @@
       {
         "price": 1026,
         "station": "X Gateway",
-        "demand": 5558,
+        "demand": 9084,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 999,
@@ -2374,9 +2388,9 @@
       {
         "price": 658,
         "station": "X Gateway",
-        "demand": 7478,
+        "demand": 12221,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 543,
@@ -2462,9 +2476,9 @@
       {
         "price": 658,
         "station": "X Gateway",
-        "demand": 1100,
+        "demand": 1798,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 546,
@@ -2513,9 +2527,9 @@
       {
         "price": 2413,
         "station": "X Gateway",
-        "demand": 1260,
+        "demand": 2058,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Cryolite": [
@@ -2571,9 +2585,9 @@
       {
         "price": 14130,
         "station": "X Gateway",
-        "demand": 31611,
+        "demand": 51666,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 14130,
@@ -2752,9 +2766,9 @@
       {
         "price": 527,
         "station": "X Gateway",
-        "demand": 1896,
+        "demand": 3097,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Emergency Power Cells": [
@@ -2860,17 +2874,17 @@
       },
       {
         "price": 3099,
+        "station": "X Gateway",
+        "demand": 2427,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
+        "price": 3099,
         "station": "Rivers Hub",
         "demand": 1743,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 3099,
-        "station": "X Gateway",
-        "demand": 1485,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Exhaust Manifold": [
@@ -2926,9 +2940,9 @@
       {
         "price": 2261,
         "station": "X Gateway",
-        "demand": 1775,
+        "demand": 2901,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2261,
@@ -2970,9 +2984,9 @@
       {
         "price": 300,
         "station": "X Gateway",
-        "demand": 8459,
+        "demand": 13826,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Fish": [
@@ -3007,9 +3021,9 @@
       {
         "price": 870,
         "station": "X Gateway",
-        "demand": 18038,
+        "demand": 29476,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 818,
@@ -3067,9 +3081,9 @@
       {
         "price": 25871,
         "station": "X Gateway",
-        "demand": 1000,
+        "demand": 1634,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 25351,
@@ -3132,9 +3146,9 @@
       {
         "price": 7407,
         "station": "X Gateway",
-        "demand": 2632,
+        "demand": 4302,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 7407,
@@ -3190,9 +3204,9 @@
       {
         "price": 207,
         "station": "X Gateway",
-        "demand": 9729,
+        "demand": 15900,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "H.E. Suits": [
@@ -3304,6 +3318,13 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
+        "price": 2022,
+        "station": "X Gateway",
+        "demand": 795,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
         "price": 1981,
         "station": "Saturn Ascending",
         "demand": 33230,
@@ -3363,17 +3384,17 @@
       },
       {
         "price": 7446,
+        "station": "X Gateway",
+        "demand": 1452,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
+        "price": 7446,
         "station": "Rivers Hub",
         "demand": 1044,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 7446,
-        "station": "X Gateway",
-        "demand": 888,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Heatsink Interlink": [
@@ -3429,9 +3450,9 @@
       {
         "price": 2504,
         "station": "X Gateway",
-        "demand": 1638,
+        "demand": 2678,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2504,
@@ -3582,9 +3603,9 @@
       {
         "price": 2967,
         "station": "X Gateway",
-        "demand": 1434,
+        "demand": 2344,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2967,
@@ -3619,9 +3640,9 @@
       {
         "price": 24209,
         "station": "X Gateway",
-        "demand": 1926,
+        "demand": 3147,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 23654,
@@ -3668,18 +3689,18 @@
         "marketUpdated": "2026-09-25T20:18:17Z"
       },
       {
-        "price": 11524,
-        "station": "X Gateway",
-        "demand": 2482,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
-      },
-      {
         "price": 11523,
         "station": "Saturn Ascending",
         "demand": 30244,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
+      },
+      {
+        "price": 11523,
+        "station": "X Gateway",
+        "demand": 4054,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Iridium": [
@@ -3741,17 +3762,17 @@
       },
       {
         "price": 149332,
+        "station": "X Gateway",
+        "demand": 6533,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
+        "price": 149332,
         "station": "Boltzmann Vision",
         "demand": 4449,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
-      },
-      {
-        "price": 149332,
-        "station": "X Gateway",
-        "demand": 3998,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Jadeite": [
@@ -3814,9 +3835,9 @@
       {
         "price": 41559,
         "station": "X Gateway",
-        "demand": 1659,
+        "demand": 2712,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 41559,
@@ -3923,9 +3944,9 @@
       {
         "price": 9542,
         "station": "X Gateway",
-        "demand": 13286,
+        "demand": 21715,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 9542,
@@ -3972,18 +3993,18 @@
         "marketUpdated": "2026-10-02T21:55:18Z"
       },
       {
+        "price": 572,
+        "station": "X Gateway",
+        "demand": 4415,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
         "price": 561,
         "station": "Eon Blue Apocalypse",
         "demand": 243190,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-03T07:51:24Z"
-      },
-      {
-        "price": 558,
-        "station": "X Gateway",
-        "demand": 2599,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Liquid oxygen": [
@@ -4032,9 +4053,9 @@
       {
         "price": 1535,
         "station": "X Gateway",
-        "demand": 500,
+        "demand": 817,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 1364,
@@ -4046,11 +4067,11 @@
     ],
     "Liquor": [
       {
-        "price": 1136,
+        "price": 1135,
         "station": "X Gateway",
-        "demand": 1613,
+        "demand": 2633,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 1134,
@@ -4113,9 +4134,9 @@
       {
         "price": 2240,
         "station": "X Gateway",
-        "demand": 49423,
+        "demand": 80779,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2223,
@@ -4177,17 +4198,17 @@
       },
       {
         "price": 5500,
+        "station": "X Gateway",
+        "demand": 18332,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
+        "price": 5500,
         "station": "Rivers Hub",
         "demand": 13193,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 5500,
-        "station": "X Gateway",
-        "demand": 11217,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 5500,
@@ -4366,9 +4387,9 @@
       {
         "price": 1697,
         "station": "X Gateway",
-        "demand": 2457,
+        "demand": 4017,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 1697,
@@ -4468,9 +4489,9 @@
       {
         "price": 194599,
         "station": "X Gateway",
-        "demand": 1245,
+        "demand": 2034,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 194599,
@@ -4554,9 +4575,9 @@
       {
         "price": 1507,
         "station": "X Gateway",
-        "demand": 5684,
+        "demand": 9290,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 1507,
@@ -4619,9 +4640,9 @@
       {
         "price": 2379,
         "station": "X Gateway",
-        "demand": 22749,
+        "demand": 37183,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2379,
@@ -4749,9 +4770,9 @@
       {
         "price": 1776,
         "station": "X Gateway",
-        "demand": 968,
+        "demand": 1582,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Military Grade Fabrics": [
@@ -4830,9 +4851,9 @@
       {
         "price": 589,
         "station": "X Gateway",
-        "demand": 43444,
+        "demand": 71007,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Mineral Oil": [
@@ -4860,9 +4881,9 @@
       {
         "price": 350,
         "station": "X Gateway",
-        "demand": 921,
+        "demand": 1505,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Modular Terminals": [
@@ -4918,9 +4939,9 @@
       {
         "price": 2379,
         "station": "X Gateway",
-        "demand": 1730,
+        "demand": 2826,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2379,
@@ -4997,9 +5018,9 @@
       {
         "price": 24122,
         "station": "X Gateway",
-        "demand": 3398,
+        "demand": 5553,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 24122,
@@ -5112,17 +5133,17 @@
       },
       {
         "price": 2261,
+        "station": "X Gateway",
+        "demand": 4351,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
+        "price": 2261,
         "station": "Rivers Hub",
         "demand": 3128,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 2261,
-        "station": "X Gateway",
-        "demand": 2664,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 2261,
@@ -5164,9 +5185,9 @@
       {
         "price": 840,
         "station": "X Gateway",
-        "demand": 10260,
+        "demand": 16770,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 753,
@@ -5229,9 +5250,9 @@
       {
         "price": 5839,
         "station": "X Gateway",
-        "demand": 4134,
+        "demand": 6756,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 5839,
@@ -5388,6 +5409,13 @@
       },
       {
         "price": 40431,
+        "station": "X Gateway",
+        "demand": 14713,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
+        "price": 40431,
         "station": "Rivers Hub",
         "demand": 9990,
         "marketId": 4391607555,
@@ -5399,13 +5427,6 @@
         "demand": 9979,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
-      },
-      {
-        "price": 40431,
-        "station": "X Gateway",
-        "demand": 9004,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Painite": [
@@ -5679,9 +5700,9 @@
       {
         "price": 55291,
         "station": "X Gateway",
-        "demand": 2434,
+        "demand": 3978,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 55291,
@@ -5723,9 +5744,9 @@
       {
         "price": 304,
         "station": "X Gateway",
-        "demand": 3236,
+        "demand": 5288,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 221,
@@ -5788,9 +5809,9 @@
       {
         "price": 1776,
         "station": "X Gateway",
-        "demand": 2321,
+        "demand": 3793,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 1776,
@@ -5852,6 +5873,13 @@
       },
       {
         "price": 8425,
+        "station": "X Gateway",
+        "demand": 12748,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
+        "price": 8425,
         "station": "Boltzmann Vision",
         "demand": 8682,
         "marketId": 4392466179,
@@ -5863,13 +5891,6 @@
         "demand": 8080,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 8425,
-        "station": "X Gateway",
-        "demand": 7800,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Progenitor Cells": [
@@ -5969,9 +5990,9 @@
       {
         "price": 13650,
         "station": "X Gateway",
-        "demand": 60069,
+        "demand": 98181,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 13650,
@@ -6265,17 +6286,17 @@
       },
       {
         "price": 25468,
+        "station": "X Gateway",
+        "demand": 8113,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
+        "price": 25468,
         "station": "Boltzmann Vision",
         "demand": 5526,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
-      },
-      {
-        "price": 25468,
-        "station": "X Gateway",
-        "demand": 4965,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Sapphire": [
@@ -6375,9 +6396,9 @@
       {
         "price": 1396,
         "station": "X Gateway",
-        "demand": 5001,
+        "demand": 8175,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Steel": [
@@ -6442,9 +6463,9 @@
       {
         "price": 6967,
         "station": "X Gateway",
-        "demand": 2176,
+        "demand": 3556,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 6675,
@@ -6486,9 +6507,9 @@
       {
         "price": 343,
         "station": "X Gateway",
-        "demand": 1292,
+        "demand": 2111,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 252,
@@ -6646,9 +6667,9 @@
       {
         "price": 51207,
         "station": "X Gateway",
-        "demand": 1659,
+        "demand": 2712,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 51207,
@@ -6690,9 +6711,9 @@
       {
         "price": 14267,
         "station": "X Gateway",
-        "demand": 2466,
+        "demand": 4030,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 13876,
@@ -6718,6 +6739,13 @@
         "marketUpdated": "2026-10-03T05:05:47Z"
       },
       {
+        "price": 2002,
+        "station": "X Gateway",
+        "demand": 10053,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
         "price": 1998,
         "station": "Gao Base",
         "demand": 259710,
@@ -6730,13 +6758,6 @@
         "demand": 39542,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-02T21:55:18Z"
-      },
-      {
-        "price": 1971,
-        "station": "X Gateway",
-        "demand": 5900,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       },
       {
         "price": 1901,
@@ -6798,17 +6819,17 @@
       },
       {
         "price": 3099,
+        "station": "X Gateway",
+        "demand": 3236,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
+      },
+      {
+        "price": 3099,
         "station": "Rivers Hub",
         "demand": 2327,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 3099,
-        "station": "X Gateway",
-        "demand": 1981,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
       }
     ],
     "Thallium": [
@@ -6871,9 +6892,9 @@
       {
         "price": 3935,
         "station": "X Gateway",
-        "demand": 6477,
+        "demand": 10585,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Thorium": [
@@ -6929,9 +6950,9 @@
       {
         "price": 12278,
         "station": "X Gateway",
-        "demand": 10936,
+        "demand": 17874,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 12278,
@@ -7059,11 +7080,11 @@
         "marketUpdated": "2026-10-03T05:05:47Z"
       },
       {
-        "price": 5047,
+        "price": 5046,
         "station": "X Gateway",
-        "demand": 2521,
+        "demand": 4117,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Tritium": [
@@ -7158,9 +7179,9 @@
       {
         "price": 7891,
         "station": "X Gateway",
-        "demand": 16503,
+        "demand": 26970,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Void Opal": [
@@ -7246,9 +7267,9 @@
       {
         "price": 124,
         "station": "X Gateway",
-        "demand": 1372,
+        "demand": 2242,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Water Purifiers": [
@@ -7318,9 +7339,9 @@
       {
         "price": 300,
         "station": "X Gateway",
-        "demand": 2684,
+        "demand": 4387,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Wine": [
@@ -7362,9 +7383,9 @@
       {
         "price": 673,
         "station": "X Gateway",
-        "demand": 27550,
+        "demand": 45026,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Advanced Catalysers": [
@@ -7483,6 +7504,13 @@
         "demand": 25256,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 583,
+        "station": "X Gateway",
+        "demand": 578,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Basic Medicines": [
@@ -8218,9 +8246,9 @@
       {
         "price": 2285,
         "station": "X Gateway",
-        "demand": 948,
+        "demand": 1548,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Reactive Armour": [
@@ -8542,9 +8570,9 @@
       {
         "price": 1286,
         "station": "X Gateway",
-        "demand": 1655,
+        "demand": 2704,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-03T08:01:26Z"
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Microbial Furnaces": [
@@ -8736,6 +8764,13 @@
         "demand": 1024,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 8965,
+        "station": "X Gateway",
+        "demand": 956,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Onionhead Gamma Strain": [
