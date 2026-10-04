@@ -1,4 +1,5 @@
 import { ensureMiningNavigationSchema, mapCenter, saveMiningCenterContext, TEN16_SYSTEM } from '../../../lib/mining-navigation.js';
+import { withMiningDatabase } from '../../../lib/mining-diagnostics.js';
 
 const TEN16_ID64='560820275507';
 const SCOUT_AUTH_URL='https://mongrels-squadron.pages.dev/api/hud/auth';
@@ -45,50 +46,57 @@ export async function onRequestPost({request,env}){
   if(latitude===null||latitude<-90||latitude>90)return bad('invalid_latitude');
   if(longitude===null||longitude<-180||longitude>180)return bad('invalid_longitude');
 
-  await ensureMiningNavigationSchema(env);
-  await env.DB.prepare(`
-    INSERT INTO mining_location_centers (
-      body,body_type,signal,latitude,longitude,source,updated_by,created_at,updated_at
-    ) VALUES (?,?,?,?,?,'hud-center',?,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)
-    ON CONFLICT(body,signal) DO UPDATE SET
-      body_type=excluded.body_type,
-      latitude=excluded.latitude,
-      longitude=excluded.longitude,
-      source='hud-center',
-      updated_by=excluded.updated_by,
-      updated_at=CURRENT_TIMESTAMP
-  `).bind(
-    bodyName,bodyType,signal,latitude,longitude,
-    cleanText(auth.commander||'Mongrel HUD',100),
-  ).run();
+  return withMiningDatabase(env, 'save-center', async phase => {
+    phase('schema.navigation');
+    await ensureMiningNavigationSchema(env);
+    phase('write.center');
+    await env.DB.prepare(`
+      INSERT INTO mining_location_centers (
+        body,body_type,signal,latitude,longitude,source,updated_by,created_at,updated_at
+      ) VALUES (?,?,?,?,?,'hud-center',?,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)
+      ON CONFLICT(body,signal) DO UPDATE SET
+        body_type=excluded.body_type,
+        latitude=excluded.latitude,
+        longitude=excluded.longitude,
+        source='hud-center',
+        updated_by=excluded.updated_by,
+        updated_at=CURRENT_TIMESTAMP
+    `).bind(
+      bodyName,bodyType,signal,latitude,longitude,
+      cleanText(auth.commander||'Mongrel HUD',100),
+    ).run();
 
-  let row=await env.DB.prepare(`
-    SELECT id,body,body_type,signal,latitude,longitude,source,updated_at
-    FROM mining_location_centers
-    WHERE lower(body)=lower(?) AND signal=?
-  `).bind(bodyName,signal).first();
-  if(row?.id){
-    await saveMiningCenterContext(
-      env,
-      row.id,
-      cleanText(body?.system,160)||TEN16_SYSTEM,
-      cleanText(body?.systemAddress,40)||null,
-    );
-    row=await env.DB.prepare(`
-      SELECT c.id,c.body,c.body_type,c.signal,c.latitude,c.longitude,c.source,c.updated_at,
-             x.system_name,x.system_address
-      FROM mining_location_centers c
-      LEFT JOIN mining_center_context x ON x.center_id=c.id
-      WHERE c.id=?
-    `).bind(row.id).first();
-  }
+    phase('query.saved-center');
+    let row=await env.DB.prepare(`
+      SELECT id,body,body_type,signal,latitude,longitude,source,updated_at
+      FROM mining_location_centers
+      WHERE lower(body)=lower(?) AND signal=?
+    `).bind(bodyName,signal).first();
+    if(row?.id){
+      phase('write.center-context');
+      await saveMiningCenterContext(
+        env,
+        row.id,
+        TEN16_SYSTEM,
+        TEN16_ID64,
+      );
+      phase('query.saved-center-context');
+      row=await env.DB.prepare(`
+        SELECT c.id,c.body,c.body_type,c.signal,c.latitude,c.longitude,c.source,c.updated_at,
+               x.system_name,x.system_address
+        FROM mining_location_centers c
+        LEFT JOIN mining_center_context x ON x.center_id=c.id
+        WHERE c.id=?
+      `).bind(row.id).first();
+    }
 
-  return Response.json({
-    ok:true,
-    status:'saved',
-    center:mapCenter(row),
-    message:'Mining location center saved.',
-  },{status:201,headers:{'Cache-Control':'no-store'}});
+    return Response.json({
+      ok:true,
+      status:'saved',
+      center:mapCenter(row),
+      message:'Mining location center saved.',
+    },{status:201,headers:{'Cache-Control':'no-store'}});
+  });
 }
 
 function bad(error){return Response.json({ok:false,error},{status:400,headers:{'Cache-Control':'no-store'}});}

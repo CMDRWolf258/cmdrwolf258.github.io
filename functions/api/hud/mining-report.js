@@ -1,4 +1,5 @@
 import { ensureMiningNavigationSchema, findClosestDepositDuplicate, saveMiningSiteContext, TEN16_SYSTEM } from '../../../lib/mining-navigation.js';
+import { withMiningDatabase } from '../../../lib/mining-diagnostics.js';
 
 const TEN16_ID64='560820275507';
 const SCOUT_AUTH_URL='https://mongrels-squadron.pages.dev/api/hud/auth';
@@ -45,61 +46,73 @@ export async function onRequestPost({request,env}){
   if(planetRadius!==null&&planetRadius<=0)return bad('invalid_planet_radius');
   const submittedBy=cleanText(auth.commander||'Mongrel HUD',100);
 
-  await ensureMiningNavigationSchema(env);
-  const systemName=cleanText(body?.system,160)||TEN16_SYSTEM;
-  const systemAddress=cleanText(body?.systemAddress,40)||null;
-  const duplicate=await findClosestDepositDuplicate(env,{
-    systemName,
-    body:bodyName,
-    commodity,
-    signal,
-    latitude,
-    longitude,
-    radiusMeters:planetRadius,
-    thresholdMeters:1000,
-  });
-  if(duplicate){
-    const insertReport="INSERT INTO mining_reports (report_type,target_site_id,commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes,submitted_by,status) VALUES ('duplicate',?,?,?,?,?,?,?,?,0,?,?,'pending')";
-    const reportResult=await env.DB.prepare(insertReport).bind(duplicate.site.id,commodity,bodyName,bodyType,signal,latitude,longitude,rigs,notes,submittedBy).run();
-    const reportId=reportResult.meta?.last_row_id??null;
-    if(reportId){
-      await env.DB.prepare("INSERT OR REPLACE INTO mining_duplicate_reviews (report_id,existing_site_id,distance_m,created_at,resolved_at,resolution) VALUES (?,?,?,CURRENT_TIMESTAMP,NULL,NULL)")
-        .bind(reportId,duplicate.site.id,duplicate.distanceMeters).run();
+  return withMiningDatabase(env, 'save-deposit', async phase => {
+    phase('schema.navigation');
+    await ensureMiningNavigationSchema(env);
+    // This writer accepts 10-16 by its existing name-or-address check. Store the
+    // known archive identity rather than a stale counterpart from the journal.
+    const systemName=TEN16_SYSTEM;
+    const systemAddress=TEN16_ID64;
+    phase('query.duplicate');
+    const duplicate=await findClosestDepositDuplicate(env,{
+      systemName,
+      body:bodyName,
+      commodity,
+      signal,
+      latitude,
+      longitude,
+      radiusMeters:planetRadius,
+      thresholdMeters:1000,
+    });
+    if(duplicate){
+      phase('write.duplicate-review');
+      const insertReport="INSERT INTO mining_reports (report_type,target_site_id,commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes,submitted_by,status) VALUES ('duplicate',?,?,?,?,?,?,?,?,0,?,?,'pending')";
+      const reportResult=await env.DB.prepare(insertReport).bind(duplicate.site.id,commodity,bodyName,bodyType,signal,latitude,longitude,rigs,notes,submittedBy).run();
+      const reportId=reportResult.meta?.last_row_id??null;
+      if(reportId){
+        await env.DB.prepare("INSERT OR REPLACE INTO mining_duplicate_reviews (report_id,existing_site_id,distance_m,created_at,resolved_at,resolution) VALUES (?,?,?,CURRENT_TIMESTAMP,NULL,NULL)")
+          .bind(reportId,duplicate.site.id,duplicate.distanceMeters).run();
+      }
+      return Response.json({
+        ok:true,status:'duplicate_review',reportId,
+        duplicate:{site:sitePayload(duplicate.site),distanceMeters:duplicate.distanceMeters},
+        message:'Possible duplicate within '+Math.round(duplicate.distanceMeters)+' m. Sent to Mining Admin for review.',
+      },{status:202,headers:{'Cache-Control':'no-store'}});
     }
-    return Response.json({
-      ok:true,status:'duplicate_review',reportId,
-      duplicate:{site:sitePayload(duplicate.site),distanceMeters:duplicate.distanceMeters},
-      message:'Possible duplicate within '+Math.round(duplicate.distanceMeters)+' m. Sent to Mining Admin for review.',
-    },{status:202,headers:{'Cache-Control':'no-store'}});
-  }
 
-  if(auth.access!=='site_admin'){
-    const sql="INSERT INTO mining_reports (report_type,target_site_id,commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes,submitted_by,status) VALUES ('add',NULL,?,?,?,?,?,?,?,0,?,?,'pending')";
-    const result=await env.DB.prepare(sql).bind(commodity,bodyName,bodyType,signal,latitude,longitude,rigs,notes,submittedBy).run();
-    return Response.json({ok:true,status:'pending',reportId:result.meta?.last_row_id??null,message:'Mining deposit submitted for review.'},{status:201,headers:{'Cache-Control':'no-store'}});
-  }
+    if(auth.access!=='site_admin'){
+      phase('write.pending-report');
+      const sql="INSERT INTO mining_reports (report_type,target_site_id,commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes,submitted_by,status) VALUES ('add',NULL,?,?,?,?,?,?,?,0,?,?,'pending')";
+      const result=await env.DB.prepare(sql).bind(commodity,bodyName,bodyType,signal,latitude,longitude,rigs,notes,submittedBy).run();
+      return Response.json({ok:true,status:'pending',reportId:result.meta?.last_row_id??null,message:'Mining deposit submitted for review.'},{status:201,headers:{'Cache-Control':'no-store'}});
+    }
 
-  const placeholderSql="SELECT id FROM mining_sites WHERE lower(commodity)=lower(?) AND lower(body)=lower(?) AND signal=? AND latitude IS NULL AND longitude IS NULL ORDER BY id LIMIT 1";
-  const placeholder=await env.DB.prepare(placeholderSql).bind(commodity,bodyName,signal).first();
-  let siteId;
-  if(placeholder?.id){
-    const updateSql="UPDATE mining_sites SET body_type=?,latitude=?,longitude=?,rigs=?,notes=CASE WHEN ?<>'' THEN ? ELSE notes END,source='hud-report',updated_at=CURRENT_TIMESTAMP WHERE id=?";
-    await env.DB.prepare(updateSql).bind(bodyType,latitude,longitude,rigs,notes,notes,placeholder.id).run();
-    siteId=placeholder.id;
-  }else{
-    const insertSql="INSERT INTO mining_sites (commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes,source,created_at,updated_at) VALUES (?,?,?,?,?,?,?,0,?,'hud-report',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)";
-    const result=await env.DB.prepare(insertSql).bind(commodity,bodyName,bodyType,signal,latitude,longitude,rigs,notes).run();
-    siteId=result.meta?.last_row_id??null;
-  }
-  if(siteId)await saveMiningSiteContext(env,siteId,systemName,systemAddress);
-  const site=siteId?await env.DB.prepare(`
-    SELECT s.id,s.commodity,s.body,s.body_type,s.signal,s.latitude,s.longitude,s.rigs,s.preferred,s.notes,
-           c.system_name,c.system_address
-    FROM mining_sites s
-    LEFT JOIN mining_site_context c ON c.site_id=s.id
-    WHERE s.id=?
-  `).bind(siteId).first():null;
-  return Response.json({ok:true,status:placeholder?.id?'updated':'added',site:sitePayload(site),message:'Mining deposit saved to the curated 10-16 database.'},{status:201,headers:{'Cache-Control':'no-store'}});
+    const placeholderSql="SELECT id FROM mining_sites WHERE lower(commodity)=lower(?) AND lower(body)=lower(?) AND signal=? AND latitude IS NULL AND longitude IS NULL ORDER BY id LIMIT 1";
+    phase('query.placeholder');
+    const placeholder=await env.DB.prepare(placeholderSql).bind(commodity,bodyName,signal).first();
+    let siteId;
+    phase('write.deposit');
+    if(placeholder?.id){
+      const updateSql="UPDATE mining_sites SET body_type=?,latitude=?,longitude=?,rigs=?,notes=CASE WHEN ?<>'' THEN ? ELSE notes END,source='hud-report',updated_at=CURRENT_TIMESTAMP WHERE id=?";
+      await env.DB.prepare(updateSql).bind(bodyType,latitude,longitude,rigs,notes,notes,placeholder.id).run();
+      siteId=placeholder.id;
+    }else{
+      const insertSql="INSERT INTO mining_sites (commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes,source,created_at,updated_at) VALUES (?,?,?,?,?,?,?,0,?,'hud-report',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)";
+      const result=await env.DB.prepare(insertSql).bind(commodity,bodyName,bodyType,signal,latitude,longitude,rigs,notes).run();
+      siteId=result.meta?.last_row_id??null;
+    }
+    phase('write.deposit-context');
+    if(siteId)await saveMiningSiteContext(env,siteId,systemName,systemAddress);
+    phase('query.saved-deposit');
+    const site=siteId?await env.DB.prepare(`
+      SELECT s.id,s.commodity,s.body,s.body_type,s.signal,s.latitude,s.longitude,s.rigs,s.preferred,s.notes,
+             c.system_name,c.system_address
+      FROM mining_sites s
+      LEFT JOIN mining_site_context c ON c.site_id=s.id
+      WHERE s.id=?
+    `).bind(siteId).first():null;
+    return Response.json({ok:true,status:placeholder?.id?'updated':'added',site:sitePayload(site),message:'Mining deposit saved to the curated 10-16 database.'},{status:201,headers:{'Cache-Control':'no-store'}});
+  });
 }
 
 function bad(error){return Response.json({ok:false,error},{status:400,headers:{'Cache-Control':'no-store'}});}

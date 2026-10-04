@@ -6,8 +6,13 @@ on:
       - 'functions/api/mining.js'
       - 'functions/api/hud/mining-report.js'
       - 'scripts/test-mining-navigation.mjs'
+      - 'scripts/test-mining-backend.mjs'
       - 'mining-admin.html'
       - 'lib/mining-navigation.js'
+      - 'lib/mining-diagnostics.js'
+      - 'lib/mining-schema.js'
+      - 'scripts/test-mining-query-cost.py'
+      - 'scripts/fixtures/mining-query-before.sql'
       - 'functions/api/admin/mining-reports/[id]/duplicate.js'
       - 'functions/api/admin/mining-reports.js'
       - 'functions/api/mining-centers.js'
@@ -23,6 +28,15 @@ on:
     paths:
       - 'functions/api/mining.js'
       - 'functions/api/hud/mining-report.js'
+      - 'functions/api/hud/mining-center.js'
+      - 'functions/api/mining-centers.js'
+      - 'lib/mining-navigation.js'
+      - 'lib/mining-diagnostics.js'
+      - 'lib/mining-schema.js'
+      - 'scripts/test-mining-query-cost.py'
+      - 'scripts/fixtures/mining-query-before.sql'
+      - 'scripts/test-mining-navigation.mjs'
+      - 'scripts/test-mining-backend.mjs'
       - 'lib/curated-poi.js'
       - 'lib/mining-material.js'
       - 'curated-mining.js'
@@ -38,6 +52,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Verify curated provider and legacy compatibility
         run: node --experimental-default-type=module --test scripts/test-curated-poi.mjs
       - name: Verify HUD mining endpoint syntax
@@ -49,3 +66,7 @@ jobs:
           node --check 'functions/api/admin/mining-reports/[id]/duplicate.js'
       - name: Verify mining navigation and duplicate threshold
         run: node --experimental-default-type=module --test scripts/test-mining-navigation.mjs
+      - name: Verify D1 diagnostics and shared center persistence
+        run: node --experimental-default-type=module --test scripts/test-mining-backend.mjs
+      - name: Verify mining output equivalence and query read cost
+        run: python scripts/test-mining-query-cost.py
