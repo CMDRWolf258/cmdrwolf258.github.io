@@ -46,15 +46,35 @@ export async function onRequestPost({request,env}){
   if(planetRadius!==null&&planetRadius<=0)return bad('invalid_planet_radius');
   const submittedBy=cleanText(auth.commander||'Mongrel HUD',100);
 
+  await ensureMiningNavigationSchema(env);
+  const duplicate=await findClosestDepositDuplicate(env,{
+    body:bodyName,
+    commodity,
+    latitude,
+    longitude,
+    radiusMeters:planetRadius,
+    thresholdMeters:1000,
+  });
+  if(duplicate){
+    const insertReport="INSERT INTO mining_reports (report_type,target_site_id,commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes,submitted_by,status) VALUES ('duplicate',?,?,?,?,?,?,?,?,0,?,?,'pending')";
+    const reportResult=await env.DB.prepare(insertReport).bind(duplicate.site.id,commodity,bodyName,bodyType,signal,latitude,longitude,rigs,notes,submittedBy).run();
+    const reportId=reportResult.meta?.last_row_id??null;
+    if(reportId){
+      await env.DB.prepare("INSERT OR REPLACE INTO mining_duplicate_reviews (report_id,existing_site_id,distance_m,created_at,resolved_at,resolution) VALUES (?,?,?,CURRENT_TIMESTAMP,NULL,NULL)")
+        .bind(reportId,duplicate.site.id,duplicate.distanceMeters).run();
+    }
+    return Response.json({
+      ok:true,status:'duplicate_review',reportId,
+      duplicate:{site:sitePayload(duplicate.site),distanceMeters:duplicate.distanceMeters},
+      message:'Possible duplicate within '+Math.round(duplicate.distanceMeters)+' m. Sent to Mining Admin for review.',
+    },{status:202,headers:{'Cache-Control':'no-store'}});
+  }
+
   if(auth.access!=='site_admin'){
     const sql="INSERT INTO mining_reports (report_type,target_site_id,commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes,submitted_by,status) VALUES ('add',NULL,?,?,?,?,?,?,?,0,?,?,'pending')";
     const result=await env.DB.prepare(sql).bind(commodity,bodyName,bodyType,signal,latitude,longitude,rigs,notes,submittedBy).run();
     return Response.json({ok:true,status:'pending',reportId:result.meta?.last_row_id??null,message:'Mining deposit submitted for review.'},{status:201,headers:{'Cache-Control':'no-store'}});
   }
-
-  const duplicateSql="SELECT id,commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes FROM mining_sites WHERE lower(commodity)=lower(?) AND lower(body)=lower(?) AND signal=? AND latitude IS NOT NULL AND longitude IS NOT NULL AND ABS(latitude-?)<0.00008 AND ABS(longitude-?)<0.00008 ORDER BY id LIMIT 1";
-  const duplicate=await env.DB.prepare(duplicateSql).bind(commodity,bodyName,signal,latitude,longitude).first();
-  if(duplicate)return Response.json({ok:true,status:'existing',site:sitePayload(duplicate),message:'This deposit is already in the mining database.'},{headers:{'Cache-Control':'no-store'}});
 
   const placeholderSql="SELECT id FROM mining_sites WHERE lower(commodity)=lower(?) AND lower(body)=lower(?) AND signal=? AND latitude IS NULL AND longitude IS NULL ORDER BY id LIMIT 1";
   const placeholder=await env.DB.prepare(placeholderSql).bind(commodity,bodyName,signal).first();
