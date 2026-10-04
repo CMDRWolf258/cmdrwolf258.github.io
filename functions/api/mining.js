@@ -1,9 +1,11 @@
 import { ensureMaterialSchema } from '../../lib/mining-material.js';
 import { miningRowsToPoiProvider } from '../../lib/curated-poi.js';
+import { ensureMiningNavigationSchema, TEN16_SYSTEM } from '../../lib/mining-navigation.js';
 
 export async function onRequestGet({ request, env }) {
   const poiFormat = request && new URL(request.url).searchParams.get('format') === 'poi';
   await ensureMaterialSchema(env);
+  await ensureMiningNavigationSchema(env);
 
   const result = await env.DB
     .prepare(`
@@ -18,6 +20,8 @@ export async function onRequestGet({ request, env }) {
         s.rigs,
         s.preferred,
         s.notes,
+        c.system_name,
+        c.system_address,
         ${poiFormat ? 's.source, s.updated_at,' : ''}
         m.amount AS material_amount,
         m.updated_at AS material_updated_at,
@@ -25,6 +29,8 @@ export async function onRequestGet({ request, env }) {
       FROM mining_sites s
       LEFT JOIN mining_material_status m
         ON m.site_id = s.id
+      LEFT JOIN mining_site_context c
+        ON c.site_id = s.id
       ORDER BY
         s.commodity COLLATE NOCASE,
         s.body COLLATE NOCASE,
@@ -46,6 +52,8 @@ export async function onRequestGet({ request, env }) {
 
   const miningData = (result.results || []).map(site => ({
     id: site.id,
+    systemName: site.system_name || TEN16_SYSTEM,
+    systemAddress: site.system_address || null,
     commodity: site.commodity,
     body: site.body,
     bodyType: site.body_type,
