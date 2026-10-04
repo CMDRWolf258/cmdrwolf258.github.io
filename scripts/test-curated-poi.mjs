@@ -28,7 +28,10 @@ const rows = [
 
 function legacy(row) {
   return {
-    id: row.id, commodity: row.commodity, body: row.body, bodyType: row.body_type,
+    id: row.id,
+    systemName: row.system_name || 'NGC 2546 Sector UZ-G d10-16',
+    systemAddress: row.system_address || '560820275507',
+    commodity: row.commodity, body: row.body, bodyType: row.body_type,
     signal: row.signal, latitude: row.latitude, longitude: row.longitude, rigs: row.rigs,
     preferred: Boolean(row.preferred), notes: row.notes || '',
     materialAmount: row.material_amount || null,
@@ -46,25 +49,31 @@ function mockEnv() {
         prepare(sql) {
           queries.push(sql);
           return {
+            bind() { return this; },
             async run() { return {}; },
             async all() {
               return { results: sql.includes('PRAGMA') ? [{ name: 'material_amount' }] : rows };
             },
           };
         },
+        async batch(statements) {
+          return statements.map(() => ({ meta: { changes: 0 } }));
+        },
       },
     },
   };
 }
 
-test('default and unknown API formats preserve the exact legacy response and headers', async () => {
+test('default and unknown API formats include explicit 10-16 system identity and preserve mining fields', async () => {
   for (const query of ['', '?format=other']) {
     const { env, queries } = mockEnv();
     const response = await onRequestGet({ env, request: new Request(`https://archive.example/api/mining${query}`) });
     assert.deepEqual(await response.json(), rows.map(legacy));
     assert.equal(response.headers.get('cache-control'), 'no-store');
     assert.equal(response.headers.get('access-control-allow-origin'), null);
-    const siteQuery = queries.find(sql => sql.includes('FROM mining_sites'));
+    const siteQuery = queries.find(sql => sql.includes('FROM mining_sites s'));
+    assert.ok(siteQuery.includes('mining_site_context'));
+    assert.ok(siteQuery.includes('resolved.latitude IS NOT NULL'));
     assert.ok(!siteQuery.includes('s.source'));
     assert.ok(!siteQuery.includes('s.updated_at'));
     assert.ok(queries.every(sql => !/ALTER TABLE/.test(sql)));
