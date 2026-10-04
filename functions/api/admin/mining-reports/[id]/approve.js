@@ -8,6 +8,11 @@ import {
   materialStatusStatement,
   normalizeMaterialAmount,
 } from '../../../../../lib/mining-material.js';
+import {
+  ensureMiningNavigationSchema,
+  saveMiningSiteContext,
+  TEN16_SYSTEM,
+} from '../../../../../lib/mining-navigation.js';
 
 function cleanText(value, maxLength = 1000) {
   if (value === null || value === undefined) return '';
@@ -43,6 +48,7 @@ export async function onRequestPost({ request, env, params }) {
   if (auth.error) return auth.error;
 
   await ensureMaterialSchema(env);
+  await ensureMiningNavigationSchema(env);
 
   const reportId = Number(params.id);
 
@@ -123,8 +129,53 @@ export async function onRequestPost({ request, env, params }) {
     let siteId = report.target_site_id || null;
 
     if (reportType === 'add') {
-      const results = await env.DB.batch([
-        env.DB.prepare(
+      const placeholder = await env.DB.prepare(
+        `SELECT id
+         FROM mining_sites
+         WHERE lower(commodity)=lower(?)
+           AND lower(body)=lower(?)
+           AND signal=?
+           AND latitude IS NULL
+           AND longitude IS NULL
+         ORDER BY preferred DESC, id
+         LIMIT 1`,
+      ).bind(report.commodity, report.body, report.signal).first();
+
+      if (placeholder?.id) {
+        siteId = placeholder.id;
+        await env.DB.batch([
+          env.DB.prepare(
+            `UPDATE mining_sites
+             SET body_type=?,
+                 latitude=?,
+                 longitude=?,
+                 rigs=?,
+                 preferred=?,
+                 notes=CASE WHEN ?<>'' THEN ? ELSE notes END,
+                 source='approved-report',
+                 updated_at=CURRENT_TIMESTAMP
+             WHERE id=?`,
+          ).bind(
+            report.body_type,
+            report.latitude,
+            report.longitude,
+            report.rigs,
+            report.preferred,
+            report.notes || '',
+            report.notes || '',
+            siteId,
+          ),
+          env.DB.prepare(
+            `UPDATE mining_reports
+             SET status='approved',
+                 target_site_id=?,
+                 reviewed_at=CURRENT_TIMESTAMP,
+                 review_notes=?
+             WHERE id=? AND status='processing'`,
+          ).bind(siteId, reviewNotes, reportId),
+        ]);
+      } else {
+        const insert = await env.DB.prepare(
           `INSERT INTO mining_sites (
              commodity,
              body,
@@ -149,18 +200,21 @@ export async function onRequestPost({ request, env, params }) {
           report.rigs,
           report.preferred,
           report.notes || '',
-        ),
-        env.DB.prepare(
+        ).run();
+        siteId = insert.meta?.last_row_id || null;
+        await env.DB.prepare(
           `UPDATE mining_reports
-           SET status = 'approved',
-               target_site_id = last_insert_rowid(),
-               reviewed_at = CURRENT_TIMESTAMP,
-               review_notes = ?
-           WHERE id = ? AND status = 'processing'`,
-        ).bind(reviewNotes, reportId),
-      ]);
+           SET status='approved',
+               target_site_id=?,
+               reviewed_at=CURRENT_TIMESTAMP,
+               review_notes=?
+           WHERE id=? AND status='processing'`,
+        ).bind(siteId, reviewNotes, reportId).run();
+      }
 
-      siteId = results?.[0]?.meta?.last_row_id || null;
+      if (siteId) {
+        await saveMiningSiteContext(env, siteId, TEN16_SYSTEM, null);
+      }
     } else if (reportType === 'update') {
       await env.DB.batch([
         env.DB.prepare(
