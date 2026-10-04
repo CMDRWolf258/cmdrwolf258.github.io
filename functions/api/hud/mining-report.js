@@ -49,8 +49,10 @@ export async function onRequestPost({request,env}){
   return withMiningDatabase(env, 'save-deposit', async phase => {
     phase('schema.navigation');
     await ensureMiningNavigationSchema(env);
-    const systemName=cleanText(body?.system,160)||TEN16_SYSTEM;
-    const systemAddress=cleanText(body?.systemAddress,40)||null;
+    // This writer accepts 10-16 by its existing name-or-address check. Store the
+    // known archive identity rather than a stale counterpart from the journal.
+    const systemName=TEN16_SYSTEM;
+    const systemAddress=TEN16_ID64;
     phase('query.duplicate');
     const duplicate=await findClosestDepositDuplicate(env,{
       systemName,

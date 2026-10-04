@@ -8,6 +8,9 @@ import { onRequestGet as readDeposits } from '../functions/api/mining.js';
 import { onRequestGet as readCenters } from '../functions/api/mining-centers.js';
 import { onRequestPost as saveCenter } from '../functions/api/hud/mining-center.js';
 import { onRequestPost as saveDeposit } from '../functions/api/hud/mining-report.js';
+import { ensureMiningNavigationSchema } from '../lib/mining-navigation.js';
+import { ensureMaterialSchema } from '../lib/mining-material.js';
+import { oncePerDatabase } from '../lib/mining-schema.js';
 
 // This is a legacy-schema test fixture, never a production database migration.
 const legacySchema = `
@@ -27,13 +30,14 @@ const legacySchema = `
   VALUES ('Gold','7b','moon',10,-22.7,-98.8,2,1,'Existing deposit','fixture');
 `;
 
-function sqliteEnv(db, fail = () => false) {
+function sqliteEnv(db, fail = () => false, queries = []) {
   return { DB: {
     prepare(sql) {
       const statement = {
         args: [],
         bind(...args) { this.args = args; return this; },
         execute() {
+          queries.push(sql);
           if (fail(sql)) throw new Error('D1_ERROR: internal failure; SELECT private-test-data');
           return db.prepare(sql);
         },
@@ -165,6 +169,128 @@ test('a legacy center table missing required columns is identified at the center
       operation: 'read-centers', phase: 'query.centers',
     }, logs);
     assert.deepEqual(db.prepare('PRAGMA table_info(mining_location_centers)').all().map(row => row.name), ['id', 'body', 'signal']);
+  } finally { db.close(); }
+});
+
+test('concurrent and repeated reads initialize schema once per binding and always read live rows', async () => {
+  const db = new DatabaseSync(':memory:');
+  db.exec(legacySchema);
+  const queries = [];
+  const env = sqliteEnv(db, () => false, queries);
+  try {
+    await Promise.all([ensureMiningNavigationSchema(env), ensureMiningNavigationSchema({ DB: env.DB })]);
+    await Promise.all([ensureMaterialSchema(env), ensureMaterialSchema({ DB: env.DB })]);
+    const request = new Request('https://archive.test/api/mining');
+    await readDeposits({ request, env });
+    await readCenters({ env });
+    assert.equal(queries.filter(sql => sql.includes('INSERT OR IGNORE INTO mining_site_context')).length, 1);
+    assert.equal(queries.filter(sql => sql.includes('INSERT OR IGNORE INTO mining_center_context')).length, 1);
+    assert.equal(queries.filter(sql => sql.includes('PRAGMA table_info')).length, 1);
+    db.exec("INSERT INTO mining_sites (commodity,body,body_type,signal,latitude,longitude,rigs,preferred,notes) VALUES ('Silver','7b','moon',11,0,0,0,0,'New centrally stored row')");
+    const rows = await (await readDeposits({ request, env: { DB: env.DB } })).json();
+    assert.equal(rows.length, 2);
+    assert.ok(rows.some(row => row.commodity === 'Silver' && row.latitude === 0));
+    assert.equal(queries.filter(sql => sql.includes('INSERT OR IGNORE INTO mining_site_context')).length, 1);
+  } finally { db.close(); }
+});
+
+test('quota failures return 503, discard failed schema promises, and retry initialization', async t => {
+  const logs = captureLog(t);
+  const db = new DatabaseSync(':memory:');
+  db.exec(legacySchema);
+  let backfillAttempts = 0;
+  const env = sqliteEnv(db, sql => {
+    if (sql.includes('INSERT OR IGNORE INTO mining_site_context') && ++backfillAttempts === 1) {
+      throw new Error('D1_ERROR: account has exceeded its free tier daily rows read limit');
+    }
+    return false;
+  });
+  try {
+    await assertDiagnostic(await readCenters({ env }), {
+      status: 503, error: 'mining_database_read_quota_exceeded',
+      operation: 'read-centers', phase: 'schema.navigation',
+    }, logs);
+    assert.equal((await readCenters({ env })).status, 200);
+    assert.equal(backfillAttempts, 2);
+    assert.equal((await readCenters({ env })).status, 200);
+    assert.equal(backfillAttempts, 2);
+  } finally { db.close(); }
+});
+
+test('schema caches are separate for database bindings and fresh deployment initializers', async () => {
+  let runs = 0;
+  const initialize = () => { runs += 1; };
+  const firstDeployment = oncePerDatabase(initialize);
+  const firstBinding = { DB: {} };
+  const secondBinding = { DB: {} };
+  await Promise.all([firstDeployment(firstBinding), firstDeployment(firstBinding)]);
+  assert.equal(runs, 1);
+  await firstDeployment(secondBinding);
+  assert.equal(runs, 2);
+  const nextDeployment = oncePerDatabase(initialize);
+  await nextDeployment(firstBinding);
+  assert.equal(runs, 3);
+});
+
+test('a schema failure after successful initialization retries the existing lazy schema mechanism', async t => {
+  const logs = captureLog(t);
+  const db = new DatabaseSync(':memory:');
+  db.exec(legacySchema);
+  const env = sqliteEnv(db);
+  const request = new Request('https://archive.test/api/mining');
+  try {
+    assert.equal((await readDeposits({ request, env })).status, 200);
+    db.exec('DROP TABLE mining_material_status');
+    await assertDiagnostic(await readDeposits({ request, env }), {
+      status: 503, error: 'mining_database_schema_missing',
+      operation: 'read-deposits', phase: 'query.deposits',
+    }, logs);
+    assert.equal((await readDeposits({ request, env })).status, 200);
+  } finally { db.close(); }
+});
+
+test('accepted name-or-address mining submissions store the canonical archive identity', async t => {
+  mockAuth(t);
+  const db = new DatabaseSync(':memory:');
+  db.exec(legacySchema);
+  const env = sqliteEnv(db);
+  try {
+    for (const [index, identity] of [
+      { system: 'Old spelling from a journal', systemAddress: position.systemAddress },
+      { system: position.system, systemAddress: 'stale-address' },
+    ].entries()) {
+      const body = { ...position, ...identity, signal: 30 + index };
+      const centerResponse = await saveCenter({ request: post('mining-center', body), env });
+      assert.equal(centerResponse.status, 201);
+      const center = (await centerResponse.json()).center;
+      assert.equal(center.systemName, position.system);
+      assert.equal(center.systemAddress, position.systemAddress);
+      const depositResponse = await saveDeposit({ request: post('mining-report', { ...body, commodity: 'Silver' }), env });
+      assert.equal(depositResponse.status, 201);
+      const deposit = (await depositResponse.json()).site;
+      assert.equal(deposit.systemName, position.system);
+      assert.equal(deposit.systemAddress, position.systemAddress);
+    }
+    const freshCenters = await (await readCenters({ env: sqliteEnv(db) })).json();
+    assert.equal(freshCenters.length, 2);
+    assert.ok(freshCenters.every(row => row.systemName === position.system && row.systemAddress === position.systemAddress));
+    const deposits = await (await readDeposits({ request: new Request('https://archive.test/api/mining'), env: sqliteEnv(db) })).json();
+    assert.equal(deposits.length, 3);
+    assert.ok(deposits.every(row => row.systemName === position.system && row.systemAddress === position.systemAddress));
+  } finally { db.close(); }
+});
+
+test('an existing center with the exact 10-16 address remains readable despite an old stored name', async t => {
+  mockAuth(t);
+  const db = new DatabaseSync(':memory:');
+  db.exec(legacySchema);
+  const env = sqliteEnv(db);
+  try {
+    const saved = (await (await saveCenter({ request: post('mining-center'), env })).json()).center;
+    db.prepare('UPDATE mining_center_context SET system_name=? WHERE center_id=?').run('Old spelling from a journal', saved.id);
+    const fresh = await (await readCenters({ env: sqliteEnv(db) })).json();
+    assert.deepEqual(fresh, [saved]);
+    assert.equal(db.prepare('SELECT system_name FROM mining_center_context WHERE center_id=?').get(saved.id).system_name, 'Old spelling from a journal');
   } finally { db.close(); }
 });
 

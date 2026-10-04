@@ -77,8 +77,8 @@ export async function onRequestPost({request,env}){
       await saveMiningCenterContext(
         env,
         row.id,
-        cleanText(body?.system,160)||TEN16_SYSTEM,
-        cleanText(body?.systemAddress,40)||null,
+        TEN16_SYSTEM,
+        TEN16_ID64,
       );
       phase('query.saved-center-context');
       row=await env.DB.prepare(`

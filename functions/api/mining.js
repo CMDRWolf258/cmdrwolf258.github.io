@@ -12,8 +12,21 @@ export async function onRequestGet({ request, env }) {
     await ensureMiningNavigationSchema(env);
 
     phase('query.deposits');
+    // Build resolved identities once instead of scanning all sites for every
+    // placeholder. A row with both coordinates null cannot match itself here.
     const result = await env.DB
       .prepare(`
+        WITH resolved_keys AS (
+          SELECT DISTINCT
+            lower(resolved.commodity) AS commodity_key,
+            lower(resolved.body) AS body_key,
+            resolved.signal AS signal_key,
+            lower(COALESCE(rc.system_name, ?)) AS system_key,
+            1 AS has_coordinates
+          FROM mining_sites resolved
+          LEFT JOIN mining_site_context rc ON rc.site_id = resolved.id
+          WHERE resolved.latitude IS NOT NULL AND resolved.longitude IS NOT NULL
+        )
         SELECT
           s.id,
           s.commodity,
@@ -36,21 +49,15 @@ export async function onRequestGet({ request, env }) {
           ON m.site_id = s.id
         LEFT JOIN mining_site_context c
           ON c.site_id = s.id
+        LEFT JOIN resolved_keys r
+          ON r.commodity_key = lower(s.commodity)
+          AND r.body_key = lower(s.body)
+          AND r.signal_key = s.signal
+          AND r.system_key = lower(COALESCE(c.system_name, ?))
         WHERE NOT (
           s.latitude IS NULL
           AND s.longitude IS NULL
-          AND EXISTS (
-            SELECT 1
-            FROM mining_sites resolved
-            LEFT JOIN mining_site_context rc ON rc.site_id = resolved.id
-            WHERE resolved.id <> s.id
-              AND lower(resolved.commodity)=lower(s.commodity)
-              AND lower(resolved.body)=lower(s.body)
-              AND resolved.signal=s.signal
-              AND resolved.latitude IS NOT NULL
-              AND resolved.longitude IS NOT NULL
-              AND lower(COALESCE(rc.system_name, ?))=lower(COALESCE(c.system_name, ?))
-          )
+          AND r.has_coordinates IS NOT NULL
         )
         ORDER BY
           s.commodity COLLATE NOCASE,
