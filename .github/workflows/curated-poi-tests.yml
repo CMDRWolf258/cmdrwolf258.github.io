@@ -5,6 +5,13 @@ on:
     paths:
       - 'functions/api/mining.js'
       - 'functions/api/hud/mining-report.js'
+      - 'scripts/test-mining-navigation.mjs'
+      - 'mining-admin.html'
+      - 'lib/mining-navigation.js'
+      - 'functions/api/admin/mining-reports/[id]/duplicate.js'
+      - 'functions/api/admin/mining-reports.js'
+      - 'functions/api/mining-centers.js'
+      - 'functions/api/hud/mining-center.js'
       - 'lib/curated-poi.js'
       - 'lib/mining-material.js'
       - 'curated-mining.js'
@@ -34,4 +41,11 @@ jobs:
       - name: Verify curated provider and legacy compatibility
         run: node --experimental-default-type=module --test scripts/test-curated-poi.mjs
       - name: Verify HUD mining endpoint syntax
-        run: node --check functions/api/hud/mining-report.js
+        run: |
+          node --check functions/api/hud/mining-report.js
+          node --check functions/api/hud/mining-center.js
+          node --check functions/api/mining-centers.js
+          node --check functions/api/admin/mining-reports.js
+          node --check 'functions/api/admin/mining-reports/[id]/duplicate.js'
+      - name: Verify mining navigation and duplicate threshold
+        run: node --experimental-default-type=module --test scripts/test-mining-navigation.mjs
