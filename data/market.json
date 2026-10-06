@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-10-05T18:34:54.655071+00:00",
+  "generatedAt": "2026-10-06T00:39:39.992755+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -263,11 +263,11 @@
       "marketUpdated": "2026-10-04T18:14:03Z"
     },
     "Fruit and Vegetables": {
-      "price": 793,
-      "station": "Extra Pens And Clean Sheets",
-      "demand": 302295,
-      "marketId": 4376376323,
-      "marketUpdated": "2026-09-29T17:00:47Z"
+      "price": 781,
+      "station": "Saturn Ascending",
+      "demand": 130753,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-10-04T18:14:03Z"
     },
     "Gallium": {
       "price": 26615,
@@ -879,11 +879,11 @@
       "marketUpdated": "2026-10-04T18:08:39Z"
     },
     "Cobalt": {
-      "price": 7349,
-      "station": "Extra Pens And Clean Sheets",
-      "demand": 10192284,
-      "marketId": 4376376323,
-      "marketUpdated": "2026-09-29T17:00:47Z"
+      "price": 4884,
+      "station": "King's Mountain View",
+      "demand": 361467,
+      "marketId": 4374964995,
+      "marketUpdated": "2026-10-02T02:56:12Z"
     },
     "Coltan": {
       "price": 7420,
@@ -907,11 +907,11 @@
       "marketUpdated": "2026-10-04T18:08:39Z"
     },
     "Gold": {
-      "price": 50879,
-      "station": "Extra Pens And Clean Sheets",
-      "demand": 2378664,
-      "marketId": 4376376323,
-      "marketUpdated": "2026-09-29T17:00:47Z"
+      "price": 50861,
+      "station": "King's Mountain View",
+      "demand": 56755,
+      "marketId": 4374964995,
+      "marketUpdated": "2026-10-02T02:56:12Z"
     },
     "Grandidierite": {
       "price": 189989,
@@ -1096,11 +1096,11 @@
       "marketUpdated": "2026-09-25T02:31:57Z"
     },
     "Onionhead Gamma Strain": {
-      "price": 5831,
+      "price": 5497,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 69648,
+      "demand": 86189,
       "marketId": 4376376323,
-      "marketUpdated": "2026-09-29T17:00:47Z"
+      "marketUpdated": "2026-10-06T00:23:04Z"
     },
     "Surface Stabilisers": {
       "price": 1302,
@@ -1302,17 +1302,17 @@
     "Algae": [
       {
         "price": 613,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 3920286,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 613,
         "station": "Saturn Ascending",
         "demand": 903404,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 611,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1728210,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 593,
@@ -1332,17 +1332,17 @@
     "Aluminium": [
       {
         "price": 3130,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 778630,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 3130,
         "station": "Saturn Ascending",
         "demand": 322655,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 3048,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 332411,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 3017,
@@ -1352,11 +1352,11 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
-        "price": 2722,
+        "price": 3000,
         "station": "X Gateway",
-        "demand": 630,
+        "demand": 10235,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 2527,
@@ -1500,9 +1500,9 @@
       {
         "price": 7446,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 54705,
+        "demand": 24166,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 7446,
@@ -1517,6 +1517,13 @@
         "demand": 5771,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 7446,
+        "station": "X Gateway",
+        "demand": 3994,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 7446,
@@ -1538,13 +1545,6 @@
         "demand": 1043,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 7446,
-        "station": "X Gateway",
-        "demand": 967,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 7446,
@@ -1594,13 +1594,6 @@
       },
       {
         "price": 107105,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 107105,
         "station": "Arkwright Vista",
         "demand": 10653,
         "marketId": 4388504067,
@@ -1621,6 +1614,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 107105,
+        "station": "X Gateway",
+        "demand": 681,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 66941,
         "station": "Gao Base",
         "demand": 282025,
@@ -1633,6 +1633,13 @@
         "demand": 57654,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 66941,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 19363,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 66941,
@@ -1682,13 +1689,6 @@
       },
       {
         "price": 645,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1422484,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 645,
         "station": "Gao Base",
         "demand": 1274732,
         "marketId": 4375494403,
@@ -1702,34 +1702,41 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 645,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 628701,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 645,
+        "station": "X Gateway",
+        "demand": 191678,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 586,
         "station": "Rival Monkeys Foundry",
         "demand": 275652,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 561,
-        "station": "X Gateway",
-        "demand": 42731,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Beryllium": [
-      {
-        "price": 42130,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 737606,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 42130,
         "station": "Saturn Ascending",
         "demand": 182188,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 42130,
+        "station": "X Gateway",
+        "demand": 26594,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 42105,
@@ -1746,11 +1753,11 @@
         "marketUpdated": "2026-09-25T20:18:17Z"
       },
       {
-        "price": 42098,
-        "station": "X Gateway",
-        "demand": 6341,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "price": 42074,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 321723,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Bioreducing Lichen": [
@@ -1807,13 +1814,6 @@
     "Bismuth": [
       {
         "price": 2966,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 3531276,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 2966,
         "station": "Eon Blue Apocalypse",
         "demand": 1904886,
         "marketId": 4386105091,
@@ -1841,6 +1841,20 @@
         "marketUpdated": "2026-10-03T05:05:47Z"
       },
       {
+        "price": 2913,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1519389,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 2859,
+        "station": "X Gateway",
+        "demand": 85040,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 2859,
         "station": "Arkwright Vista",
         "demand": 44322,
@@ -1860,13 +1874,6 @@
         "demand": 757,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
-      },
-      {
-        "price": 2562,
-        "station": "X Gateway",
-        "demand": 7586,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Bootleg Liquor": [
@@ -1907,10 +1914,17 @@
       },
       {
         "price": 625,
+        "station": "X Gateway",
+        "demand": 1541,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 625,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1472,
+        "demand": 651,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 625,
@@ -1931,9 +1945,9 @@
       {
         "price": 29983,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 678845,
+        "demand": 299882,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 29983,
@@ -1941,6 +1955,13 @@
         "demand": 93465,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 29983,
+        "station": "X Gateway",
+        "demand": 49557,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 29983,
@@ -1972,13 +1993,6 @@
       },
       {
         "price": 29983,
-        "station": "X Gateway",
-        "demand": 11998,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 29983,
         "station": "Rivers Hub",
         "demand": 6463,
         "marketId": 4391607555,
@@ -1993,13 +2007,6 @@
       }
     ],
     "CMM Composite": [
-      {
-        "price": 6589,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1284034,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 6589,
         "station": "Eon Blue Apocalypse",
@@ -2029,6 +2036,20 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
+        "price": 6554,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 557269,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 6458,
+        "station": "X Gateway",
+        "demand": 17980,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 6458,
         "station": "Arkwright Vista",
         "demand": 5444,
@@ -2043,13 +2064,6 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
-        "price": 6128,
-        "station": "X Gateway",
-        "demand": 1604,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
         "price": 5876,
         "station": "Boltzmann Vision",
         "demand": 1674,
@@ -2058,13 +2072,6 @@
       }
     ],
     "Ceramic Composites": [
-      {
-        "price": 1733,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 14137637,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 1733,
         "station": "Saturn Ascending",
@@ -2078,6 +2085,13 @@
         "demand": 2312131,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
+      },
+      {
+        "price": 1733,
+        "station": "X Gateway",
+        "demand": 113983,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 1733,
@@ -2115,11 +2129,11 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
-        "price": 662,
-        "station": "X Gateway",
-        "demand": 12464,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "price": 655,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 2793305,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Chemical Waste": [
@@ -2168,9 +2182,9 @@
       {
         "price": 610,
         "station": "X Gateway",
-        "demand": 506,
+        "demand": 2088,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       }
     ],
     "Clothing": [
@@ -2204,6 +2218,13 @@
       },
       {
         "price": 793,
+        "station": "X Gateway",
+        "demand": 171479,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 793,
         "station": "Rivers Hub",
         "demand": 107556,
         "marketId": 4391607555,
@@ -2215,13 +2236,6 @@
         "demand": 79683,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 792,
-        "station": "X Gateway",
-        "demand": 41486,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 777,
@@ -2241,17 +2255,24 @@
     "Coffee": [
       {
         "price": 1860,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 83860,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 1860,
         "station": "Saturn Ascending",
         "demand": 43917,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 1860,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 37064,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 1860,
+        "station": "X Gateway",
+        "demand": 13088,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 1811,
@@ -2273,13 +2294,6 @@
         "demand": 16913,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 1714,
-        "station": "X Gateway",
-        "demand": 2804,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Combat Stabilisers": [
@@ -2329,6 +2343,13 @@
       },
       {
         "price": 1028,
+        "station": "X Gateway",
+        "demand": 37592,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 1028,
         "station": "Arkwright Vista",
         "demand": 32978,
         "marketId": 4388504067,
@@ -2340,13 +2361,6 @@
         "demand": 5631,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 1026,
-        "station": "X Gateway",
-        "demand": 9084,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 991,
@@ -2366,17 +2380,17 @@
     "Conductive Fabrics": [
       {
         "price": 1084,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 6156627,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 1084,
         "station": "Saturn Ascending",
         "demand": 1719884,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 1084,
+        "station": "X Gateway",
+        "demand": 423540,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 964,
@@ -2386,11 +2400,11 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
-        "price": 658,
-        "station": "X Gateway",
-        "demand": 12221,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "price": 953,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1203915,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 543,
@@ -2447,17 +2461,17 @@
     "Copper": [
       {
         "price": 1025,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 14323253,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 1025,
         "station": "Saturn Ascending",
         "demand": 1476577,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 960,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 6288831,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 920,
@@ -2467,18 +2481,18 @@
         "marketUpdated": "2026-08-27T22:23:33Z"
       },
       {
+        "price": 917,
+        "station": "X Gateway",
+        "demand": 26512,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 864,
         "station": "King's Mountain View",
         "demand": 13916,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
-      },
-      {
-        "price": 658,
-        "station": "X Gateway",
-        "demand": 1798,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 546,
@@ -2518,18 +2532,18 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 2676,
+        "station": "X Gateway",
+        "demand": 23774,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 2672,
         "station": "Rivers Hub",
         "demand": 46347,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 2413,
-        "station": "X Gateway",
-        "demand": 2058,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Cryolite": [
@@ -2542,17 +2556,17 @@
       },
       {
         "price": 14130,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 3788172,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 14130,
         "station": "Saturn Ascending",
         "demand": 249806,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 14130,
+        "station": "X Gateway",
+        "demand": 213401,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 14130,
@@ -2584,17 +2598,17 @@
       },
       {
         "price": 14130,
-        "station": "X Gateway",
-        "demand": 51666,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 14130,
         "station": "Boltzmann Vision",
         "demand": 7320,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 14082,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1643462,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Deuterium": [
@@ -2604,13 +2618,6 @@
         "demand": 266530,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 55334,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 55334,
@@ -2634,6 +2641,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 55334,
+        "station": "X Gateway",
+        "demand": 681,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 34584,
         "station": "Gao Base",
         "demand": 282025,
@@ -2646,6 +2660,13 @@
         "demand": 57654,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 34584,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 19363,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 34584,
@@ -2665,13 +2686,6 @@
       },
       {
         "price": 161815,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 161815,
         "station": "Arkwright Vista",
         "demand": 10653,
         "marketId": 4388504067,
@@ -2692,6 +2706,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 161815,
+        "station": "X Gateway",
+        "demand": 681,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 101134,
         "station": "Gao Base",
         "demand": 282025,
@@ -2704,6 +2725,13 @@
         "demand": 57654,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 101134,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 19363,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 101134,
@@ -2744,6 +2772,13 @@
       },
       {
         "price": 885,
+        "station": "X Gateway",
+        "demand": 34797,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 885,
         "station": "Arkwright Vista",
         "demand": 15956,
         "marketId": 4388504067,
@@ -2762,13 +2797,6 @@
         "demand": 58818,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 527,
-        "station": "X Gateway",
-        "demand": 3097,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Emergency Power Cells": [
@@ -2809,6 +2837,13 @@
       },
       {
         "price": 2678,
+        "station": "X Gateway",
+        "demand": 1253,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 2678,
         "station": "Rivers Hub",
         "demand": 655,
         "marketId": 4391607555,
@@ -2833,9 +2868,9 @@
       {
         "price": 3099,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 137288,
+        "demand": 60648,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 3099,
@@ -2860,6 +2895,13 @@
       },
       {
         "price": 3099,
+        "station": "X Gateway",
+        "demand": 10025,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 3099,
         "station": "Rival Monkeys Foundry",
         "demand": 3812,
         "marketId": 4388359171,
@@ -2871,13 +2913,6 @@
         "demand": 3490,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 3099,
-        "station": "X Gateway",
-        "demand": 2427,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 3099,
@@ -2898,9 +2933,9 @@
       {
         "price": 2261,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 164114,
+        "demand": 72498,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2261,
@@ -2915,6 +2950,13 @@
         "demand": 17311,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 2261,
+        "station": "X Gateway",
+        "demand": 11981,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 2261,
@@ -2939,13 +2981,6 @@
       },
       {
         "price": 2261,
-        "station": "X Gateway",
-        "demand": 2901,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 2261,
         "station": "Rivers Hub",
         "demand": 1563,
         "marketId": 4391607555,
@@ -2959,6 +2994,13 @@
         "demand": 742262,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 1157,
+        "station": "X Gateway",
+        "demand": 478507,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 777,
@@ -2980,13 +3022,6 @@
         "demand": 665,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
-      },
-      {
-        "price": 300,
-        "station": "X Gateway",
-        "demand": 13826,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Fish": [
@@ -2996,13 +3031,6 @@
         "demand": 1749531,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 890,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 936135,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 890,
@@ -3019,28 +3047,28 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 890,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 413750,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 890,
+        "station": "X Gateway",
+        "demand": 123921,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 876,
         "station": "Rival Monkeys Foundry",
         "demand": 184486,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 870,
-        "station": "X Gateway",
-        "demand": 29476,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Fruit and Vegetables": [
-      {
-        "price": 793,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 302295,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 781,
         "station": "Saturn Ascending",
@@ -3054,22 +3082,29 @@
         "demand": 258187,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 642,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 102671,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Gallium": [
-      {
-        "price": 26615,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1133656,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 26615,
         "station": "Saturn Ascending",
         "demand": 126372,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 26556,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 492497,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 26551,
@@ -3079,11 +3114,11 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
-        "price": 25871,
+        "price": 26393,
         "station": "X Gateway",
-        "demand": 1634,
+        "demand": 19680,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 25351,
@@ -3131,6 +3166,13 @@
       },
       {
         "price": 7407,
+        "station": "X Gateway",
+        "demand": 17765,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 7407,
         "station": "Saturn Ascending",
         "demand": 17551,
         "marketId": 4374632451,
@@ -3145,24 +3187,17 @@
       },
       {
         "price": 7407,
-        "station": "X Gateway",
-        "demand": 4302,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 7407,
         "station": "Boltzmann Vision",
         "demand": 1880,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
       },
       {
-        "price": 7400,
+        "price": 6960,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 316456,
+        "demand": 107499,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Grain": [
@@ -3175,17 +3210,17 @@
       },
       {
         "price": 676,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 2017162,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 676,
         "station": "Saturn Ascending",
         "demand": 1039415,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 676,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 891536,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 656,
@@ -3202,11 +3237,11 @@
         "marketUpdated": "2026-10-03T05:05:47Z"
       },
       {
-        "price": 207,
+        "price": 517,
         "station": "X Gateway",
-        "demand": 15900,
+        "demand": 248726,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       }
     ],
     "H.E. Suits": [
@@ -3311,6 +3346,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 2272,
+        "station": "X Gateway",
+        "demand": 9735,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 2263,
         "station": "Arkwright Vista",
         "demand": 3961,
@@ -3323,13 +3365,6 @@
         "demand": 1980,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 2022,
-        "station": "X Gateway",
-        "demand": 795,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Hardware Diagnostic Sensor": [
@@ -3343,9 +3378,9 @@
       {
         "price": 7446,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 82057,
+        "demand": 36250,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 7446,
@@ -3370,6 +3405,13 @@
       },
       {
         "price": 7446,
+        "station": "X Gateway",
+        "demand": 5993,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 7446,
         "station": "Rival Monkeys Foundry",
         "demand": 2280,
         "marketId": 4388359171,
@@ -3381,13 +3423,6 @@
         "demand": 2089,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 7446,
-        "station": "X Gateway",
-        "demand": 1452,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 7446,
@@ -3408,9 +3443,9 @@
       {
         "price": 2504,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 151489,
+        "demand": 66921,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2504,
@@ -3425,6 +3460,13 @@
         "demand": 15980,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 2504,
+        "station": "X Gateway",
+        "demand": 11059,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 2504,
@@ -3449,13 +3491,6 @@
       },
       {
         "price": 2504,
-        "station": "X Gateway",
-        "demand": 2678,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 2504,
         "station": "Rivers Hub",
         "demand": 1442,
         "marketId": 4391607555,
@@ -3463,13 +3498,6 @@
       }
     ],
     "Helium": [
-      {
-        "price": 130071,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 5561,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 130071,
         "station": "Eon Blue Apocalypse",
@@ -3493,6 +3521,13 @@
       },
       {
         "price": 81295,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 5733,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 81295,
         "station": "Rival Monkeys Foundry",
         "demand": 1551,
         "marketId": 4388359171,
@@ -3500,13 +3535,6 @@
       }
     ],
     "Helium-3": [
-      {
-        "price": 121725,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 5561,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 121725,
         "station": "Eon Blue Apocalypse",
@@ -3527,6 +3555,13 @@
         "demand": 33218,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 76079,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 5733,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 76079,
@@ -3546,17 +3581,17 @@
       },
       {
         "price": 2967,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 3227669,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 2967,
         "station": "Eon Blue Apocalypse",
         "demand": 1967342,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
+      },
+      {
+        "price": 2967,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1425831,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2967,
@@ -3595,17 +3630,17 @@
       },
       {
         "price": 2967,
+        "station": "X Gateway",
+        "demand": 9678,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 2967,
         "station": "King's Mountain View",
         "demand": 4536,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
-      },
-      {
-        "price": 2967,
-        "station": "X Gateway",
-        "demand": 2344,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2967,
@@ -3616,13 +3651,6 @@
       }
     ],
     "Indium": [
-      {
-        "price": 24935,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1100521,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 24935,
         "station": "Saturn Ascending",
@@ -3638,11 +3666,18 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
-        "price": 24209,
+        "price": 24876,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 477859,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 24723,
         "station": "X Gateway",
-        "demand": 3147,
+        "demand": 36651,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 23654,
@@ -3656,9 +3691,9 @@
       {
         "price": 11525,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 796346,
+        "demand": 351788,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 11525,
@@ -3683,6 +3718,13 @@
       },
       {
         "price": 11525,
+        "station": "X Gateway",
+        "demand": 16765,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 11525,
         "station": "Rivers Hub",
         "demand": 2698,
         "marketId": 4391607555,
@@ -3694,23 +3736,9 @@
         "demand": 2777,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
-      },
-      {
-        "price": 11523,
-        "station": "X Gateway",
-        "demand": 4054,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Iridium": [
-      {
-        "price": 238931,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 312124,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 238931,
         "station": "Eon Blue Apocalypse",
@@ -3727,6 +3755,13 @@
       },
       {
         "price": 238931,
+        "station": "X Gateway",
+        "demand": 11564,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 238931,
         "station": "Arkwright Vista",
         "demand": 3552,
         "marketId": 4388504067,
@@ -3738,6 +3773,13 @@
         "demand": 1776,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 149332,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 321723,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 149332,
@@ -3762,13 +3804,6 @@
       },
       {
         "price": 149332,
-        "station": "X Gateway",
-        "demand": 6533,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 149332,
         "station": "Boltzmann Vision",
         "demand": 4449,
         "marketId": 4392466179,
@@ -3785,17 +3820,17 @@
       },
       {
         "price": 41559,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 153407,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 41559,
         "station": "Gao Base",
         "demand": 75099,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 41559,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 67768,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 41559,
@@ -3835,9 +3870,9 @@
       {
         "price": 41559,
         "station": "X Gateway",
-        "demand": 2712,
+        "demand": 11200,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 41559,
@@ -3908,10 +3943,10 @@
       },
       {
         "price": 9542,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1231960,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "station": "X Gateway",
+        "demand": 89691,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 9542,
@@ -3943,13 +3978,6 @@
       },
       {
         "price": 9542,
-        "station": "X Gateway",
-        "demand": 21715,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 9542,
         "station": "Rivers Hub",
         "demand": 11697,
         "marketId": 4391607555,
@@ -3961,15 +3989,22 @@
         "demand": 2373,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 9539,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 542761,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Leather": [
       {
         "price": 645,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 9259966,
+        "demand": 4090624,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 645,
@@ -3986,6 +4021,13 @@
         "marketUpdated": "2026-10-04T18:08:39Z"
       },
       {
+        "price": 645,
+        "station": "X Gateway",
+        "demand": 20836,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 643,
         "station": "Gao Base",
         "demand": 3885553,
@@ -3998,13 +4040,6 @@
         "demand": 701762,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 572,
-        "station": "X Gateway",
-        "demand": 4415,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Liquid oxygen": [
@@ -4014,13 +4049,6 @@
         "demand": 1110,
         "marketId": 4376370179,
         "marketUpdated": "2026-08-30T17:10:51Z"
-      },
-      {
-        "price": 2132,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 3273476,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 2132,
@@ -4037,6 +4065,13 @@
         "marketUpdated": "2026-09-25T04:48:04Z"
       },
       {
+        "price": 2106,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1428541,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
         "price": 2082,
         "station": "King's Mountain View",
         "demand": 6323,
@@ -4051,11 +4086,11 @@
         "marketUpdated": "2026-08-27T22:23:33Z"
       },
       {
-        "price": 1535,
+        "price": 1955,
         "station": "X Gateway",
-        "demand": 817,
+        "demand": 9737,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 1364,
@@ -4081,11 +4116,11 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
-        "price": 1135,
+        "price": 1136,
         "station": "X Gateway",
-        "demand": 2633,
+        "demand": 10874,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 1132,
@@ -4105,17 +4140,17 @@
     "Lithium": [
       {
         "price": 2284,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 9291633,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 2284,
         "station": "Saturn Ascending",
         "demand": 1302710,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 2284,
+        "station": "X Gateway",
+        "demand": 342321,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 2284,
@@ -4125,18 +4160,18 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
+        "price": 2259,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 4099358,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
         "price": 2245,
         "station": "King's Mountain View",
         "demand": 180062,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
-      },
-      {
-        "price": 2240,
-        "station": "X Gateway",
-        "demand": 80779,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2223,
@@ -4156,17 +4191,17 @@
       },
       {
         "price": 5500,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1037203,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 5500,
         "station": "Gao Base",
         "demand": 925894,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 5500,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 458188,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 5500,
@@ -4184,6 +4219,13 @@
       },
       {
         "price": 5500,
+        "station": "X Gateway",
+        "demand": 75718,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 5500,
         "station": "Rival Monkeys Foundry",
         "demand": 69460,
         "marketId": 4388359171,
@@ -4195,13 +4237,6 @@
         "demand": 40704,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
-      },
-      {
-        "price": 5500,
-        "station": "X Gateway",
-        "demand": 18332,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 5500,
@@ -4225,13 +4260,6 @@
         "demand": 16278,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 156979,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 10504,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 156979,
@@ -4263,6 +4291,13 @@
       },
       {
         "price": 98112,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 10829,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 98112,
         "station": "King's Mountain View",
         "demand": 5256,
         "marketId": 4374964995,
@@ -4286,13 +4321,6 @@
       },
       {
         "price": 51819,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 51819,
         "station": "Arkwright Vista",
         "demand": 10653,
         "marketId": 4388504067,
@@ -4313,6 +4341,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 51819,
+        "station": "X Gateway",
+        "demand": 681,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 32387,
         "station": "Gao Base",
         "demand": 282025,
@@ -4325,6 +4360,13 @@
         "demand": 57654,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 32387,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 19363,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 32387,
@@ -4345,9 +4387,9 @@
       {
         "price": 1697,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 227233,
+        "demand": 100381,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 1697,
@@ -4362,6 +4404,13 @@
         "demand": 23969,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 1697,
+        "station": "X Gateway",
+        "demand": 16589,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 1697,
@@ -4383,13 +4432,6 @@
         "demand": 4330,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 1697,
-        "station": "X Gateway",
-        "demand": 4017,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 1697,
@@ -4454,9 +4496,9 @@
       {
         "price": 194599,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 49295,
+        "demand": 50809,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 194599,
@@ -4481,17 +4523,17 @@
       },
       {
         "price": 194599,
+        "station": "X Gateway",
+        "demand": 3600,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 194599,
         "station": "Rival Monkeys Foundry",
         "demand": 2953,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 194599,
-        "station": "X Gateway",
-        "demand": 2034,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 194599,
@@ -4539,13 +4581,6 @@
       },
       {
         "price": 1507,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 525615,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 1507,
         "station": "Rivers Hub",
         "demand": 300211,
         "marketId": 4391607555,
@@ -4553,10 +4588,24 @@
       },
       {
         "price": 1507,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 232192,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 1507,
         "station": "Arkwright Vista",
         "demand": 180390,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 1507,
+        "station": "X Gateway",
+        "demand": 38371,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 1507,
@@ -4571,13 +4620,6 @@
         "demand": 17983,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
-      },
-      {
-        "price": 1507,
-        "station": "X Gateway",
-        "demand": 9290,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 1507,
@@ -4598,9 +4640,9 @@
       {
         "price": 2379,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 2103857,
+        "demand": 929385,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2379,
@@ -4608,6 +4650,13 @@
         "demand": 289664,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 2379,
+        "station": "X Gateway",
+        "demand": 153580,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 2379,
@@ -4636,13 +4685,6 @@
         "demand": 40088,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 2379,
-        "station": "X Gateway",
-        "demand": 37183,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2379,
@@ -4707,9 +4749,9 @@
       {
         "price": 1776,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3165380,
+        "demand": 1398318,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 1776,
@@ -4755,6 +4797,13 @@
       },
       {
         "price": 1776,
+        "station": "X Gateway",
+        "demand": 6528,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 1776,
         "station": "Arkwright Vista",
         "demand": 5454,
         "marketId": 4388504067,
@@ -4766,23 +4815,9 @@
         "demand": 2728,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 1776,
-        "station": "X Gateway",
-        "demand": 1582,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Military Grade Fabrics": [
-      {
-        "price": 1396,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 303520,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 1396,
         "station": "Saturn Ascending",
@@ -4791,11 +4826,25 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 1396,
+        "station": "X Gateway",
+        "demand": 20956,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 1305,
         "station": "King's Mountain View",
         "demand": 42035,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 1197,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 45233,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Mineral Extractors": [
@@ -4849,11 +4898,11 @@
         "marketUpdated": "2026-09-25T02:31:57Z"
       },
       {
-        "price": 589,
+        "price": 956,
         "station": "X Gateway",
-        "demand": 71007,
+        "demand": 803221,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       }
     ],
     "Mineral Oil": [
@@ -4872,18 +4921,18 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 1197,
+        "station": "X Gateway",
+        "demand": 96588,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 645,
         "station": "Rival Monkeys Foundry",
         "demand": 902929,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 350,
-        "station": "X Gateway",
-        "demand": 1505,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Modular Terminals": [
@@ -4897,9 +4946,9 @@
       {
         "price": 2379,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 159905,
+        "demand": 70639,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2379,
@@ -4914,6 +4963,13 @@
         "demand": 16867,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 2379,
+        "station": "X Gateway",
+        "demand": 11673,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 2379,
@@ -4935,13 +4991,6 @@
         "demand": 3047,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 2379,
-        "station": "X Gateway",
-        "demand": 2826,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2379,
@@ -4968,17 +5017,17 @@
       },
       {
         "price": 24122,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 314178,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 24122,
         "station": "Gao Base",
         "demand": 153801,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 24122,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 138789,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 24122,
@@ -5018,9 +5067,9 @@
       {
         "price": 24122,
         "station": "X Gateway",
-        "demand": 5553,
+        "demand": 22936,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 24122,
@@ -5037,13 +5086,6 @@
         "demand": 17899,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 393863,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 6954,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 393863,
@@ -5065,6 +5107,13 @@
         "demand": 9821,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 196932,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 7168,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 196932,
@@ -5092,9 +5141,9 @@
       {
         "price": 2261,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 246165,
+        "demand": 108745,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2261,
@@ -5119,6 +5168,13 @@
       },
       {
         "price": 2261,
+        "station": "X Gateway",
+        "demand": 17971,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 2261,
         "station": "Rival Monkeys Foundry",
         "demand": 6834,
         "marketId": 4388359171,
@@ -5130,13 +5186,6 @@
         "demand": 6257,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 2261,
-        "station": "X Gateway",
-        "demand": 4351,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 2261,
@@ -5156,13 +5205,6 @@
     "Natural Fabrics": [
       {
         "price": 1148,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 36884284,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 1148,
         "station": "Saturn Ascending",
         "demand": 7590050,
         "marketId": 4374632451,
@@ -5174,6 +5216,20 @@
         "demand": 3268339,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
+      },
+      {
+        "price": 1148,
+        "station": "X Gateway",
+        "demand": 172403,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 890,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 7358477,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 890,
@@ -5188,13 +5244,6 @@
         "demand": 251692,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 840,
-        "station": "X Gateway",
-        "demand": 16770,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Neofabric Insulation": [
@@ -5208,9 +5257,9 @@
       {
         "price": 5839,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 382218,
+        "demand": 168847,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 5839,
@@ -5235,6 +5284,13 @@
       },
       {
         "price": 5839,
+        "station": "X Gateway",
+        "demand": 27903,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 5839,
         "station": "Rival Monkeys Foundry",
         "demand": 8923,
         "marketId": 4388359171,
@@ -5246,13 +5302,6 @@
         "demand": 7966,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 5839,
-        "station": "X Gateway",
-        "demand": 6756,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 5839,
@@ -5270,13 +5319,6 @@
       }
     ],
     "Nerve Agents": [
-      {
-        "price": 13946,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 229486,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 13946,
         "station": "Saturn Ascending",
@@ -5297,6 +5339,13 @@
         "demand": 576,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 13939,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 100843,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Olivine": [
@@ -5306,13 +5355,6 @@
         "demand": 266530,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 42584,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 42584,
@@ -5336,6 +5378,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 42584,
+        "station": "X Gateway",
+        "demand": 681,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 26615,
         "station": "Gao Base",
         "demand": 282025,
@@ -5351,6 +5400,13 @@
       },
       {
         "price": 26615,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 19363,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 26615,
         "station": "King's Mountain View",
         "demand": 744,
         "marketId": 4374964995,
@@ -5360,17 +5416,17 @@
     "Osmium": [
       {
         "price": 40431,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1630843,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 40431,
         "station": "Eon Blue Apocalypse",
         "demand": 1510664,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
+      },
+      {
+        "price": 40431,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 720430,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 40431,
@@ -5395,6 +5451,13 @@
       },
       {
         "price": 40431,
+        "station": "X Gateway",
+        "demand": 60770,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 40431,
         "station": "King's Mountain View",
         "demand": 34299,
         "marketId": 4374964995,
@@ -5406,13 +5469,6 @@
         "demand": 19191,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 40431,
-        "station": "X Gateway",
-        "demand": 14713,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 40431,
@@ -5439,17 +5495,17 @@
       },
       {
         "price": 49679,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 30558,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 49679,
         "station": "Gao Base",
         "demand": 26978,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 49679,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 13499,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 49679,
@@ -5485,6 +5541,13 @@
         "demand": 1752,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 49679,
+        "station": "X Gateway",
+        "demand": 558,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       }
     ],
     "Performance Enhancers": [
@@ -5541,13 +5604,6 @@
       },
       {
         "price": 238931,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 238931,
         "station": "Arkwright Vista",
         "demand": 10653,
         "marketId": 4388504067,
@@ -5568,6 +5624,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 238931,
+        "station": "X Gateway",
+        "demand": 681,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 149332,
         "station": "Gao Base",
         "demand": 282025,
@@ -5580,6 +5643,13 @@
         "demand": 57654,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 149332,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 19363,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 149332,
@@ -5651,9 +5721,9 @@
       {
         "price": 55291,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 294369,
+        "demand": 130038,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 55291,
@@ -5692,17 +5762,17 @@
       },
       {
         "price": 55291,
+        "station": "X Gateway",
+        "demand": 16424,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 55291,
         "station": "Arkwright Vista",
         "demand": 13301,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 55291,
-        "station": "X Gateway",
-        "demand": 3978,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 55291,
@@ -5713,13 +5783,6 @@
       }
     ],
     "Polymers": [
-      {
-        "price": 1087,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 28536980,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 1087,
         "station": "Saturn Ascending",
@@ -5735,6 +5798,13 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
+        "price": 1087,
+        "station": "X Gateway",
+        "demand": 216840,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 614,
         "station": "King's Mountain View",
         "demand": 315810,
@@ -5742,11 +5812,11 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
-        "price": 304,
-        "station": "X Gateway",
-        "demand": 5288,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "price": 612,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 5590869,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 221,
@@ -5767,9 +5837,9 @@
       {
         "price": 1776,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 214608,
+        "demand": 94805,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 1776,
@@ -5784,6 +5854,13 @@
         "demand": 22638,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 1776,
+        "station": "X Gateway",
+        "demand": 15666,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 1776,
@@ -5808,13 +5885,6 @@
       },
       {
         "price": 1776,
-        "station": "X Gateway",
-        "demand": 3793,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 1776,
         "station": "Rivers Hub",
         "demand": 2044,
         "marketId": 4391607555,
@@ -5824,17 +5894,17 @@
     "Praseodymium": [
       {
         "price": 8425,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1421332,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 8425,
         "station": "Eon Blue Apocalypse",
         "demand": 1305317,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
+      },
+      {
+        "price": 8425,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 627878,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 8425,
@@ -5859,6 +5929,13 @@
       },
       {
         "price": 8425,
+        "station": "X Gateway",
+        "demand": 52655,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 8425,
         "station": "King's Mountain View",
         "demand": 28306,
         "marketId": 4374964995,
@@ -5870,13 +5947,6 @@
         "demand": 16170,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
-      },
-      {
-        "price": 8425,
-        "station": "X Gateway",
-        "demand": 12748,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 8425,
@@ -5947,13 +6017,6 @@
       },
       {
         "price": 13650,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 6953073,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 13650,
         "station": "Rival Monkeys Foundry",
         "demand": 697745,
         "marketId": 4388359171,
@@ -5965,6 +6028,13 @@
         "demand": 467333,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 13650,
+        "station": "X Gateway",
+        "demand": 405529,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 13650,
@@ -5989,17 +6059,17 @@
       },
       {
         "price": 13650,
-        "station": "X Gateway",
-        "demand": 98181,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 13650,
         "station": "Boltzmann Vision",
         "demand": 13385,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 13622,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 3043889,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Quartz Pyroxenite": [
@@ -6009,13 +6079,6 @@
         "demand": 266530,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 63109,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 63109,
@@ -6039,6 +6102,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 63109,
+        "station": "X Gateway",
+        "demand": 681,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 39443,
         "station": "Gao Base",
         "demand": 282025,
@@ -6051,6 +6121,13 @@
         "demand": 57654,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 39443,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 19363,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 39443,
@@ -6077,13 +6154,6 @@
       },
       {
         "price": 2151,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 22092,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 2151,
         "station": "King's Mountain View",
         "demand": 12093,
         "marketId": 4374964995,
@@ -6098,6 +6168,13 @@
       },
       {
         "price": 2151,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 9760,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 2151,
         "station": "Rival Monkeys Foundry",
         "demand": 1699,
         "marketId": 4388359171,
@@ -6109,6 +6186,13 @@
         "demand": 1686,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 2151,
+        "station": "X Gateway",
+        "demand": 1614,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 2151,
@@ -6179,13 +6263,6 @@
       },
       {
         "price": 132665,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 132665,
         "station": "Arkwright Vista",
         "demand": 10653,
         "marketId": 4388504067,
@@ -6206,6 +6283,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 132665,
+        "station": "X Gateway",
+        "demand": 681,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 82916,
         "station": "Gao Base",
         "demand": 282025,
@@ -6221,6 +6305,13 @@
       },
       {
         "price": 82916,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 19363,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 82916,
         "station": "King's Mountain View",
         "demand": 744,
         "marketId": 4374964995,
@@ -6228,13 +6319,6 @@
       }
     ],
     "Samarium": [
-      {
-        "price": 35655,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 908344,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 35655,
         "station": "Eon Blue Apocalypse",
@@ -6251,6 +6335,13 @@
       },
       {
         "price": 35655,
+        "station": "X Gateway",
+        "demand": 33508,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 35655,
         "station": "Arkwright Vista",
         "demand": 10290,
         "marketId": 4388504067,
@@ -6262,6 +6353,13 @@
         "demand": 5142,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 25468,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 401263,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 25468,
@@ -6286,13 +6384,6 @@
       },
       {
         "price": 25468,
-        "station": "X Gateway",
-        "demand": 8113,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 25468,
         "station": "Boltzmann Vision",
         "demand": 5526,
         "marketId": 4392466179,
@@ -6306,13 +6397,6 @@
         "demand": 266530,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 150328,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 150328,
@@ -6336,6 +6420,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 150328,
+        "station": "X Gateway",
+        "demand": 681,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 93955,
         "station": "Gao Base",
         "demand": 282025,
@@ -6351,6 +6442,13 @@
       },
       {
         "price": 93955,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 19363,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 93955,
         "station": "King's Mountain View",
         "demand": 744,
         "marketId": 4374964995,
@@ -6358,13 +6456,6 @@
       }
     ],
     "Semiconductors": [
-      {
-        "price": 1584,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 17991928,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 1584,
         "station": "Saturn Ascending",
@@ -6380,6 +6471,13 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
+        "price": 1584,
+        "station": "X Gateway",
+        "demand": 79832,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 1425,
         "station": "Boltzmann Vision",
         "demand": 80349,
@@ -6387,34 +6485,34 @@
         "marketUpdated": "2026-09-25T20:18:17Z"
       },
       {
+        "price": 1424,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 3575569,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
         "price": 1413,
         "station": "King's Mountain View",
         "demand": 31647,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
-      },
-      {
-        "price": 1396,
-        "station": "X Gateway",
-        "demand": 8175,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Steel": [
-      {
-        "price": 4934,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 528847,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 4934,
         "station": "Saturn Ascending",
         "demand": 260961,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 4781,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 218950,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 4726,
@@ -6434,13 +6532,6 @@
     "Superconductors": [
       {
         "price": 7520,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 3653002,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 7520,
         "station": "Saturn Ascending",
         "demand": 508945,
         "marketId": 4374632451,
@@ -6454,6 +6545,13 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
+        "price": 7520,
+        "station": "X Gateway",
+        "demand": 130967,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 7425,
         "station": "King's Mountain View",
         "demand": 63161,
@@ -6461,11 +6559,11 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
-        "price": 6967,
-        "station": "X Gateway",
-        "demand": 3556,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "price": 7394,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 700554,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 6675,
@@ -6476,13 +6574,6 @@
       }
     ],
     "Synthetic Fabrics": [
-      {
-        "price": 1265,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18864966,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 1265,
         "station": "Saturn Ascending",
@@ -6498,18 +6589,25 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
+        "price": 1265,
+        "station": "X Gateway",
+        "demand": 97743,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 642,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 3692134,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
         "price": 596,
         "station": "King's Mountain View",
         "demand": 32678,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
-      },
-      {
-        "price": 343,
-        "station": "X Gateway",
-        "demand": 2111,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 252,
@@ -6573,13 +6671,6 @@
       },
       {
         "price": 7446,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 199204,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 7446,
         "station": "Saturn Ascending",
         "demand": 8230,
         "marketId": 4374632451,
@@ -6600,6 +6691,20 @@
         "marketUpdated": "2026-10-03T05:05:47Z"
       },
       {
+        "price": 7423,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 86206,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 7310,
+        "station": "X Gateway",
+        "demand": 3163,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 7310,
         "station": "Arkwright Vista",
         "demand": 908,
@@ -6617,17 +6722,17 @@
       },
       {
         "price": 51207,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 153407,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 51207,
         "station": "Gao Base",
         "demand": 75099,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 51207,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 67768,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 51207,
@@ -6667,9 +6772,9 @@
       {
         "price": 51207,
         "station": "X Gateway",
-        "demand": 2712,
+        "demand": 11200,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 51207,
@@ -6682,17 +6787,17 @@
     "Tantalum": [
       {
         "price": 14867,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1799476,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 14867,
         "station": "Saturn Ascending",
         "demand": 169820,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 14864,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 793927,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 14841,
@@ -6702,18 +6807,18 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
+        "price": 14692,
+        "station": "X Gateway",
+        "demand": 46857,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 14686,
         "station": "Rivers Hub",
         "demand": 14463,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 14267,
-        "station": "X Gateway",
-        "demand": 4030,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 13876,
@@ -6734,9 +6839,9 @@
       {
         "price": 2048,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 300815,
+        "demand": 132953,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2048,
@@ -6746,18 +6851,18 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 2048,
+        "station": "X Gateway",
+        "demand": 42964,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 2014,
         "station": "Rival Monkeys Foundry",
         "demand": 60924,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 2002,
-        "station": "X Gateway",
-        "demand": 10053,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       },
       {
         "price": 1998,
@@ -6778,9 +6883,9 @@
       {
         "price": 3099,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 183046,
+        "demand": 80861,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 3099,
@@ -6805,6 +6910,13 @@
       },
       {
         "price": 3099,
+        "station": "X Gateway",
+        "demand": 13364,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 3099,
         "station": "Rival Monkeys Foundry",
         "demand": 5082,
         "marketId": 4388359171,
@@ -6819,13 +6931,6 @@
       },
       {
         "price": 3099,
-        "station": "X Gateway",
-        "demand": 3236,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 3099,
         "station": "Rivers Hub",
         "demand": 2327,
         "marketId": 4391607555,
@@ -6833,13 +6938,6 @@
       }
     ],
     "Thallium": [
-      {
-        "price": 4390,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 2467475,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 4390,
         "station": "Eon Blue Apocalypse",
@@ -6869,6 +6967,20 @@
         "marketUpdated": "2026-10-03T05:05:47Z"
       },
       {
+        "price": 4322,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1061667,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 4273,
+        "station": "X Gateway",
+        "demand": 118666,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 4273,
         "station": "Arkwright Vista",
         "demand": 15451,
@@ -6888,23 +7000,9 @@
         "demand": 1764,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
-      },
-      {
-        "price": 3935,
-        "station": "X Gateway",
-        "demand": 10585,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Thorium": [
-      {
-        "price": 12278,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 2140052,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 12278,
         "station": "Eon Blue Apocalypse",
@@ -6918,6 +7016,13 @@
         "demand": 110118,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 12278,
+        "station": "X Gateway",
+        "demand": 73823,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 12278,
@@ -6949,17 +7054,17 @@
       },
       {
         "price": 12278,
-        "station": "X Gateway",
-        "demand": 17874,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
-      },
-      {
-        "price": 12278,
         "station": "Boltzmann Vision",
         "demand": 2412,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 12277,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 944178,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Thortveitite": [
@@ -6969,13 +7074,6 @@
         "demand": 266530,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 238931,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 18785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 238931,
@@ -6999,6 +7097,13 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 238931,
+        "station": "X Gateway",
+        "demand": 681,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 149332,
         "station": "Gao Base",
         "demand": 282025,
@@ -7014,6 +7119,13 @@
       },
       {
         "price": 149332,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 19363,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 149332,
         "station": "King's Mountain View",
         "demand": 744,
         "marketId": 4374964995,
@@ -7023,17 +7135,17 @@
     "Titanium": [
       {
         "price": 5234,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 501398,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 5234,
         "station": "Saturn Ascending",
         "demand": 247416,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 5076,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 207578,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 5021,
@@ -7067,10 +7179,24 @@
       },
       {
         "price": 5500,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 66055,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 5500,
         "station": "Saturn Ascending",
         "demand": 57957,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 5453,
+        "station": "X Gateway",
+        "demand": 23984,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 5126,
@@ -7078,13 +7204,6 @@
         "demand": 24447,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 5046,
-        "station": "X Gateway",
-        "demand": 4117,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Tritium": [
@@ -7094,6 +7213,13 @@
         "demand": 29221,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 57262,
+        "station": "X Gateway",
+        "demand": 3339,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 53692,
@@ -7121,9 +7247,9 @@
       {
         "price": 4103,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 9679,
+        "demand": 9982,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 4103,
@@ -7145,22 +7271,29 @@
         "demand": 1738,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
+      },
+      {
+        "price": 4103,
+        "station": "X Gateway",
+        "demand": 674,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       }
     ],
     "Uranium": [
-      {
-        "price": 7919,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 3045586,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 7919,
         "station": "Saturn Ascending",
         "demand": 486712,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 7919,
+        "station": "X Gateway",
+        "demand": 114208,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 7917,
@@ -7177,11 +7310,11 @@
         "marketUpdated": "2026-10-02T02:56:12Z"
       },
       {
-        "price": 7891,
-        "station": "X Gateway",
-        "demand": 26970,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "price": 7892,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1328401,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Void Opal": [
@@ -7202,9 +7335,9 @@
       {
         "price": 132375,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 8531,
+        "demand": 8793,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 132375,
@@ -7226,6 +7359,13 @@
         "demand": 756,
         "marketId": 4374632451,
         "marketUpdated": "2026-10-04T18:14:03Z"
+      },
+      {
+        "price": 132375,
+        "station": "X Gateway",
+        "demand": 624,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 132375,
@@ -7251,13 +7391,6 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
-        "price": 578,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 3430340,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
         "price": 569,
         "station": "Rival Monkeys Foundry",
         "demand": 272989,
@@ -7265,11 +7398,18 @@
         "marketUpdated": "2026-10-03T05:05:47Z"
       },
       {
-        "price": 124,
+        "price": 446,
         "station": "X Gateway",
-        "demand": 2242,
+        "demand": 34957,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 326,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1061129,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Water Purifiers": [
@@ -7310,6 +7450,13 @@
       },
       {
         "price": 1157,
+        "station": "X Gateway",
+        "demand": 150217,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
+        "price": 1157,
         "station": "Arkwright Vista",
         "demand": 69521,
         "marketId": 4388504067,
@@ -7335,13 +7482,6 @@
         "demand": 74127,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
-      },
-      {
-        "price": 300,
-        "station": "X Gateway",
-        "demand": 4387,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Wine": [
@@ -7354,17 +7494,17 @@
       },
       {
         "price": 724,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1498734,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 724,
         "station": "Gao Base",
         "demand": 1343126,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 724,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 662405,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 724,
@@ -7374,18 +7514,18 @@
         "marketUpdated": "2026-10-04T18:14:03Z"
       },
       {
+        "price": 724,
+        "station": "X Gateway",
+        "demand": 195057,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 689,
         "station": "Rival Monkeys Foundry",
         "demand": 290448,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 673,
-        "station": "X Gateway",
-        "demand": 45026,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Advanced Catalysers": [
@@ -7464,9 +7604,9 @@
       {
         "price": 209603,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1373,
+        "demand": 1415,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 209603,
@@ -7506,11 +7646,11 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
-        "price": 583,
+        "price": 795,
         "station": "X Gateway",
-        "demand": 578,
+        "demand": 7465,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       }
     ],
     "Basic Medicines": [
@@ -7545,13 +7685,6 @@
         "marketUpdated": "2026-10-04T18:08:39Z"
       },
       {
-        "price": 4463,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 505103,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
         "price": 4163,
         "station": "Rivers Hub",
         "demand": 57369,
@@ -7571,6 +7704,13 @@
         "demand": 7522,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 1395,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 194087,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 1203,
@@ -7612,9 +7752,9 @@
       {
         "price": 144176,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1373,
+        "demand": 1415,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 144176,
@@ -7647,13 +7787,6 @@
         "marketUpdated": "2026-09-25T02:31:57Z"
       },
       {
-        "price": 21284,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 264737,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
         "price": 21145,
         "station": "Rivers Hub",
         "demand": 82444,
@@ -7669,6 +7802,13 @@
       },
       {
         "price": 20802,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 35686,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 20802,
         "station": "Boltzmann Vision",
         "demand": 601,
         "marketId": 4392466179,
@@ -7677,18 +7817,18 @@
     ],
     "Cobalt": [
       {
-        "price": 7349,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 10192284,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
         "price": 4884,
         "station": "King's Mountain View",
         "demand": 361467,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 4869,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 4454073,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 3857,
@@ -7705,13 +7845,6 @@
         "demand": 4664219,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 7420,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 371333,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 7420,
@@ -7733,6 +7866,13 @@
         "demand": 5531,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 7143,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 121124,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 6830,
@@ -7768,17 +7908,17 @@
       },
       {
         "price": 13461,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 4074121,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 13461,
         "station": "Arkwright Vista",
         "demand": 142512,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 13445,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1774195,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 13430,
@@ -7804,11 +7944,11 @@
     ],
     "Gold": [
       {
-        "price": 50879,
+        "price": 50861,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 2378664,
+        "demand": 1043701,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 50861,
@@ -7864,9 +8004,9 @@
       {
         "price": 189989,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1373,
+        "demand": 1415,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 189989,
@@ -7890,13 +8030,6 @@
         "demand": 1679063,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 4522,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1280725,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 4522,
@@ -7925,6 +8058,13 @@
         "demand": 6635,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 2126,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 501498,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Indite": [
@@ -7934,13 +8074,6 @@
         "demand": 6477609,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 13072,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 146571,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 12940,
@@ -7962,6 +8095,13 @@
         "demand": 177473,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 12679,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 34896,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Lepidolite": [
@@ -7987,18 +8127,18 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
-        "price": 5473,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 430766,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
         "price": 893,
         "station": "King's Mountain View",
         "demand": 11337,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 783,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 57890,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Marine Equipment": [
@@ -8029,6 +8169,13 @@
         "demand": 22610,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 4754,
+        "station": "X Gateway",
+        "demand": 3224,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
       },
       {
         "price": 4745,
@@ -8070,9 +8217,9 @@
       {
         "price": 191307,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1373,
+        "demand": 1415,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 191307,
@@ -8136,13 +8283,6 @@
       },
       {
         "price": 53719,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 1253727,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 53719,
         "station": "Rivers Hub",
         "demand": 93053,
         "marketId": 4391607555,
@@ -8168,6 +8308,13 @@
         "demand": 13079,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 53709,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 551359,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Personal Weapons": [
@@ -8223,6 +8370,13 @@
         "marketUpdated": "2026-09-25T02:40:47Z"
       },
       {
+        "price": 3054,
+        "station": "X Gateway",
+        "demand": 58349,
+        "marketId": 4394287619,
+        "marketUpdated": "2026-10-05T23:22:09Z"
+      },
+      {
         "price": 2903,
         "station": "Rival Monkeys Foundry",
         "demand": 72576,
@@ -8242,13 +8396,6 @@
         "demand": 353713,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
-      },
-      {
-        "price": 2285,
-        "station": "X Gateway",
-        "demand": 1548,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Reactive Armour": [
@@ -8321,17 +8468,17 @@
       },
       {
         "price": 172464,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 3159,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
+      },
+      {
+        "price": 172464,
         "station": "Rival Monkeys Foundry",
         "demand": 3141,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-03T05:05:47Z"
-      },
-      {
-        "price": 172464,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 3065,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 172464,
@@ -8364,13 +8511,6 @@
         "marketUpdated": "2026-10-04T18:08:39Z"
       },
       {
-        "price": 5008,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 6278611,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
         "price": 4905,
         "station": "Arkwright Vista",
         "demand": 250177,
@@ -8383,6 +8523,13 @@
         "demand": 115014,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
+      },
+      {
+        "price": 2492,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 2732235,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2486,
@@ -8431,9 +8578,9 @@
       {
         "price": 166524,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1373,
+        "demand": 1415,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 166524,
@@ -8474,13 +8621,6 @@
       },
       {
         "price": 40729,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 4630943,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 40729,
         "station": "Rivers Hub",
         "demand": 188630,
         "marketId": 4391607555,
@@ -8499,6 +8639,13 @@
         "demand": 10235,
         "marketId": 4392466179,
         "marketUpdated": "2026-09-25T20:18:17Z"
+      },
+      {
+        "price": 40679,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 2002980,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Uraninite": [
@@ -8508,13 +8655,6 @@
         "demand": 13287970,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-04T18:08:39Z"
-      },
-      {
-        "price": 3831,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 531926,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
       },
       {
         "price": 3667,
@@ -8529,6 +8669,13 @@
         "demand": 7918,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-02T02:56:12Z"
+      },
+      {
+        "price": 3576,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 173409,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 3504,
@@ -8548,17 +8695,17 @@
       },
       {
         "price": 1860,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 335404,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 1860,
         "station": "Gao Base",
         "demand": 286289,
         "marketId": 4375494403,
         "marketUpdated": "2026-10-02T15:40:59Z"
+      },
+      {
+        "price": 1860,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 148244,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 1829,
@@ -8568,11 +8715,11 @@
         "marketUpdated": "2026-10-03T05:05:47Z"
       },
       {
-        "price": 1286,
+        "price": 1692,
         "station": "X Gateway",
-        "demand": 2704,
+        "demand": 31835,
         "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
+        "marketUpdated": "2026-10-05T23:22:09Z"
       }
     ],
     "Microbial Furnaces": [
@@ -8631,13 +8778,6 @@
     "Black Box": [
       {
         "price": 31039,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 20785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 31039,
         "station": "Rivers Hub",
         "demand": 2035,
         "marketId": 4391607555,
@@ -8652,13 +8792,6 @@
       }
     ],
     "Damaged Escape Pod": [
-      {
-        "price": 16903,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 24160,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 16903,
         "station": "Arkwright Vista",
@@ -8677,13 +8810,6 @@
     "Hostages": [
       {
         "price": 34584,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 12236,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 34584,
         "station": "Rivers Hub",
         "demand": 944,
         "marketId": 4391607555,
@@ -8698,13 +8824,6 @@
       }
     ],
     "Occupied Escape Pod": [
-      {
-        "price": 30333,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 20785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
       {
         "price": 30333,
         "station": "Rivers Hub",
@@ -8723,13 +8842,6 @@
     "Personal Effects": [
       {
         "price": 9542,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 20785,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 9542,
         "station": "Rivers Hub",
         "demand": 2035,
         "marketId": 4391607555,
@@ -8746,13 +8858,6 @@
     "Wreckage Components": [
       {
         "price": 8965,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 28366,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
-        "price": 8965,
         "station": "Arkwright Vista",
         "demand": 1639,
         "marketId": 4388504067,
@@ -8764,22 +8869,15 @@
         "demand": 1024,
         "marketId": 4391607555,
         "marketUpdated": "2026-09-25T02:40:47Z"
-      },
-      {
-        "price": 8965,
-        "station": "X Gateway",
-        "demand": 956,
-        "marketId": 4394287619,
-        "marketUpdated": "2026-10-04T01:46:16Z"
       }
     ],
     "Onionhead Gamma Strain": [
       {
-        "price": 5831,
+        "price": 5497,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 69648,
+        "demand": 86189,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 5448,
@@ -8812,18 +8910,18 @@
         "marketUpdated": "2026-08-06T16:12:39Z"
       },
       {
-        "price": 1233,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 7096473,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
-      },
-      {
         "price": 1028,
         "station": "Romano Territories",
         "demand": 612,
         "marketId": 4374917123,
         "marketUpdated": "2026-09-25T04:48:04Z"
+      },
+      {
+        "price": 1016,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 1392822,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-06T00:23:04Z"
       }
     ],
     "Building Fabricators": [
@@ -8846,9 +8944,9 @@
       {
         "price": 2783,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 201982,
+        "demand": 89226,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2783,
@@ -8871,9 +8969,9 @@
       {
         "price": 2639,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 143073,
+        "demand": 63204,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2639,
@@ -8887,9 +8985,9 @@
       {
         "price": 2936,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 142678,
+        "demand": 63029,
         "marketId": 4376376323,
-        "marketUpdated": "2026-09-29T17:00:47Z"
+        "marketUpdated": "2026-10-06T00:23:04Z"
       },
       {
         "price": 2936,
