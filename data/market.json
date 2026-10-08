@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-10-08T13:27:21.081211+00:00",
+  "generatedAt": "2026-10-08T23:20:27.526757+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -3098,6 +3098,13 @@
         "marketUpdated": "2026-10-08T06:06:48Z"
       },
       {
+        "price": 777,
+        "station": "Romano Territories",
+        "demand": 1128,
+        "marketId": 4374917123,
+        "marketUpdated": "2026-10-07T06:43:07Z"
+      },
+      {
         "price": 483,
         "station": "Boltzmann Vision",
         "demand": 665,
@@ -3388,6 +3395,13 @@
         "demand": 2307,
         "marketId": 4376370179,
         "marketUpdated": "2026-10-06T01:57:36Z"
+      },
+      {
+        "price": 748,
+        "station": "Romano Territories",
+        "demand": 1251,
+        "marketId": 4374917123,
+        "marketUpdated": "2026-10-07T06:43:07Z"
       },
       {
         "price": 742,
@@ -3766,6 +3780,13 @@
         "demand": 10864,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-08T06:06:48Z"
+      },
+      {
+        "price": 2967,
+        "station": "Romano Territories",
+        "demand": 580,
+        "marketId": 4374917123,
+        "marketUpdated": "2026-10-07T06:43:07Z"
       }
     ],
     "Indium": [
@@ -4181,6 +4202,13 @@
         "demand": 2982,
         "marketId": 4376370179,
         "marketUpdated": "2026-10-06T01:57:36Z"
+      },
+      {
+        "price": 2132,
+        "station": "Romano Territories",
+        "demand": 1617,
+        "marketId": 4374917123,
+        "marketUpdated": "2026-10-07T06:43:07Z"
       },
       {
         "price": 2106,
@@ -7669,6 +7697,13 @@
         "marketUpdated": "2026-10-06T01:57:36Z"
       },
       {
+        "price": 777,
+        "station": "Romano Territories",
+        "demand": 1128,
+        "marketId": 4374917123,
+        "marketUpdated": "2026-10-07T06:43:07Z"
+      },
+      {
         "price": 300,
         "station": "Rivers Hub",
         "demand": 25265,
@@ -9032,6 +9067,13 @@
         "demand": 86189,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-06T00:55:50Z"
+      },
+      {
+        "price": 5484,
+        "station": "Romano Territories",
+        "demand": 664,
+        "marketId": 4374917123,
+        "marketUpdated": "2026-10-07T06:43:07Z"
       },
       {
         "price": 5448,
