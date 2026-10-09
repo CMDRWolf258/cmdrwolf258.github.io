@@ -15,12 +15,7 @@ function normalizeBody(value){
   return match?(match[1]+(match[2]||'').toLowerCase()):short;
 }
 function inferBodyType(body){return /^\d+$/.test(body)?'planet':/^\d+[a-z]+$/i.test(body)?'moon':'';}
-function sameSystem(name,address){
-  const id=cleanText(address,40);
-  // A supplied non-10-16 ID64 must never hit the legacy 10-16 writer
-  // just because a display name is stale or mismatched.
-  return id?id===TEN16_ID64:cleanText(name,160).toLowerCase()===TEN16_SYSTEM.toLowerCase();
-}
+function sameSystem(name,address){return cleanText(name,160).toLowerCase()===TEN16_SYSTEM.toLowerCase()||cleanText(address,40)===TEN16_ID64;}
 async function validateScout(request){
   const authorization=request.headers.get('Authorization')||'';
   if(!/^Bearer\s+/i.test(authorization))return null;
