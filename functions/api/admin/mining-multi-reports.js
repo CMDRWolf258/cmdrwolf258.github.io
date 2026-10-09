@@ -56,13 +56,19 @@ export async function onRequestPost({request,env}){
     phase('write.multi-review');
     // D1 batch ensures replacement of a known close duplicate is atomic.
     if(action==='keep-new'){
-      await env.DB.batch([
-        env.DB.prepare("UPDATE mining_multi_sites SET status='rejected',updated_at=CURRENT_TIMESTAMP WHERE id=? AND status='approved'").bind(report.duplicate_site_id),
-        env.DB.prepare("UPDATE mining_multi_sites SET status='approved',updated_at=CURRENT_TIMESTAMP WHERE id=? AND status='duplicate_review'").bind(id),
+      const outcome=await env.DB.batch([
+        env.DB.prepare("UPDATE mining_multi_sites SET status='rejected',updated_at=CURRENT_TIMESTAMP WHERE id=? AND status='approved' AND EXISTS(SELECT 1 FROM mining_multi_sites WHERE id=? AND status='duplicate_review')").bind(report.duplicate_site_id,id),
+        env.DB.prepare("UPDATE mining_multi_sites SET status='approved',updated_at=CURRENT_TIMESTAMP WHERE id=? AND status='duplicate_review' AND EXISTS(SELECT 1 FROM mining_multi_sites WHERE id=? AND status='rejected')").bind(id,report.duplicate_site_id),
       ]);
+      if(outcome.some(row=>row.meta?.changes!==1)){
+        return json({ok:false,error:'review_conflict_retry'},{status:409});
+      }
     }else{
-      await env.DB.prepare('UPDATE mining_multi_sites SET status=?,updated_at=CURRENT_TIMESTAMP WHERE id=? AND status=?')
+      const outcome=await env.DB.prepare('UPDATE mining_multi_sites SET status=?,updated_at=CURRENT_TIMESTAMP WHERE id=? AND status=?')
         .bind(action==='approve'?'approved':'rejected',id,report.status).run();
+      if(outcome.meta?.changes!==1){
+        return json({ok:false,error:'already_reviewed'},{status:409});
+      }
     }
     return json({ok:true,id,action,status:action==='approve'||action==='keep-new'?'approved':'rejected'});
   });
