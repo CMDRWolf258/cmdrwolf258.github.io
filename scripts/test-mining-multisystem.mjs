@@ -6,6 +6,8 @@ import { onRequestPost as saveCenter } from '../functions/api/hud/mining-center.
 import { onRequestGet as getDeposits } from '../functions/api/mining.js';
 import { onRequestGet as getCenters } from '../functions/api/mining-centers.js';
 import { normalizedMultiScope } from '../lib/mining-multisystem.js';
+import { createSession } from '../lib/auth.js';
+import { onRequestGet as listReviews, onRequestPost as review } from '../functions/api/admin/mining-multi-reports.js';
 
 // Disposable SQLite only. Never touches production D1 or user reports.
 function database() {
@@ -108,4 +110,51 @@ test('multi system D1 stores separate centers, approved deposits, pending report
   assert.equal(unauthorizedCenter.code,403);
   assert.equal(db.prepare('SELECT COUNT(*) AS total FROM mining_multi_sites').get().total,5);
   assert.equal(db.prepare('SELECT data FROM legacy_guard WHERE id=1').get().data,'untouched');
+});
+
+
+test('Discord site admin review lists pending records and authorizes approval/rejection',async t=>{
+  const {db,env}=database();
+  t.after(()=>db.close());
+  let role='site_admin';
+  t.mock.method(globalThis,'fetch',async()=>Response.json({ok:true,access:role,commander:'Test CMDR'}));
+  const sample=payload(),second={...sample,longitude:-45.01},third={...sample,longitude:-45.02};
+  const approved=await send(reportDeposit,'mining-report',sample,env);
+  assert.equal(approved.data.status,'approved');
+  role='member';
+  const pending=await send(reportDeposit,'mining-report',second,env);
+  assert.equal(pending.data.status,'pending');
+  const near=await send(reportDeposit,'mining-report',{...sample,latitude:12.00009},env);
+  assert.equal(near.data.status,'duplicate_review');
+  env.SESSION_SECRET='test-local-only-session-secret';
+  const session=await createSession(env,{id:'test-user',username:'dev'}, {access:'site_admin'});
+  const url='https://archive.example/api/admin/mining-multi-reports';
+  const authHeaders={Cookie:'ten16_session='+session,'Content-Type':'application/json'};
+  const unauth=await listReviews({request:new Request(url),env});
+  assert.equal(unauth.status,401);
+  const listed=await listReviews({request:new Request(url,{headers:authHeaders}),env});
+  assert.equal(listed.status,200);
+  assert.equal((await listed.json()).reports.length,2);
+  const sendReview=async (reportId,action)=>{
+    const result=await review({request:new Request(url,{method:'POST',headers:authHeaders,
+      body:JSON.stringify({reportId,action})}),env});
+    return{code:result.status,data:await result.json()};
+  };
+  const noBlindApprove=await sendReview(near.data.reportId,'approve');
+  assert.equal(noBlindApprove.code,409,'nearby duplicate needs explicit resolution');
+  const discard=await sendReview(near.data.reportId,'keep-existing');
+  assert.equal(discard.data.status,'rejected');
+  const accept=await sendReview(pending.data.reportId,'approve');
+  assert.equal(accept.data.status,'approved');
+  assert.equal((await (await getDeposits({request:get('mining',sample.systemAddress),env})).json()).length,2);
+  const again=await sendReview(pending.data.reportId,'approve');
+  assert.equal(again.code,409,'review cannot be processed twice');
+  const replacing=await send(reportDeposit,'mining-report',{...sample,longitude:-44.99995},env);
+  assert.equal(replacing.data.status,'duplicate_review');
+  const keepNew=await sendReview(replacing.data.reportId,'keep-new');
+  assert.equal(keepNew.data.status,'approved');
+  assert.equal(db.prepare("SELECT status FROM mining_multi_sites WHERE id=?").get(approved.data.site.id-2000000000).status,'rejected');
+  assert.equal((await (await getDeposits({request:get('mining',sample.systemAddress),env})).json()).length,2);
+  const noMore=await listReviews({request:new Request(url,{headers:authHeaders}),env});
+  assert.equal((await noMore.json()).reports.length,0);
 });
