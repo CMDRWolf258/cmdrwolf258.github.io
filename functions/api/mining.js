@@ -1,3 +1,4 @@
+import { readMultiDeposits } from '../../lib/mining-multisystem.js';
 import { ensureMaterialSchema } from '../../lib/mining-material.js';
 import { miningRowsToPoiProvider } from '../../lib/curated-poi.js';
 import { ensureMiningNavigationSchema, TEN16_ID64, TEN16_SYSTEM } from '../../lib/mining-navigation.js';
@@ -5,6 +6,15 @@ import { withMiningDatabase } from '../../lib/mining-diagnostics.js';
 
 export async function onRequestGet({ request, env }) {
   const poiFormat = request && new URL(request.url).searchParams.get('format') === 'poi';
+  const systemAddress=request?new URL(request.url).searchParams.get('systemAddress'):null;
+  if(systemAddress && systemAddress!=='560820275507'){
+    return withMiningDatabase(env,'read-multi-deposits',async phase=>{
+      phase('query.multi-deposits');
+      if(poiFormat)return Response.json([],{headers:{'Cache-Control':'no-store','Access-Control-Allow-Origin':'*'}});
+      return Response.json(await readMultiDeposits(env,systemAddress),
+        {headers:{'Cache-Control':'no-store'}});
+    },{publicCors:poiFormat});
+  }
   return withMiningDatabase(env, 'read-deposits', async phase => {
     phase('schema.material');
     await ensureMaterialSchema(env);
