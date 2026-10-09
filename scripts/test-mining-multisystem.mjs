@@ -86,11 +86,17 @@ test('multi system D1 stores separate centers, approved deposits, pending report
   const d3=await send(reportDeposit,'mining-report',diffBody,env);
   assert.equal(d3.data.status,'approved');
 
-  const directory=await (await getSystemDirectory({env})).json();
+  // A member-only pending system must not leak into the public autocomplete.
+  role='member';
+  const notPublic=payload('Unapproved Only','555555555555555','Unapproved Only A 2 a');
+  assert.equal((await send(reportDeposit,'mining-report',notPublic,env)).data.status,'pending');
+  role='site_admin';
+    const directory=await (await getSystemDirectory({env})).json();
   assert.equal(directory.ok,true);
   assert.deepEqual(new Set(directory.systems.map(s=>s.systemAddress)),
     new Set(['560820275507',one.systemAddress,nowOther.systemAddress]));
   assert.equal(directory.systems.some(s=>s.systemName==='Icy Test'),true);
+  assert.equal(directory.systems.some(s=>s.systemAddress==='555555555555555'),false);
     const centers=await (await getCenters({request:get('mining-centers',one.systemAddress),env})).json();
   assert.equal(centers.length,1);
   assert.equal(centers[0].id,first.data.center.id);
