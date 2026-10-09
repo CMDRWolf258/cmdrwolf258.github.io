@@ -5,6 +5,7 @@ import { onRequestPost as reportDeposit } from '../functions/api/hud/mining-repo
 import { onRequestPost as saveCenter } from '../functions/api/hud/mining-center.js';
 import { onRequestGet as getDeposits } from '../functions/api/mining.js';
 import { onRequestGet as getCenters } from '../functions/api/mining-centers.js';
+import { onRequestGet as getSystemDirectory } from '../functions/api/mining-systems.js';
 import { normalizedMultiScope } from '../lib/mining-multisystem.js';
 import { createSession } from '../lib/auth.js';
 import { onRequestGet as listReviews, onRequestPost as review } from '../functions/api/admin/mining-multi-reports.js';
@@ -85,7 +86,12 @@ test('multi system D1 stores separate centers, approved deposits, pending report
   const d3=await send(reportDeposit,'mining-report',diffBody,env);
   assert.equal(d3.data.status,'approved');
 
-  const centers=await (await getCenters({request:get('mining-centers',one.systemAddress),env})).json();
+  const directory=await (await getSystemDirectory({env})).json();
+  assert.equal(directory.ok,true);
+  assert.deepEqual(new Set(directory.systems.map(s=>s.systemAddress)),
+    new Set(['560820275507',one.systemAddress,nowOther.systemAddress]));
+  assert.equal(directory.systems.some(s=>s.systemName==='Icy Test'),true);
+    const centers=await (await getCenters({request:get('mining-centers',one.systemAddress),env})).json();
   assert.equal(centers.length,1);
   assert.equal(centers[0].id,first.data.center.id);
   let deposits=await (await getDeposits({request:get('mining',one.systemAddress),env})).json();
