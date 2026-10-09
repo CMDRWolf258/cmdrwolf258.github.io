@@ -120,7 +120,7 @@ test('multi system D1 stores separate centers, approved deposits, pending report
   assert.equal(exactRepeat.data.reportId,near.data.reportId);
   const unauthorizedCenter=await send(saveCenter,'mining-center',one,env);
   assert.equal(unauthorizedCenter.code,403);
-  assert.equal(db.prepare('SELECT COUNT(*) AS total FROM mining_multi_sites').get().total,5);
+  assert.equal(db.prepare('SELECT COUNT(*) AS total FROM mining_multi_sites').get().total,6);
   assert.equal(db.prepare('SELECT data FROM legacy_guard WHERE id=1').get().data,'untouched');
 });
 
