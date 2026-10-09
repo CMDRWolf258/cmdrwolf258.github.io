@@ -118,7 +118,7 @@ test('Discord site admin review lists pending records and authorizes approval/re
   t.after(()=>db.close());
   let role='site_admin';
   t.mock.method(globalThis,'fetch',async()=>Response.json({ok:true,access:role,commander:'Test CMDR'}));
-  const sample=payload(),second={...sample,longitude:-45.01},third={...sample,longitude:-45.02};
+  const sample=payload(),second={...sample,longitude:-45.2};
   const approved=await send(reportDeposit,'mining-report',sample,env);
   assert.equal(approved.data.status,'approved');
   role='member';
