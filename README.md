@@ -34,6 +34,14 @@ stay pending. The optional new admin page \`/mining-multi-admin.html\` uses the
 existing Discord site-admin session to approve/reject submissions and explicitly
 resolve nearby duplicates; legacy \`/mining-admin.html\` remains unchanged.
 
+The public \`/api/mining-systems\` endpoint supplies a bounded catalogue of
+systems containing an **approved deposit or a shared location center**.
+It includes the original 10-16 system, excludes pending-only systems and
+never returns private CMDR/report details or coordinates. The HUD caches the
+directory for one hour; typing into its autocomplete performs client-side
+matching and **does not call this endpoint**. Deposit/center data is fetched
+only for the specific chosen system and cached independently.
+
 Multi-system reads are **opt-in by exact URL filter**, e.g.
 \`/api/mining?systemAddress=12345678901234567\` and
 \`/api/mining-centers?systemAddress=12345678901234567\`. These query only their
