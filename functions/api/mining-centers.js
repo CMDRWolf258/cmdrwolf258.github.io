@@ -1,7 +1,16 @@
+import { readMultiCenters } from '../../lib/mining-multisystem.js';
 import { ensureMiningNavigationSchema, mapCenter } from '../../lib/mining-navigation.js';
 import { withMiningDatabase } from '../../lib/mining-diagnostics.js';
 
-export async function onRequestGet({ env }) {
+export async function onRequestGet({ request, env }) {
+  const systemAddress=request?new URL(request.url).searchParams.get('systemAddress'):null;
+  if(systemAddress && systemAddress!=='560820275507'){
+    return withMiningDatabase(env,'read-multi-centers',async phase=>{
+      phase('query.multi-centers');
+      return Response.json(await readMultiCenters(env,systemAddress),
+        {headers:{'Cache-Control':'no-store','Access-Control-Allow-Origin':'*'}});
+    },{publicCors:true});
+  }
   return withMiningDatabase(env, 'read-centers', async phase => {
     phase('schema.navigation');
     await ensureMiningNavigationSchema(env);
