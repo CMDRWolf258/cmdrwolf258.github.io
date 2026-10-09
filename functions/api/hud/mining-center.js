@@ -1,3 +1,4 @@
+import { saveMultiCenter } from '../../../lib/mining-multisystem.js';
 import { ensureMiningNavigationSchema, mapCenter, saveMiningCenterContext, TEN16_SYSTEM } from '../../../lib/mining-navigation.js';
 import { withMiningDatabase } from '../../../lib/mining-diagnostics.js';
 
@@ -33,7 +34,12 @@ export async function onRequestPost({request,env}){
 
   let body;
   try{body=await request.json();}catch{return bad('invalid_json');}
-  if(!sameSystem(body?.system,body?.systemAddress))return bad('unsupported_system');
+  if(!sameSystem(body?.system,body?.systemAddress)) {
+    return withMiningDatabase(env,'save-multi-center',async phase=>{
+      phase('write.multi-center');
+      return saveMultiCenter(body,auth,env);
+    });
+  }
 
   const bodyName=normalizeBody(body?.body);
   const bodyType=cleanText(body?.bodyType,20).toLowerCase()||inferBodyType(bodyName);
