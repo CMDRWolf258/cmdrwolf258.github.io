@@ -19,6 +19,7 @@ on:
       - 'functions/api/admin/mining-reports.js'
       - 'functions/api/mining-centers.js'
       - 'functions/api/hud/mining-center.js'
+      - 'functions/api/admin/mining-multi-reports.js'
       - 'lib/curated-poi.js'
       - 'lib/mining-material.js'
       - 'curated-mining.js'
@@ -31,6 +32,7 @@ on:
       - 'functions/api/mining.js'
       - 'functions/api/hud/mining-report.js'
       - 'functions/api/hud/mining-center.js'
+      - 'functions/api/admin/mining-multi-reports.js'
       - 'functions/api/mining-centers.js'
       - 'lib/mining-navigation.js'
       - 'lib/mining-multisystem.js'
@@ -66,6 +68,7 @@ jobs:
           node --check functions/api/hud/mining-report.js
           node --check lib/mining-multisystem.js
           node --check functions/api/hud/mining-center.js
+          node --check functions/api/admin/mining-multi-reports.js
           node --check functions/api/mining-centers.js
           node --check functions/api/admin/mining-reports.js
           node --check 'functions/api/admin/mining-reports/[id]/duplicate.js'
