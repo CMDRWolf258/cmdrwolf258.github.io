@@ -6,7 +6,7 @@ const reply=(body,status=200)=>Response.json(body,{status,headers:{
 }});
 export async function onRequestGet({request,env}){
   const token=request.headers.get('Authorization')||'';
-  if(!/^Bearer\\s+[^\\s]+$/i.test(token))return reply({ok:false,error:'scout_auth_required'},401);
+  if(!/^Bearer\s+[^\s]+$/i.test(token))return reply({ok:false,error:'scout_auth_required'},401);
   let auth;
   try{
     const result=await fetch(AUTH_URL,{method:'GET',
