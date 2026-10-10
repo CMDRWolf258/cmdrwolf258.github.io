@@ -9,6 +9,8 @@ on:
       - 'scripts/test-mining-backend.mjs'
       - 'mining-admin.html'
       - 'lib/mining-navigation.js'
+      - 'lib/mining-multisystem.js'
+      - 'scripts/test-mining-multisystem.mjs'
       - 'lib/mining-diagnostics.js'
       - 'lib/mining-schema.js'
       - 'scripts/test-mining-query-cost.py'
@@ -16,7 +18,9 @@ on:
       - 'functions/api/admin/mining-reports/[id]/duplicate.js'
       - 'functions/api/admin/mining-reports.js'
       - 'functions/api/mining-centers.js'
+      - 'functions/api/mining-systems.js'
       - 'functions/api/hud/mining-center.js'
+      - 'functions/api/admin/mining-multi-reports.js'
       - 'lib/curated-poi.js'
       - 'lib/mining-material.js'
       - 'curated-mining.js'
@@ -29,8 +33,12 @@ on:
       - 'functions/api/mining.js'
       - 'functions/api/hud/mining-report.js'
       - 'functions/api/hud/mining-center.js'
+      - 'functions/api/admin/mining-multi-reports.js'
       - 'functions/api/mining-centers.js'
+      - 'functions/api/mining-systems.js'
       - 'lib/mining-navigation.js'
+      - 'lib/mining-multisystem.js'
+      - 'scripts/test-mining-multisystem.mjs'
       - 'lib/mining-diagnostics.js'
       - 'lib/mining-schema.js'
       - 'scripts/test-mining-query-cost.py'
@@ -60,13 +68,18 @@ jobs:
       - name: Verify HUD mining endpoint syntax
         run: |
           node --check functions/api/hud/mining-report.js
+          node --check lib/mining-multisystem.js
           node --check functions/api/hud/mining-center.js
+          node --check functions/api/admin/mining-multi-reports.js
           node --check functions/api/mining-centers.js
+          node --check functions/api/mining-systems.js
           node --check functions/api/admin/mining-reports.js
           node --check 'functions/api/admin/mining-reports/[id]/duplicate.js'
       - name: Verify mining navigation and duplicate threshold
         run: node --experimental-default-type=module --test scripts/test-mining-navigation.mjs
       - name: Verify D1 diagnostics and shared center persistence
         run: node --experimental-default-type=module --test scripts/test-mining-backend.mjs
+      - name: Verify additive multi-system records and identity isolation
+        run: node --experimental-default-type=module --test scripts/test-mining-multisystem.mjs
       - name: Verify mining output equivalence and query read cost
         run: python scripts/test-mining-query-cost.py

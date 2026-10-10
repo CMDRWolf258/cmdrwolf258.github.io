@@ -1,3 +1,4 @@
+import { saveMultiDeposit } from '../../../lib/mining-multisystem.js';
 import { ensureMiningNavigationSchema, findClosestDepositDuplicate, saveMiningSiteContext, TEN16_SYSTEM } from '../../../lib/mining-navigation.js';
 import { withMiningDatabase } from '../../../lib/mining-diagnostics.js';
 
@@ -30,7 +31,12 @@ export async function onRequestPost({request,env}){
   const auth=await validateScout(request);
   if(!auth)return Response.json({ok:false,error:'invalid_scout_token'},{status:401,headers:{'Cache-Control':'no-store'}});
   let body; try{body=await request.json();}catch{return Response.json({ok:false,error:'invalid_json'},{status:400,headers:{'Cache-Control':'no-store'}});}
-  if(!sameSystem(body?.system,body?.systemAddress))return Response.json({ok:false,error:'unsupported_system'},{status:400,headers:{'Cache-Control':'no-store'}});
+  if(!sameSystem(body?.system,body?.systemAddress)) {
+    return withMiningDatabase(env,'save-multi-deposit',async phase=>{
+      phase('write.multi-deposit');
+      return saveMultiDeposit(body,auth,env);
+    });
+  }
   const commodity=cleanText(body?.commodity,100);
   const bodyName=normalizeBody(body?.body);
   const bodyType=cleanText(body?.bodyType,20).toLowerCase()||inferBodyType(bodyName);

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Multi-System Mining Review | Mongrels</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    main{max-width:1000px;margin:2rem auto;padding:1rem;color:#ecf4fa}
+    .review{margin:1rem 0;padding:1rem;border:1px solid #415c6a;background:#101b23;border-radius:.65rem}
+    .review h3{margin:.1rem 0 .5rem}.meta{opacity:.8;overflow-wrap:anywhere}
+    .actions{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.9rem}
+    button{padding:.55rem .85rem;background:#1e4658;border:1px solid #63a8c7;border-radius:.4rem;color:white;cursor:pointer}
+    button:disabled{opacity:.4;cursor:default}
+    #message{white-space:pre-wrap}
+  </style>
+</head>
+<body>
+<main>
+  <nav><a href="/mining-admin.html">← Existing 10-16 Mining Admin</a></nav>
+  <h1>Multi-System Mining Reviews</h1>
+  <p>This queue contains submissions from systems <strong>other than 10-16</strong>. Only approved deposits are shown to other commanders. Duplicate reports require you to choose which site to keep.</p>
+  <p id="access">Checking Discord login…</p>
+  <p id="message" aria-live="polite"></p>
+  <button id="refresh" type="button" disabled>Refresh pending reports</button>
+  <div id="reviews"></div>
+</main>
+<script>
+(function(){
+  const access=document.getElementById('access');
+  const message=document.getElementById('message');
+  const results=document.getElementById('reviews');
+  const refresh=document.getElementById('refresh');
+  const endpoint='/api/admin/mining-multi-reports';
+  let locked=false;
+  const label=(value)=>String(value===null||value===undefined?'':value);
+  function field(row,name){const p=document.createElement('p');p.className='meta';p.textContent=name+': '+label(row[name]);return p;}
+  function button(text,action,id){
+    const b=document.createElement('button');b.type='button';b.textContent=text;
+    b.onclick=async()=>{
+      if(locked)return;
+      if(!window.confirm('Confirm '+text.toLowerCase()+' for mining report #'+id+'?'))return;
+      locked=true;refresh.disabled=true;document.querySelectorAll('.actions button').forEach(x=>x.disabled=true);
+      try {
+        const response=await fetch(endpoint,{method:'POST',credentials:'same-origin',
+          headers:{'Content-Type':'application/json'},body:JSON.stringify({reportId:id,action})});
+        const body=await response.json();
+        if(!response.ok||!body.ok)throw new Error(body.error||'review_failed');
+        message.textContent='Report #'+id+' '+body.status+'.';
+        await load();
+      }catch(err){message.textContent='Review not saved: '+err.message;}
+      finally{locked=false;refresh.disabled=false;document.querySelectorAll('.actions button').forEach(x=>x.disabled=false);}
+    };
+    return b;
+  }
+  async function load(){
+    message.textContent='Loading pending multi-system mining reports…';
+    const response=await fetch(endpoint,{credentials:'same-origin',cache:'no-store'});
+    const data=await response.json();
+    if(!response.ok||!data.ok)throw new Error(data.error||'Unable to read reports');
+    results.textContent='';
+    const rows=Array.isArray(data.reports)?data.reports:[];
+    message.textContent=rows.length?rows.length+' pending report(s).':'No pending multi-system reports.';
+    rows.forEach(row=>{
+      const card=document.createElement('section');card.className='review';
+      const title=document.createElement('h3');title.textContent='#'+row.id+' · '+label(row.commodity)+' · Signal #'+label(row.signal);
+      card.appendChild(title);
+      for(const name of ['systemName','systemAddress','body','latitude','longitude','rigs','submittedBy','status','submittedAt','notes'])
+        card.appendChild(field(row,name));
+      if(row.duplicateSiteId)card.appendChild(field(row,'duplicateSiteId'));
+      const actions=document.createElement('div');actions.className='actions';
+      if(row.status==='duplicate_review'){
+        actions.appendChild(button('Keep existing deposit','keep-existing',row.id));
+        actions.appendChild(button('Replace existing with this deposit','keep-new',row.id));
+      }else{
+        actions.appendChild(button('Approve new deposit','approve',row.id));
+        actions.appendChild(button('Reject report','reject',row.id));
+      }
+      card.appendChild(actions);results.appendChild(card);
+    });
+  }
+  refresh.addEventListener('click',()=>load().catch(err=>message.textContent=err.message));
+  (async()=>{
+    try{
+      const resp=await fetch('/api/auth/session',{cache:'no-store',credentials:'same-origin'});
+      const session=await resp.json();
+      if(!session.authenticated){
+        access.textContent='Login required. ';
+        const link=document.createElement('a');
+        link.href='/api/auth/login?return=%2Fmining-multi-admin.html';
+        link.textContent='Sign in with Discord';
+        access.appendChild(link);return;
+      }
+      if(!session.canReviewMining){access.textContent='Site Admin access required.';return;}
+      access.textContent='Site Admin: '+label(session.displayName||session.username);
+      refresh.disabled=false;await load();
+    }catch(err){access.textContent='Review unavailable: '+err.message;}
+  })();
+})();
+</script>
+</body>
+</html>
