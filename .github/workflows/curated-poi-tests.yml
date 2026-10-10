@@ -19,6 +19,8 @@ on:
       - 'functions/api/admin/mining-reports.js'
       - 'functions/api/mining-centers.js'
       - 'functions/api/mining-systems.js'
+      - 'functions/api/hud/mining-multi-health.js'
+      - 'scripts/test-mining-multi-health.mjs'
       - 'functions/api/hud/mining-center.js'
       - 'functions/api/admin/mining-multi-reports.js'
       - 'lib/curated-poi.js'
@@ -36,6 +38,8 @@ on:
       - 'functions/api/admin/mining-multi-reports.js'
       - 'functions/api/mining-centers.js'
       - 'functions/api/mining-systems.js'
+      - 'functions/api/hud/mining-multi-health.js'
+      - 'scripts/test-mining-multi-health.mjs'
       - 'lib/mining-navigation.js'
       - 'lib/mining-multisystem.js'
       - 'scripts/test-mining-multisystem.mjs'
@@ -73,6 +77,7 @@ jobs:
           node --check functions/api/admin/mining-multi-reports.js
           node --check functions/api/mining-centers.js
           node --check functions/api/mining-systems.js
+          node --check functions/api/hud/mining-multi-health.js
           node --check functions/api/admin/mining-reports.js
           node --check 'functions/api/admin/mining-reports/[id]/duplicate.js'
       - name: Verify mining navigation and duplicate threshold
@@ -81,5 +86,7 @@ jobs:
         run: node --experimental-default-type=module --test scripts/test-mining-backend.mjs
       - name: Verify additive multi-system records and identity isolation
         run: node --experimental-default-type=module --test scripts/test-mining-multisystem.mjs
+      - name: Verify read-only production mining health checks
+        run: node --experimental-default-type=module --test scripts/test-mining-multi-health.mjs
       - name: Verify mining output equivalence and query read cost
         run: python scripts/test-mining-query-cost.py
