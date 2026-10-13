@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-10-12T15:20:48.356387+00:00",
+  "generatedAt": "2026-10-13T00:40:03.619226+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -22,7 +22,7 @@
       "station": "Saturn Ascending",
       "demand": 2613,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Algae": {
       "price": 613,
@@ -57,7 +57,7 @@
       "station": "Saturn Ascending",
       "demand": 1638,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Auto-Fabricators": {
       "price": 4293,
@@ -81,11 +81,11 @@
       "marketUpdated": "2026-10-10T07:08:27Z"
     },
     "Beer": {
-      "price": 692,
-      "station": "Vega's Astrophysics",
-      "demand": 504,
-      "marketId": 4386133251,
-      "marketUpdated": "2026-08-27T22:23:33Z"
+      "price": 645,
+      "station": "Rival Monkeys Foundry",
+      "demand": 695328,
+      "marketId": 4388359171,
+      "marketUpdated": "2026-10-07T07:11:57Z"
     },
     "Beryllium": {
       "price": 42130,
@@ -113,21 +113,21 @@
       "station": "Saturn Ascending",
       "demand": 1689,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Bromellite": {
       "price": 29983,
       "station": "Saturn Ascending",
       "demand": 20324,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "CMM Composite": {
       "price": 6589,
       "station": "Saturn Ascending",
       "demand": 50949,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Ceramic Composites": {
       "price": 1733,
@@ -141,7 +141,7 @@
       "station": "Saturn Ascending",
       "demand": 3044,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Clothing": {
       "price": 866,
@@ -204,7 +204,7 @@
       "station": "Saturn Ascending",
       "demand": 110499,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Deuterium": {
       "price": 55334,
@@ -232,21 +232,21 @@
       "station": "Saturn Ascending",
       "demand": 38520,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Energy Grid Assembly": {
       "price": 3099,
       "station": "Saturn Ascending",
       "demand": 26385,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Exhaust Manifold": {
       "price": 2261,
       "station": "Saturn Ascending",
       "demand": 4914,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Explosives": {
       "price": 1157,
@@ -263,11 +263,11 @@
       "marketUpdated": "2026-10-07T07:11:57Z"
     },
     "Fruit and Vegetables": {
-      "price": 793,
+      "price": 791,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 136670,
+      "demand": 138972,
       "marketId": 4376376323,
-      "marketUpdated": "2026-10-11T21:35:17Z"
+      "marketUpdated": "2026-10-12T22:07:44Z"
     },
     "Gallium": {
       "price": 26615,
@@ -284,11 +284,11 @@
       "marketUpdated": "2026-08-03T00:47:16Z"
     },
     "Grain": {
-      "price": 725,
-      "station": "Vega's Astrophysics",
-      "demand": 571,
-      "marketId": 4386133251,
-      "marketUpdated": "2026-08-27T22:23:33Z"
+      "price": 676,
+      "station": "Rival Monkeys Foundry",
+      "demand": 973600,
+      "marketId": 4388359171,
+      "marketUpdated": "2026-10-07T07:11:57Z"
     },
     "H.E. Suits": {
       "price": 820,
@@ -309,14 +309,14 @@
       "station": "Saturn Ascending",
       "demand": 15771,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Heatsink Interlink": {
       "price": 2504,
       "station": "Saturn Ascending",
       "demand": 4536,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Helium": {
       "price": 130071,
@@ -337,7 +337,7 @@
       "station": "Saturn Ascending",
       "demand": 274816,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Indium": {
       "price": 24935,
@@ -365,7 +365,7 @@
       "station": "Saturn Ascending",
       "demand": 16330,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Land Enrichment Systems": {
       "price": 5652,
@@ -379,7 +379,7 @@
       "station": "Saturn Ascending",
       "demand": 36783,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Leather": {
       "price": 645,
@@ -414,7 +414,7 @@
       "station": "Saturn Ascending",
       "demand": 35721,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Low Temperature Diamonds": {
       "price": 156979,
@@ -435,7 +435,7 @@
       "station": "Saturn Ascending",
       "demand": 6803,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Medical Diagnostic Equipment": {
       "price": 3462,
@@ -449,7 +449,7 @@
       "station": "Saturn Ascending",
       "demand": 15734,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Methane Clathrate": {
       "price": 1547,
@@ -463,7 +463,7 @@
       "station": "Saturn Ascending",
       "demand": 62985,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Micro Controllers": {
       "price": 6202,
@@ -477,7 +477,7 @@
       "station": "Saturn Ascending",
       "demand": 138958,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Military Grade Fabrics": {
       "price": 1396,
@@ -505,14 +505,14 @@
       "station": "Saturn Ascending",
       "demand": 4788,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Moissanite": {
-      "price": 24289,
-      "station": "Mendez Entertainment Resort",
-      "demand": 1035,
-      "marketId": 4380933123,
-      "marketUpdated": "2026-08-06T16:12:39Z"
+      "price": 24122,
+      "station": "Saturn Ascending",
+      "demand": 33443,
+      "marketId": 4374632451,
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Monazite": {
       "price": 393863,
@@ -526,7 +526,7 @@
       "station": "Saturn Ascending",
       "demand": 47309,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Natural Fabrics": {
       "price": 1148,
@@ -540,14 +540,14 @@
       "station": "Saturn Ascending",
       "demand": 28853,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Nerve Agents": {
       "price": 13946,
       "station": "Saturn Ascending",
       "demand": 2091,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Olivine": {
       "price": 42584,
@@ -561,14 +561,14 @@
       "station": "Saturn Ascending",
       "demand": 115071,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Painite": {
       "price": 49679,
       "station": "Saturn Ascending",
       "demand": 2052,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Performance Enhancers": {
       "price": 7446,
@@ -610,14 +610,14 @@
       "station": "Saturn Ascending",
       "demand": 6425,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Praseodymium": {
       "price": 8425,
       "station": "Saturn Ascending",
       "demand": 88067,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Progenitor Cells": {
       "price": 7446,
@@ -631,7 +631,7 @@
       "station": "Saturn Ascending",
       "demand": 206718,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Quartz Pyroxenite": {
       "price": 63109,
@@ -645,7 +645,7 @@
       "station": "Saturn Ascending",
       "demand": 32920,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Robotics": {
       "price": 2498,
@@ -715,14 +715,14 @@
       "station": "Saturn Ascending",
       "demand": 3640,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Taaffeite": {
       "price": 51207,
       "station": "Saturn Ascending",
       "demand": 16330,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Tantalum": {
       "price": 14867,
@@ -743,7 +743,7 @@
       "station": "Saturn Ascending",
       "demand": 35180,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Thallium": {
       "price": 4390,
@@ -757,7 +757,7 @@
       "station": "Saturn Ascending",
       "demand": 48709,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Thortveitite": {
       "price": 238931,
@@ -776,9 +776,9 @@
     "Tobacco": {
       "price": 5500,
       "station": "Gao Base",
-      "demand": 119968,
+      "demand": 121227,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-11T22:57:47Z"
+      "marketUpdated": "2026-10-12T20:53:03Z"
     },
     "Tritium": {
       "price": 57489,
@@ -792,7 +792,7 @@
       "station": "Saturn Ascending",
       "demand": 4043,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Uranium": {
       "price": 7919,
@@ -806,14 +806,14 @@
       "station": "Saturn Ascending",
       "demand": 779,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-12T06:27:49Z"
+      "marketUpdated": "2026-10-12T20:12:03Z"
     },
     "Water": {
-      "price": 655,
-      "station": "Vega's Astrophysics",
-      "demand": 629,
-      "marketId": 4386133251,
-      "marketUpdated": "2026-08-27T22:23:33Z"
+      "price": 610,
+      "station": "Rival Monkeys Foundry",
+      "demand": 675544,
+      "marketId": 4388359171,
+      "marketUpdated": "2026-10-07T07:11:57Z"
     },
     "Water Purifiers": {
       "price": 1265,
@@ -953,7 +953,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 2911611,
       "marketId": 4386105091,
-      "marketUpdated": "2026-10-12T06:21:39Z"
+      "marketUpdated": "2026-10-12T21:52:02Z"
     },
     "Lepidolite": {
       "price": 5484,
@@ -1065,7 +1065,7 @@
       "station": "Eon Blue Apocalypse",
       "demand": 5972651,
       "marketId": 4386105091,
-      "marketUpdated": "2026-10-12T06:21:39Z"
+      "marketUpdated": "2026-10-12T21:52:02Z"
     },
     "Wreckage Components": {
       "price": 8965,
@@ -1098,58 +1098,58 @@
     "Onionhead Gamma Strain": {
       "price": 5497,
       "station": "Extra Pens And Clean Sheets",
-      "demand": 88111,
+      "demand": 90316,
       "marketId": 4376376323,
-      "marketUpdated": "2026-10-11T21:35:17Z"
+      "marketUpdated": "2026-10-12T22:07:44Z"
     },
     "Surface Stabilisers": {
-      "price": 1302,
-      "station": "Vega's Astrophysics",
-      "demand": 1696,
-      "marketId": 4386133251,
-      "marketUpdated": "2026-08-27T22:23:33Z"
+      "price": 1233,
+      "station": "Hara Astrophysics Expedition",
+      "demand": 2426,
+      "marketId": 4376370179,
+      "marketUpdated": "2026-10-06T01:57:36Z"
     },
     "Building Fabricators": {
-      "price": 2980,
-      "station": "Vega's Astrophysics",
-      "demand": 523,
-      "marketId": 4386133251,
-      "marketUpdated": "2026-08-27T22:23:33Z"
+      "price": 2894,
+      "station": "Hara Astrophysics Expedition",
+      "demand": 733,
+      "marketId": 4376370179,
+      "marketUpdated": "2026-10-06T01:57:36Z"
     },
     "Ion Distributor": {
       "price": 2783,
       "station": "Gao Base",
-      "demand": 36961,
+      "demand": 37116,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-11T22:57:47Z"
+      "marketUpdated": "2026-10-12T20:53:03Z"
     },
     "Muon Imager": {
-      "price": 6923,
+      "price": 6925,
       "station": "Gao Base",
-      "demand": 61907,
+      "demand": 63438,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-11T22:57:47Z"
+      "marketUpdated": "2026-10-12T20:53:03Z"
     },
     "Power Transfer Bus": {
       "price": 2639,
       "station": "Gao Base",
-      "demand": 20391,
+      "demand": 20477,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-11T22:57:47Z"
+      "marketUpdated": "2026-10-12T20:53:03Z"
     },
     "Reinforced Mounting Plate": {
       "price": 2936,
       "station": "Gao Base",
-      "demand": 61973,
+      "demand": 62233,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-11T22:57:47Z"
+      "marketUpdated": "2026-10-12T20:53:03Z"
     },
     "Structural Regulators": {
       "price": 2315,
       "station": "Gao Base",
-      "demand": 21394,
+      "demand": 21685,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-11T22:57:47Z"
+      "marketUpdated": "2026-10-12T20:53:03Z"
     },
     "Geological Equipment": {
       "price": 2613,
@@ -1201,7 +1201,7 @@
         "station": "Saturn Ascending",
         "demand": 75419,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1681,
@@ -1213,9 +1213,9 @@
       {
         "price": 1652,
         "station": "Gao Base",
-        "demand": 343780,
+        "demand": 347667,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Agri-Medicines": [
@@ -1238,7 +1238,7 @@
         "station": "Saturn Ascending",
         "demand": 26650,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1499,
@@ -1257,9 +1257,9 @@
       {
         "price": 1341,
         "station": "Gao Base",
-        "demand": 63970,
+        "demand": 64238,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 1224,
@@ -1282,7 +1282,7 @@
         "station": "Saturn Ascending",
         "demand": 2613,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 3220,
@@ -1303,9 +1303,9 @@
       {
         "price": 613,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1770104,
+        "demand": 1777291,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 613,
@@ -1317,16 +1317,16 @@
       {
         "price": 580,
         "station": "Gao Base",
-        "demand": 1709875,
+        "demand": 1717210,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 569,
         "station": "Saturn Ascending",
         "demand": 385955,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       }
     ],
     "Aluminium": [
@@ -1342,14 +1342,14 @@
         "station": "Saturn Ascending",
         "demand": 141795,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 3048,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 339468,
+        "demand": 340989,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2920,
@@ -1391,16 +1391,16 @@
       {
         "price": 734,
         "station": "Gao Base",
-        "demand": 196173,
+        "demand": 196995,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 713,
         "station": "Saturn Ascending",
         "demand": 206028,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 689,
@@ -1431,13 +1431,6 @@
         "demand": 1617,
         "marketId": 4376365059,
         "marketUpdated": "2026-07-09T01:39:32Z"
-      },
-      {
-        "price": 2397,
-        "station": "Vega's Astrophysics",
-        "demand": 1610,
-        "marketId": 4386133251,
-        "marketUpdated": "2026-08-27T22:23:33Z"
       },
       {
         "price": 2244,
@@ -1472,7 +1465,7 @@
         "station": "Saturn Ascending",
         "demand": 91370,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 485,
@@ -1495,14 +1488,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 45820,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 7446,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 24680,
+        "demand": 24790,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 7446,
@@ -1514,9 +1507,9 @@
       {
         "price": 7446,
         "station": "Gao Base",
-        "demand": 7797,
+        "demand": 7830,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 7446,
@@ -1537,7 +1530,7 @@
         "station": "Saturn Ascending",
         "demand": 1638,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 7446,
@@ -1558,16 +1551,16 @@
       {
         "price": 4146,
         "station": "Gao Base",
-        "demand": 115323,
+        "demand": 115807,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 4145,
         "station": "Saturn Ascending",
         "demand": 24075,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 3624,
@@ -1602,23 +1595,23 @@
       {
         "price": 66941,
         "station": "Gao Base",
-        "demand": 291933,
+        "demand": 293157,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 66941,
         "station": "Eon Blue Apocalypse",
         "demand": 280747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 66941,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 19774,
+        "demand": 19863,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 66941,
@@ -1632,7 +1625,7 @@
         "station": "Saturn Ascending",
         "demand": 2315,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 66941,
@@ -1662,23 +1655,16 @@
         "station": "Saturn Ascending",
         "demand": 36046,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       }
     ],
     "Beer": [
       {
-        "price": 692,
-        "station": "Vega's Astrophysics",
-        "demand": 504,
-        "marketId": 4386133251,
-        "marketUpdated": "2026-08-27T22:23:33Z"
-      },
-      {
         "price": 645,
         "station": "Gao Base",
-        "demand": 1320518,
+        "demand": 1335435,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 645,
@@ -1690,9 +1676,9 @@
       {
         "price": 645,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 643100,
+        "demand": 655076,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 645,
@@ -1706,14 +1692,14 @@
         "station": "Saturn Ascending",
         "demand": 278282,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 609,
         "station": "Eon Blue Apocalypse",
         "demand": 1084267,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 566,
@@ -1736,7 +1722,7 @@
         "station": "Saturn Ascending",
         "demand": 80397,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 42100,
@@ -1755,9 +1741,9 @@
       {
         "price": 42074,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 328553,
+        "demand": 330027,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 41541,
@@ -1787,14 +1773,14 @@
         "station": "Saturn Ascending",
         "demand": 514846,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1468,
         "station": "Gao Base",
-        "demand": 2395380,
+        "demand": 2461364,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 1394,
@@ -1838,7 +1824,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 859925,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2936,
@@ -1852,14 +1838,14 @@
         "station": "Saturn Ascending",
         "demand": 30737,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2913,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1552119,
+        "demand": 1559556,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2859,
@@ -1903,21 +1889,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 6467,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 625,
         "station": "Gao Base",
-        "demand": 4593,
+        "demand": 4720,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 625,
         "station": "Saturn Ascending",
         "demand": 1689,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 625,
@@ -1929,9 +1915,9 @@
       {
         "price": 625,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 665,
+        "demand": 763,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 625,
@@ -1947,21 +1933,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 568584,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 29983,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 306248,
+        "demand": 307622,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 29983,
         "station": "Gao Base",
-        "demand": 96749,
+        "demand": 97155,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 29983,
@@ -1989,7 +1975,7 @@
         "station": "Saturn Ascending",
         "demand": 20324,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 29983,
@@ -2019,7 +2005,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 312547,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 6589,
@@ -2040,7 +2026,7 @@
         "station": "Saturn Ascending",
         "demand": 50949,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 6589,
@@ -2052,9 +2038,9 @@
       {
         "price": 6554,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 569100,
+        "demand": 571653,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 6458,
@@ -2105,14 +2091,14 @@
         "station": "Saturn Ascending",
         "demand": 554541,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 662,
         "station": "Eon Blue Apocalypse",
         "demand": 471382,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 662,
@@ -2138,9 +2124,9 @@
       {
         "price": 655,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 2852611,
+        "demand": 2865404,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Chemical Waste": [
@@ -2156,7 +2142,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 372855,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 610,
@@ -2184,7 +2170,7 @@
         "station": "Saturn Ascending",
         "demand": 3044,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 610,
@@ -2249,21 +2235,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1412397,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 777,
         "station": "Gao Base",
-        "demand": 930695,
+        "demand": 942581,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 671,
         "station": "Saturn Ascending",
         "demand": 212384,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       }
     ],
     "Coffee": [
@@ -2275,18 +2261,18 @@
         "marketUpdated": "2026-10-07T07:11:57Z"
       },
       {
-        "price": 1860,
+        "price": 1859,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 37915,
+        "demand": 38552,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
-        "price": 1762,
+        "price": 1763,
         "station": "Gao Base",
-        "demand": 74146,
+        "demand": 75011,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 1721,
@@ -2300,14 +2286,14 @@
         "station": "Saturn Ascending",
         "demand": 17312,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1498,
         "station": "Eon Blue Apocalypse",
         "demand": 75258,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       }
     ],
     "Combat Stabilisers": [
@@ -2323,7 +2309,7 @@
         "station": "Saturn Ascending",
         "demand": 19063,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 3232,
@@ -2360,7 +2346,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1278835,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 1026,
@@ -2381,14 +2367,14 @@
         "station": "Saturn Ascending",
         "demand": 67823,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
-        "price": 875,
+        "price": 876,
         "station": "Gao Base",
-        "demand": 249270,
+        "demand": 250340,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Conductive Fabrics": [
@@ -2404,7 +2390,7 @@
         "station": "Saturn Ascending",
         "demand": 337708,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 958,
@@ -2416,9 +2402,9 @@
       {
         "price": 953,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1229475,
+        "demand": 1234989,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 543,
@@ -2444,11 +2430,11 @@
         "marketUpdated": "2026-10-07T07:11:57Z"
       },
       {
-        "price": 7268,
+        "price": 7269,
         "station": "Gao Base",
-        "demand": 155845,
+        "demand": 157611,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 7193,
@@ -2462,7 +2448,7 @@
         "station": "Saturn Ascending",
         "demand": 34336,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 6561,
@@ -2499,21 +2485,14 @@
         "station": "Saturn Ascending",
         "demand": 649435,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 960,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 6422338,
+        "demand": 6451139,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
-      },
-      {
-        "price": 920,
-        "station": "Vega's Astrophysics",
-        "demand": 613,
-        "marketId": 4386133251,
-        "marketUpdated": "2026-08-27T22:23:33Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 852,
@@ -2557,14 +2536,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 825394,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2615,
         "station": "Saturn Ascending",
         "demand": 54083,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2413,
@@ -2580,7 +2559,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2859239,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 14130,
@@ -2615,7 +2594,7 @@
         "station": "Saturn Ascending",
         "demand": 110499,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 14130,
@@ -2632,11 +2611,11 @@
         "marketUpdated": "2026-10-11T06:24:17Z"
       },
       {
-        "price": 14082,
+        "price": 14075,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1678352,
+        "demand": 1685878,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Deuterium": [
@@ -2664,23 +2643,23 @@
       {
         "price": 34584,
         "station": "Gao Base",
-        "demand": 291933,
+        "demand": 293157,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 34584,
         "station": "Eon Blue Apocalypse",
         "demand": 280747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 34584,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 19774,
+        "demand": 19863,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 34584,
@@ -2694,7 +2673,7 @@
         "station": "Saturn Ascending",
         "demand": 2315,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 34584,
@@ -2729,23 +2708,23 @@
       {
         "price": 101134,
         "station": "Gao Base",
-        "demand": 291933,
+        "demand": 293157,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 101134,
         "station": "Eon Blue Apocalypse",
         "demand": 280747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 101134,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 19774,
+        "demand": 19863,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 101134,
@@ -2759,7 +2738,7 @@
         "station": "Saturn Ascending",
         "demand": 2315,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 101134,
@@ -2796,21 +2775,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 421705,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 998,
         "station": "Saturn Ascending",
         "demand": 63415,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 995,
         "station": "Gao Base",
-        "demand": 275080,
+        "demand": 278617,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 885,
@@ -2840,7 +2819,7 @@
         "station": "Saturn Ascending",
         "demand": 38520,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2783,
@@ -2854,7 +2833,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 12305,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2783,
@@ -2884,14 +2863,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 109647,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 3099,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 61935,
+        "demand": 62213,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 3099,
@@ -2905,14 +2884,14 @@
         "station": "Saturn Ascending",
         "demand": 26385,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 3099,
         "station": "Gao Base",
-        "demand": 25124,
+        "demand": 25229,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 3099,
@@ -2956,14 +2935,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 137460,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2261,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 74037,
+        "demand": 74369,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2261,
@@ -2975,9 +2954,9 @@
       {
         "price": 2261,
         "station": "Gao Base",
-        "demand": 23391,
+        "demand": 23488,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 2261,
@@ -2998,7 +2977,7 @@
         "station": "Saturn Ascending",
         "demand": 4914,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2261,
@@ -3042,7 +3021,7 @@
         "station": "Saturn Ascending",
         "demand": 151088,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 766,
@@ -3063,9 +3042,9 @@
       {
         "price": 890,
         "station": "Gao Base",
-        "demand": 828326,
+        "demand": 837991,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 890,
@@ -3077,9 +3056,9 @@
       {
         "price": 890,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 423227,
+        "demand": 431131,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 872,
@@ -3093,37 +3072,37 @@
         "station": "Saturn Ascending",
         "demand": 187218,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 817,
         "station": "Eon Blue Apocalypse",
         "demand": 745001,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       }
     ],
     "Fruit and Vegetables": [
       {
-        "price": 793,
+        "price": 791,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 136670,
+        "demand": 138972,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 719,
         "station": "Saturn Ascending",
         "demand": 61872,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 713,
         "station": "Gao Base",
-        "demand": 267461,
+        "demand": 270581,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Gallium": [
@@ -3139,14 +3118,14 @@
         "station": "Saturn Ascending",
         "demand": 55707,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 26556,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 502953,
+        "demand": 505208,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 26532,
@@ -3176,7 +3155,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 3142548,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 7407,
@@ -3218,7 +3197,7 @@
         "station": "Saturn Ascending",
         "demand": 7764,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 7407,
@@ -3228,21 +3207,14 @@
         "marketUpdated": "2026-10-11T06:24:17Z"
       },
       {
-        "price": 6960,
+        "price": 6920,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 109782,
+        "demand": 110274,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Grain": [
-      {
-        "price": 725,
-        "station": "Vega's Astrophysics",
-        "demand": 571,
-        "marketId": 4386133251,
-        "marketUpdated": "2026-08-27T22:23:33Z"
-      },
       {
         "price": 676,
         "station": "Rival Monkeys Foundry",
@@ -3253,9 +3225,9 @@
       {
         "price": 676,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 911958,
+        "demand": 928573,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 676,
@@ -3267,16 +3239,16 @@
       {
         "price": 655,
         "station": "Gao Base",
-        "demand": 1784981,
+        "demand": 1805809,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 517,
         "station": "Saturn Ascending",
         "demand": 394016,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 482,
@@ -3293,13 +3265,6 @@
         "demand": 1617,
         "marketId": 4376365059,
         "marketUpdated": "2026-07-09T01:39:32Z"
-      },
-      {
-        "price": 799,
-        "station": "Vega's Astrophysics",
-        "demand": 1610,
-        "marketId": 4386133251,
-        "marketUpdated": "2026-08-27T22:23:33Z"
       },
       {
         "price": 748,
@@ -3341,14 +3306,14 @@
         "station": "Saturn Ascending",
         "demand": 1126886,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 742,
         "station": "Gao Base",
-        "demand": 4828610,
+        "demand": 4885257,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 742,
@@ -3385,7 +3350,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 143676,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2263,
@@ -3406,7 +3371,7 @@
         "station": "Saturn Ascending",
         "demand": 34573,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       }
     ],
     "Hardware Diagnostic Sensor": [
@@ -3415,14 +3380,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 65535,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 7446,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 37019,
+        "demand": 37184,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 7446,
@@ -3436,14 +3401,14 @@
         "station": "Saturn Ascending",
         "demand": 15771,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 7446,
         "station": "Gao Base",
-        "demand": 15015,
+        "demand": 15080,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 7446,
@@ -3487,14 +3452,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 126886,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2504,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 68342,
+        "demand": 68649,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2504,
@@ -3506,9 +3471,9 @@
       {
         "price": 2504,
         "station": "Gao Base",
-        "demand": 21591,
+        "demand": 21681,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 2504,
@@ -3522,7 +3487,7 @@
         "station": "Saturn Ascending",
         "demand": 4536,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2504,
@@ -3564,30 +3529,30 @@
       {
         "price": 81295,
         "station": "Gao Base",
-        "demand": 34384,
+        "demand": 34529,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 81295,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 5854,
+        "demand": 5880,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 81295,
         "station": "Eon Blue Apocalypse",
         "demand": 4700,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 81295,
         "station": "Saturn Ascending",
         "demand": 599,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       }
     ],
     "Helium-3": [
@@ -3601,46 +3566,46 @@
       {
         "price": 76079,
         "station": "Gao Base",
-        "demand": 34384,
+        "demand": 34529,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 76079,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 5854,
+        "demand": 5880,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 76079,
         "station": "Eon Blue Apocalypse",
         "demand": 4700,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 76079,
         "station": "Saturn Ascending",
         "demand": 599,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       }
     ],
     "Hydrogen Peroxide": [
       {
         "price": 2967,
         "station": "Gao Base",
-        "demand": 6968251,
+        "demand": 6997467,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 2967,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1456100,
+        "demand": 1462629,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2967,
@@ -3654,7 +3619,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 888120,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2967,
@@ -3668,7 +3633,7 @@
         "station": "Saturn Ascending",
         "demand": 274816,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2967,
@@ -3724,16 +3689,16 @@
       {
         "price": 24876,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 488004,
+        "demand": 490193,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 24824,
         "station": "Saturn Ascending",
         "demand": 27770,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 23656,
@@ -3747,16 +3712,16 @@
       {
         "price": 11525,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 359258,
+        "demand": 360869,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 11525,
         "station": "Gao Base",
-        "demand": 284132,
+        "demand": 285323,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 11525,
@@ -3777,7 +3742,7 @@
         "station": "Saturn Ascending",
         "demand": 31466,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 11523,
@@ -3819,30 +3784,30 @@
       {
         "price": 149332,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 328553,
+        "demand": 330027,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 149332,
         "station": "Eon Blue Apocalypse",
         "demand": 301936,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 149332,
         "station": "Gao Base",
-        "demand": 214819,
+        "demand": 215720,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 149332,
         "station": "Saturn Ascending",
         "demand": 45126,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 149332,
@@ -3877,23 +3842,23 @@
       {
         "price": 41559,
         "station": "Gao Base",
-        "demand": 77736,
+        "demand": 78063,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 41559,
         "station": "Eon Blue Apocalypse",
         "demand": 74758,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 41559,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 69207,
+        "demand": 69517,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 41559,
@@ -3914,7 +3879,7 @@
         "station": "Saturn Ascending",
         "demand": 16330,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 41559,
@@ -3956,9 +3921,9 @@
       {
         "price": 5450,
         "station": "Gao Base",
-        "demand": 92756,
+        "demand": 93145,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 5372,
@@ -3979,7 +3944,7 @@
         "station": "Saturn Ascending",
         "demand": 38967,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 5061,
@@ -3995,7 +3960,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1029090,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 9542,
@@ -4023,7 +3988,7 @@
         "station": "Saturn Ascending",
         "demand": 36783,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 9542,
@@ -4049,18 +4014,18 @@
       {
         "price": 9539,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 554283,
+        "demand": 556769,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Leather": [
       {
         "price": 645,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 4177473,
+        "demand": 4196208,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 645,
@@ -4072,16 +4037,16 @@
       {
         "price": 642,
         "station": "Gao Base",
-        "demand": 4022063,
+        "demand": 4038927,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 624,
         "station": "Saturn Ascending",
         "demand": 422694,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 589,
@@ -4095,7 +4060,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 257863,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       }
     ],
     "Liquid oxygen": [
@@ -4125,14 +4090,14 @@
         "station": "Saturn Ascending",
         "demand": 295045,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2106,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1458868,
+        "demand": 1465410,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2075,
@@ -4140,13 +4105,6 @@
         "demand": 10084,
         "marketId": 4394287619,
         "marketUpdated": "2026-10-12T04:32:03Z"
-      },
-      {
-        "price": 1962,
-        "station": "Vega's Astrophysics",
-        "demand": 1439,
-        "marketId": 4386133251,
-        "marketUpdated": "2026-08-27T22:23:33Z"
       },
       {
         "price": 1364,
@@ -4176,21 +4134,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 72302,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 1131,
         "station": "Saturn Ascending",
         "demand": 13895,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1127,
         "station": "Gao Base",
-        "demand": 65754,
+        "demand": 66584,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Lithium": [
@@ -4204,16 +4162,16 @@
       {
         "price": 2259,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 4186384,
+        "demand": 4205159,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2259,
         "station": "Saturn Ascending",
         "demand": 574975,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2240,
@@ -4243,21 +4201,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1605536,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 5500,
         "station": "Gao Base",
-        "demand": 958419,
+        "demand": 962437,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 5500,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 467915,
+        "demand": 470013,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 5500,
@@ -4292,7 +4250,7 @@
         "station": "Saturn Ascending",
         "demand": 35721,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 5500,
@@ -4334,30 +4292,30 @@
       {
         "price": 98112,
         "station": "Gao Base",
-        "demand": 20983,
+        "demand": 21072,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 98112,
         "station": "Eon Blue Apocalypse",
         "demand": 17146,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 98112,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 11068,
+        "demand": 11129,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 98112,
         "station": "Saturn Ascending",
         "demand": 2030,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 98112,
@@ -4406,23 +4364,23 @@
       {
         "price": 32387,
         "station": "Gao Base",
-        "demand": 291933,
+        "demand": 293157,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 32387,
         "station": "Eon Blue Apocalypse",
         "demand": 280747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 32387,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 19774,
+        "demand": 19863,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 32387,
@@ -4436,7 +4394,7 @@
         "station": "Saturn Ascending",
         "demand": 2315,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 32387,
@@ -4452,14 +4410,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 190329,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 1697,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 102513,
+        "demand": 102972,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 1697,
@@ -4471,9 +4429,9 @@
       {
         "price": 1697,
         "station": "Gao Base",
-        "demand": 32386,
+        "demand": 32522,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 1697,
@@ -4487,7 +4445,7 @@
         "station": "Saturn Ascending",
         "demand": 6803,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1697,
@@ -4531,7 +4489,7 @@
         "station": "Saturn Ascending",
         "demand": 54345,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 3397,
@@ -4550,9 +4508,9 @@
       {
         "price": 3273,
         "station": "Gao Base",
-        "demand": 28076,
+        "demand": 28194,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Meta-Alloys": [
@@ -4561,28 +4519,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 93389,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 194599,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 51889,
+        "demand": 52121,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 194599,
         "station": "Gao Base",
-        "demand": 19459,
+        "demand": 19540,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 194599,
         "station": "Saturn Ascending",
         "demand": 15734,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 194599,
@@ -4645,16 +4603,16 @@
       {
         "price": 1507,
         "station": "Gao Base",
-        "demand": 1412574,
+        "demand": 1418496,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 1507,
         "station": "Eon Blue Apocalypse",
         "demand": 1358451,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 1507,
@@ -4666,9 +4624,9 @@
       {
         "price": 1507,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 237121,
+        "demand": 238185,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 1507,
@@ -4696,7 +4654,7 @@
         "station": "Saturn Ascending",
         "demand": 16797,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1507,
@@ -4712,21 +4670,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1762140,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2379,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 949115,
+        "demand": 953371,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2379,
         "station": "Gao Base",
-        "demand": 299839,
+        "demand": 301097,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 2379,
@@ -4754,7 +4712,7 @@
         "station": "Saturn Ascending",
         "demand": 62985,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2379,
@@ -4798,14 +4756,14 @@
         "station": "Saturn Ascending",
         "demand": 25680,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 6069,
         "station": "Gao Base",
-        "demand": 48334,
+        "demand": 48536,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 6038,
@@ -4826,16 +4784,16 @@
       {
         "price": 1776,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1428007,
+        "demand": 1434411,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 1776,
         "station": "Gao Base",
-        "demand": 1377471,
+        "demand": 1383246,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 1776,
@@ -4849,14 +4807,14 @@
         "station": "Saturn Ascending",
         "demand": 138958,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1776,
         "station": "Eon Blue Apocalypse",
         "demand": 104582,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 1776,
@@ -4905,9 +4863,9 @@
       {
         "price": 1197,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 46193,
+        "demand": 46400,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 1197,
@@ -4921,7 +4879,7 @@
         "station": "Saturn Ascending",
         "demand": 15677,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1000,
@@ -4958,14 +4916,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 645939,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 1057,
         "station": "Gao Base",
-        "demand": 3610261,
+        "demand": 3709711,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 992,
@@ -4979,7 +4937,7 @@
         "station": "Saturn Ascending",
         "demand": 155193,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 783,
@@ -5002,14 +4960,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4397078,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 623,
         "station": "Saturn Ascending",
         "demand": 36242,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 449,
@@ -5025,14 +4983,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 133935,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2379,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 72138,
+        "demand": 72462,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2379,
@@ -5044,9 +5002,9 @@
       {
         "price": 2379,
         "station": "Gao Base",
-        "demand": 22791,
+        "demand": 22886,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 2379,
@@ -5067,7 +5025,7 @@
         "station": "Saturn Ascending",
         "demand": 4788,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2379,
@@ -5093,13 +5051,6 @@
     ],
     "Moissanite": [
       {
-        "price": 24289,
-        "station": "Mendez Entertainment Resort",
-        "demand": 1035,
-        "marketId": 4380933123,
-        "marketUpdated": "2026-08-06T16:12:39Z"
-      },
-      {
         "price": 24122,
         "station": "King's Mountain View",
         "demand": 215161,
@@ -5109,23 +5060,23 @@
       {
         "price": 24122,
         "station": "Gao Base",
-        "demand": 159204,
+        "demand": 159871,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 24122,
         "station": "Eon Blue Apocalypse",
         "demand": 153104,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 24122,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 141735,
+        "demand": 142371,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 24122,
@@ -5146,7 +5097,7 @@
         "station": "Saturn Ascending",
         "demand": 33443,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 24122,
@@ -5190,21 +5141,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 18855,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 196932,
         "station": "Gao Base",
-        "demand": 10165,
+        "demand": 10209,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 196932,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 7319,
+        "demand": 7352,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 196932,
@@ -5225,7 +5176,7 @@
         "station": "Saturn Ascending",
         "demand": 595,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       }
     ],
     "Nanobreakers": [
@@ -5234,14 +5185,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 196602,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2261,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 111053,
+        "demand": 111551,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2261,
@@ -5255,14 +5206,14 @@
         "station": "Saturn Ascending",
         "demand": 47309,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2261,
         "station": "Gao Base",
-        "demand": 45045,
+        "demand": 45236,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 2261,
@@ -5311,23 +5262,23 @@
       {
         "price": 890,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 7516842,
+        "demand": 7552699,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 890,
         "station": "Gao Base",
-        "demand": 7212525,
+        "demand": 7242768,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 890,
         "station": "Saturn Ascending",
         "demand": 1514977,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 836,
@@ -5341,7 +5292,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 462410,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       }
     ],
     "Neofabric Insulation": [
@@ -5350,14 +5301,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 315964,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 5839,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 172431,
+        "demand": 173205,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 5839,
@@ -5369,16 +5320,16 @@
       {
         "price": 5839,
         "station": "Gao Base",
-        "demand": 58818,
+        "demand": 59065,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 5839,
         "station": "Saturn Ascending",
         "demand": 28853,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 5839,
@@ -5422,7 +5373,7 @@
         "station": "Saturn Ascending",
         "demand": 2091,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 13946,
@@ -5436,14 +5387,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 684,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 13939,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 103144,
+        "demand": 103766,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Olivine": [
@@ -5471,23 +5422,23 @@
       {
         "price": 26615,
         "station": "Gao Base",
-        "demand": 291933,
+        "demand": 293157,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 26615,
         "station": "Eon Blue Apocalypse",
         "demand": 280747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 26615,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 19774,
+        "demand": 19863,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 26615,
@@ -5501,7 +5452,7 @@
         "station": "Saturn Ascending",
         "demand": 2315,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 26615,
@@ -5515,23 +5466,23 @@
       {
         "price": 40431,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 735724,
+        "demand": 739023,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 40431,
         "station": "Eon Blue Apocalypse",
         "demand": 681961,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 40431,
         "station": "Gao Base",
-        "demand": 483120,
+        "demand": 485146,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 40431,
@@ -5545,7 +5496,7 @@
         "station": "Saturn Ascending",
         "demand": 115071,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 40431,
@@ -5587,16 +5538,16 @@
       {
         "price": 49679,
         "station": "Gao Base",
-        "demand": 27925,
+        "demand": 28042,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 49679,
         "station": "Eon Blue Apocalypse",
         "demand": 17328,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 49679,
@@ -5608,9 +5559,9 @@
       {
         "price": 49679,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 13786,
+        "demand": 13848,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 49679,
@@ -5631,7 +5582,7 @@
         "station": "Saturn Ascending",
         "demand": 2052,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 49679,
@@ -5668,7 +5619,7 @@
         "station": "Saturn Ascending",
         "demand": 38481,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 7187,
@@ -5678,11 +5629,11 @@
         "marketUpdated": "2026-09-25T02:31:57Z"
       },
       {
-        "price": 7042,
+        "price": 7046,
         "station": "Gao Base",
-        "demand": 106708,
+        "demand": 108819,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 6967,
@@ -5724,23 +5675,23 @@
       {
         "price": 149332,
         "station": "Gao Base",
-        "demand": 291933,
+        "demand": 293157,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 149332,
         "station": "Eon Blue Apocalypse",
         "demand": 280747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 149332,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 19774,
+        "demand": 19863,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 149332,
@@ -5754,7 +5705,7 @@
         "station": "Saturn Ascending",
         "demand": 2315,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 149332,
@@ -5777,7 +5728,7 @@
         "station": "Saturn Ascending",
         "demand": 14753,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 655,
@@ -5810,32 +5761,25 @@
         "marketUpdated": "2026-08-11T22:34:20Z"
       },
       {
-        "price": 56628,
-        "station": "Mendez Entertainment Resort",
-        "demand": 1472,
-        "marketId": 4380933123,
-        "marketUpdated": "2026-08-06T16:12:39Z"
-      },
-      {
         "price": 55291,
         "station": "Eon Blue Apocalypse",
         "demand": 136616,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 55291,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 132798,
+        "demand": 133395,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 55291,
         "station": "Gao Base",
-        "demand": 119315,
+        "demand": 119817,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 55291,
@@ -5863,7 +5807,7 @@
         "station": "Saturn Ascending",
         "demand": 25065,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 55291,
@@ -5900,14 +5844,14 @@
         "station": "Saturn Ascending",
         "demand": 921491,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 612,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 5709569,
+        "demand": 5735177,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 548,
@@ -5937,14 +5881,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 179754,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 1776,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 96818,
+        "demand": 97251,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 1776,
@@ -5956,9 +5900,9 @@
       {
         "price": 1776,
         "station": "Gao Base",
-        "demand": 30587,
+        "demand": 30715,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 1776,
@@ -5979,7 +5923,7 @@
         "station": "Saturn Ascending",
         "demand": 6425,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1776,
@@ -6007,23 +5951,23 @@
       {
         "price": 8425,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 641207,
+        "demand": 644083,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 8425,
         "station": "Eon Blue Apocalypse",
         "demand": 589260,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 8425,
         "station": "Gao Base",
-        "demand": 419243,
+        "demand": 421001,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 8425,
@@ -6037,7 +5981,7 @@
         "station": "Saturn Ascending",
         "demand": 88067,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 8425,
@@ -6095,7 +6039,7 @@
         "station": "Saturn Ascending",
         "demand": 13490,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 7186,
@@ -6107,9 +6051,9 @@
       {
         "price": 6878,
         "station": "Gao Base",
-        "demand": 60507,
+        "demand": 60765,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 6561,
@@ -6125,7 +6069,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 7172445,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 13650,
@@ -6160,7 +6104,7 @@
         "station": "Saturn Ascending",
         "demand": 206718,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 13650,
@@ -6184,11 +6128,11 @@
         "marketUpdated": "2026-10-06T01:57:36Z"
       },
       {
-        "price": 13622,
+        "price": 13618,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3108508,
+        "demand": 3122447,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Quartz Pyroxenite": [
@@ -6216,23 +6160,23 @@
       {
         "price": 39443,
         "station": "Gao Base",
-        "demand": 291933,
+        "demand": 293157,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 39443,
         "station": "Eon Blue Apocalypse",
         "demand": 280747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 39443,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 19774,
+        "demand": 19863,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 39443,
@@ -6246,7 +6190,7 @@
         "station": "Saturn Ascending",
         "demand": 2315,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 39443,
@@ -6262,7 +6206,7 @@
         "station": "Saturn Ascending",
         "demand": 32920,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2151,
@@ -6274,23 +6218,23 @@
       {
         "price": 2151,
         "station": "Gao Base",
-        "demand": 11196,
+        "demand": 11243,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 2151,
         "station": "Eon Blue Apocalypse",
         "demand": 10767,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2151,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 9967,
+        "demand": 10012,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2151,
@@ -6355,14 +6299,14 @@
         "station": "Saturn Ascending",
         "demand": 62985,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 2316,
         "station": "Gao Base",
-        "demand": 301989,
+        "demand": 303255,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 1839,
@@ -6397,23 +6341,23 @@
       {
         "price": 82916,
         "station": "Gao Base",
-        "demand": 291933,
+        "demand": 293157,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 82916,
         "station": "Eon Blue Apocalypse",
         "demand": 280747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 82916,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 19774,
+        "demand": 19863,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 82916,
@@ -6427,7 +6371,7 @@
         "station": "Saturn Ascending",
         "demand": 2315,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 82916,
@@ -6462,30 +6406,30 @@
       {
         "price": 25468,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 409941,
+        "demand": 411938,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 25468,
         "station": "Eon Blue Apocalypse",
         "demand": 374985,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 25468,
         "station": "Gao Base",
-        "demand": 266792,
+        "demand": 267910,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 25468,
         "station": "Saturn Ascending",
         "demand": 56043,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 25468,
@@ -6534,23 +6478,23 @@
       {
         "price": 93955,
         "station": "Gao Base",
-        "demand": 291933,
+        "demand": 293157,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 93955,
         "station": "Eon Blue Apocalypse",
         "demand": 280747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 93955,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 19774,
+        "demand": 19863,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 93955,
@@ -6564,7 +6508,7 @@
         "station": "Saturn Ascending",
         "demand": 2315,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 93955,
@@ -6592,16 +6536,16 @@
       {
         "price": 1424,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3651483,
+        "demand": 3667859,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 1413,
         "station": "Saturn Ascending",
         "demand": 110853,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1396,
@@ -6631,14 +6575,14 @@
         "station": "Saturn Ascending",
         "demand": 114362,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 4789,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 225495,
+        "demand": 226507,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 4212,
@@ -6661,14 +6605,14 @@
         "station": "Saturn Ascending",
         "demand": 98257,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 7394,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 715428,
+        "demand": 718637,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 7393,
@@ -6705,14 +6649,14 @@
         "station": "Saturn Ascending",
         "demand": 762528,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 642,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3770523,
+        "demand": 3787433,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 539,
@@ -6752,18 +6696,18 @@
         "marketUpdated": "2026-10-07T07:11:57Z"
       },
       {
-        "price": 610,
+        "price": 611,
         "station": "Gao Base",
-        "demand": 167995,
+        "demand": 169990,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 610,
         "station": "Saturn Ascending",
         "demand": 35183,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 561,
@@ -6793,7 +6737,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 136110,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 7446,
@@ -6814,7 +6758,7 @@
         "station": "Saturn Ascending",
         "demand": 3640,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 7446,
@@ -6826,9 +6770,9 @@
       {
         "price": 7423,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 88273,
+        "demand": 88907,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 7310,
@@ -6849,23 +6793,23 @@
       {
         "price": 51207,
         "station": "Gao Base",
-        "demand": 77736,
+        "demand": 78063,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 51207,
         "station": "Eon Blue Apocalypse",
         "demand": 74758,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 51207,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 69207,
+        "demand": 69517,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 51207,
@@ -6886,7 +6830,7 @@
         "station": "Saturn Ascending",
         "demand": 16330,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 51207,
@@ -6921,9 +6865,9 @@
       {
         "price": 14864,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 810782,
+        "demand": 814418,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 14833,
@@ -6937,7 +6881,7 @@
         "station": "Saturn Ascending",
         "demand": 72672,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 14267,
@@ -6965,9 +6909,9 @@
       {
         "price": 2048,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 135865,
+        "demand": 138291,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2004,
@@ -6977,25 +6921,25 @@
         "marketUpdated": "2026-10-12T04:32:03Z"
       },
       {
-        "price": 1994,
+        "price": 1995,
         "station": "Gao Base",
-        "demand": 269038,
+        "demand": 272178,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 1977,
         "station": "Saturn Ascending",
         "demand": 41552,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 1899,
         "station": "Eon Blue Apocalypse",
         "demand": 270463,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       }
     ],
     "Telemetry Suite": [
@@ -7004,14 +6948,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 146192,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 3099,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 82578,
+        "demand": 82948,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 3099,
@@ -7025,14 +6969,14 @@
         "station": "Saturn Ascending",
         "demand": 35180,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 3099,
         "station": "Gao Base",
-        "demand": 33497,
+        "demand": 33637,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 3099,
@@ -7090,7 +7034,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1000896,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 4347,
@@ -7104,14 +7048,14 @@
         "station": "Saturn Ascending",
         "demand": 35775,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 4322,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1084522,
+        "demand": 1089703,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 4273,
@@ -7141,7 +7085,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 842582,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 12278,
@@ -7169,7 +7113,7 @@
         "station": "Saturn Ascending",
         "demand": 48709,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 12278,
@@ -7195,9 +7139,9 @@
       {
         "price": 12277,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 964618,
+        "demand": 969342,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Thortveitite": [
@@ -7225,23 +7169,23 @@
       {
         "price": 149332,
         "station": "Gao Base",
-        "demand": 291933,
+        "demand": 293157,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 149332,
         "station": "Eon Blue Apocalypse",
         "demand": 280747,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 149332,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 19774,
+        "demand": 19863,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 149332,
@@ -7255,7 +7199,7 @@
         "station": "Saturn Ascending",
         "demand": 2315,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 149332,
@@ -7278,14 +7222,14 @@
         "station": "Saturn Ascending",
         "demand": 108428,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 5085,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 213789,
+        "demand": 214748,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 4496,
@@ -7299,16 +7243,16 @@
       {
         "price": 5500,
         "station": "Gao Base",
-        "demand": 119968,
+        "demand": 121227,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 5500,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 67479,
+        "demand": 68466,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 5493,
@@ -7322,14 +7266,14 @@
         "station": "Saturn Ascending",
         "demand": 25384,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 5399,
         "station": "Eon Blue Apocalypse",
         "demand": 117482,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 5060,
@@ -7355,11 +7299,11 @@
         "marketUpdated": "2026-10-12T04:32:03Z"
       },
       {
-        "price": 53489,
+        "price": 53492,
         "station": "Saturn Ascending",
-        "demand": 11538,
+        "demand": 11581,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 53142,
@@ -7382,28 +7326,28 @@
         "station": "Eon Blue Apocalypse",
         "demand": 15716,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 4103,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 10199,
+        "demand": 10263,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 4103,
         "station": "Gao Base",
-        "demand": 8875,
+        "demand": 8937,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 4103,
         "station": "Saturn Ascending",
         "demand": 4043,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 4103,
@@ -7433,7 +7377,7 @@
         "station": "Saturn Ascending",
         "demand": 214875,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 7917,
@@ -7445,9 +7389,9 @@
       {
         "price": 7892,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1356601,
+        "demand": 1362685,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 7891,
@@ -7463,21 +7407,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 22380,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 132375,
         "station": "Gao Base",
-        "demand": 10498,
+        "demand": 10544,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 132375,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 8980,
+        "demand": 9021,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 132375,
@@ -7512,17 +7456,10 @@
         "station": "Saturn Ascending",
         "demand": 779,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       }
     ],
     "Water": [
-      {
-        "price": 655,
-        "station": "Vega's Astrophysics",
-        "demand": 629,
-        "marketId": 4386133251,
-        "marketUpdated": "2026-08-27T22:23:33Z"
-      },
       {
         "price": 610,
         "station": "Rival Monkeys Foundry",
@@ -7542,7 +7479,7 @@
         "station": "Saturn Ascending",
         "demand": 134837,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 405,
@@ -7552,11 +7489,11 @@
         "marketUpdated": "2026-10-12T04:32:03Z"
       },
       {
-        "price": 327,
+        "price": 305,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1084922,
+        "demand": 1092330,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Water Purifiers": [
@@ -7566,13 +7503,6 @@
         "demand": 3228,
         "marketId": 4376365059,
         "marketUpdated": "2026-07-09T01:39:32Z"
-      },
-      {
-        "price": 1234,
-        "station": "Vega's Astrophysics",
-        "demand": 3220,
-        "marketId": 4386133251,
-        "marketUpdated": "2026-08-27T22:23:33Z"
       },
       {
         "price": 1157,
@@ -7607,7 +7537,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 1156798,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 771,
@@ -7621,7 +7551,7 @@
         "station": "Saturn Ascending",
         "demand": 89767,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 300,
@@ -7635,9 +7565,9 @@
       {
         "price": 724,
         "station": "Gao Base",
-        "demand": 1391368,
+        "demand": 1407087,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 724,
@@ -7649,9 +7579,9 @@
       {
         "price": 724,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 677575,
+        "demand": 690194,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 724,
@@ -7665,14 +7595,14 @@
         "station": "Saturn Ascending",
         "demand": 293215,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-12T06:27:49Z"
+        "marketUpdated": "2026-10-12T20:12:03Z"
       },
       {
         "price": 703,
         "station": "Eon Blue Apocalypse",
         "demand": 1142466,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 677,
@@ -7700,9 +7630,9 @@
       {
         "price": 3406,
         "station": "Gao Base",
-        "demand": 2467434,
+        "demand": 2477780,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 3262,
@@ -7730,16 +7660,16 @@
       {
         "price": 209603,
         "station": "Gao Base",
-        "demand": 19182,
+        "demand": 19264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 209603,
         "station": "Eon Blue Apocalypse",
         "demand": 18448,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 209603,
@@ -7758,9 +7688,9 @@
       {
         "price": 209603,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1445,
+        "demand": 1452,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 209603,
@@ -7790,7 +7720,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 467418,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 830,
@@ -7850,14 +7780,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2839161,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
-        "price": 1395,
+        "price": 1385,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 198207,
+        "demand": 199096,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 1202,
@@ -7878,16 +7808,16 @@
       {
         "price": 144176,
         "station": "Gao Base",
-        "demand": 19182,
+        "demand": 19264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 144176,
         "station": "Eon Blue Apocalypse",
         "demand": 18448,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 144176,
@@ -7906,9 +7836,9 @@
       {
         "price": 144176,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1445,
+        "demand": 1452,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 144176,
@@ -7938,7 +7868,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2630865,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 21110,
@@ -7948,11 +7878,11 @@
         "marketUpdated": "2026-10-10T07:08:27Z"
       },
       {
-        "price": 21060,
+        "price": 21039,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 91907,
+        "demand": 92319,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 20802,
@@ -8022,11 +7952,11 @@
         "marketUpdated": "2026-10-06T01:57:36Z"
       },
       {
-        "price": 4869,
+        "price": 4865,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 4548630,
+        "demand": 4569028,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 3859,
@@ -8049,14 +7979,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2087485,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
-        "price": 7244,
+        "price": 7225,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 145689,
+        "demand": 146343,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 7211,
@@ -8139,14 +8069,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 3994014,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
-        "price": 13445,
+        "price": 13443,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1811860,
+        "demand": 1819986,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 13007,
@@ -8172,11 +8102,11 @@
         "marketUpdated": "2026-10-10T07:08:27Z"
       },
       {
-        "price": 50861,
+        "price": 50859,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1065857,
+        "demand": 1070637,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 50855,
@@ -8197,16 +8127,16 @@
       {
         "price": 189989,
         "station": "Gao Base",
-        "demand": 19182,
+        "demand": 19264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 189989,
         "station": "Eon Blue Apocalypse",
         "demand": 18448,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 189989,
@@ -8225,9 +8155,9 @@
       {
         "price": 189989,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1445,
+        "demand": 1452,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 189989,
@@ -8264,7 +8194,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 742450,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2235,
@@ -8281,11 +8211,11 @@
         "marketUpdated": "2026-10-11T06:24:17Z"
       },
       {
-        "price": 2151,
+        "price": 2138,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 531031,
+        "demand": 533413,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Hostages": [
@@ -8331,7 +8261,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 2911611,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 12906,
@@ -8341,18 +8271,18 @@
         "marketUpdated": "2026-10-10T07:08:27Z"
       },
       {
-        "price": 12824,
-        "station": "Extra Pens And Clean Sheets",
-        "demand": 50937,
-        "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
-      },
-      {
         "price": 12808,
         "station": "Arkwright Vista",
         "demand": 177473,
         "marketId": 4388504067,
         "marketUpdated": "2026-09-25T02:31:57Z"
+      },
+      {
+        "price": 12801,
+        "station": "Extra Pens And Clean Sheets",
+        "demand": 51165,
+        "marketId": 4376376323,
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 12537,
@@ -8382,7 +8312,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4279117,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 1034,
@@ -8392,11 +8322,11 @@
         "marketUpdated": "2026-10-06T03:18:41Z"
       },
       {
-        "price": 950,
+        "price": 936,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 149486,
+        "demand": 150156,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Marine Equipment": [
@@ -8419,7 +8349,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 99971,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 4803,
@@ -8447,16 +8377,16 @@
       {
         "price": 191307,
         "station": "Gao Base",
-        "demand": 19182,
+        "demand": 19264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 191307,
         "station": "Eon Blue Apocalypse",
         "demand": 18448,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 191307,
@@ -8475,9 +8405,9 @@
       {
         "price": 191307,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1445,
+        "demand": 1452,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 191307,
@@ -8557,13 +8487,6 @@
       },
       {
         "price": 53793,
-        "station": "Mendez Entertainment Resort",
-        "demand": 1910,
-        "marketId": 4380933123,
-        "marketUpdated": "2026-08-06T16:12:39Z"
-      },
-      {
-        "price": 53793,
         "station": "Griffin Hospitality Resort",
         "demand": 571,
         "marketId": 4381921027,
@@ -8585,17 +8508,17 @@
       },
       {
         "price": 53716,
+        "station": "Eon Blue Apocalypse",
+        "demand": 862062,
+        "marketId": 4386105091,
+        "marketUpdated": "2026-10-12T21:52:02Z"
+      },
+      {
+        "price": 53716,
         "station": "Boltzmann Vision",
         "demand": 39481,
         "marketId": 4392466179,
         "marketUpdated": "2026-10-11T06:24:17Z"
-      },
-      {
-        "price": 53715,
-        "station": "Eon Blue Apocalypse",
-        "demand": 860828,
-        "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
       },
       {
         "price": 53714,
@@ -8605,11 +8528,11 @@
         "marketUpdated": "2026-10-06T03:18:41Z"
       },
       {
-        "price": 53709,
+        "price": 53708,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 563064,
+        "demand": 565589,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Personal Effects": [
@@ -8665,11 +8588,11 @@
         "marketUpdated": "2026-09-25T02:31:57Z"
       },
       {
-        "price": 4473,
+        "price": 4475,
         "station": "Gao Base",
-        "demand": 26256,
+        "demand": 26623,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Power Generators": [
@@ -8706,7 +8629,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 690714,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 2856,
@@ -8716,11 +8639,11 @@
         "marketUpdated": "2026-10-12T04:32:03Z"
       },
       {
-        "price": 2533,
+        "price": 2534,
         "station": "Gao Base",
-        "demand": 367207,
+        "demand": 369814,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 2285,
@@ -8757,9 +8680,9 @@
       {
         "price": 6575,
         "station": "Gao Base",
-        "demand": 1403235,
+        "demand": 1409120,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 6555,
@@ -8796,21 +8719,21 @@
         "station": "Eon Blue Apocalypse",
         "demand": 18577,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 172464,
         "station": "Gao Base",
-        "demand": 16251,
+        "demand": 16320,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 172464,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 3225,
+        "demand": 3241,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 172464,
@@ -8861,14 +8784,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 4669908,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
-        "price": 2492,
+        "price": 2490,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 2790238,
+        "demand": 2802752,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2286,
@@ -8889,16 +8812,16 @@
       {
         "price": 166524,
         "station": "Gao Base",
-        "demand": 19182,
+        "demand": 19264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 166524,
         "station": "Eon Blue Apocalypse",
         "demand": 18448,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
         "price": 166524,
@@ -8917,9 +8840,9 @@
       {
         "price": 166524,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1445,
+        "demand": 1452,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 166524,
@@ -8943,13 +8866,6 @@
         "demand": 894,
         "marketId": 4381919491,
         "marketUpdated": "2026-08-11T22:34:20Z"
-      },
-      {
-        "price": 40808,
-        "station": "Mendez Entertainment Resort",
-        "demand": 2069,
-        "marketId": 4380933123,
-        "marketUpdated": "2026-08-06T16:12:39Z"
       },
       {
         "price": 40808,
@@ -8987,11 +8903,11 @@
         "marketUpdated": "2026-10-06T03:18:41Z"
       },
       {
-        "price": 40679,
+        "price": 40673,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 2046293,
+        "demand": 2056263,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Uraninite": [
@@ -9000,14 +8916,14 @@
         "station": "Eon Blue Apocalypse",
         "demand": 5972651,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       },
       {
-        "price": 3669,
+        "price": 3651,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 208647,
+        "demand": 209583,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 3639,
@@ -9072,9 +8988,9 @@
       {
         "price": 1860,
         "station": "Gao Base",
-        "demand": 296571,
+        "demand": 300033,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 1860,
@@ -9086,9 +9002,9 @@
       {
         "price": 1860,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 151643,
+        "demand": 154482,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 1819,
@@ -9102,7 +9018,7 @@
         "station": "Eon Blue Apocalypse",
         "demand": 274088,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-12T06:21:39Z"
+        "marketUpdated": "2026-10-12T21:52:02Z"
       }
     ],
     "Microbial Furnaces": [
@@ -9123,9 +9039,9 @@
       {
         "price": 597,
         "station": "Gao Base",
-        "demand": 1445615,
+        "demand": 1451677,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       },
       {
         "price": 525,
@@ -9169,9 +9085,9 @@
       {
         "price": 5497,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 88111,
+        "demand": 90316,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 5480,
@@ -9190,20 +9106,6 @@
     ],
     "Surface Stabilisers": [
       {
-        "price": 1302,
-        "station": "Vega's Astrophysics",
-        "demand": 1696,
-        "marketId": 4386133251,
-        "marketUpdated": "2026-08-27T22:23:33Z"
-      },
-      {
-        "price": 1272,
-        "station": "Mendez Entertainment Resort",
-        "demand": 1852,
-        "marketId": 4380933123,
-        "marketUpdated": "2026-08-06T16:12:39Z"
-      },
-      {
         "price": 1233,
         "station": "Hara Astrophysics Expedition",
         "demand": 2426,
@@ -9220,19 +9122,12 @@
       {
         "price": 1016,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 1425084,
+        "demand": 1449748,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       }
     ],
     "Building Fabricators": [
-      {
-        "price": 2980,
-        "station": "Vega's Astrophysics",
-        "demand": 523,
-        "marketId": 4386133251,
-        "marketUpdated": "2026-08-27T22:23:33Z"
-      },
       {
         "price": 2894,
         "station": "Hara Astrophysics Expedition",
@@ -9241,77 +9136,77 @@
         "marketUpdated": "2026-10-06T01:57:36Z"
       },
       {
-        "price": 2352,
+        "price": 2353,
         "station": "Gao Base",
-        "demand": 659598,
+        "demand": 668074,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Ion Distributor": [
       {
         "price": 2783,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 91120,
+        "demand": 91529,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2783,
         "station": "Gao Base",
-        "demand": 36961,
+        "demand": 37116,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Muon Imager": [
       {
-        "price": 6923,
+        "price": 6925,
         "station": "Gao Base",
-        "demand": 61907,
+        "demand": 63438,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Power Transfer Bus": [
       {
         "price": 2639,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 64545,
+        "demand": 64835,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2639,
         "station": "Gao Base",
-        "demand": 20391,
+        "demand": 20477,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Reinforced Mounting Plate": [
       {
         "price": 2936,
         "station": "Extra Pens And Clean Sheets",
-        "demand": 64368,
+        "demand": 64656,
         "marketId": 4376376323,
-        "marketUpdated": "2026-10-11T21:35:17Z"
+        "marketUpdated": "2026-10-12T22:07:44Z"
       },
       {
         "price": 2936,
         "station": "Gao Base",
-        "demand": 61973,
+        "demand": 62233,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Structural Regulators": [
       {
         "price": 2315,
         "station": "Gao Base",
-        "demand": 21394,
+        "demand": 21685,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-11T22:57:47Z"
+        "marketUpdated": "2026-10-12T20:53:03Z"
       }
     ],
     "Geological Equipment": [
