@@ -4,7 +4,7 @@
   "factions": [
     {
       "name": "Regiment of Imperial Mongrels",
-      "influence": 0.649141,
+      "influence": 0.642063,
       "state": "None",
       "allegiance": "Empire",
       "government": "Dictatorship",
@@ -13,7 +13,7 @@
     },
     {
       "name": "The Consortium",
-      "influence": 0.162791,
+      "influence": 0.169869,
       "state": "None",
       "allegiance": "Independent",
       "government": "Anarchy",
@@ -39,5 +39,5 @@
       "controlling": false
     }
   ],
-  "lastUpdated": "2026-10-14T21:40:32.684496+00:00"
+  "lastUpdated": "2026-10-15T04:37:00.449192+00:00"
 }
