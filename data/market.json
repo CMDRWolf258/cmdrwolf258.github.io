@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-10-16T21:06:25.519539+00:00",
+  "generatedAt": "2026-10-17T04:23:39.665486+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -62,9 +62,9 @@
     "Auto-Fabricators": {
       "price": 4193,
       "station": "Rival Monkeys Foundry",
-      "demand": 28581,
+      "demand": 28731,
       "marketId": 4388359171,
-      "marketUpdated": "2026-10-16T17:54:39Z"
+      "marketUpdated": "2026-10-17T04:16:39Z"
     },
     "Bastnasite": {
       "price": 66941,
@@ -440,9 +440,9 @@
     "Medical Diagnostic Equipment": {
       "price": 3402,
       "station": "Rival Monkeys Foundry",
-      "demand": 4566,
+      "demand": 4590,
       "marketId": 4388359171,
-      "marketUpdated": "2026-10-16T17:54:39Z"
+      "marketUpdated": "2026-10-17T04:16:39Z"
     },
     "Meta-Alloys": {
       "price": 194599,
@@ -468,9 +468,9 @@
     "Micro Controllers": {
       "price": 6160,
       "station": "Rival Monkeys Foundry",
-      "demand": 11560,
+      "demand": 11621,
       "marketId": 4388359171,
-      "marketUpdated": "2026-10-16T17:54:39Z"
+      "marketUpdated": "2026-10-17T04:16:39Z"
     },
     "Micro-weave Cooling Hoses": {
       "price": 1776,
@@ -650,9 +650,9 @@
     "Robotics": {
       "price": 2336,
       "station": "Rival Monkeys Foundry",
-      "demand": 74775,
+      "demand": 75167,
       "marketId": 4388359171,
-      "marketUpdated": "2026-10-16T17:54:39Z"
+      "marketUpdated": "2026-10-17T04:16:39Z"
     },
     "Ruby": {
       "price": 82916,
@@ -832,9 +832,9 @@
     "Advanced Catalysers": {
       "price": 3447,
       "station": "Rival Monkeys Foundry",
-      "demand": 522425,
+      "demand": 525160,
       "marketId": 4388359171,
-      "marketUpdated": "2026-10-16T17:54:39Z"
+      "marketUpdated": "2026-10-17T04:16:39Z"
     },
     "Alexandrite": {
       "price": 207116,
@@ -1084,16 +1084,16 @@
     "Microbial Furnaces": {
       "price": 639,
       "station": "Rival Monkeys Foundry",
-      "demand": 306078,
+      "demand": 307680,
       "marketId": 4388359171,
-      "marketUpdated": "2026-10-16T17:54:39Z"
+      "marketUpdated": "2026-10-17T04:16:39Z"
     },
     "Scrap": {
       "price": 417,
       "station": "Rival Monkeys Foundry",
-      "demand": 150546,
+      "demand": 151335,
       "marketId": 4388359171,
-      "marketUpdated": "2026-10-16T17:54:39Z"
+      "marketUpdated": "2026-10-17T04:16:39Z"
     },
     "Onionhead Gamma Strain": {
       "price": 5484,
@@ -1171,9 +1171,9 @@
       {
         "price": 1679,
         "station": "Rival Monkeys Foundry",
-        "demand": 80425,
+        "demand": 80843,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1676,
@@ -1229,9 +1229,9 @@
       {
         "price": 1440,
         "station": "Rival Monkeys Foundry",
-        "demand": 24073,
+        "demand": 24199,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1360,
@@ -1280,9 +1280,9 @@
       {
         "price": 3229,
         "station": "Rival Monkeys Foundry",
-        "demand": 1970,
+        "demand": 1981,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 3203,
@@ -1303,9 +1303,9 @@
       {
         "price": 583,
         "station": "Rival Monkeys Foundry",
-        "demand": 420845,
+        "demand": 423049,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 571,
@@ -1370,9 +1370,9 @@
       {
         "price": 752,
         "station": "Rival Monkeys Foundry",
-        "demand": 74443,
+        "demand": 74832,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 735,
@@ -1456,9 +1456,9 @@
       {
         "price": 677,
         "station": "Rival Monkeys Foundry",
-        "demand": 82534,
+        "demand": 82967,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 485,
@@ -1528,9 +1528,9 @@
       {
         "price": 7430,
         "station": "Rival Monkeys Foundry",
-        "demand": 1269,
+        "demand": 1275,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 7430,
@@ -1551,9 +1551,9 @@
       {
         "price": 4193,
         "station": "Rival Monkeys Foundry",
-        "demand": 28581,
+        "demand": 28731,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 4146,
@@ -1609,9 +1609,9 @@
       {
         "price": 66894,
         "station": "Rival Monkeys Foundry",
-        "demand": 61814,
+        "demand": 62138,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 66894,
@@ -1667,9 +1667,9 @@
       {
         "price": 7224,
         "station": "Rival Monkeys Foundry",
-        "demand": 1952,
+        "demand": 1962,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       }
     ],
     "Beer": [
@@ -1704,9 +1704,9 @@
       {
         "price": 565,
         "station": "Rival Monkeys Foundry",
-        "demand": 287547,
+        "demand": 289054,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 561,
@@ -1771,9 +1771,9 @@
       {
         "price": 1477,
         "station": "Rival Monkeys Foundry",
-        "demand": 184719,
+        "demand": 185686,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1461,
@@ -1836,9 +1836,9 @@
       {
         "price": 2926,
         "station": "Rival Monkeys Foundry",
-        "demand": 39794,
+        "demand": 40002,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2926,
@@ -1908,9 +1908,9 @@
       {
         "price": 619,
         "station": "Rival Monkeys Foundry",
-        "demand": 3047,
+        "demand": 3062,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 619,
@@ -1980,9 +1980,9 @@
       {
         "price": 29940,
         "station": "Rival Monkeys Foundry",
-        "demand": 15736,
+        "demand": 15819,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 29940,
@@ -2024,9 +2024,9 @@
       {
         "price": 6575,
         "station": "Rival Monkeys Foundry",
-        "demand": 48550,
+        "demand": 48805,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 6575,
@@ -2082,9 +2082,9 @@
       {
         "price": 656,
         "station": "Rival Monkeys Foundry",
-        "demand": 653841,
+        "demand": 657265,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 656,
@@ -2161,9 +2161,9 @@
       {
         "price": 604,
         "station": "Rival Monkeys Foundry",
-        "demand": 81279,
+        "demand": 81705,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 604,
@@ -2226,9 +2226,9 @@
       {
         "price": 769,
         "station": "Rival Monkeys Foundry",
-        "demand": 216260,
+        "demand": 217395,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 769,
@@ -2263,9 +2263,9 @@
       {
         "price": 1717,
         "station": "Rival Monkeys Foundry",
-        "demand": 18222,
+        "demand": 18318,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1707,
@@ -2351,9 +2351,9 @@
       {
         "price": 986,
         "station": "Rival Monkeys Foundry",
-        "demand": 37070,
+        "demand": 37264,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 875,
@@ -2411,9 +2411,9 @@
       {
         "price": 7303,
         "station": "Rival Monkeys Foundry",
-        "demand": 36531,
+        "demand": 36722,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 7258,
@@ -2564,9 +2564,9 @@
       {
         "price": 14098,
         "station": "Rival Monkeys Foundry",
-        "demand": 163681,
+        "demand": 164538,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 14098,
@@ -2636,9 +2636,9 @@
       {
         "price": 34551,
         "station": "Rival Monkeys Foundry",
-        "demand": 61814,
+        "demand": 62138,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 34551,
@@ -2708,9 +2708,9 @@
       {
         "price": 100059,
         "station": "Rival Monkeys Foundry",
-        "demand": 61814,
+        "demand": 62138,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 100059,
@@ -2787,9 +2787,9 @@
       {
         "price": 785,
         "station": "Rival Monkeys Foundry",
-        "demand": 64573,
+        "demand": 64912,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 527,
@@ -2824,9 +2824,9 @@
       {
         "price": 2772,
         "station": "Rival Monkeys Foundry",
-        "demand": 17341,
+        "demand": 17431,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2772,
@@ -2903,9 +2903,9 @@
       {
         "price": 3089,
         "station": "Rival Monkeys Foundry",
-        "demand": 4087,
+        "demand": 4108,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 3089,
@@ -2975,9 +2975,9 @@
       {
         "price": 2252,
         "station": "Rival Monkeys Foundry",
-        "demand": 3804,
+        "demand": 3825,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2252,
@@ -3056,9 +3056,9 @@
       {
         "price": 866,
         "station": "Rival Monkeys Foundry",
-        "demand": 198785,
+        "demand": 199825,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 860,
@@ -3167,9 +3167,9 @@
       {
         "price": 7384,
         "station": "Rival Monkeys Foundry",
-        "demand": 691912,
+        "demand": 695535,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 7384,
@@ -3225,9 +3225,9 @@
       {
         "price": 591,
         "station": "Rival Monkeys Foundry",
-        "demand": 413434,
+        "demand": 415600,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 494,
@@ -3276,9 +3276,9 @@
       {
         "price": 739,
         "station": "Rival Monkeys Foundry",
-        "demand": 913767,
+        "demand": 918553,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 736,
@@ -3420,9 +3420,9 @@
       {
         "price": 7430,
         "station": "Rival Monkeys Foundry",
-        "demand": 2444,
+        "demand": 2456,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 7430,
@@ -3492,9 +3492,9 @@
       {
         "price": 2494,
         "station": "Rival Monkeys Foundry",
-        "demand": 3512,
+        "demand": 3531,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2494,
@@ -3536,9 +3536,9 @@
       {
         "price": 80606,
         "station": "Rival Monkeys Foundry",
-        "demand": 1664,
+        "demand": 1672,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 80606,
@@ -3573,9 +3573,9 @@
       {
         "price": 75435,
         "station": "Rival Monkeys Foundry",
-        "demand": 1664,
+        "demand": 1672,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 75435,
@@ -3624,9 +3624,9 @@
       {
         "price": 2955,
         "station": "Rival Monkeys Foundry",
-        "demand": 470249,
+        "demand": 472710,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2955,
@@ -3791,9 +3791,9 @@
       {
         "price": 147312,
         "station": "Rival Monkeys Foundry",
-        "demand": 49274,
+        "demand": 49531,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 147312,
@@ -3884,9 +3884,9 @@
       {
         "price": 41514,
         "station": "Rival Monkeys Foundry",
-        "demand": 12644,
+        "demand": 12710,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 41514,
@@ -3914,9 +3914,9 @@
       {
         "price": 5395,
         "station": "Rival Monkeys Foundry",
-        "demand": 7081,
+        "demand": 7118,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 5361,
@@ -3986,9 +3986,9 @@
       {
         "price": 9525,
         "station": "Rival Monkeys Foundry",
-        "demand": 28480,
+        "demand": 28629,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 9525,
@@ -4023,9 +4023,9 @@
       {
         "price": 637,
         "station": "Rival Monkeys Foundry",
-        "demand": 752397,
+        "demand": 756337,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 636,
@@ -4132,9 +4132,9 @@
       {
         "price": 1125,
         "station": "Rival Monkeys Foundry",
-        "demand": 13732,
+        "demand": 13804,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1124,
@@ -4234,9 +4234,9 @@
       {
         "price": 5486,
         "station": "Rival Monkeys Foundry",
-        "demand": 74472,
+        "demand": 74862,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 5486,
@@ -4313,9 +4313,9 @@
       {
         "price": 96763,
         "station": "Rival Monkeys Foundry",
-        "demand": 4571,
+        "demand": 4594,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 96763,
@@ -4371,9 +4371,9 @@
       {
         "price": 32355,
         "station": "Rival Monkeys Foundry",
-        "demand": 61814,
+        "demand": 62138,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 32355,
@@ -4464,9 +4464,9 @@
       {
         "price": 1688,
         "station": "Rival Monkeys Foundry",
-        "demand": 5268,
+        "demand": 5295,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1688,
@@ -4487,9 +4487,9 @@
       {
         "price": 3402,
         "station": "Rival Monkeys Foundry",
-        "demand": 4566,
+        "demand": 4590,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 3398,
@@ -4566,9 +4566,9 @@
       {
         "price": 194511,
         "station": "Rival Monkeys Foundry",
-        "demand": 3166,
+        "demand": 3182,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 194511,
@@ -4624,9 +4624,9 @@
       {
         "price": 1498,
         "station": "Rival Monkeys Foundry",
-        "demand": 746747,
+        "demand": 750657,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1498,
@@ -4717,9 +4717,9 @@
       {
         "price": 2370,
         "station": "Rival Monkeys Foundry",
-        "demand": 48767,
+        "demand": 49022,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2370,
@@ -4740,9 +4740,9 @@
       {
         "price": 6160,
         "station": "Rival Monkeys Foundry",
-        "demand": 11560,
+        "demand": 11621,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 6107,
@@ -4812,9 +4812,9 @@
       {
         "price": 1767,
         "station": "Rival Monkeys Foundry",
-        "demand": 138540,
+        "demand": 139266,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1767,
@@ -4914,9 +4914,9 @@
       {
         "price": 1021,
         "station": "Rival Monkeys Foundry",
-        "demand": 928503,
+        "demand": 933366,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 952,
@@ -4951,9 +4951,9 @@
       {
         "price": 635,
         "station": "Rival Monkeys Foundry",
-        "demand": 968080,
+        "demand": 973149,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 613,
@@ -5016,9 +5016,9 @@
       {
         "price": 2370,
         "station": "Rival Monkeys Foundry",
-        "demand": 3707,
+        "demand": 3726,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2370,
@@ -5102,9 +5102,9 @@
       {
         "price": 24085,
         "station": "Rival Monkeys Foundry",
-        "demand": 25893,
+        "demand": 26029,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 24085,
@@ -5153,9 +5153,9 @@
       {
         "price": 195271,
         "station": "Rival Monkeys Foundry",
-        "demand": 1958,
+        "demand": 1968,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 195271,
@@ -5225,9 +5225,9 @@
       {
         "price": 2252,
         "station": "Rival Monkeys Foundry",
-        "demand": 7328,
+        "demand": 7366,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2252,
@@ -5269,9 +5269,9 @@
       {
         "price": 864,
         "station": "Rival Monkeys Foundry",
-        "demand": 269853,
+        "demand": 271266,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 832,
@@ -5341,9 +5341,9 @@
       {
         "price": 5826,
         "station": "Rival Monkeys Foundry",
-        "demand": 9567,
+        "demand": 9616,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 5826,
@@ -5422,9 +5422,9 @@
       {
         "price": 26586,
         "station": "Rival Monkeys Foundry",
-        "demand": 61814,
+        "demand": 62138,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 26586,
@@ -5508,9 +5508,9 @@
       {
         "price": 39971,
         "station": "Rival Monkeys Foundry",
-        "demand": 110480,
+        "demand": 111059,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 39971,
@@ -5573,9 +5573,9 @@
       {
         "price": 49084,
         "station": "Rival Monkeys Foundry",
-        "demand": 5089,
+        "demand": 5114,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 49084,
@@ -5617,9 +5617,9 @@
       {
         "price": 7134,
         "station": "Rival Monkeys Foundry",
-        "demand": 26165,
+        "demand": 26303,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 7030,
@@ -5682,9 +5682,9 @@
       {
         "price": 147312,
         "station": "Rival Monkeys Foundry",
-        "demand": 61814,
+        "demand": 62138,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 147312,
@@ -5740,9 +5740,9 @@
       {
         "price": 696,
         "station": "Rival Monkeys Foundry",
-        "demand": 13326,
+        "demand": 13396,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 448,
@@ -5833,9 +5833,9 @@
       {
         "price": 54994,
         "station": "Rival Monkeys Foundry",
-        "demand": 22182,
+        "demand": 22298,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 54994,
@@ -5942,9 +5942,9 @@
       {
         "price": 1767,
         "station": "Rival Monkeys Foundry",
-        "demand": 4975,
+        "demand": 5001,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1767,
@@ -6000,9 +6000,9 @@
       {
         "price": 8408,
         "station": "Rival Monkeys Foundry",
-        "demand": 96160,
+        "demand": 96665,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 8408,
@@ -6044,9 +6044,9 @@
       {
         "price": 7400,
         "station": "Rival Monkeys Foundry",
-        "demand": 13662,
+        "demand": 13734,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 7392,
@@ -6102,9 +6102,9 @@
       {
         "price": 13615,
         "station": "Rival Monkeys Foundry",
-        "demand": 748091,
+        "demand": 752008,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 13615,
@@ -6174,9 +6174,9 @@
       {
         "price": 39408,
         "station": "Rival Monkeys Foundry",
-        "demand": 61814,
+        "demand": 62138,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 39408,
@@ -6267,9 +6267,9 @@
       {
         "price": 2141,
         "station": "Rival Monkeys Foundry",
-        "demand": 1821,
+        "demand": 1831,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2141,
@@ -6290,9 +6290,9 @@
       {
         "price": 2336,
         "station": "Rival Monkeys Foundry",
-        "demand": 74775,
+        "demand": 75167,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2320,
@@ -6355,9 +6355,9 @@
       {
         "price": 82043,
         "station": "Rival Monkeys Foundry",
-        "demand": 61814,
+        "demand": 62138,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 82043,
@@ -6434,9 +6434,9 @@
       {
         "price": 25436,
         "station": "Rival Monkeys Foundry",
-        "demand": 61194,
+        "demand": 61513,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 25436,
@@ -6499,9 +6499,9 @@
       {
         "price": 92716,
         "station": "Rival Monkeys Foundry",
-        "demand": 61814,
+        "demand": 62138,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 92716,
@@ -6712,9 +6712,9 @@
       {
         "price": 634,
         "station": "Rival Monkeys Foundry",
-        "demand": 38465,
+        "demand": 38667,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 607,
@@ -6784,9 +6784,9 @@
       {
         "price": 7430,
         "station": "Rival Monkeys Foundry",
-        "demand": 1952,
+        "demand": 1962,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 7409,
@@ -6856,9 +6856,9 @@
       {
         "price": 51160,
         "station": "Rival Monkeys Foundry",
-        "demand": 12644,
+        "demand": 12710,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 51160,
@@ -6930,9 +6930,9 @@
       {
         "price": 1997,
         "station": "Rival Monkeys Foundry",
-        "demand": 65640,
+        "demand": 65984,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1978,
@@ -7009,9 +7009,9 @@
       {
         "price": 3089,
         "station": "Rival Monkeys Foundry",
-        "demand": 5449,
+        "demand": 5478,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 3089,
@@ -7060,9 +7060,9 @@
       {
         "price": 4334,
         "station": "Rival Monkeys Foundry",
-        "demand": 27699,
+        "demand": 27845,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 4311,
@@ -7132,9 +7132,9 @@
       {
         "price": 12259,
         "station": "Rival Monkeys Foundry",
-        "demand": 28293,
+        "demand": 28441,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 12259,
@@ -7190,9 +7190,9 @@
       {
         "price": 147312,
         "station": "Rival Monkeys Foundry",
-        "demand": 61814,
+        "demand": 62138,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 147312,
@@ -7292,9 +7292,9 @@
       {
         "price": 5057,
         "station": "Rival Monkeys Foundry",
-        "demand": 26036,
+        "demand": 26174,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 5039,
@@ -7380,9 +7380,9 @@
       {
         "price": 4091,
         "station": "Rival Monkeys Foundry",
-        "demand": 1876,
+        "demand": 1886,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       }
     ],
     "Uranium": [
@@ -7461,9 +7461,9 @@
       {
         "price": 130400,
         "station": "Rival Monkeys Foundry",
-        "demand": 2056,
+        "demand": 2066,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 130400,
@@ -7498,9 +7498,9 @@
       {
         "price": 553,
         "station": "Rival Monkeys Foundry",
-        "demand": 292917,
+        "demand": 294451,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 479,
@@ -7628,9 +7628,9 @@
       {
         "price": 675,
         "station": "Rival Monkeys Foundry",
-        "demand": 318690,
+        "demand": 320360,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 673,
@@ -7644,9 +7644,9 @@
       {
         "price": 3447,
         "station": "Rival Monkeys Foundry",
-        "demand": 522425,
+        "demand": 525160,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 3396,
@@ -7702,9 +7702,9 @@
       {
         "price": 207116,
         "station": "Rival Monkeys Foundry",
-        "demand": 4017,
+        "demand": 4038,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 207116,
@@ -7843,9 +7843,9 @@
       {
         "price": 142167,
         "station": "Rival Monkeys Foundry",
-        "demand": 4017,
+        "demand": 4038,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 142167,
@@ -8051,9 +8051,9 @@
       {
         "price": 187431,
         "station": "Rival Monkeys Foundry",
-        "demand": 4017,
+        "demand": 4038,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 187431,
@@ -8227,9 +8227,9 @@
       {
         "price": 188799,
         "station": "Rival Monkeys Foundry",
-        "demand": 4017,
+        "demand": 4038,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 188799,
@@ -8271,9 +8271,9 @@
       {
         "price": 2216,
         "station": "Rival Monkeys Foundry",
-        "demand": 1632,
+        "demand": 1640,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       }
     ],
     "Palladium": [
@@ -8368,9 +8368,9 @@
       {
         "price": 2894,
         "station": "Rival Monkeys Foundry",
-        "demand": 78506,
+        "demand": 78918,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 2888,
@@ -8449,9 +8449,9 @@
       {
         "price": 6129,
         "station": "Rival Monkeys Foundry",
-        "demand": 44865,
+        "demand": 45100,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 5743,
@@ -8479,9 +8479,9 @@
       {
         "price": 171015,
         "station": "Rival Monkeys Foundry",
-        "demand": 3369,
+        "demand": 3384,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 171015,
@@ -8574,9 +8574,9 @@
       {
         "price": 164296,
         "station": "Rival Monkeys Foundry",
-        "demand": 4017,
+        "demand": 4038,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 164296,
@@ -8720,9 +8720,9 @@
       {
         "price": 1813,
         "station": "Rival Monkeys Foundry",
-        "demand": 72369,
+        "demand": 72747,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 1698,
@@ -8794,9 +8794,9 @@
       {
         "price": 31004,
         "station": "Rival Monkeys Foundry",
-        "demand": 1642,
+        "demand": 1651,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       }
     ],
     "Damaged Escape Pod": [
@@ -8817,9 +8817,9 @@
       {
         "price": 16881,
         "station": "Rival Monkeys Foundry",
-        "demand": 1875,
+        "demand": 1886,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       }
     ],
     "Hostages": [
@@ -8840,9 +8840,9 @@
       {
         "price": 34551,
         "station": "Rival Monkeys Foundry",
-        "demand": 1149,
+        "demand": 1157,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 34551,
@@ -8907,9 +8907,9 @@
       {
         "price": 30302,
         "station": "Rival Monkeys Foundry",
-        "demand": 1642,
+        "demand": 1651,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       }
     ],
     "Personal Effects": [
@@ -8937,9 +8937,9 @@
       {
         "price": 9525,
         "station": "Rival Monkeys Foundry",
-        "demand": 1642,
+        "demand": 1651,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       }
     ],
     "Wreckage Components": [
@@ -8960,9 +8960,9 @@
       {
         "price": 8948,
         "station": "Rival Monkeys Foundry",
-        "demand": 6997,
+        "demand": 7034,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 8948,
@@ -8983,9 +8983,9 @@
       {
         "price": 639,
         "station": "Rival Monkeys Foundry",
-        "demand": 306078,
+        "demand": 307680,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 592,
@@ -9020,9 +9020,9 @@
       {
         "price": 417,
         "station": "Rival Monkeys Foundry",
-        "demand": 150546,
+        "demand": 151335,
         "marketId": 4388359171,
-        "marketUpdated": "2026-10-16T17:54:39Z"
+        "marketUpdated": "2026-10-17T04:16:39Z"
       },
       {
         "price": 336,
