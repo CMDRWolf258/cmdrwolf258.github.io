@@ -1,280 +1,280 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-10-22T17:09:25.254948+00:00",
+  "generatedAt": "2026-10-22T21:34:54.812977+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
       "price": 1697,
       "station": "Saturn Ascending",
-      "demand": 185207,
+      "demand": 187197,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Agri-Medicines": {
       "price": 1553,
       "station": "Saturn Ascending",
-      "demand": 77407,
+      "demand": 78238,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Agronomic Treatment": {
       "price": 3384,
       "station": "Saturn Ascending",
-      "demand": 2984,
+      "demand": 3016,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Algae": {
       "price": 613,
       "station": "Saturn Ascending",
-      "demand": 970590,
+      "demand": 981016,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Aluminium": {
       "price": 3130,
       "station": "Saturn Ascending",
-      "demand": 342224,
+      "demand": 345899,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Animal Monitors": {
       "price": 777,
       "station": "Saturn Ascending",
-      "demand": 632658,
+      "demand": 639450,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Aquaponic Systems": {
       "price": 2244,
       "station": "Saturn Ascending",
-      "demand": 286402,
+      "demand": 289477,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Articulation Motors": {
       "price": 7446,
       "station": "Saturn Ascending",
-      "demand": 4365,
+      "demand": 4410,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Auto-Fabricators": {
       "price": 4333,
       "station": "Gao Base",
-      "demand": 373993,
+      "demand": 379345,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-18T05:48:42Z"
+      "marketUpdated": "2026-10-22T19:27:43Z"
     },
     "Bastnasite": {
       "price": 107105,
       "station": "Saturn Ascending",
-      "demand": 2379,
+      "demand": 2404,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Battle Weapons": {
       "price": 7446,
       "station": "Saturn Ascending",
-      "demand": 88204,
+      "demand": 89150,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Beer": {
       "price": 645,
       "station": "Saturn Ascending",
-      "demand": 677219,
+      "demand": 684494,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Beryllium": {
       "price": 42130,
       "station": "Saturn Ascending",
-      "demand": 196014,
+      "demand": 198117,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Bioreducing Lichen": {
       "price": 1488,
       "station": "Saturn Ascending",
-      "demand": 1236588,
+      "demand": 1249858,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Bismuth": {
       "price": 2966,
       "station": "Saturn Ascending",
-      "demand": 81890,
+      "demand": 82770,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Bootleg Liquor": {
       "price": 625,
       "station": "Saturn Ascending",
-      "demand": 4049,
+      "demand": 4093,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Bromellite": {
       "price": 29983,
       "station": "Saturn Ascending",
-      "demand": 54147,
+      "demand": 54728,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "CMM Composite": {
       "price": 6589,
       "station": "Saturn Ascending",
-      "demand": 124853,
+      "demand": 126191,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Ceramic Composites": {
       "price": 1733,
       "station": "Saturn Ascending",
-      "demand": 2950774,
+      "demand": 2982440,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Chemical Waste": {
       "price": 610,
       "station": "Saturn Ascending",
-      "demand": 7300,
+      "demand": 7377,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Clothing": {
       "price": 793,
       "station": "Saturn Ascending",
-      "demand": 588151,
+      "demand": 594468,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Coffee": {
       "price": 1860,
       "station": "Saturn Ascending",
-      "demand": 48583,
+      "demand": 49104,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Combat Stabilisers": {
       "price": 3462,
       "station": "Saturn Ascending",
-      "demand": 53383,
+      "demand": 53955,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Computer Components": {
       "price": 1028,
       "station": "Saturn Ascending",
-      "demand": 170174,
+      "demand": 172002,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Conductive Fabrics": {
       "price": 1084,
       "station": "Saturn Ascending",
-      "demand": 1870183,
+      "demand": 1890247,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Consumer Technology": {
       "price": 7446,
       "station": "Saturn Ascending",
-      "demand": 100530,
+      "demand": 101611,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Copper": {
       "price": 1025,
       "station": "Saturn Ascending",
-      "demand": 1566139,
+      "demand": 1582946,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Crop Harvesters": {
       "price": 2783,
       "station": "Saturn Ascending",
-      "demand": 188117,
+      "demand": 190136,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Cryolite": {
       "price": 14130,
       "station": "Saturn Ascending",
-      "demand": 288001,
+      "demand": 291092,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Deuterium": {
       "price": 55334,
       "station": "Saturn Ascending",
-      "demand": 2379,
+      "demand": 2404,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Diamond": {
       "price": 161815,
       "station": "Saturn Ascending",
-      "demand": 2379,
+      "demand": 2404,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Domestic Appliances": {
       "price": 1028,
       "station": "Saturn Ascending",
-      "demand": 159598,
+      "demand": 161310,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Emergency Power Cells": {
       "price": 2783,
       "station": "Saturn Ascending",
-      "demand": 92363,
+      "demand": 93354,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Energy Grid Assembly": {
       "price": 3099,
       "station": "Saturn Ascending",
-      "demand": 64238,
+      "demand": 64929,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Exhaust Manifold": {
       "price": 2261,
       "station": "Saturn Ascending",
-      "demand": 13090,
+      "demand": 13230,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Explosives": {
       "price": 1157,
       "station": "Saturn Ascending",
-      "demand": 805402,
+      "demand": 814046,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Fish": {
       "price": 890,
       "station": "Saturn Ascending",
-      "demand": 461623,
+      "demand": 466581,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Fruit and Vegetables": {
       "price": 793,
       "station": "Saturn Ascending",
-      "demand": 161869,
+      "demand": 163608,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Gallium": {
       "price": 26615,
       "station": "Saturn Ascending",
-      "demand": 139632,
+      "demand": 141130,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Goslarite": {
       "price": 7513,
@@ -286,16 +286,16 @@
     "Grain": {
       "price": 676,
       "station": "Saturn Ascending",
-      "demand": 1160455,
+      "demand": 1172917,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "H.E. Suits": {
       "price": 748,
       "station": "Saturn Ascending",
-      "demand": 2717632,
+      "demand": 2746796,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "HN Shock Mount": {
       "price": 2379,
@@ -307,65 +307,65 @@
     "Hardware Diagnostic Sensor": {
       "price": 7446,
       "station": "Saturn Ascending",
-      "demand": 38397,
+      "demand": 38808,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Heatsink Interlink": {
       "price": 2504,
       "station": "Saturn Ascending",
-      "demand": 12084,
+      "demand": 12214,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Helium": {
       "price": 130071,
       "station": "Saturn Ascending",
-      "demand": 615,
+      "demand": 621,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Helium-3": {
       "price": 121725,
       "station": "Saturn Ascending",
-      "demand": 615,
+      "demand": 621,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Hydrogen Peroxide": {
       "price": 2967,
       "station": "Saturn Ascending",
-      "demand": 658965,
+      "demand": 666037,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Indium": {
       "price": 24935,
       "station": "Saturn Ascending",
-      "demand": 74157,
+      "demand": 74951,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Insulating Membrane": {
       "price": 11525,
       "station": "Saturn Ascending",
-      "demand": 77226,
+      "demand": 78056,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Iridium": {
       "price": 238931,
       "station": "Saturn Ascending",
-      "demand": 47563,
+      "demand": 48072,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Jadeite": {
       "price": 41559,
       "station": "Saturn Ascending",
-      "demand": 39157,
+      "demand": 39577,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Land Enrichment Systems": {
       "price": 5500,
@@ -377,79 +377,79 @@
     "Lanthanum": {
       "price": 9542,
       "station": "Saturn Ascending",
-      "demand": 98000,
+      "demand": 99052,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Leather": {
       "price": 645,
       "station": "Saturn Ascending",
-      "demand": 1047292,
+      "demand": 1058531,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Liquid oxygen": {
       "price": 2132,
       "station": "Saturn Ascending",
-      "demand": 709504,
+      "demand": 717118,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Liquor": {
       "price": 1136,
       "station": "Saturn Ascending",
-      "demand": 33645,
+      "demand": 34007,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Lithium": {
       "price": 2284,
       "station": "Saturn Ascending",
-      "demand": 1417079,
+      "demand": 1432286,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Lithium Hydroxide": {
       "price": 5500,
       "station": "Saturn Ascending",
-      "demand": 93437,
+      "demand": 94442,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Low Temperature Diamonds": {
       "price": 156979,
       "station": "Saturn Ascending",
-      "demand": 2099,
+      "demand": 2124,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Magnesite": {
       "price": 51819,
       "station": "Saturn Ascending",
-      "demand": 2379,
+      "demand": 2404,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Magnetic Emitter Coil": {
       "price": 1697,
       "station": "Saturn Ascending",
-      "demand": 18125,
+      "demand": 18319,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Medical Diagnostic Equipment": {
       "price": 3462,
       "station": "Saturn Ascending",
-      "demand": 135238,
+      "demand": 136688,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Meta-Alloys": {
       "price": 194599,
       "station": "Saturn Ascending",
-      "demand": 16533,
+      "demand": 16710,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Methane Clathrate": {
       "price": 1547,
@@ -461,30 +461,30 @@
     "Methanol Monohydrate Crystals": {
       "price": 2379,
       "station": "Saturn Ascending",
-      "demand": 167808,
+      "demand": 169609,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Micro Controllers": {
       "price": 6202,
       "station": "Saturn Ascending",
-      "demand": 64595,
+      "demand": 65290,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Micro-weave Cooling Hoses": {
       "price": 1776,
       "station": "Saturn Ascending",
-      "demand": 333199,
+      "demand": 336776,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Military Grade Fabrics": {
       "price": 1396,
       "station": "Saturn Ascending",
-      "demand": 102835,
+      "demand": 103940,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Mineral Extractors": {
       "price": 1097,
@@ -496,16 +496,16 @@
     "Mineral Oil": {
       "price": 1197,
       "station": "Saturn Ascending",
-      "demand": 212788,
+      "demand": 215070,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Modular Terminals": {
       "price": 2379,
       "station": "Saturn Ascending",
-      "demand": 12754,
+      "demand": 12891,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Moissanite": {
       "price": 24289,
@@ -524,72 +524,72 @@
     "Nanobreakers": {
       "price": 2261,
       "station": "Saturn Ascending",
-      "demand": 115184,
+      "demand": 116421,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Natural Fabrics": {
       "price": 1148,
       "station": "Saturn Ascending",
-      "demand": 8052235,
+      "demand": 8138645,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Neofabric Insulation": {
       "price": 5839,
       "station": "Saturn Ascending",
-      "demand": 72137,
+      "demand": 72911,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Nerve Agents": {
       "price": 13946,
       "station": "Saturn Ascending",
-      "demand": 5012,
+      "demand": 5067,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Olivine": {
       "price": 42584,
       "station": "Saturn Ascending",
-      "demand": 2379,
+      "demand": 2404,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Osmium": {
       "price": 40431,
       "station": "Saturn Ascending",
-      "demand": 282097,
+      "demand": 285124,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Painite": {
       "price": 49679,
       "station": "Saturn Ascending",
-      "demand": 4918,
+      "demand": 4973,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Performance Enhancers": {
       "price": 7446,
       "station": "Saturn Ascending",
-      "demand": 93588,
+      "demand": 94593,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Periclase Dunite": {
       "price": 238931,
       "station": "Saturn Ascending",
-      "demand": 2379,
+      "demand": 2404,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Pesticides": {
       "price": 748,
       "station": "Saturn Ascending",
-      "demand": 44262,
+      "demand": 44736,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Platinum": {
       "price": 57000,
@@ -601,184 +601,184 @@
     "Polymers": {
       "price": 1087,
       "station": "Saturn Ascending",
-      "demand": 4905813,
+      "demand": 4958459,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Power Converter": {
       "price": 1776,
       "station": "Saturn Ascending",
-      "demand": 17117,
+      "demand": 17301,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Praseodymium": {
       "price": 8425,
       "station": "Saturn Ascending",
-      "demand": 216584,
+      "demand": 218908,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Progenitor Cells": {
       "price": 7446,
       "station": "Saturn Ascending",
-      "demand": 33447,
+      "demand": 33807,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Pyrophyllite": {
       "price": 13650,
       "station": "Saturn Ascending",
-      "demand": 548974,
+      "demand": 554864,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Quartz Pyroxenite": {
       "price": 63109,
       "station": "Saturn Ascending",
-      "demand": 2379,
+      "demand": 2404,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Radiation Baffle": {
       "price": 2151,
       "station": "Saturn Ascending",
-      "demand": 78938,
+      "demand": 79785,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Robotics": {
       "price": 2498,
       "station": "Saturn Ascending",
-      "demand": 374606,
+      "demand": 378627,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Ruby": {
       "price": 132665,
       "station": "Saturn Ascending",
-      "demand": 2379,
+      "demand": 2404,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Samarium": {
       "price": 35655,
       "station": "Saturn Ascending",
-      "demand": 137827,
+      "demand": 139306,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Sapphire": {
       "price": 150328,
       "station": "Saturn Ascending",
-      "demand": 2379,
+      "demand": 2404,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Semiconductors": {
       "price": 1584,
       "station": "Saturn Ascending",
-      "demand": 606290,
+      "demand": 612799,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Steel": {
       "price": 4934,
       "station": "Saturn Ascending",
-      "demand": 277902,
+      "demand": 280886,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Superconductors": {
       "price": 7520,
       "station": "Saturn Ascending",
-      "demand": 553194,
+      "demand": 559126,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Synthetic Fabrics": {
       "price": 1265,
       "station": "Saturn Ascending",
-      "demand": 4140066,
+      "demand": 4184493,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Synthetic Meat": {
       "price": 724,
       "station": "Saturn Ascending",
-      "demand": 95734,
+      "demand": 96764,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Synthetic Reagents": {
       "price": 7446,
       "station": "Saturn Ascending",
-      "demand": 8862,
+      "demand": 8957,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Taaffeite": {
       "price": 51207,
       "station": "Saturn Ascending",
-      "demand": 39157,
+      "demand": 39577,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Tantalum": {
       "price": 14867,
       "station": "Saturn Ascending",
-      "demand": 193815,
+      "demand": 195895,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Tea": {
       "price": 2048,
       "station": "Saturn Ascending",
-      "demand": 107062,
+      "demand": 108212,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Telemetry Suite": {
       "price": 3099,
       "station": "Saturn Ascending",
-      "demand": 85651,
+      "demand": 86571,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Thallium": {
       "price": 4390,
       "station": "Saturn Ascending",
-      "demand": 95316,
+      "demand": 96338,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Thorium": {
       "price": 12278,
       "station": "Saturn Ascending",
-      "demand": 124760,
+      "demand": 126098,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Thortveitite": {
       "price": 238931,
       "station": "Saturn Ascending",
-      "demand": 2379,
+      "demand": 2404,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Titanium": {
       "price": 5234,
       "station": "Saturn Ascending",
-      "demand": 263480,
+      "demand": 266309,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Tobacco": {
       "price": 5500,
       "station": "Saturn Ascending",
-      "demand": 62489,
+      "demand": 63162,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Tritium": {
       "price": 57489,
@@ -790,44 +790,44 @@
     "Unoccupied Escape Pod": {
       "price": 4103,
       "station": "Saturn Ascending",
-      "demand": 4211,
+      "demand": 4258,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Uranium": {
       "price": 7919,
       "station": "Saturn Ascending",
-      "demand": 527687,
+      "demand": 533349,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Void Opal": {
       "price": 132375,
       "station": "Saturn Ascending",
-      "demand": 860,
+      "demand": 869,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Water": {
       "price": 610,
       "station": "Saturn Ascending",
-      "demand": 368553,
+      "demand": 372509,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Water Purifiers": {
       "price": 1157,
       "station": "Saturn Ascending",
-      "demand": 562124,
+      "demand": 568149,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Wine": {
       "price": 724,
       "station": "Saturn Ascending",
-      "demand": 710507,
+      "demand": 718137,
       "marketId": 4374632451,
-      "marketUpdated": "2026-10-19T04:46:19Z"
+      "marketUpdated": "2026-10-22T19:16:11Z"
     },
     "Advanced Catalysers": {
       "price": 3462,
@@ -881,9 +881,9 @@
     "Coltan": {
       "price": 7420,
       "station": "Eon Blue Apocalypse",
-      "demand": 5157813,
+      "demand": 5251406,
       "marketId": 4386105091,
-      "marketUpdated": "2026-10-19T05:47:01Z"
+      "marketUpdated": "2026-10-22T20:00:28Z"
     },
     "Food Cartridges": {
       "price": 617,
@@ -1014,30 +1014,30 @@
     "Uraninite": {
       "price": 3831,
       "station": "Eon Blue Apocalypse",
-      "demand": 14663616,
+      "demand": 14929703,
       "marketId": 4386105091,
-      "marketUpdated": "2026-10-19T05:47:01Z"
+      "marketUpdated": "2026-10-22T20:00:28Z"
     },
     "Animal Meat": {
       "price": 1860,
       "station": "Eon Blue Apocalypse",
-      "demand": 769393,
+      "demand": 783645,
       "marketId": 4386105091,
-      "marketUpdated": "2026-10-19T05:47:01Z"
+      "marketUpdated": "2026-10-22T20:00:28Z"
     },
     "Bertrandite": {
       "price": 21287,
       "station": "Eon Blue Apocalypse",
-      "demand": 6459004,
+      "demand": 6576210,
       "marketId": 4386105091,
-      "marketUpdated": "2026-10-19T05:47:01Z"
+      "marketUpdated": "2026-10-22T20:00:28Z"
     },
     "Lepidolite": {
       "price": 5484,
       "station": "Eon Blue Apocalypse",
-      "demand": 10573248,
+      "demand": 10765109,
       "marketId": 4386105091,
-      "marketUpdated": "2026-10-19T05:47:01Z"
+      "marketUpdated": "2026-10-22T20:00:28Z"
     },
     "Black Box": {
       "price": 31039,
@@ -1063,9 +1063,9 @@
     "Microbial Furnaces": {
       "price": 669,
       "station": "Gao Base",
-      "demand": 3746144,
+      "demand": 3799778,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-18T05:48:42Z"
+      "marketUpdated": "2026-10-22T19:27:43Z"
     },
     "Occupied Escape Pod": {
       "price": 30333,
@@ -1112,44 +1112,44 @@
     "Building Fabricators": {
       "price": 2894,
       "station": "Gao Base",
-      "demand": 6649590,
+      "demand": 6744788,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-18T05:48:42Z"
+      "marketUpdated": "2026-10-22T19:27:43Z"
     },
     "Ion Distributor": {
       "price": 2783,
       "station": "Gao Base",
-      "demand": 95449,
+      "demand": 96816,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-18T05:48:42Z"
+      "marketUpdated": "2026-10-22T19:27:43Z"
     },
     "Muon Imager": {
       "price": 7003,
       "station": "Gao Base",
-      "demand": 164252,
+      "demand": 166604,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-18T05:48:42Z"
+      "marketUpdated": "2026-10-22T19:27:43Z"
     },
     "Power Transfer Bus": {
       "price": 2639,
       "station": "Gao Base",
-      "demand": 54331,
+      "demand": 55110,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-18T05:48:42Z"
+      "marketUpdated": "2026-10-22T19:27:43Z"
     },
     "Reinforced Mounting Plate": {
       "price": 2936,
       "station": "Gao Base",
-      "demand": 148610,
+      "demand": 150738,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-18T05:48:42Z"
+      "marketUpdated": "2026-10-22T19:27:43Z"
     },
     "Structural Regulators": {
       "price": 2498,
       "station": "Gao Base",
-      "demand": 124237,
+      "demand": 126012,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-18T05:48:42Z"
+      "marketUpdated": "2026-10-22T19:27:43Z"
     },
     "Geological Equipment": {
       "price": 2498,
@@ -1178,16 +1178,16 @@
       {
         "price": 1697,
         "station": "Gao Base",
-        "demand": 868974,
+        "demand": 881712,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1697,
         "station": "Saturn Ascending",
-        "demand": 185207,
+        "demand": 187197,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1697,
@@ -1236,9 +1236,9 @@
       {
         "price": 1553,
         "station": "Saturn Ascending",
-        "demand": 77407,
+        "demand": 78238,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1553,
@@ -1250,9 +1250,9 @@
       {
         "price": 1525,
         "station": "Gao Base",
-        "demand": 265182,
+        "demand": 268978,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1440,
@@ -1264,9 +1264,9 @@
       {
         "price": 1397,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 1617,
+        "demand": 1640,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 1231,
@@ -1294,9 +1294,9 @@
       {
         "price": 3384,
         "station": "Saturn Ascending",
-        "demand": 2984,
+        "demand": 3016,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 3231,
@@ -1317,16 +1317,16 @@
       {
         "price": 613,
         "station": "Gao Base",
-        "demand": 4317594,
+        "demand": 4380858,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 613,
         "station": "Saturn Ascending",
-        "demand": 970590,
+        "demand": 981016,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 607,
@@ -1347,9 +1347,9 @@
       {
         "price": 3130,
         "station": "Saturn Ascending",
-        "demand": 342224,
+        "demand": 345899,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 3130,
@@ -1384,16 +1384,16 @@
       {
         "price": 777,
         "station": "Saturn Ascending",
-        "demand": 632658,
+        "demand": 639450,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 777,
         "station": "Gao Base",
-        "demand": 582519,
+        "demand": 590858,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 777,
@@ -1419,9 +1419,9 @@
       {
         "price": 641,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 4956,
+        "demand": 5028,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 477,
@@ -1456,9 +1456,9 @@
       {
         "price": 2244,
         "station": "Saturn Ascending",
-        "demand": 286402,
+        "demand": 289477,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2139,
@@ -1477,9 +1477,9 @@
       {
         "price": 1841,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 1105,
+        "demand": 1121,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 742,
@@ -1521,16 +1521,16 @@
       {
         "price": 7446,
         "station": "Eon Blue Apocalypse",
-        "demand": 113803,
+        "demand": 115870,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 7446,
         "station": "Gao Base",
-        "demand": 20775,
+        "demand": 21072,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 7446,
@@ -1542,9 +1542,9 @@
       {
         "price": 7446,
         "station": "Saturn Ascending",
-        "demand": 4365,
+        "demand": 4410,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 7446,
@@ -1586,16 +1586,16 @@
       {
         "price": 4333,
         "station": "Gao Base",
-        "demand": 373993,
+        "demand": 379345,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 4331,
         "station": "Saturn Ascending",
-        "demand": 78005,
+        "demand": 78841,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 4193,
@@ -1616,23 +1616,23 @@
       {
         "price": 107105,
         "station": "Gao Base",
-        "demand": 300018,
+        "demand": 304314,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 107105,
         "station": "Eon Blue Apocalypse",
-        "demand": 293501,
+        "demand": 298827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 107105,
         "station": "Saturn Ascending",
-        "demand": 2379,
+        "demand": 2404,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 107105,
@@ -1695,9 +1695,9 @@
       {
         "price": 7446,
         "station": "Saturn Ascending",
-        "demand": 88204,
+        "demand": 89150,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 7224,
@@ -1711,23 +1711,23 @@
       {
         "price": 645,
         "station": "Gao Base",
-        "demand": 3206165,
+        "demand": 3253199,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 645,
         "station": "Eon Blue Apocalypse",
-        "demand": 2756399,
+        "demand": 2807569,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 645,
         "station": "Saturn Ascending",
-        "demand": 677219,
+        "demand": 684494,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 645,
@@ -1762,9 +1762,9 @@
       {
         "price": 42130,
         "station": "Saturn Ascending",
-        "demand": 196014,
+        "demand": 198117,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 42130,
@@ -1806,16 +1806,16 @@
       {
         "price": 1488,
         "station": "Gao Base",
-        "demand": 6048856,
+        "demand": 6135457,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1488,
         "station": "Saturn Ascending",
-        "demand": 1236588,
+        "demand": 1249858,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1488,
@@ -1857,9 +1857,9 @@
       {
         "price": 2966,
         "station": "Eon Blue Apocalypse",
-        "demand": 2135784,
+        "demand": 2174540,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2966,
@@ -1871,9 +1871,9 @@
       {
         "price": 2966,
         "station": "Saturn Ascending",
-        "demand": 81890,
+        "demand": 82770,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2936,
@@ -1929,23 +1929,23 @@
       {
         "price": 625,
         "station": "Eon Blue Apocalypse",
-        "demand": 15790,
+        "demand": 16082,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 625,
         "station": "Gao Base",
-        "demand": 11277,
+        "demand": 11442,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 625,
         "station": "Saturn Ascending",
-        "demand": 4049,
+        "demand": 4093,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 625,
@@ -1973,16 +1973,16 @@
       {
         "price": 29983,
         "station": "Eon Blue Apocalypse",
-        "demand": 1412186,
+        "demand": 1437811,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 29983,
         "station": "Gao Base",
-        "demand": 257777,
+        "demand": 261466,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 29983,
@@ -1994,9 +1994,9 @@
       {
         "price": 29983,
         "station": "Saturn Ascending",
-        "demand": 54147,
+        "demand": 54728,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 29983,
@@ -2045,16 +2045,16 @@
       {
         "price": 6589,
         "station": "Eon Blue Apocalypse",
-        "demand": 774915,
+        "demand": 788977,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 6589,
         "station": "Saturn Ascending",
-        "demand": 124853,
+        "demand": 126191,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 6589,
@@ -2110,16 +2110,16 @@
       {
         "price": 1733,
         "station": "Saturn Ascending",
-        "demand": 2950774,
+        "demand": 2982440,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1733,
         "station": "Eon Blue Apocalypse",
-        "demand": 2576123,
+        "demand": 2622875,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1733,
@@ -2175,9 +2175,9 @@
       {
         "price": 610,
         "station": "Eon Blue Apocalypse",
-        "demand": 910410,
+        "demand": 927324,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 610,
@@ -2189,9 +2189,9 @@
       {
         "price": 610,
         "station": "Saturn Ascending",
-        "demand": 7300,
+        "demand": 7377,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 610,
@@ -2240,23 +2240,23 @@
       {
         "price": 793,
         "station": "Eon Blue Apocalypse",
-        "demand": 3524856,
+        "demand": 3590331,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 793,
         "station": "Gao Base",
-        "demand": 2310431,
+        "demand": 2344316,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 793,
         "station": "Saturn Ascending",
-        "demand": 588151,
+        "demand": 594468,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 793,
@@ -2268,9 +2268,9 @@
       {
         "price": 793,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 695,
+        "demand": 706,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 793,
@@ -2312,16 +2312,16 @@
       {
         "price": 1860,
         "station": "Gao Base",
-        "demand": 197567,
+        "demand": 200460,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1860,
         "station": "Saturn Ascending",
-        "demand": 48583,
+        "demand": 49104,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1851,
@@ -2333,9 +2333,9 @@
       {
         "price": 1806,
         "station": "Eon Blue Apocalypse",
-        "demand": 280071,
+        "demand": 285230,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1717,
@@ -2363,9 +2363,9 @@
       {
         "price": 3462,
         "station": "Saturn Ascending",
-        "demand": 53383,
+        "demand": 53955,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       }
     ],
     "Computer Components": [
@@ -2379,23 +2379,23 @@
       {
         "price": 1028,
         "station": "Eon Blue Apocalypse",
-        "demand": 3178989,
+        "demand": 3238050,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1028,
         "station": "Saturn Ascending",
-        "demand": 170174,
+        "demand": 172002,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1027,
         "station": "Gao Base",
-        "demand": 845389,
+        "demand": 857724,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1026,
@@ -2430,9 +2430,9 @@
       {
         "price": 1084,
         "station": "Saturn Ascending",
-        "demand": 1870183,
+        "demand": 1890247,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1084,
@@ -2474,16 +2474,16 @@
       {
         "price": 7446,
         "station": "Gao Base",
-        "demand": 420080,
+        "demand": 426228,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 7446,
         "station": "Saturn Ascending",
-        "demand": 100530,
+        "demand": 101611,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 7303,
@@ -2518,9 +2518,9 @@
       {
         "price": 1025,
         "station": "Saturn Ascending",
-        "demand": 1566139,
+        "demand": 1582946,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1025,
@@ -2562,9 +2562,9 @@
       {
         "price": 2783,
         "station": "Eon Blue Apocalypse",
-        "demand": 2228963,
+        "demand": 2269418,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2783,
@@ -2576,9 +2576,9 @@
       {
         "price": 2783,
         "station": "Saturn Ascending",
-        "demand": 188117,
+        "demand": 190136,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2783,
@@ -2595,11 +2595,11 @@
         "marketUpdated": "2026-10-14T15:21:33Z"
       },
       {
-        "price": 2602,
+        "price": 2601,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 648,
+        "demand": 657,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 2424,
@@ -2613,9 +2613,9 @@
       {
         "price": 14130,
         "station": "Eon Blue Apocalypse",
-        "demand": 7081972,
+        "demand": 7210480,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 14130,
@@ -2627,9 +2627,9 @@
       {
         "price": 14130,
         "station": "Saturn Ascending",
-        "demand": 288001,
+        "demand": 291092,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 14130,
@@ -2678,23 +2678,23 @@
       {
         "price": 55334,
         "station": "Gao Base",
-        "demand": 300018,
+        "demand": 304314,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 55334,
         "station": "Eon Blue Apocalypse",
-        "demand": 293501,
+        "demand": 298827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 55334,
         "station": "Saturn Ascending",
-        "demand": 2379,
+        "demand": 2404,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 55334,
@@ -2750,23 +2750,23 @@
       {
         "price": 161815,
         "station": "Gao Base",
-        "demand": 300018,
+        "demand": 304314,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 161815,
         "station": "Eon Blue Apocalypse",
-        "demand": 293501,
+        "demand": 298827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 161815,
         "station": "Saturn Ascending",
-        "demand": 2379,
+        "demand": 2404,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 161815,
@@ -2829,23 +2829,23 @@
       {
         "price": 1028,
         "station": "Eon Blue Apocalypse",
-        "demand": 1058652,
+        "demand": 1078316,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1028,
         "station": "Gao Base",
-        "demand": 691617,
+        "demand": 701761,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1028,
         "station": "Saturn Ascending",
-        "demand": 159598,
+        "demand": 161310,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1026,
@@ -2880,16 +2880,16 @@
       {
         "price": 2783,
         "station": "Saturn Ascending",
-        "demand": 92363,
+        "demand": 93354,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2783,
         "station": "Eon Blue Apocalypse",
-        "demand": 30015,
+        "demand": 30561,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2783,
@@ -2924,23 +2924,23 @@
       {
         "price": 3099,
         "station": "Eon Blue Apocalypse",
-        "demand": 272002,
+        "demand": 276938,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 3099,
         "station": "Gao Base",
-        "demand": 64880,
+        "demand": 65807,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 3099,
         "station": "Saturn Ascending",
-        "demand": 64238,
+        "demand": 64929,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 3099,
@@ -2996,16 +2996,16 @@
       {
         "price": 2261,
         "station": "Eon Blue Apocalypse",
-        "demand": 341408,
+        "demand": 347605,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2261,
         "station": "Gao Base",
-        "demand": 62321,
+        "demand": 63214,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2261,
@@ -3017,9 +3017,9 @@
       {
         "price": 2261,
         "station": "Saturn Ascending",
-        "demand": 13090,
+        "demand": 13230,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2261,
@@ -3068,9 +3068,9 @@
       {
         "price": 1157,
         "station": "Saturn Ascending",
-        "demand": 805402,
+        "demand": 814046,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1157,
@@ -3105,23 +3105,23 @@
       {
         "price": 890,
         "station": "Gao Base",
-        "demand": 2016785,
+        "demand": 2046371,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 890,
         "station": "Eon Blue Apocalypse",
-        "demand": 1968413,
+        "demand": 2004928,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 890,
         "station": "Saturn Ascending",
-        "demand": 461623,
+        "demand": 466581,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 884,
@@ -3149,16 +3149,16 @@
       {
         "price": 793,
         "station": "Gao Base",
-        "demand": 710849,
+        "demand": 721257,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 793,
         "station": "Saturn Ascending",
-        "demand": 161869,
+        "demand": 163608,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 786,
@@ -3172,9 +3172,9 @@
       {
         "price": 26615,
         "station": "Saturn Ascending",
-        "demand": 139632,
+        "demand": 141130,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 26615,
@@ -3216,9 +3216,9 @@
       {
         "price": 7407,
         "station": "Eon Blue Apocalypse",
-        "demand": 7665727,
+        "demand": 7804827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 7407,
@@ -3230,9 +3230,9 @@
       {
         "price": 7407,
         "station": "Saturn Ascending",
-        "demand": 18617,
+        "demand": 18816,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 7407,
@@ -3281,16 +3281,16 @@
       {
         "price": 676,
         "station": "Gao Base",
-        "demand": 4444862,
+        "demand": 4510031,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 676,
         "station": "Saturn Ascending",
-        "demand": 1160455,
+        "demand": 1172917,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 676,
@@ -3325,16 +3325,16 @@
       {
         "price": 748,
         "station": "Gao Base",
-        "demand": 11757940,
+        "demand": 11926278,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 748,
         "station": "Saturn Ascending",
-        "demand": 2717632,
+        "demand": 2746796,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 748,
@@ -3360,9 +3360,9 @@
       {
         "price": 748,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 1628,
+        "demand": 1652,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 742,
@@ -3411,9 +3411,9 @@
       {
         "price": 2379,
         "station": "Eon Blue Apocalypse",
-        "demand": 369814,
+        "demand": 376527,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2379,
@@ -3432,9 +3432,9 @@
       {
         "price": 2321,
         "station": "Saturn Ascending",
-        "demand": 127325,
+        "demand": 128691,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2031,
@@ -3455,23 +3455,23 @@
       {
         "price": 7446,
         "station": "Eon Blue Apocalypse",
-        "demand": 162572,
+        "demand": 165521,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 7446,
         "station": "Gao Base",
-        "demand": 38778,
+        "demand": 39334,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 7446,
         "station": "Saturn Ascending",
-        "demand": 38397,
+        "demand": 38808,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 7446,
@@ -3527,16 +3527,16 @@
       {
         "price": 2504,
         "station": "Eon Blue Apocalypse",
-        "demand": 315147,
+        "demand": 320866,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2504,
         "station": "Gao Base",
-        "demand": 57526,
+        "demand": 58351,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2504,
@@ -3548,9 +3548,9 @@
       {
         "price": 2504,
         "station": "Saturn Ascending",
-        "demand": 12084,
+        "demand": 12214,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2504,
@@ -3599,23 +3599,23 @@
       {
         "price": 130071,
         "station": "Gao Base",
-        "demand": 35427,
+        "demand": 35935,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 130071,
         "station": "Eon Blue Apocalypse",
-        "demand": 4914,
+        "demand": 5004,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 130071,
         "station": "Saturn Ascending",
-        "demand": 615,
+        "demand": 621,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 80606,
@@ -3636,23 +3636,23 @@
       {
         "price": 121725,
         "station": "Gao Base",
-        "demand": 35427,
+        "demand": 35935,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 121725,
         "station": "Eon Blue Apocalypse",
-        "demand": 4914,
+        "demand": 5004,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 121725,
         "station": "Saturn Ascending",
-        "demand": 615,
+        "demand": 621,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 75435,
@@ -3673,23 +3673,23 @@
       {
         "price": 2967,
         "station": "Gao Base",
-        "demand": 16709610,
+        "demand": 16948811,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2967,
         "station": "Eon Blue Apocalypse",
-        "demand": 2166420,
+        "demand": 2205732,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2967,
         "station": "Saturn Ascending",
-        "demand": 658965,
+        "demand": 666037,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2967,
@@ -3752,9 +3752,9 @@
       {
         "price": 24935,
         "station": "Saturn Ascending",
-        "demand": 74157,
+        "demand": 74951,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 24935,
@@ -3789,16 +3789,16 @@
       {
         "price": 11525,
         "station": "Gao Base",
-        "demand": 689435,
+        "demand": 699305,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 11525,
         "station": "Saturn Ascending",
-        "demand": 77226,
+        "demand": 78056,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 11525,
@@ -3840,23 +3840,23 @@
       {
         "price": 238931,
         "station": "Eon Blue Apocalypse",
-        "demand": 321190,
+        "demand": 327018,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 238931,
         "station": "Gao Base",
-        "demand": 226430,
+        "demand": 229671,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 238931,
         "station": "Saturn Ascending",
-        "demand": 47563,
+        "demand": 48072,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 238931,
@@ -3912,16 +3912,16 @@
       {
         "price": 41559,
         "station": "Gao Base",
-        "demand": 186409,
+        "demand": 189077,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 41559,
         "station": "Eon Blue Apocalypse",
-        "demand": 182359,
+        "demand": 185668,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 41559,
@@ -3933,9 +3933,9 @@
       {
         "price": 41559,
         "station": "Saturn Ascending",
-        "demand": 39157,
+        "demand": 39577,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 41559,
@@ -3984,9 +3984,9 @@
       {
         "price": 5500,
         "station": "Gao Base",
-        "demand": 272249,
+        "demand": 276145,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 5500,
@@ -4005,9 +4005,9 @@
       {
         "price": 5495,
         "station": "Saturn Ascending",
-        "demand": 142346,
+        "demand": 143875,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 5395,
@@ -4019,9 +4019,9 @@
       {
         "price": 5274,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 2343,
+        "demand": 2378,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 5075,
@@ -4042,9 +4042,9 @@
       {
         "price": 9542,
         "station": "Eon Blue Apocalypse",
-        "demand": 2555938,
+        "demand": 2602317,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 9542,
@@ -4056,9 +4056,9 @@
       {
         "price": 9542,
         "station": "Saturn Ascending",
-        "demand": 98000,
+        "demand": 99052,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 9542,
@@ -4107,23 +4107,23 @@
       {
         "price": 645,
         "station": "Gao Base",
-        "demand": 9676748,
+        "demand": 9815290,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 645,
         "station": "Saturn Ascending",
-        "demand": 1047292,
+        "demand": 1058531,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 645,
         "station": "Eon Blue Apocalypse",
-        "demand": 722810,
+        "demand": 735928,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 639,
@@ -4151,9 +4151,9 @@
       {
         "price": 2132,
         "station": "Saturn Ascending",
-        "demand": 709504,
+        "demand": 717118,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2132,
@@ -4209,23 +4209,23 @@
       {
         "price": 1136,
         "station": "Eon Blue Apocalypse",
-        "demand": 177680,
+        "demand": 180980,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1136,
         "station": "Gao Base",
-        "demand": 161172,
+        "demand": 163535,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1136,
         "station": "Saturn Ascending",
-        "demand": 33645,
+        "demand": 34007,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1135,
@@ -4246,9 +4246,9 @@
       {
         "price": 2284,
         "station": "Saturn Ascending",
-        "demand": 1417079,
+        "demand": 1432286,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2284,
@@ -4290,16 +4290,16 @@
       {
         "price": 5500,
         "station": "Eon Blue Apocalypse",
-        "demand": 3952701,
+        "demand": 4024427,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 5500,
         "station": "Gao Base",
-        "demand": 2335321,
+        "demand": 2368752,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 5500,
@@ -4311,9 +4311,9 @@
       {
         "price": 5500,
         "station": "Saturn Ascending",
-        "demand": 93437,
+        "demand": 94442,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 5500,
@@ -4362,16 +4362,16 @@
       {
         "price": 156979,
         "station": "Gao Base",
-        "demand": 21633,
+        "demand": 21944,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 156979,
         "station": "Eon Blue Apocalypse",
-        "demand": 17993,
+        "demand": 18319,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 156979,
@@ -4383,9 +4383,9 @@
       {
         "price": 156979,
         "station": "Saturn Ascending",
-        "demand": 2099,
+        "demand": 2124,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 98112,
@@ -4434,23 +4434,23 @@
       {
         "price": 51819,
         "station": "Gao Base",
-        "demand": 300018,
+        "demand": 304314,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 51819,
         "station": "Eon Blue Apocalypse",
-        "demand": 293501,
+        "demand": 298827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 51819,
         "station": "Saturn Ascending",
-        "demand": 2379,
+        "demand": 2404,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 51819,
@@ -4506,16 +4506,16 @@
       {
         "price": 1697,
         "station": "Eon Blue Apocalypse",
-        "demand": 472719,
+        "demand": 481299,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1697,
         "station": "Gao Base",
-        "demand": 86289,
+        "demand": 87525,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1697,
@@ -4527,9 +4527,9 @@
       {
         "price": 1697,
         "station": "Saturn Ascending",
-        "demand": 18125,
+        "demand": 18319,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1697,
@@ -4578,9 +4578,9 @@
       {
         "price": 3462,
         "station": "Saturn Ascending",
-        "demand": 135238,
+        "demand": 136688,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 3462,
@@ -4592,9 +4592,9 @@
       {
         "price": 3449,
         "station": "Gao Base",
-        "demand": 91006,
+        "demand": 92309,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 3402,
@@ -4608,23 +4608,23 @@
       {
         "price": 194599,
         "station": "Eon Blue Apocalypse",
-        "demand": 99329,
+        "demand": 101132,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 194599,
         "station": "Gao Base",
-        "demand": 21732,
+        "demand": 22044,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 194599,
         "station": "Saturn Ascending",
-        "demand": 16533,
+        "demand": 16710,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 194599,
@@ -4687,16 +4687,16 @@
       {
         "price": 1507,
         "station": "Gao Base",
-        "demand": 3387300,
+        "demand": 3435789,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1507,
         "station": "Eon Blue Apocalypse",
-        "demand": 3313715,
+        "demand": 3373846,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1507,
@@ -4708,9 +4708,9 @@
       {
         "price": 1507,
         "station": "Saturn Ascending",
-        "demand": 40275,
+        "demand": 40707,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1507,
@@ -4759,16 +4759,16 @@
       {
         "price": 2379,
         "station": "Eon Blue Apocalypse",
-        "demand": 4376605,
+        "demand": 4456022,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2379,
         "station": "Gao Base",
-        "demand": 798893,
+        "demand": 810329,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2379,
@@ -4780,9 +4780,9 @@
       {
         "price": 2379,
         "station": "Saturn Ascending",
-        "demand": 167808,
+        "demand": 169609,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2379,
@@ -4831,16 +4831,16 @@
       {
         "price": 6202,
         "station": "Gao Base",
-        "demand": 135939,
+        "demand": 137886,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 6202,
         "station": "Saturn Ascending",
-        "demand": 64595,
+        "demand": 65290,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 6202,
@@ -4868,23 +4868,23 @@
       {
         "price": 1776,
         "station": "Gao Base",
-        "demand": 3303134,
+        "demand": 3350426,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1776,
         "station": "Saturn Ascending",
-        "demand": 333199,
+        "demand": 336776,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1776,
         "station": "Eon Blue Apocalypse",
-        "demand": 255108,
+        "demand": 259739,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1776,
@@ -4947,9 +4947,9 @@
       {
         "price": 1396,
         "station": "Saturn Ascending",
-        "demand": 102835,
+        "demand": 103940,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1197,
@@ -4977,16 +4977,16 @@
       {
         "price": 1097,
         "station": "Gao Base",
-        "demand": 9376311,
+        "demand": 9510549,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1097,
         "station": "Eon Blue Apocalypse",
-        "demand": 1643192,
+        "demand": 1673014,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1097,
@@ -4998,9 +4998,9 @@
       {
         "price": 1096,
         "station": "Saturn Ascending",
-        "demand": 480868,
+        "demand": 486029,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1095,
@@ -5035,16 +5035,16 @@
       {
         "price": 1197,
         "station": "Eon Blue Apocalypse",
-        "demand": 24034933,
+        "demand": 24471120,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1197,
         "station": "Saturn Ascending",
-        "demand": 212788,
+        "demand": 215070,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 635,
@@ -5058,16 +5058,16 @@
       {
         "price": 2379,
         "station": "Eon Blue Apocalypse",
-        "demand": 332654,
+        "demand": 338692,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2379,
         "station": "Gao Base",
-        "demand": 60724,
+        "demand": 61592,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2379,
@@ -5079,9 +5079,9 @@
       {
         "price": 2379,
         "station": "Saturn Ascending",
-        "demand": 12754,
+        "demand": 12891,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2379,
@@ -5137,16 +5137,16 @@
       {
         "price": 24122,
         "station": "Gao Base",
-        "demand": 381765,
+        "demand": 387230,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 24122,
         "station": "Eon Blue Apocalypse",
-        "demand": 373471,
+        "demand": 380249,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 24122,
@@ -5158,9 +5158,9 @@
       {
         "price": 24122,
         "station": "Saturn Ascending",
-        "demand": 80191,
+        "demand": 81050,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 24122,
@@ -5209,16 +5209,16 @@
       {
         "price": 393863,
         "station": "Eon Blue Apocalypse",
-        "demand": 19924,
+        "demand": 20286,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 393863,
         "station": "Gao Base",
-        "demand": 10664,
+        "demand": 10818,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 393863,
@@ -5228,11 +5228,11 @@
         "marketUpdated": "2026-10-19T04:59:56Z"
       },
       {
-        "price": 386277,
+        "price": 386682,
         "station": "Saturn Ascending",
-        "demand": 658,
+        "demand": 668,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 196932,
@@ -5267,23 +5267,23 @@
       {
         "price": 2261,
         "station": "Eon Blue Apocalypse",
-        "demand": 487710,
+        "demand": 496560,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2261,
         "station": "Gao Base",
-        "demand": 116326,
+        "demand": 117992,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2261,
         "station": "Saturn Ascending",
-        "demand": 115184,
+        "demand": 116421,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2261,
@@ -5339,23 +5339,23 @@
       {
         "price": 1148,
         "station": "Gao Base",
-        "demand": 38337283,
+        "demand": 38886154,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1148,
         "station": "Saturn Ascending",
-        "demand": 8052235,
+        "demand": 8138645,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1148,
         "station": "Eon Blue Apocalypse",
-        "demand": 3683834,
+        "demand": 3750692,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 884,
@@ -5383,16 +5383,16 @@
       {
         "price": 5839,
         "station": "Eon Blue Apocalypse",
-        "demand": 784502,
+        "demand": 798738,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 5839,
         "station": "Gao Base",
-        "demand": 155104,
+        "demand": 157324,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 5839,
@@ -5404,9 +5404,9 @@
       {
         "price": 5839,
         "station": "Saturn Ascending",
-        "demand": 72137,
+        "demand": 72911,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 5839,
@@ -5455,16 +5455,16 @@
       {
         "price": 13946,
         "station": "Saturn Ascending",
-        "demand": 5012,
+        "demand": 5067,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 13946,
         "station": "Eon Blue Apocalypse",
-        "demand": 1668,
+        "demand": 1700,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 13946,
@@ -5485,23 +5485,23 @@
       {
         "price": 42584,
         "station": "Gao Base",
-        "demand": 300018,
+        "demand": 304314,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 42584,
         "station": "Eon Blue Apocalypse",
-        "demand": 293501,
+        "demand": 298827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 42584,
         "station": "Saturn Ascending",
-        "demand": 2379,
+        "demand": 2404,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 42584,
@@ -5557,23 +5557,23 @@
       {
         "price": 40431,
         "station": "Eon Blue Apocalypse",
-        "demand": 1692294,
+        "demand": 1723001,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 40431,
         "station": "Gao Base",
-        "demand": 1187903,
+        "demand": 1204906,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 40431,
         "station": "Saturn Ascending",
-        "demand": 282097,
+        "demand": 285124,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 40431,
@@ -5629,16 +5629,16 @@
       {
         "price": 49679,
         "station": "Gao Base",
-        "demand": 66964,
+        "demand": 67923,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 49679,
         "station": "Eon Blue Apocalypse",
-        "demand": 42265,
+        "demand": 43034,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 49679,
@@ -5650,9 +5650,9 @@
       {
         "price": 49679,
         "station": "Saturn Ascending",
-        "demand": 4918,
+        "demand": 4973,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 49679,
@@ -5701,16 +5701,16 @@
       {
         "price": 7446,
         "station": "Saturn Ascending",
-        "demand": 93588,
+        "demand": 94593,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 7432,
         "station": "Gao Base",
-        "demand": 342431,
+        "demand": 347428,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 7134,
@@ -5745,23 +5745,23 @@
       {
         "price": 238931,
         "station": "Gao Base",
-        "demand": 300018,
+        "demand": 304314,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 238931,
         "station": "Eon Blue Apocalypse",
-        "demand": 293501,
+        "demand": 298827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 238931,
         "station": "Saturn Ascending",
-        "demand": 2379,
+        "demand": 2404,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 238931,
@@ -5817,9 +5817,9 @@
       {
         "price": 748,
         "station": "Saturn Ascending",
-        "demand": 44262,
+        "demand": 44736,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 703,
@@ -5838,9 +5838,9 @@
       {
         "price": 614,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 890,
+        "demand": 903,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 448,
@@ -5875,16 +5875,16 @@
       {
         "price": 55291,
         "station": "Eon Blue Apocalypse",
-        "demand": 335753,
+        "demand": 341847,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 55291,
         "station": "Gao Base",
-        "demand": 288669,
+        "demand": 292802,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 55291,
@@ -5896,9 +5896,9 @@
       {
         "price": 55291,
         "station": "Saturn Ascending",
-        "demand": 60639,
+        "demand": 61290,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 55291,
@@ -5947,9 +5947,9 @@
       {
         "price": 1087,
         "station": "Saturn Ascending",
-        "demand": 4905813,
+        "demand": 4958459,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1087,
@@ -5991,16 +5991,16 @@
       {
         "price": 1776,
         "station": "Eon Blue Apocalypse",
-        "demand": 446457,
+        "demand": 454559,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1776,
         "station": "Gao Base",
-        "demand": 81496,
+        "demand": 82663,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1776,
@@ -6012,9 +6012,9 @@
       {
         "price": 1776,
         "station": "Saturn Ascending",
-        "demand": 17117,
+        "demand": 17301,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1776,
@@ -6063,23 +6063,23 @@
       {
         "price": 8425,
         "station": "Eon Blue Apocalypse",
-        "demand": 1462623,
+        "demand": 1489163,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 8425,
         "station": "Gao Base",
-        "demand": 1031104,
+        "demand": 1045864,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 8425,
         "station": "Saturn Ascending",
-        "demand": 216584,
+        "demand": 218908,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 8425,
@@ -6142,9 +6142,9 @@
       {
         "price": 7446,
         "station": "Saturn Ascending",
-        "demand": 33447,
+        "demand": 33807,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 7400,
@@ -6156,9 +6156,9 @@
       {
         "price": 7348,
         "station": "Gao Base",
-        "demand": 228261,
+        "demand": 231582,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 6561,
@@ -6179,9 +6179,9 @@
       {
         "price": 13650,
         "station": "Eon Blue Apocalypse",
-        "demand": 17694610,
+        "demand": 18015696,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 13650,
@@ -6193,9 +6193,9 @@
       {
         "price": 13650,
         "station": "Saturn Ascending",
-        "demand": 548974,
+        "demand": 554864,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 13650,
@@ -6251,23 +6251,23 @@
       {
         "price": 63109,
         "station": "Gao Base",
-        "demand": 300018,
+        "demand": 304314,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 63109,
         "station": "Eon Blue Apocalypse",
-        "demand": 293501,
+        "demand": 298827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 63109,
         "station": "Saturn Ascending",
-        "demand": 2379,
+        "demand": 2404,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 63109,
@@ -6323,9 +6323,9 @@
       {
         "price": 2151,
         "station": "Saturn Ascending",
-        "demand": 78938,
+        "demand": 79785,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2151,
@@ -6337,16 +6337,16 @@
       {
         "price": 2151,
         "station": "Gao Base",
-        "demand": 26847,
+        "demand": 27230,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2151,
         "station": "Eon Blue Apocalypse",
-        "demand": 26263,
+        "demand": 26740,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2151,
@@ -6395,16 +6395,16 @@
       {
         "price": 2498,
         "station": "Gao Base",
-        "demand": 1843076,
+        "demand": 1869467,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2498,
         "station": "Saturn Ascending",
-        "demand": 374606,
+        "demand": 378627,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2498,
@@ -6432,23 +6432,23 @@
       {
         "price": 132665,
         "station": "Gao Base",
-        "demand": 300018,
+        "demand": 304314,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 132665,
         "station": "Eon Blue Apocalypse",
-        "demand": 293501,
+        "demand": 298827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 132665,
         "station": "Saturn Ascending",
-        "demand": 2379,
+        "demand": 2404,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 132665,
@@ -6504,23 +6504,23 @@
       {
         "price": 35655,
         "station": "Eon Blue Apocalypse",
-        "demand": 930761,
+        "demand": 947648,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 35655,
         "station": "Gao Base",
-        "demand": 656158,
+        "demand": 665552,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 35655,
         "station": "Saturn Ascending",
-        "demand": 137827,
+        "demand": 139306,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 35655,
@@ -6576,23 +6576,23 @@
       {
         "price": 150328,
         "station": "Gao Base",
-        "demand": 300018,
+        "demand": 304314,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 150328,
         "station": "Eon Blue Apocalypse",
-        "demand": 293501,
+        "demand": 298827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 150328,
         "station": "Saturn Ascending",
-        "demand": 2379,
+        "demand": 2404,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 150328,
@@ -6648,9 +6648,9 @@
       {
         "price": 1584,
         "station": "Saturn Ascending",
-        "demand": 606290,
+        "demand": 612799,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1584,
@@ -6692,9 +6692,9 @@
       {
         "price": 4934,
         "station": "Saturn Ascending",
-        "demand": 277902,
+        "demand": 280886,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 4934,
@@ -6722,9 +6722,9 @@
       {
         "price": 7520,
         "station": "Saturn Ascending",
-        "demand": 553194,
+        "demand": 559126,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 7520,
@@ -6766,9 +6766,9 @@
       {
         "price": 1265,
         "station": "Saturn Ascending",
-        "demand": 4140066,
+        "demand": 4184493,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1265,
@@ -6817,16 +6817,16 @@
       {
         "price": 724,
         "station": "Gao Base",
-        "demand": 462007,
+        "demand": 468765,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 724,
         "station": "Saturn Ascending",
-        "demand": 95734,
+        "demand": 96764,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 634,
@@ -6861,9 +6861,9 @@
       {
         "price": 7446,
         "station": "Eon Blue Apocalypse",
-        "demand": 337646,
+        "demand": 343774,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 7446,
@@ -6875,9 +6875,9 @@
       {
         "price": 7446,
         "station": "Saturn Ascending",
-        "demand": 8862,
+        "demand": 8957,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 7446,
@@ -6905,16 +6905,16 @@
       {
         "price": 51207,
         "station": "Gao Base",
-        "demand": 186409,
+        "demand": 189077,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 51207,
         "station": "Eon Blue Apocalypse",
-        "demand": 182359,
+        "demand": 185668,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 51207,
@@ -6926,9 +6926,9 @@
       {
         "price": 51207,
         "station": "Saturn Ascending",
-        "demand": 39157,
+        "demand": 39577,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 51207,
@@ -6977,9 +6977,9 @@
       {
         "price": 14867,
         "station": "Saturn Ascending",
-        "demand": 193815,
+        "demand": 195895,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 14867,
@@ -7021,23 +7021,23 @@
       {
         "price": 2048,
         "station": "Eon Blue Apocalypse",
-        "demand": 755066,
+        "demand": 769050,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 2048,
         "station": "Gao Base",
-        "demand": 685716,
+        "demand": 695764,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2048,
         "station": "Saturn Ascending",
-        "demand": 107062,
+        "demand": 108212,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 2039,
@@ -7065,23 +7065,23 @@
       {
         "price": 3099,
         "station": "Eon Blue Apocalypse",
-        "demand": 362656,
+        "demand": 369239,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 3099,
         "station": "Gao Base",
-        "demand": 86502,
+        "demand": 87739,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 3099,
         "station": "Saturn Ascending",
-        "demand": 85651,
+        "demand": 86571,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 3099,
@@ -7137,9 +7137,9 @@
       {
         "price": 4390,
         "station": "Eon Blue Apocalypse",
-        "demand": 2485912,
+        "demand": 2531022,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 4390,
@@ -7151,9 +7151,9 @@
       {
         "price": 4390,
         "station": "Saturn Ascending",
-        "demand": 95316,
+        "demand": 96338,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 4347,
@@ -7202,16 +7202,16 @@
       {
         "price": 12278,
         "station": "Eon Blue Apocalypse",
-        "demand": 2092436,
+        "demand": 2130406,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 12278,
         "station": "Saturn Ascending",
-        "demand": 124760,
+        "demand": 126098,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 12278,
@@ -7267,23 +7267,23 @@
       {
         "price": 238931,
         "station": "Gao Base",
-        "demand": 300018,
+        "demand": 304314,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 238931,
         "station": "Eon Blue Apocalypse",
-        "demand": 293501,
+        "demand": 298827,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 238931,
         "station": "Saturn Ascending",
-        "demand": 2379,
+        "demand": 2404,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 238931,
@@ -7339,9 +7339,9 @@
       {
         "price": 5234,
         "station": "Saturn Ascending",
-        "demand": 263480,
+        "demand": 266309,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 5234,
@@ -7369,23 +7369,23 @@
       {
         "price": 5500,
         "station": "Eon Blue Apocalypse",
-        "demand": 305987,
+        "demand": 311602,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 5500,
         "station": "Gao Base",
-        "demand": 291363,
+        "demand": 295584,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 5500,
         "station": "Saturn Ascending",
-        "demand": 62489,
+        "demand": 63162,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 5486,
@@ -7418,11 +7418,11 @@
         "marketUpdated": "2026-10-19T04:59:56Z"
       },
       {
-        "price": 57347,
+        "price": 57344,
         "station": "Saturn Ascending",
-        "demand": 26954,
+        "demand": 27646,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 53633,
@@ -7450,23 +7450,23 @@
       {
         "price": 4103,
         "station": "Eon Blue Apocalypse",
-        "demand": 16717,
+        "demand": 17029,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 4103,
         "station": "Gao Base",
-        "demand": 9427,
+        "demand": 9567,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 4103,
         "station": "Saturn Ascending",
-        "demand": 4211,
+        "demand": 4258,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 4103,
@@ -7494,9 +7494,9 @@
       {
         "price": 7919,
         "station": "Saturn Ascending",
-        "demand": 527687,
+        "demand": 533349,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 7919,
@@ -7531,16 +7531,16 @@
       {
         "price": 132375,
         "station": "Eon Blue Apocalypse",
-        "demand": 23676,
+        "demand": 24106,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 132375,
         "station": "Gao Base",
-        "demand": 11074,
+        "demand": 11233,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 132375,
@@ -7559,9 +7559,9 @@
       {
         "price": 132375,
         "station": "Saturn Ascending",
-        "demand": 860,
+        "demand": 869,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 130400,
@@ -7596,9 +7596,9 @@
       {
         "price": 610,
         "station": "Saturn Ascending",
-        "demand": 368553,
+        "demand": 372509,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 610,
@@ -7640,16 +7640,16 @@
       {
         "price": 1157,
         "station": "Eon Blue Apocalypse",
-        "demand": 6322697,
+        "demand": 6437437,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1157,
         "station": "Saturn Ascending",
-        "demand": 562124,
+        "demand": 568149,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 1157,
@@ -7675,9 +7675,9 @@
       {
         "price": 1157,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 3015,
+        "demand": 3062,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 777,
@@ -7719,23 +7719,23 @@
       {
         "price": 724,
         "station": "Gao Base",
-        "demand": 3378183,
+        "demand": 3427741,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 724,
         "station": "Eon Blue Apocalypse",
-        "demand": 2861798,
+        "demand": 2914941,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 724,
         "station": "Saturn Ascending",
-        "demand": 710507,
+        "demand": 718137,
         "marketId": 4374632451,
-        "marketUpdated": "2026-10-19T04:46:19Z"
+        "marketUpdated": "2026-10-22T19:16:11Z"
       },
       {
         "price": 724,
@@ -7770,9 +7770,9 @@
       {
         "price": 3462,
         "station": "Gao Base",
-        "demand": 6155452,
+        "demand": 6243579,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 3462,
@@ -7814,16 +7814,16 @@
       {
         "price": 209603,
         "station": "Gao Base",
-        "demand": 19715,
+        "demand": 19997,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 209603,
         "station": "Eon Blue Apocalypse",
-        "demand": 19287,
+        "demand": 19637,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 209603,
@@ -7872,9 +7872,9 @@
       {
         "price": 890,
         "station": "Eon Blue Apocalypse",
-        "demand": 1186004,
+        "demand": 1208033,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 834,
@@ -7911,9 +7911,9 @@
       {
         "price": 4463,
         "station": "Eon Blue Apocalypse",
-        "demand": 7014982,
+        "demand": 7142276,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 4463,
@@ -7955,16 +7955,16 @@
       {
         "price": 144176,
         "station": "Gao Base",
-        "demand": 19715,
+        "demand": 19997,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 144176,
         "station": "Eon Blue Apocalypse",
-        "demand": 19287,
+        "demand": 19637,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 144176,
@@ -8036,9 +8036,9 @@
       {
         "price": 7420,
         "station": "Eon Blue Apocalypse",
-        "demand": 5157813,
+        "demand": 5251406,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 7417,
@@ -8096,9 +8096,9 @@
       {
         "price": 13461,
         "station": "Eon Blue Apocalypse",
-        "demand": 9965140,
+        "demand": 10145967,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 13461,
@@ -8170,16 +8170,16 @@
       {
         "price": 189989,
         "station": "Gao Base",
-        "demand": 19715,
+        "demand": 19997,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 189989,
         "station": "Eon Blue Apocalypse",
-        "demand": 19287,
+        "demand": 19637,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 189989,
@@ -8221,9 +8221,9 @@
       {
         "price": 4522,
         "station": "Eon Blue Apocalypse",
-        "demand": 1867532,
+        "demand": 1901420,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 4522,
@@ -8265,9 +8265,9 @@
       {
         "price": 13076,
         "station": "Eon Blue Apocalypse",
-        "demand": 7148126,
+        "demand": 7277836,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 13076,
@@ -8302,9 +8302,9 @@
       {
         "price": 4885,
         "station": "Eon Blue Apocalypse",
-        "demand": 263024,
+        "demand": 267799,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 4885,
@@ -8330,9 +8330,9 @@
       {
         "price": 4669,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 789,
+        "demand": 800,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 4474,
@@ -8353,16 +8353,16 @@
       {
         "price": 191307,
         "station": "Gao Base",
-        "demand": 19715,
+        "demand": 19997,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 191307,
         "station": "Eon Blue Apocalypse",
-        "demand": 19287,
+        "demand": 19637,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 191307,
@@ -8441,9 +8441,9 @@
       {
         "price": 53719,
         "station": "Eon Blue Apocalypse",
-        "demand": 2139271,
+        "demand": 2178091,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 53719,
@@ -8492,25 +8492,25 @@
       {
         "price": 4843,
         "station": "Gao Base",
-        "demand": 89320,
+        "demand": 90621,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       }
     ],
     "Power Generators": [
       {
         "price": 3054,
         "station": "Eon Blue Apocalypse",
-        "demand": 3785572,
+        "demand": 3854271,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 3054,
         "station": "Gao Base",
-        "demand": 3439174,
+        "demand": 3488408,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 3054,
@@ -8529,9 +8529,9 @@
       {
         "price": 3054,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 981,
+        "demand": 995,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       },
       {
         "price": 2894,
@@ -8575,9 +8575,9 @@
       {
         "price": 6589,
         "station": "Gao Base",
-        "demand": 3392242,
+        "demand": 3440808,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 6589,
@@ -8619,16 +8619,16 @@
       {
         "price": 172464,
         "station": "Eon Blue Apocalypse",
-        "demand": 19488,
+        "demand": 19842,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 172464,
         "station": "Gao Base",
-        "demand": 16772,
+        "demand": 17011,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 172464,
@@ -8670,9 +8670,9 @@
       {
         "price": 5008,
         "station": "Eon Blue Apocalypse",
-        "demand": 11620598,
+        "demand": 11831465,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 5008,
@@ -8714,16 +8714,16 @@
       {
         "price": 166524,
         "station": "Gao Base",
-        "demand": 19715,
+        "demand": 19997,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 166524,
         "station": "Eon Blue Apocalypse",
-        "demand": 19287,
+        "demand": 19637,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 166524,
@@ -8823,9 +8823,9 @@
       {
         "price": 3831,
         "station": "Eon Blue Apocalypse",
-        "demand": 14663616,
+        "demand": 14929703,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 3827,
@@ -8860,16 +8860,16 @@
       {
         "price": 1860,
         "station": "Eon Blue Apocalypse",
-        "demand": 769393,
+        "demand": 783645,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1860,
         "station": "Gao Base",
-        "demand": 722078,
+        "demand": 732669,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 1851,
@@ -8897,9 +8897,9 @@
       {
         "price": 21287,
         "station": "Eon Blue Apocalypse",
-        "demand": 6459004,
+        "demand": 6576210,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 21040,
@@ -8934,9 +8934,9 @@
       {
         "price": 5484,
         "station": "Eon Blue Apocalypse",
-        "demand": 10573248,
+        "demand": 10765109,
         "marketId": 4386105091,
-        "marketUpdated": "2026-10-19T05:47:01Z"
+        "marketUpdated": "2026-10-22T20:00:28Z"
       },
       {
         "price": 1033,
@@ -9026,9 +9026,9 @@
       {
         "price": 669,
         "station": "Gao Base",
-        "demand": 3746144,
+        "demand": 3799778,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 639,
@@ -9215,9 +9215,9 @@
       {
         "price": 2894,
         "station": "Gao Base",
-        "demand": 6649590,
+        "demand": 6744788,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2894,
@@ -9231,9 +9231,9 @@
       {
         "price": 2783,
         "station": "Gao Base",
-        "demand": 95449,
+        "demand": 96816,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2772,
@@ -9247,18 +9247,18 @@
       {
         "price": 7003,
         "station": "Gao Base",
-        "demand": 164252,
+        "demand": 166604,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       }
     ],
     "Power Transfer Bus": [
       {
         "price": 2639,
         "station": "Gao Base",
-        "demand": 54331,
+        "demand": 55110,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2629,
@@ -9272,9 +9272,9 @@
       {
         "price": 2936,
         "station": "Gao Base",
-        "demand": 148610,
+        "demand": 150738,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       },
       {
         "price": 2926,
@@ -9288,9 +9288,9 @@
       {
         "price": 2498,
         "station": "Gao Base",
-        "demand": 124237,
+        "demand": 126012,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-18T05:48:42Z"
+        "marketUpdated": "2026-10-22T19:27:43Z"
       }
     ],
     "Geological Equipment": [
@@ -9304,9 +9304,9 @@
       {
         "price": 2498,
         "station": "Schunmann Hydroponics Biosphere",
-        "demand": 654,
+        "demand": 665,
         "marketId": 4396079363,
-        "marketUpdated": "2026-10-18T03:55:16Z"
+        "marketUpdated": "2026-10-22T19:22:07Z"
       }
     ],
     "Thermal Cooling Units": [
