@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-10-23T21:23:48.038661+00:00",
+  "generatedAt": "2026-10-24T04:34:34.864638+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -1218,11 +1218,11 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
-        "price": 1656,
+        "price": 1661,
         "station": "Arkwright Vista",
-        "demand": 10878,
+        "demand": 11269,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Agri-Medicines": [
@@ -1276,18 +1276,18 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
-        "price": 1231,
-        "station": "Arkwright Vista",
-        "demand": 2615,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
-      },
-      {
         "price": 1230,
         "station": "Boltzmann Vision",
         "demand": 2408,
         "marketId": 4392466179,
         "marketUpdated": "2026-10-14T05:02:02Z"
+      },
+      {
+        "price": 1223,
+        "station": "Arkwright Vista",
+        "demand": 2709,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Agronomic Treatment": [
@@ -1431,18 +1431,18 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
-        "price": 477,
-        "station": "Arkwright Vista",
-        "demand": 20211,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
-      },
-      {
         "price": 472,
         "station": "Boltzmann Vision",
         "demand": 7445,
         "marketId": 4392466179,
         "marketUpdated": "2026-10-14T05:02:02Z"
+      },
+      {
+        "price": 470,
+        "station": "Arkwright Vista",
+        "demand": 20939,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Aquaponic Systems": [
@@ -1510,11 +1510,11 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
-        "price": 448,
+        "price": 442,
         "station": "Arkwright Vista",
-        "demand": 22408,
+        "demand": 23215,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Articulation Motors": [
@@ -1554,6 +1554,13 @@
         "marketUpdated": "2026-10-23T17:13:13Z"
       },
       {
+        "price": 7446,
+        "station": "Arkwright Vista",
+        "demand": 635,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 7430,
         "station": "Extra Pens And Clean Sheets",
         "demand": 25218,
@@ -1566,13 +1573,6 @@
         "demand": 1275,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 7430,
-        "station": "Arkwright Vista",
-        "demand": 552,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 7430,
@@ -1629,6 +1629,13 @@
       },
       {
         "price": 66941,
+        "station": "Arkwright Vista",
+        "demand": 12096,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 66941,
         "station": "Saturn Ascending",
         "demand": 2412,
         "marketId": 4374632451,
@@ -1668,13 +1675,6 @@
         "demand": 20205,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 66894,
-        "station": "Arkwright Vista",
-        "demand": 11675,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 66894,
@@ -1840,17 +1840,17 @@
       },
       {
         "price": 1168,
-        "station": "Arkwright Vista",
-        "demand": 7871,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
-      },
-      {
-        "price": 1168,
         "station": "Rivers Hub",
         "demand": 7463,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
+      },
+      {
+        "price": 1160,
+        "station": "Arkwright Vista",
+        "demand": 8155,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Bismuth": [
@@ -1905,17 +1905,17 @@
       },
       {
         "price": 2572,
-        "station": "Arkwright Vista",
-        "demand": 8629,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
-      },
-      {
-        "price": 2572,
         "station": "Rivers Hub",
         "demand": 4098,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
+      },
+      {
+        "price": 2562,
+        "station": "Arkwright Vista",
+        "demand": 9933,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Black Box": [
@@ -2030,6 +2030,13 @@
       },
       {
         "price": 29983,
+        "station": "Arkwright Vista",
+        "demand": 7869,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 29983,
         "station": "Boltzmann Vision",
         "demand": 4446,
         "marketId": 4392466179,
@@ -2048,13 +2055,6 @@
         "demand": 15819,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 29940,
-        "station": "Arkwright Vista",
-        "demand": 6836,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 29940,
@@ -2109,17 +2109,17 @@
       },
       {
         "price": 6142,
-        "station": "Arkwright Vista",
-        "demand": 1037,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
-      },
-      {
-        "price": 6142,
         "station": "Rivers Hub",
         "demand": 983,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
+      },
+      {
+        "price": 6128,
+        "station": "Arkwright Vista",
+        "demand": 1172,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 5876,
@@ -2166,18 +2166,18 @@
         "marketUpdated": "2026-10-23T17:21:13Z"
       },
       {
+        "price": 662,
+        "station": "Arkwright Vista",
+        "demand": 16856,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 656,
         "station": "Rival Monkeys Foundry",
         "demand": 657265,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 656,
-        "station": "Arkwright Vista",
-        "demand": 15862,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 656,
@@ -2211,6 +2211,13 @@
       },
       {
         "price": 610,
+        "station": "Arkwright Vista",
+        "demand": 15900,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 610,
         "station": "Saturn Ascending",
         "demand": 3173,
         "marketId": 4374632451,
@@ -2236,13 +2243,6 @@
         "demand": 81705,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 604,
-        "station": "Arkwright Vista",
-        "demand": 15348,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 604,
@@ -2310,18 +2310,18 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
+        "price": 775,
+        "station": "Arkwright Vista",
+        "demand": 41543,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 769,
         "station": "Rival Monkeys Foundry",
         "demand": 217395,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 769,
-        "station": "Arkwright Vista",
-        "demand": 39550,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 673,
@@ -2428,11 +2428,11 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
-        "price": 1005,
+        "price": 1013,
         "station": "Arkwright Vista",
-        "demand": 16758,
+        "demand": 19065,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 1000,
@@ -2532,9 +2532,9 @@
       {
         "price": 6561,
         "station": "Arkwright Vista",
-        "demand": 1241,
+        "demand": 1286,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Copper": [
@@ -2663,6 +2663,13 @@
       },
       {
         "price": 14130,
+        "station": "Arkwright Vista",
+        "demand": 52413,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 14130,
         "station": "Boltzmann Vision",
         "demand": 24168,
         "marketId": 4392466179,
@@ -2681,13 +2688,6 @@
         "demand": 142370,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 14098,
-        "station": "Arkwright Vista",
-        "demand": 47357,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 14046,
@@ -2730,6 +2730,13 @@
       },
       {
         "price": 34584,
+        "station": "Arkwright Vista",
+        "demand": 12096,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 34584,
         "station": "Saturn Ascending",
         "demand": 2412,
         "marketId": 4374632451,
@@ -2769,13 +2776,6 @@
         "demand": 20205,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 34551,
-        "station": "Arkwright Vista",
-        "demand": 11675,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 34551,
@@ -2802,6 +2802,13 @@
       },
       {
         "price": 101134,
+        "station": "Arkwright Vista",
+        "demand": 12096,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 101134,
         "station": "Saturn Ascending",
         "demand": 2412,
         "marketId": 4374632451,
@@ -2841,13 +2848,6 @@
         "demand": 20205,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 100059,
-        "station": "Arkwright Vista",
-        "demand": 11675,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 100059,
@@ -2910,9 +2910,9 @@
       {
         "price": 527,
         "station": "Arkwright Vista",
-        "demand": 2953,
+        "demand": 3102,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Emergency Power Cells": [
@@ -2997,6 +2997,13 @@
       },
       {
         "price": 3099,
+        "station": "Arkwright Vista",
+        "demand": 1982,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 3099,
         "station": "Boltzmann Vision",
         "demand": 1156,
         "marketId": 4392466179,
@@ -3015,13 +3022,6 @@
         "demand": 4108,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 3089,
-        "station": "Arkwright Vista",
-        "demand": 1777,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 3089,
@@ -3069,6 +3069,13 @@
       },
       {
         "price": 2261,
+        "station": "Arkwright Vista",
+        "demand": 1903,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 2261,
         "station": "Boltzmann Vision",
         "demand": 1075,
         "marketId": 4392466179,
@@ -3087,13 +3094,6 @@
         "demand": 3825,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 2252,
-        "station": "Arkwright Vista",
-        "demand": 1653,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 2252,
@@ -3261,6 +3261,13 @@
       },
       {
         "price": 7407,
+        "station": "Arkwright Vista",
+        "demand": 135387,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 7407,
         "station": "X Gateway",
         "demand": 17246,
         "marketId": 4394287619,
@@ -3293,13 +3300,6 @@
         "demand": 695535,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 7384,
-        "station": "Arkwright Vista",
-        "demand": 130678,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 7384,
@@ -3418,18 +3418,18 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
+        "price": 736,
+        "station": "Arkwright Vista",
+        "demand": 106126,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 734,
         "station": "Boltzmann Vision",
         "demand": 99913,
         "marketId": 4392466179,
         "marketUpdated": "2026-10-14T05:02:02Z"
-      },
-      {
-        "price": 731,
-        "station": "Arkwright Vista",
-        "demand": 102435,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 728,
@@ -3470,17 +3470,17 @@
       },
       {
         "price": 2031,
-        "station": "Arkwright Vista",
-        "demand": 582,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
-      },
-      {
-        "price": 2031,
         "station": "Rivers Hub",
         "demand": 552,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
+      },
+      {
+        "price": 2022,
+        "station": "Arkwright Vista",
+        "demand": 649,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 1984,
@@ -3528,6 +3528,13 @@
       },
       {
         "price": 7446,
+        "station": "Arkwright Vista",
+        "demand": 1185,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 7446,
         "station": "Boltzmann Vision",
         "demand": 691,
         "marketId": 4392466179,
@@ -3546,13 +3553,6 @@
         "demand": 2456,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 7430,
-        "station": "Arkwright Vista",
-        "demand": 1062,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 7430,
@@ -3600,6 +3600,13 @@
       },
       {
         "price": 2504,
+        "station": "Arkwright Vista",
+        "demand": 1756,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 2504,
         "station": "Boltzmann Vision",
         "demand": 993,
         "marketId": 4392466179,
@@ -3618,13 +3625,6 @@
         "demand": 3531,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 2494,
-        "station": "Arkwright Vista",
-        "demand": 1526,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 2494,
@@ -3755,6 +3755,13 @@
       },
       {
         "price": 2967,
+        "station": "Arkwright Vista",
+        "demand": 196643,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 2967,
         "station": "Boltzmann Vision",
         "demand": 181273,
         "marketId": 4392466179,
@@ -3794,13 +3801,6 @@
         "demand": 472710,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 2955,
-        "station": "Arkwright Vista",
-        "demand": 189803,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 2955,
@@ -3942,6 +3942,13 @@
         "marketUpdated": "2026-10-14T05:02:02Z"
       },
       {
+        "price": 149332,
+        "station": "Arkwright Vista",
+        "demand": 4839,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 147312,
         "station": "Extra Pens And Clean Sheets",
         "demand": 335727,
@@ -3954,13 +3961,6 @@
         "demand": 49531,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 147312,
-        "station": "Arkwright Vista",
-        "demand": 4282,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 147312,
@@ -4008,6 +4008,13 @@
       },
       {
         "price": 41559,
+        "station": "Arkwright Vista",
+        "demand": 5691,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 41559,
         "station": "Boltzmann Vision",
         "demand": 3572,
         "marketId": 4392466179,
@@ -4033,13 +4040,6 @@
         "demand": 12710,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 41514,
-        "station": "Arkwright Vista",
-        "demand": 5493,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Land Enrichment Systems": [
@@ -4093,11 +4093,11 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
-        "price": 5075,
+        "price": 5061,
         "station": "Arkwright Vista",
-        "demand": 3823,
+        "demand": 3961,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Lanthanum": [
@@ -4131,6 +4131,13 @@
       },
       {
         "price": 9542,
+        "station": "Arkwright Vista",
+        "demand": 14241,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 9542,
         "station": "Boltzmann Vision",
         "demand": 8045,
         "marketId": 4392466179,
@@ -4142,13 +4149,6 @@
         "demand": 28629,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 9525,
-        "station": "Arkwright Vista",
-        "demand": 12372,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 9525,
@@ -4379,6 +4379,13 @@
       },
       {
         "price": 5500,
+        "station": "Arkwright Vista",
+        "demand": 45261,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 5500,
         "station": "Saturn Ascending",
         "demand": 40616,
         "marketId": 4374632451,
@@ -4404,13 +4411,6 @@
         "demand": 74862,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 5486,
-        "station": "Arkwright Vista",
-        "demand": 42594,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 5486,
@@ -4451,6 +4451,13 @@
       },
       {
         "price": 98112,
+        "station": "Arkwright Vista",
+        "demand": 715,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 98112,
         "station": "X Gateway",
         "demand": 708,
         "marketId": 4394287619,
@@ -4483,13 +4490,6 @@
         "demand": 1932,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 96763,
-        "station": "Arkwright Vista",
-        "demand": 684,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Magnesite": [
@@ -4506,6 +4506,13 @@
         "demand": 300594,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-23T06:56:15Z"
+      },
+      {
+        "price": 32387,
+        "station": "Arkwright Vista",
+        "demand": 12096,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 32387,
@@ -4548,13 +4555,6 @@
         "demand": 20205,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 32355,
-        "station": "Arkwright Vista",
-        "demand": 11675,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 32355,
@@ -4602,6 +4602,13 @@
       },
       {
         "price": 1697,
+        "station": "Arkwright Vista",
+        "demand": 2634,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 1697,
         "station": "Boltzmann Vision",
         "demand": 1488,
         "marketId": 4392466179,
@@ -4620,13 +4627,6 @@
         "demand": 5295,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 1688,
-        "station": "Arkwright Vista",
-        "demand": 2289,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 1688,
@@ -4704,6 +4704,13 @@
       },
       {
         "price": 194599,
+        "station": "Arkwright Vista",
+        "demand": 1549,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 194599,
         "station": "Boltzmann Vision",
         "demand": 896,
         "marketId": 4392466179,
@@ -4722,13 +4729,6 @@
         "demand": 3182,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 194511,
-        "station": "Arkwright Vista",
-        "demand": 1376,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 194511,
@@ -4759,6 +4759,13 @@
         "demand": 3393793,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-23T06:56:15Z"
+      },
+      {
+        "price": 1507,
+        "station": "Arkwright Vista",
+        "demand": 87787,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 1507,
@@ -4808,13 +4815,6 @@
         "demand": 242298,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 1498,
-        "station": "Arkwright Vista",
-        "demand": 84734,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Methanol Monohydrate Crystals": [
@@ -4855,6 +4855,13 @@
       },
       {
         "price": 2379,
+        "station": "Arkwright Vista",
+        "demand": 24386,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 2379,
         "station": "Boltzmann Vision",
         "demand": 13775,
         "marketId": 4392466179,
@@ -4873,13 +4880,6 @@
         "demand": 49022,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 2370,
-        "station": "Arkwright Vista",
-        "demand": 21184,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 2370,
@@ -4970,6 +4970,13 @@
         "marketUpdated": "2026-10-23T17:21:13Z"
       },
       {
+        "price": 1776,
+        "station": "Arkwright Vista",
+        "demand": 2654,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 1767,
         "station": "Extra Pens And Clean Sheets",
         "demand": 1459190,
@@ -4982,13 +4989,6 @@
         "demand": 139266,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 1767,
-        "station": "Arkwright Vista",
-        "demand": 2562,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 1767,
@@ -5086,11 +5086,11 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
-        "price": 790,
+        "price": 783,
         "station": "Arkwright Vista",
-        "demand": 2373,
+        "demand": 2459,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Mineral Oil": [
@@ -5154,6 +5154,13 @@
       },
       {
         "price": 2379,
+        "station": "Arkwright Vista",
+        "demand": 1854,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 2379,
         "station": "Boltzmann Vision",
         "demand": 1047,
         "marketId": 4392466179,
@@ -5172,13 +5179,6 @@
         "demand": 3726,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 2370,
-        "station": "Arkwright Vista",
-        "demand": 1611,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 2370,
@@ -5233,6 +5233,13 @@
       },
       {
         "price": 24122,
+        "station": "Arkwright Vista",
+        "demand": 11654,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 24122,
         "station": "Boltzmann Vision",
         "demand": 7314,
         "marketId": 4392466179,
@@ -5258,13 +5265,6 @@
         "demand": 26029,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 24085,
-        "station": "Arkwright Vista",
-        "demand": 11248,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Monazite": [
@@ -5295,6 +5295,13 @@
         "demand": 1144,
         "marketId": 4394287619,
         "marketUpdated": "2026-10-23T17:21:13Z"
+      },
+      {
+        "price": 196932,
+        "station": "Arkwright Vista",
+        "demand": 518,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 195271,
@@ -5363,6 +5370,13 @@
       },
       {
         "price": 2261,
+        "station": "Arkwright Vista",
+        "demand": 3552,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 2261,
         "station": "Boltzmann Vision",
         "demand": 2071,
         "marketId": 4392466179,
@@ -5381,13 +5395,6 @@
         "demand": 7366,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 2252,
-        "station": "Arkwright Vista",
-        "demand": 3184,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 2252,
@@ -5479,6 +5486,13 @@
       },
       {
         "price": 5839,
+        "station": "Arkwright Vista",
+        "demand": 4736,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 5839,
         "station": "Boltzmann Vision",
         "demand": 2704,
         "marketId": 4392466179,
@@ -5497,13 +5511,6 @@
         "demand": 9616,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 5826,
-        "station": "Arkwright Vista",
-        "demand": 4157,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 5826,
@@ -5583,6 +5590,13 @@
       },
       {
         "price": 26615,
+        "station": "Arkwright Vista",
+        "demand": 12096,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 26615,
         "station": "Saturn Ascending",
         "demand": 2412,
         "marketId": 4374632451,
@@ -5622,13 +5636,6 @@
         "demand": 20205,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 26586,
-        "station": "Arkwright Vista",
-        "demand": 11675,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 26586,
@@ -5682,6 +5689,13 @@
         "marketUpdated": "2026-10-14T05:02:02Z"
       },
       {
+        "price": 40431,
+        "station": "Arkwright Vista",
+        "demand": 11134,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 39971,
         "station": "Extra Pens And Clean Sheets",
         "demand": 751788,
@@ -5694,13 +5708,6 @@
         "demand": 111059,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 39971,
-        "station": "Arkwright Vista",
-        "demand": 9881,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 39971,
@@ -5741,6 +5748,13 @@
       },
       {
         "price": 49679,
+        "station": "Arkwright Vista",
+        "demand": 853,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 49679,
         "station": "Boltzmann Vision",
         "demand": 575,
         "marketId": 4392466179,
@@ -5773,13 +5787,6 @@
         "demand": 2679,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 49084,
-        "station": "Arkwright Vista",
-        "demand": 823,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Performance Enhancers": [
@@ -5828,9 +5835,9 @@
       {
         "price": 6561,
         "station": "Arkwright Vista",
-        "demand": 707,
+        "demand": 757,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Periclase Dunite": [
@@ -5847,6 +5854,13 @@
         "demand": 300594,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-23T06:56:15Z"
+      },
+      {
+        "price": 149332,
+        "station": "Arkwright Vista",
+        "demand": 12096,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 149332,
@@ -5889,13 +5903,6 @@
         "demand": 20205,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 147312,
-        "station": "Arkwright Vista",
-        "demand": 11675,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 147312,
@@ -5965,11 +5972,11 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
-        "price": 448,
+        "price": 442,
         "station": "Arkwright Vista",
-        "demand": 1448,
+        "demand": 1500,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Platinum": [
@@ -6024,6 +6031,13 @@
       },
       {
         "price": 55291,
+        "station": "Arkwright Vista",
+        "demand": 6629,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 55291,
         "station": "Boltzmann Vision",
         "demand": 6218,
         "marketId": 4392466179,
@@ -6049,13 +6063,6 @@
         "demand": 22298,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 54994,
-        "station": "Arkwright Vista",
-        "demand": 6322,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Polymers": [
@@ -6140,6 +6147,13 @@
       },
       {
         "price": 1776,
+        "station": "Arkwright Vista",
+        "demand": 2488,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 1776,
         "station": "Boltzmann Vision",
         "demand": 1406,
         "marketId": 4392466179,
@@ -6158,13 +6172,6 @@
         "demand": 5001,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 1767,
-        "station": "Arkwright Vista",
-        "demand": 2161,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 1767,
@@ -6218,6 +6225,13 @@
         "marketUpdated": "2026-10-14T05:02:02Z"
       },
       {
+        "price": 8425,
+        "station": "Arkwright Vista",
+        "demand": 9444,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 8408,
         "station": "Extra Pens And Clean Sheets",
         "demand": 655208,
@@ -6230,13 +6244,6 @@
         "demand": 96665,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 8408,
-        "station": "Arkwright Vista",
-        "demand": 8356,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 8408,
@@ -6285,9 +6292,9 @@
       {
         "price": 6561,
         "station": "Arkwright Vista",
-        "demand": 605,
+        "demand": 627,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Pyrophyllite": [
@@ -6321,6 +6328,13 @@
       },
       {
         "price": 13650,
+        "station": "Arkwright Vista",
+        "demand": 178044,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 13650,
         "station": "Boltzmann Vision",
         "demand": 45211,
         "marketId": 4392466179,
@@ -6339,13 +6353,6 @@
         "demand": 752008,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 13615,
-        "station": "Arkwright Vista",
-        "demand": 165872,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 13615,
@@ -6376,6 +6383,13 @@
         "demand": 300594,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-23T06:56:15Z"
+      },
+      {
+        "price": 39443,
+        "station": "Arkwright Vista",
+        "demand": 12096,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 39443,
@@ -6418,13 +6432,6 @@
         "demand": 20205,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 39408,
-        "station": "Arkwright Vista",
-        "demand": 11675,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 39408,
@@ -6472,6 +6479,13 @@
       },
       {
         "price": 2151,
+        "station": "Arkwright Vista",
+        "demand": 820,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 2151,
         "station": "Boltzmann Vision",
         "demand": 515,
         "marketId": 4392466179,
@@ -6490,13 +6504,6 @@
         "demand": 1831,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 2141,
-        "station": "Arkwright Vista",
-        "demand": 792,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 2141,
@@ -6560,6 +6567,13 @@
       },
       {
         "price": 82916,
+        "station": "Arkwright Vista",
+        "demand": 12096,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 82916,
         "station": "Saturn Ascending",
         "demand": 2412,
         "marketId": 4374632451,
@@ -6599,13 +6613,6 @@
         "demand": 20205,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 82043,
-        "station": "Arkwright Vista",
-        "demand": 11675,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 82043,
@@ -6659,6 +6666,13 @@
         "marketUpdated": "2026-10-14T05:02:02Z"
       },
       {
+        "price": 25468,
+        "station": "Arkwright Vista",
+        "demand": 6010,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 25436,
         "station": "Extra Pens And Clean Sheets",
         "demand": 419214,
@@ -6671,13 +6685,6 @@
         "demand": 61513,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 25436,
-        "station": "Arkwright Vista",
-        "demand": 5317,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 25436,
@@ -6701,6 +6708,13 @@
         "demand": 300594,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-23T06:56:15Z"
+      },
+      {
+        "price": 93955,
+        "station": "Arkwright Vista",
+        "demand": 12096,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 93955,
@@ -6743,13 +6757,6 @@
         "demand": 20205,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 92716,
-        "station": "Arkwright Vista",
-        "demand": 11675,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 92716,
@@ -6967,9 +6974,9 @@
       {
         "price": 252,
         "station": "Arkwright Vista",
-        "demand": 1007,
+        "demand": 1044,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Synthetic Reagents": [
@@ -7054,6 +7061,13 @@
       },
       {
         "price": 51207,
+        "station": "Arkwright Vista",
+        "demand": 5691,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 51207,
         "station": "Boltzmann Vision",
         "demand": 3572,
         "marketId": 4392466179,
@@ -7079,13 +7093,6 @@
         "demand": 12710,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 51160,
-        "station": "Arkwright Vista",
-        "demand": 5493,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Tantalum": [
@@ -7214,6 +7221,13 @@
       },
       {
         "price": 3099,
+        "station": "Arkwright Vista",
+        "demand": 2642,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 3099,
         "station": "Boltzmann Vision",
         "demand": 1540,
         "marketId": 4392466179,
@@ -7232,13 +7246,6 @@
         "demand": 5478,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-17T04:16:39Z"
-      },
-      {
-        "price": 3089,
-        "station": "Arkwright Vista",
-        "demand": 2368,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 3089,
@@ -7300,17 +7307,17 @@
       },
       {
         "price": 3948,
-        "station": "Arkwright Vista",
-        "demand": 3009,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
-      },
-      {
-        "price": 3948,
         "station": "Rivers Hub",
         "demand": 2852,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
+      },
+      {
+        "price": 3935,
+        "station": "Arkwright Vista",
+        "demand": 3463,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Thorium": [
@@ -7344,6 +7351,13 @@
       },
       {
         "price": 12278,
+        "station": "Arkwright Vista",
+        "demand": 13892,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
+        "price": 12278,
         "station": "Boltzmann Vision",
         "demand": 7993,
         "marketId": 4392466179,
@@ -7362,13 +7376,6 @@
         "demand": 19549,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 12259,
-        "station": "Arkwright Vista",
-        "demand": 12291,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 12257,
@@ -7392,6 +7399,13 @@
         "demand": 300594,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-23T06:56:15Z"
+      },
+      {
+        "price": 149332,
+        "station": "Arkwright Vista",
+        "demand": 12096,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 149332,
@@ -7434,13 +7448,6 @@
         "demand": 20205,
         "marketId": 4376376323,
         "marketUpdated": "2026-10-16T05:44:30Z"
-      },
-      {
-        "price": 147312,
-        "station": "Arkwright Vista",
-        "demand": 11675,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 147312,
@@ -7679,6 +7686,13 @@
         "marketUpdated": "2026-10-23T17:13:13Z"
       },
       {
+        "price": 132375,
+        "station": "Arkwright Vista",
+        "demand": 567,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 130400,
         "station": "Extra Pens And Clean Sheets",
         "demand": 9176,
@@ -7698,13 +7712,6 @@
         "demand": 1116,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 130400,
-        "station": "Arkwright Vista",
-        "demand": 526,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Water": [
@@ -7825,9 +7832,9 @@
       {
         "price": 300,
         "station": "Arkwright Vista",
-        "demand": 4182,
+        "demand": 4392,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Wine": [
@@ -7902,13 +7909,6 @@
         "demand": 932,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 8948,
-        "station": "Arkwright Vista",
-        "demand": 799,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Advanced Catalysers": [
@@ -7950,9 +7950,9 @@
       {
         "price": 2778,
         "station": "Arkwright Vista",
-        "demand": 3719,
+        "demand": 3853,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Alexandrite": [
@@ -7978,6 +7978,13 @@
         "marketUpdated": "2026-10-23T17:35:51Z"
       },
       {
+        "price": 209603,
+        "station": "Arkwright Vista",
+        "demand": 825,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 207116,
         "station": "Rival Monkeys Foundry",
         "demand": 4038,
@@ -7997,13 +8004,6 @@
         "demand": 1372,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 207116,
-        "station": "Arkwright Vista",
-        "demand": 796,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Atmospheric Processors": [
@@ -8091,9 +8091,9 @@
       {
         "price": 944,
         "station": "Arkwright Vista",
-        "demand": 29516,
+        "demand": 30579,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Benitoite": [
@@ -8119,6 +8119,13 @@
         "marketUpdated": "2026-10-23T17:35:51Z"
       },
       {
+        "price": 144176,
+        "station": "Arkwright Vista",
+        "demand": 825,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 142167,
         "station": "Rival Monkeys Foundry",
         "demand": 4038,
@@ -8138,13 +8145,6 @@
         "demand": 1372,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 142167,
-        "station": "Arkwright Vista",
-        "demand": 796,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Cobalt": [
@@ -8207,11 +8207,11 @@
         "marketUpdated": "2026-10-23T17:35:51Z"
       },
       {
-        "price": 7108,
+        "price": 7121,
         "station": "Arkwright Vista",
-        "demand": 139769,
+        "demand": 145025,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 6823,
@@ -8253,18 +8253,18 @@
         "marketUpdated": "2026-10-16T05:44:30Z"
       },
       {
+        "price": 13430,
+        "station": "Arkwright Vista",
+        "demand": 77253,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 13427,
         "station": "King's Mountain View",
         "demand": 173751,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-23T17:35:51Z"
-      },
-      {
-        "price": 13414,
-        "station": "Arkwright Vista",
-        "demand": 70236,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 13003,
@@ -8334,6 +8334,13 @@
         "marketUpdated": "2026-10-23T17:35:51Z"
       },
       {
+        "price": 189989,
+        "station": "Arkwright Vista",
+        "demand": 825,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 187431,
         "station": "Rival Monkeys Foundry",
         "demand": 4038,
@@ -8353,13 +8360,6 @@
         "demand": 1372,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 187431,
-        "station": "Arkwright Vista",
-        "demand": 796,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Haematite": [
@@ -8371,11 +8371,11 @@
         "marketUpdated": "2026-10-23T06:56:15Z"
       },
       {
-        "price": 2232,
+        "price": 2241,
         "station": "Arkwright Vista",
-        "demand": 118413,
+        "demand": 122681,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 2224,
@@ -8438,9 +8438,9 @@
       {
         "price": 12142,
         "station": "Arkwright Vista",
-        "demand": 30269,
+        "demand": 31360,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Marine Equipment": [
@@ -8487,11 +8487,11 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
-        "price": 4474,
+        "price": 4461,
         "station": "Arkwright Vista",
-        "demand": 3180,
+        "demand": 3295,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Musgravite": [
@@ -8517,6 +8517,13 @@
         "marketUpdated": "2026-10-23T17:35:51Z"
       },
       {
+        "price": 191307,
+        "station": "Arkwright Vista",
+        "demand": 825,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 188799,
         "station": "Rival Monkeys Foundry",
         "demand": 4038,
@@ -8536,13 +8543,6 @@
         "demand": 1372,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 188799,
-        "station": "Arkwright Vista",
-        "demand": 796,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Non-Lethal Weapons": [
@@ -8605,18 +8605,18 @@
         "marketUpdated": "2026-10-23T17:35:51Z"
       },
       {
+        "price": 53713,
+        "station": "Arkwright Vista",
+        "demand": 18112,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 53697,
         "station": "Rivers Hub",
         "demand": 83710,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 53697,
-        "station": "Arkwright Vista",
-        "demand": 16472,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       },
       {
         "price": 53691,
@@ -8702,9 +8702,9 @@
       {
         "price": 2285,
         "station": "Arkwright Vista",
-        "demand": 5123,
+        "demand": 5327,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Reactive Armour": [
@@ -8755,9 +8755,9 @@
       {
         "price": 5743,
         "station": "Arkwright Vista",
-        "demand": 14029,
+        "demand": 14534,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Rhodplumsite": [
@@ -8781,6 +8781,13 @@
         "demand": 3190,
         "marketId": 4374964995,
         "marketUpdated": "2026-10-23T17:35:51Z"
+      },
+      {
+        "price": 172464,
+        "station": "Arkwright Vista",
+        "demand": 729,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 172464,
@@ -8809,13 +8816,6 @@
         "demand": 1278,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 171015,
-        "station": "Arkwright Vista",
-        "demand": 698,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Rutile": [
@@ -8825,6 +8825,13 @@
         "demand": 11901416,
         "marketId": 4386105091,
         "marketUpdated": "2026-10-23T06:56:15Z"
+      },
+      {
+        "price": 2490,
+        "station": "Arkwright Vista",
+        "demand": 160033,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 2484,
@@ -8853,13 +8860,6 @@
         "demand": 9159,
         "marketId": 4392466179,
         "marketUpdated": "2026-10-14T05:02:02Z"
-      },
-      {
-        "price": 2122,
-        "station": "Arkwright Vista",
-        "demand": 83983,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Serendibite": [
@@ -8885,6 +8885,13 @@
         "marketUpdated": "2026-10-23T17:35:51Z"
       },
       {
+        "price": 166524,
+        "station": "Arkwright Vista",
+        "demand": 825,
+        "marketId": 4388504067,
+        "marketUpdated": "2026-10-24T04:25:52Z"
+      },
+      {
         "price": 164296,
         "station": "Rival Monkeys Foundry",
         "demand": 4038,
@@ -8904,13 +8911,6 @@
         "demand": 1372,
         "marketId": 4391607555,
         "marketUpdated": "2026-10-16T04:10:01Z"
-      },
-      {
-        "price": 164296,
-        "station": "Arkwright Vista",
-        "demand": 796,
-        "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
       }
     ],
     "Silver": [
@@ -9003,9 +9003,9 @@
       {
         "price": 2889,
         "station": "Arkwright Vista",
-        "demand": 9321,
+        "demand": 9657,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Animal Meat": [
@@ -9061,11 +9061,11 @@
         "marketUpdated": "2026-10-16T05:44:30Z"
       },
       {
-        "price": 20989,
+        "price": 21000,
         "station": "Arkwright Vista",
-        "demand": 83690,
+        "demand": 86871,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 20816,
@@ -9091,11 +9091,11 @@
         "marketUpdated": "2026-10-23T06:56:15Z"
       },
       {
-        "price": 1033,
+        "price": 1039,
         "station": "Arkwright Vista",
-        "demand": 163665,
+        "demand": 169651,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 970,
@@ -9135,11 +9135,11 @@
         "marketUpdated": "2026-10-16T04:10:01Z"
       },
       {
-        "price": 440,
+        "price": 429,
         "station": "Arkwright Vista",
-        "demand": 40832,
+        "demand": 41222,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       },
       {
         "price": 358,
@@ -9167,9 +9167,9 @@
       {
         "price": 175,
         "station": "Arkwright Vista",
-        "demand": 7109,
+        "demand": 7365,
         "marketId": 4388504067,
-        "marketUpdated": "2026-10-15T06:45:23Z"
+        "marketUpdated": "2026-10-24T04:25:52Z"
       }
     ],
     "Onionhead Gamma Strain": [
