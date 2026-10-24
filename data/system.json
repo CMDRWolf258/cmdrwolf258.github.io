@@ -4,8 +4,8 @@
   "factions": [
     {
       "name": "Regiment of Imperial Mongrels",
-      "influence": 0.579285,
-      "state": "Expansion",
+      "influence": 0.566132,
+      "state": "None",
       "allegiance": "Empire",
       "government": "Dictatorship",
       "isPlayer": false,
@@ -13,7 +13,7 @@
     },
     {
       "name": "The Consortium",
-      "influence": 0.177819,
+      "influence": 0.182365,
       "state": "None",
       "allegiance": "Independent",
       "government": "Anarchy",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Daily Routine Incorporated",
-      "influence": 0.093492,
+      "influence": 0.09018,
       "state": "None",
       "allegiance": "Empire",
       "government": "Corporate",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Wolf 258 Dynasty",
-      "influence": 0.091659,
+      "influence": 0.09018,
       "state": "None",
       "allegiance": "Independent",
       "government": "Feudal",
@@ -40,7 +40,7 @@
     },
     {
       "name": "Perez Ring Brewery",
-      "influence": 0.057745,
+      "influence": 0.071142,
       "state": "Expansion",
       "allegiance": "Alliance",
       "government": "Corporate",
@@ -48,5 +48,5 @@
       "controlling": false
     }
   ],
-  "lastUpdated": "2026-10-24T04:34:34.869142+00:00"
+  "lastUpdated": "2026-10-24T10:56:38.846546+00:00"
 }
