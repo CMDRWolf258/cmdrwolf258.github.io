@@ -1,6 +1,6 @@
 {
   "system": "NGC 2546 Sector UZ-G d10-16",
-  "generatedAt": "2026-10-29T22:44:27.314295+00:00",
+  "generatedAt": "2026-10-30T05:45:31.701445+00:00",
   "minimumStoredDemand": 500,
   "commodities": {
     "Advanced Medicines": {
@@ -629,9 +629,9 @@
     "Platinum": {
       "price": 218540,
       "station": "Gao Base",
-      "demand": 18108,
+      "demand": 18187,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-29T04:30:53Z"
+      "marketUpdated": "2026-10-29T23:52:17Z"
     },
     "Polymers": {
       "price": 1087,
@@ -1021,9 +1021,9 @@
     "Resonating Separators": {
       "price": 6732,
       "station": "Gao Base",
-      "demand": 2777093,
+      "demand": 2789276,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-29T04:30:53Z"
+      "marketUpdated": "2026-10-29T23:52:17Z"
     },
     "Rhodplumsite": {
       "price": 258695,
@@ -1140,9 +1140,9 @@
     "Muon Imager": {
       "price": 6860,
       "station": "Gao Base",
-      "demand": 93694,
+      "demand": 94105,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-29T04:30:53Z"
+      "marketUpdated": "2026-10-29T23:52:17Z"
     },
     "Power Transfer Bus": {
       "price": 2639,
@@ -1161,9 +1161,9 @@
     "Structural Regulators": {
       "price": 2232,
       "station": "Gao Base",
-      "demand": 31832,
+      "demand": 31969,
       "marketId": 4375494403,
-      "marketUpdated": "2026-10-29T04:30:53Z"
+      "marketUpdated": "2026-10-29T23:52:17Z"
     }
   },
   "markets": {
@@ -1206,9 +1206,9 @@
       {
         "price": 1583,
         "station": "Gao Base",
-        "demand": 518873,
+        "demand": 523022,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Agri-Medicines": [
@@ -1241,11 +1241,11 @@
         "marketUpdated": "2026-10-29T06:14:10Z"
       },
       {
-        "price": 1281,
+        "price": 1289,
         "station": "Gao Base",
-        "demand": 97469,
+        "demand": 105865,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1230,
@@ -1283,6 +1283,13 @@
         "demand": 2294,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-29T06:14:10Z"
+      },
+      {
+        "price": 5749,
+        "station": "Gao Base",
+        "demand": 13599,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Algae": [
@@ -1301,11 +1308,11 @@
         "marketUpdated": "2026-10-29T06:14:10Z"
       },
       {
-        "price": 532,
+        "price": 529,
         "station": "Gao Base",
-        "demand": 2413426,
+        "demand": 2421757,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 498,
@@ -1361,11 +1368,11 @@
         "marketUpdated": "2026-10-29T06:14:10Z"
       },
       {
-        "price": 1559,
+        "price": 1565,
         "station": "Gao Base",
-        "demand": 504575,
+        "demand": 539429,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1506,
@@ -1500,9 +1507,9 @@
       {
         "price": 7402,
         "station": "Gao Base",
-        "demand": 14208,
+        "demand": 14272,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 7402,
@@ -1551,9 +1558,9 @@
       {
         "price": 4296,
         "station": "Gao Base",
-        "demand": 184717,
+        "demand": 185525,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 4294,
@@ -1574,9 +1581,9 @@
       {
         "price": 120493,
         "station": "Gao Base",
-        "demand": 310900,
+        "demand": 312264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 120493,
@@ -1683,9 +1690,9 @@
       {
         "price": 602,
         "station": "Gao Base",
-        "demand": 1990792,
+        "demand": 1999487,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 587,
@@ -1785,9 +1792,9 @@
       {
         "price": 1431,
         "station": "Gao Base",
-        "demand": 3741194,
+        "demand": 3757604,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1431,
@@ -1879,6 +1886,13 @@
     "Black Box": [
       {
         "price": 31039,
+        "station": "Gao Base",
+        "demand": 12035,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-10-29T23:52:17Z"
+      },
+      {
+        "price": 31039,
         "station": "Saturn Ascending",
         "demand": 5193,
         "marketId": 4374632451,
@@ -1931,9 +1945,9 @@
       {
         "price": 596,
         "station": "Gao Base",
-        "demand": 7338,
+        "demand": 7371,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 596,
@@ -1961,9 +1975,9 @@
       {
         "price": 74655,
         "station": "Gao Base",
-        "demand": 176303,
+        "demand": 177076,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 74655,
@@ -2249,9 +2263,9 @@
       {
         "price": 1097,
         "station": "Gao Base",
-        "demand": 1433055,
+        "demand": 1441840,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1095,
@@ -2298,11 +2312,11 @@
         "marketUpdated": "2026-10-29T05:22:58Z"
       },
       {
-        "price": 1661,
+        "price": 1654,
         "station": "Gao Base",
-        "demand": 107109,
+        "demand": 107390,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1625,
@@ -2409,9 +2423,9 @@
       {
         "price": 837,
         "station": "Gao Base",
-        "demand": 379926,
+        "demand": 381643,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Conductive Fabrics": [
@@ -2474,11 +2488,11 @@
         "marketUpdated": "2026-10-29T06:14:10Z"
       },
       {
-        "price": 7120,
+        "price": 7121,
         "station": "Gao Base",
-        "demand": 225015,
+        "demand": 226810,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 6962,
@@ -2658,6 +2672,13 @@
     "Damaged Escape Pod": [
       {
         "price": 16903,
+        "station": "Gao Base",
+        "demand": 11729,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-10-29T23:52:17Z"
+      },
+      {
+        "price": 16903,
         "station": "Saturn Ascending",
         "demand": 5152,
         "marketId": 4374632451,
@@ -2689,9 +2710,9 @@
       {
         "price": 62250,
         "station": "Gao Base",
-        "demand": 310900,
+        "demand": 312264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 62250,
@@ -2761,9 +2782,9 @@
       {
         "price": 182041,
         "station": "Gao Base",
-        "demand": 310900,
+        "demand": 312264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 182041,
@@ -2868,9 +2889,9 @@
       {
         "price": 944,
         "station": "Gao Base",
-        "demand": 421096,
+        "demand": 423345,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 702,
@@ -2963,9 +2984,9 @@
       {
         "price": 3065,
         "station": "Gao Base",
-        "demand": 43169,
+        "demand": 43360,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 3065,
@@ -3035,9 +3056,9 @@
       {
         "price": 2229,
         "station": "Gao Base",
-        "demand": 42544,
+        "demand": 42729,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 2229,
@@ -3137,9 +3158,9 @@
       {
         "price": 846,
         "station": "Gao Base",
-        "demand": 1262507,
+        "demand": 1268190,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 822,
@@ -3186,11 +3207,11 @@
         "marketUpdated": "2026-10-29T03:25:48Z"
       },
       {
-        "price": 630,
+        "price": 625,
         "station": "Gao Base",
-        "demand": 382985,
+        "demand": 384008,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Gallium": [
@@ -3311,11 +3332,11 @@
         "marketUpdated": "2026-10-29T05:22:58Z"
       },
       {
-        "price": 601,
+        "price": 599,
         "station": "Gao Base",
-        "demand": 2662415,
+        "demand": 2673238,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 585,
@@ -3420,9 +3441,9 @@
       {
         "price": 696,
         "station": "Gao Base",
-        "demand": 7343613,
+        "demand": 7381271,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 696,
@@ -3494,9 +3515,9 @@
       {
         "price": 7402,
         "station": "Gao Base",
-        "demand": 25815,
+        "demand": 25928,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 7402,
@@ -3566,9 +3587,9 @@
       {
         "price": 2472,
         "station": "Gao Base",
-        "demand": 39271,
+        "demand": 39443,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 2472,
@@ -3617,9 +3638,9 @@
       {
         "price": 146330,
         "station": "Gao Base",
-        "demand": 36807,
+        "demand": 36968,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 146330,
@@ -3654,9 +3675,9 @@
       {
         "price": 136941,
         "station": "Gao Base",
-        "demand": 36807,
+        "demand": 36968,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 136941,
@@ -3688,6 +3709,13 @@
       }
     ],
     "Hostages": [
+      {
+        "price": 34584,
+        "station": "Gao Base",
+        "demand": 7656,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-10-29T23:52:17Z"
+      },
       {
         "price": 34584,
         "station": "Saturn Ascending",
@@ -3784,9 +3812,9 @@
       {
         "price": 2888,
         "station": "Gao Base",
-        "demand": 10389396,
+        "demand": 10434963,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 2888,
@@ -3851,9 +3879,9 @@
       {
         "price": 11475,
         "station": "Gao Base",
-        "demand": 433701,
+        "demand": 435603,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 11475,
@@ -3895,9 +3923,9 @@
       {
         "price": 268797,
         "station": "Gao Base",
-        "demand": 240509,
+        "demand": 241564,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 268797,
@@ -3960,9 +3988,9 @@
       {
         "price": 49740,
         "station": "Gao Base",
-        "demand": 115904,
+        "demand": 116412,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 49740,
@@ -4037,11 +4065,11 @@
         "marketUpdated": "2026-10-25T06:46:19Z"
       },
       {
-        "price": 5405,
+        "price": 5408,
         "station": "Gao Base",
-        "demand": 179220,
+        "demand": 191527,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 5337,
@@ -4154,17 +4182,17 @@
       },
       {
         "price": 613,
-        "station": "Gao Base",
-        "demand": 5921295,
-        "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
-      },
-      {
-        "price": 613,
         "station": "Rival Monkeys Foundry",
         "demand": 1106652,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-29T06:14:10Z"
+      },
+      {
+        "price": 612,
+        "station": "Gao Base",
+        "demand": 5946563,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 584,
@@ -4292,9 +4320,9 @@
       {
         "price": 1079,
         "station": "Gao Base",
-        "demand": 100963,
+        "demand": 101417,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Lithium": [
@@ -4401,9 +4429,9 @@
       {
         "price": 5427,
         "station": "Gao Base",
-        "demand": 1475062,
+        "demand": 1481531,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 5427,
@@ -4417,9 +4445,9 @@
       {
         "price": 176602,
         "station": "Gao Base",
-        "demand": 22490,
+        "demand": 22588,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 176602,
@@ -4489,9 +4517,9 @@
       {
         "price": 58296,
         "station": "Gao Base",
-        "demand": 310900,
+        "demand": 312264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 58296,
@@ -4582,9 +4610,9 @@
       {
         "price": 1666,
         "station": "Gao Base",
-        "demand": 58864,
+        "demand": 59121,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1666,
@@ -4654,18 +4682,18 @@
       {
         "price": 3169,
         "station": "Gao Base",
-        "demand": 33714,
+        "demand": 33861,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Meta-Alloys": [
       {
         "price": 213889,
         "station": "Gao Base",
-        "demand": 34045,
+        "demand": 34197,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 213889,
@@ -4798,9 +4826,9 @@
       {
         "price": 1449,
         "station": "Gao Base",
-        "demand": 2106095,
+        "demand": 2115330,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1449,
@@ -4811,13 +4839,6 @@
       }
     ],
     "Methanol Monohydrate Crystals": [
-      {
-        "price": 2817,
-        "station": "Gao Base",
-        "demand": 546393,
-        "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
-      },
       {
         "price": 2817,
         "station": "King's Mountain View",
@@ -4838,6 +4859,13 @@
         "demand": 88763,
         "marketId": 4388359171,
         "marketUpdated": "2026-10-29T06:14:10Z"
+      },
+      {
+        "price": 2816,
+        "station": "Gao Base",
+        "demand": 548788,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 2816,
@@ -4900,9 +4928,9 @@
       {
         "price": 5975,
         "station": "Gao Base",
-        "demand": 65144,
+        "demand": 65432,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 5950,
@@ -4944,9 +4972,9 @@
       {
         "price": 1745,
         "station": "Gao Base",
-        "demand": 2053772,
+        "demand": 2062783,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1745,
@@ -5053,9 +5081,9 @@
       {
         "price": 1465,
         "station": "Gao Base",
-        "demand": 5537324,
+        "demand": 5561613,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1309,
@@ -5134,9 +5162,9 @@
       {
         "price": 2347,
         "station": "Gao Base",
-        "demand": 41531,
+        "demand": 41715,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 2347,
@@ -5185,9 +5213,9 @@
       {
         "price": 72057,
         "station": "Gao Base",
-        "demand": 237368,
+        "demand": 238409,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 72057,
@@ -5285,9 +5313,9 @@
       {
         "price": 354477,
         "station": "Gao Base",
-        "demand": 11276,
+        "demand": 11326,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 354477,
@@ -5357,9 +5385,9 @@
       {
         "price": 2229,
         "station": "Gao Base",
-        "demand": 77496,
+        "demand": 77834,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 2229,
@@ -5415,9 +5443,9 @@
       {
         "price": 862,
         "station": "Gao Base",
-        "demand": 10672824,
+        "demand": 10719387,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 862,
@@ -5480,9 +5508,9 @@
       {
         "price": 5799,
         "station": "Gao Base",
-        "demand": 105181,
+        "demand": 105643,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 5799,
@@ -5560,6 +5588,13 @@
     "Occupied Escape Pod": [
       {
         "price": 30333,
+        "station": "Gao Base",
+        "demand": 12035,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-10-29T23:52:17Z"
+      },
+      {
+        "price": 30333,
         "station": "Saturn Ascending",
         "demand": 5193,
         "marketId": 4374632451,
@@ -5591,9 +5626,9 @@
       {
         "price": 47906,
         "station": "Gao Base",
-        "demand": 310900,
+        "demand": 312264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 47906,
@@ -5684,9 +5719,9 @@
       {
         "price": 157110,
         "station": "Gao Base",
-        "demand": 75687,
+        "demand": 76019,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 157110,
@@ -5735,9 +5770,9 @@
       {
         "price": 89422,
         "station": "Gao Base",
-        "demand": 29739,
+        "demand": 29871,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 89422,
@@ -5835,9 +5870,9 @@
       {
         "price": 6832,
         "station": "Gao Base",
-        "demand": 138622,
+        "demand": 139481,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 6677,
@@ -5851,9 +5886,9 @@
       {
         "price": 268797,
         "station": "Gao Base",
-        "demand": 310900,
+        "demand": 312264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 268797,
@@ -5920,6 +5955,13 @@
       }
     ],
     "Personal Effects": [
+      {
+        "price": 9542,
+        "station": "Gao Base",
+        "demand": 12035,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-10-29T23:52:17Z"
+      },
       {
         "price": 9542,
         "station": "Saturn Ascending",
@@ -5990,9 +6032,9 @@
       {
         "price": 218540,
         "station": "Gao Base",
-        "demand": 18108,
+        "demand": 18187,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 218539,
@@ -6148,9 +6190,9 @@
       {
         "price": 1745,
         "station": "Gao Base",
-        "demand": 55592,
+        "demand": 55837,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1745,
@@ -6220,9 +6262,9 @@
       {
         "price": 8380,
         "station": "Gao Base",
-        "demand": 657129,
+        "demand": 660011,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 8380,
@@ -6373,9 +6415,9 @@
       {
         "price": 70997,
         "station": "Gao Base",
-        "demand": 310900,
+        "demand": 312264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 70997,
@@ -6473,9 +6515,9 @@
       {
         "price": 2119,
         "station": "Gao Base",
-        "demand": 16660,
+        "demand": 16735,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 2119,
@@ -6531,9 +6573,9 @@
       {
         "price": 2555,
         "station": "Gao Base",
-        "demand": 569120,
+        "demand": 571619,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 2353,
@@ -6554,9 +6596,9 @@
       {
         "price": 149248,
         "station": "Gao Base",
-        "demand": 310900,
+        "demand": 312264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 149248,
@@ -6654,9 +6696,9 @@
       {
         "price": 25385,
         "station": "Gao Base",
-        "demand": 418174,
+        "demand": 420009,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 25385,
@@ -6698,9 +6740,9 @@
       {
         "price": 169118,
         "station": "Gao Base",
-        "demand": 310900,
+        "demand": 312264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 169118,
@@ -6946,9 +6988,9 @@
       {
         "price": 525,
         "station": "Gao Base",
-        "demand": 237910,
+        "demand": 239361,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 523,
@@ -7027,9 +7069,9 @@
       {
         "price": 61317,
         "station": "Gao Base",
-        "demand": 115904,
+        "demand": 116412,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 61317,
@@ -7155,11 +7197,11 @@
         "marketUpdated": "2026-10-29T03:19:51Z"
       },
       {
-        "price": 1914,
+        "price": 1909,
         "station": "Gao Base",
-        "demand": 400788,
+        "demand": 401919,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1888,
@@ -7208,9 +7250,9 @@
       {
         "price": 3065,
         "station": "Gao Base",
-        "demand": 57625,
+        "demand": 57879,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 3065,
@@ -7389,9 +7431,9 @@
       {
         "price": 268797,
         "station": "Gao Base",
-        "demand": 310900,
+        "demand": 312264,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 268797,
@@ -7498,9 +7540,9 @@
       {
         "price": 5427,
         "station": "Gao Base",
-        "demand": 182883,
+        "demand": 183686,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 5377,
@@ -7593,9 +7635,9 @@
       {
         "price": 4103,
         "station": "Gao Base",
-        "demand": 10114,
+        "demand": 10183,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 4103,
@@ -7681,9 +7723,9 @@
       {
         "price": 198563,
         "station": "Gao Base",
-        "demand": 11772,
+        "demand": 11824,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 198563,
@@ -7862,9 +7904,9 @@
       {
         "price": 681,
         "station": "Gao Base",
-        "demand": 2114425,
+        "demand": 2123782,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 673,
@@ -7903,6 +7945,13 @@
       }
     ],
     "Wreckage Components": [
+      {
+        "price": 8965,
+        "station": "Gao Base",
+        "demand": 39061,
+        "marketId": 4375494403,
+        "marketUpdated": "2026-10-29T23:52:17Z"
+      },
       {
         "price": 8965,
         "station": "Saturn Ascending",
@@ -7950,9 +7999,9 @@
       {
         "price": 3319,
         "station": "Gao Base",
-        "demand": 3570468,
+        "demand": 3586130,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 3298,
@@ -7980,9 +8029,9 @@
       {
         "price": 262004,
         "station": "Gao Base",
-        "demand": 20430,
+        "demand": 20520,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 262004,
@@ -8128,9 +8177,9 @@
       {
         "price": 230681,
         "station": "Gao Base",
-        "demand": 20430,
+        "demand": 20520,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 230681,
@@ -8336,9 +8385,9 @@
       {
         "price": 260284,
         "station": "Gao Base",
-        "demand": 20430,
+        "demand": 20520,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 260284,
@@ -8512,9 +8561,9 @@
       {
         "price": 382613,
         "station": "Gao Base",
-        "demand": 20430,
+        "demand": 20520,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 382613,
@@ -8658,9 +8707,9 @@
       {
         "price": 4281,
         "station": "Gao Base",
-        "demand": 31387,
+        "demand": 31532,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Power Generators": [
@@ -8700,11 +8749,11 @@
         "marketUpdated": "2026-10-29T03:19:51Z"
       },
       {
-        "price": 2400,
+        "price": 2401,
         "station": "Gao Base",
-        "demand": 430247,
+        "demand": 433726,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 2285,
@@ -8734,9 +8783,9 @@
       {
         "price": 6732,
         "station": "Gao Base",
-        "demand": 2777093,
+        "demand": 2789276,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 6631,
@@ -8778,9 +8827,9 @@
       {
         "price": 258695,
         "station": "Gao Base",
-        "demand": 17449,
+        "demand": 17527,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 258695,
@@ -8873,9 +8922,9 @@
       {
         "price": 241459,
         "station": "Gao Base",
-        "demand": 20430,
+        "demand": 20520,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 241459,
@@ -9019,9 +9068,9 @@
       {
         "price": 1808,
         "station": "Gao Base",
-        "demand": 453002,
+        "demand": 455042,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 1755,
@@ -9116,9 +9165,9 @@
       {
         "price": 523,
         "station": "Gao Base",
-        "demand": 2041172,
+        "demand": 2050127,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       },
       {
         "price": 516,
@@ -9185,9 +9234,9 @@
       {
         "price": 2218,
         "station": "Gao Base",
-        "demand": 745591,
+        "demand": 748865,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Geological Equipment": [
@@ -9249,18 +9298,18 @@
       {
         "price": 2749,
         "station": "Gao Base",
-        "demand": 63451,
+        "demand": 63729,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Muon Imager": [
       {
         "price": 6860,
         "station": "Gao Base",
-        "demand": 93694,
+        "demand": 94105,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Power Transfer Bus": [
@@ -9274,9 +9323,9 @@
       {
         "price": 2606,
         "station": "Gao Base",
-        "demand": 37080,
+        "demand": 37242,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Reinforced Mounting Plate": [
@@ -9290,18 +9339,18 @@
       {
         "price": 2902,
         "station": "Gao Base",
-        "demand": 92202,
+        "demand": 92607,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ],
     "Structural Regulators": [
       {
         "price": 2232,
         "station": "Gao Base",
-        "demand": 31832,
+        "demand": 31969,
         "marketId": 4375494403,
-        "marketUpdated": "2026-10-29T04:30:53Z"
+        "marketUpdated": "2026-10-29T23:52:17Z"
       }
     ]
   }
