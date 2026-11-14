@@ -1,0 +1,63 @@
+name: Verify Star Citizen Deck update archive
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-star-citizen-deck.yml'
+      - 'star-citizen-deck/releases/**'
+      - 'star-citizen-deck/latest.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Validate newest release ZIP and feed
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib, json, re, zipfile
+          from pathlib import Path
+
+          root=Path('star-citizen-deck')
+          candidates=list((root/'releases').glob('star-citizen-deck-update-v*.zip'))
+          def version_from_path(p):
+              match=re.fullmatch(r'star-citizen-deck-update-v(\d+\.\d+\.\d+)\.zip',p.name)
+              if not match:raise ValueError(f'Unexpected release file: {p}')
+              return tuple(int(x) for x in match.group(1).split('.'))
+          path=max(candidates,key=version_from_path)
+          version='.'.join(str(i) for i in version_from_path(path))
+          raw=path.read_bytes()
+          assert len(raw)<=4_000_000, 'Package size exceeds updater limit'
+          with zipfile.ZipFile(path) as archive:
+              assert archive.testzip() is None, 'Invalid ZIP CRC'
+              names=archive.namelist()
+              assert len(names)==len(set(names)), 'Duplicate archive names'
+              assert 'deck-package.json' in names, 'Missing package manifest'
+              manifest=json.loads(archive.read('deck-package.json'))
+              assert manifest['version']==version
+              files=manifest['files']
+              allowed={'companion.py','deck_defaults.py','update_helper.py','web/app.js','web/index.html','web/style.css','START_DECK.bat','README.md'}
+              assert set(files)==allowed, 'Unexpected runtime file set'
+              assert set(names)==set(files)|{'deck-package.json'}
+              for name,digest in files.items():
+                  body=archive.read(name)
+                  assert hashlib.sha256(body).hexdigest()==digest,f'Digest mismatch: {name}'
+                  if name.endswith('.py'):compile(body,name,'exec')
+              helper=archive.read('update_helper.py').decode('utf-8')
+              assert f"VERSION = '{version}'" in helper,'Runtime version mismatch'
+          feed=json.loads((root/'latest.json').read_text())
+          current=tuple(int(x) for x in feed['version'].split('.'))
+          if current==version_from_path(path):
+              assert feed['size']==len(raw),'Feed size mismatch'
+              assert feed['sha256']==hashlib.sha256(raw).hexdigest(),'Feed SHA mismatch'
+              assert feed['filename']==path.name,'Feed filename mismatch'
+          else:
+              assert current<version_from_path(path),'Feed points to a newer version than archive'
+          print(f'VERIFIED {path} | {len(raw)} bytes | sha256 {hashlib.sha256(raw).hexdigest()} | feed {feed["version"]}')
+          PY
