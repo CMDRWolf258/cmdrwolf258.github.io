@@ -42,7 +42,11 @@ jobs:
               manifest=json.loads(archive.read('deck-package.json'))
               assert manifest['version']==version
               files=manifest['files']
-              allowed={'companion.py','deck_defaults.py','update_helper.py','sc_game_log.py','web/app.js','web/index.html','web/style.css','START_DECK.bat','README.md'}
+              allowed={'companion.py','deck_defaults.py','update_helper.py','web/app.js','web/index.html','web/style.css','START_DECK.bat','README.md'}
+              # v0.2.19 was uploaded with an extra module but the installed v0.2.18
+              # updater rejects it. v0.2.20 restores the legacy eight-file layout.
+              if version=='0.2.19':
+                  allowed.add('sc_game_log.py')
               assert set(files)==allowed, 'Unexpected runtime file set'
               assert set(names)==set(files)|{'deck-package.json'}
               for name,digest in files.items():
