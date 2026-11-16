@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "build": 9,
+  "build": 10,
   "stable_url": "https://cmdrwolf258.github.io/star-citizen-deck/layout-lab/",
-  "highlights": "Updated Ion & Andromeda ship portraits, corrected stock missile counts, and four selectable Andromeda gun plans (Balanced PvE, Disabling/Capture, Ballistic Brawler, Heavy-Target Precision). Loadout-specific checklists and notes with shared purchase progress."
+  "highlights": "Switched Constellation Andromeda ship portrait to selected Option A, official RSI cinematic artwork. No other layout or saved progress changes."
 }
