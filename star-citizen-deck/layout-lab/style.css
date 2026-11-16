@@ -398,3 +398,7 @@
 .lab-profile-actions{display:flex;gap:8px;flex-shrink:0}
 .lab-profile-actions button{width:50px;height:48px;touch-action:manipulation;border:1px solid #5a8ca9;border-radius:6px;background:#153b55;color:#b8e9fc;font-size:24px;cursor:pointer}
 .lab-profile-actions button:disabled{opacity:.28;cursor:default}
+
+/* Layout Lab build 6: full width editor and no connection status indicators. */
+.lab-mode .status-rail{display:none}
+.lab-mode #top-link{display:none}
