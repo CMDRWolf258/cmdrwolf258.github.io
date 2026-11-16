@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "build": 6,
+  "build": 7,
   "stable_url": "https://cmdrwolf258.github.io/star-citizen-deck/layout-lab/",
-  "highlights": "Removed repetitive preview banners, connection warnings and game-log notices; touch a control to edit its layout."
+  "highlights": "Individual opaque button finishes, contained highlights, clearer borders and shadows; same dark blue and silver palette."
 }
