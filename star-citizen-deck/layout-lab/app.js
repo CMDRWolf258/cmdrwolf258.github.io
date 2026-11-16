@@ -568,11 +568,10 @@ function renderCockpitContent(){
   const title=cockpitLayouts[active]||selected.name;
   cockpitSelected=null;
   const layout=(active==='nav'?navScreen():active==='scm'?scmScreen():active==='systems'?sysScreen():active==='mining'?miningScreen():active==='scan'?scanScreen():active==='mfd'?mfdScreen():genericScreen());
-  const homeCompact=active==='home';
-  const heading=homeCompact?'<div class="eyebrow">HOME / FLIGHT CONTROLS</div>':`<div><div class="eyebrow">SERENITY / ${esc(selected.short||active.toUpperCase())} / LIVE COMMAND DECK</div><div class="title-row"><h1>${esc(title)}</h1><span>FLIGHT STATION · ${esc(app.version||'')}</span></div></div>`;
+  // Compact title bar across every profile: show the controls immediately on iPad.
+  const headingLabel=active==='home'?'HOME / FLIGHT CONTROLS':`${esc(selected.short||active.toUpperCase())} / ${esc(title.toUpperCase())}`;
   main.innerHTML=`<section class="cockpit2">
-    <div class="cockpit2-heading ${homeCompact?'home-compact-heading':''}">${heading}<button type="button" id="cockpit-arrange" class="secondary-btn" aria-pressed="${cockpitArrange}">${cockpitArrange?'✓ FINISH ARRANGING':'◈ ARRANGE CONTROLS'}</button></div>
-    ${homeCompact?'':`<div class="cockpit-note" role="note"><span class="pilot-dot"></span><b>COMMAND CONSOLE</b><span>Buttons send inputs only when armed. Detected ship identity comes from Game.log; published ship specifications are reference data, not live readings.</span></div>`}
+    <div class="cockpit2-heading compact-profile-heading"><div class="eyebrow">${headingLabel}</div><button type="button" id="cockpit-arrange" class="secondary-btn" aria-pressed="${cockpitArrange}">${cockpitArrange?'✓ FINISH ARRANGING':'◈ ARRANGE CONTROLS'}</button></div>
     <div id="cockpit-arrange-tools" class="arrange-toolbar ${cockpitArrange?'open':''}"><strong>ARRANGE MODE / THIS iPAD ONLY</strong><span class="hint" id="cockpit-selection">Select a control to move within its bank.</span><button type="button" data-shift="back">◀ MOVE</button><button type="button" data-shift="forward">MOVE ▶</button></div>
     <div id="cockpit-layout" class="cockpit-layout">${layout}</div><div class="cockpit-action-line" id="cockpit-action-line" aria-live="polite">${app.armed?'KEYBOARD OUTPUT ARMED':'OUTPUT DISARMED'} / SHIP STATE NOT VERIFIED</div>
    </section>`;
