@@ -405,3 +405,70 @@
 
 /* Keep operational disclaimers out of the design canvas. */
 .lab-mode .cockpit-action-line,.lab-mode .bottom-strip{display:none}
+
+/* Layout Lab build 7: individually finished, opaque tactile controls.
+   Flat backing panels prevent their lighting from bleeding through button faces.
+   Keep the original dark-blue, ice and silver palette. */
+.lab-mode .cockpit2 .module{
+  background:#0a1926;
+}
+.lab-mode .cockpit2 .module-body{
+  background:#0b1b29;
+}
+.lab-mode .cockpit2 .unmapped{
+  opacity:1;
+}
+.lab-mode .cockpit2 .pad,
+.lab-mode .cockpit2 .switch-row,
+.lab-mode .cockpit2 .big-button,
+.lab-mode .cockpit2 .power-choice{
+  isolation:isolate;
+  background-clip:padding-box;
+}
+.lab-mode .cockpit2 .pad{
+  background:linear-gradient(180deg,#2a4d61 0%,#234256 9%,#172f42 32%,#112333 72%,#0a1724 100%);
+  border:2px solid #050e17;
+  border-radius:9px;
+  box-shadow:inset 0 0 0 1px #547488,inset 0 2px 0 #d8f4ff24,inset 0 -7px 13px #02070daa,0 3px 0 #030911,0 6px 10px #0009;
+}
+.lab-mode .cockpit2 .pad.accent{
+  background:linear-gradient(180deg,#2c6a8c 0%,#225570 10%,#163b53 48%,#0a2234 100%);
+  box-shadow:inset 0 0 0 1px #5baccd,inset 0 2px 0 #c5efff30,inset 0 -7px 13px #02070daa,0 3px 0 #030911,0 6px 10px #0009;
+}
+.lab-mode .cockpit2 .pad.amber{
+  background:linear-gradient(180deg,#554537 0%,#3a302c 12%,#26262b 56%,#131e29 100%);
+  box-shadow:inset 0 0 0 1px #b5966a,inset 0 2px 0 #fff0d21e,inset 0 -7px 13px #02070daa,0 3px 0 #030911,0 6px 10px #0009;
+}
+.lab-mode .cockpit2 .switch-row{
+  background:linear-gradient(180deg,#253e50 0%,#183143 13%,#102434 65%,#0b1926 100%);
+  border:1px solid #486b7e;
+  border-radius:7px;
+  box-shadow:inset 0 1px 0 #c9edff21,inset 0 -5px 9px #030b1380,0 3px 6px #0008;
+}
+.lab-mode .cockpit2 .switch-row:hover{
+  background:linear-gradient(180deg,#31536a 0%,#234458 16%,#133044 80%,#0d2232 100%);
+  border-color:#75aac3;
+}
+.lab-mode .cockpit2 .big-button{
+  background:linear-gradient(180deg,#286384 0%,#1f506c 12%,#12374f 65%,#0d273b 100%);
+  border:1px solid #5a9fbe;
+  border-radius:7px;
+  box-shadow:inset 0 2px 0 #dbf4ff30,inset 0 -7px 12px #05121e9c,0 3px 0 #030a13,0 5px 8px #0009;
+}
+.lab-mode .cockpit2 .big-button.secondary{
+  background:linear-gradient(180deg,#314e60 0%,#213b4e 12%,#122a3c 64%,#0c1d2c 100%);
+  border-color:#577e94;
+}
+.lab-mode .cockpit2 .power-choice{
+  background:linear-gradient(180deg,#274559 0%,#1b3548 14%,#112839 74%,#0b1c2a 100%);
+  border:1px solid #54798d;
+  border-radius:7px;
+  box-shadow:inset 0 1px 0 #d6f4ff26,inset 0 -5px 9px #030b1377,0 3px 6px #0008;
+}
+.lab-mode .cockpit2 .pad:focus-visible,
+.lab-mode .cockpit2 .switch-row:focus-visible,
+.lab-mode .cockpit2 .big-button:focus-visible,
+.lab-mode .cockpit2 .power-choice:focus-visible{
+  outline:2px solid #9eeaff;
+  outline-offset:3px;
+}
