@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#070f1d" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Star Citizen Deck" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<title>Star Citizen Deck • Offline Layout Lab · Build 4</title>
+<link rel="stylesheet" href="./style.css?lab=4" />
+</head>
+<body>
+<div class="background-grid"></div>
+<div id="app" class="deck-shell">
+  <aside class="sidebar">
+    <div class="brand-mark" title="Control Deck">S<span>/</span>C</div>
+    <div class="side-caption">MODULES</div>
+    <nav id="profile-nav" aria-label="Control profiles"></nav>
+    <div class="side-bottom">
+      <button id="settings-nav" class="sidebar-button settings-button" title="Settings" aria-label="Settings"><span id="settings-icon"></span><small>SETTINGS</small></button>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <div class="topbar-brand"><span class="crosshair">✣</span> STAR CITIZEN <span class="topbar-slash">/</span> <strong>LAYOUT LAB</strong> <span id="top-version" class="ver-tag">SYNCING</span></div>
+      <div class="topbar-right"><div class="serial">SERENITY • FLIGHT CONSOLE</div><span id="top-link" class="connection-chip"><span class="dot"></span> CONNECTING</span><span id="top-time">00:00</span></div>
+    </header>
+    <div class="content-layout">
+      <main class="main-area" id="main-area"></main>
+      <aside class="status-rail" id="status-rail"></aside>
+    </div>
+    <footer class="bottom-status"><span id="deck-footer-version"><b>STAR CITIZEN DECK</b> / VERIFYING</span><span>OFFLINE LAYOUT EDITOR <span class="divider-pip">◆</span> GAME COMMANDS DISABLED</span></footer>
+  </div>
+</div>
+<div id="modal-root"></div>
+<div id="toast-root" aria-live="polite"></div>
+<script src="./app.js?lab=4" defer></script>
+</body>
+</html>
