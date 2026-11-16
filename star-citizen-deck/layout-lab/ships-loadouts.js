@@ -33,7 +33,7 @@ const shipLoadouts={
 };
 const validShipLoadout=(ship,id)=>shipLoadouts[ship]?.some(x=>x.id===id);
 shipLibrary.ion.image="https://media.starcitizen.tools/7/79/Ares_ION_Firing_Concept.jpg";
-shipLibrary.andromeda.image="https://media.starcitizen.tools/thumb/d/d7/Andromeda_flying_from_Station_-_Front_Starboard.jpg/1200px-Andromeda_flying_from_Station_-_Front_Starboard.jpg";
+shipLibrary.andromeda.image="https://robertsspaceindustries.com/i/f0849b37f272a9b2082fa321bf708a2f2678bd0c/resize%281500%2C643%2Ccrop%283840%2C1645%2C329%2C0%2CADdPNihJzmPbNuTnFsH1DqUeqBRpXdSXVVtgJTyDDgscGKrzJuoFjReseeMUUrjZ3TdRz4XZrMKyTPp8RTLWuzRTU%29%29/75/constellationandromeda-4k-072020-min.webp";
 shipLibrary.andromeda.specs.push(["MISSILES","52 stock · 24 × S2 + 28 × S1"]);
 shipLibrary.andromeda.stock+=" Stock missile capacity is 52 (24 Size 2 and 28 Size 1).";
 shipLibrary.ion.stock+=" Stock missile capacity is 20 Size 3 across three racks (12 internal, 8 on replaceable racks).";
