@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "build": 7,
+  "build": 8,
   "stable_url": "https://cmdrwolf258.github.io/star-citizen-deck/layout-lab/",
-  "highlights": "Individual opaque button finishes, contained highlights, clearer borders and shadows; same dark blue and silver palette."
+  "highlights": "Edit Mode toggle and tactile preview feedback; scrollable sidebar; Ares Ion and Constellation Andromeda profiles with photos, ship stats, expandable part build tracker, per-unit purchase checkboxes, prices/shops, pros & cons, custom parts, and saved notes."
 }
