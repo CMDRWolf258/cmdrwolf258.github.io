@@ -389,3 +389,12 @@
 .lab-import-label{display:inline-flex;align-items:center;justify-content:center;cursor:pointer;min-height:42px}
 .lab-settings .settings-row{flex-wrap:wrap}
 @media(max-width:700px){.lab-list{grid-template-columns:1fr}.lab-banner{font-size:10px}.topbar .serial{display:none}}
+
+/* Lab revision 2: touch-first sidebar profile reordering controls. */
+.lab-profile-list{display:flex;flex-direction:column;gap:7px;margin-top:14px}
+.lab-profile-row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:9px 12px;background:#0c2434;border:1px solid #416179;color:#c5e5f2}
+.lab-profile-row b{display:block;font-size:13px}
+.lab-profile-row small{display:block;font-size:10px;color:#88acc1;margin-top:3px}
+.lab-profile-actions{display:flex;gap:8px;flex-shrink:0}
+.lab-profile-actions button{width:50px;height:48px;touch-action:manipulation;border:1px solid #5a8ca9;border-radius:6px;background:#153b55;color:#b8e9fc;font-size:24px;cursor:pointer}
+.lab-profile-actions button:disabled{opacity:.28;cursor:default}
