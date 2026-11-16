@@ -1,7 +1,7 @@
 /* Ship Information — saved locally as part of Layout Lab exports. */
 'use strict';
 let shipSelected="ion",shipTab="overview";
-let shipTracker={ion:{owned:{},notes:{},shipNotes:"",custom:[]},andromeda:{owned:{},notes:{},shipNotes:"",custom:[]}};
+let shipTracker={ion:{owned:{},notes:{},shipNotes:"",loadout:"standard",loadoutNotes:{},custom:[]},andromeda:{owned:{},notes:{},shipNotes:"",loadout:"balanced",loadoutNotes:{},custom:[]}};
 const shipExpandedParts=new Set(),shipExpandedGroups=new Set(["ion:Shields","andromeda:Shields"]);
 const shipURL=x=>typeof x==="string"&&/^https:\/\/[^ "'<>]+$/i.test(x)&&x.length<650?x:"";
 const shipText=(x,max=500)=>String(x||"").slice(0,max);
@@ -18,6 +18,7 @@ function shipStateNormalize(input){
     size:shipText(item.size,70),qty:Math.max(1,Math.min(24,Number(item.qty)||1)),
     price:Math.max(0,Math.min(50000000,Math.round(Number(item.price)||0))),
     shop:shipText(item.shop,180),alt:shipText(item.alt,180),image:shipURL(item.image),source:shipURL(item.source),
+    loadout:validShipLoadout(ship,item.loadout)?item.loadout:"shared",
     pro:shipText(item.pro),con:shipText(item.con),verify:"My added part"});
   }
   const owned={},notes={};
@@ -26,11 +27,16 @@ function shipStateNormalize(input){
     owned[item.id]=Array.from({length:item.qty},(_,index)=>raw.owned[item.id][index]===true);
    if(typeof raw.notes?.[item.id]==="string")notes[item.id]=raw.notes[item.id].slice(0,3000);
   }
-  out[ship]={owned,notes,shipNotes:shipText(raw.shipNotes,8000),custom};
+  const loadout=validShipLoadout(ship,raw.loadout)?raw.loadout:shipLoadouts[ship][0].id;
+  const loadoutNotes={};
+  if(raw.loadoutNotes&&typeof raw.loadoutNotes==="object")for(const preset of shipLoadouts[ship]){
+   if(typeof raw.loadoutNotes[preset.id]==="string")loadoutNotes[preset.id]=raw.loadoutNotes[preset.id].slice(0,5000);
+  }
+  out[ship]={owned,notes,shipNotes:shipText(raw.shipNotes,8000),custom,loadout,loadoutNotes};
  }
  return out;
 }
-const shipItems=id=>[...shipSeed[id],...shipTracker[id].custom];
+const shipItems=id=>[...shipSeed[id],...shipTracker[id].custom].filter(p=>!p.loadout||p.loadout==="shared"||p.loadout===shipTracker[id].loadout);
 const shipFlags=(id,item)=>Array.from({length:item.qty},(_,i)=>shipTracker[id].owned[item.id]?.[i]===true);
 function shipTotals(id){
  let all=0,done=0,cost=0,left=0;
@@ -62,6 +68,15 @@ function renderShipInfo(){
  const shipTabs=Object.keys(shipLibrary).map(k=>'<button type="button" data-ship-choice="'+k+'" class="'+(k===id?"active":"")+'">'+esc(shipLibrary[k].short)+'</button>').join("");
  const specs='<div class="ship-specs">'+ship.specs.map(([label,value])=>'<div><small>'+esc(label)+'</small><b>'+esc(value)+'</b></div>').join("")+'</div>';
  const prose=(title,lines)=>'<section class="ship-prose"><h3>'+title+'</h3>'+lines.map(x=>'<p>• '+esc(x)+'</p>').join("")+'</section>';
+ const presets=shipLoadouts[id];
+ const activePreset=presets.find(x=>x.id===shipTracker[id].loadout)||presets[0];
+ const loadoutButtons=presets.length>1?'<div class="ship-loadout-picker"><div class="ship-loadout-title"><b>SELECT WEAPON LOADOUT</b><small>Shared component upgrades carry across all builds</small></div><div class="ship-loadout-grid">'
+ +presets.map(x=>'<button type="button" data-ship-loadout="'+x.id+'" class="'+(x.id===activePreset.id?'active':'')+'"><b>'+esc(x.name)+'</b><small>'+esc(x.tag)+'</small></button>').join("")
+ +'</div></div>':'';
+ const loadoutOverview='<div class="ship-loadout-overview"><h3>'+esc(activePreset.name)+' · WEAPON CONFIGURATION</h3>'
+  +'<p>'+esc(activePreset.summary)+'</p><div class="ship-loadout-specs"><div><small>PILOT-OPERATED</small><b>'+esc(activePreset.pilot)+'</b></div><div><small>MANNED TURRETS</small><b>'+esc(activePreset.turrets)+'</b></div></div>'
+  +'<p>'+esc(activePreset.practical)+'</p><div class="ship-procons"><div><h4>ADVANTAGES</h4><p>'+esc(activePreset.pro)+'</p></div><div><h4>TRADEOFFS</h4><p>'+esc(activePreset.con)+'</p></div></div></div>';
+ const loadoutNotes='<div class="ship-note-card"><h3>'+esc(activePreset.name.toUpperCase())+' · MY LOADOUT NOTES</h3><textarea id="ship-loadout-notes" rows="3" placeholder="Testing, target types, fitting order…">'+esc(shipTracker[id].loadoutNotes?.[activePreset.id]||"")+'</textarea></div>';
  const overview=specs+'<div class="ship-procons">'+prose("STRENGTHS",ship.pros)+prose("TRADEOFFS",ship.cons)+'</div>'
   +'<div class="ship-note-card"><h3>STOCK LOADOUT / BUILD STARTING POINT</h3><p>'+esc(ship.stock)+'</p><a href="'+esc(ship.source)+'" target="_blank" rel="noopener noreferrer">SHIP REFERENCE</a></div>';
  let categories="";
@@ -76,9 +91,9 @@ function renderShipInfo(){
  const build='<div class="ship-budget"><div><small>PURCHASED</small><b>'+tot.done+' / '+tot.all+' units</b></div>'
  +'<div><small>BUILD ESTIMATE</small><b>'+shipMoney(tot.cost)+'</b></div>'
  +'<div><small>EST. REMAINING</small><b>'+shipMoney(tot.left)+'</b></div></div>'
- +'<p class="ship-market-note">Prices are aUEC estimates from 4.10.2–4.10.3 market reports; older or unconfirmed sellers are identified in the part details.</p>'
+ +'<p class="ship-market-note">Prices are aUEC estimates from 4.10.2–4.10.3 market reports; older or unconfirmed sellers are identified in the part details. Only parts for the selected loadout are counted. Missile options represent purchases, not the ship’s entire missile capacity.</p>'
  +'<div class="ship-build-heading"><h2>PARTS CHECKLIST</h2><button id="ship-add-part" class="primary-btn" type="button">+ ADD PART</button></div>'
- +categories+'<div class="ship-note-card"><h3>MY SHIP BUILD NOTES</h3><textarea id="ship-global-notes" rows="4" placeholder="Overall strategy, remaining tasks, flight test observations…">'+esc(shipTracker[id].shipNotes)+'</textarea></div>';
+ +categories+loadoutNotes+'<div class="ship-note-card"><h3>MY SHIP BUILD NOTES</h3><textarea id="ship-global-notes" rows="4" placeholder="Overall strategy, remaining tasks, flight test observations…">'+esc(shipTracker[id].shipNotes)+'</textarea></div>';
  const main=el("main-area");
  main.innerHTML='<section class="ship-workspace"><div class="ship-title-line"><div class="eyebrow">SHIP INFORMATION / MY HANGAR</div></div>'
   +'<div class="ship-switch">'+shipTabs+'</div>'
@@ -87,9 +102,13 @@ function renderShipInfo(){
   +'<div class="ship-chips"><span>'+esc(ship.role)+'</span><span>CREW '+esc(ship.crew)+'</span><span>'+esc(ship.focus)+'</span></div></div></div>'
   +'<div class="ship-tabs"><button data-ship-tab="overview" class="'+(shipTab==="overview"?"active":"")+'">SHIP OVERVIEW</button>'
   +'<button data-ship-tab="build" class="'+(shipTab==="build"?"active":"")+'">BUILD & PURCHASE TRACKER</button></div>'
-  +(shipTab==="overview"?overview:build)+'</section>';
+  +(shipTab==="overview"?overview:loadoutButtons+loadoutOverview+build)+'</section>';
  main.querySelectorAll("[data-ship-choice]").forEach(btn=>btn.onclick=()=>{shipSelected=btn.dataset.shipChoice;shipTab="overview";renderShipInfo();});
  main.querySelectorAll("[data-ship-tab]").forEach(btn=>btn.onclick=()=>{shipTab=btn.dataset.shipTab;renderShipInfo();});
+ main.querySelectorAll("[data-ship-loadout]").forEach(btn=>btn.onclick=()=>{
+  if(!validShipLoadout(id,btn.dataset.shipLoadout))return;
+  shipTracker[id].loadout=btn.dataset.shipLoadout;labSave();renderShipInfo();
+ });
  if(shipTab==="build"){
   main.querySelectorAll("[data-ship-category]").forEach(d=>d.ontoggle=()=>{const key=id+":"+d.dataset.shipCategory;if(d.open)shipExpandedGroups.add(key);else shipExpandedGroups.delete(key);});
   main.querySelectorAll("[data-ship-detail]").forEach(d=>d.ontoggle=()=>{const key=id+":"+d.dataset.shipDetail;if(d.open)shipExpandedParts.add(key);else shipExpandedParts.delete(key);});
@@ -106,6 +125,11 @@ function renderShipInfo(){
    shipTracker[id].custom=shipTracker[id].custom.filter(p=>p.id!==key);
    delete shipTracker[id].owned[key];delete shipTracker[id].notes[key];labSave();renderShipInfo();
   });
+  const loadoutNote=el("ship-loadout-notes");
+  if(loadoutNote)loadoutNote.oninput=e=>{
+   shipTracker[id].loadoutNotes??={};
+   shipTracker[id].loadoutNotes[shipTracker[id].loadout]=e.target.value.slice(0,5000);labSave();
+  };
   el("ship-global-notes").oninput=e=>{shipTracker[id].shipNotes=e.target.value.slice(0,8000);labSave();};
   el("ship-add-part").onclick=shipAddPart;
  }
