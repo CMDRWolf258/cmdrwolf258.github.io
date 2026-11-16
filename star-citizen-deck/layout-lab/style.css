@@ -489,8 +489,6 @@
 .lab-heading-actions .lab-mode-active{border-color:#72cfff;background:#205070;color:#edfbff;box-shadow:inset 0 0 0 1px #90defc55}
 .lab-mode .cockpit2 button.lab-pressed,
 .lab-mode .cockpit2 button.lab-flash{filter:brightness(1.32);transform:translateY(2px);box-shadow:inset 0 0 0 2px #99eaff,0 0 13px #48bfff66}
-.lab-mode .cockpit2 button.lab-toggle-on{border-color:#8addf9;box-shadow:inset 0 0 0 1px #75d7f5,inset 0 0 17px #1784b65a,0 3px 7px #0009}
-.lab-mode .cockpit2 button.lab-toggle-on .lamp,.lab-mode .cockpit2 button.lab-toggle-on .pad-led{background:#9aeeff;box-shadow:0 0 9px #6edcfc}
 @media(max-width:750px){
  .lab-mode .compact-profile-heading{align-items:center;flex-direction:row;gap:6px}
  .lab-heading-actions .secondary-btn{font-size:9px;min-height:40px;padding:7px}
