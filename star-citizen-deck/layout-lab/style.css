@@ -402,3 +402,6 @@
 /* Layout Lab build 6: full width editor and no connection status indicators. */
 .lab-mode .status-rail{display:none}
 .lab-mode #top-link{display:none}
+
+/* Keep operational disclaimers out of the design canvas. */
+.lab-mode .cockpit-action-line,.lab-mode .bottom-strip{display:none}
