@@ -363,16 +363,16 @@
 @media(max-width:700px){.cockpit2 .ship-banner{padding:13px}.cockpit2 .ship-banner-top{flex-direction:column}.cockpit2 .ship-reference-tag{white-space:normal}.cockpit2 .ship-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* v0.2.23: Home is for commands first. Keep arrange mode visible and ship specs below controls. */
-.cockpit2 .home-compact-heading{align-items:center;padding:0 4px 10px;min-height:46px}
-.cockpit2 .home-compact-heading .eyebrow{font-size:11px;letter-spacing:1.2px;color:#92cee7}
+.cockpit2 .compact-profile-heading{align-items:center;padding:0 4px 10px;min-height:46px}
+.cockpit2 .compact-profile-heading .eyebrow{font-size:11px;letter-spacing:1.2px;color:#92cee7}
 .cockpit2 .home-dashboard{grid-template-columns:repeat(2,minmax(0,1fr));min-height:0;align-items:start}
 .cockpit2 .home-dashboard>.module:nth-child(2){order:-1}
 .cockpit2 .home-dashboard>.ship-banner{grid-column:1/-1;order:1;margin:0}
 .cockpit2 .home-dashboard>.home-session-panel{grid-column:1/-1;order:2;min-height:0}
 .cockpit2 .home-dashboard>.home-session-panel .module-body{display:flex;flex-direction:column}
 @media(max-width:700px){
- .cockpit2 .home-compact-heading{flex-direction:row;align-items:center;gap:8px}
- .cockpit2 .home-compact-heading .secondary-btn{font-size:9px;min-height:38px}
+ .cockpit2 .compact-profile-heading{flex-direction:row;align-items:center;gap:8px}
+ .cockpit2 .compact-profile-heading .secondary-btn{font-size:9px;min-height:38px}
  .cockpit2 .home-dashboard{grid-template-columns:minmax(0,1fr)}
  .cockpit2 .home-dashboard>.ship-banner,.cockpit2 .home-dashboard>.home-session-panel{grid-column:1}
 }
