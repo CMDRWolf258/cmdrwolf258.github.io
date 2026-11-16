@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "build": 10,
+  "build": 11,
   "stable_url": "https://cmdrwolf258.github.io/star-citizen-deck/layout-lab/",
-  "highlights": "Switched Constellation Andromeda ship portrait to selected Option A, official RSI cinematic artwork. No other layout or saved progress changes."
+  "highlights": "All preview controls, including toggle switches, give brief press feedback and immediately return to normal. No persistent or assumed on/off states."
 }
