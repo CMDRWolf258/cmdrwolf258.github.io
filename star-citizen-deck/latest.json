@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "0.2.26",
-  "filename": "star-citizen-deck-update-v0.2.26.zip",
-  "url": "https://cmdrwolf258.github.io/star-citizen-deck/releases/star-citizen-deck-update-v0.2.26.zip",
-  "size": 314917,
-  "sha256": "a007ad8a0305999c8f509559f951d552b1848a7e6796629fc620536b4544c549"
+  "version": "0.2.27",
+  "filename": "star-citizen-deck-update-v0.2.27.zip",
+  "url": "https://cmdrwolf258.github.io/star-citizen-deck/releases/star-citizen-deck-update-v0.2.27.zip",
+  "size": 324444,
+  "sha256": "798f53151147aef3597a3d0add817950bbf84da0ff04585b4a428e0814035dd5"
 }
